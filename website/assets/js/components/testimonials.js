@@ -6,13 +6,12 @@
 
 import { onDirect, throttle, prefersReducedMotion, isMobile, isTablet, isDesktop } from '../utils/helpers.js';
 
-const SELECTOR = '.testimonials__carousel';
-const SELECTOR_TRACK = '.testimonials__track';
-const SELECTOR_SLIDE = '.testimonials__slide';
-const SELECTOR_PREV = '.testimonials__prev';
-const SELECTOR_NEXT = '.testimonials__next';
-const SELECTOR_DOTS = '.testimonials__dots';
-const SELECTOR_DOT = '.testimonials__dot';
+const SELECTOR = '.testimonials-slider';
+const SELECTOR_SLIDE = '.card--testimonial';
+const SELECTOR_PREV = '.testimonial-prev';
+const SELECTOR_NEXT = '.testimonial-next';
+const SELECTOR_DOTS = '.testimonials-dots';
+const SELECTOR_DOT = '.testimonials-dot';
 
 const CLASSES = {
     active: 'is-active',
@@ -39,19 +38,17 @@ export function initTestimonials() {
     const carousel = document.querySelector(SELECTOR);
     if (!carousel) return;
 
-    const track = carousel.querySelector(SELECTOR_TRACK);
     const slides = Array.from(carousel.querySelectorAll(SELECTOR_SLIDE));
-    const prevBtn = carousel.querySelector(SELECTOR_PREV);
-    const nextBtn = carousel.querySelector(SELECTOR_NEXT);
-    const dotsContainer = carousel.querySelector(SELECTOR_DOTS);
+    if (!slides.length) return;
 
-    if (!track || !slides.length) return;
+    const prevBtn = document.getElementById('testimonial-prev') || document.querySelector(SELECTOR_PREV);
+    const nextBtn = document.getElementById('testimonial-next') || document.querySelector(SELECTOR_NEXT);
+    const dotsContainer = document.querySelector(SELECTOR_DOTS);
 
     const autoplayInterval = parseInt(carousel.getAttribute('data-autoplay'), 10) || 5000;
 
     state = {
         carousel,
-        track,
         slides,
         prevBtn,
         nextBtn,
@@ -67,7 +64,7 @@ export function initTestimonials() {
         touchMoved: false,
     };
 
-    buildDots();
+    initDots();
     updateSlidesPerView();
     goToSlide(0, false);
 
@@ -164,20 +161,17 @@ function goToSlide(index, animate = true) {
     const maxIndex = Math.max(0, state.slideCount - state.slidesPerView);
     state.currentIndex = Math.max(0, Math.min(index, maxIndex));
 
-    const slideWidth = state.slides[0]?.offsetWidth || 0;
-    const gap = parseFloat(getComputedStyle(state.track).columnGap || getComputedStyle(state.track).gap) || 0;
-    const offset = state.currentIndex * (slideWidth + gap / state.slidesPerView);
-
-    if (animate) {
-        state.track.style.transition = 'transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1)';
-    } else {
-        state.track.style.transition = 'none';
+    // Scroll the carousel to show the current slide
+    const targetSlide = state.slides[state.currentIndex];
+    if (targetSlide) {
+        targetSlide.scrollIntoView({
+            behavior: animate ? 'smooth' : 'instant',
+            inline: 'start',
+            block: 'nearest',
+        });
     }
 
-    state.track.style.transform = `translateX(-${offset}px)`;
-
     updateDots();
-    updateActiveSlides();
     updateButtons();
 }
 
@@ -202,34 +196,22 @@ function updateButtons() {
     }
 }
 
-function updateActiveSlides() {
-    if (!state) return;
-    const end = state.currentIndex + state.slidesPerView;
-    state.slides.forEach((slide, i) => {
-        const isActive = i >= state.currentIndex && i < end;
-        slide.classList.toggle(CLASSES.active, isActive);
-        slide.setAttribute('aria-hidden', String(!isActive));
-    });
-}
-
 /* --------------------------------------------------------------------------
-   Dots
+   Dots — re-use existing HTML dots (do not create new ones)
    -------------------------------------------------------------------------- */
 
-function buildDots() {
+function initDots() {
     if (!state || !state.dotsContainer) return;
 
-    state.dotsContainer.innerHTML = '';
+    const dots = Array.from(state.dotsContainer.querySelectorAll(SELECTOR_DOT));
 
+    // Ensure each dot has a data-index attribute
     const dotCount = Math.max(1, state.slideCount - state.slidesPerView + 1);
-    for (let i = 0; i < dotCount; i++) {
-        const dot = document.createElement('button');
-        dot.classList.add('testimonials__dot');
-        dot.setAttribute('data-index', String(i));
-        dot.setAttribute('aria-label', `Témoignage ${i + 1}`);
-        dot.setAttribute('type', 'button');
-        state.dotsContainer.appendChild(dot);
-    }
+    dots.forEach((dot, i) => {
+        if (!dot.hasAttribute('data-index')) {
+            dot.setAttribute('data-index', String(Math.min(i, dotCount - 1)));
+        }
+    });
 }
 
 function updateDots() {

@@ -7,7 +7,7 @@
 import { throttle, onDirect } from '../utils/helpers.js';
 
 const SELECTORS = {
-    stickyBar: '[data-sticky-bar]',
+    stickyBar: '.sticky-bar',
 };
 
 const CLASSES = {

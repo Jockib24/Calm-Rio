@@ -6,8 +6,8 @@
 
 import { formatNumber, prefersReducedMotion } from '../utils/helpers.js';
 
-const SELECTOR = '.counter';
-const ATTR_TARGET = 'data-target';
+const SELECTOR = '[data-counter]';
+const ATTR_TARGET = 'data-counter';
 const ATTR_SUFFIX = 'data-suffix';
 const ATTR_DURATION = 'data-duration';
 const ATTR_DECIMALS = 'data-decimals';

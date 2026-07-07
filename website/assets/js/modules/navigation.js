@@ -8,10 +8,10 @@ import { debounce, throttle, onDirect } from '../utils/helpers.js';
 
 const SELECTORS = {
     header: '.site-header',
-    mobileToggle: '.nav__toggle',
-    mobileMenu: '.nav__mobile-menu',
-    navLinks: '.nav__link',
-    sectionTargets: '[data-section]',
+    mobileToggle: '.menu-toggle',
+    mobileMenu: '.mobile-nav',
+    navLinks: '.nav-link, .mobile-nav__link',
+    sectionTargets: 'section[id]',
 };
 
 const CLASSES = {
@@ -19,7 +19,7 @@ const CLASSES = {
     scrolled: 'header--scrolled',
     mobileOpen: 'is-open',
     active: 'is-active',
-    activeLink: 'nav__link--active',
+    activeLink: 'nav-link--active',
 };
 
 /** @type {HTMLElement|null} */

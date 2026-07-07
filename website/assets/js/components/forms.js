@@ -19,8 +19,8 @@ const SELECTORS = {
 };
 
 const CLASSES = {
-    error: 'form__field--error',
-    valid: 'form__field--valid',
+    error: 'is-error',
+    valid: 'is-success',
     loading: 'form--loading',
     submitted: 'form--submitted',
     disabled: 'form__btn--disabled',
@@ -172,29 +172,29 @@ function validateField(field) {
  * @param {string} errorMessage — empty string means valid
  */
 function showFieldError(field, errorMessage) {
-    const wrapper = field.closest('.form__field') || field.parentElement;
+    const wrapper = field.parentElement;
     if (!wrapper) return;
 
-    const errorEl = wrapper.querySelector('.form__error');
+    let errorEl = wrapper.querySelector('.form-error');
+    if (!errorEl) {
+        errorEl = document.createElement('span');
+        errorEl.className = 'form-error';
+        errorEl.setAttribute('role', 'alert');
+        wrapper.appendChild(errorEl);
+    }
 
     if (errorMessage) {
         field.classList.add(CLASSES.error);
         field.classList.remove(CLASSES.valid);
         field.setAttribute('aria-invalid', 'true');
-
-        if (errorEl) {
-            errorEl.textContent = errorMessage;
-            errorEl.hidden = false;
-        }
+        errorEl.textContent = errorMessage;
+        errorEl.hidden = false;
     } else {
         field.classList.remove(CLASSES.error);
         field.classList.add(CLASSES.valid);
         field.setAttribute('aria-invalid', 'false');
-
-        if (errorEl) {
-            errorEl.textContent = '';
-            errorEl.hidden = true;
-        }
+        errorEl.textContent = '';
+        errorEl.hidden = true;
     }
 }
 
@@ -352,18 +352,25 @@ function endSubmission(form, success, message) {
     let messageContainer = form.querySelector(containerSelector);
 
     if (!messageContainer) {
-        messageContainer = form.querySelector('[data-message]') || form.querySelector('.form__message');
+        const msgClass = success ? 'form-success-msg' : 'form-error';
+        messageContainer = form.querySelector('[data-message]') || form.querySelector(`.${msgClass}`);
+    }
+
+    if (!messageContainer) {
+        // Create a message container if none exists
+        messageContainer = document.createElement('div');
+        messageContainer.className = success ? 'form-success-msg' : 'form-error';
+        messageContainer.setAttribute('role', 'status');
+        (form.querySelector('.form-group') || form).appendChild(messageContainer);
     }
 
     if (messageContainer) {
         messageContainer.textContent = message;
-        messageContainer.classList.add(`form__message--${containerClass}`);
         messageContainer.hidden = false;
 
         // Auto-hide after 5 seconds
         setTimeout(() => {
             messageContainer.hidden = true;
-            messageContainer.classList.remove(`form__message--${containerClass}`);
         }, 5000);
     }
 }
@@ -442,7 +449,7 @@ export function resetForm(form) {
         el.classList.remove(CLASSES.error, CLASSES.valid);
         el.setAttribute('aria-invalid', 'false');
     });
-    const messageContainer = form.querySelector('[data-message], .form__message');
+    const messageContainer = form.querySelector('[data-message], .form-success-msg, .form-error');
     if (messageContainer) {
         messageContainer.hidden = true;
         messageContainer.textContent = '';
