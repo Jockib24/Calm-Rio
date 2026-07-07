@@ -99,9 +99,13 @@ function injectButton() {
 function getLangInfo() {
   const path = window.location.pathname;
 
-  // Remove /CalmRio/website prefix if present (dev server)
-  // Normalize: get the path relative to domain root
+  // Strip GitHub Pages base prefix (e.g. /Calm-Rio/) to get a root-relative path
+  // that matches the FR_EN_MAP / EN_FR_MAP keys.
   let normalized = path;
+  const baseMatch = path.match(/^\/[^/]+\//);
+  if (baseMatch) {
+    normalized = path.slice(baseMatch[0].length - 1); // keep leading /
+  }
 
   // EN → FR
   if (normalized.startsWith('/en/') || normalized === '/en' || normalized === '/en/index.html') {
@@ -114,6 +118,10 @@ function getLangInfo() {
       if (!frPath) {
         frPath = normalized.replace('/en', '') || '/';
       }
+    }
+    // Re-add base prefix if present
+    if (baseMatch) {
+      frPath = baseMatch[0].replace(/\/$/, '') + frPath;
     }
     return {
       href: frPath,
@@ -133,6 +141,11 @@ function getLangInfo() {
     if (!enPath) {
       enPath = '/en' + (normalized === '/' ? '/' : normalized);
     }
+  }
+
+  // Re-add base prefix if present
+  if (baseMatch && enPath) {
+    enPath = baseMatch[0].replace(/\/$/, '') + enPath;
   }
 
   return {

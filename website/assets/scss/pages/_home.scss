@@ -262,19 +262,13 @@
 
 .testimonials-slider {
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   gap: var(--space-6);
   padding: var(--space-2) var(--space-4) var(--space-4);
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
+  scroll-behavior: smooth;
 
   > * {
     flex: 0 0 100%;
-    scroll-snap-align: start;
 
     @media (min-width: 640px) {
       flex: 0 0 calc(50% - var(--space-6));
