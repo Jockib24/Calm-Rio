@@ -48,7 +48,7 @@ pages.forEach(page => {
 
 export default defineConfig({
   root: '.',
-  base: '/',
+  base: '/Calm-Rio/',
   publicDir: 'public',
 
   build: {
