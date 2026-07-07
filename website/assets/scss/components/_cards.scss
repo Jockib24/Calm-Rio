@@ -99,6 +99,26 @@
   z-index: 2;
 }
 
+.card__badge--new {
+  background-color: var(--color-accent);
+  color: var(--color-text-inverse);
+}
+
+.card__badge--featured {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-dark);
+}
+
+.card__badge-rating {
+  color: var(--color-warning);
+  margin-left: var(--space-1);
+}
+
+.star-rating {
+  color: var(--color-warning);
+  margin-left: var(--space-1);
+}
+
 // ------------------------------------------------------------
 // Card body
 // ------------------------------------------------------------
@@ -213,6 +233,50 @@
 // Property card
 // ------------------------------------------------------------
 .card--property {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+
+    .card__image-img {
+      transform: scale(1.05);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    &:hover {
+      transform: none;
+      box-shadow: none;
+
+      .card__image-img {
+        transform: none;
+      }
+    }
+  }
+
+  .card__image-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+  }
+
+  .card__features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+    font-size: var(--small-size);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-3);
+  }
+
+  .card__features-sep {
+    color: var(--color-border);
+  }
+
   .card__image {
     .card__rating-badge {
       position: absolute;
