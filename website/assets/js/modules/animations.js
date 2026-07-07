@@ -118,11 +118,7 @@ function initStaggerObservers() {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting && !revealed) {
                         revealed = true;
-                        children.forEach((child, index) => {
-                            setTimeout(() => {
-                                child.classList.add(CLASS_VISIBLE);
-                            }, index * 100); // 100ms stagger delay
-                        });
+                        container.classList.add(CLASS_VISIBLE);
                     }
                 });
             },

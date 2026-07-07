@@ -17,7 +17,7 @@ const SELECTORS = {
 const CLASSES = {
     sticky: 'header--sticky',
     scrolled: 'header--scrolled',
-    mobileOpen: 'nav--open',
+    mobileOpen: 'is-open',
     active: 'is-active',
     activeLink: 'nav__link--active',
 };
