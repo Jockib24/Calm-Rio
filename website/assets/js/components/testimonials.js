@@ -162,11 +162,11 @@ function goToSlide(index, animate = true) {
     state.currentIndex = Math.max(0, Math.min(index, maxIndex));
 
     // Scroll the carousel to show the current slide
-    // Use scrollLeft directly to avoid conflicts with page scrollIntoView
-    const targetSlide = state.slides[state.currentIndex];
-    if (targetSlide && state.carousel) {
-        const gap = parseInt(getComputedStyle(state.carousel).columnGap) || 0;
-        const scrollTarget = targetSlide.offsetLeft - state.carousel.offsetLeft;
+    // Calculate position from slide dimensions (works regardless of offsetParent)
+    if (state.carousel && state.slides.length > 0) {
+        const slideWidth = state.slides[0].offsetWidth;
+        const gap = parseInt(getComputedStyle(state.carousel).gap) || 0;
+        const scrollTarget = state.currentIndex * (slideWidth + gap);
         state.carousel.style.scrollBehavior = animate ? 'smooth' : 'auto';
         state.carousel.scrollLeft = scrollTarget;
         state.carousel.style.scrollBehavior = '';
