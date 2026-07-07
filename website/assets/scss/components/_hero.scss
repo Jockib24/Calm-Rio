@@ -40,6 +40,211 @@
 }
 
 // ------------------------------------------------------------
+// Hero slider (homepage only, crossfade)
+// ------------------------------------------------------------
+.hero__slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+  z-index: 0;
+
+  picture,
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  // Ken Burns zoom — subtle scale on active, resets on inactive
+  img {
+    transform: scale(1);
+    transition: transform 7s ease-out, opacity 1.2s ease;
+  }
+
+  &.is-active {
+    opacity: 1;
+    z-index: 1;
+
+    img {
+      transform: scale(1.05);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    img {
+      transition: none;
+      transform: none !important;
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Hero slider autoplay progress bar
+// ------------------------------------------------------------
+.hero__slider-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: calc(var(--z-base) + 2);
+  background-color: rgba(255, 255, 255, 0.15);
+
+  .hero__slider-progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: var(--color-secondary);
+    transition: width 0.1s linear;
+  }
+}
+
+// ------------------------------------------------------------
+// Hero slider dots
+// ------------------------------------------------------------
+.hero__slider-dots {
+  position: absolute;
+  bottom: var(--space-4);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: calc(var(--z-base) + 2);
+  display: flex;
+  gap: var(--space-3);
+
+  @media (min-width: 640px) {
+    bottom: 100px; /* above trust row on desktop */
+  }
+
+  .hero__slider-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: var(--radius-full);
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+
+    &.is-active {
+      background-color: var(--color-secondary);
+      border-color: var(--color-secondary);
+      transform: scale(1.3);
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-color: rgba(255, 255, 255, 0.8);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-secondary);
+      outline-offset: 2px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Hero slider prev / next buttons
+// ------------------------------------------------------------
+.hero__slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: calc(var(--z-base) + 2);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-50%) scale(1.05);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-secondary);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+.hero__slider-btn--prev {
+  left: var(--space-5);
+
+  @media (min-width: 768px) {
+    left: var(--space-8);
+  }
+}
+
+.hero__slider-btn--next {
+  right: var(--space-5);
+
+  @media (min-width: 768px) {
+    right: var(--space-8);
+  }
+}
+
+// Show controls on hover / focus-within
+.hero--home:hover .hero__slider-btn,
+.hero--home:focus-within .hero__slider-btn {
+  opacity: 1;
+}
+
+// Always show on touch devices
+@media (hover: none) and (pointer: coarse) {
+  .hero__slider-btn {
+    opacity: 0.6;
+  }
+}
+
+// ------------------------------------------------------------
 // Hero overlay — gradient dark to transparent
 // ------------------------------------------------------------
 .hero__overlay {
@@ -48,7 +253,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: var(--z-base);
+  z-index: calc(var(--z-base) + 1);
   background: linear-gradient(
     180deg,
     rgba(15, 26, 38, 0.7) 0%,
@@ -63,7 +268,7 @@
 // ------------------------------------------------------------
 .hero__content {
   position: relative;
-  z-index: calc(var(--z-base) + 1);
+  z-index: calc(var(--z-base) + 2);
   width: 100%;
   max-width: var(--container-xl);
   margin-left: auto;
@@ -207,7 +412,7 @@
   bottom: var(--space-6);
   left: 50%;
   transform: translateX(-50%);
-  z-index: calc(var(--z-base) + 1);
+  z-index: calc(var(--z-base) + 2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -269,15 +474,20 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: var(--space-8);
-  padding: var(--space-6) var(--container-padding);
+  gap: var(--space-4) var(--space-6);
+  padding: var(--space-4) var(--container-padding);
   background: rgba(15, 26, 38, 0.6);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+
+  @media (min-width: 640px) {
+    gap: var(--space-8);
+    padding: var(--space-6) var(--container-padding);
+  }
 }
 
 .hero__trust-item {

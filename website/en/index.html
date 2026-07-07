@@ -316,7 +316,21 @@
          HERO SECTION
          -------------------------------------------------------- -->
     <section class="hero hero--home hero--full" id="accueil" aria-labelledby="hero-title">
-      <img class="hero__bg" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80&fm=webp" alt="" aria-hidden="true" loading="eager" decoding="async" width="1200" height="675" fetchpriority="high">
+      <div class="hero__slider" role="region" aria-label="Slideshow" aria-roledescription="carousel"></div>
+
+      <div class="hero__slider-dots" role="tablist" aria-label="Image navigation"></div>
+      <button class="hero__slider-btn hero__slider-btn--prev" aria-label="Previous image" data-hero-prev type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <button class="hero__slider-btn hero__slider-btn--next" aria-label="Next image" data-hero-next type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+
+      <!-- Autoplay progress bar -->
+      <div class="hero__slider-progress" aria-hidden="true">
+        <div class="hero__slider-progress-bar"></div>
+      </div>
+
       <div class="hero__overlay" aria-hidden="true"></div>
 
       <div class="hero__content">

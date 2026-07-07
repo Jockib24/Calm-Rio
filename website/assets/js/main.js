@@ -24,6 +24,7 @@ import { initBookingSystems } from './modules/booking-init.js'
 import { initThemeToggle } from './modules/theme-toggle.js'
 import { initLanguageSwitcher } from './modules/language-switcher.js'
 import { initStickyBar } from './modules/sticky-bar.js'
+import { initHeroSlider } from './modules/hero-slider.js'
 
 // Boot on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
@@ -44,4 +45,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initThemeToggle()
   initLanguageSwitcher()
   initStickyBar()
+  initHeroSlider()
 })
