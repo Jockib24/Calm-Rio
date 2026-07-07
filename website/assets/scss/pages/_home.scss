@@ -130,7 +130,8 @@
 .stats-banner {
   background-color: var(--color-primary);
   color: var(--color-text-inverse);
-  padding: var(--space-9) 0;
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--section-padding-y);
 
   .stats-banner__grid {
     display: grid;
@@ -193,6 +194,16 @@
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
+
+    .stat-item__sublabel {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: var(--weight-regular);
+      color: rgba(255, 255, 255, 0.5);
+      text-transform: none;
+      letter-spacing: 0;
+      margin-top: var(--space-1);
+    }
   }
 }
 
@@ -201,7 +212,6 @@
 // ------------------------------------------------------------
 .testimonials-section {
   background-color: var(--color-bg-alt);
-  padding: var(--space-8) 0;
 
   .testimonials-section__header {
     text-align: center;
@@ -263,9 +273,13 @@
 .testimonials-slider {
   display: flex;
   overflow-x: hidden;
-  gap: var(--space-6);
+  gap: var(--space-5);
   padding: var(--space-2) var(--space-4) var(--space-4);
   scroll-behavior: smooth;
+
+  @media (min-width: 640px) {
+    gap: var(--space-6);
+  }
 
   > * {
     flex: 0 0 100%;
@@ -385,7 +399,11 @@
 // Trust badges row
 // ------------------------------------------------------------
 .trust-badges-row {
-  padding: var(--space-7) 0;
+  padding: var(--space-8) 0;
+
+  @media (min-width: 640px) {
+    padding: var(--space-9) 0;
+  }
 
   .trust-badges-grid {
     display: flex;
