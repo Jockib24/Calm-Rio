@@ -1,0 +1,51 @@
+- generic [active] [ref=f20e1]:
+  - link "Aller directement au contenu" [ref=f20e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=f20e3]
+  - alert
+  - generic [ref=f20e18]:
+    - generic [ref=f20e24]:
+      - link "Page d'accueil Airbnb" [ref=f20e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=f20e28]
+      - search [ref=f20e30]:
+        - generic [ref=f20e32]:
+          - tablist [ref=f20e34]:
+            - tab "Logements" [selected] [ref=f20e35] [cursor=pointer]:
+              - generic [ref=f20e41]: Logements
+            - tab "Expériences, nouveautés" [ref=f20e42] [cursor=pointer]:
+              - generic [ref=f20e47]:
+                - text: NOUVEAU
+                - generic [ref=f20e48]: NOUVEAU
+              - generic [ref=f20e51]: Expériences, nouveautés
+            - tab "Services, nouveautés" [ref=f20e52] [cursor=pointer]:
+              - generic [ref=f20e57]:
+                - text: NOUVEAU
+                - generic [ref=f20e58]: NOUVEAU
+              - generic [ref=f20e61]: Services, nouveautés
+          - search "Commencez votre recherche" [ref=f20e63] [cursor=pointer]:
+            - generic [ref=f20e64]: Commencez votre recherche
+            - generic [ref=f20e65]:
+              - button "Destination" [disabled] [ref=f20e66]:
+                - generic [ref=f20e67]: Destination
+              - button "Arrivée/Départ" [disabled] [ref=f20e72]:
+                - generic [ref=f20e73]: Arrivée/Départ
+              - button "Voyageurs" [disabled] [ref=f20e77]:
+                - generic [ref=f20e78]: Voyageurs
+            - img [ref=f20e84]
+      - navigation "Profil" [ref=f20e89]:
+        - generic [ref=f20e90]:
+          - link "Devenir hôte" [ref=f20e91] [cursor=pointer]:
+            - /url: "#guest-header-become-a-host-menu"
+            - generic [ref=f20e92]: Devenir hôte
+          - link "Choisissez une langue et une devise" [ref=f20e94] [cursor=pointer]:
+            - /url: "#simple-header-locale-menu-combined"
+            - img [ref=f20e96]
+        - generic [ref=f20e99]:
+          - link "Menu de navigation principal" [ref=f20e100] [cursor=pointer]:
+            - /url: "#guest-header-dropdownmenu"
+            - img [ref=f20e102]
+          - link "Fermer":
+            - /url: "#"
+    - main [ref=f20e105]
