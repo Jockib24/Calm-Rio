@@ -1,0 +1,112 @@
+// ============================================================
+// CalmRio — Guest Review Cards
+// ============================================================
+
+.reviews-section {
+  padding: var(--space-8) 0;
+}
+
+.reviews-grid {
+  display: grid;
+  gap: var(--space-5);
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.review-card {
+  position: relative;
+  overflow: visible;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  transition: box-shadow var(--transition-fast), border-color var(--transition-fast);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: var(--space-5);
+    right: var(--space-5);
+    height: 3px;
+    background: var(--color-secondary);
+    opacity: 0.3;
+    border-radius: 0 0 3px 3px;
+  }
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-border);
+  }
+}
+
+.review-card__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.review-card__avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--weight-bold);
+  font-size: 1rem;
+  color: var(--color-text-inverse);
+  flex-shrink: 0;
+}
+
+.review-card__name {
+  font-weight: var(--weight-semibold);
+  font-size: 0.9375rem;
+  color: var(--color-text);
+}
+
+.review-card__date {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.review-card__stars {
+  color: var(--color-secondary);
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+}
+
+.review-card__text {
+  font-size: var(--small-size);
+  line-height: var(--small-line-height);
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+.review-card__source {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  margin-top: auto;
+}
+
+@media (max-width: 639px) {
+  .reviews-grid {
+    gap: var(--space-4);
+  }
+
+  .review-card {
+    padding: var(--space-4);
+  }
+}

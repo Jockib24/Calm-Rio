@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e18]:
+    - generic [ref=e24]:
+      - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=e28]
+      - search [ref=e30]:
+        - generic [ref=e32]:
+          - tablist [ref=e34]:
+            - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+              - generic [ref=e41]: Logements
+            - tab "Expériences, nouveautés" [ref=e42] [cursor=pointer]:
+              - generic [ref=e47]:
+                - text: NOUVEAU
+                - generic [ref=e48]: NOUVEAU
+              - generic [ref=e51]: Expériences, nouveautés
+            - tab "Services, nouveautés" [ref=e52] [cursor=pointer]:
+              - generic [ref=e57]:
+                - text: NOUVEAU
+                - generic [ref=e58]: NOUVEAU
+              - generic [ref=e61]: Services, nouveautés
+          - search "Commencez votre recherche" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: Commencez votre recherche
+            - generic [ref=e65]:
+              - button "Destination" [disabled] [ref=e66]:
+                - generic [ref=e67]: Destination
+              - button "Arrivée/Départ" [disabled] [ref=e72]:
+                - generic [ref=e73]: Arrivée/Départ
+              - button "Voyageurs" [disabled] [ref=e77]:
+                - generic [ref=e78]: Voyageurs
+            - img [ref=e84]
+      - navigation "Profil" [ref=e89]:
+        - generic [ref=e90]:
+          - link "Devenir hôte" [ref=e91] [cursor=pointer]:
+            - /url: "#guest-header-become-a-host-menu"
+            - generic [ref=e92]: Devenir hôte
+          - link "Choisissez une langue et une devise" [ref=e94] [cursor=pointer]:
+            - /url: "#simple-header-locale-menu-combined"
+            - img [ref=e96]
+        - generic [ref=e99]:
+          - link "Menu de navigation principal" [ref=e100] [cursor=pointer]:
+            - /url: "#guest-header-dropdownmenu"
+            - img [ref=e102]
+          - link "Fermer":
+            - /url: "#"
+    - main [ref=e105]:
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - button "Image 1 du logement T2 bis FACE MER sur la Grande Conche de ROYAN" [ref=e133] [cursor=pointer]:
+            - img [ref=e136]
+          - generic [ref=e138]:
+            - button "Image 2 du logement T2 bis FACE MER sur la Grande Conche de ROYAN" [ref=e142] [cursor=pointer]:
+              - img [ref=e145]
+            - button "Image 3 du logement T2 bis FACE MER sur la Grande Conche de ROYAN" [ref=e149] [cursor=pointer]:
+              - img [ref=e152]
+          - generic [ref=e154]:
+            - button "Image 4 du logement T2 bis FACE MER sur la Grande Conche de ROYAN" [ref=e158] [cursor=pointer]:
+              - img [ref=e161]
+            - button "Image 5 du logement T2 bis FACE MER sur la Grande Conche de ROYAN" [ref=e165] [cursor=pointer]:
+              - img [ref=e168]
+        - button "Afficher toutes les photos" [ref=e170] [cursor=pointer]:
+          - generic [ref=e171]:
+            - generic:
+              - img
+              - text: Afficher toutes les photos

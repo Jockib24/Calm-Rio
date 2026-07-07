@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e18]:
+    - generic [ref=e24]:
+      - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=e28]
+      - search [ref=e30]:
+        - generic [ref=e32]:
+          - tablist [ref=e34]:
+            - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+              - generic [ref=e41]: Logements
+            - tab "Expériences, nouveautés" [ref=e42] [cursor=pointer]:
+              - generic [ref=e47]:
+                - text: NOUVEAU
+                - generic [ref=e48]: NOUVEAU
+              - generic [ref=e51]: Expériences, nouveautés
+            - tab "Services, nouveautés" [ref=e52] [cursor=pointer]:
+              - generic [ref=e57]:
+                - text: NOUVEAU
+                - generic [ref=e58]: NOUVEAU
+              - generic [ref=e61]: Services, nouveautés
+          - search "Commencez votre recherche" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: Commencez votre recherche
+            - generic [ref=e65]:
+              - button "Destination" [disabled] [ref=e66]:
+                - generic [ref=e67]: Destination
+              - button "Arrivée/Départ" [disabled] [ref=e72]:
+                - generic [ref=e73]: Arrivée/Départ
+              - button "Voyageurs" [disabled] [ref=e77]:
+                - generic [ref=e78]: Voyageurs
+            - img [ref=e84]
+      - navigation "Profil" [ref=e89]:
+        - generic [ref=e90]:
+          - link "Devenir hôte" [ref=e91] [cursor=pointer]:
+            - /url: "#guest-header-become-a-host-menu"
+            - generic [ref=e92]: Devenir hôte
+          - link "Choisissez une langue et une devise" [ref=e94] [cursor=pointer]:
+            - /url: "#simple-header-locale-menu-combined"
+            - img [ref=e96]
+        - generic [ref=e99]:
+          - link "Menu de navigation principal" [ref=e100] [cursor=pointer]:
+            - /url: "#guest-header-dropdownmenu"
+            - img [ref=e102]
+          - link "Fermer":
+            - /url: "#"
+    - main [ref=e105]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e117]:
+            - heading "Appartement neuf bord de plage" [level=1] [ref=e120]
+            - generic [ref=e122]:
+              - button "Partager" [ref=e124] [cursor=pointer]:
+                - generic [ref=e125]:
+                  - img [ref=e127]
+                  - text: Partager
+              - button "Ajouter aux favoris" [ref=e130] [cursor=pointer]:
+                - generic [ref=e131]:
+                  - img [ref=e133]
+                  - text: Enregistrer
+          - generic [ref=e143]:
+            - generic [ref=e145]:
+              - button "Image 1 du logement Appartement neuf bord de plage" [ref=e150] [cursor=pointer]:
+                - img [ref=e153]
+              - generic [ref=e155]:
+                - button "Image 2 du logement Appartement neuf bord de plage" [ref=e159] [cursor=pointer]:
+                  - img [ref=e162]
+                - button "Image 3 du logement Appartement neuf bord de plage" [ref=e166] [cursor=pointer]:
+                  - img [ref=e169]
+              - generic [ref=e171]:
+                - button "Image 4 du logement Appartement neuf bord de plage" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+                - button "Image 5 du logement Appartement neuf bord de plage" [ref=e182] [cursor=pointer]:
+                  - img [ref=e185]
+            - button "Afficher toutes les photos" [ref=e187] [cursor=pointer]:
+              - generic [ref=e188]:
+                - generic:
+                  - img
+                  - text: Afficher toutes les photos
+        - generic [ref=e190]:
+          - generic [ref=e192]:
+            - generic [ref=e197]:
+              - 'heading "Logement entier : appartement - Royan, France" [level=2] [ref=e199]'
+              - list [ref=e201]:
+                - listitem [ref=e202]: 4 voyageurs
+                - listitem [ref=e203]:
+                  - generic [ref=e204]: ·
+                  - text: 2 chambres
+                - listitem [ref=e205]:
+                  - generic [ref=e206]: ·
+                  - text: 3 lits
+                - listitem [ref=e207]:
+                  - generic [ref=e208]: ·
+                  - text: 1 salle de bain
+              - generic [ref=e209]:
+                - img [ref=e211]
+                - generic [ref=e213]: Pas encore de commentaires
+                - generic [ref=e214]: Pas encore de commentaires
+            - generic [ref=e220]:
+              - button "En savoir plus sur Mélanie." [ref=e222] [cursor=pointer]:
+                - img "Photo de profil d'hôte" [ref=e224]:
+                  - img [ref=e225]
+              - generic [ref=e226]:
+                - generic [ref=e227]: "Hôte : Mélanie"
+                - list [ref=e229]:
+                  - listitem [ref=e230]: Hôte depuis 2 ans
+            - generic [ref=e235]:
+              - heading "Mise en avant des annonces" [level=2] [ref=e237]
+              - generic [ref=e241]:
+                - img [ref=e243]
+                - generic [ref=e245]:
+                  - heading "Cadre magnifique et accessible à pied" [level=3] [ref=e247]
+                  - generic [ref=e248]: Les environs sont pittoresques et le logement est facilement accessible à pied.
+          - complementary "Informations de réservation" [ref=e256]:
+            - generic [ref=e259]:
+              - generic [ref=e270]:
+                - 'button "Modifier les dates; Arrivée: Ajouter une date; Départ: Ajouter une date" [ref=e274] [cursor=pointer]':
+                  - generic [ref=e275]:
+                    - generic: Arrivée
+                    - generic [ref=e276]: Ajouter une date
+                  - generic [ref=e277]:
+                    - generic: Départ
+                    - generic [ref=e278]: Ajouter une date
+                - button "1 voyageur" [ref=e282]:
+                  - generic [ref=e283]:
+                    - generic: Voyageurs
+                    - generic [ref=e285] [cursor=pointer]: 1 voyageur
+                  - generic:
+                    - img
+              - button "chargement" [ref=e288] [cursor=pointer]:
+                - generic [ref=e289]:
+                  - generic:
+                    - generic: chargement

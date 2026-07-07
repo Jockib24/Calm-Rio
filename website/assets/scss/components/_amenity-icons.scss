@@ -1,0 +1,58 @@
+// ============================================================
+// CalmRio — Amenity Icon Grid
+// ============================================================
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.amenity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-md);
+  transition: background var(--transition-fast), transform var(--transition-fast);
+
+  &:hover {
+    background: var(--color-border-light);
+    transform: translateY(-2px);
+  }
+}
+
+.amenity-item__icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  color: var(--color-accent);
+  font-size: 1.125rem;
+}
+
+.amenity-item__text {
+  font-size: var(--small-size);
+  line-height: var(--small-line-height);
+  color: var(--color-text-secondary);
+  font-weight: var(--weight-medium);
+}
+
+.amenity-item__subtext {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}

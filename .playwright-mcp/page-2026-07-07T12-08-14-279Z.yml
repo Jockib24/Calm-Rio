@@ -1,0 +1,328 @@
+- generic [active] [ref=f14e1]:
+  - link "Aller au contenu principal" [ref=f14e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f14e3]:
+    - generic [ref=f14e4]:
+      - link "CalmRio — Accueil" [ref=f14e5] [cursor=pointer]:
+        - /url: index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=f14e6]:
+        - list [ref=f14e7]:
+          - listitem [ref=f14e8]:
+            - link "Accueil" [ref=f14e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=f14e10]:
+            - link "Nos Locations" [ref=f14e11] [cursor=pointer]:
+              - /url: "#locations"
+          - listitem [ref=f14e12]:
+            - link "Guide Local" [ref=f14e13] [cursor=pointer]:
+              - /url: local-guide.html
+          - listitem [ref=f14e14]:
+            - link "À Propos" [ref=f14e15] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=f14e16]:
+            - link "Contact" [ref=f14e17] [cursor=pointer]:
+              - /url: contact.html
+      - link "Réserver" [ref=f14e18] [cursor=pointer]:
+        - /url: "#locations"
+  - main [ref=f14e19]:
+    - navigation "Fil d'Ariane" [ref=f14e20]:
+      - link "Accueil" [ref=f14e22] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=f14e23]: / Guide Local
+    - region "Guide local — Côte de Beauté & Île d'Oléron" [ref=f14e24]:
+      - generic [ref=f14e26]:
+        - heading "Guide local — Côte de Beauté & Île d'Oléron" [level=1] [ref=f14e27]
+        - paragraph [ref=f14e28]: Entre océan et forêt, découvrez les trésors de notre région
+    - region "Filtrer le guide par catégorie" [ref=f14e29]:
+      - tablist [ref=f14e31]:
+        - listitem [ref=f14e32]:
+          - tab "Tous" [selected] [ref=f14e33] [cursor=pointer]
+        - listitem [ref=f14e34]:
+          - tab "Plages" [ref=f14e35] [cursor=pointer]
+        - listitem [ref=f14e36]:
+          - tab "Gastronomie" [ref=f14e37] [cursor=pointer]
+        - listitem [ref=f14e38]:
+          - tab "Nature" [ref=f14e39] [cursor=pointer]
+        - listitem [ref=f14e40]:
+          - tab "Culture" [ref=f14e41] [cursor=pointer]
+        - listitem [ref=f14e42]:
+          - tab "Activités" [ref=f14e43] [cursor=pointer]
+    - region "Lieux à découvrir" [ref=f14e44]:
+      - generic [ref=f14e46]:
+        - article [ref=f14e47]:
+          - generic [ref=f14e48]:
+            - img "Plage de la Grande Conche à Royan, 2,6 km de sable fin" [ref=f14e49]
+            - generic [ref=f14e50]: Plages
+          - generic [ref=f14e51]:
+            - heading "Plage de la Grande Conche" [level=3] [ref=f14e52]
+            - paragraph [ref=f14e53]: La plus belle plage de Royan avec ses 2,6 km de sable fin. À seulement 100m de notre appartement. Idéale pour les familles, la baignade et les promenades au coucher du soleil.
+            - generic [ref=f14e54]:
+              - generic [ref=f14e55]:
+                - img [ref=f14e56]
+                - text: Royan
+              - generic [ref=f14e59]: 100m de l'appartement
+        - article [ref=f14e60]:
+          - generic [ref=f14e61]:
+            - img "Plage de Gatseau, plage sauvage au sud de l'Île d'Oléron" [ref=f14e62]
+            - generic [ref=f14e63]: Plages
+          - generic [ref=f14e64]:
+            - heading "Plage de Gatseau" [level=3] [ref=f14e65]
+            - paragraph [ref=f14e66]: Plage sauvage à la pointe sud de l'Île d'Oléron. Accessible par le P'tit Train touristique ou à vélo à travers la forêt domaniale. Un joyau préservé.
+            - generic [ref=f14e67]:
+              - generic [ref=f14e68]:
+                - img [ref=f14e69]
+                - text: Île d'Oléron
+              - generic [ref=f14e72]: Accès vélo ou train
+        - article [ref=f14e73]:
+          - generic [ref=f14e74]:
+            - img "Pointe de Maumusson où l'océan rencontre le Pertuis" [ref=f14e75]
+            - generic [ref=f14e76]: Plages
+          - generic [ref=f14e77]:
+            - heading "Pointe de Maumusson" [level=3] [ref=f14e78]
+            - paragraph [ref=f14e79]: Là où l'océan rencontre le Pertuis de Maumusson. Un spectacle naturel saisissant avec des vues imprenables sur la côte et les vagues. Spot idéal pour les photographes.
+            - generic [ref=f14e80]:
+              - generic [ref=f14e81]:
+                - img [ref=f14e82]
+                - text: Île d'Oléron
+              - generic [ref=f14e85]: Accès vélo
+        - article [ref=f14e86]:
+          - generic [ref=f14e87]:
+            - img "Huîtres de Marennes-Oléron, spécialité mondiale" [ref=f14e88]
+            - generic [ref=f14e89]: Gastronomie
+          - generic [ref=f14e90]:
+            - heading "Huîtres de Marennes-Oléron" [level=3] [ref=f14e91]
+            - paragraph [ref=f14e92]: Les huîtres de Marennes-Oléron sont réputées dans le monde entier. Visitez les cabanes ostréicoles du port de Saint-Trojan et dégustez-les face à l'océan avec un verre de pineau.
+            - generic [ref=f14e93]:
+              - generic [ref=f14e94]: Saint-Trojan
+              - generic [ref=f14e95]: Dégustation sur place
+        - article [ref=f14e96]:
+          - generic [ref=f14e97]:
+            - img "Marché couvert de Royan, bâtiment en forme de coquillage" [ref=f14e98]
+            - generic [ref=f14e99]: Gastronomie
+          - generic [ref=f14e100]:
+            - heading "Marché couvert de Royan" [level=3] [ref=f14e101]
+            - paragraph [ref=f14e102]: Bâtiment emblématique en forme de coquillage, classé monument historique. Produits frais, poissons, fruits de mer et spécialités charentaises. Une expérience incontournable.
+            - generic [ref=f14e103]:
+              - generic [ref=f14e104]: Royan
+              - generic [ref=f14e105]: Tous les jours
+        - article [ref=f14e106]:
+          - generic [ref=f14e107]:
+            - img "Marché de Saint-Trojan, à 1 minute de la villa" [ref=f14e108]
+            - generic [ref=f14e109]: Gastronomie
+          - generic [ref=f14e110]:
+            - heading "Marché de Saint-Trojan" [level=3] [ref=f14e111]
+            - paragraph [ref=f14e112]: Marché couvert au cœur du village, à seulement 1 minute à pied de notre villa. Produits locaux, fromages, fruits et légumes de saison dans une ambiance oléronaise authentique.
+            - generic [ref=f14e113]:
+              - generic [ref=f14e114]: Saint-Trojan
+              - generic [ref=f14e115]: 1 min de la villa
+        - article [ref=f14e116]:
+          - generic [ref=f14e117]:
+            - img "Forêt domaniale de Saint-Trojan, pins maritimes" [ref=f14e118]
+            - generic [ref=f14e119]: Nature
+          - generic [ref=f14e120]:
+            - heading "Forêt domaniale de Saint-Trojan" [level=3] [ref=f14e121]
+            - paragraph [ref=f14e122]: Immense forêt de pins maritimes qui couvre une grande partie du sud de l'île. Paradis des cyclistes, randonneurs et cueilleurs de champignons en automne.
+            - generic [ref=f14e123]:
+              - generic [ref=f14e124]: Saint-Trojan
+              - generic [ref=f14e125]: Pistes cyclables
+        - article [ref=f14e126]:
+          - generic [ref=f14e127]:
+            - img "Parc de l'Estuaire, réserve naturelle de la Gironde" [ref=f14e128]
+            - generic [ref=f14e129]: Nature
+          - generic [ref=f14e130]:
+            - heading "Parc de l'Estuaire" [level=3] [ref=f14e131]
+            - paragraph [ref=f14e132]: Réserve naturelle à l'embouchure de la Gironde. Observation des oiseaux migrateurs, sentiers de découverte et panorama exceptionnel sur l'estuaire.
+            - generic [ref=f14e133]:
+              - generic [ref=f14e134]: Saint-Georges-de-Didonne
+              - generic [ref=f14e135]: Observation oiseaux
+        - article [ref=f14e136]:
+          - generic [ref=f14e137]:
+            - img "Marais de l'Île d'Oléron, marais salants et oiseaux" [ref=f14e138]
+            - generic [ref=f14e139]: Nature
+          - generic [ref=f14e140]:
+            - heading "Les marais de l'Île d'Oléron" [level=3] [ref=f14e141]
+            - paragraph [ref=f14e142]: Marais salants et sanctuaire d'oiseaux au nord-est de l'île. Promenades paisibles au milieu des aigrettes, hérons et avocettes dans un paysage unique.
+            - generic [ref=f14e143]:
+              - generic [ref=f14e144]: Île d'Oléron
+              - generic [ref=f14e145]: Sanctuaire ornithologique
+        - article [ref=f14e146]:
+          - generic [ref=f14e147]:
+            - img "Église Notre-Dame de Royan, architecture moderniste" [ref=f14e148]
+            - generic [ref=f14e149]: Culture
+          - generic [ref=f14e150]:
+            - heading "Église Notre-Dame de Royan" [level=3] [ref=f14e151]
+            - paragraph [ref=f14e152]: Chef-d'œuvre de l'architecture moderniste d'après-guerre, surnommée la « cathédrale du béton ». Sa silhouette en voile de navire domine le front de mer de Royan.
+            - generic [ref=f14e153]:
+              - generic [ref=f14e154]: Royan
+              - generic [ref=f14e155]: Monument historique
+        - article [ref=f14e156]:
+          - generic [ref=f14e157]:
+            - img "Fort Boyard, forteresse célèbre visible depuis Oléron" [ref=f14e158]
+            - generic [ref=f14e159]: Culture
+          - generic [ref=f14e160]:
+            - heading "Fort Boyard" [level=3] [ref=f14e161]
+            - paragraph [ref=f14e162]: La célèbre forteresse maritime, rendue mondialement connue par l'émission télévisée. Visible depuis la côte nord de l'Île d'Oléron. Excursions en bateau disponibles.
+            - generic [ref=f14e163]:
+              - generic [ref=f14e164]: Pertuis d'Antioche
+              - generic [ref=f14e165]: Excursions en bateau
+        - article [ref=f14e166]:
+          - generic [ref=f14e167]:
+            - img "Le P'tit Train de Saint-Trojan, train touristique en forêt" [ref=f14e168]
+            - generic [ref=f14e169]: Culture
+          - generic [ref=f14e170]:
+            - heading "Le P'tit Train de Saint-Trojan" [level=3] [ref=f14e171]
+            - paragraph [ref=f14e172]: Train touristique historique qui traverse la forêt domaniale de Saint-Trojan jusqu'à la plage de Gatseau. Une balade pittoresque appréciée des petits et des grands depuis 1963.
+            - generic [ref=f14e173]:
+              - generic [ref=f14e174]: Saint-Trojan
+              - generic [ref=f14e175]: Activité familiale
+        - article [ref=f14e176]:
+          - generic [ref=f14e177]:
+            - img "Pistes cyclables de l'Île d'Oléron, 100km de parcours" [ref=f14e178]
+            - generic [ref=f14e179]: Activités
+          - generic [ref=f14e180]:
+            - heading "Cyclisme sur l'Île d'Oléron" [level=3] [ref=f14e181]
+            - paragraph [ref=f14e182]: Plus de 100 km de pistes cyclables à travers la forêt, les vignobles et le long de la côte. L'île est un paradis pour les cyclistes de tous niveaux. Location de vélos au village.
+            - generic [ref=f14e183]:
+              - generic [ref=f14e184]: Île d'Oléron
+              - generic [ref=f14e185]: 100km de pistes
+        - article [ref=f14e186]:
+          - generic [ref=f14e187]:
+            - img "Festival Un violon sur le sable, concerts sur la plage de Royan" [ref=f14e188]
+            - generic [ref=f14e189]: Activités
+          - generic [ref=f14e190]:
+            - heading "Festival Un violon sur le sable" [level=3] [ref=f14e191]
+            - paragraph [ref=f14e192]: "Festival de musique classique unique au monde : des concerts symphoniques sur la plage de la Grande Conche, face à l'océan. Un événement magistral chaque été à Royan."
+            - generic [ref=f14e193]:
+              - generic [ref=f14e194]: Royan
+              - generic [ref=f14e195]: Juillet — Août
+        - article [ref=f14e196]:
+          - generic [ref=f14e197]:
+            - img "Fête du Mimosa à Saint-Trojan, célébration hivernale" [ref=f14e198]
+            - generic [ref=f14e199]: Activités
+          - generic [ref=f14e200]:
+            - heading "Fête du Mimosa" [level=3] [ref=f14e201]
+            - paragraph [ref=f14e202]: Célébration hivernale emblématique de Saint-Trojan-les-Bains en février. Défilés fleuris, animations et ambiance festive quand le mimosa illumine l'île de jaune.
+            - generic [ref=f14e203]:
+              - generic [ref=f14e204]: Saint-Trojan
+              - generic [ref=f14e205]: Février
+    - region "Carte des environs" [ref=f14e206]:
+      - generic [ref=f14e207]:
+        - generic [ref=f14e208]:
+          - generic [ref=f14e209]: Explorer la région
+          - heading "Carte des environs" [level=2] [ref=f14e210]
+          - paragraph [ref=f14e211]: De Royan à l'Île d'Oléron, repérez les plages, marchés et points d'intérêt.
+        - 'img "Carte de la région entre Royan et l''Île d''Oléron avec les points d''intérêt : plages, marchés, sites culturels et pistes cyclables" [ref=f14e212]':
+          - generic: Points d'intérêt — Royan & Île d'Oléron
+          - generic [ref=f14e214]:
+            - img [ref=f14e215]
+            - paragraph [ref=f14e218]: Carte interactive Google Maps
+            - paragraph [ref=f14e219]: Plages, marchés, pistes cyclables, sites culturels
+    - region "La région en toute saison" [ref=f14e220]:
+      - generic [ref=f14e221]:
+        - generic [ref=f14e222]:
+          - generic [ref=f14e223]: Au fil des saisons
+          - heading "La région en toute saison" [level=2] [ref=f14e224]
+          - paragraph [ref=f14e225]: Chaque saison révèle une facette différente de la côte atlantique.
+        - generic [ref=f14e226]:
+          - article [ref=f14e227]:
+            - generic [ref=f14e228]:
+              - text: Juin — Août
+              - heading "Été" [level=3] [ref=f14e229]
+              - paragraph [ref=f14e230]: Saison des plages par excellence. Baignade, farniente sur le sable fin et couchers de soleil spectaculaires. Juillet et août sont les mois de pleine saison.
+          - article [ref=f14e231]:
+            - generic [ref=f14e232]:
+              - text: Septembre — Novembre
+              - heading "Automne" [level=3] [ref=f14e233]
+              - paragraph [ref=f14e234]: Saison idéale pour le cyclisme en forêt, les dégustations d'huîtres et la cueillette de champignons. Températures douces et lumière dorée.
+          - article [ref=f14e235]:
+            - generic [ref=f14e236]:
+              - text: Décembre — Février
+              - heading "Hiver" [level=3] [ref=f14e237]
+              - paragraph [ref=f14e238]: Promenades vivifiantes sur les plages désertes, Fête du Mimosa en février. La région est calme, paisible et authentique hors saison.
+          - article [ref=f14e239]:
+            - generic [ref=f14e240]:
+              - text: Mars — Mai
+              - heading "Printemps" [level=3] [ref=f14e241]
+              - paragraph [ref=f14e242]: Les fleurs sauvages envahissent l'île d'Oléron. Saison parfaite pour le vélo, l'observation des oiseaux et les premières baignades.
+    - region "Prêt à explorer la côte atlantique ?" [ref=f14e243]:
+      - generic [ref=f14e244]:
+        - heading "Prêt à explorer la côte atlantique ?" [level=2] [ref=f14e245]
+        - paragraph [ref=f14e246]: Trouvez votre refuge idéal pour des vacances inoubliables entre Royan et l'Île d'Oléron.
+        - generic [ref=f14e247]:
+          - link "Découvrir nos locations" [ref=f14e248] [cursor=pointer]:
+            - /url: "#locations"
+          - link "Nous contacter" [ref=f14e249] [cursor=pointer]:
+            - /url: contact.html
+  - contentinfo "Pied de page" [ref=f14e250]:
+    - generic [ref=f14e251]:
+      - generic [ref=f14e252]:
+        - generic [ref=f14e253]:
+          - link "CalmRio" [ref=f14e254] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=f14e255]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          - generic [ref=f14e256]:
+            - link "Instagram CalmRio" [ref=f14e257] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f14e258]
+            - link "Facebook CalmRio" [ref=f14e260] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f14e261]
+        - generic [ref=f14e263]:
+          - heading "Navigation" [level=2] [ref=f14e264]
+          - list [ref=f14e265]:
+            - listitem [ref=f14e266]:
+              - link "Accueil" [ref=f14e267] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=f14e268]:
+              - link "Nos Locations" [ref=f14e269] [cursor=pointer]:
+                - /url: "#locations"
+            - listitem [ref=f14e270]:
+              - link "Guide Local" [ref=f14e271] [cursor=pointer]:
+                - /url: local-guide.html
+            - listitem [ref=f14e272]:
+              - link "À Propos" [ref=f14e273] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=f14e274]:
+              - link "Contact" [ref=f14e275] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f14e276]:
+              - link "FAQ" [ref=f14e277] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=f14e278]:
+          - heading "Nos Locations" [level=2] [ref=f14e279]
+          - list [ref=f14e280]:
+            - listitem [ref=f14e281]:
+              - link "Appartement Royan" [ref=f14e282] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f14e283]:
+              - link "Villa Saint-Trojan" [ref=f14e284] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f14e285]:
+              - link "Maison Saint-Trojan" [ref=f14e286] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f14e287]:
+          - heading "Contact" [level=2] [ref=f14e288]
+          - list [ref=f14e289]:
+            - listitem [ref=f14e290]:
+              - img [ref=f14e291]
+              - link "bonjour@calmrio.fr" [ref=f14e294] [cursor=pointer]:
+                - /url: mailto:bonjour@calmrio.fr
+            - listitem [ref=f14e295]:
+              - img [ref=f14e296]
+              - link "+33 (0)6 XX XX XX XX" [ref=f14e298] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=f14e299]:
+              - img [ref=f14e300]
+              - generic [ref=f14e303]:
+                - text: Royan & Saint-Trojan-les-Bains
+                - text: Nouvelle-Aquitaine, France
+      - generic [ref=f14e304]:
+        - paragraph [ref=f14e305]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f14e306]:
+          - listitem [ref=f14e307]:
+            - link "Mentions légales" [ref=f14e308] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f14e309]:
+            - link "Politique de confidentialité" [ref=f14e310] [cursor=pointer]:
+              - /url: "#"

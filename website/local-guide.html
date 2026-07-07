@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide Local — Côte de Beauté & Île d'Oléron | CalmRio</title>
+  <meta name="description" content="Plages, gastronomie, nature et activités à Royan et Saint-Trojan-les-Bains. Guide local complet pour vos vacances sur la côte atlantique.">
+  <link rel="canonical" href="https://calm-rio.com/local-guide.html">
+
+  <meta property="og:title" content="Guide Local — Côte de Beauté & Île d'Oléron | CalmRio">
+  <meta property="og:description" content="Entre océan et forêt, découvrez les trésors de notre région : plages, huîtres, pistes cyclables, marchés et patrimoine.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://calm-rio.com/local-guide.html">
+  <meta property="og:locale" content="fr_FR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Guide Local — CalmRio">
+  <meta name="twitter:description" content="Plages, gastronomie, nature et culture autour de Royan et l'Île d'Oléron.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://a0.muscache.com">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ============================================================ -->
+  <!-- HEADER                                                       -->
+  <!-- ============================================================ -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo" aria-label="CalmRio — Accueil">CalmRio</a>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link nav__link">Accueil</a></li>
+          <li><a href="index.html#nos-locations" class="nav-link nav__link">Nos Locations</a></li>
+          <li><a href="local-guide.html" class="nav-link nav__link nav-link--active" aria-current="page">Guide Local</a></li>
+          <li><a href="blog/" class="nav-link nav__link">Blog</a></li>
+          <li><a href="about.html" class="nav-link nav__link">À Propos</a></li>
+          <li><a href="contact.html" class="nav-link nav__link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="index.html#nos-locations" class="header-cta btn btn--primary btn--sm">Réserver</a>
+
+      <button class="menu-toggle nav__toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false" aria-controls="nav-mobile-menu">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav nav__mobile-menu" id="nav-mobile-menu" role="navigation" aria-label="Navigation mobile">
+      <ul class="mobile-nav__list">
+        <li><a href="index.html" class="mobile-nav__link">Accueil</a></li>
+        <li><a href="index.html#nos-locations" class="mobile-nav__link">Nos Locations</a></li>
+        <li><a href="local-guide.html" class="mobile-nav__link">Guide Local</a></li>
+        <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
+        <li><a href="about.html" class="mobile-nav__link">À Propos</a></li>
+        <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
+      </ul>
+      <div class="mobile-nav__cta">
+        <a href="index.html#nos-locations" class="btn btn--primary btn--lg">Réserver</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ============================================================ -->
+    <!-- BREADCRUMBS                                                  -->
+    <!-- ============================================================ -->
+    <nav class="breadcrumbs container" aria-label="Fil d'Ariane">
+      <span class="breadcrumbs__item"><a href="index.html">Accueil</a></span>
+      <span class="breadcrumbs__item breadcrumbs__item--active" aria-current="page">Guide Local</span>
+    </nav>
+
+    <!-- ============================================================ -->
+    <!-- HERO (small variant)                                         -->
+    <!-- ============================================================ -->
+    <section class="hero hero--sm guide-hero" aria-labelledby="guide-hero-title">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title" id="guide-hero-title">Guide local — Côte de Beauté & Île d'Oléron</h1>
+        <p class="hero__subtitle">Entre océan et forêt, découvrez les trésors de notre région</p>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- GUIDE CATEGORIES (Filter Pills)                              -->
+    <!-- ============================================================ -->
+    <section class="section guide-categories" aria-label="Filtrer le guide par catégorie">
+      <div class="container">
+        <ul class="guide-categories__list" role="tablist">
+          <li><button class="guide-categories__btn guide-categories__btn--active" role="tab" aria-selected="true" data-filter="all">Tous</button></li>
+          <li><button class="guide-categories__btn" role="tab" aria-selected="false" data-filter="plages">Plages</button></li>
+          <li><button class="guide-categories__btn" role="tab" aria-selected="false" data-filter="gastronomie">Gastronomie</button></li>
+          <li><button class="guide-categories__btn" role="tab" aria-selected="false" data-filter="nature">Nature</button></li>
+          <li><button class="guide-categories__btn" role="tab" aria-selected="false" data-filter="culture">Culture</button></li>
+          <li><button class="guide-categories__btn" role="tab" aria-selected="false" data-filter="activites">Activités</button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- GUIDE ITEMS GRID                                             -->
+    <!-- ============================================================ -->
+    <section class="section section--sm" aria-label="Lieux à découvrir">
+      <div class="container">
+        <div class="guide-grid">
+
+          <!-- Plages -->
+          <article class="guide-item" data-category="plages">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1559825481-12a05cc00344?w=800&q=80&fm=webp" alt="Plage de la Grande Conche à Royan, 2,6 km de sable fin" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Plages</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Plage de la Grande Conche</h3>
+              <p class="guide-item__description">La plus belle plage de Royan avec ses 2,6 km de sable fin. À seulement 100m de notre appartement. Idéale pour les familles, la baignade et les promenades au coucher du soleil.</p>
+              <div class="guide-item__meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Royan</span>
+                <span>100m de l'appartement</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="plages">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=800&q=80&fm=webp" alt="Plage de Gatseau, plage sauvage au sud de l'Île d'Oléron" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Plages</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Plage de Gatseau</h3>
+              <p class="guide-item__description">Plage sauvage à la pointe sud de l'Île d'Oléron. Accessible par le P'tit Train touristique ou à vélo à travers la forêt domaniale. Un joyau préservé.</p>
+              <div class="guide-item__meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Île d'Oléron</span>
+                <span>Accès vélo ou train</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="plages">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&q=80&fm=webp" alt="Pointe de Maumusson où l'océan rencontre le Pertuis" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Plages</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Pointe de Maumusson</h3>
+              <p class="guide-item__description">Là où l'océan rencontre le Pertuis de Maumusson. Un spectacle naturel saisissant avec des vues imprenables sur la côte et les vagues. Spot idéal pour les photographes.</p>
+              <div class="guide-item__meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Île d'Oléron</span>
+                <span>Accès vélo</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gastronomie -->
+          <article class="guide-item" data-category="gastronomie">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1590511794750-0c7acc5c6f49?w=800&q=80&fm=webp" alt="Huîtres de Marennes-Oléron, spécialité mondiale" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Gastronomie</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Huîtres de Marennes-Oléron</h3>
+              <p class="guide-item__description">Les huîtres de Marennes-Oléron sont réputées dans le monde entier. Visitez les cabanes ostréicoles du port de Saint-Trojan et dégustez-les face à l'océan avec un verre de pineau.</p>
+              <div class="guide-item__meta">
+                <span>Saint-Trojan</span>
+                <span>Dégustation sur place</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="gastronomie">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80&fm=webp" alt="Marché couvert de Royan, bâtiment en forme de coquillage" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Gastronomie</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Marché couvert de Royan</h3>
+              <p class="guide-item__description">Bâtiment emblématique en forme de coquillage, classé monument historique. Produits frais, poissons, fruits de mer et spécialités charentaises. Une expérience incontournable.</p>
+              <div class="guide-item__meta">
+                <span>Royan</span>
+                <span>Tous les jours</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="gastronomie">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&fm=webp" alt="Marché de Saint-Trojan, à 1 minute de la villa" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Gastronomie</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Marché de Saint-Trojan</h3>
+              <p class="guide-item__description">Marché couvert au cœur du village, à seulement 1 minute à pied de notre villa. Produits locaux, fromages, fruits et légumes de saison dans une ambiance oléronaise authentique.</p>
+              <div class="guide-item__meta">
+                <span>Saint-Trojan</span>
+                <span>1 min de la villa</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Nature -->
+          <article class="guide-item" data-category="nature">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80&fm=webp" alt="Forêt domaniale de Saint-Trojan, pins maritimes" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Nature</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Forêt domaniale de Saint-Trojan</h3>
+              <p class="guide-item__description">Immense forêt de pins maritimes qui couvre une grande partie du sud de l'île. Paradis des cyclistes, randonneurs et cueilleurs de champignons en automne.</p>
+              <div class="guide-item__meta">
+                <span>Saint-Trojan</span>
+                <span>Pistes cyclables</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="nature">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80&fm=webp" alt="Parc de l'Estuaire, réserve naturelle de la Gironde" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Nature</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Parc de l'Estuaire</h3>
+              <p class="guide-item__description">Réserve naturelle à l'embouchure de la Gironde. Observation des oiseaux migrateurs, sentiers de découverte et panorama exceptionnel sur l'estuaire.</p>
+              <div class="guide-item__meta">
+                <span>Saint-Georges-de-Didonne</span>
+                <span>Observation oiseaux</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="nature">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80&fm=webp" alt="Marais de l'Île d'Oléron, marais salants et oiseaux" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Nature</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Les marais de l'Île d'Oléron</h3>
+              <p class="guide-item__description">Marais salants et sanctuaire d'oiseaux au nord-est de l'île. Promenades paisibles au milieu des aigrettes, hérons et avocettes dans un paysage unique.</p>
+              <div class="guide-item__meta">
+                <span>Île d'Oléron</span>
+                <span>Sanctuaire ornithologique</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Culture -->
+          <article class="guide-item" data-category="culture">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1566140967404-b8b3932483f5?w=800&q=80&fm=webp" alt="Église Notre-Dame de Royan, architecture moderniste" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Culture</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Église Notre-Dame de Royan</h3>
+              <p class="guide-item__description">Chef-d'œuvre de l'architecture moderniste d'après-guerre, surnommée la « cathédrale du béton ». Sa silhouette en voile de navire domine le front de mer de Royan.</p>
+              <div class="guide-item__meta">
+                <span>Royan</span>
+                <span>Monument historique</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="culture">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80&fm=webp" alt="Fort Boyard, forteresse célèbre visible depuis Oléron" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Culture</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Fort Boyard</h3>
+              <p class="guide-item__description">La célèbre forteresse maritime, rendue mondialement connue par l'émission télévisée. Visible depuis la côte nord de l'Île d'Oléron. Excursions en bateau disponibles.</p>
+              <div class="guide-item__meta">
+                <span>Pertuis d'Antioche</span>
+                <span>Excursions en bateau</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="culture">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1570024960191-8e28b8f4b1b2?w=800&q=80&fm=webp" alt="Le P'tit Train de Saint-Trojan, train touristique en forêt" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Culture</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Le P'tit Train de Saint-Trojan</h3>
+              <p class="guide-item__description">Train touristique historique qui traverse la forêt domaniale de Saint-Trojan jusqu'à la plage de Gatseau. Une balade pittoresque appréciée des petits et des grands depuis 1963.</p>
+              <div class="guide-item__meta">
+                <span>Saint-Trojan</span>
+                <span>Activité familiale</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Activités -->
+          <article class="guide-item" data-category="activites">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=800&q=80&fm=webp" alt="Pistes cyclables de l'Île d'Oléron, 100km de parcours" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Activités</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Cyclisme sur l'Île d'Oléron</h3>
+              <p class="guide-item__description">Plus de 100 km de pistes cyclables à travers la forêt, les vignobles et le long de la côte. L'île est un paradis pour les cyclistes de tous niveaux. Location de vélos au village.</p>
+              <div class="guide-item__meta">
+                <span>Île d'Oléron</span>
+                <span>100km de pistes</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="activites">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc5?w=800&q=80&fm=webp" alt="Festival Un violon sur le sable, concerts sur la plage de Royan" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Activités</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Festival Un violon sur le sable</h3>
+              <p class="guide-item__description">Festival de musique classique unique au monde : des concerts symphoniques sur la plage de la Grande Conche, face à l'océan. Un événement magistral chaque été à Royan.</p>
+              <div class="guide-item__meta">
+                <span>Royan</span>
+                <span>Juillet — Août</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="guide-item" data-category="activites">
+            <div class="guide-item__image">
+              <img src="https://images.unsplash.com/photo-1592853625511-ad0edcc69c07?w=800&q=80&fm=webp" alt="Fête du Mimosa à Saint-Trojan, célébration hivernale" loading="lazy" decoding="async" width="600" height="338">
+              <span class="guide-item__category">Activités</span>
+            </div>
+            <div class="guide-item__body">
+              <h3 class="guide-item__title">Fête du Mimosa</h3>
+              <p class="guide-item__description">Célébration hivernale emblématique de Saint-Trojan-les-Bains en février. Défilés fleuris, animations et ambiance festive quand le mimosa illumine l'île de jaune.</p>
+              <div class="guide-item__meta">
+                <span>Saint-Trojan</span>
+                <span>Février</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- MAP SECTION                                                  -->
+    <!-- ============================================================ -->
+    <section class="section section--alt" aria-labelledby="guide-map-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Explorer la région</span>
+          <h2 class="section__title" id="guide-map-title">Carte des environs</h2>
+          <p class="section__subtitle">De Royan à l'Île d'Oléron, repérez les plages, marchés et points d'intérêt.</p>
+        </div>
+
+        <div class="guide-map" role="img" aria-label="Carte de la région entre Royan et l'Île d'Oléron avec les points d'intérêt : plages, marchés, sites culturels et pistes cyclables">
+          <div class="guide-map__overlay">Points d'intérêt — Royan &amp; Île d'Oléron</div>
+          <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; color: var(--color-text-muted); font-size: var(--small-size);">
+            <div style="text-align: center;">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="1" aria-hidden="true" style="margin: 0 auto var(--space-3); opacity: 0.5;">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <p>Carte interactive Google Maps</p>
+              <p style="font-size: 0.8125rem; opacity: 0.7;">Plages, marchés, pistes cyclables, sites culturels</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SEASONAL SECTION                                             -->
+    <!-- ============================================================ -->
+    <section class="section guide-seasonal" aria-labelledby="seasonal-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Au fil des saisons</span>
+          <h2 class="section__title" id="seasonal-title">La région en toute saison</h2>
+          <p class="section__subtitle">Chaque saison révèle une facette différente de la côte atlantique.</p>
+        </div>
+
+        <div class="seasonal-grid">
+          <!-- Été -->
+          <article class="seasonal-card">
+            <div class="seasonal-card__overlay">
+              <span class="seasonal-card__season">Juin — Août</span>
+              <h3 class="seasonal-card__title">Été</h3>
+              <p class="seasonal-card__text">Saison des plages par excellence. Baignade, farniente sur le sable fin et couchers de soleil spectaculaires. Juillet et août sont les mois de pleine saison.</p>
+            </div>
+          </article>
+
+          <!-- Automne -->
+          <article class="seasonal-card">
+            <div class="seasonal-card__overlay">
+              <span class="seasonal-card__season">Septembre — Novembre</span>
+              <h3 class="seasonal-card__title">Automne</h3>
+              <p class="seasonal-card__text">Saison idéale pour le cyclisme en forêt, les dégustations d'huîtres et la cueillette de champignons. Températures douces et lumière dorée.</p>
+            </div>
+          </article>
+
+          <!-- Hiver -->
+          <article class="seasonal-card">
+            <div class="seasonal-card__overlay">
+              <span class="seasonal-card__season">Décembre — Février</span>
+              <h3 class="seasonal-card__title">Hiver</h3>
+              <p class="seasonal-card__text">Promenades vivifiantes sur les plages désertes, Fête du Mimosa en février. La région est calme, paisible et authentique hors saison.</p>
+            </div>
+          </article>
+
+          <!-- Printemps -->
+          <article class="seasonal-card">
+            <div class="seasonal-card__overlay">
+              <span class="seasonal-card__season">Mars — Mai</span>
+              <h3 class="seasonal-card__title">Printemps</h3>
+              <p class="seasonal-card__text">Les fleurs sauvages envahissent l'île d'Oléron. Saison parfaite pour le vélo, l'observation des oiseaux et les premières baignades.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CTA SECTION                                                  -->
+    <!-- ============================================================ -->
+    <section class="cta-section" aria-labelledby="guide-cta-title">
+      <div class="container">
+        <h2 class="cta-section__title" id="guide-cta-title">Prêt à explorer la côte atlantique ?</h2>
+        <p class="cta-section__text">Trouvez votre refuge idéal pour des vacances inoubliables entre Royan et l'Île d'Oléron.</p>
+        <div class="cta-section__action">
+          <a href="index.html#nos-locations" class="btn btn--secondary-light btn--lg">Découvrir nos locations</a>
+          <a href="contact.html" class="btn btn--secondary-light btn--lg">Nous contacter</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================ -->
+  <!-- FOOTER                                                       -->
+  <!-- ============================================================ -->
+  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">CalmRio</a>
+          <p class="footer-description">
+            Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/calmrio" class="footer-social__link" aria-label="Instagram CalmRio" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/calmrio" class="footer-social__link" aria-label="Facebook CalmRio" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navigation Column -->
+        <div class="footer-nav">
+          <h2 class="footer-nav__heading">Navigation</h2>
+          <ul class="footer-nav__list">
+            <li><a href="index.html" class="footer-nav__link">Accueil</a></li>
+            <li><a href="index.html#nos-locations" class="footer-nav__link">Nos Locations</a></li>
+            <li><a href="local-guide.html" class="footer-nav__link">Guide Local</a></li>
+            <li><a href="blog/" class="footer-nav__link">Blog</a></li>
+            <li><a href="about.html" class="footer-nav__link">À Propos</a></li>
+            <li><a href="contact.html" class="footer-nav__link">Contact</a></li>
+            <li><a href="faq.html" class="footer-nav__link">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Properties Column -->
+        <div class="footer-nav">
+          <h2 class="footer-nav__heading">Nos Locations</h2>
+          <ul class="footer-nav__list">
+            <li><a href="royan-appartement.html" class="footer-nav__link">Appartement Royan</a></li>
+            <li><a href="saint-trojan-villa.html" class="footer-nav__link">Villa Saint-Trojan</a></li>
+            <li><a href="saint-trojan-maison.html" class="footer-nav__link">Maison Saint-Trojan</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Column -->
+        <div class="footer-contact">
+          <h2 class="footer-nav__heading">Contact</h2>
+          <ul class="footer-contact__list">
+            <li class="footer-contact__item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:contact@calm-rio.com">contact@calm-rio.com</a>
+            </li>
+            <li class="footer-contact__item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+33000000000">+33 (0)6 XX XX XX XX</a>
+            </li>
+            <li class="footer-contact__item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Royan & Saint-Trojan-les-Bains<br>Nouvelle-Aquitaine, France</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 CalmRio. Tous droits réservés.</p>
+        <ul class="footer-legal">
+          <li><a href="mentions-legales.html" class="footer-legal__link">Mentions légales</a></li>
+          <li><a href="politique-de-confidentialite.html" class="footer-legal__link">Politique de confidentialité</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+// ==========================================================================
+// _legal.scss — Legal pages (mentions légales, politique de confidentialité)
+// CalmRio — Premium Vacation Rentals
+// ==========================================================================
+
+.legal-content {
+  max-width: var(--container-md);
+  margin: 0 auto;
+
+  .legal-content__lead {
+    font-size: var(--lead-size, 1.125rem);
+    line-height: var(--lead-line-height, 1.7);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-6);
+  }
+
+  h2 {
+    font-family: var(--font-heading);
+    font-size: var(--h3-size);
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--color-border);
+    color: var(--color-text);
+  }
+
+  h3 {
+    font-family: var(--font-heading);
+    font-size: var(--h4-size);
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-3);
+    color: var(--color-text);
+    font-weight: var(--weight-semibold);
+  }
+
+  p {
+    margin-bottom: var(--space-4);
+    color: var(--color-text-secondary);
+    line-height: var(--body-line-height);
+  }
+
+  ul, ol {
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-5);
+    color: var(--color-text-secondary);
+    line-height: var(--body-line-height);
+
+    li {
+      margin-bottom: var(--space-2);
+    }
+  }
+
+  strong {
+    color: var(--color-text);
+  }
+
+  a {
+    color: var(--color-accent);
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .legal-last-updated {
+    margin-top: var(--space-8);
+    padding-top: var(--space-5);
+    border-top: 1px solid var(--color-border);
+    font-size: var(--small-size);
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+}

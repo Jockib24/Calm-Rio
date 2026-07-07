@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CalmRio — Accueil" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=e6]:
+        - list [ref=e7]
+      - link "Réserver" [ref=e18] [cursor=pointer]:
+        - /url: "#nos-locations"
+  - main [ref=e19]:
+    - region "Vacances en famille entre océan et forêt" [ref=e20]:
+      - img [ref=e21]
+      - generic [ref=e23]:
+        - generic "Superhost — réponse en moins d'une heure" [ref=e24]
+        - heading "Vacances en famille entre océan et forêt" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Appartements et maisons soigneusement aménagés, à deux pas des plages de Royan et de l’île d’Oléron. Réservez en direct et profitez d’un séjour authentique sur la côte atlantique.
+        - generic [ref=e29]
+        - generic [ref=e36]
+        - generic [ref=e39] [cursor=pointer]
+      - generic "Nos engagements" [ref=e44]:
+        - generic [ref=e45]
+        - generic [ref=e48]
+        - generic [ref=e51]
+        - generic [ref=e54]
+    - region "CalmRio en chiffres" [ref=e57]:
+      - generic [ref=e58]:
+        - heading "CalmRio en chiffres" [level=2] [ref=e59]
+        - generic [ref=e60]
+    - region "Des refuges de caractère sur la côte atlantique" [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]
+        - generic [ref=e73]
+        - link "Voir toutes nos locations" [ref=e202] [cursor=pointer]:
+          - /url: "#nos-locations"
+    - region "Pourquoi réserver en direct ?" [ref=e205]:
+      - generic [ref=e206]:
+        - heading "Pourquoi réserver en direct ?" [level=2] [ref=e207]
+        - generic [ref=e208]
+    - region "Ce que disent nos voyageurs" [ref=e232]:
+      - generic [ref=e233]:
+        - generic [ref=e234]
+        - region "Témoignages de nos voyageurs" [ref=e238]
+        - generic "Contrôles du carrousel" [ref=e324]
+    - region "Vivez l’Atlantique autrement" [ref=e337]:
+      - generic [ref=e339]:
+        - generic [ref=e340]: L’expérience CalmRio
+        - heading "Vivez l’Atlantique autrement" [level=2] [ref=e341]
+        - paragraph [ref=e342]: Entre océan sauvage et forêt de pins, découvrez un art de vivre où le temps ralentit.
+      - generic [ref=e343]:
+        - generic [ref=e345]: Entre mer et forêt
+        - generic [ref=e346]
+      - generic [ref=e354]:
+        - generic [ref=e356]: Le télétravail en bord de mer
+        - generic [ref=e357]
+    - region "Guide local — La côte de Beauté" [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]
+        - generic [ref=e371]
+        - link "Explorer le guide complet" [ref=e407] [cursor=pointer]:
+          - /url: /local-guide.html
+    - region "Pourquoi choisir CalmRio" [ref=e408]:
+      - generic [ref=e409]:
+        - heading "Pourquoi choisir CalmRio" [level=2] [ref=e410]
+        - generic [ref=e411]
+    - region "Restez inspirés" [ref=e440]:
+      - generic [ref=e441]:
+        - generic [ref=e442]
+        - form "Inscription à la newsletter" [ref=e445]
+        - paragraph [ref=e449]: Pas de spam. Désinscription à tout moment.
+  - contentinfo "Pied de page" [ref=e450]:
+    - generic [ref=e451]:
+      - generic [ref=e452]:
+        - generic [ref=e453]
+        - generic [ref=e465]
+        - generic [ref=e478]
+        - generic [ref=e487]
+      - generic [ref=e504]:
+        - paragraph [ref=e505]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=e506]

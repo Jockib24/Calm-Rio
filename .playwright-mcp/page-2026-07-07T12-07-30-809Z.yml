@@ -1,0 +1,497 @@
+- generic [active] [ref=f5e1]:
+  - link "Aller au contenu principal" [ref=f5e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - link "CalmRio — Accueil" [ref=f5e5] [cursor=pointer]:
+        - /url: /
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=f5e6]:
+        - list [ref=f5e7]:
+          - listitem [ref=f5e8]:
+            - link "Accueil" [ref=f5e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f5e10]:
+            - link "Nos Locations" [ref=f5e11] [cursor=pointer]:
+              - /url: "#properties"
+          - listitem [ref=f5e12]:
+            - link "À Propos" [ref=f5e13] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=f5e14]:
+            - link "Contact" [ref=f5e15] [cursor=pointer]:
+              - /url: "#contact"
+      - link "Réserver" [ref=f5e16] [cursor=pointer]:
+        - /url: "#booking-widget"
+  - region "Appartement neuf — 100m de la Grande Conche" [ref=f5e17]:
+    - img "Vue de l'appartement neuf à Royan avec terrasse lumineuse" [ref=f5e18]
+    - generic [ref=f5e20]:
+      - heading "Appartement neuf — 100m de la Grande Conche" [level=1] [ref=f5e21]
+      - paragraph [ref=f5e22]: Royan, Nouvelle-Aquitaine — 4 voyageurs · 2 chambres · 1 salle de bain
+      - navigation "Fil d'Ariane" [ref=f5e23]:
+        - link "Accueil" [ref=f5e24] [cursor=pointer]:
+          - /url: /
+        - text: ›
+        - link "Nos Locations" [ref=f5e25] [cursor=pointer]:
+          - /url: "#properties"
+        - text: › Appartement Royan
+  - main [ref=f5e26]:
+    - generic [ref=f5e27]:
+      - region "Galerie photos de l'appartement" [ref=f5e28]:
+        - button "Voir l'image 1 en plein écran" [ref=f5e30] [cursor=pointer]
+        - button "Voir l'image 1" [ref=f5e31]:
+          - button "Voir l'image 2 en plein écran" [ref=f5e32] [cursor=pointer]
+        - button "Voir l'image 2" [ref=f5e33]:
+          - button "Voir l'image 3 en plein écran" [ref=f5e34] [cursor=pointer]
+        - button "Voir l'image 3" [ref=f5e35]:
+          - button "Voir l'image 4 en plein écran" [ref=f5e36] [cursor=pointer]
+        - button "Voir l'image 4" [ref=f5e37]:
+          - button "Voir l'image 5 en plein écran" [ref=f5e38] [cursor=pointer]
+        - button "Voir les 5 photos de l'appartement" [ref=f5e39] [cursor=pointer]:
+          - img [ref=f5e40]
+          - text: Voir toutes les photos
+      - region "Aperçu du logement" [ref=f5e44]:
+        - generic [ref=f5e45]:
+          - img [ref=f5e46]
+          - strong [ref=f5e49]: Royan
+          - text: ", Nouvelle-Aquitaine"
+        - generic [ref=f5e50]:
+          - img [ref=f5e51]
+          - strong [ref=f5e55]: "4"
+          - text: voyageurs
+        - generic [ref=f5e56]:
+          - img [ref=f5e57]
+          - strong [ref=f5e59]: "2"
+          - text: chambres
+        - generic [ref=f5e60]:
+          - img [ref=f5e61]
+          - strong [ref=f5e63]: "3"
+          - text: lits
+        - generic [ref=f5e64]:
+          - img [ref=f5e65]
+          - strong [ref=f5e69]: "1"
+          - text: salle de bain
+        - generic [ref=f5e70]:
+          - generic "Nouveau logement — pas encore d'avis" [ref=f5e71]:
+            - img [ref=f5e72]
+          - generic [ref=f5e74]: Nouveau
+      - region "À propos de ce logement" [ref=f5e75]:
+        - heading "À propos de ce logement" [level=2] [ref=f5e76]
+        - paragraph [ref=f5e77]: Appartement neuf de 60m² avec une terrasse de 20m² alliant un style bord de plage et contemporain, très lumineux, idéalement situé à 100m de la plage de la Grande Conche et à proximité de nombreux commerces du centre-ville.
+        - paragraph [ref=f5e78]: Grande pièce de vie avec salon et cuisine / salle à manger. Canapé confortable, cuisine entièrement équipée avec cave à vin de service. Toutes les fenêtres donnent sur la terrasse — partie salon, partie repas, arborée — parfaite pour les repas en plein air.
+        - heading "Les chambres" [level=3] [ref=f5e79]
+        - paragraph [ref=f5e80]: "L'appartement dispose de deux chambres : la première avec un grand lit de 160cm, télévision et espace de travail équipé d'un écran et câble HDMI ; la seconde avec deux petits lits de 90cm, idéale pour les enfants ou les amis."
+        - heading "La salle de bain" [level=3] [ref=f5e81]
+        - paragraph [ref=f5e82]: Salle de bain moderne avec douche à l'italienne. Buanderie séparée équipée d'un lave-linge, sèche-linge, fer et table à repasser. WC indépendant pour plus de confort.
+        - heading "Idéal pour" [level=3] [ref=f5e83]
+        - paragraph [ref=f5e84]: Cet appartement est parfait pour les couples, les familles avec enfants, les télétravailleurs et les amoureux de la plage. L'ascenseur facilite l'accès, et le parking gratuit sur place est un vrai plus à Royan.
+      - region "Points forts du logement" [ref=f5e85]:
+        - generic [ref=f5e86]:
+          - img [ref=f5e88]
+          - generic [ref=f5e92]: 100m de la plage
+        - generic [ref=f5e93]:
+          - img [ref=f5e95]
+          - generic [ref=f5e98]: RDC avec ascenseur
+        - generic [ref=f5e99]:
+          - img [ref=f5e101]
+          - generic [ref=f5e103]: Espace télétravail
+        - generic [ref=f5e104]:
+          - img [ref=f5e106]
+          - generic [ref=f5e109]: Animaux acceptés
+        - generic [ref=f5e110]:
+          - img [ref=f5e112]
+          - generic [ref=f5e114]: Wifi haut débit
+        - generic [ref=f5e115]:
+          - img [ref=f5e117]
+          - generic [ref=f5e120]: TV dans chaque chambre
+        - generic [ref=f5e121]:
+          - img [ref=f5e123]
+          - generic [ref=f5e125]: Draps et serviettes inclus
+        - generic [ref=f5e126]:
+          - img [ref=f5e128]
+          - generic [ref=f5e131]: Équipement bébé sur demande
+      - region "Équipements" [ref=f5e132]:
+        - heading "Équipements" [level=2] [ref=f5e133]
+        - paragraph [ref=f5e134]: Tout pour un séjour confortable à 100m de la plage
+        - generic [ref=f5e135]:
+          - generic [ref=f5e136]:
+            - generic [ref=f5e137]: 📶
+            - generic [ref=f5e138]:
+              - generic [ref=f5e139]: WiFi haut débit
+              - generic [ref=f5e140]: Fibre optique
+          - generic [ref=f5e141]:
+            - generic [ref=f5e142]: 🍳
+            - generic [ref=f5e143]:
+              - generic [ref=f5e144]: Cuisine équipée
+              - generic [ref=f5e145]: Four, micro-ondes, cave à vin
+          - generic [ref=f5e146]:
+            - generic [ref=f5e147]: 🏖️
+            - generic [ref=f5e148]:
+              - generic [ref=f5e149]: Plage 100m
+              - generic [ref=f5e150]: Grande Conche
+          - generic [ref=f5e151]:
+            - generic [ref=f5e152]: 🧺
+            - generic [ref=f5e153]:
+              - generic [ref=f5e154]: Machine à laver
+              - generic [ref=f5e155]: Sèche-linge aussi
+          - generic [ref=f5e156]:
+            - generic [ref=f5e157]: 🌡️
+            - generic [ref=f5e158]:
+              - generic [ref=f5e159]: Chauffage
+              - generic [ref=f5e160]: Réversible
+          - generic [ref=f5e161]:
+            - generic [ref=f5e162]: ❄️
+            - generic [ref=f5e163]:
+              - generic [ref=f5e164]: Climatisation
+              - generic [ref=f5e165]: Réversible
+          - generic [ref=f5e166]:
+            - generic [ref=f5e167]: 📺
+            - generic [ref=f5e168]:
+              - generic [ref=f5e169]: Smart TV
+              - generic [ref=f5e170]: Dans chaque chambre
+          - generic [ref=f5e171]:
+            - generic [ref=f5e172]: 🛗
+            - generic [ref=f5e173]:
+              - generic [ref=f5e174]: Ascenseur
+              - generic [ref=f5e175]: RDC accessible
+          - generic [ref=f5e176]:
+            - generic [ref=f5e177]: 🚗
+            - generic [ref=f5e178]:
+              - generic [ref=f5e179]: Parking gratuit
+              - generic [ref=f5e180]: Sur place
+          - generic [ref=f5e181]:
+            - generic [ref=f5e182]: 🌿
+            - generic [ref=f5e183]:
+              - generic [ref=f5e184]: Terrasse 20m²
+              - generic [ref=f5e185]: Arborée, salon de jardin
+          - generic [ref=f5e186]:
+            - generic [ref=f5e187]: 💻
+            - generic [ref=f5e188]:
+              - generic [ref=f5e189]: Espace télétravail
+              - generic [ref=f5e190]: Écran HDMI
+          - generic [ref=f5e191]:
+            - generic [ref=f5e192]: 🐾
+            - generic [ref=f5e193]:
+              - generic [ref=f5e194]: Animaux acceptés
+              - generic [ref=f5e195]: Sur demande
+      - region "Avis des voyageurs" [ref=f5e196]:
+        - heading "Avis des voyageurs" [level=2] [ref=f5e197]
+        - paragraph [ref=f5e198]: Ce que nos voyageurs en disent
+        - generic [ref=f5e199]:
+          - generic [ref=f5e200]: 5,0
+          - generic [ref=f5e201]:
+            - generic "Note moyenne de 5 sur 5" [ref=f5e202]:
+              - generic [ref=f5e203]: ★★★★★
+            - generic [ref=f5e204]: 2 avis vérifiés
+        - generic [ref=f5e205]:
+          - generic [ref=f5e206]:
+            - generic [ref=f5e207]:
+              - generic [ref=f5e208]: P
+              - generic [ref=f5e209]:
+                - generic [ref=f5e210]: Pierre M.
+                - generic [ref=f5e211]: juin 2026
+            - generic "5 étoiles" [ref=f5e212]: ★★★★★
+            - paragraph [ref=f5e213]: "\"Appartement splendide, tout neuf et décoré avec beaucoup de goût. La terrasse est un vrai plus, on y prend tous les petits-déjeuners au soleil. La plage est vraiment à 2 minutes à pied, c'est incroyable. Mention spéciale pour le bureau avec écran HDMI — parfait pour le télétravail. Nous reviendrons !\""
+            - generic [ref=f5e214]: — Séjour en juin 2026
+          - generic [ref=f5e215]:
+            - generic [ref=f5e216]:
+              - generic [ref=f5e217]: A
+              - generic [ref=f5e218]:
+                - generic [ref=f5e219]: Anne & Bruno
+                - generic [ref=f5e220]: mai 2026
+            - generic "5 étoiles" [ref=f5e221]: ★★★★★
+            - paragraph [ref=f5e222]: "\"Quelle belle découverte ! L'emplacement est idéal — à 100m de la Grande Conche, on entend les vagues depuis la terrasse. L'appartement est très lumineux, parfaitement équipé et d'une propreté irréprochable. Le parking gratuit est un vrai luxe à Royan. Agnès a été très réactive et attentionnée. Une adresse qu'on garde précieusement.\""
+            - generic [ref=f5e223]: — Séjour en mai 2026
+        - generic [ref=f5e224]:
+          - paragraph [ref=f5e225]: Vous avez séjourné ici ?
+          - paragraph [ref=f5e226]: Partagez votre expérience avec les futurs voyageurs.
+          - link "Écrire un avis" [ref=f5e227] [cursor=pointer]:
+            - /url: "#contact"
+      - region "Emplacement" [ref=f5e228]:
+        - heading "Emplacement" [level=2] [ref=f5e229]
+        - generic [ref=f5e230]:
+          - generic [ref=f5e231]:
+            - img [ref=f5e233]
+            - generic [ref=f5e237]:
+              - generic [ref=f5e238]: Plage de la Grande Conche
+              - generic [ref=f5e239]: 100 m
+          - generic [ref=f5e240]:
+            - img [ref=f5e242]
+            - generic [ref=f5e245]:
+              - generic [ref=f5e246]: Commerces du centre-ville
+              - generic [ref=f5e247]: 2,3 km
+          - generic [ref=f5e248]:
+            - img [ref=f5e250]
+            - generic [ref=f5e252]:
+              - generic [ref=f5e253]: Restaurants
+              - generic [ref=f5e254]: À proximité
+          - generic [ref=f5e255]:
+            - img [ref=f5e257]
+            - generic [ref=f5e260]:
+              - generic [ref=f5e261]: Marché central de Royan
+              - generic [ref=f5e262]: 2 km
+          - generic [ref=f5e263]:
+            - img [ref=f5e265]
+            - generic [ref=f5e268]:
+              - generic [ref=f5e269]: Supermarché
+              - generic [ref=f5e270]: 1,5 km
+          - generic [ref=f5e271]:
+            - img [ref=f5e273]
+            - generic [ref=f5e276]:
+              - generic [ref=f5e277]: Gare de Royan
+              - generic [ref=f5e278]: 3 km
+        - generic "Carte de l'emplacement" [ref=f5e279]:
+          - img "Plage de la Grande Conche à Royan" [ref=f5e280]
+    - complementary "Réservation" [ref=f5e281]:
+      - generic [ref=f5e282]:
+        - generic [ref=f5e283]:
+          - generic [ref=f5e284]: À partir de 130€ / nuit
+          - generic [ref=f5e285]:
+            - img [ref=f5e287]
+            - generic [ref=f5e289]: Nouveau
+        - generic [ref=f5e290]:
+          - generic [ref=f5e291]:
+            - generic [ref=f5e292]:
+              - generic [ref=f5e293]: Arrivée
+              - textbox "Arrivée" [ref=f5e294] [cursor=pointer]
+            - generic [ref=f5e295]:
+              - generic [ref=f5e296]: Départ
+              - textbox "Départ" [ref=f5e297] [cursor=pointer]
+          - generic [ref=f5e298]:
+            - generic [ref=f5e299]: Voyageurs
+            - combobox "Voyageurs" [ref=f5e300] [cursor=pointer]:
+              - option "1 voyageur"
+              - option "2 voyageurs"
+              - option "3 voyageurs"
+              - option "4 voyageurs" [selected]
+          - generic [ref=f5e301]:
+            - generic [ref=f5e302]: Total estimé (7 nuits)
+            - generic [ref=f5e303]: 910 €
+          - button "Réserver maintenant" [ref=f5e304] [cursor=pointer]
+        - generic [ref=f5e305]:
+          - link "Réserver sur Airbnb" [ref=f5e306] [cursor=pointer]:
+            - /url: https://airbnb.com
+          - generic [ref=f5e307]:
+            - generic [ref=f5e308]:
+              - img [ref=f5e309]
+              - text: Réservation directe
+            - generic [ref=f5e311]:
+              - img [ref=f5e312]
+              - text: Meilleurs tarifs
+            - generic [ref=f5e314]:
+              - img [ref=f5e315]
+              - text: Annulation flexible
+      - group "Calendrier de disponibilité" [ref=f5e318]:
+        - paragraph [ref=f5e321]: Chargement du calendrier...
+        - generic [ref=f5e322]:
+          - button "Mois précédent" [disabled] [ref=f5e323]:
+            - img [ref=f5e324]
+          - heading "juillet 2026" [level=3] [ref=f5e326]
+          - button "Mois suivant" [ref=f5e327] [cursor=pointer]:
+            - img [ref=f5e328]
+        - application [ref=f5e330]:
+          - grid "Calendrier" [ref=f5e331]:
+            - row "lundi mardi mercredi jeudi vendredi samedi dimanche" [ref=f5e332]:
+              - columnheader "lundi" [ref=f5e333]: lun
+              - columnheader "mardi" [ref=f5e334]: mar
+              - columnheader "mercredi" [ref=f5e335]: mer
+              - columnheader "jeudi" [ref=f5e336]: jeu
+              - columnheader "vendredi" [ref=f5e337]: ven
+              - columnheader "samedi" [ref=f5e338]: sam
+              - columnheader "dimanche" [ref=f5e339]: dim
+            - rowgroup [ref=f5e340]:
+              - row "mercredi 1 juillet 2026, passé jeudi 2 juillet 2026, passé vendredi 3 juillet 2026, passé samedi 4 juillet 2026, passé" [ref=f5e341]:
+                - gridcell [ref=f5e342]
+                - gridcell [ref=f5e343]
+                - gridcell [ref=f5e344]
+                - gridcell "mercredi 1 juillet 2026, passé" [disabled] [ref=f5e345]:
+                  - generic [ref=f5e346]: "1"
+                - gridcell "jeudi 2 juillet 2026, passé" [disabled] [ref=f5e347]:
+                  - generic [ref=f5e348]: "2"
+                - gridcell "vendredi 3 juillet 2026, passé" [disabled] [ref=f5e349]:
+                  - generic [ref=f5e350]: "3"
+                - gridcell "samedi 4 juillet 2026, passé" [disabled] [ref=f5e351]:
+                  - generic [ref=f5e352]: "4"
+              - row "dimanche 5 juillet 2026, passé lundi 6 juillet 2026, passé mardi 7 juillet 2026 mercredi 8 juillet 2026 jeudi 9 juillet 2026 vendredi 10 juillet 2026, occupé samedi 11 juillet 2026, occupé" [ref=f5e353]:
+                - gridcell "dimanche 5 juillet 2026, passé" [disabled] [ref=f5e354]:
+                  - generic [ref=f5e355]: "5"
+                - gridcell "lundi 6 juillet 2026, passé" [disabled] [ref=f5e356]:
+                  - generic [ref=f5e357]: "6"
+                - gridcell "mardi 7 juillet 2026" [ref=f5e358] [cursor=pointer]:
+                  - generic [ref=f5e359]: "7"
+                  - generic [ref=f5e360]: Aujourd'hui
+                - gridcell "mercredi 8 juillet 2026" [ref=f5e361] [cursor=pointer]:
+                  - generic [ref=f5e362]: "8"
+                - gridcell "jeudi 9 juillet 2026" [ref=f5e363] [cursor=pointer]:
+                  - generic [ref=f5e364]: "9"
+                - gridcell "vendredi 10 juillet 2026, occupé" [disabled] [ref=f5e365]:
+                  - generic [ref=f5e366]: "10"
+                - gridcell "samedi 11 juillet 2026, occupé" [disabled] [ref=f5e367]:
+                  - generic [ref=f5e368]: "11"
+              - row "dimanche 12 juillet 2026 lundi 13 juillet 2026 mardi 14 juillet 2026 mercredi 15 juillet 2026 jeudi 16 juillet 2026 vendredi 17 juillet 2026 samedi 18 juillet 2026, occupé" [ref=f5e369]:
+                - gridcell "dimanche 12 juillet 2026" [ref=f5e370] [cursor=pointer]:
+                  - generic [ref=f5e371]: "12"
+                - gridcell "lundi 13 juillet 2026" [ref=f5e372] [cursor=pointer]:
+                  - generic [ref=f5e373]: "13"
+                - gridcell "mardi 14 juillet 2026" [ref=f5e374] [cursor=pointer]:
+                  - generic [ref=f5e375]: "14"
+                - gridcell "mercredi 15 juillet 2026" [ref=f5e376] [cursor=pointer]:
+                  - generic [ref=f5e377]: "15"
+                - gridcell "jeudi 16 juillet 2026" [ref=f5e378] [cursor=pointer]:
+                  - generic [ref=f5e379]: "16"
+                - gridcell "vendredi 17 juillet 2026" [ref=f5e380] [cursor=pointer]:
+                  - generic [ref=f5e381]: "17"
+                - gridcell "samedi 18 juillet 2026, occupé" [disabled] [ref=f5e382]:
+                  - generic [ref=f5e383]: "18"
+              - row "dimanche 19 juillet 2026 lundi 20 juillet 2026 mardi 21 juillet 2026, occupé mercredi 22 juillet 2026, occupé jeudi 23 juillet 2026, occupé vendredi 24 juillet 2026, occupé samedi 25 juillet 2026, occupé" [ref=f5e384]:
+                - gridcell "dimanche 19 juillet 2026" [ref=f5e385] [cursor=pointer]:
+                  - generic [ref=f5e386]: "19"
+                - gridcell "lundi 20 juillet 2026" [ref=f5e387] [cursor=pointer]:
+                  - generic [ref=f5e388]: "20"
+                - gridcell "mardi 21 juillet 2026, occupé" [disabled] [ref=f5e389]:
+                  - generic [ref=f5e390]: "21"
+                - gridcell "mercredi 22 juillet 2026, occupé" [disabled] [ref=f5e391]:
+                  - generic [ref=f5e392]: "22"
+                - gridcell "jeudi 23 juillet 2026, occupé" [disabled] [ref=f5e393]:
+                  - generic [ref=f5e394]: "23"
+                - gridcell "vendredi 24 juillet 2026, occupé" [disabled] [ref=f5e395]:
+                  - generic [ref=f5e396]: "24"
+                - gridcell "samedi 25 juillet 2026, occupé" [disabled] [ref=f5e397]:
+                  - generic [ref=f5e398]: "25"
+              - row "dimanche 26 juillet 2026, occupé lundi 27 juillet 2026, occupé mardi 28 juillet 2026 mercredi 29 juillet 2026 jeudi 30 juillet 2026 vendredi 31 juillet 2026" [ref=f5e399]:
+                - gridcell "dimanche 26 juillet 2026, occupé" [disabled] [ref=f5e400]:
+                  - generic [ref=f5e401]: "26"
+                - gridcell "lundi 27 juillet 2026, occupé" [disabled] [ref=f5e402]:
+                  - generic [ref=f5e403]: "27"
+                - gridcell "mardi 28 juillet 2026" [ref=f5e404] [cursor=pointer]:
+                  - generic [ref=f5e405]: "28"
+                - gridcell "mercredi 29 juillet 2026" [ref=f5e406] [cursor=pointer]:
+                  - generic [ref=f5e407]: "29"
+                - gridcell "jeudi 30 juillet 2026" [ref=f5e408] [cursor=pointer]:
+                  - generic [ref=f5e409]: "30"
+                - gridcell "vendredi 31 juillet 2026" [ref=f5e410] [cursor=pointer]:
+                  - generic [ref=f5e411]: "31"
+                - gridcell [ref=f5e412]
+        - generic [ref=f5e413]:
+          - generic [ref=f5e414]: Disponible
+          - generic [ref=f5e416]: Occupé
+          - generic [ref=f5e418]: Sélectionné
+      - generic [ref=f5e420]:
+        - heading "Vous aimerez aussi" [level=3] [ref=f5e421]
+        - generic [ref=f5e422]:
+          - link "Villa neuve Saint-Trojan Villa neuve 6 pers Jardin clos, terrasses, plage à vélo ★ 4,95 · 6 pers" [ref=f5e423] [cursor=pointer]:
+            - /url: /saint-trojan-villa.html
+            - img "Villa neuve Saint-Trojan" [ref=f5e424]
+            - generic [ref=f5e425]:
+              - generic [ref=f5e426]: Villa neuve 6 pers
+              - generic [ref=f5e427]: Jardin clos, terrasses, plage à vélo
+              - generic [ref=f5e428]:
+                - generic [ref=f5e429]: ★ 4,95
+                - generic [ref=f5e430]: ·
+                - generic [ref=f5e431]: 6 pers
+          - link "Maison familiale Saint-Trojan Maison familiale 6 pers Jardin, plage à vélo, île d'Oléron ★ 5,0 · 6 pers" [ref=f5e432] [cursor=pointer]:
+            - /url: /saint-trojan-maison.html
+            - img "Maison familiale Saint-Trojan" [ref=f5e433]
+            - generic [ref=f5e434]:
+              - generic [ref=f5e435]: Maison familiale 6 pers
+              - generic [ref=f5e436]: Jardin, plage à vélo, île d'Oléron
+              - generic [ref=f5e437]:
+                - generic [ref=f5e438]: ★ 5,0
+                - generic [ref=f5e439]: ·
+                - generic [ref=f5e440]: 6 pers
+  - region "Questions fréquentes" [ref=f5e441]:
+    - generic [ref=f5e442]:
+      - heading "Questions fréquentes" [level=2] [ref=f5e443]
+      - generic [ref=f5e444]:
+        - group [ref=f5e445]:
+          - generic "À quelle distance se trouve la plage ?" [ref=f5e446] [cursor=pointer]
+          - paragraph [ref=f5e447]: L'appartement se situe à environ 100m de la plage de la Grande Conche, l'une des plus belles plages de la côte atlantique.
+        - group [ref=f5e448]:
+          - generic "Y a-t-il un ascenseur dans l'immeuble ?" [ref=f5e449] [cursor=pointer]
+        - group [ref=f5e450]:
+          - generic "Un espace de travail est-il disponible ?" [ref=f5e451] [cursor=pointer]
+        - group [ref=f5e452]:
+          - generic "Les animaux sont-ils acceptés ?" [ref=f5e453] [cursor=pointer]
+        - group [ref=f5e454]:
+          - generic "Le linge de maison est-il fourni ?" [ref=f5e455] [cursor=pointer]
+        - group [ref=f5e456]:
+          - generic "Quels sont les horaires d'arrivée et de départ ?" [ref=f5e457] [cursor=pointer]
+        - group [ref=f5e458]:
+          - generic "Y a-t-il un parking ?" [ref=f5e459] [cursor=pointer]
+  - region "Prêt à réserver votre séjour ?" [ref=f5e460]:
+    - generic [ref=f5e461]:
+      - heading "Prêt à réserver votre séjour ?" [level=2] [ref=f5e462]
+      - paragraph [ref=f5e463]: Contactez-nous ou réservez directement en ligne. Les meilleurs tarifs sont disponibles en réservation directe.
+      - generic [ref=f5e464]:
+        - link "Réserver maintenant" [ref=f5e465] [cursor=pointer]:
+          - /url: "#booking-widget"
+        - link "Nous contacter" [ref=f5e466] [cursor=pointer]:
+          - /url: "#contact"
+  - contentinfo "Pied de page" [ref=f5e467]:
+    - generic [ref=f5e468]:
+      - generic [ref=f5e469]:
+        - generic [ref=f5e470]:
+          - link "CalmRio" [ref=f5e471] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f5e472]: Location de vacances premium sur la côte atlantique. Appartements et villas à Royan et sur l'île d'Oléron.
+          - generic [ref=f5e473]:
+            - link "Instagram" [ref=f5e474] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f5e475]
+            - link "Facebook" [ref=f5e477] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f5e478]
+        - generic [ref=f5e480]:
+          - heading "Locations" [level=3] [ref=f5e481]
+          - list [ref=f5e482]:
+            - listitem [ref=f5e483]:
+              - link "Royan — Appartement" [ref=f5e484] [cursor=pointer]:
+                - /url: /royan-appartement.html
+            - listitem [ref=f5e485]:
+              - link "Saint-Trojan — Villa" [ref=f5e486] [cursor=pointer]:
+                - /url: /saint-trojan-villa.html
+            - listitem [ref=f5e487]:
+              - link "Saint-Trojan — Maison" [ref=f5e488] [cursor=pointer]:
+                - /url: /saint-trojan-maison.html
+        - generic [ref=f5e489]:
+          - heading "Informations" [level=3] [ref=f5e490]
+          - list [ref=f5e491]:
+            - listitem [ref=f5e492]:
+              - link "À Propos" [ref=f5e493] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=f5e494]:
+              - link "Contact" [ref=f5e495] [cursor=pointer]:
+                - /url: "#contact"
+            - listitem [ref=f5e496]:
+              - link "FAQ" [ref=f5e497] [cursor=pointer]:
+                - /url: "#faq"
+            - listitem [ref=f5e498]:
+              - link "Guide local" [ref=f5e499] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f5e500]:
+          - heading "Contact" [level=3] [ref=f5e501]
+          - list [ref=f5e502]:
+            - listitem [ref=f5e503]:
+              - img [ref=f5e504]
+              - generic [ref=f5e507]:
+                - text: Royan & Île d'Oléron
+                - text: Nouvelle-Aquitaine, France
+            - listitem [ref=f5e508]:
+              - img [ref=f5e509]
+              - link "+33 0 00 00 00 00" [ref=f5e511] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=f5e512]:
+              - img [ref=f5e513]
+              - link "contact@calmrio.com" [ref=f5e516] [cursor=pointer]:
+                - /url: mailto:contact@calmrio.com
+      - generic [ref=f5e517]:
+        - paragraph [ref=f5e518]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f5e519]:
+          - listitem [ref=f5e520]:
+            - link "Mentions légales" [ref=f5e521] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f5e522]:
+            - link "Politique de confidentialité" [ref=f5e523] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f5e524]:
+            - link "CGV" [ref=f5e525] [cursor=pointer]:
+              - /url: "#"

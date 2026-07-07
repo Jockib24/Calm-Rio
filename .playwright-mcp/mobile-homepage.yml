@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CalmRio — Accueil" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - link "Réserver" [ref=e6] [cursor=pointer]:
+        - /url: "#nos-locations"
+      - button "Ouvrir le menu de navigation" [ref=e7] [cursor=pointer]
+  - main [ref=e11]:
+    - region "Vacances en famille entre océan et forêt" [ref=e12]:
+      - img [ref=e13]
+      - generic [ref=e15]
+      - generic "Nos engagements" [ref=e36]
+    - region "CalmRio en chiffres" [ref=e49]:
+      - generic [ref=e50]
+    - region "Des refuges de caractère sur la côte atlantique" [ref=e59]:
+      - generic [ref=e60]
+    - region "Pourquoi réserver en direct ?" [ref=e197]:
+      - generic [ref=e198]
+    - region "Ce que disent nos voyageurs" [ref=e224]:
+      - generic [ref=e225]
+    - region "Vivez l’Atlantique autrement" [ref=e329]:
+      - generic [ref=e331]
+      - generic [ref=e335]
+      - generic [ref=e346]
+    - region "Guide local — La côte de Beauté" [ref=e357]:
+      - generic [ref=e358]
+    - region "Pourquoi choisir CalmRio" [ref=e400]:
+      - generic [ref=e401]
+    - region "Restez inspirés" [ref=e432]:
+      - generic [ref=e433]
+  - contentinfo "Pied de page" [ref=e442]:
+    - generic [ref=e443]:
+      - generic [ref=e444]
+      - generic [ref=e496]
+  - complementary "Nos propriétés" [ref=e503]:
+    - generic [ref=e505]:
+      - generic [ref=e506]: ★
+      - text: 4,95 — Favoris des voyageurs
+    - link "Voir nos propriétés" [ref=e507] [cursor=pointer]:
+      - /url: "#properties"

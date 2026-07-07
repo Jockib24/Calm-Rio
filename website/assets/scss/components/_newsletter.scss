@@ -1,0 +1,66 @@
+// ============================================================
+// CalmRio — Newsletter / Email Capture
+// ============================================================
+
+.newsletter {
+  padding: var(--space-8) 0;
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.newsletter__title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: var(--weight-bold);
+  color: var(--color-text-inverse);
+  margin-bottom: var(--space-2);
+  text-align: center;
+}
+
+.newsletter__text {
+  font-size: var(--body-size);
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  margin-bottom: var(--space-6);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter__form {
+  display: flex;
+  gap: var(--space-3);
+  max-width: 480px;
+  margin: 0 auto;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.newsletter__input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 2px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-md);
+  background: rgba(255,255,255,0.1);
+  color: var(--color-text-inverse);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: border-color var(--transition-fast), background var(--transition-fast);
+
+  &::placeholder {
+    color: rgba(255,255,255,0.5);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--color-secondary);
+    background: rgba(255,255,255,0.15);
+  }
+}
+
+.newsletter__btn {
+  white-space: nowrap;
+  flex-shrink: 0;
+}

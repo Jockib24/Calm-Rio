@@ -1,0 +1,176 @@
+- generic [active] [ref=f2e1]:
+  - link "Aller au contenu principal" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link "CalmRio — Accueil" [ref=f2e5] [cursor=pointer]:
+        - /url: ../../index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=f2e6]:
+        - list [ref=f2e7]:
+          - listitem [ref=f2e8]:
+            - link "Accueil" [ref=f2e9] [cursor=pointer]:
+              - /url: ../../index.html
+          - listitem [ref=f2e10]:
+            - link "Nos Locations" [ref=f2e11] [cursor=pointer]:
+              - /url: ../../index.html#nos-locations
+          - listitem [ref=f2e12]:
+            - link "Guide Local" [ref=f2e13] [cursor=pointer]:
+              - /url: ../../local-guide.html
+          - listitem [ref=f2e14]:
+            - link "Blog" [ref=f2e15] [cursor=pointer]:
+              - /url: ../index.html
+          - listitem [ref=f2e16]:
+            - link "À Propos" [ref=f2e17] [cursor=pointer]:
+              - /url: ../../about.html
+          - listitem [ref=f2e18]:
+            - link "Contact" [ref=f2e19] [cursor=pointer]:
+              - /url: ../../contact.html
+      - link "Réserver" [ref=f2e20] [cursor=pointer]:
+        - /url: ../../index.html#nos-locations
+  - main [ref=f2e21]:
+    - navigation "Fil d'Ariane" [ref=f2e22]:
+      - link "Accueil" [ref=f2e24] [cursor=pointer]:
+        - /url: ../../index.html
+      - generic [ref=f2e25]:
+        - text: /
+        - link "Blog" [ref=f2e26] [cursor=pointer]:
+          - /url: ../index.html
+      - generic [ref=f2e27]: / Guide des plus belles plages de Royan
+    - region "Guide des plus belles plages de Royan" [ref=f2e28]:
+      - img "Plage de Royan" [ref=f2e30]
+      - generic [ref=f2e32]:
+        - heading "Guide des plus belles plages de Royan" [level=1] [ref=f2e33]
+        - paragraph [ref=f2e34]: Notre sélection des 5 plages incontournables de la perle de l'Atlantique
+    - article [ref=f2e35]:
+      - generic [ref=f2e37]:
+        - generic [ref=f2e38]:
+          - generic [ref=f2e39]:
+            - generic [ref=f2e40]: Plages •
+            - generic [ref=f2e41]: 15 juin 2026 •
+            - generic [ref=f2e42]: 5 min de lecture
+          - heading "Guide des plus belles plages de Royan" [level=1] [ref=f2e43]
+        - paragraph [ref=f2e44]: Royan, joyau de la côte atlantique, est réputée pour ses plages de sable fin qui s'étendent sur des kilomètres. Que vous soyez amateur de baignade, de surf, ou simplement à la recherche d'un coin de paradis pour vous détendre en famille, la côte royannaise a tout pour plaire. Voici notre guide des 5 plus belles plages de Royan, testées et approuvées par l'équipe CalmRio.
+        - heading "1. La Grande Conche — La plage emblématique" [level=2] [ref=f2e45]
+        - paragraph [ref=f2e46]:
+          - text: Impossible de parler de Royan sans évoquer la Grande Conche. Avec ses
+          - strong [ref=f2e47]: 2,5 kilomètres de sable fin
+          - text: ", c'est la plage la plus célèbre de la ville. Elle s'étend du port jusqu'à Pontaillac, offrant une vue imprenable sur l'estuaire de la Gironde et le phare de Cordouan au loin."
+        - paragraph [ref=f2e48]: Bordée par le casino et de nombreux restaurants, la Grande Conche est idéale pour les journées en famille. On y trouve des clubs de plage pour les enfants, des terrains de beach-volley, et une promenade piétonne animée où il fait bon flâner en soirée. La baignade est surveillée en haute saison, et l'eau y est généralement calme grâce à la configuration en conque de la baie.
+        - paragraph [ref=f2e50]:
+          - strong [ref=f2e51]: "À savoir :"
+          - text: parking gratuit à proximité, accès PMR tout le long de la promenade. Arrivez avant 10h en juillet-août pour profiter des meilleures places.
+        - heading "2. La Plage du Chay — Le spot des familles" [level=2] [ref=f2e52]
+        - paragraph [ref=f2e53]: Nichée au pied des falaises calcaires, la plage du Chay est un véritable petit bijou. Plus intimiste que la Grande Conche, elle est particulièrement appréciée des familles pour ses eaux calmes et peu profondes. Les falaises offrent une protection naturelle contre le vent, ce qui en fait un spot idéal même quand la brise marine se lève.
+        - paragraph [ref=f2e54]:
+          - text: "Autre atout majeur : la"
+          - strong [ref=f2e55]: piscine d'eau de mer
+          - text: naturelle qui se forme à marée basse dans les rochers. Les enfants adorent y barboter en toute sécurité pendant que les parents profitent du cadre. La plage est également équipée d'un petit snack et de sanitaires.
+        - paragraph [ref=f2e57]:
+          - strong [ref=f2e58]: "Idéale avec des enfants :"
+          - text: eau calme, peu profonde et protégée du vent. Prévoyez des chaussons de plage pour explorer les rochers.
+        - heading "3. La Plage de Pontaillac — Ambiance surfeurs" [level=2] [ref=f2e59]
+        - paragraph [ref=f2e60]:
+          - text: Pontaillac, c'est le quartier branché de Royan, et sa plage ne fait pas exception. Avec ses vagues constantes, c'est
+          - strong [ref=f2e61]: le spot de surf
+          - text: par excellence de la côte royannaise. Plusieurs écoles de surf y proposent des cours pour tous les niveaux, des débutants aux confirmés.
+        - paragraph [ref=f2e62]: "L'ambiance y est plus dynamique qu'ailleurs : bars de plage, restaurants les pieds dans le sable, et une jetée qui s'avance dans l'océan pour les amateurs de pêche. Le soir, la plage de Pontaillac se transforme en lieu de rendez-vous pour admirer les couchers de soleil spectaculaires sur l'Atlantique."
+        - heading "4. La Plage de Nauzan — Côté sauvage" [level=2] [ref=f2e63]
+        - paragraph [ref=f2e64]: Située entre Royan et Saint-Palais-sur-Mer, la plage de Nauzan est un écrin de nature préservée. Moins fréquentée que ses voisines, elle offre un cadre plus sauvage avec ses falaises boisées et ses eaux cristallines. La plage est nichée dans une crique naturelle, ce qui lui confère un charme particulier.
+        - paragraph [ref=f2e65]: C'est la plage idéale pour ceux qui recherchent la tranquillité, loin de l'agitation touristique. Le sentier côtier qui longe les falaises permet de belles balades avec des panoramas à couper le souffle sur l'océan. Un parking ombragé est disponible à proximité immédiate.
+        - paragraph [ref=f2e67]:
+          - strong [ref=f2e68]: "Conseil CalmRio :"
+          - text: apportez masque et tuba — les fonds rocheux regorgent de vie marine. La plage est également très agréable en septembre, quand les températures sont encore douces et la foule partie.
+        - heading "5. La Plage de Saint-Georges-de-Didonne — La plus familiale" [level=2] [ref=f2e69]
+        - paragraph [ref=f2e70]:
+          - text: Juste au sud de Royan, la plage de Saint-Georges-de-Didonne est un immense croissant de sable fin qui s'étend sur plus de 3 kilomètres. C'est sans doute la plage
+          - strong [ref=f2e71]: la plus familiale
+          - text: "de la région : vaste, bien équipée, et bordée par une forêt de pins qui offre des zones d'ombre naturelles bienvenues pendant les chaudes journées d'été."
+        - paragraph [ref=f2e72]: Le front de mer animé propose glaciers, crêperies et restaurants pour tous les budgets. Les enfants apprécieront le mini-golf, le parc de jeux et le petit train touristique qui longe la côte. La baignade y est surveillée et l'accès est facilité par de nombreux parkings.
+        - heading "Prêt à explorer les plages de Royan ?" [level=2] [ref=f2e73]
+        - paragraph [ref=f2e74]: Royan est une destination balnéaire d'exception qui mérite bien plus qu'un simple passage. Chaque plage a sa personnalité, son ambiance et ses atouts. Que vous soyez en couple, en famille ou entre amis, vous trouverez forcément votre coin de paradis le long de cette côte magnifique.
+        - generic [ref=f2e75]:
+          - paragraph [ref=f2e76]: Séjournez à deux pas de la Grande Conche
+          - paragraph [ref=f2e77]: Notre appartement neuf à Royan vous attend à seulement 100 mètres de la plus belle plage de la ville.
+          - link "Voir l'appartement" [ref=f2e78] [cursor=pointer]:
+            - /url: ../../royan-appartement.html
+        - navigation "Navigation entre articles" [ref=f2e79]:
+          - link "← Retour au blog" [ref=f2e80] [cursor=pointer]:
+            - /url: ../index.html
+          - 'link "Article suivant : Que faire à Oléron en famille ? →" [ref=f2e81] [cursor=pointer]':
+            - /url: que-faire-oleron-famille.html
+  - contentinfo "Pied de page" [ref=f2e82]:
+    - generic [ref=f2e83]:
+      - generic [ref=f2e84]:
+        - generic [ref=f2e85]:
+          - link "CalmRio" [ref=f2e86] [cursor=pointer]:
+            - /url: ../../index.html
+          - paragraph [ref=f2e87]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          - generic [ref=f2e88]:
+            - link "Instagram CalmRio" [ref=f2e89] [cursor=pointer]:
+              - /url: https://www.instagram.com/calmrio
+              - img [ref=f2e90]
+            - link "Facebook CalmRio" [ref=f2e92] [cursor=pointer]:
+              - /url: https://www.facebook.com/calmrio
+              - img [ref=f2e93]
+        - generic [ref=f2e95]:
+          - heading "Navigation" [level=2] [ref=f2e96]
+          - list [ref=f2e97]:
+            - listitem [ref=f2e98]:
+              - link "Accueil" [ref=f2e99] [cursor=pointer]:
+                - /url: ../../index.html
+            - listitem [ref=f2e100]:
+              - link "Nos Locations" [ref=f2e101] [cursor=pointer]:
+                - /url: ../../index.html#nos-locations
+            - listitem [ref=f2e102]:
+              - link "Guide Local" [ref=f2e103] [cursor=pointer]:
+                - /url: ../../local-guide.html
+            - listitem [ref=f2e104]:
+              - link "Blog" [ref=f2e105] [cursor=pointer]:
+                - /url: ../index.html
+            - listitem [ref=f2e106]:
+              - link "À Propos" [ref=f2e107] [cursor=pointer]:
+                - /url: ../../about.html
+            - listitem [ref=f2e108]:
+              - link "Contact" [ref=f2e109] [cursor=pointer]:
+                - /url: ../../contact.html
+            - listitem [ref=f2e110]:
+              - link "FAQ" [ref=f2e111] [cursor=pointer]:
+                - /url: ../../faq.html
+        - generic [ref=f2e112]:
+          - heading "Nos Locations" [level=2] [ref=f2e113]
+          - list [ref=f2e114]:
+            - listitem [ref=f2e115]:
+              - link "Appartement Royan" [ref=f2e116] [cursor=pointer]:
+                - /url: ../../royan-appartement.html
+            - listitem [ref=f2e117]:
+              - link "Villa Saint-Trojan" [ref=f2e118] [cursor=pointer]:
+                - /url: ../../saint-trojan-villa.html
+            - listitem [ref=f2e119]:
+              - link "Maison Saint-Trojan" [ref=f2e120] [cursor=pointer]:
+                - /url: ../../saint-trojan-maison.html
+        - generic [ref=f2e121]:
+          - heading "Contact" [level=2] [ref=f2e122]
+          - list [ref=f2e123]:
+            - listitem [ref=f2e124]:
+              - img [ref=f2e125]
+              - link "contact@calm-rio.com" [ref=f2e128] [cursor=pointer]:
+                - /url: mailto:contact@calm-rio.com
+            - listitem [ref=f2e129]:
+              - img [ref=f2e130]
+              - link "+212 662-669887" [ref=f2e132] [cursor=pointer]:
+                - /url: tel:+212662669887
+            - listitem [ref=f2e133]:
+              - img [ref=f2e134]
+              - generic [ref=f2e137]:
+                - text: Royan & Saint-Trojan-les-Bains
+                - text: Nouvelle-Aquitaine, France
+      - generic [ref=f2e138]:
+        - paragraph [ref=f2e139]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f2e140]:
+          - listitem [ref=f2e141]:
+            - link "Mentions légales" [ref=f2e142] [cursor=pointer]:
+              - /url: ../../mentions-legales.html
+          - listitem [ref=f2e143]:
+            - link "Politique de confidentialité" [ref=f2e144] [cursor=pointer]:
+              - /url: ../../politique-de-confidentialite.html

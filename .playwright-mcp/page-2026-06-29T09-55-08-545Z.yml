@@ -1,0 +1,558 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-MA
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "World Cup 2026: The art of the elástico" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwii_cCfl6yVAxVDT0EAHezLAG4QPQgK
+          - 'img "World Cup 2026: The art of the elástico" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Search" [ref=e19]: vacation rental royan france beach apartment bals ile d'oleron vacation rental royan france beach apartment bals ile d'oleron
+            - generic [ref=e20]:
+              - button "Clear" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Search by voice" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Search by image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Search" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Settings" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - button "Share" [ref=e47] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e53]:
+        - button "Google apps" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dvacation%2Brental%2Broyan%2Bfrance%2Bbeach%2Bapartment%2Bbals%2Bile%2Bd%2527oleron%26hl%3Den&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "AI Mode" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d%27oleron&sca_esv=46b5e676a6bf9410&hl=en&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLyK4ERdJZ5WXX5biY7ThytPfs_UwXcN8LaWA6Z8gYPAhyr_IUjdOHctZfRH4H2o-olyaWAddai4NNrC8fAH0CukXMd-f8k-2m2v7-NLUVy4tlW6FM3jhimd3RJK3cha9_GUBadd74h3j8Unxk_NlFAZLK1Apw&aep=1&ntc=1&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q2J8OegQIDhAD
+              - generic [ref=e82]: AI Mode
+          - listitem [ref=e83]:
+            - link "All" [disabled] [ref=e84]:
+              - generic [ref=e86]: All
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLyK4ERdJZ5WXX5biY7ThytPfs_UwXcN8LaWA6Z8gYPAhyr_IUjdOHctZfRH4H2o-olyaWAddai4NNrC8fAH0CukXMd-f8k-2m2v7-NLUVy4tlW6FM3jhimd3RJK3cha9_GUBadd74h3j8Unxk_NlFAZLK1Apw&q=vacation+rental+royan+france+beach+apartment+bals+ile+d%27oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4QtKgLegQIERAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Short videos" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLyK4ERdJZ5WXX5biY7ThytPfs_UwXcN8LaWA6Z8gYPAhyr_IUjdOHctZfRH4H2o-olyaWAddai4NNrC8fAH0CukXMd-f8k-2m2v7-NLUVy4tlW6FM3jhimd3RJK3cha9_GUBadd74h3j8Unxk_NlFAZLK1Apw&q=vacation+rental+royan+france+beach+apartment+bals+ile+d%27oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Qs6gLegQIExAB
+              - generic [ref=e94]: Short videos
+          - listitem [ref=e95]:
+            - link "Maps" [ref=e96] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=46b5e676a6bf9410&hl=en&output=search&q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLyK4ERdJZ5WXX5biY7ThytPfs_UwXcN8LaWA6Z8gYPAhyr_IUjdOHctZfRH4H2o-olyaWAddai4NNrC8fAH0CukXMd-f8k-2m2v7-NLUVy4tlW6FM3jhimd3RJK3cha9_GUBadd74h3j8Unxk_NlFAZLK1Apw&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e98]: Maps
+          - listitem [ref=e99]:
+            - link "Videos" [ref=e100] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLyK4ERdJZ5WXX5biY7ThytPfs_UwXcN8LaWA6Z8gYPAhyr_IUjdOHctZfRH4H2o-olyaWAddai4NNrC8fAH0CukXMd-f8k-2m2v7-NLUVy4tlW6FM3jhimd3RJK3cha9_GUBadd74h3j8Unxk_NlFAZLK1Apw&q=vacation+rental+royan+france+beach+apartment+bals+ile+d%27oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4QtKgLegQIFBAB
+              - generic [ref=e102]: Videos
+          - listitem [ref=e103]:
+            - link "News" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=vacation+rental+royan+france+beach+apartment+bals+ile+d%27oleron&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832cY0rzciwbWdjW1sV3VNzLyK4ERdJZ5WXX5biY7ThytPfs_UwXcN8LaWA6Z8gYPAhyr_IUjdOHctZfRH4H2o-olyaWAddai4NNrC8fAH0CukXMd-f8k-2m2v7-NLUVy4tlW6FM3jhimd3RJK3cha9_GUBadd74h3j8Unxk_NlFAZLK1Apw&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q0pQJegQIEhAB
+              - generic [ref=e106]: News
+          - listitem [ref=e107]:
+            - button "More filters" [ref=e108] [cursor=pointer]:
+              - generic "More filters" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: More
+                  - img [ref=e113]
+        - button "Tools" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Tools
+            - img [ref=e121]
+    - heading "Search Results" [level=1] [ref=e123]
+    - generic [ref=e128]:
+      - generic [ref=e147]:
+        - generic [ref=e149]:
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - img [ref=e153]
+              - heading "AI Overview" [level=2] [ref=e155]
+            - button "About this result" [ref=e159]:
+              - img [ref=e161]
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - text: Trouvez l'appartement idéal en bord de mer près de Royan ou sur l'Île d'Oléron. Les locations de vacances dans ce secteur de la Charente-Maritime offrent un accès direct à la plage, avec des options allant des studios avec balcon aux villas spacieuses, à partir d'environ €49 à €90 la nuit.
+              - generic [ref=e188]:
+                - link "Poplidays.com - View related links" [ref=e190] [cursor=pointer]:
+                  - /url: https://www.poplidays.com/en/holiday-rentals-ile-d-oleron_23868/
+                - button "Poplidays.com - View related links" [disabled] [ref=e191]:
+                  - generic [ref=e194]: Poplidays.com
+                  - img [ref=e197]
+            - generic [ref=e199]: "Explorez les principales options de location :"
+            - list [ref=e201]:
+              - listitem [ref=e202]:
+                - generic [ref=e203]:
+                  - strong [ref=e204]: "Royan :"
+                  - text: Idéal pour une ambiance balnéaire dynamique et un accès rapide au port. Vous trouverez des locations en bord de mer avec vue sur l'océan sur
+                  - link "Airbnb Royan" [ref=e206] [cursor=pointer]:
+                    - /url: https://www.airbnb.com/oleron-france/stays/beachfront
+                  - text: ou des résidences gérées sur
+                  - link "Gîtes de France" [ref=e208] [cursor=pointer]:
+                    - /url: https://www.gites-de-france.com/en/search?towns=42149&seed=138539b8
+                  - text: .
+              - listitem [ref=e209]:
+                - generic [ref=e210]:
+                  - strong [ref=e211]: "Île d'Oléron :"
+                  - text: Réputée pour ses plages sauvages, ses cabanes ostréicoles et ses villages typiques (Saint-Pierre, Dolus). Comparez les appartements avec balcon ou vue mer via
+                  - generic [ref=e212]: Poplidays
+                  - text: ou sur le portail officiel de l'île sur
+                  - generic [ref=e213]: Oléron - Île de Lumière
+                  - text: .
+              - listitem [ref=e214]:
+                - generic [ref=e215]:
+                  - strong [ref=e216]: "Plateformes globales :"
+                  - text: Pour une sélection plus large, vous pouvez filtrer les hébergements directement sur
+                  - link "Booking.com" [ref=e218] [cursor=pointer]:
+                    - /url: https://www.booking.com/holiday-homes/region/fr/oleron.html
+                  - text: ou
+                  - link "Interhome" [ref=e220] [cursor=pointer]:
+                    - /url: https://www.interhome.com/france/charente-maritime/ile-d-oleron/
+                  - text: .
+        - button "Show more AI Overview" [ref=e233]:
+          - generic [ref=e235] [cursor=pointer]:
+            - generic [ref=e236]: Show more
+            - img [ref=e238]
+      - main [ref=e241]:
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e248]:
+              - generic [ref=e252]:
+                - generic [ref=e258]:
+                  - button "See photos" [ref=e262] [cursor=pointer]:
+                    - generic [ref=e265]: See photos
+                  - generic [ref=e266]:
+                    - link "Map of Huis aan het strand in Oleron (17)" [ref=e268] [cursor=pointer]:
+                      - /url: /maps/place/Oleron+beachfront+house+rental+(17)/data=!4m2!3m1!1s0x0:0x76663f6f6dc09e44?sa=X&ved=1t:2428&hl=en&ictx=111
+                      - img "Map of Huis aan het strand in Oleron (17)" [ref=e270]
+                    - link "See outside" [ref=e278] [cursor=pointer]:
+                      - /url: /local/place/fid/0x4803e6f7b89e2d25:0x76663f6f6dc09e44/photosphere?iu=https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid%3Dvla2Nd-7wETcqGSbz1BC0Q%26cb_client%3Dsearch.gws-prod.gps%26yaw%3D250.13043%26pitch%3D0%26thumbfov%3D100%26w%3D0%26h%3D0&ik=CAISFnZsYTJOZC03d0VUY3FHU2J6MUJDMFE%3D&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Qpx96BAguEBE
+                      - generic [ref=e280]: See outside
+                - generic [ref=e283]:
+                  - heading "Oleron beachfront house rental (17)" [level=2] [ref=e286]
+                  - generic [ref=e289]:
+                    - img "Rated 4.8 out of 5, 21 user reviews" [ref=e290]:
+                      - text: "4.8"
+                      - img [ref=e291]
+                      - text: (21)
+                    - button "More info" [ref=e297] [cursor=pointer]:
+                      - img [ref=e299]
+                    - text: House
+                - generic [ref=e306]:
+                  - generic [ref=e315]:
+                    - link "Directions" [ref=e317]:
+                      - generic [ref=e318] [cursor=pointer]:
+                        - img [ref=e320]
+                        - generic [ref=e325]: Directions
+                    - button "Save" [ref=e330] [cursor=pointer]:
+                      - img [ref=e331]
+                      - generic [ref=e333]: Save
+                  - generic [ref=e338]:
+                    - generic [ref=e340]:
+                      - generic [ref=e341]:
+                        - link "Address" [ref=e342] [cursor=pointer]:
+                          - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=oleron+beachfront+house+rental+17+address&ludocid=8531576291915243076&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q6BN6BAgwEAI
+                        - text: ":"
+                      - text: 17310 Saint-Pierre-d'Oléron, France
+                    - generic [ref=e347]:
+                      - heading "Compare prices" [level=2] [ref=e348]:
+                        - generic [ref=e349]: Compare prices
+                      - generic [ref=e352]:
+                        - generic [ref=e354]:
+                          - status
+                          - button "Select check-in date. Current check-in date is Sat, Aug 29" [ref=e356] [cursor=pointer]:
+                            - img [ref=e359]
+                            - generic [ref=e361]: Sat, Aug 29
+                          - button "Select check-out date. Current check-out date is Sat, Sep 5" [ref=e363] [cursor=pointer]:
+                            - img [ref=e366]
+                            - generic [ref=e368]: Sat, Sep 5
+                        - button "Select number of guests; 2 guests selected" [ref=e372] [cursor=pointer]:
+                          - img [ref=e374]
+                          - text: "2"
+                        - generic [ref=e379]:
+                          - heading "Booking options" [level=3] [ref=e381]
+                          - generic [ref=e382]:
+                            - link "Vrbo.com MAD 1,233 Vrbo.com Free cancellation until June 30" [ref=e385] [cursor=pointer]:
+                              - /url: https://www.google.com/travel/clk?pc=AA80OszRX9p_dZXFdRa5xQfliGVOk66Q5lhVdZedME61CyMybS6KozbSkTprNWHV4FT67Ot17-FWN8xvcODeZ9P0VX1qaWZow9UFLv9w1in67As6CbUl5AB1R3SiD2V9ebRu1qcH3oQN3YFheX8pd_EgL6LX7LK3YnI-nxPMxp0ahG2UruMqFhVVMg&pcurl=https://www.vrbo.com/search?selected%3D34686282%26startDate%3D2026-08-29%26endDate%3D2026-09-05%26MDPCID%3DVRBO-MA.META.HPA.ORGANIC-desktop.VR%26adults%3D2%26children%3D%26MDPDTL%3DHTL.34686282.20260829.20260905.DDT.61.CID..AUDID..RRID.VRBO%26mctc%3D10%26ct%3Dhotel%26mpg%3DMAD%26mpf%3D8628.70%26mpj%3D1900.51%26mpr%3D1495.15%26mpl%3DUSD%26langid%3Den%26rateplanid%3D000311e9cedec8044fe2972eae9396b96869%26mpm%3D103%26mpn%3D34686282%26mpo%3DEC%26mpp%3D1&s=AD1XQnkQUYI5pTXMO5UzC9XAxhA7
+                              - img "Vrbo.com" [ref=e387]
+                              - generic [ref=e388]:
+                                - generic [ref=e389]:
+                                  - img [ref=e391]
+                                  - img [ref=e394]
+                                - link "MAD 1,233" [ref=e400]
+                                - link "Vrbo.com" [ref=e402]
+                              - generic [ref=e403]:
+                                - text: Free cancellation until
+                                - note "June 30" [ref=e404]: Jun 30
+                            - link "Bluepillow.com MAD 1,279 Bluepillow.com Free cancellation until June 30" [ref=e407] [cursor=pointer]:
+                              - /url: https://www.google.com/travel/clk?pc=AA80Oswgyd25IJ_D21IGFiIBfK75eqtFpRXKcT7edI4Z_hb9cr-owljiqOmdCFUZzslnJ_CS2wQwnDSdXVUj4zcmWQdtNeYDCeW6p9s3XFr0-xL_2TYN9s7EXiakZHvh75d0zGqJ5x5_EqJj3t8fkyuxbvZCyDq1-TqKxr-oEn1rbsonpov-e9yDsUH0L7emHw&pcurl=https://www.bluepillow.com/search/621755c4a7239796806d6bad?begin%3D2026-08-29%26end%3D2026-09-05%26block_id%3D-b,5zKvKkaKWv9mGi2fo-XNSD8rJ88r4lUdZRx8bVF0eNQ,-bpvr-House%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DMA%26currency%3DMAD%26language%3Den%26source%3Dlocaluniversal%26utm_campaign%3Dvr%26prid%3Dvrbo_open&s=AD1XQnkKJfjm95mN4Mc9t5Z_aU5Q
+                              - img "Bluepillow.com" [ref=e409]
+                              - generic [ref=e410]:
+                                - generic [ref=e411]:
+                                  - img [ref=e413]
+                                  - img [ref=e416]
+                                - link "MAD 1,279" [ref=e422]
+                                - link "Bluepillow.com" [ref=e424]
+                              - generic [ref=e425]:
+                                - text: Free cancellation until
+                                - note "June 30" [ref=e426]: Jun 30
+                          - heading "Additional results from the web" [level=3] [ref=e428]
+                          - generic [ref=e429]:
+                            - link "Vio.com Visit site Vio.com" [ref=e432] [cursor=pointer]:
+                              - /url: https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https%3A%2F%2Fwww.vio.com%2FHotel%2FSearch%3FhotelId%3D11843573%26utm_source%3Dgha-vr%26utm_campaign%3Dstatic%26openHotelDetails%3D1&ved=1t:202767&ictx=111
+                              - img "Vio.com" [ref=e434]
+                              - generic [ref=e435]:
+                                - generic [ref=e436]:
+                                  - img [ref=e438]
+                                  - img [ref=e441]
+                                - generic [ref=e445]: Visit site
+                                - link "Vio.com" [ref=e447]
+                            - link "freecancellations.com Visit site freecancellations.com" [ref=e450] [cursor=pointer]:
+                              - /url: https://www.freecancellations.com/search/F2d3QwdVG3QAWVcDVAkDQQsLXEo0EwET?lat=45.94489&lng=-1.37129&language=en&ved=1t:202767&ictx=111
+                              - img "freecancellations.com" [ref=e452]
+                              - generic [ref=e453]:
+                                - generic [ref=e454]:
+                                  - img [ref=e456]
+                                  - img [ref=e459]
+                                - generic [ref=e463]: Visit site
+                                - link "freecancellations.com" [ref=e465]
+                  - generic [ref=e471]:
+                    - heading "Property details" [level=3] [ref=e473]
+                    - generic [ref=e475]:
+                      - text: Located in Saint-Pierre-d'Oleron, this vacation home is in a rural area and on the beach. Chassiron Lighthouse and Château d'Oléron are local landmarks, and some of the area's attractions
+                      - generic [ref=e476]:
+                        - text: …
+                        - button "Property details more description" [ref=e477]:
+                          - generic [ref=e479] [cursor=pointer]:
+                            - text: MORE
+                            - img [ref=e481]
+                    - generic [ref=e483]:
+                      - generic [ref=e485]:
+                        - img [ref=e488]
+                        - generic [ref=e490]: Sleeps 6
+                      - generic [ref=e492]:
+                        - img [ref=e495]
+                        - generic [ref=e498]: 3 bedrooms
+                      - generic [ref=e500]:
+                        - img [ref=e503]
+                        - generic [ref=e506]: 1 bathroom
+                      - generic [ref=e508]:
+                        - img [ref=e511]
+                        - generic [ref=e516]: 3 beds
+                      - generic [ref=e518]:
+                        - img [ref=e521]
+                        - generic [ref=e523]: Entire house
+                      - generic [ref=e525]:
+                        - img [ref=e528]
+                        - generic [ref=e530]: 80 sq m
+                    - link "View all details" [ref=e533] [cursor=pointer]:
+                      - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=en-MA&gl=ma&ssta=1&ts=CAIaHBIaEhQKBwjqDxAIGB0SBwjqDxAJGAUYBzICEAA&qs=CAEyE0Nnb1FsSmpVc2NEemxMQU5FQUk4BEIJERQMNQacU2ANQgkJRJ7AbW8_ZnY&ap=ehNDZ29RbEpqVXNjRHpsTEFORUFJugEHZGV0YWlscw&ictx=111&ved=1t:195380
+                      - generic [ref=e534]:
+                        - generic [ref=e535]: View all details
+                        - img [ref=e537]
+                  - generic [ref=e545]:
+                    - heading "Help improve accuracy" [level=2] [ref=e548]
+                    - generic [ref=e550]: Provide feedback
+              - button "Feedback" [ref=e553] [cursor=pointer]:
+                - generic [ref=e554]: Feedback
+            - generic [ref=e556]:
+              - heading "Web results" [level=2] [ref=e557]
+              - generic [ref=e558]:
+                - generic [ref=e561]:
+                  - link "L'Île d'Oléron Beachfront Vacation Rentals Airbnb https://www.airbnb.com › ... › L'Île d'Oléron" [ref=e563] [cursor=pointer]:
+                    - /url: https://www.airbnb.com/oleron-france/stays/beachfront
+                    - heading "L'Île d'Oléron Beachfront Vacation Rentals" [level=3] [ref=e564]
+                    - generic [ref=e570]:
+                      - generic [ref=e572]: Airbnb
+                      - generic [ref=e574]: https://www.airbnb.com › ... › L'Île d'Oléron
+                  - button "About this result" [ref=e577] [cursor=pointer]:
+                    - img [ref=e580]
+                - generic [ref=e583]:
+                  - generic [ref=e584]:
+                    - emphasis [ref=e585]: Top-rated beachfront rentals in L'Île d'Oléron
+                    - text: ". Guests agree: these beachfront homes are highly rated for location, cleanliness, and more."
+                  - link "Read more" [ref=e586] [cursor=pointer]:
+                    - /url: https://www.airbnb.com/oleron-france/stays/beachfront#:~:text=Top%2Drated%20beachfront%20rentals%20in%20L'%C3%8Ele,d'Ol%C3%A9ron&text=Guests%20agree%3A%20these%20beachfront%20homes,for%20location%2C%20cleanliness%2C%20and%20more.
+                - link "vacation rental royan france beach apartment bals ile d'oleron from www.airbnb.com" [ref=e589] [cursor=pointer]:
+                  - /url: https://www.airbnb.com/oleron-france/stays/beachfront
+                  - img "vacation rental royan france beach apartment bals ile d'oleron from www.airbnb.com" [ref=e591]
+                - img "Rated 4.9 out of 5, (499) user reviews" [ref=e596]:
+                  - text: "4.9"
+                  - img [ref=e597]
+                  - text: (499)
+                - generic [ref=e601]:
+                  - text: "Missing: bals ‎| Show results with:"
+                  - link "bals" [ref=e602] [cursor=pointer]:
+                    - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=vacation+rental+royan+france+beach+apartment+%22bals%22+ile+d'oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q5t4CegQIJBAB
+          - generic [ref=e606]:
+            - generic [ref=e609]:
+              - link "Vacation rentals - Oleron island oleron-island.com https://www.oleron-island.com › ... › Where to sleep?" [ref=e611] [cursor=pointer]:
+                - /url: https://www.oleron-island.com/getting-ready-for-my-holidays/where-to-sleep/vacation-rentals
+                - heading "Vacation rentals - Oleron island" [level=3] [ref=e612]
+                - generic [ref=e618]:
+                  - generic [ref=e620]: oleron-island.com
+                  - generic [ref=e622]: https://www.oleron-island.com › ... › Where to sleep?
+              - button "About this result" [ref=e625] [cursor=pointer]:
+                - img [ref=e628]
+            - generic [ref=e631]:
+              - generic [ref=e632]:
+                - text: "Book your vacation rental on the Ile d'Oléron and Bassin de Marennes online now:"
+                - emphasis [ref=e633]: self-catering cottages, villas, apartments
+                - text: with garden or swimming pool, ...
+              - link "Read more" [ref=e634] [cursor=pointer]:
+                - /url: https://www.oleron-island.com/getting-ready-for-my-holidays/where-to-sleep/vacation-rentals#:~:text=Book%20your%20vacation%20rental%20on,rentals%20on%20the%20Ile%20d'Ol%C3%A9ron.
+          - generic [ref=e638]:
+            - generic [ref=e641]:
+              - link "The best vacation homes in Island of Oleron, France Booking.com https://www.booking.com › Hotels › All vacation homes" [ref=e643] [cursor=pointer]:
+                - /url: https://www.booking.com/holiday-homes/region/fr/oleron.html
+                - heading "The best vacation homes in Island of Oleron, France" [level=3] [ref=e644]
+                - generic [ref=e650]:
+                  - generic [ref=e652]: Booking.com
+                  - generic [ref=e654]: https://www.booking.com › Hotels › All vacation homes
+              - button "About this result" [ref=e657] [cursor=pointer]:
+                - img [ref=e660]
+            - generic [ref=e664]:
+              - text: Find and book deals on the
+              - emphasis [ref=e665]: best vacation homes in Island of Oleron
+              - text: ", France! Explore guest reviews and book the perfect vacation home for your trip."
+            - link "vacation rental royan france beach apartment bals ile d'oleron from www.booking.com" [ref=e668] [cursor=pointer]:
+              - /url: https://www.booking.com/holiday-homes/region/fr/oleron.html
+              - img "vacation rental royan france beach apartment bals ile d'oleron from www.booking.com" [ref=e670]
+          - generic [ref=e674]:
+            - generic [ref=e677]:
+              - link "Royan Vacation rentals & Airbnb Cozycozy https://www.cozycozy.com › royan-vacation-rentals" [ref=e679] [cursor=pointer]:
+                - /url: https://www.cozycozy.com/us/royan-vacation-rentals
+                - heading "Royan Vacation rentals & Airbnb" [level=3] [ref=e680]
+                - generic [ref=e686]:
+                  - generic [ref=e688]: Cozycozy
+                  - generic [ref=e690]: https://www.cozycozy.com › royan-vacation-rentals
+              - button "About this result" [ref=e693] [cursor=pointer]:
+                - img [ref=e696]
+            - generic [ref=e699]:
+              - generic [ref=e700]:
+                - text: This Royan apartment rental is centrally located,
+                - emphasis [ref=e701]: 700 meters (approximately 2300 feet) from both the beach and harbor
+                - text: ", and just 100 meters (about 330 feet) from ..."
+              - link "Read more" [ref=e702] [cursor=pointer]:
+                - /url: https://www.cozycozy.com/us/royan-vacation-rentals#:~:text=This%20Royan%20apartment%20rental%20is,feet)%20from%20shops%20and%20restaurants.
+            - link "vacation rental royan france beach apartment bals ile d'oleron from www.cozycozy.com" [ref=e705] [cursor=pointer]:
+              - /url: https://www.cozycozy.com/us/royan-vacation-rentals
+              - img "vacation rental royan france beach apartment bals ile d'oleron from www.cozycozy.com" [ref=e707]
+            - img "Rated 5.0 out of 5, (247) user reviews" [ref=e712]:
+              - text: 9.7/10
+              - img [ref=e713]
+              - text: (247)
+            - generic [ref=e717]: "Missing: bals ‎ile ‎oleron"
+          - generic [ref=e721]:
+            - generic [ref=e724]:
+              - link "Search vacation rental Royan Gîtes de France https://www.gites-de-france.com › search" [ref=e726] [cursor=pointer]:
+                - /url: https://www.gites-de-france.com/en/search?towns=42149&seed=138539b8
+                - heading "Search vacation rental Royan" [level=3] [ref=e727]
+                - generic [ref=e733]:
+                  - generic [ref=e735]: Gîtes de France
+                  - generic [ref=e737]: https://www.gites-de-france.com › search
+              - button "About this result" [ref=e740] [cursor=pointer]:
+                - img [ref=e743]
+            - generic [ref=e746]:
+              - generic [ref=e747]:
+                - emphasis [ref=e748]: Search vacation rental Royan
+                - text: ; RESIDENCE DES 2 PLAGES · From €430 per week. 29 reviews ; VILLA CHANTANICK · From €595 per week. 17 reviews ; LE COURALIN · From €290 ...
+              - link "Read more" [ref=e749] [cursor=pointer]:
+                - /url: https://www.gites-de-france.com/en/search?towns=42149&seed=138539b8#:~:text=Search%20vacation%20rental%20Royan&text=RESIDENCE%20DES%202%20PLAGES&text=From%20%E2%82%AC430%20per%20week,29%20reviews&text=VILLA%20CHANTANICK&text=From%20%E2%82%AC595%20per%20week,17%20reviews&text=LE%20COURALIN&text=From%20%E2%82%AC290%20per%20week
+            - link "vacation rental royan france beach apartment bals ile d'oleron from www.gites-de-france.com" [ref=e752] [cursor=pointer]:
+              - /url: https://www.gites-de-france.com/en/search?towns=42149&seed=138539b8
+              - img "vacation rental royan france beach apartment bals ile d'oleron from www.gites-de-france.com" [ref=e754]
+            - generic [ref=e756]: "Missing: beach ‎bals ‎ile ‎oleron"
+          - generic [ref=e760]:
+            - generic [ref=e763]:
+              - link "193 vacation rentals in Ile d'Oléron from 49€ / night Poplidays.com https://www.poplidays.com › ... › Charente-Maritime" [ref=e765] [cursor=pointer]:
+                - /url: https://www.poplidays.com/en/holiday-rentals-ile-d-oleron_23868/
+                - heading "193 vacation rentals in Ile d'Oléron from 49€ / night" [level=3] [ref=e766]
+                - generic [ref=e772]:
+                  - generic [ref=e774]: Poplidays.com
+                  - generic [ref=e776]: https://www.poplidays.com › ... › Charente-Maritime
+              - button "About this result" [ref=e779] [cursor=pointer]:
+                - img [ref=e782]
+            - generic [ref=e785]:
+              - generic [ref=e786]:
+                - text: Vacation Rentals in Ile d'Oléron with Sea view ·
+                - emphasis [ref=e787]: 2-room apartment with balcony, sea view
+                - text: ", parking in Saint-Pierre-d'Oléron, wifi included · T1 bis mezzanine in La ..."
+              - link "Read more" [ref=e788] [cursor=pointer]:
+                - /url: https://www.poplidays.com/en/holiday-rentals-ile-d-oleron_23868/#:~:text=Vacation%20Rentals%20in%20Ile%20d'Ol%C3%A9ron,with%20Sea%20view&text=2%2Droom%20apartment%20with%20balcony%2C%20sea,parking%20in%20Saint%2DPierre%2Dd'Ol%C3%A9ron%2C%20wifi%20included&text=T1%20bis%20mezzanine%20in%20La,Cotini%C3%A8re%2C%20sleep%205%2C%20sunny%20balcony
+            - link "vacation rental royan france beach apartment bals ile d'oleron from www.poplidays.com" [ref=e791] [cursor=pointer]:
+              - /url: https://www.poplidays.com/en/holiday-rentals-ile-d-oleron_23868/
+              - img "vacation rental royan france beach apartment bals ile d'oleron from www.poplidays.com" [ref=e793]
+            - img "Rated 4.6 out of 5, (74) user reviews" [ref=e798]:
+              - text: "4.6"
+              - img [ref=e799]
+              - text: (74)
+          - generic [ref=e805]:
+            - generic [ref=e808]:
+              - link "Royan Holiday Villages, Holiday Centers Office de Tourisme Royan Atlantique https://www.royanatlantique.fr › v..." [ref=e810] [cursor=pointer]:
+                - /url: https://www.royanatlantique.fr/en/sejourner/hebergements/villages-vacances/
+                - heading "Royan Holiday Villages, Holiday Centers" [level=3] [ref=e811]
+                - generic [ref=e817]:
+                  - generic [ref=e819]: Office de Tourisme Royan Atlantique
+                  - generic [ref=e821]: https://www.royanatlantique.fr › v...
+              - generic [ref=e822]:
+                - generic [ref=e823]: ·
+                - link "Translate this page" [ref=e824] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.royanatlantique.fr/en/sejourner/hebergements/villages-vacances/&hl=en&sl=fr&tl=en&client=search
+              - button "About this result" [ref=e827] [cursor=pointer]:
+                - img [ref=e830]
+            - generic [ref=e834]:
+              - text: Book a stay at our
+              - emphasis [ref=e835]: holiday villages near Royan
+              - text: in La Palmyre, Charente-Maritime. Seaside holiday resorts just a stone's throw from the beaches.
+          - generic [ref=e839]:
+            - generic [ref=e842]:
+              - link "Holiday home & villa rental Ile d'Oléron Interhome https://www.interhome.com › France" [ref=e844] [cursor=pointer]:
+                - /url: https://www.interhome.com/france/charente-maritime/ile-d-oleron/
+                - heading "Holiday home & villa rental Ile d'Oléron" [level=3] [ref=e845]
+                - generic [ref=e851]:
+                  - generic [ref=e853]: Interhome
+                  - generic [ref=e855]: https://www.interhome.com › France
+              - button "About this result" [ref=e858] [cursor=pointer]:
+                - img [ref=e861]
+            - generic [ref=e865]:
+              - emphasis [ref=e866]: Holiday homes, villas & apartments rental in Ile d'Oléron
+              - text: ☆ quality checked ☆ safely online bookable ❤️ excellent service.
+            - link "vacation rental royan france beach apartment bals ile d'oleron from www.interhome.com" [ref=e869] [cursor=pointer]:
+              - /url: https://www.interhome.com/france/charente-maritime/ile-d-oleron/
+              - img "vacation rental royan france beach apartment bals ile d'oleron from www.interhome.com" [ref=e871]
+            - img "Rated 4.0 out of 5, (27) user reviews" [ref=e876]:
+              - text: "4.0"
+              - img [ref=e877]
+              - text: (27)
+            - generic [ref=e881]:
+              - text: "Missing: bals ‎| Show results with:"
+              - link "bals" [ref=e882] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=vacation+rental+royan+france+beach+apartment+%22bals%22+ile+d'oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q5t4CegQIbhAB
+          - generic [ref=e886]:
+            - generic [ref=e889]:
+              - link "Royan - Holiday rentals, Gites in Charente-Maritime Clévacances https://www.clevacances.com › ... › House Swap Royan" [ref=e891] [cursor=pointer]:
+                - /url: https://www.clevacances.com/en/destinations/164-royan
+                - heading "Royan - Holiday rentals, Gites in Charente-Maritime" [level=3] [ref=e892]
+                - generic [ref=e898]:
+                  - generic [ref=e900]: Clévacances
+                  - generic [ref=e902]: https://www.clevacances.com › ... › House Swap Royan
+              - button "About this result" [ref=e905] [cursor=pointer]:
+                - img [ref=e908]
+            - generic [ref=e911]:
+              - generic [ref=e912]:
+                - text: With its fine sandy beaches, modern architecture and dynamic atmosphere,
+                - emphasis [ref=e913]: Royan appeals to families looking for relaxation
+                - text: as well as water sports and heritage ...
+              - link "Read more" [ref=e914] [cursor=pointer]:
+                - /url: https://www.clevacances.com/en/destinations/164-royan#:~:text=With%20its%20fine%20sandy%20beaches%2C,water%20sports%20and%20heritage%20enthusiasts.
+            - link "vacation rental royan france beach apartment bals ile d'oleron from www.clevacances.com" [ref=e917] [cursor=pointer]:
+              - /url: https://www.clevacances.com/en/destinations/164-royan
+              - img "vacation rental royan france beach apartment bals ile d'oleron from www.clevacances.com" [ref=e919]
+            - generic [ref=e921]:
+              - text: "Missing: bals ‎| Show results with:"
+              - link "bals" [ref=e922] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=vacation+rental+royan+france+beach+apartment+%22bals%22+ile+d'oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q5t4CegQIbRAB
+        - generic [ref=e924]:
+          - generic [ref=e929]:
+            - heading "People also search for" [level=2] [ref=e931]
+            - generic [ref=e933]:
+              - generic [ref=e934]:
+                - link "Cheap vacation rental royan france beach apartment bals ile d oleron" [ref=e938] [cursor=pointer]:
+                  - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=Cheap+vacation+rental+royan+france+beach+apartment+bals+ile+d+oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q1QJ6BAhQEAE
+                  - generic [ref=e939]:
+                    - generic [ref=e944]: Cheap vacation rental royan france beach apartment bals ile d oleron
+                    - img [ref=e948]
+                - link "Private vacation rental royan france beach apartment bals ile d oleron" [ref=e953] [cursor=pointer]:
+                  - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=Private+vacation+rental+royan+france+beach+apartment+bals+ile+d+oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q1QJ6BAhTEAE
+                  - generic [ref=e954]:
+                    - generic [ref=e959]: Private vacation rental royan france beach apartment bals ile d oleron
+                    - img [ref=e963]
+              - generic [ref=e965]:
+                - link "Best vacation rental royan france beach apartment bals ile d oleron" [ref=e969] [cursor=pointer]:
+                  - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=Best+vacation+rental+royan+france+beach+apartment+bals+ile+d+oleron&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q1QJ6BAhSEAE
+                  - generic [ref=e970]:
+                    - generic [ref=e975]: Best vacation rental royan france beach apartment bals ile d oleron
+                    - img [ref=e979]
+                - link "Ile d Oléron Tourism" [ref=e984] [cursor=pointer]:
+                  - /url: /search?sca_esv=46b5e676a6bf9410&hl=en&q=Ile+d+Ol%C3%A9ron+Tourism&sa=X&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q1QJ6BAhREAE
+                  - generic [ref=e985]:
+                    - generic [ref=e990]: Ile d Oléron Tourism
+                    - img [ref=e994]
+          - navigation [ref=e996]:
+            - heading "Page navigation" [level=1] [ref=e997]
+            - text: "1"
+            - link "Page 2" [ref=e1000] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=10&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAE
+              - text: "2"
+            - link "Page 3" [ref=e1002] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=20&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAG
+              - text: "3"
+            - link "Page 4" [ref=e1004] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=30&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAI
+              - text: "4"
+            - link "Page 5" [ref=e1006] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=40&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAK
+              - text: "5"
+            - link "Page 6" [ref=e1008] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=50&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAM
+              - text: "6"
+            - link "Page 7" [ref=e1010] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=60&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAO
+              - text: "7"
+            - link "Page 8" [ref=e1012] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=70&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAQ
+              - text: "8"
+            - link "Page 9" [ref=e1014] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=80&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAS
+              - text: "9"
+            - link "Page 10" [ref=e1016] [cursor=pointer]:
+              - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=90&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8tMDegQIThAU
+              - text: "10"
+            - heading "Next" [level=2] [ref=e1018]:
+              - link "Next" [ref=e1019] [cursor=pointer]:
+                - /url: /search?q=vacation+rental+royan+france+beach+apartment+bals+ile+d'oleron&sca_esv=46b5e676a6bf9410&hl=en&ei=-UBCauKcI8OehbIP7JeD8AY&start=10&sa=N&sstk=AU9db-DTinu2-BhB9pTwvnqm9KPSUtntTxqtLgVrfxKWsijuZWPjHo2t1xdYX3tBDvtz8Wd746MCEeiYp4xbaz2R8c03Bn6ljsqVWA&ved=2ahUKEwii_cCfl6yVAxVDT0EAHezLAG4Q8NMDegQIThAW
+                - generic [ref=e1021]: Next
+        - navigation
+      - complementary "Complementary results" [ref=e1022]:
+        - heading "Complementary results" [level=2] [ref=e1023]
+    - contentinfo [ref=e1024]:
+      - heading "Footer links" [level=1] [ref=e1025]
+      - generic [ref=e1029]:
+        - generic [ref=e1031]:
+          - text: Morocco
+          - generic [ref=e1033]:
+            - button "Marrakesh - Based on your past activity" [ref=e1035] [cursor=pointer]:
+              - generic [ref=e1036]: Marrakesh
+              - generic [ref=e1038]:
+                - text: "-"
+                - generic [ref=e1039]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=e1041] [cursor=pointer]: Update location
+        - generic [ref=e1044]:
+          - link "Help" [ref=e1045] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-MA&fg=1
+          - link "Send feedback" [ref=e1046] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=e1047] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-MA&fg=1
+          - link "Terms" [ref=e1048] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-MA&fg=1

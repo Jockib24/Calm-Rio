@@ -1,0 +1,962 @@
+- generic [active] [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e24]:
+        - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img [ref=e28]
+        - search [ref=e30]:
+          - generic [ref=e32]:
+            - tablist [ref=e34]:
+              - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+                - generic [ref=e39]: Logements
+                - generic [ref=e41]: Logements
+              - tab "Expériences, nouveautés" [ref=e42] [cursor=pointer]:
+                - generic [ref=e47]:
+                  - text: NOUVEAU
+                  - generic [ref=e48]: NOUVEAU
+                - generic [ref=e49]: Expériences
+                - generic [ref=e51]: Expériences, nouveautés
+              - tab "Services, nouveautés" [ref=e52] [cursor=pointer]:
+                - generic [ref=e57]:
+                  - text: NOUVEAU
+                  - generic [ref=e58]: NOUVEAU
+                - generic [ref=e59]: Services
+                - generic [ref=e61]: Services, nouveautés
+            - search "Commencez votre recherche" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: Commencez votre recherche
+              - generic [ref=e65]:
+                - button "Destination N'importe où" [ref=e263]:
+                  - generic [ref=e67]: Destination
+                  - generic [ref=e264]: N'importe où
+                - button "Arrivée/Départ Dates flexibles" [ref=e265]:
+                  - generic [ref=e73]: Arrivée/Départ
+                  - generic [ref=e266]: Dates flexibles
+                - button "Voyageurs Ajouter des voyageurs" [ref=e267]:
+                  - generic [ref=e78]: Voyageurs
+                  - generic [ref=e268]: Ajouter des voyageurs
+              - img [ref=e84]
+        - navigation "Profil" [ref=e89]:
+          - generic [ref=e90]:
+            - button "Devenir hôte" [ref=e269] [cursor=pointer]:
+              - generic [ref=e270]: Devenir hôte
+            - button "Choisissez une langue et une devise" [ref=e271] [cursor=pointer]:
+              - img [ref=e273]
+          - button "Menu de navigation principal" [ref=e275] [cursor=pointer]:
+            - img [ref=e277]
+      - main [ref=e105]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e117]:
+              - heading "Belle villa neuve de bord de mer pour 6 pers" [level=1] [ref=e120]
+              - generic [ref=e122]:
+                - button "Partager" [ref=e124] [cursor=pointer]:
+                  - generic [ref=e125]:
+                    - img [ref=e127]
+                    - text: Partager
+                - button "Ajouter aux favoris" [ref=e130] [cursor=pointer]:
+                  - generic [ref=e131]:
+                    - img [ref=e133]
+                    - text: Enregistrer
+            - generic [ref=e143]:
+              - generic [ref=e145]:
+                - button "Image 1 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e150] [cursor=pointer]:
+                  - img [ref=e153]
+                - generic [ref=e155]:
+                  - button "Image 2 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e159] [cursor=pointer]:
+                    - img [ref=e162]
+                  - button "Image 3 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e166] [cursor=pointer]:
+                    - img [ref=e169]
+                - generic [ref=e171]:
+                  - button "Image 4 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e175] [cursor=pointer]:
+                    - img [ref=e178]
+                  - button "Image 5 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e182] [cursor=pointer]:
+                    - img [ref=e185]
+              - button "Afficher toutes les photos" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]:
+                  - generic:
+                    - img
+                    - text: Afficher toutes les photos
+          - generic [ref=e190]:
+            - generic [ref=e192]:
+              - generic [ref=e197]:
+                - 'heading "Logement entier : hébergement - Saint-Trojan-les-Bains, France" [level=2] [ref=e199]'
+                - list [ref=e201]:
+                  - listitem [ref=e202]: 6 voyageurs
+                  - listitem [ref=e203]:
+                    - generic [ref=e204]: ·
+                    - text: 3 chambres
+                  - listitem [ref=e205]:
+                    - generic [ref=e206]: ·
+                    - text: 4 lits
+                  - listitem [ref=e207]:
+                    - generic [ref=e208]: ·
+                    - text: 1 salle de bain
+              - button "Coup de cœur voyageurs. Un des logements préférés des voyageurs sur Airbnb 4,95 étoile(s) sur 5. 40 commentaires" [ref=e284] [cursor=pointer]:
+                - generic [ref=e285]:
+                  - generic [ref=e286]:
+                    - img "Coup de cœur voyageurs." [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e290]
+                        - generic [ref=e301]: Coup de cœur voyageurs
+                        - img [ref=e303]
+                    - generic [ref=e314]: Un des logements préférés des voyageurs sur Airbnb
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: 4,95 étoile(s) sur 5.
+                    - generic [ref=e317]: 4,95
+                    - generic [ref=e318]:
+                      - img [ref=e320]
+                      - img [ref=e322]
+                      - img [ref=e324]
+                      - img [ref=e326]
+                      - img [ref=e328]
+                  - generic [ref=e331]:
+                    - generic [ref=e332]: 40 commentaires
+                    - generic [ref=e333]: "40"
+                    - generic [ref=e334]: Commentaires
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - button "Agnès est Superhôte. En savoir plus sur Agnès." [ref=e339] [cursor=pointer]:
+                    - img "Photo de profil d'hôte" [ref=e341]:
+                      - img [ref=e342]
+                  - img [ref=e344]
+                - generic [ref=e347]:
+                  - generic [ref=e348]: "Hôte : Agnès"
+                  - list [ref=e350]:
+                    - listitem [ref=e351]: Superhôte
+                    - listitem [ref=e352]:
+                      - generic [ref=e353]: ·
+                      - text: Hôte depuis 5 ans
+              - generic [ref=e358]:
+                - heading "Mise en avant des annonces" [level=2] [ref=e360]
+                - generic [ref=e361]:
+                  - generic [ref=e364]:
+                    - img [ref=e366]
+                    - generic [ref=e368]:
+                      - heading "Arrivée autonome" [level=3] [ref=e370]
+                      - generic [ref=e371]: Vous pouvez entrer dans les lieux avec une boîte à clé sécurisée.
+                  - generic [ref=e374]:
+                    - img [ref=e376]
+                    - generic [ref=e378]:
+                      - heading "Espace de travail dédié" [level=3] [ref=e380]
+                      - generic [ref=e381]: Un espace commun avec wifi, bien aménagé pour travailler.
+                  - generic [ref=e384]:
+                    - img [ref=e386]
+                    - generic [ref=e388]:
+                      - heading "Agnès est Superhôte" [level=3] [ref=e390]
+                      - generic [ref=e391]: Les Superhôtes sont des hôtes expérimentés et très bien notés.
+              - generic [ref=e395]:
+                - generic [ref=e399]:
+                  - text: Maison neuve au style Oléronais, alliant le style insulaire charentais et contemporain, très lumineuse, avec de beaux volumes, idéalement située entre mer et foret.
+                  - text: La maison d’une superficie de 110m² possède un jardin arboré, clos, avec une belle terrasse en bois 50m² orientée plein sud et équipée d’un salon de jardin et de son parasol et une terrasse couverte 17m² équipée d’une table d’extérieur en teck. Un barbecue complète l’équipement.
+                  - text: Le logement
+                  - text: "La villa se compose d’un vaste salon/salle à manger et grande hauteur sous plafond ; toutes les pièces à vivre ont des baies vitrées ouvrant sur les terrasses. Attenante, la cuisine ouverte est complètement équipée : Lave-vaisselle, réfrigérateur, four, micro-ondes et plaque à induction, le cellier est équipé d’un lave-linge, d’un sèche-linge et d’un congélateur."
+                  - text: "La villa possède 3 chambres de 12 m² chacune : 2 chambres avec lit de 160 (*****) et une chambre avec 2 lits de 80 (*****). Une salle de bain avec douche à l’Italienne et un WC suspendu indépendant. Les draps et les draps de bain sont fournis."
+                  - text: Pour les équipements bébé, merci de prévenir l'hôte à l'avance.
+                  - text: Autres remarques
+                  - text: Une prise pour la recharge de votre voiture électrique/hybride est à disposition. Nous demandons un supplément à régler en fin de séjour, avec le relevé de compteur.
+                  - text: Un bureau et un écran avec un connecteur HDMI sont à disposition afin de faciliter et rendre le télétravail confortable.
+                  - text: Détails de l'enregistrement
+                  - text: 17411000371D4
+                - button "Show more about this place" [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403]: Lire la suite
+              - region "Où vous dormirez" [ref=e408]:
+                - generic [ref=e409]:
+                  - generic [ref=e410]:
+                    - heading "Où vous dormirez" [level=2] [ref=e414]
+                    - generic [ref=e415]:
+                      - generic [ref=e416]:
+                        - generic [ref=e417]: 1 sur 2 pages
+                        - generic [ref=e418]: 1 / 2
+                      - button "Précédent" [disabled] [ref=e420]:
+                        - img [ref=e422]
+                      - button "Suivant" [ref=e425] [cursor=pointer]:
+                        - img [ref=e427]
+                  - list [ref=e430]:
+                    - listitem [ref=e431]:
+                      - button "Chambre 1 Chambre 1 2 lits simples" [ref=e434] [cursor=pointer]:
+                        - generic [ref=e435]:
+                          - img "Chambre 1" [ref=e437]:
+                            - img [ref=e439]
+                          - generic [ref=e440]: Chambre 1
+                          - generic [ref=e441]: 2 lits simples
+                    - listitem [ref=e442]:
+                      - button "Chambre 2 Chambre 2 1 lit double" [ref=e445] [cursor=pointer]:
+                        - generic [ref=e446]:
+                          - img "Chambre 2" [ref=e448]:
+                            - img [ref=e450]
+                          - generic [ref=e451]: Chambre 2
+                          - generic [ref=e452]: 1 lit double
+                    - listitem [ref=e453]:
+                      - button "Chambre 3 Chambre 3 1 lit double" [ref=e456] [cursor=pointer]:
+                        - generic [ref=e457]:
+                          - img "Chambre 3" [ref=e459]:
+                            - img [ref=e461]
+                          - generic [ref=e462]: Chambre 3
+                          - generic [ref=e463]: 1 lit double
+              - generic [ref=e468]:
+                - heading "Ce que propose ce logement" [level=2] [ref=e471]
+                - generic [ref=e472]:
+                  - generic [ref=e474]:
+                    - generic [ref=e475]: Accès à la plage
+                    - img [ref=e477]
+                  - generic [ref=e480]:
+                    - generic [ref=e481]: Cuisine
+                    - img [ref=e483]
+                  - generic [ref=e486]:
+                    - generic [ref=e487]: Wifi
+                    - img [ref=e489]
+                  - generic [ref=e492]:
+                    - generic [ref=e493]: Espace de travail dédié
+                    - img [ref=e495]
+                  - generic [ref=e498]:
+                    - generic [ref=e499]: Stationnement gratuit sur place
+                    - img [ref=e501]
+                  - generic [ref=e504]:
+                    - generic [ref=e505]: Animaux acceptés
+                    - img [ref=e507]
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: TV avec abonnement standard au câble
+                    - img [ref=e513]
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: Lave-linge (Gratuit) dans le logement
+                    - img [ref=e519]
+                  - generic [ref=e522]:
+                    - generic [ref=e523]: Sèche-linge (Gratuit) dans le logement
+                    - img [ref=e525]
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: Arrière-cour privée – Clôture intégrale
+                    - img [ref=e531]
+                - button "Afficher les 54 équipements" [ref=e534] [cursor=pointer]:
+                  - generic [ref=e535]: Afficher les 54 équipements
+              - generic [ref=e540]:
+                - generic [ref=e542]:
+                  - heading "Sélectionnez la date d'arrivée" [level=2] [ref=e545]
+                  - generic [ref=e547]: Ajoutez vos dates de voyage pour connaître le prix exact
+                - generic [ref=e549]:
+                  - generic [ref=e553]:
+                    - list [ref=e555]:
+                      - listitem [ref=e556]: L
+                      - listitem [ref=e557]: M
+                      - listitem [ref=e558]: M
+                      - listitem [ref=e559]: J
+                      - listitem [ref=e560]: V
+                      - listitem [ref=e561]: S
+                      - listitem [ref=e562]: D
+                    - list [ref=e564]:
+                      - listitem [ref=e565]: L
+                      - listitem [ref=e566]: M
+                      - listitem [ref=e567]: M
+                      - listitem [ref=e568]: J
+                      - listitem [ref=e569]: V
+                      - listitem [ref=e570]: S
+                      - listitem [ref=e571]: D
+                    - application "Calendrier" [ref=e572]:
+                      - generic:
+                        - button "Reculez pour passer au mois précédent." [disabled] [ref=e574]:
+                          - img [ref=e576]
+                        - button "Avancez pour passer au mois suivant." [ref=e579] [cursor=pointer]:
+                          - img [ref=e581]
+                      - generic [ref=e584]:
+                        - generic [ref=e586]:
+                          - heading "Juin 2026" [level=3] [ref=e589]
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e590]:
+                            - generic [ref=e591]: "1"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e592]:
+                            - generic [ref=e593]: "2"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e594]:
+                            - generic [ref=e595]: "3"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e596]:
+                            - generic [ref=e597]: "4"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e598]:
+                            - generic [ref=e599]: "5"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e600]:
+                            - generic [ref=e601]: "6"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e602]:
+                            - generic [ref=e603]: "7"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e604]:
+                            - generic [ref=e605]: "8"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e606]:
+                            - generic [ref=e607]: "9"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e608]:
+                            - generic [ref=e609]: "10"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e610]:
+                            - generic [ref=e611]: "11"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e612]:
+                            - generic [ref=e613]: "12"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e614]:
+                            - generic [ref=e615]: "13"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e616]:
+                            - generic [ref=e617]: "14"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e618]:
+                            - generic [ref=e619]: "15"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e620]:
+                            - generic [ref=e621]: "16"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e622]:
+                            - generic [ref=e623]: "17"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e624]:
+                            - generic [ref=e625]: "18"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e626]:
+                            - generic [ref=e627]: "19"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e628]:
+                            - generic [ref=e629]: "20"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e630]:
+                            - generic [ref=e631]: "21"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e632]:
+                            - generic [ref=e633]: "22"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e634]:
+                            - generic [ref=e635]: "23"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e636]:
+                            - generic [ref=e637]: "24"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e638]:
+                            - generic [ref=e639]: "25"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e640]:
+                            - generic [ref=e641]: "26"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e642]:
+                            - generic [ref=e643]: "27"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e644]:
+                            - generic [ref=e645]: "28"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e646]:
+                            - generic [ref=e647]: "29"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e648]:
+                            - generic [ref=e649]: "30"
+                        - generic [ref=e651]:
+                          - heading "Juillet 2026" [level=3] [ref=e654]
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e655]:
+                            - generic [ref=e656]: "1"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e657]:
+                            - generic [ref=e658]: "2"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e659]:
+                            - generic [ref=e660]: "3"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e661]:
+                            - generic [ref=e662]: "4"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e663]:
+                            - generic [ref=e664]: "5"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e665]:
+                            - generic [ref=e666]: "6"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e667]:
+                            - generic [ref=e668]: "7"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e669]:
+                            - generic [ref=e670]: "8"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e671]:
+                            - generic [ref=e672]: "9"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e673]:
+                            - generic [ref=e674]: "10"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible. Il y a une durée de séjour minimale de 6 nuits. Définir comme date d'arrivée." [ref=e675] [cursor=pointer]:
+                            - generic [ref=e676]: "11"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible. Il y a une durée de séjour minimale de 6 nuits. Définir comme date d'arrivée." [ref=e677] [cursor=pointer]:
+                            - generic [ref=e678]: "12"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 6 nuits." [ref=e679] [cursor=pointer]:
+                            - generic [ref=e680]: "13"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 6 nuits." [ref=e681] [cursor=pointer]:
+                            - generic [ref=e682]: "14"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 6 nuits." [ref=e683] [cursor=pointer]:
+                            - generic [ref=e684]: "15"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 6 nuits." [ref=e685] [cursor=pointer]:
+                            - generic [ref=e686]: "16"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 6 nuits." [ref=e687] [cursor=pointer]:
+                            - generic [ref=e688]: "17"
+                          - button "NaN, Invalid date, Invalid date NaN. Cette date est uniquement disponible pour le départ." [ref=e689] [cursor=pointer]:
+                            - generic [ref=e690]: "18"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e691]:
+                            - generic [ref=e692]: "19"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e693]:
+                            - generic [ref=e694]: "20"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e695]:
+                            - generic [ref=e696]: "21"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e697]:
+                            - generic [ref=e698]: "22"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e699]:
+                            - generic [ref=e700]: "23"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e701]:
+                            - generic [ref=e702]: "24"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e703]:
+                            - generic [ref=e704]: "25"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e705]:
+                            - generic [ref=e706]: "26"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e707]:
+                            - generic [ref=e708]: "27"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e709]:
+                            - generic [ref=e710]: "28"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e711]:
+                            - generic [ref=e712]: "29"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e713]:
+                            - generic [ref=e714]: "30"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e715]:
+                            - generic [ref=e716]: "31"
+                  - generic [ref=e717]:
+                    - button "Ouvrez le panneau des raccourcis clavier" [ref=e719] [cursor=pointer]:
+                      - img [ref=e721]
+                    - button "Effacer les dates" [ref=e724] [cursor=pointer]:
+                      - generic [ref=e725]: Effacer les dates
+            - generic [ref=e213]:
+              - complementary "Informations de réservation" [ref=e218]:
+                - generic [ref=e221]:
+                  - generic [ref=e728]:
+                    - generic [ref=e729]: Indiquez vos dates pour afficher les prix
+                    - generic [ref=e730]: Indiquez vos dates pour afficher les prix
+                  - generic [ref=e232]:
+                    - 'button "Modifier les dates; Arrivée: Ajouter une date; Départ: Ajouter une date" [ref=e236] [cursor=pointer]':
+                      - generic [ref=e237]:
+                        - generic: Arrivée
+                        - generic [ref=e238]: Ajouter une date
+                      - generic [ref=e239]:
+                        - generic: Départ
+                        - generic [ref=e240]: Ajouter une date
+                    - button "1 voyageur" [ref=e244]:
+                      - generic [ref=e245]:
+                        - generic: Voyageurs
+                        - generic [ref=e247] [cursor=pointer]: 1 voyageur
+                      - generic:
+                        - img
+                  - button "Vérifier la disponibilité" [ref=e731] [cursor=pointer]:
+                    - generic [ref=e251]:
+                      - generic: Vérifier la disponibilité
+              - button "Signaler cette annonce" [ref=e737] [cursor=pointer]:
+                - generic [ref=e739]:
+                  - img [ref=e741]
+                  - text: Signaler cette annonce
+          - generic [ref=e750]:
+            - generic [ref=e751]:
+              - heading "Évaluation de 4,95 sur 5 sur la base de 40 commentaires." [level=2] [ref=e756]:
+                - generic [ref=e757]: Évaluation de 4,95 sur 5 sur la base de 40 commentaires.
+                - generic [ref=e758]: 4,95
+              - generic [ref=e761]: Coup de cœur voyageurs
+              - generic [ref=e762]: Ce logement fait partie des Coups de cœur voyageurs, à partir des évaluations, commentaires et de la fiabilité des annonces selon les voyageurs.
+              - button "Afficher les évaluations complètes" [ref=e764] [cursor=pointer]
+            - group "Termes mentionnés dans les commentaires" [ref=e767]:
+              - generic [ref=e773]:
+                - button "Plage 11" [ref=e775] [cursor=pointer]:
+                  - generic [ref=e776]:
+                    - img [ref=e779]
+                    - generic [ref=e780]:
+                      - generic [ref=e781]: Plage
+                      - generic [ref=e782]: "11"
+                - button "Vélo 8" [ref=e784] [cursor=pointer]:
+                  - generic [ref=e785]:
+                    - img [ref=e788]
+                    - generic [ref=e789]:
+                      - generic [ref=e790]: Vélo
+                      - generic [ref=e791]: "8"
+                - button "Emplacement 18" [ref=e793] [cursor=pointer]:
+                  - generic [ref=e794]:
+                    - img [ref=e797]
+                    - generic [ref=e798]:
+                      - generic [ref=e799]: Emplacement
+                      - generic [ref=e800]: "18"
+                - button "Espaces extérieurs 13" [ref=e802] [cursor=pointer]:
+                  - generic [ref=e803]:
+                    - img [ref=e806]
+                    - generic [ref=e807]:
+                      - generic [ref=e808]: Espaces extérieurs
+                      - generic [ref=e809]: "13"
+                - button "Hospitalité 20" [ref=e811] [cursor=pointer]:
+                  - generic [ref=e812]:
+                    - img [ref=e815]
+                    - generic [ref=e816]:
+                      - generic [ref=e817]: Hospitalité
+                      - generic [ref=e818]: "20"
+                - button "Équipements 16" [ref=e820] [cursor=pointer]:
+                  - generic [ref=e821]:
+                    - img [ref=e824]
+                    - generic [ref=e825]:
+                      - generic [ref=e826]: Équipements
+                      - generic [ref=e827]: "16"
+                - button "Espaces intérieurs 13" [ref=e829] [cursor=pointer]:
+                  - generic [ref=e830]:
+                    - img [ref=e833]
+                    - generic [ref=e834]:
+                      - generic [ref=e835]: Espaces intérieurs
+                      - generic [ref=e836]: "13"
+                - button "Décoration 9" [ref=e838] [cursor=pointer]:
+                  - generic [ref=e839]:
+                    - img [ref=e842]
+                    - generic [ref=e843]:
+                      - generic [ref=e844]: Décoration
+                      - generic [ref=e845]: "9"
+                - button "Propreté 11" [ref=e847] [cursor=pointer]:
+                  - generic [ref=e848]:
+                    - img [ref=e851]
+                    - generic [ref=e852]:
+                      - generic [ref=e853]: Propreté
+                      - generic [ref=e854]: "11"
+                - button "Famille 10" [ref=e856] [cursor=pointer]:
+                  - generic [ref=e857]:
+                    - img [ref=e860]
+                    - generic [ref=e861]:
+                      - generic [ref=e862]: Famille
+                      - generic [ref=e863]: "10"
+              - button "Suivant" [ref=e866] [cursor=pointer]:
+                - img [ref=e868]
+            - list [ref=e873]:
+              - listitem [ref=e874]:
+                - generic [ref=e875]:
+                  - generic [ref=e876]:
+                    - generic [ref=e878]:
+                      - generic [ref=e879]:
+                        - heading "Catherine" [level=3] [ref=e880]
+                        - generic [ref=e881]: 9 ans sur Airbnb
+                      - link "Catherine" [ref=e883] [cursor=pointer]:
+                        - /url: /users/profile/1485639373859530972
+                        - img "Catherine" [ref=e885]
+                    - generic [ref=e886]:
+                      - generic [ref=e887]:
+                        - generic [ref=e888]: Évaluation 5 étoiles
+                        - img [ref=e889]
+                        - img [ref=e891]
+                        - img [ref=e893]
+                        - img [ref=e895]
+                        - img [ref=e897]
+                      - generic [ref=e899]:
+                        - generic [ref=e900]: ","
+                        - generic [ref=e901]: ·
+                      - generic [ref=e902]: avril 2026
+                      - generic [ref=e903]:
+                        - generic [ref=e904]: ","
+                        - generic [ref=e905]: ·
+                      - generic [ref=e906]: Séjour d'environ une semaine
+                  - generic [ref=e907]:
+                    - generic [ref=e911]:
+                      - text: Nous avons passé un excellent séjour dans la maison d'Agnès. Elle est située dans un tres bel environnement et très proche de la mer à pieds ou en vélo. La maison est spacieuse, confortable et tres bien équipée.
+                      - text: Nous reviendrons certainement.
+                    - button "Lire la suite" [ref=e913] [cursor=pointer]
+              - listitem [ref=e914]:
+                - generic [ref=e915]:
+                  - generic [ref=e916]:
+                    - generic [ref=e918]:
+                      - generic [ref=e919]:
+                        - heading "Nicolas" [level=3] [ref=e920]
+                        - generic [ref=e921]: 8 ans sur Airbnb
+                      - link "Nicolas" [ref=e923] [cursor=pointer]:
+                        - /url: /users/profile/1490538701171835835
+                        - img "Nicolas" [ref=e925]
+                    - generic [ref=e926]:
+                      - generic [ref=e927]:
+                        - generic [ref=e928]: Évaluation 5 étoiles
+                        - img [ref=e929]
+                        - img [ref=e931]
+                        - img [ref=e933]
+                        - img [ref=e935]
+                        - img [ref=e937]
+                      - generic [ref=e939]:
+                        - generic [ref=e940]: ","
+                        - generic [ref=e941]: ·
+                      - generic [ref=e942]: mai 2026
+                      - generic [ref=e943]:
+                        - generic [ref=e944]: ","
+                        - generic [ref=e945]: ·
+                      - generic [ref=e946]: Séjour d'environ une semaine
+                  - generic [ref=e947]:
+                    - generic [ref=e951]:
+                      - text: Charmante maison et emplacement paisible
+                      - text: Un séjour d'une semaine dans la charmante maison d'Agnès et Ludovic où tout le confort est là, on se sent très bien dans leur belle propriété décorée avec goût, qui dispose de deux belles terrasses avec un petit jardin privatif en herbe et clôturé, idéal pour notre beagle ! Il est rare de constater un équipement aussi complet, une très bonne literie et une propreté impeccable, le tout dans un quartier très paisible, à 5-10 minutes en voiture du centre de Trojan, à 35-40 minutes à pied le long de la côte avec vue sur le pont d'Oléron, magnifique ! De l'autre côte, direction la plage de Gatseau à 30-40 minutes à pied par le sentier côtier, splendide. Emplacement parfait pour découvrir le sud de l'île, avec des hôtes très accueillants. Mille merci pour ce beau séjour !
+                    - button "Lire la suite" [ref=e953] [cursor=pointer]
+              - listitem [ref=e954]:
+                - generic [ref=e955]:
+                  - generic [ref=e956]:
+                    - generic [ref=e958]:
+                      - generic [ref=e959]:
+                        - heading "Elodie" [level=3] [ref=e960]
+                        - generic [ref=e961]: 6 ans sur Airbnb
+                      - link "Elodie" [ref=e963] [cursor=pointer]:
+                        - /url: /users/profile/1488995352639403575
+                        - img "Elodie" [ref=e965]
+                    - generic [ref=e966]:
+                      - generic [ref=e967]:
+                        - generic [ref=e968]: Évaluation 5 étoiles
+                        - img [ref=e969]
+                        - img [ref=e971]
+                        - img [ref=e973]
+                        - img [ref=e975]
+                        - img [ref=e977]
+                      - generic [ref=e979]:
+                        - generic [ref=e980]: ","
+                        - generic [ref=e981]: ·
+                      - generic [ref=e982]: juillet 2025
+                      - generic [ref=e983]:
+                        - generic [ref=e984]: ","
+                        - generic [ref=e985]: ·
+                      - generic [ref=e986]: Séjour d'environ une semaine
+                  - generic [ref=e987]:
+                    - generic [ref=e991]:
+                      - text: Nous avons passé un excellent séjour sur l’île d’Oléron dans cette jolie maison très bien située, à quelques pas de l’océan.
+                      - text: La maison est confortable, très bien équipée et décorée avec goût. La literie est de qualité et l’extérieur est magnifique, avec un bel espace aménagé et un salon de jardin idéal pour se retrouver, partager des repas ou simplement se détendre.
+                      - text: Tout était réuni pour un séjour réussi !
+                    - button "Lire la suite" [ref=e994] [cursor=pointer]
+              - listitem [ref=e995]:
+                - generic [ref=e996]:
+                  - generic [ref=e997]:
+                    - generic [ref=e999]:
+                      - generic [ref=e1000]:
+                        - heading "Valerie" [level=3] [ref=e1001]
+                        - generic [ref=e1002]: 15 ans sur Airbnb
+                      - link "Valerie" [ref=e1004] [cursor=pointer]:
+                        - /url: /users/profile/1472672281023451654
+                        - img "Valerie" [ref=e1006]
+                    - generic [ref=e1007]:
+                      - generic [ref=e1008]:
+                        - generic [ref=e1009]: Évaluation 5 étoiles
+                        - img [ref=e1010]
+                        - img [ref=e1012]
+                        - img [ref=e1014]
+                        - img [ref=e1016]
+                        - img [ref=e1018]
+                      - generic [ref=e1020]:
+                        - generic [ref=e1021]: ","
+                        - generic [ref=e1022]: ·
+                      - generic [ref=e1023]: mai 2025
+                      - generic [ref=e1024]:
+                        - generic [ref=e1025]: ","
+                        - generic [ref=e1026]: ·
+                      - generic [ref=e1027]: Séjour de plus d'une semaine
+                  - generic [ref=e1028]:
+                    - generic [ref=e1032]:
+                      - text: Maison magnifique, avec un jardin paisible offrant un bel espace pour se reposer et se ressourcer. La maison a des chambres et un séjour / salle à manger spacieux et lumineux.
+                      - text: Les propriétaires sonst des personnes accueillantes et chaleureuses qui redent à l’écoute tout au long du séjour.
+                      - text: Je recommande vivement cette belle location sur l’île d’Oleron.
+                    - button "Lire la suite" [ref=e1034] [cursor=pointer]
+              - listitem [ref=e1035]:
+                - generic [ref=e1036]:
+                  - generic [ref=e1037]:
+                    - generic [ref=e1039]:
+                      - generic [ref=e1040]:
+                        - heading "Annette" [level=3] [ref=e1041]
+                        - generic [ref=e1042]: 5 ans sur Airbnb
+                      - link "Annette" [ref=e1044] [cursor=pointer]:
+                        - /url: /users/profile/1494178835167993369
+                        - img "Annette" [ref=e1046]
+                    - generic [ref=e1047]:
+                      - generic [ref=e1048]:
+                        - generic [ref=e1049]: Évaluation 5 étoiles
+                        - img [ref=e1050]
+                        - img [ref=e1052]
+                        - img [ref=e1054]
+                        - img [ref=e1056]
+                        - img [ref=e1058]
+                      - generic [ref=e1060]:
+                        - generic [ref=e1061]: ","
+                        - generic [ref=e1062]: ·
+                      - generic [ref=e1063]: août 2024
+                      - generic [ref=e1064]:
+                        - generic [ref=e1065]: ","
+                        - generic [ref=e1066]: ·
+                      - generic [ref=e1067]: Séjour d'environ une semaine
+                  - generic [ref=e1068]:
+                    - generic [ref=e1072]:
+                      - text: Le séjour s'est très bien passé.
+                      - text: "Le logement était incroyable:"
+                      - text: "- très grand"
+                      - text: "- très propre"
+                      - text: "- très fonctionnel"
+                      - text: "- moderne"
+                      - text: "- cuisine très bien équipée"
+                      - text: "- terrasses et jardin très agréables"
+                      - text: "- proche de la mer"
+                      - text: "- propriétaires très gentils: accueil parfait à l'arrivée, départ chaleureux également"
+                      - text: .......
+                      - text: Encore un grand merci pour cette location.!
+                      - text: cordialement
+                    - button "Lire la suite" [ref=e1075] [cursor=pointer]
+              - listitem [ref=e1076]:
+                - generic [ref=e1077]:
+                  - generic [ref=e1078]:
+                    - generic [ref=e1080]:
+                      - generic [ref=e1081]:
+                        - heading "Jean-Pierre" [level=3] [ref=e1082]
+                        - generic [ref=e1083]: 5 ans sur Airbnb
+                      - link "Jean-Pierre" [ref=e1085] [cursor=pointer]:
+                        - /url: /users/profile/1481515742648405239
+                        - img "Jean-Pierre" [ref=e1087]
+                    - generic [ref=e1088]:
+                      - generic [ref=e1089]:
+                        - generic [ref=e1090]: Évaluation 4 étoiles
+                        - img [ref=e1091]
+                        - img [ref=e1093]
+                        - img [ref=e1095]
+                        - img [ref=e1097]
+                        - img [ref=e1099]
+                      - generic [ref=e1101]:
+                        - generic [ref=e1102]: ","
+                        - generic [ref=e1103]: ·
+                      - generic [ref=e1104]: août 2024
+                      - generic [ref=e1105]:
+                        - generic [ref=e1106]: ","
+                        - generic [ref=e1107]: ·
+                      - generic [ref=e1108]: Séjour d'environ une semaine
+                  - generic [ref=e1109]:
+                    - generic [ref=e1113]:
+                      - text: Belle maison moderne, spacieuse, bien équipée et idéalement située à proximité des plages. Nous avons particulièrement apprécié l'extérieur avec sa grande terrasse en bois et son salon de jardin.
+                      - text: Toutefois, la semaine ayant été particulièrement chaude, et n'ayant pas de clim ni ventilateur, il nous a été très difficile de dormir la fenêtre ouverte en raison des moustiques...
+                    - button "Lire la suite" [ref=e1115] [cursor=pointer]
+            - generic [ref=e1116]:
+              - button "Afficher les 40 commentaires, Ouvre la boîte de dialogue modale" [ref=e1118] [cursor=pointer]:
+                - generic [ref=e1119]: Afficher les 40 commentaires
+              - button "Fonctionnement des commentaires" [ref=e1120] [cursor=pointer]:
+                - generic [ref=e1121]:
+                  - generic [ref=e1122]: Fonctionnement des commentaires
+                  - generic [ref=e1123]: Fonctionnement des commentaires
+          - generic [ref=e1130]:
+            - heading "Où se situe le logement" [level=2] [ref=e1133]
+            - generic [ref=e1134]: Saint-Trojan-les-Bains, Nouvelle-Aquitaine, France
+            - generic [ref=e1139]:
+              - text: L'emplacement de ce logement est vérifié et l'adresse exacte sera communiquée après la réservation.
+              - button "En savoir plus sur la vérification" [ref=e1140] [cursor=pointer]
+            - generic [ref=e1144]:
+              - heading "Points forts du quartier" [level=2] [ref=e1146]
+              - generic [ref=e1149]:
+                - text: Le village de Saint Trojan, le port et le marché sont accessibles à vélo (5/10 min par les pistes cyclables ou le chemin forestier). La maison est située dans le quartier résidentiel, à proximité du club de voile et de tennis de Saint Trojan, de la plage de Gatseau et de la grande plage.
+                - text: En raison du contexte sanitaire spécifique au Covid 19, et
+            - button "Plus d'informations sur l'emplacement" [ref=e1152] [cursor=pointer]:
+              - generic [ref=e1154]:
+                - generic [ref=e1155]: Lire la suite
+                - img [ref=e1157]
+          - generic [ref=e1165]:
+            - heading "Faites connaissance avec votre hôte" [level=2] [ref=e1167]
+            - generic [ref=e1170]:
+              - generic [ref=e1171]:
+                - generic [ref=e1172]:
+                  - generic [ref=e1173]:
+                    - generic [ref=e1174]:
+                      - generic [ref=e1175]:
+                        - img [ref=e1179]
+                        - img "Identité vérifiée" [ref=e1181]:
+                          - img [ref=e1182]
+                      - generic [ref=e1184]:
+                        - heading "Agnès" [level=2] [ref=e1186]:
+                          - generic [ref=e1188]: Agnès
+                        - generic [ref=e1189]:
+                          - img [ref=e1190]
+                          - generic [ref=e1192]: Superhôte
+                    - group [ref=e1193]:
+                      - generic [ref=e1194]:
+                        - generic [ref=e1195]:
+                          - generic [ref=e1196]: 40 évaluations
+                          - generic [ref=e1197]:
+                            - generic [ref=e1198]: "40"
+                            - generic [ref=e1199]: évaluations
+                        - separator [ref=e1200]
+                        - generic [ref=e1201]:
+                          - generic [ref=e1202]: Évaluation de 4,95 sur 5 en moyenne
+                          - generic [ref=e1203]:
+                            - generic [ref=e1205]:
+                              - text: 4,95
+                              - img [ref=e1206]
+                            - generic [ref=e1208]: en note globale
+                        - separator [ref=e1209]
+                        - generic [ref=e1210]:
+                          - generic [ref=e1211]: 5 ans en tant qu'hôte
+                          - generic [ref=e1212]:
+                            - generic [ref=e1213]: "5"
+                            - generic [ref=e1214]: ans en tant qu'hôte
+                  - link "Accéder au profil complet de l'hôte" [ref=e1216] [cursor=pointer]:
+                    - /url: /users/profile/1469852027563814486?previous_page_name=PdpHomeMarketplace
+                - generic [ref=e1220]:
+                  - img [ref=e1221]
+                  - generic [ref=e1223]: Entreprises
+              - generic [ref=e1224]:
+                - generic [ref=e1226]:
+                  - heading "Agnès est Superhôte" [level=3] [ref=e1228]
+                  - text: Les Superhôtes sont des hôtes expérimentés qui bénéficient de très bonnes évaluations et qui s'engagent à offrir d'excellents séjours aux voyageurs.
+                - generic [ref=e1229]:
+                  - generic [ref=e1230]:
+                    - heading "Informations sur l'hôte" [level=3] [ref=e1232]
+                    - generic [ref=e1233]:
+                      - generic [ref=e1234]: "Taux de réponse : 100 %"
+                      - generic [ref=e1235]: Répond dans l'heure
+                  - link "Envoyer un message à l'hôte" [ref=e1237] [cursor=pointer]:
+                    - /url: /contact_host/50122536/send_message
+                    - generic [ref=e1238]: Envoyer un message à l'hôte
+                  - generic [ref=e1240]:
+                    - generic [ref=e1241]:
+                      - img [ref=e1243]
+                      - text: Afin de protéger votre paiement, utilisez toujours Airbnb pour envoyer de l'argent et communiquer avec les hôtes.
+                    - generic [ref=e1252]:
+                      - text: Cette annonce est proposée par une entreprise.
+                      - link "En savoir plus" [ref=e1254] [cursor=pointer]:
+                        - /url: "#action"
+          - generic [ref=e1262]:
+            - heading "À savoir" [level=2] [ref=e1263]:
+              - generic [ref=e1264]: À savoir
+            - generic [ref=e1266]:
+              - generic [ref=e1268]:
+                - img [ref=e1270]
+                - generic [ref=e1272]:
+                  - generic [ref=e1273]: Conditions d'annulation
+                  - generic [ref=e1275]: Ajoutez vos dates de voyage pour connaître les conditions d'annulation de ce séjour.
+                  - button "Ajouter des dates" [ref=e1277] [cursor=pointer]
+              - 'generic "En savoir plus sur : Règlement intérieur" [ref=e1278]':
+                - generic [ref=e1279]:
+                  - img [ref=e1281]
+                  - generic [ref=e1283]:
+                    - generic [ref=e1284]: Règlement intérieur
+                    - generic [ref=e1285]:
+                      - generic [ref=e1286]: "Arrivée : entre 16:00 et 20:00"
+                      - generic [ref=e1287]: Départ avant 10:00
+                      - generic [ref=e1288]: 6 voyageurs maximum
+                    - 'button "En savoir plus sur : Règlement intérieur" [ref=e1290] [cursor=pointer]': En savoir plus
+              - generic [ref=e1292]:
+                - img [ref=e1294]
+                - generic [ref=e1296]:
+                  - generic [ref=e1297]: Sécurité et logement
+                  - generic [ref=e1298]:
+                    - generic [ref=e1299]: Lac, rivière ou autre étendue d'eau à proximité
+                    - generic [ref=e1300]: Détecteur de monoxyde de carbone
+                    - generic [ref=e1301]: Détecteur de fumée
+                  - button "En savoir plus" [ref=e1303] [cursor=pointer]
+          - navigation "Fil d'Ariane" [ref=e1312]:
+            - list [ref=e1313]:
+              - listitem [ref=e1314]:
+                - link "Airbnb" [ref=e1315] [cursor=pointer]:
+                  - /url: /
+                - generic [ref=e1316]:
+                  - generic:
+                    - img
+              - listitem [ref=e1317]:
+                - link "France" [ref=e1318] [cursor=pointer]:
+                  - /url: /france/stays
+                - generic [ref=e1319]:
+                  - generic:
+                    - img
+              - listitem [ref=e1320]:
+                - link "Southern France" [ref=e1321] [cursor=pointer]:
+                  - /url: /southern-france/stays
+    - contentinfo [ref=e1324]:
+      - generic [ref=e1326]:
+        - heading "Pied de page du site" [level=2] [ref=e1328]
+        - generic [ref=e1329]:
+          - generic [ref=e1330]:
+            - heading "Assistance" [level=3] [ref=e1331]
+            - list [ref=e1332]:
+              - listitem [ref=e1333]:
+                - link "Centre d'aide" [ref=e1334] [cursor=pointer]:
+                  - /url: /help/home?from=footer
+              - listitem [ref=e1335]:
+                - link "Assistance sécurité" [ref=e1336] [cursor=pointer]:
+                  - /url: /help/contact-us?entry=DESKTOP_FOOTER_SAFETY
+              - listitem [ref=e1337]:
+                - link "AirCover" [ref=e1338] [cursor=pointer]:
+                  - /url: /aircover
+              - listitem [ref=e1339]:
+                - link "Lutte contre la discrimination" [ref=e1340] [cursor=pointer]:
+                  - /url: /against-discrimination
+              - listitem [ref=e1341]:
+                - link "Assistance handicap" [ref=e1342] [cursor=pointer]:
+                  - /url: /accessibility
+              - listitem [ref=e1343]:
+                - link "Options d'annulation" [ref=e1344] [cursor=pointer]:
+                  - /url: /help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19
+              - listitem [ref=e1345]:
+                - link "J'ai un problème de voisinage" [ref=e1346] [cursor=pointer]:
+                  - /url: /neighbors
+          - generic [ref=e1347]:
+            - heading "Accueil de voyageurs" [level=3] [ref=e1348]
+            - list [ref=e1349]:
+              - listitem [ref=e1350]:
+                - link "Mettez votre logement sur Airbnb" [ref=e1351] [cursor=pointer]:
+                  - /url: /host/homes?from_footer=1
+              - listitem [ref=e1352]:
+                - link "Proposez votre expérience sur Airbnb" [ref=e1353] [cursor=pointer]:
+                  - /url: /host/experiences
+              - listitem [ref=e1354]:
+                - link "Proposez votre service sur Airbnb" [ref=e1355] [cursor=pointer]:
+                  - /url: /host/services
+              - listitem [ref=e1356]:
+                - link "AirCover pour les hôtes" [ref=e1357] [cursor=pointer]:
+                  - /url: /aircover-for-hosts
+              - listitem [ref=e1358]:
+                - link "Ressources pour les hôtes" [ref=e1359] [cursor=pointer]:
+                  - /url: /resources
+              - listitem [ref=e1360]:
+                - link "Forum de la communauté" [ref=e1361] [cursor=pointer]:
+                  - /url: https://community.withairbnb.com/t5/Community-Center-FR/ct-p/community-center-fr
+              - listitem [ref=e1362]:
+                - link "Hébergement responsable" [ref=e1363] [cursor=pointer]:
+                  - /url: /help/responsible-hosting
+              - listitem [ref=e1364]:
+                - link "Participez à un cours gratuit pour les hôtes" [ref=e1365] [cursor=pointer]:
+                  - /url: /e/intro-to-hosting
+              - listitem [ref=e1366]:
+                - link "Trouver un co‑hôte" [ref=e1367] [cursor=pointer]:
+                  - /url: /host/co-hosts
+              - listitem [ref=e1368]:
+                - link "Parrainer un hôte" [ref=e1369] [cursor=pointer]:
+                  - /url: /refer
+          - generic [ref=e1370]:
+            - heading "Airbnb" [level=3] [ref=e1371]
+            - list [ref=e1372]:
+              - listitem [ref=e1373]:
+                - link "Édition été 2026" [ref=e1374] [cursor=pointer]:
+                  - /url: /release
+              - listitem [ref=e1375]:
+                - link "Newsroom" [ref=e1376] [cursor=pointer]:
+                  - /url: /press/news
+              - listitem [ref=e1377]:
+                - link "Carrières" [ref=e1378] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e1379]:
+                - link "Investisseurs" [ref=e1380] [cursor=pointer]:
+                  - /url: https://investors.airbnb.com
+              - listitem [ref=e1381]:
+                - link "Cartes cadeaux" [ref=e1382] [cursor=pointer]:
+                  - /url: /giftcards
+              - listitem [ref=e1383]:
+                - link "Séjours d'urgence Airbnb.org" [ref=e1384] [cursor=pointer]:
+                  - /url: https://www.airbnb.org?locale=fr
+        - generic [ref=e1385]:
+          - generic [ref=e1386]: Section de pied de page
+          - generic [ref=e1388]:
+            - generic [ref=e1390]:
+              - generic [ref=e1391]: © 2026 Airbnb, Inc.
+              - generic [ref=e1392]:
+                - generic [ref=e1394]: ·
+                - list [ref=e1396]:
+                  - listitem [ref=e1397]:
+                    - link "Confidentialité" [ref=e1398] [cursor=pointer]:
+                      - /url: /terms/privacy_policy
+                    - generic [ref=e1399]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e1400]:
+                    - link "Conditions générales" [ref=e1401] [cursor=pointer]:
+                      - /url: /terms
+                    - generic [ref=e1402]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e1403]:
+                    - link "Fonctionnement du site" [ref=e1404] [cursor=pointer]:
+                      - /url: /fonctionnement_du_site
+                    - generic [ref=e1405]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e1406]:
+                    - link "Infos sur l'entreprise" [ref=e1407] [cursor=pointer]:
+                      - /url: /about/company-details
+            - generic [ref=e1408]:
+              - generic [ref=e1410]:
+                - button "Sélectionnez une langue" [ref=e1412] [cursor=pointer]:
+                  - generic [ref=e1413]:
+                    - generic:
+                      - img
+                      - text: Français (FR)
+                - button "Sélectionnez une devise" [ref=e1415] [cursor=pointer]:
+                  - generic [ref=e1417]:
+                    - generic [ref=e1418]: €
+                    - generic [ref=e1419]: EUR
+              - list [ref=e1421]:
+                - listitem [ref=e1422]:
+                  - link "Accéder à Facebook" [ref=e1423] [cursor=pointer]:
+                    - /url: https://www.facebook.com/AirbnbFrance
+                    - img [ref=e1425]
+                - listitem [ref=e1427]:
+                  - link "Accéder à Twitter" [ref=e1428] [cursor=pointer]:
+                    - /url: https://twitter.com/airbnb_fr
+                    - img [ref=e1430]
+                - listitem [ref=e1432]:
+                  - link "Accéder à Instagram" [ref=e1433] [cursor=pointer]:
+                    - /url: https://instagram.com/airbnb
+                    - img [ref=e1435]

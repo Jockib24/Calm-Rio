@@ -1,0 +1,272 @@
+- generic [active] [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e18]:
+    - generic [ref=e24]:
+      - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=e28]
+      - search [ref=e30]:
+        - generic [ref=e32]:
+          - tablist [ref=e34]:
+            - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+              - generic [ref=e38]: Logements
+              - generic [ref=e39]: Logements
+            - tab "Expériences, nouveautés" [ref=e40] [cursor=pointer]:
+              - generic [ref=e44]:
+                - text: NOUVEAU
+                - generic [ref=e45]: NOUVEAU
+              - generic [ref=e46]: Expériences
+              - generic [ref=e47]: Expériences, nouveautés
+            - tab "Services, nouveautés" [ref=e48] [cursor=pointer]:
+              - generic [ref=e52]:
+                - text: NOUVEAU
+                - generic [ref=e53]: NOUVEAU
+              - generic [ref=e54]: Services
+              - generic [ref=e55]: Services, nouveautés
+          - search "Commencez votre recherche" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]: Commencez votre recherche
+            - generic [ref=e62]:
+              - button "Destination N'importe où" [ref=e63]:
+                - generic [ref=e64]: Destination
+                - generic [ref=e66]: N'importe où
+              - button "Arrivée/Départ Dates flexibles" [ref=e68]:
+                - generic [ref=e69]: Arrivée/Départ
+                - generic [ref=e70]: Dates flexibles
+              - button "Voyageurs Ajouter des voyageurs" [ref=e72]:
+                - generic [ref=e73]: Voyageurs
+                - generic [ref=e74]: Ajouter des voyageurs
+            - img [ref=e78]
+      - navigation "Profil" [ref=e83]:
+        - generic [ref=e84]:
+          - button "Devenir hôte" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: Devenir hôte
+          - button "Choisissez une langue et une devise" [ref=e88] [cursor=pointer]:
+            - img [ref=e90]
+        - button "Menu de navigation principal" [ref=e94] [cursor=pointer]:
+          - img [ref=e96]
+    - main [ref=e99]:
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e111]:
+            - heading "Bel appartement T2 face plage / Royan centre ville" [level=1] [ref=e114]
+            - generic [ref=e116]:
+              - button "Partager" [ref=e118] [cursor=pointer]:
+                - generic [ref=e119]:
+                  - img [ref=e121]
+                  - text: Partager
+              - button "Ajouter aux favoris" [ref=e124] [cursor=pointer]:
+                - generic [ref=e125]:
+                  - img [ref=e127]
+                  - text: Enregistrer
+          - generic [ref=e137]:
+            - generic [ref=e139]:
+              - button "Image 1 du logement Bel appartement T2 face plage / Royan centre ville" [ref=e144] [cursor=pointer]:
+                - img [ref=e147]
+              - generic [ref=e149]:
+                - button "Image 2 du logement Bel appartement T2 face plage / Royan centre ville" [ref=e153] [cursor=pointer]:
+                  - img [ref=e156]
+                - button "Image 3 du logement Bel appartement T2 face plage / Royan centre ville" [ref=e160] [cursor=pointer]:
+                  - img [ref=e163]
+              - generic [ref=e165]:
+                - button "Image 4 du logement Bel appartement T2 face plage / Royan centre ville" [ref=e169] [cursor=pointer]:
+                  - img [ref=e172]
+                - button "Image 5 du logement Bel appartement T2 face plage / Royan centre ville" [ref=e176] [cursor=pointer]:
+                  - img [ref=e179]
+            - button "Afficher toutes les photos" [ref=e181] [cursor=pointer]:
+              - generic [ref=e182]:
+                - generic:
+                  - img
+                  - text: Afficher toutes les photos
+        - generic [ref=e184]:
+          - generic [ref=e186]:
+            - generic [ref=e191]:
+              - 'heading "Logement entier : appartement - Royan, France" [level=2] [ref=e193]'
+              - list [ref=e195]:
+                - listitem [ref=e196]: 3 voyageurs
+                - listitem [ref=e197]:
+                  - generic [ref=e198]: ·
+                  - text: 1 chambre
+                - listitem [ref=e199]:
+                  - generic [ref=e200]: ·
+                  - text: 2 lits
+                - listitem [ref=e201]:
+                  - generic [ref=e202]: ·
+                  - text: 1 salle de bain
+              - generic [ref=e203]:
+                - img [ref=e205]
+                - generic [ref=e207]: 4,38 étoile(s) sur 5.
+                - generic [ref=e208]: 4,38
+                - generic [ref=e209]: ·
+                - link "13 commentaires" [ref=e210] [cursor=pointer]:
+                  - /url: /rooms/739054439923187740/reviews?source_impression_id=p3_1782726720_P3dymYE8baee7P4d&review_page_entrypoint=pdp_header
+            - generic [ref=e216]:
+              - button "En savoir plus sur Pierre." [ref=e218] [cursor=pointer]:
+                - img "Photo de profil d'hôte" [ref=e220]:
+                  - img [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: "Hôte : Pierre"
+                - list [ref=e225]:
+                  - listitem [ref=e226]: Hôte depuis 11 ans
+            - generic [ref=e231]:
+              - heading "Mise en avant des annonces" [level=2] [ref=e233]
+              - generic [ref=e234]:
+                - generic [ref=e237]:
+                  - img [ref=e239]
+                  - generic [ref=e241]:
+                    - heading "Procédure d'arrivée irréprochable" [level=3] [ref=e243]
+                    - generic [ref=e244]: Les voyageurs récents ont apprécié que leur séjour débute sans accroc.
+                - generic [ref=e247]:
+                  - img [ref=e249]
+                  - generic [ref=e251]:
+                    - heading "Café à domicile" [level=3] [ref=e253]
+                    - generic [ref=e254]: Commencez la journée du bon pied grâce à la cafetière filtre.
+            - generic [ref=e258]:
+              - generic [ref=e262]:
+                - text: Bel appartement T2 de 42m2 au premier étage d'un petit immeuble en plein centre de Royan.
+                - text: Vous pourrez ainsi profiter de la plage de la Grande Conche située juste en face de la résidence ainsi que de toutes les commodités accessibles à pied.
+                - text: Le logement se compose d'une chambre avec dressing, une salle d'eau ainsi qu'une cuisine entièrement équipée ouverte sur un salon/salle à manger. Un petit balcon donnant sur la rue complète le tout avec un aperçu mer.
+                - text: Le logement est équipé du wi-fi.
+                - text: Le logement
+                - text: Le logement est agréable et lumineux, équipé de tout le nécessaire pour un séjour confortable.
+                - text: Le lit dans la chambre est en 140*190, literie neuve de marque Epeda.
+                - text: Le salon comprend un canapé convertible avec matelas Bultex en 140.
+                - text: Le linge n'est pas compris dans la location (parures de lit, serviettes de bain petites et grandes, tapis de bain, torchons) il est possible de prendre l'option avec CHA CHA Conciergerie lors de la réservation et avant votre arrivée.
+                - text: Une autre option serviette de plage est aussi proposée au besoin pour vous faciliter la vie et réduire le poids des bagages.
+                - text: Accès des voyageurs
+                - text: L'accès à l'appartement se fait par le biais d'une boite à clef sur le pallier de la porte de l'immeuble extérieur.
+                - text: Les infos d'accès sont envoyées le jour même à partir de 15h par la messagerie airbnb.
+                - text: Le parking est gratuit dans les rues adjacentes.
+                - text: Détails de l'enregistrement
+                - text: 17306001100ZO
+              - button "Show more about this place" [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: Lire la suite
+            - generic [ref=e271]:
+              - heading "Ce que propose ce logement" [level=2] [ref=e274]
+              - generic [ref=e275]:
+                - generic [ref=e277]:
+                  - generic [ref=e278]: Accès partagé à la plage – Bord de mer
+                  - img [ref=e280]
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Cuisine
+                  - img [ref=e286]
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Wifi
+                  - img [ref=e292]
+                - generic [ref=e295]:
+                  - generic [ref=e296]: Stationnement gratuit sur place
+                  - img [ref=e298]
+                - generic [ref=e301]:
+                  - generic [ref=e302]: Télévision
+                  - img [ref=e304]
+                - generic [ref=e307]:
+                  - generic [ref=e308]: Lave-linge
+                  - img [ref=e310]
+                - generic [ref=e314]: Réfrigérateur
+                - generic [ref=e319]: Four à micro-ondes
+                - generic [ref=e324]: Système audio Philips avec Bluetooth et sorties auxiliaires
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - generic [ref=e330]: "Indisponible : Détecteur de monoxyde de carbone"
+                    - deletion [ref=e331]: Détecteur de monoxyde de carbone
+                  - img [ref=e333]
+              - button "Afficher les 28 équipements" [ref=e336] [cursor=pointer]:
+                - generic [ref=e337]: Afficher les 28 équipements
+            - generic [ref=e344]:
+              - heading "Sélectionnez la date d'arrivée" [level=2] [ref=e347]
+              - generic [ref=e349]: Ajoutez vos dates de voyage pour connaître le prix exact
+          - generic [ref=e358]:
+            - complementary "Informations de réservation" [ref=e363]:
+              - generic [ref=e366]:
+                - generic [ref=e370]:
+                  - generic [ref=e371]: Indiquez vos dates pour afficher les prix
+                  - generic [ref=e372]: Indiquez vos dates pour afficher les prix
+                - generic [ref=e376]:
+                  - 'button "Modifier les dates; Arrivée: Ajouter une date; Départ: Ajouter une date" [ref=e380] [cursor=pointer]':
+                    - generic [ref=e381]:
+                      - generic: Arrivée
+                      - generic [ref=e382]: Ajouter une date
+                    - generic [ref=e383]:
+                      - generic: Départ
+                      - generic [ref=e384]: Ajouter une date
+                  - button "1 voyageur" [ref=e388]:
+                    - generic [ref=e389]:
+                      - generic: Voyageurs
+                      - generic [ref=e391] [cursor=pointer]: 1 voyageur
+                    - generic:
+                      - img
+                - button "Vérifier la disponibilité" [ref=e394] [cursor=pointer]:
+                  - generic [ref=e395]:
+                    - generic: Vérifier la disponibilité
+            - button "Signaler cette annonce" [ref=e403] [cursor=pointer]:
+              - generic [ref=e405]: Signaler cette annonce
+        - generic [ref=e415]:
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - img [ref=e419]
+              - heading "4,38 étoiles sur 5 d'après 13 commentaires" [level=2] [ref=e422]:
+                - generic [ref=e423]: 4,38 étoiles sur 5 d'après 13 commentaires
+                - generic [ref=e424]: 4,38 · 13 commentaires
+            - button "Afficher les évaluations complètes" [ref=e426] [cursor=pointer]
+          - group "Termes mentionnés dans les commentaires" [ref=e429]:
+            - generic [ref=e435]:
+              - button "Plage 3" [ref=e437] [cursor=pointer]:
+                - generic [ref=e438]:
+                  - img [ref=e441]
+                  - generic [ref=e442]:
+                    - generic [ref=e443]: Plage
+                    - generic [ref=e444]: "3"
+              - button "Emplacement 9" [ref=e446] [cursor=pointer]:
+                - generic [ref=e447]:
+                  - img [ref=e450]
+                  - generic [ref=e451]:
+                    - generic [ref=e452]: Emplacement
+                    - generic [ref=e453]: "9"
+              - button "Hospitalité 10" [ref=e455] [cursor=pointer]:
+                - generic [ref=e456]:
+                  - img [ref=e459]
+                  - generic [ref=e460]:
+                    - generic [ref=e461]: Hospitalité
+                    - generic [ref=e462]: "10"
+              - button "Salle de bain 4" [ref=e464] [cursor=pointer]:
+                - generic [ref=e465]:
+                  - img [ref=e468]
+                  - generic [ref=e469]:
+                    - generic [ref=e470]: Salle de bain
+                    - generic [ref=e471]: "4"
+              - button "Propreté 4" [ref=e473] [cursor=pointer]:
+                - generic [ref=e474]:
+                  - img [ref=e477]
+                  - generic [ref=e478]:
+                    - generic [ref=e479]: Propreté
+                    - generic [ref=e480]: "4"
+              - button "Accessibilité à pied 3" [ref=e482] [cursor=pointer]:
+                - generic [ref=e483]:
+                  - img [ref=e486]
+                  - generic [ref=e487]:
+                    - generic [ref=e488]: Accessibilité à pied
+                    - generic [ref=e489]: "3"
+              - button "Précision 3" [ref=e491] [cursor=pointer]:
+                - generic [ref=e492]:
+                  - img [ref=e495]
+                  - generic [ref=e496]:
+                    - generic [ref=e497]: Précision
+                    - generic [ref=e498]: "3"
+              - button "Bruit 2" [ref=e500] [cursor=pointer]:
+                - generic [ref=e501]:
+                  - img [ref=e504]
+                  - generic [ref=e505]:
+                    - generic [ref=e506]: Bruit
+                    - generic [ref=e507]: "2"
+            - button "Suivant" [ref=e510] [cursor=pointer]:
+              - img [ref=e512]
+          - generic [ref=e519]:
+            - button "Afficher les 13 commentaires, Ouvre la boîte de dialogue modale" [ref=e521] [cursor=pointer]:
+              - generic [ref=e522]: Afficher les 13 commentaires
+            - button "Fonctionnement des commentaires" [ref=e523] [cursor=pointer]:
+              - generic [ref=e524]:
+                - generic [ref=e525]: Fonctionnement des commentaires
+                - generic [ref=e526]: Fonctionnement des commentaires

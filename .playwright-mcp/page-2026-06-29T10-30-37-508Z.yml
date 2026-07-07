@@ -1,0 +1,1980 @@
+- generic [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e14]:
+    - banner [ref=e15]:
+      - generic [ref=e19]:
+        - link "Page d'accueil Airbnb" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - img [ref=e22]
+        - search [ref=e24]:
+          - generic [ref=e26]:
+            - tablist [ref=e28]:
+              - tab "Logements" [selected] [ref=e29] [cursor=pointer]:
+                - generic [ref=e32]: Logements
+                - generic [ref=e33]: Logements
+              - tab "Expériences, nouveautés" [ref=e34] [cursor=pointer]:
+                - generic [ref=e38]:
+                  - text: NOUVEAU
+                  - generic [ref=e39]: NOUVEAU
+                - generic [ref=e40]: Expériences
+                - generic [ref=e41]: Expériences, nouveautés
+              - tab "Services, nouveautés" [ref=e42] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - text: NOUVEAU
+                  - generic [ref=e47]: NOUVEAU
+                - generic [ref=e48]: Services
+                - generic [ref=e49]: Services, nouveautés
+            - search "Commencez votre recherche" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: Commencez votre recherche
+              - generic [ref=e56]:
+                - button "Destination Royan · Logements" [ref=e57]:
+                  - generic [ref=e58]: Destination
+                  - generic [ref=e60]: Royan · Logements
+                - button "Arrivée/Départ 11–18 juil." [ref=e62]:
+                  - generic [ref=e63]: Arrivée/Départ
+                  - generic [ref=e64]: 11–18 juil.
+                - button "Voyageurs 4 voyageurs" [ref=e66]:
+                  - generic [ref=e67]: Voyageurs
+                  - generic [ref=e68]: 4 voyageurs
+              - img [ref=e72]
+        - navigation "Profil" [ref=e76]:
+          - generic [ref=e77]:
+            - button "Devenir hôte" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: Devenir hôte
+            - button "Choisissez une langue et une devise" [ref=e81] [cursor=pointer]:
+              - img [ref=e83]
+          - button "Menu de navigation principal" [ref=e87] [cursor=pointer]:
+            - img [ref=e89]
+      - group "filtres" [ref=e96]:
+        - generic [ref=e97]: filtres
+        - generic [ref=e99]:
+          - button "Filtres" [ref=e102] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e106]: Filtres
+          - generic [ref=e108]:
+            - button "Prix" [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: Prix
+              - img [ref=e115]
+            - button "Type de logement" [ref=e119] [cursor=pointer]:
+              - generic [ref=e120]: Type de logement
+              - img [ref=e123]
+            - generic [ref=e125]:
+              - checkbox "Animaux de compagnie autorisés" [ref=e128] [cursor=pointer]
+              - checkbox "2 chambres et plus" [ref=e131] [cursor=pointer]
+              - checkbox "Parking gratuit" [ref=e134] [cursor=pointer]
+              - checkbox "2 salles de bain et plus" [ref=e137] [cursor=pointer]
+              - checkbox "Climatisation" [ref=e140] [cursor=pointer]
+              - checkbox "Cuisine" [ref=e143] [cursor=pointer]
+              - checkbox "Lave-linge" [ref=e146] [cursor=pointer]
+              - checkbox "Wifi" [ref=e149] [cursor=pointer]
+    - main [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e156]:
+          - 'heading "Résultats de recherche; Royan : Plus de 1 000 logements" [active] [level=1] [ref=e158]':
+            - generic [ref=e159]: "Résultats de recherche; Royan : Plus de 1 000 logements"
+            - text: "Royan : Plus de 1 000 logements"
+          - generic [ref=e161]:
+            - text: Classement des résultats
+            - button "En savoir plus" [ref=e164] [cursor=pointer]:
+              - img [ref=e166]
+        - generic [ref=e173]:
+          - group [ref=e179]:
+            - link "Hébergement ⋅ Royan" [ref=e180] [cursor=pointer]:
+              - /url: /rooms/1155831341618677108?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3hhJ6i02xmkIXI2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e181]:
+              - group [ref=e184]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Hébergement ⋅ Royan" [ref=e186] [cursor=pointer]':
+                        - img [ref=e187]
+                    - generic:
+                      - button [disabled] [ref=e190] [cursor=pointer]:
+                        - img [ref=e192]
+                      - 'button "Photo suivante : Hébergement ⋅ Royan" [ref=e195] [cursor=pointer]':
+                        - img [ref=e197]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e203]:
+                  - link [ref=e204] [cursor=pointer]:
+                    - /url: /rooms/1155831341618677108?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3hhJ6i02xmkIXI2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e207]
+                  - link [ref=e208] [cursor=pointer]:
+                    - /url: /rooms/1155831341618677108?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3hhJ6i02xmkIXI2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e209] [cursor=pointer]:
+                    - /url: /rooms/1155831341618677108?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3hhJ6i02xmkIXI2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e210] [cursor=pointer]:
+                    - /url: /rooms/1155831341618677108?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3hhJ6i02xmkIXI2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e211] [cursor=pointer]:
+                    - /url: /rooms/1155831341618677108?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3hhJ6i02xmkIXI2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e212] [cursor=pointer]:
+                    - /url: /rooms/1155831341618677108?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3hhJ6i02xmkIXI2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e213]:
+                - generic [ref=e214]: Hébergement ⋅ Royan
+                - generic [ref=e216]: Maison de ville - Royan plage
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: 3 chambres
+                    - generic [ref=e220]: 3 chambres
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: ","
+                    - generic [ref=e223]: ·
+                    - generic [ref=e224]: 5 lits
+                    - generic [ref=e225]: 5 lits
+                  - generic [ref=e226]:
+                    - generic [ref=e227]: ","
+                    - generic [ref=e228]: ·
+                    - generic [ref=e229]: 2 salles de bain
+                    - generic [ref=e230]: 2 salles de bain
+                - generic [ref=e232]:
+                  - generic [ref=e233]: Particulier
+                  - generic [ref=e234]: Particulier
+                - generic [ref=e238]:
+                  - button [ref=e243] [cursor=pointer]:
+                    - text: 1 987 €
+                    - generic [ref=e244]: au total
+                    - generic [ref=e245]: Afficher le détail du prix
+                  - generic [ref=e246]: 1 987 € au total
+                - generic [ref=e247]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 7 commentaires : 4,86 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,86 (7)
+          - group [ref=e253]:
+            - link "Hébergement ⋅ Royan" [ref=e254] [cursor=pointer]:
+              - /url: /rooms/579340535266675986?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3edIvnA41unOE4b&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e255]:
+              - group [ref=e258]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Hébergement ⋅ Royan" [ref=e260] [cursor=pointer]':
+                        - img [ref=e261]
+                    - generic:
+                      - button [disabled] [ref=e264] [cursor=pointer]:
+                        - img [ref=e266]
+                      - 'button "Photo suivante : Hébergement ⋅ Royan" [ref=e269] [cursor=pointer]':
+                        - img [ref=e271]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e277]:
+                  - link [ref=e278] [cursor=pointer]:
+                    - /url: /rooms/579340535266675986?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3edIvnA41unOE4b&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e281]
+                  - link [ref=e282] [cursor=pointer]:
+                    - /url: /rooms/579340535266675986?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3edIvnA41unOE4b&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e283] [cursor=pointer]:
+                    - /url: /rooms/579340535266675986?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3edIvnA41unOE4b&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e284] [cursor=pointer]:
+                    - /url: /rooms/579340535266675986?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3edIvnA41unOE4b&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e285] [cursor=pointer]:
+                    - /url: /rooms/579340535266675986?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3edIvnA41unOE4b&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e286] [cursor=pointer]:
+                    - /url: /rooms/579340535266675986?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3edIvnA41unOE4b&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e287]:
+                - generic [ref=e288]: Hébergement ⋅ Royan
+                - generic [ref=e290]: Maison bord de mer
+                - generic [ref=e291]:
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: 3 chambres
+                    - generic [ref=e294]: 3 chambres
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: ","
+                    - generic [ref=e297]: ·
+                    - generic [ref=e298]: 4 lits
+                    - generic [ref=e299]: 4 lits
+                  - generic [ref=e300]:
+                    - generic [ref=e301]: ","
+                    - generic [ref=e302]: ·
+                    - generic [ref=e303]: 2 salles de bain
+                    - generic [ref=e304]: 2 salles de bain
+                - generic [ref=e306]:
+                  - generic [ref=e307]: Particulier
+                  - generic [ref=e308]: Particulier
+                - generic [ref=e309]:
+                  - generic [ref=e312]:
+                    - button [ref=e317] [cursor=pointer]:
+                      - text: 1 561 €
+                      - generic [ref=e318]: au total
+                      - generic [ref=e319]: Afficher le détail du prix
+                    - generic [ref=e320]: 1 561 € au total
+                  - generic [ref=e322]: Annulation gratuite
+                - generic [ref=e323]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 16 commentaires : 4,94 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,94 (16)
+          - group [ref=e329]:
+            - link "Hébergement ⋅ Royan" [ref=e330] [cursor=pointer]:
+              - /url: /rooms/967980311403256062?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3u5qZuDCPx789KA&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e331]:
+              - group [ref=e334]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Superhôte
+                          - generic: Superhôte
+                      - 'button "Ajouter aux favoris : Hébergement ⋅ Royan" [ref=e336] [cursor=pointer]':
+                        - img [ref=e337]
+                    - generic:
+                      - button [disabled] [ref=e340] [cursor=pointer]:
+                        - img [ref=e342]
+                      - 'button "Photo suivante : Hébergement ⋅ Royan" [ref=e345] [cursor=pointer]':
+                        - img [ref=e347]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e353]:
+                  - link [ref=e354] [cursor=pointer]:
+                    - /url: /rooms/967980311403256062?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3u5qZuDCPx789KA&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e357]
+                  - link [ref=e358] [cursor=pointer]:
+                    - /url: /rooms/967980311403256062?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3u5qZuDCPx789KA&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e359] [cursor=pointer]:
+                    - /url: /rooms/967980311403256062?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3u5qZuDCPx789KA&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e360] [cursor=pointer]:
+                    - /url: /rooms/967980311403256062?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3u5qZuDCPx789KA&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e361] [cursor=pointer]:
+                    - /url: /rooms/967980311403256062?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3u5qZuDCPx789KA&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e362] [cursor=pointer]:
+                    - /url: /rooms/967980311403256062?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3u5qZuDCPx789KA&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e363]:
+                - generic [ref=e364]: Hébergement ⋅ Royan
+                - generic [ref=e366]: Villa Delibes – Jardin & 3 suites
+                - generic [ref=e367]:
+                  - generic [ref=e368]:
+                    - generic [ref=e369]: 3 chambres
+                    - generic [ref=e370]: 3 chambres
+                  - generic [ref=e371]:
+                    - generic [ref=e372]: ","
+                    - generic [ref=e373]: ·
+                    - generic [ref=e374]: 3 lits
+                    - generic [ref=e375]: 3 lits
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: ","
+                    - generic [ref=e378]: ·
+                    - generic [ref=e379]: 3 salles de bain
+                    - generic [ref=e380]: 3 salles de bain
+                - generic [ref=e382]:
+                  - generic [ref=e383]: Particulier
+                  - generic [ref=e384]: Particulier
+                - 'generic "1 876 € au total. Prix initial : 2 235 €" [ref=e389]':
+                  - generic [ref=e391]:
+                    - generic [ref=e392]: 2 235 €
+                    - button [ref=e395] [cursor=pointer]:
+                      - text: 1 876 €
+                      - generic [ref=e396]: au total
+                      - generic [ref=e397]: Afficher le détail du prix
+          - group [ref=e403]:
+            - link "Appartement ⋅ Royan" [ref=e404] [cursor=pointer]:
+              - /url: /rooms/906813988095679630?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3eccK55sPbBfre2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e405]:
+              - group [ref=e408]:
+                - generic:
+                  - generic:
+                    - 'button "Ajouter aux favoris : Appartement ⋅ Royan" [ref=e410] [cursor=pointer]':
+                      - img [ref=e411]
+                    - generic:
+                      - button [disabled] [ref=e414] [cursor=pointer]:
+                        - img [ref=e416]
+                      - 'button "Photo suivante : Appartement ⋅ Royan" [ref=e419] [cursor=pointer]':
+                        - img [ref=e421]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e427]:
+                  - link [ref=e428] [cursor=pointer]:
+                    - /url: /rooms/906813988095679630?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3eccK55sPbBfre2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e431]
+                  - link [ref=e432] [cursor=pointer]:
+                    - /url: /rooms/906813988095679630?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3eccK55sPbBfre2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e433] [cursor=pointer]:
+                    - /url: /rooms/906813988095679630?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3eccK55sPbBfre2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e434] [cursor=pointer]:
+                    - /url: /rooms/906813988095679630?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3eccK55sPbBfre2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e435] [cursor=pointer]:
+                    - /url: /rooms/906813988095679630?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3eccK55sPbBfre2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e436] [cursor=pointer]:
+                    - /url: /rooms/906813988095679630?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3eccK55sPbBfre2&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e437]:
+                - generic [ref=e438]: Appartement ⋅ Royan
+                - generic [ref=e440]: A louer appartement Royan .
+                - generic [ref=e441]:
+                  - generic [ref=e442]:
+                    - generic [ref=e443]: 2 chambres
+                    - generic [ref=e444]: 2 chambres
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: ","
+                    - generic [ref=e447]: ·
+                    - generic [ref=e448]: 4 lits
+                    - generic [ref=e449]: 4 lits
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: ","
+                    - generic [ref=e452]: ·
+                    - generic [ref=e453]: 1 salle de bain et 1 toilette
+                    - generic [ref=e454]: 1 salle de bain et 1 toilette
+                - generic [ref=e456]:
+                  - generic [ref=e457]: Particulier
+                  - generic [ref=e458]: Particulier
+                - generic [ref=e462]:
+                  - button [ref=e467] [cursor=pointer]:
+                    - text: 907 €
+                    - generic [ref=e468]: au total
+                    - generic [ref=e469]: Afficher le détail du prix
+                  - generic [ref=e470]: 907 € au total
+                - generic [ref=e471]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 15 commentaires : 4,67 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,67 (15)
+          - group [ref=e477]:
+            - link "Hébergement ⋅ Vaux-sur-Mer" [ref=e478] [cursor=pointer]:
+              - /url: /rooms/1437605140945070776?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3jNXJ9UtBV1mcZd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e479]:
+              - group [ref=e482]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Hébergement ⋅ Vaux-sur-Mer" [ref=e484] [cursor=pointer]':
+                        - img [ref=e485]
+                    - generic:
+                      - button [disabled] [ref=e488] [cursor=pointer]:
+                        - img [ref=e490]
+                      - 'button "Photo suivante : Hébergement ⋅ Vaux-sur-Mer" [ref=e493] [cursor=pointer]':
+                        - img [ref=e495]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e501]:
+                  - link [ref=e502] [cursor=pointer]:
+                    - /url: /rooms/1437605140945070776?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3jNXJ9UtBV1mcZd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e505]
+                  - link [ref=e506] [cursor=pointer]:
+                    - /url: /rooms/1437605140945070776?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3jNXJ9UtBV1mcZd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e507] [cursor=pointer]:
+                    - /url: /rooms/1437605140945070776?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3jNXJ9UtBV1mcZd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e508] [cursor=pointer]:
+                    - /url: /rooms/1437605140945070776?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3jNXJ9UtBV1mcZd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e509] [cursor=pointer]:
+                    - /url: /rooms/1437605140945070776?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3jNXJ9UtBV1mcZd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e510] [cursor=pointer]:
+                    - /url: /rooms/1437605140945070776?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3jNXJ9UtBV1mcZd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e511]:
+                - generic [ref=e512]: Hébergement ⋅ Vaux-sur-Mer
+                - generic [ref=e514]: La Villa Delphine
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - generic [ref=e517]: 2 chambres
+                    - generic [ref=e518]: 2 chambres
+                  - generic [ref=e519]:
+                    - generic [ref=e520]: ","
+                    - generic [ref=e521]: ·
+                    - generic [ref=e522]: 2 lits
+                    - generic [ref=e523]: 2 lits
+                  - generic [ref=e524]:
+                    - generic [ref=e525]: ","
+                    - generic [ref=e526]: ·
+                    - generic [ref=e527]: 1 salle de bain et 1 toilette
+                    - generic [ref=e528]: 1 salle de bain et 1 toilette
+                - generic [ref=e530]:
+                  - generic [ref=e531]: Professionnel
+                  - generic [ref=e532]: Professionnel
+                - generic [ref=e536]:
+                  - button [ref=e541] [cursor=pointer]:
+                    - text: 1 712 €
+                    - generic [ref=e542]: au total
+                    - generic [ref=e543]: Afficher le détail du prix
+                  - generic [ref=e544]: 1 712 € au total
+                - generic [ref=e545]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 6 commentaires : 5,0 sur 5"
+                    - generic:
+                      - img
+                    - generic: 5,0 (6)
+          - group [ref=e551]:
+            - link "Hébergement ⋅ Royan" [ref=e552] [cursor=pointer]:
+              - /url: /rooms/1144514414875975039?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3j6D37nMo7KLF4p&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e553]:
+              - group [ref=e556]:
+                - generic:
+                  - generic:
+                    - 'button "Ajouter aux favoris : Hébergement ⋅ Royan" [ref=e558] [cursor=pointer]':
+                      - img [ref=e559]
+                    - generic:
+                      - button [disabled] [ref=e562] [cursor=pointer]:
+                        - img [ref=e564]
+                      - 'button "Photo suivante : Hébergement ⋅ Royan" [ref=e567] [cursor=pointer]':
+                        - img [ref=e569]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e575]:
+                  - link [ref=e576] [cursor=pointer]:
+                    - /url: /rooms/1144514414875975039?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3j6D37nMo7KLF4p&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e579]
+                  - link [ref=e580] [cursor=pointer]:
+                    - /url: /rooms/1144514414875975039?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3j6D37nMo7KLF4p&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e581] [cursor=pointer]:
+                    - /url: /rooms/1144514414875975039?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3j6D37nMo7KLF4p&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e582] [cursor=pointer]:
+                    - /url: /rooms/1144514414875975039?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3j6D37nMo7KLF4p&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e583] [cursor=pointer]:
+                    - /url: /rooms/1144514414875975039?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3j6D37nMo7KLF4p&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e584] [cursor=pointer]:
+                    - /url: /rooms/1144514414875975039?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3j6D37nMo7KLF4p&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e585]:
+                - generic [ref=e586]: Hébergement ⋅ Royan
+                - generic [ref=e588]: Belle maison de 3 chambres à Royan
+                - generic [ref=e589]:
+                  - generic [ref=e590]:
+                    - generic [ref=e591]: 3 chambres
+                    - generic [ref=e592]: 3 chambres
+                  - generic [ref=e593]:
+                    - generic [ref=e594]: ","
+                    - generic [ref=e595]: ·
+                    - generic [ref=e596]: 5 lits
+                    - generic [ref=e597]: 5 lits
+                  - generic [ref=e598]:
+                    - generic [ref=e599]: ","
+                    - generic [ref=e600]: ·
+                    - generic [ref=e601]: 2 salles de bain
+                    - generic [ref=e602]: 2 salles de bain
+                - generic [ref=e604]:
+                  - generic [ref=e605]: Professionnel
+                  - generic [ref=e606]: Professionnel
+                - generic [ref=e610]:
+                  - button [ref=e615] [cursor=pointer]:
+                    - text: 1 326 €
+                    - generic [ref=e616]: au total
+                    - generic [ref=e617]: Afficher le détail du prix
+                  - generic [ref=e618]: 1 326 € au total
+                - generic [ref=e619]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 9 commentaires : 4,89 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,89 (9)
+          - generic [ref=e622]:
+            - generic [ref=e624]:
+              - group "Disponibles à des dates similaires" [ref=e625]:
+                - heading "Disponibles à des dates similaires" [level=2] [ref=e628]
+                - generic [ref=e629]: 2 sur 6 éléments visibles
+                - generic [ref=e632]:
+                  - generic [ref=e633]: 1 / 3
+                  - generic [ref=e634]: Page 1 sur 3
+                  - button "Précédent" [disabled] [ref=e635]:
+                    - img [ref=e637]
+                  - button "Suivant" [ref=e639] [cursor=pointer]:
+                    - img [ref=e641]
+                - generic [ref=e644]:
+                  - group [ref=e651]:
+                    - link "Appartement ⋅ Royan" [ref=e652] [cursor=pointer]:
+                      - /url: /rooms/1446424877376549018?adults=4&check_in=2026-07-13&check_out=2026-07-20&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P36Hmsh_ypueDS2S&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - generic [ref=e653]:
+                      - group [ref=e656]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Du 13 au 20 juil.
+                                  - generic: 13–20 juil.
+                              - 'button "Ajouter aux favoris : Appartement ⋅ Royan" [ref=e658] [cursor=pointer]':
+                                - img [ref=e659]
+                            - generic:
+                              - button [disabled] [ref=e662] [cursor=pointer]:
+                                - img [ref=e664]
+                              - 'button "Photo suivante : Appartement ⋅ Royan" [ref=e667] [cursor=pointer]':
+                                - img [ref=e669]
+                            - generic:
+                              - generic:
+                                - img "Photo 1 sur 6"
+                        - generic [ref=e675]:
+                          - link [ref=e676] [cursor=pointer]:
+                            - /url: /rooms/1446424877376549018?adults=4&check_in=2026-07-13&check_out=2026-07-20&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P36Hmsh_ypueDS2S&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                            - img [ref=e679]
+                          - link [ref=e680] [cursor=pointer]:
+                            - /url: /rooms/1446424877376549018?adults=4&check_in=2026-07-13&check_out=2026-07-20&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P36Hmsh_ypueDS2S&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e681] [cursor=pointer]:
+                            - /url: /rooms/1446424877376549018?adults=4&check_in=2026-07-13&check_out=2026-07-20&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P36Hmsh_ypueDS2S&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e682] [cursor=pointer]:
+                            - /url: /rooms/1446424877376549018?adults=4&check_in=2026-07-13&check_out=2026-07-20&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P36Hmsh_ypueDS2S&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e683] [cursor=pointer]:
+                            - /url: /rooms/1446424877376549018?adults=4&check_in=2026-07-13&check_out=2026-07-20&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P36Hmsh_ypueDS2S&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e684] [cursor=pointer]:
+                            - /url: /rooms/1446424877376549018?adults=4&check_in=2026-07-13&check_out=2026-07-20&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P36Hmsh_ypueDS2S&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                      - generic [ref=e685]:
+                        - generic [ref=e686]: Appartement ⋅ Royan
+                        - generic [ref=e688]: T3 rénové de 70m² magnifique vue mer
+                        - generic [ref=e689]:
+                          - generic [ref=e690]:
+                            - generic [ref=e691]: 2 chambres
+                            - generic [ref=e692]: 2 chambres
+                          - generic [ref=e693]:
+                            - generic [ref=e694]: ","
+                            - generic [ref=e695]: ·
+                            - generic [ref=e696]: 3 lits
+                            - generic [ref=e697]: 3 lits
+                          - generic [ref=e698]:
+                            - generic [ref=e699]: ","
+                            - generic [ref=e700]: ·
+                            - generic [ref=e701]: 2 salles de bain
+                            - generic [ref=e702]: 2 salles de bain
+                        - generic [ref=e704]:
+                          - generic [ref=e705]: Particulier
+                          - generic [ref=e706]: Particulier
+                        - generic [ref=e710]:
+                          - button [ref=e715] [cursor=pointer]:
+                            - text: 1 747 €
+                            - generic [ref=e716]: au total
+                            - generic [ref=e717]: Afficher le détail du prix
+                          - generic [ref=e718]: 1 747 € au total
+                        - generic [ref=e719]:
+                          - generic:
+                            - generic: "Évaluation moyenne sur la base de 45 commentaires : 5,0 sur 5"
+                            - generic:
+                              - img
+                            - generic: 5,0 (45)
+                  - group [ref=e726]:
+                    - link "Appartement en résidence ⋅ Royan" [ref=e727] [cursor=pointer]:
+                      - /url: /rooms/42782645?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3gTymIjzfUNTDCY&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - generic [ref=e728]:
+                      - group [ref=e731]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: Du 14 au 18 juil.
+                                  - generic: 14–18 juil.
+                              - 'button "Ajouter aux favoris : Appartement en résidence ⋅ Royan" [ref=e733] [cursor=pointer]':
+                                - img [ref=e734]
+                            - generic:
+                              - button [disabled] [ref=e737] [cursor=pointer]:
+                                - img [ref=e739]
+                              - 'button "Photo suivante : Appartement en résidence ⋅ Royan" [ref=e742] [cursor=pointer]':
+                                - img [ref=e744]
+                            - generic:
+                              - generic:
+                                - img "Photo 1 sur 6"
+                        - generic [ref=e750]:
+                          - link [ref=e751] [cursor=pointer]:
+                            - /url: /rooms/42782645?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3gTymIjzfUNTDCY&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                            - img [ref=e754]
+                          - link [ref=e755] [cursor=pointer]:
+                            - /url: /rooms/42782645?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3gTymIjzfUNTDCY&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e756] [cursor=pointer]:
+                            - /url: /rooms/42782645?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3gTymIjzfUNTDCY&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e757] [cursor=pointer]:
+                            - /url: /rooms/42782645?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3gTymIjzfUNTDCY&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e758] [cursor=pointer]:
+                            - /url: /rooms/42782645?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3gTymIjzfUNTDCY&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e759] [cursor=pointer]:
+                            - /url: /rooms/42782645?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3gTymIjzfUNTDCY&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                      - generic [ref=e760]:
+                        - generic [ref=e761]: Appartement en résidence ⋅ Royan
+                        - generic [ref=e763]: Royan plage de Foncillon, piscine, vue mer et port
+                        - generic [ref=e764]:
+                          - generic [ref=e765]:
+                            - generic [ref=e766]: 2 chambres
+                            - generic [ref=e767]: 2 chambres
+                          - generic [ref=e768]:
+                            - generic [ref=e769]: ","
+                            - generic [ref=e770]: ·
+                            - generic [ref=e771]: 3 lits
+                            - generic [ref=e772]: 3 lits
+                          - generic [ref=e773]:
+                            - generic [ref=e774]: ","
+                            - generic [ref=e775]: ·
+                            - generic [ref=e776]: 1 salle de bain
+                            - generic [ref=e777]: 1 salle de bain
+                        - generic [ref=e779]:
+                          - generic [ref=e780]: Professionnel
+                          - generic [ref=e781]: Professionnel
+                        - generic [ref=e785]:
+                          - button [ref=e790] [cursor=pointer]:
+                            - text: 1 458 €
+                            - generic [ref=e791]: au total
+                            - generic [ref=e792]: Afficher le détail du prix
+                          - generic [ref=e793]: 1 458 € au total
+                        - generic [ref=e794]:
+                          - generic:
+                            - generic: "Évaluation moyenne sur la base de 137 commentaires : 4,88 sur 5"
+                            - generic:
+                              - img
+                            - generic: 4,88 (137)
+                  - group [ref=e801]:
+                    - link [ref=e802] [cursor=pointer]:
+                      - /url: /rooms/47089338?adults=4&check_in=2026-07-12&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3u_hL1GadeH9eV6&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - generic [ref=e803]:
+                      - group [ref=e806]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Du 12 au 18 juil.
+                                - generic: 12–18 juil.
+                            - button [ref=e808] [cursor=pointer]:
+                              - img [ref=e809]
+                          - generic:
+                            - button [disabled] [ref=e812] [cursor=pointer]:
+                              - img [ref=e814]
+                            - button [ref=e817] [cursor=pointer]:
+                              - img [ref=e819]
+                          - generic:
+                            - generic:
+                              - img
+                        - generic [ref=e825]:
+                          - link [ref=e826] [cursor=pointer]:
+                            - /url: /rooms/47089338?adults=4&check_in=2026-07-12&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3u_hL1GadeH9eV6&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                            - img [ref=e829]
+                          - link [ref=e830] [cursor=pointer]:
+                            - /url: /rooms/47089338?adults=4&check_in=2026-07-12&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3u_hL1GadeH9eV6&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e831] [cursor=pointer]:
+                            - /url: /rooms/47089338?adults=4&check_in=2026-07-12&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3u_hL1GadeH9eV6&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e832] [cursor=pointer]:
+                            - /url: /rooms/47089338?adults=4&check_in=2026-07-12&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3u_hL1GadeH9eV6&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e833] [cursor=pointer]:
+                            - /url: /rooms/47089338?adults=4&check_in=2026-07-12&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3u_hL1GadeH9eV6&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e834] [cursor=pointer]:
+                            - /url: /rooms/47089338?adults=4&check_in=2026-07-12&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3u_hL1GadeH9eV6&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                      - generic [ref=e835]:
+                        - generic [ref=e836]: Hébergement ⋅ Vaux-sur-Mer
+                        - generic [ref=e838]: VAUX -VILLA BAGATELLE- 2ch. 4 pers. Jardin arboré
+                        - generic [ref=e839]:
+                          - generic [ref=e840]:
+                            - generic [ref=e841]: 2 chambres
+                            - generic [ref=e842]: 2 chambres
+                          - generic [ref=e843]:
+                            - generic [ref=e844]: ","
+                            - generic [ref=e845]: ·
+                            - generic [ref=e846]: 3 lits
+                            - generic [ref=e847]: 3 lits
+                          - generic [ref=e848]:
+                            - generic [ref=e849]: ","
+                            - generic [ref=e850]: ·
+                            - generic [ref=e851]: 1 salle de bain
+                            - generic [ref=e852]: 1 salle de bain
+                        - generic [ref=e854]:
+                          - generic [ref=e855]: Professionnel
+                          - generic [ref=e856]: Professionnel
+                        - generic [ref=e860]:
+                          - button [ref=e865] [cursor=pointer]:
+                            - text: 1 016 €
+                            - generic [ref=e866]: au total
+                            - generic [ref=e867]: Afficher le détail du prix
+                          - generic [ref=e868]: 1 016 € au total
+                        - generic [ref=e869]:
+                          - generic:
+                            - generic: "Évaluation moyenne sur la base de 85 commentaires : 4,85 sur 5"
+                            - generic:
+                              - img
+                            - generic: 4,85 (85)
+                  - group [ref=e876]:
+                    - link [ref=e877] [cursor=pointer]:
+                      - /url: /rooms/1453097435657033637?adults=4&check_in=2026-07-14&check_out=2026-07-19&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3SvBJ1hbh7pLa7D&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - generic [ref=e878]:
+                      - group [ref=e881]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Du 14 au 19 juil.
+                                - generic: 14–19 juil.
+                            - button [ref=e883] [cursor=pointer]:
+                              - img [ref=e884]
+                          - generic:
+                            - button [disabled] [ref=e887] [cursor=pointer]:
+                              - img [ref=e889]
+                            - button [ref=e892] [cursor=pointer]:
+                              - img [ref=e894]
+                          - generic:
+                            - generic:
+                              - img
+                        - generic [ref=e900]:
+                          - link [ref=e901] [cursor=pointer]:
+                            - /url: /rooms/1453097435657033637?adults=4&check_in=2026-07-14&check_out=2026-07-19&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3SvBJ1hbh7pLa7D&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                            - img [ref=e2123]
+                          - link [ref=e904] [cursor=pointer]:
+                            - /url: /rooms/1453097435657033637?adults=4&check_in=2026-07-14&check_out=2026-07-19&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3SvBJ1hbh7pLa7D&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e905] [cursor=pointer]:
+                            - /url: /rooms/1453097435657033637?adults=4&check_in=2026-07-14&check_out=2026-07-19&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3SvBJ1hbh7pLa7D&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e906] [cursor=pointer]:
+                            - /url: /rooms/1453097435657033637?adults=4&check_in=2026-07-14&check_out=2026-07-19&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3SvBJ1hbh7pLa7D&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e907] [cursor=pointer]:
+                            - /url: /rooms/1453097435657033637?adults=4&check_in=2026-07-14&check_out=2026-07-19&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3SvBJ1hbh7pLa7D&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e908] [cursor=pointer]:
+                            - /url: /rooms/1453097435657033637?adults=4&check_in=2026-07-14&check_out=2026-07-19&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3SvBJ1hbh7pLa7D&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                      - generic [ref=e909]:
+                        - generic [ref=e910]: Appartement ⋅ Royan
+                        - generic [ref=e912]: Spacieux duplex face à la mer, jardin et garage.
+                        - generic [ref=e913]:
+                          - generic [ref=e914]:
+                            - generic [ref=e915]: 2 chambres
+                            - generic [ref=e916]: 2 chambres
+                          - generic [ref=e917]:
+                            - generic [ref=e918]: ","
+                            - generic [ref=e919]: ·
+                            - generic [ref=e920]: 3 lits
+                            - generic [ref=e921]: 3 lits
+                          - generic [ref=e922]:
+                            - generic [ref=e923]: ","
+                            - generic [ref=e924]: ·
+                            - generic [ref=e925]: 2 salles de bain
+                            - generic [ref=e926]: 2 salles de bain
+                        - generic [ref=e928]:
+                          - generic [ref=e929]: Professionnel
+                          - generic [ref=e930]: Professionnel
+                        - generic [ref=e937]:
+                          - generic [ref=e938]: 1 175 €
+                          - button [ref=e941] [cursor=pointer]:
+                            - text: 1 052 €
+                            - generic [ref=e942]: au total
+                            - generic [ref=e943]: Afficher le détail du prix
+                        - generic [ref=e944]:
+                          - generic:
+                            - generic: "Évaluation moyenne sur la base de 15 commentaires : 4,87 sur 5"
+                            - generic:
+                              - img
+                            - generic: 4,87 (15)
+                  - group [ref=e951]:
+                    - link [ref=e952] [cursor=pointer]:
+                      - /url: /rooms/657180186421137496?adults=4&check_in=2026-07-13&check_out=2026-07-17&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3TCCM6yAJrl7QuC&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - generic [ref=e953]:
+                      - group [ref=e956]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Du 13 au 17 juil.
+                                - generic: 13–17 juil.
+                            - button [ref=e958] [cursor=pointer]:
+                              - img [ref=e959]
+                          - generic:
+                            - button [disabled] [ref=e962] [cursor=pointer]:
+                              - img [ref=e964]
+                            - button [ref=e967] [cursor=pointer]:
+                              - img [ref=e969]
+                          - generic:
+                            - generic:
+                              - img
+                        - generic [ref=e975]:
+                          - link [ref=e976] [cursor=pointer]:
+                            - /url: /rooms/657180186421137496?adults=4&check_in=2026-07-13&check_out=2026-07-17&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3TCCM6yAJrl7QuC&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                            - img [ref=e2125]
+                          - link [ref=e979] [cursor=pointer]:
+                            - /url: /rooms/657180186421137496?adults=4&check_in=2026-07-13&check_out=2026-07-17&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3TCCM6yAJrl7QuC&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e980] [cursor=pointer]:
+                            - /url: /rooms/657180186421137496?adults=4&check_in=2026-07-13&check_out=2026-07-17&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3TCCM6yAJrl7QuC&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e981] [cursor=pointer]:
+                            - /url: /rooms/657180186421137496?adults=4&check_in=2026-07-13&check_out=2026-07-17&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3TCCM6yAJrl7QuC&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e982] [cursor=pointer]:
+                            - /url: /rooms/657180186421137496?adults=4&check_in=2026-07-13&check_out=2026-07-17&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3TCCM6yAJrl7QuC&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e983] [cursor=pointer]:
+                            - /url: /rooms/657180186421137496?adults=4&check_in=2026-07-13&check_out=2026-07-17&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3TCCM6yAJrl7QuC&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                      - generic [ref=e984]:
+                        - generic [ref=e985]: Villa ⋅ Saint-Sulpice-de-Royan
+                        - generic [ref=e987]: Villa avec piscine
+                        - generic [ref=e988]:
+                          - generic [ref=e989]:
+                            - generic [ref=e990]: 3 chambres
+                            - generic [ref=e991]: 3 chambres
+                          - generic [ref=e992]:
+                            - generic [ref=e993]: ","
+                            - generic [ref=e994]: ·
+                            - generic [ref=e995]: 3 lits
+                            - generic [ref=e996]: 3 lits
+                          - generic [ref=e997]:
+                            - generic [ref=e998]: ","
+                            - generic [ref=e999]: ·
+                            - generic [ref=e1000]: 1 salle de bain
+                            - generic [ref=e1001]: 1 salle de bain
+                        - generic [ref=e1003]:
+                          - generic [ref=e1004]: Particulier
+                          - generic [ref=e1005]: Particulier
+                        - generic [ref=e1009]:
+                          - button [ref=e1014] [cursor=pointer]:
+                            - text: 1 099 €
+                            - generic [ref=e1015]: au total
+                            - generic [ref=e1016]: Afficher le détail du prix
+                          - generic [ref=e1017]: 1 099 € au total
+                        - generic [ref=e1018]:
+                          - generic:
+                            - generic: "Évaluation moyenne sur la base de 25 commentaires : 4,92 sur 5"
+                            - generic:
+                              - img
+                            - generic: 4,92 (25)
+                  - group [ref=e1025]:
+                    - link [ref=e1026] [cursor=pointer]:
+                      - /url: /rooms/13984931?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3JSL7SXERjBjp1c&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - generic [ref=e1027]:
+                      - group [ref=e1030]:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: Du 14 au 18 juil.
+                                - generic: 14–18 juil.
+                            - button [ref=e1032] [cursor=pointer]:
+                              - img [ref=e1033]
+                          - generic:
+                            - button [disabled] [ref=e1036] [cursor=pointer]:
+                              - img [ref=e1038]
+                            - button [ref=e1041] [cursor=pointer]:
+                              - img [ref=e1043]
+                          - generic:
+                            - generic:
+                              - img
+                        - generic [ref=e1049]:
+                          - link [ref=e1050] [cursor=pointer]:
+                            - /url: /rooms/13984931?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3JSL7SXERjBjp1c&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                            - img [ref=e2127]
+                          - link [ref=e1053] [cursor=pointer]:
+                            - /url: /rooms/13984931?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3JSL7SXERjBjp1c&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e1054] [cursor=pointer]:
+                            - /url: /rooms/13984931?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3JSL7SXERjBjp1c&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e1055] [cursor=pointer]:
+                            - /url: /rooms/13984931?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3JSL7SXERjBjp1c&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e1056] [cursor=pointer]:
+                            - /url: /rooms/13984931?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3JSL7SXERjBjp1c&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                          - link [ref=e1057] [cursor=pointer]:
+                            - /url: /rooms/13984931?adults=4&check_in=2026-07-14&check_out=2026-07-18&search_mode=regular_search&children=0&infants=0&pets=0&source_impression_id=p3_1782729017_P3JSL7SXERjBjp1c&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                      - generic [ref=e1058]:
+                        - generic [ref=e1059]: Maison de ville ⋅ Royan
+                        - generic [ref=e1061]: Particulier loue Maison 3 ch. 6 pers centre ROYAN
+                        - generic [ref=e1062]:
+                          - generic [ref=e1063]:
+                            - generic [ref=e1064]: 3 chambres
+                            - generic [ref=e1065]: 3 chambres
+                          - generic [ref=e1066]:
+                            - generic [ref=e1067]: ","
+                            - generic [ref=e1068]: ·
+                            - generic [ref=e1069]: 4 lits
+                            - generic [ref=e1070]: 4 lits
+                          - generic [ref=e1071]:
+                            - generic [ref=e1072]: ","
+                            - generic [ref=e1073]: ·
+                            - generic [ref=e1074]: 1 salle de bain
+                            - generic [ref=e1075]: 1 salle de bain
+                        - generic [ref=e1077]:
+                          - generic [ref=e1078]: Professionnel
+                          - generic [ref=e1079]: Professionnel
+                        - generic [ref=e1083]:
+                          - button [ref=e1088] [cursor=pointer]:
+                            - text: 815 €
+                            - generic [ref=e1089]: au total
+                            - generic [ref=e1090]: Afficher le détail du prix
+                          - generic [ref=e1091]: 815 € au total
+                        - generic [ref=e1092]:
+                          - generic:
+                            - generic: "Évaluation moyenne sur la base de 152 commentaires : 4,91 sur 5"
+                            - generic:
+                              - img
+                            - generic: 4,91 (152)
+              - link "Rechercher à des dates similaires" [ref=e1094] [cursor=pointer]:
+                - /url: /s/Royan/homes?tab_id=home_tab&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-07-01&monthly_length=3&monthly_end_date=2026-10-01&price_filter_input_type=2&channel=EXPLORE&query=Royan&place_id=ChIJ33kHxkJ2AUgR4XPOWCqaafw&date_picker_type=calendar&checkin=2026-07-11&checkout=2026-07-18&adults=4&source=structured_search_input_header&search_type=P2_CAROUSEL_CLICK&refinement_paths%5B%5D=%2Fhomes&search_mode=regular_search&price_filter_num_nights=7&carousel_type=multi_search_flex_date_recommendations&flexible_date_search_filter_type=1&lastSearchSessionId=2dab73a7-a17b-41f0-9b2e-5733e7921661
+                - generic [ref=e1095]:
+                  - text: Rechercher à des dates similaires
+                  - img [ref=e1096]
+            - heading "Plus de logements disponibles à vos dates" [level=2] [ref=e1098]
+          - group [ref=e1104]:
+            - link "Maison de ville ⋅ Royan" [ref=e1105] [cursor=pointer]:
+              - /url: /rooms/812781226729713661?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3wW-EPPxHBAWstS&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1106]:
+              - group [ref=e1109]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Maison de ville ⋅ Royan" [ref=e1111] [cursor=pointer]':
+                        - img [ref=e1112]
+                    - generic:
+                      - button [disabled] [ref=e1115] [cursor=pointer]:
+                        - img [ref=e1117]
+                      - 'button "Photo suivante : Maison de ville ⋅ Royan" [ref=e1120] [cursor=pointer]':
+                        - img [ref=e1122]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1128]:
+                  - link [ref=e1129] [cursor=pointer]:
+                    - /url: /rooms/812781226729713661?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3wW-EPPxHBAWstS&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1132]
+                  - link [ref=e1133] [cursor=pointer]:
+                    - /url: /rooms/812781226729713661?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3wW-EPPxHBAWstS&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1134] [cursor=pointer]:
+                    - /url: /rooms/812781226729713661?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3wW-EPPxHBAWstS&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1135] [cursor=pointer]:
+                    - /url: /rooms/812781226729713661?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3wW-EPPxHBAWstS&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1136] [cursor=pointer]:
+                    - /url: /rooms/812781226729713661?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3wW-EPPxHBAWstS&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1137] [cursor=pointer]:
+                    - /url: /rooms/812781226729713661?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3wW-EPPxHBAWstS&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1138]:
+                - generic [ref=e1139]: Maison de ville ⋅ Royan
+                - generic [ref=e1141]: La Villa Boisée, calme proche mer, Spa saisonnier
+                - generic [ref=e1142]:
+                  - generic [ref=e1143]:
+                    - generic [ref=e1144]: 2 chambres
+                    - generic [ref=e1145]: 2 chambres
+                  - generic [ref=e1146]:
+                    - generic [ref=e1147]: ","
+                    - generic [ref=e1148]: ·
+                    - generic [ref=e1149]: 2 lits
+                    - generic [ref=e1150]: 2 lits
+                  - generic [ref=e1151]:
+                    - generic [ref=e1152]: ","
+                    - generic [ref=e1153]: ·
+                    - generic [ref=e1154]: 1 salle de bain
+                    - generic [ref=e1155]: 1 salle de bain
+                - generic [ref=e1157]:
+                  - generic [ref=e1158]: Particulier
+                  - generic [ref=e1159]: Particulier
+                - generic [ref=e1163]:
+                  - button [ref=e1168] [cursor=pointer]:
+                    - text: 1 094 €
+                    - generic [ref=e1169]: au total
+                    - generic [ref=e1170]: Afficher le détail du prix
+                  - generic [ref=e1171]: 1 094 € au total
+                - generic [ref=e1172]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 30 commentaires : 4,9 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,9 (30)
+          - group [ref=e1178]:
+            - link "Hébergement ⋅ Saint-Palais-sur-Mer" [ref=e1179] [cursor=pointer]:
+              - /url: /rooms/1127413584159869240?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ut6J4YooawlmJs&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1180]:
+              - group [ref=e1183]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Superhôte
+                          - generic: Superhôte
+                      - 'button "Ajouter aux favoris : Hébergement ⋅ Saint-Palais-sur-Mer" [ref=e1185] [cursor=pointer]':
+                        - img [ref=e1186]
+                    - generic:
+                      - button [disabled] [ref=e1189] [cursor=pointer]:
+                        - img [ref=e1191]
+                      - 'button "Photo suivante : Hébergement ⋅ Saint-Palais-sur-Mer" [ref=e1194] [cursor=pointer]':
+                        - img [ref=e1196]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1202]:
+                  - link [ref=e1203] [cursor=pointer]:
+                    - /url: /rooms/1127413584159869240?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ut6J4YooawlmJs&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1206]
+                  - link [ref=e1207] [cursor=pointer]:
+                    - /url: /rooms/1127413584159869240?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ut6J4YooawlmJs&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1208] [cursor=pointer]:
+                    - /url: /rooms/1127413584159869240?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ut6J4YooawlmJs&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1209] [cursor=pointer]:
+                    - /url: /rooms/1127413584159869240?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ut6J4YooawlmJs&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1210] [cursor=pointer]:
+                    - /url: /rooms/1127413584159869240?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ut6J4YooawlmJs&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1211] [cursor=pointer]:
+                    - /url: /rooms/1127413584159869240?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ut6J4YooawlmJs&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1212]:
+                - generic [ref=e1213]: Hébergement ⋅ Saint-Palais-sur-Mer
+                - generic [ref=e1215]: Jolie petite maison rénovée piscine
+                - generic [ref=e1216]:
+                  - generic [ref=e1217]:
+                    - generic [ref=e1218]: 2 chambres
+                    - generic [ref=e1219]: 2 chambres
+                  - generic [ref=e1220]:
+                    - generic [ref=e1221]: ","
+                    - generic [ref=e1222]: ·
+                    - generic [ref=e1223]: 2 lits doubles
+                    - generic [ref=e1224]: 2 lits doubles
+                  - generic [ref=e1225]:
+                    - generic [ref=e1226]: ","
+                    - generic [ref=e1227]: ·
+                    - generic [ref=e1228]: 1 salle de bain
+                    - generic [ref=e1229]: 1 salle de bain
+                - generic [ref=e1231]:
+                  - generic [ref=e1232]: Particulier
+                  - generic [ref=e1233]: Particulier
+                - generic [ref=e1234]:
+                  - generic [ref=e1237]:
+                    - button [ref=e1242] [cursor=pointer]:
+                      - text: 1 586 €
+                      - generic [ref=e1243]: au total
+                      - generic [ref=e1244]: Afficher le détail du prix
+                    - generic [ref=e1245]: 1 586 € au total
+                  - generic [ref=e1247]: Annulation gratuite
+                - generic [ref=e1248]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 12 commentaires : 5,0 sur 5"
+                    - generic:
+                      - img
+                    - generic: 5,0 (12)
+          - group [ref=e1254]:
+            - link "Hébergement ⋅ Vaux-sur-Mer" [ref=e1255] [cursor=pointer]:
+              - /url: /rooms/1518677794135337365?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3Iknz7BoVZECoVq&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1256]:
+              - group [ref=e1259]:
+                - generic:
+                  - generic:
+                    - 'button "Ajouter aux favoris : Hébergement ⋅ Vaux-sur-Mer" [ref=e1261] [cursor=pointer]':
+                      - img [ref=e1262]
+                    - generic:
+                      - button [disabled] [ref=e1265] [cursor=pointer]:
+                        - img [ref=e1267]
+                      - 'button "Photo suivante : Hébergement ⋅ Vaux-sur-Mer" [ref=e1270] [cursor=pointer]':
+                        - img [ref=e1272]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1278]:
+                  - link [ref=e1279] [cursor=pointer]:
+                    - /url: /rooms/1518677794135337365?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3Iknz7BoVZECoVq&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1282]
+                  - link [ref=e1283] [cursor=pointer]:
+                    - /url: /rooms/1518677794135337365?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3Iknz7BoVZECoVq&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1284] [cursor=pointer]:
+                    - /url: /rooms/1518677794135337365?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3Iknz7BoVZECoVq&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1285] [cursor=pointer]:
+                    - /url: /rooms/1518677794135337365?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3Iknz7BoVZECoVq&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1286] [cursor=pointer]:
+                    - /url: /rooms/1518677794135337365?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3Iknz7BoVZECoVq&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1287] [cursor=pointer]:
+                    - /url: /rooms/1518677794135337365?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3Iknz7BoVZECoVq&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1288]:
+                - generic [ref=e1289]: Hébergement ⋅ Vaux-sur-Mer
+                - generic [ref=e1291]: Villa classée 4* avec jacuzzi proche plages
+                - generic [ref=e1292]:
+                  - generic [ref=e1293]:
+                    - generic [ref=e1294]: 4 chambres
+                    - generic [ref=e1295]: 4 chambres
+                  - generic [ref=e1296]:
+                    - generic [ref=e1297]: ","
+                    - generic [ref=e1298]: ·
+                    - generic [ref=e1299]: 4 lits queen size
+                    - generic [ref=e1300]: 4 lits queen size
+                  - generic [ref=e1301]:
+                    - generic [ref=e1302]: ","
+                    - generic [ref=e1303]: ·
+                    - generic [ref=e1304]: 1 salle de bain
+                    - generic [ref=e1305]: 1 salle de bain
+                - generic [ref=e1307]:
+                  - generic [ref=e1308]: Particulier
+                  - generic [ref=e1309]: Particulier
+                - generic [ref=e1310]:
+                  - 'generic "2 379 € au total. Prix initial : 2 879 €" [ref=e1314]':
+                    - generic [ref=e1316]:
+                      - generic [ref=e1317]: 2 879 €
+                      - button [ref=e1320] [cursor=pointer]:
+                        - text: 2 379 €
+                        - generic [ref=e1321]: au total
+                        - generic [ref=e1322]: Afficher le détail du prix
+                  - generic [ref=e1324]: Annulation gratuite
+          - group [ref=e1330]:
+            - link "Appartement ⋅ Royan" [ref=e1331] [cursor=pointer]:
+              - /url: /rooms/1567569113601059285?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P30ZNe351F2K_db4&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1332]:
+              - group [ref=e1335]:
+                - generic:
+                  - generic:
+                    - 'button "Ajouter aux favoris : Appartement ⋅ Royan" [ref=e1337] [cursor=pointer]':
+                      - img [ref=e1338]
+                    - generic:
+                      - button [disabled] [ref=e1341] [cursor=pointer]:
+                        - img [ref=e1343]
+                      - 'button "Photo suivante : Appartement ⋅ Royan" [ref=e1346] [cursor=pointer]':
+                        - img [ref=e1348]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1354]:
+                  - link [ref=e1355] [cursor=pointer]:
+                    - /url: /rooms/1567569113601059285?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P30ZNe351F2K_db4&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1358]
+                  - link [ref=e1359] [cursor=pointer]:
+                    - /url: /rooms/1567569113601059285?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P30ZNe351F2K_db4&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1360] [cursor=pointer]:
+                    - /url: /rooms/1567569113601059285?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P30ZNe351F2K_db4&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1361] [cursor=pointer]:
+                    - /url: /rooms/1567569113601059285?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P30ZNe351F2K_db4&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1362] [cursor=pointer]:
+                    - /url: /rooms/1567569113601059285?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P30ZNe351F2K_db4&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1363] [cursor=pointer]:
+                    - /url: /rooms/1567569113601059285?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P30ZNe351F2K_db4&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1364]:
+                - generic [ref=e1365]: Appartement ⋅ Royan
+                - generic [ref=e1367]: Appartement Royan, 3 pièces, 4 pers.
+                - generic [ref=e1368]:
+                  - generic [ref=e1369]:
+                    - generic [ref=e1370]: 2 chambres
+                    - generic [ref=e1371]: 2 chambres
+                  - generic [ref=e1372]:
+                    - generic [ref=e1373]: ","
+                    - generic [ref=e1374]: ·
+                    - generic [ref=e1375]: 3 lits
+                    - generic [ref=e1376]: 3 lits
+                  - generic [ref=e1377]:
+                    - generic [ref=e1378]: ","
+                    - generic [ref=e1379]: ·
+                    - generic [ref=e1380]: 1 salle de bain
+                    - generic [ref=e1381]: 1 salle de bain
+                - generic [ref=e1383]:
+                  - generic [ref=e1384]: Professionnel
+                  - generic [ref=e1385]: Professionnel
+                - 'generic "1 421 € au total. Prix initial : 1 761 €" [ref=e1390]':
+                  - generic [ref=e1392]:
+                    - generic [ref=e1393]: 1 761 €
+                    - button [ref=e1396] [cursor=pointer]:
+                      - text: 1 421 €
+                      - generic [ref=e1397]: au total
+                      - generic [ref=e1398]: Afficher le détail du prix
+          - group [ref=e1404]:
+            - link "Villa ⋅ Vaux-sur-Mer" [ref=e1405] [cursor=pointer]:
+              - /url: /rooms/925826029404953637?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3GBpPn0jg1iINLw&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1406]:
+              - group [ref=e1409]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Villa ⋅ Vaux-sur-Mer" [ref=e1411] [cursor=pointer]':
+                        - img [ref=e1412]
+                    - generic:
+                      - button [disabled] [ref=e1415] [cursor=pointer]:
+                        - img [ref=e1417]
+                      - 'button "Photo suivante : Villa ⋅ Vaux-sur-Mer" [ref=e1420] [cursor=pointer]':
+                        - img [ref=e1422]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1428]:
+                  - link [ref=e1429] [cursor=pointer]:
+                    - /url: /rooms/925826029404953637?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3GBpPn0jg1iINLw&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1432]
+                  - link [ref=e1433] [cursor=pointer]:
+                    - /url: /rooms/925826029404953637?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3GBpPn0jg1iINLw&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1434] [cursor=pointer]:
+                    - /url: /rooms/925826029404953637?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3GBpPn0jg1iINLw&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1435] [cursor=pointer]:
+                    - /url: /rooms/925826029404953637?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3GBpPn0jg1iINLw&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1436] [cursor=pointer]:
+                    - /url: /rooms/925826029404953637?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3GBpPn0jg1iINLw&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1437] [cursor=pointer]:
+                    - /url: /rooms/925826029404953637?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3GBpPn0jg1iINLw&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1438]:
+                - generic [ref=e1439]: Villa ⋅ Vaux-sur-Mer
+                - generic [ref=e1441]: Maison d'architecte à 5 min des plages
+                - generic [ref=e1442]:
+                  - generic [ref=e1443]:
+                    - generic [ref=e1444]: 3 chambres
+                    - generic [ref=e1445]: 3 chambres
+                  - generic [ref=e1446]:
+                    - generic [ref=e1447]: ","
+                    - generic [ref=e1448]: ·
+                    - generic [ref=e1449]: 4 lits
+                    - generic [ref=e1450]: 4 lits
+                  - generic [ref=e1451]:
+                    - generic [ref=e1452]: ","
+                    - generic [ref=e1453]: ·
+                    - generic [ref=e1454]: 2 salles de bain et 1 toilette
+                    - generic [ref=e1455]: 2 salles de bain et 1 toilette
+                - generic [ref=e1457]:
+                  - generic [ref=e1458]: Particulier
+                  - generic [ref=e1459]: Particulier
+                - 'generic "1 418 € au total. Prix initial : 1 547 €" [ref=e1464]':
+                  - generic [ref=e1466]:
+                    - generic [ref=e1467]: 1 547 €
+                    - button [ref=e1470] [cursor=pointer]:
+                      - text: 1 418 €
+                      - generic [ref=e1471]: au total
+                      - generic [ref=e1472]: Afficher le détail du prix
+                - generic [ref=e1473]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 37 commentaires : 4,86 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,86 (37)
+          - group [ref=e1479]:
+            - link "Appartement en résidence ⋅ Royan" [ref=e1480] [cursor=pointer]:
+              - /url: /rooms/673037208166223032?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ZC1kO0cj8I0e10&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1481]:
+              - group [ref=e1484]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic: Coups de cœur voyageurs les plus appréciés
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Appartement en résidence ⋅ Royan" [ref=e1486] [cursor=pointer]':
+                        - img [ref=e1487]
+                    - generic:
+                      - button [disabled] [ref=e1490] [cursor=pointer]:
+                        - img [ref=e1492]
+                      - 'button "Photo suivante : Appartement en résidence ⋅ Royan" [ref=e1495] [cursor=pointer]':
+                        - img [ref=e1497]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1503]:
+                  - link [ref=e1504] [cursor=pointer]:
+                    - /url: /rooms/673037208166223032?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ZC1kO0cj8I0e10&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1507]
+                  - link [ref=e1508] [cursor=pointer]:
+                    - /url: /rooms/673037208166223032?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ZC1kO0cj8I0e10&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1509] [cursor=pointer]:
+                    - /url: /rooms/673037208166223032?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ZC1kO0cj8I0e10&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1510] [cursor=pointer]:
+                    - /url: /rooms/673037208166223032?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ZC1kO0cj8I0e10&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1511] [cursor=pointer]:
+                    - /url: /rooms/673037208166223032?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ZC1kO0cj8I0e10&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1512] [cursor=pointer]:
+                    - /url: /rooms/673037208166223032?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3ZC1kO0cj8I0e10&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1513]:
+                - generic [ref=e1514]: Appartement en résidence ⋅ Royan
+                - generic [ref=e1516]: Le 180 ° ~ Vue imprenable sur Royan Atlantique ~
+                - generic [ref=e1517]:
+                  - generic [ref=e1518]:
+                    - generic [ref=e1519]: 1 chambre
+                    - generic [ref=e1520]: 1 chambre
+                  - generic [ref=e1521]:
+                    - generic [ref=e1522]: ","
+                    - generic [ref=e1523]: ·
+                    - generic [ref=e1524]: 2 lits
+                    - generic [ref=e1525]: 2 lits
+                  - generic [ref=e1526]:
+                    - generic [ref=e1527]: ","
+                    - generic [ref=e1528]: ·
+                    - generic [ref=e1529]: 1 salle de bain et 1 toilette
+                    - generic [ref=e1530]: 1 salle de bain et 1 toilette
+                - generic [ref=e1532]:
+                  - generic [ref=e1533]: Professionnel
+                  - generic [ref=e1534]: Professionnel
+                - 'generic "988 € au total. Prix initial : 1 191 €" [ref=e1539]':
+                  - generic [ref=e1541]:
+                    - generic [ref=e1542]: 1 191 €
+                    - button [ref=e1545] [cursor=pointer]:
+                      - text: 988 €
+                      - generic [ref=e1546]: au total
+                      - generic [ref=e1547]: Afficher le détail du prix
+                - generic [ref=e1548]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 183 commentaires : 4,97 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,97 (183)
+          - group [ref=e1554]:
+            - link "Hébergement ⋅ Royan" [ref=e1555] [cursor=pointer]:
+              - /url: /rooms/1672308028474917428?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3UP3arTV2UI4Jn0&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1556]:
+              - group [ref=e1559]:
+                - generic:
+                  - generic:
+                    - 'button "Ajouter aux favoris : Hébergement ⋅ Royan" [ref=e1561] [cursor=pointer]':
+                      - img [ref=e1562]
+                    - generic:
+                      - button [disabled] [ref=e1565] [cursor=pointer]:
+                        - img [ref=e1567]
+                      - 'button "Photo suivante : Hébergement ⋅ Royan" [ref=e1570] [cursor=pointer]':
+                        - img [ref=e1572]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1578]:
+                  - link [ref=e1579] [cursor=pointer]:
+                    - /url: /rooms/1672308028474917428?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3UP3arTV2UI4Jn0&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1582]
+                  - link [ref=e1583] [cursor=pointer]:
+                    - /url: /rooms/1672308028474917428?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3UP3arTV2UI4Jn0&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1584] [cursor=pointer]:
+                    - /url: /rooms/1672308028474917428?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3UP3arTV2UI4Jn0&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1585] [cursor=pointer]:
+                    - /url: /rooms/1672308028474917428?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3UP3arTV2UI4Jn0&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1586] [cursor=pointer]:
+                    - /url: /rooms/1672308028474917428?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3UP3arTV2UI4Jn0&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1587] [cursor=pointer]:
+                    - /url: /rooms/1672308028474917428?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3UP3arTV2UI4Jn0&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1588]:
+                - generic [ref=e1589]: Hébergement ⋅ Royan
+                - generic [ref=e1591]: Très belle maison rénovée à 100m de la plage, Wifi
+                - generic [ref=e1592]:
+                  - generic [ref=e1593]:
+                    - generic [ref=e1594]: 2 chambres
+                    - generic [ref=e1595]: 2 chambres
+                  - generic [ref=e1596]:
+                    - generic [ref=e1597]: ","
+                    - generic [ref=e1598]: ·
+                    - generic [ref=e1599]: 3 lits
+                    - generic [ref=e1600]: 3 lits
+                  - generic [ref=e1601]:
+                    - generic [ref=e1602]: ","
+                    - generic [ref=e1603]: ·
+                    - generic [ref=e1604]: 1 salle de bain
+                    - generic [ref=e1605]: 1 salle de bain
+                - generic [ref=e1607]:
+                  - generic [ref=e1608]: Particulier
+                  - generic [ref=e1609]: Particulier
+                - generic [ref=e1613]:
+                  - button [ref=e1618] [cursor=pointer]:
+                    - text: 1 411 €
+                    - generic [ref=e1619]: au total
+                    - generic [ref=e1620]: Afficher le détail du prix
+                  - generic [ref=e1621]: 1 411 € au total
+                - generic [ref=e1622]:
+                  - generic:
+                    - generic: Nouvel hébergement
+                    - generic:
+                      - img
+                    - generic: Nouveau
+          - group [ref=e1628]:
+            - link "Appartement ⋅ Meschers-sur-Gironde" [ref=e1629] [cursor=pointer]:
+              - /url: /rooms/1369562739665408537?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P37LBPIzOITCgepv&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1630]:
+              - group [ref=e1633]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                          - generic: Coups de cœur voyageurs les plus appréciés
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Appartement ⋅ Meschers-sur-Gironde" [ref=e1635] [cursor=pointer]':
+                        - img [ref=e1636]
+                    - generic:
+                      - button [disabled] [ref=e1639] [cursor=pointer]:
+                        - img [ref=e1641]
+                      - 'button "Photo suivante : Appartement ⋅ Meschers-sur-Gironde" [ref=e1644] [cursor=pointer]':
+                        - img [ref=e1646]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1652]:
+                  - link [ref=e1653] [cursor=pointer]:
+                    - /url: /rooms/1369562739665408537?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P37LBPIzOITCgepv&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1656]
+                  - link [ref=e1657] [cursor=pointer]:
+                    - /url: /rooms/1369562739665408537?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P37LBPIzOITCgepv&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1658] [cursor=pointer]:
+                    - /url: /rooms/1369562739665408537?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P37LBPIzOITCgepv&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1659] [cursor=pointer]:
+                    - /url: /rooms/1369562739665408537?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P37LBPIzOITCgepv&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1660] [cursor=pointer]:
+                    - /url: /rooms/1369562739665408537?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P37LBPIzOITCgepv&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1661] [cursor=pointer]:
+                    - /url: /rooms/1369562739665408537?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P37LBPIzOITCgepv&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1662]:
+                - generic [ref=e1663]: Appartement ⋅ Meschers-sur-Gironde
+                - generic [ref=e1665]: APPT 8 pers. vue mer panoramique
+                - generic [ref=e1666]:
+                  - generic [ref=e1667]:
+                    - generic [ref=e1668]: 2 chambres
+                    - generic [ref=e1669]: 2 chambres
+                  - generic [ref=e1670]:
+                    - generic [ref=e1671]: ","
+                    - generic [ref=e1672]: ·
+                    - generic [ref=e1673]: 6 lits
+                    - generic [ref=e1674]: 6 lits
+                  - generic [ref=e1675]:
+                    - generic [ref=e1676]: ","
+                    - generic [ref=e1677]: ·
+                    - generic [ref=e1678]: 2 salles de bain
+                    - generic [ref=e1679]: 2 salles de bain
+                - generic [ref=e1681]:
+                  - generic [ref=e1682]: Professionnel
+                  - generic [ref=e1683]: Professionnel
+                - generic [ref=e1684]:
+                  - generic [ref=e1687]:
+                    - button [ref=e1692] [cursor=pointer]:
+                      - text: 1 843 €
+                      - generic [ref=e1693]: au total
+                      - generic [ref=e1694]: Afficher le détail du prix
+                    - generic [ref=e1695]: 1 843 € au total
+                  - generic [ref=e1697]: Annulation gratuite
+                - generic [ref=e1698]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 8 commentaires : 5,0 sur 5"
+                    - generic:
+                      - img
+                    - generic: 5,0 (8)
+          - group [ref=e1704]:
+            - link "Hébergement ⋅ Saint-Palais-sur-Mer" [ref=e1705] [cursor=pointer]:
+              - /url: /rooms/1683502465192618515?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3isd2f8Ntr9Azct&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1706]:
+              - group [ref=e1709]:
+                - generic:
+                  - generic:
+                    - 'button "Ajouter aux favoris : Hébergement ⋅ Saint-Palais-sur-Mer" [ref=e1711] [cursor=pointer]':
+                      - img [ref=e1712]
+                    - generic:
+                      - button [disabled] [ref=e1715] [cursor=pointer]:
+                        - img [ref=e1717]
+                      - 'button "Photo suivante : Hébergement ⋅ Saint-Palais-sur-Mer" [ref=e1720] [cursor=pointer]':
+                        - img [ref=e1722]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1728]:
+                  - link [ref=e1729] [cursor=pointer]:
+                    - /url: /rooms/1683502465192618515?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3isd2f8Ntr9Azct&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1732]
+                  - link [ref=e1733] [cursor=pointer]:
+                    - /url: /rooms/1683502465192618515?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3isd2f8Ntr9Azct&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1734] [cursor=pointer]:
+                    - /url: /rooms/1683502465192618515?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3isd2f8Ntr9Azct&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1735] [cursor=pointer]:
+                    - /url: /rooms/1683502465192618515?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3isd2f8Ntr9Azct&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1736] [cursor=pointer]:
+                    - /url: /rooms/1683502465192618515?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3isd2f8Ntr9Azct&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1737] [cursor=pointer]:
+                    - /url: /rooms/1683502465192618515?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3isd2f8Ntr9Azct&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1738]:
+                - generic [ref=e1739]: Hébergement ⋅ Saint-Palais-sur-Mer
+                - generic [ref=e1741]: Chez Nana Et Milou
+                - generic [ref=e1742]:
+                  - generic [ref=e1743]:
+                    - generic [ref=e1744]: 2 chambres
+                    - generic [ref=e1745]: 2 chambres
+                  - generic [ref=e1746]:
+                    - generic [ref=e1747]: ","
+                    - generic [ref=e1748]: ·
+                    - generic [ref=e1749]: 3 lits
+                    - generic [ref=e1750]: 3 lits
+                  - generic [ref=e1751]:
+                    - generic [ref=e1752]: ","
+                    - generic [ref=e1753]: ·
+                    - generic [ref=e1754]: 1 salle de bain
+                    - generic [ref=e1755]: 1 salle de bain
+                - generic [ref=e1757]:
+                  - generic [ref=e1758]: Particulier
+                  - generic [ref=e1759]: Particulier
+                - generic [ref=e1763]:
+                  - button [ref=e1768] [cursor=pointer]:
+                    - text: 1 158 €
+                    - generic [ref=e1769]: au total
+                    - generic [ref=e1770]: Afficher le détail du prix
+                  - generic [ref=e1771]: 1 158 € au total
+                - generic [ref=e1772]:
+                  - generic:
+                    - generic: Nouvel hébergement
+                    - generic:
+                      - img
+                    - generic: Nouveau
+          - group [ref=e1778]:
+            - link "Appartement ⋅ Royan" [ref=e1779] [cursor=pointer]:
+              - /url: /rooms/1106968975655636947?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3BydosXd55wuaHH&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1780]:
+              - group [ref=e1783]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Appartement ⋅ Royan" [ref=e1785] [cursor=pointer]':
+                        - img [ref=e1786]
+                    - generic:
+                      - button [disabled] [ref=e1789] [cursor=pointer]:
+                        - img [ref=e1791]
+                      - 'button "Photo suivante : Appartement ⋅ Royan" [ref=e1794] [cursor=pointer]':
+                        - img [ref=e1796]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1802]:
+                  - link [ref=e1803] [cursor=pointer]:
+                    - /url: /rooms/1106968975655636947?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3BydosXd55wuaHH&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e2129]
+                  - link [ref=e1806] [cursor=pointer]:
+                    - /url: /rooms/1106968975655636947?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3BydosXd55wuaHH&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1807] [cursor=pointer]:
+                    - /url: /rooms/1106968975655636947?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3BydosXd55wuaHH&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1808] [cursor=pointer]:
+                    - /url: /rooms/1106968975655636947?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3BydosXd55wuaHH&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1809] [cursor=pointer]:
+                    - /url: /rooms/1106968975655636947?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3BydosXd55wuaHH&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1810] [cursor=pointer]:
+                    - /url: /rooms/1106968975655636947?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3BydosXd55wuaHH&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1811]:
+                - generic [ref=e1812]: Appartement ⋅ Royan
+                - generic [ref=e1814]: Villa Louise - Foncillon - 5 min des plages à pied
+                - generic [ref=e1815]:
+                  - generic [ref=e1816]:
+                    - generic [ref=e1817]: 2 chambres
+                    - generic [ref=e1818]: 2 chambres
+                  - generic [ref=e1819]:
+                    - generic [ref=e1820]: ","
+                    - generic [ref=e1821]: ·
+                    - generic [ref=e1822]: 3 lits
+                    - generic [ref=e1823]: 3 lits
+                  - generic [ref=e1824]:
+                    - generic [ref=e1825]: ","
+                    - generic [ref=e1826]: ·
+                    - generic [ref=e1827]: 1 salle de bain
+                    - generic [ref=e1828]: 1 salle de bain
+                - generic [ref=e1830]:
+                  - generic [ref=e1831]: Particulier
+                  - generic [ref=e1832]: Particulier
+                - 'generic "1 218 € au total. Prix initial : 1 320 €" [ref=e1837]':
+                  - generic [ref=e1839]:
+                    - generic [ref=e1840]: 1 320 €
+                    - button [ref=e1843] [cursor=pointer]:
+                      - text: 1 218 €
+                      - generic [ref=e1844]: au total
+                      - generic [ref=e1845]: Afficher le détail du prix
+                - generic [ref=e1846]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 9 commentaires : 4,89 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,89 (9)
+          - group [ref=e1852]:
+            - link "Appartement ⋅ Royan" [ref=e1853] [cursor=pointer]:
+              - /url: /rooms/1120786308917049572?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3SY1cK53pkk8yfd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1854]:
+              - group [ref=e1857]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Appartement ⋅ Royan" [ref=e1859] [cursor=pointer]':
+                        - img [ref=e1860]
+                    - generic:
+                      - button [disabled] [ref=e1863] [cursor=pointer]:
+                        - img [ref=e1865]
+                      - 'button "Photo suivante : Appartement ⋅ Royan" [ref=e1868] [cursor=pointer]':
+                        - img [ref=e1870]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1876]:
+                  - link [ref=e1877] [cursor=pointer]:
+                    - /url: /rooms/1120786308917049572?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3SY1cK53pkk8yfd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1879]
+                  - link [ref=e1880] [cursor=pointer]:
+                    - /url: /rooms/1120786308917049572?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3SY1cK53pkk8yfd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1881] [cursor=pointer]:
+                    - /url: /rooms/1120786308917049572?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3SY1cK53pkk8yfd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1882] [cursor=pointer]:
+                    - /url: /rooms/1120786308917049572?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3SY1cK53pkk8yfd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1883] [cursor=pointer]:
+                    - /url: /rooms/1120786308917049572?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3SY1cK53pkk8yfd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1884] [cursor=pointer]:
+                    - /url: /rooms/1120786308917049572?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3SY1cK53pkk8yfd&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1885]:
+                - generic [ref=e1886]: Appartement ⋅ Royan
+                - generic [ref=e1888]: Vue panoramique mer, balcon
+                - generic [ref=e1889]:
+                  - generic [ref=e1890]:
+                    - generic [ref=e1891]: 3 chambres
+                    - generic [ref=e1892]: 3 chambres
+                  - generic [ref=e1893]:
+                    - generic [ref=e1894]: ","
+                    - generic [ref=e1895]: ·
+                    - generic [ref=e1896]: 4 lits
+                    - generic [ref=e1897]: 4 lits
+                  - generic [ref=e1898]:
+                    - generic [ref=e1899]: ","
+                    - generic [ref=e1900]: ·
+                    - generic [ref=e1901]: 2 salles de bain
+                    - generic [ref=e1902]: 2 salles de bain
+                - generic [ref=e1904]:
+                  - generic [ref=e1905]: Professionnel
+                  - generic [ref=e1906]: Professionnel
+                - 'generic "1 643 € au total. Prix initial : 1 953 €" [ref=e1911]':
+                  - generic [ref=e1913]:
+                    - generic [ref=e1914]: 1 953 €
+                    - button [ref=e1917] [cursor=pointer]:
+                      - text: 1 643 €
+                      - generic [ref=e1918]: au total
+                      - generic [ref=e1919]: Afficher le détail du prix
+                - generic [ref=e1920]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 6 commentaires : 5,0 sur 5"
+                    - generic:
+                      - img
+                    - generic: 5,0 (6)
+          - group [ref=e1926]:
+            - link "Appartement ⋅ Royan" [ref=e1927] [cursor=pointer]:
+              - /url: /rooms/1071807977386947124?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3aeSxUohbYBloGk&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+            - generic [ref=e1928]:
+              - group [ref=e1931]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Coup de cœur voyageurs
+                          - generic: Coup de cœur voyageurs
+                      - 'button "Ajouter aux favoris : Appartement ⋅ Royan" [ref=e1933] [cursor=pointer]':
+                        - img [ref=e1934]
+                    - generic:
+                      - button [disabled] [ref=e1937] [cursor=pointer]:
+                        - img [ref=e1939]
+                      - 'button "Photo suivante : Appartement ⋅ Royan" [ref=e1942] [cursor=pointer]':
+                        - img [ref=e1944]
+                    - generic:
+                      - generic:
+                        - img "Photo 1 sur 6"
+                - generic [ref=e1950]:
+                  - link [ref=e1951] [cursor=pointer]:
+                    - /url: /rooms/1071807977386947124?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3aeSxUohbYBloGk&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                    - img [ref=e1953]
+                  - link [ref=e1954] [cursor=pointer]:
+                    - /url: /rooms/1071807977386947124?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3aeSxUohbYBloGk&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1955] [cursor=pointer]:
+                    - /url: /rooms/1071807977386947124?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3aeSxUohbYBloGk&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1956] [cursor=pointer]:
+                    - /url: /rooms/1071807977386947124?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3aeSxUohbYBloGk&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1957] [cursor=pointer]:
+                    - /url: /rooms/1071807977386947124?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3aeSxUohbYBloGk&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+                  - link [ref=e1958] [cursor=pointer]:
+                    - /url: /rooms/1071807977386947124?adults=4&check_in=2026-07-11&check_out=2026-07-18&search_mode=regular_search&source_impression_id=p3_1782729014_P3aeSxUohbYBloGk&previous_page_section_name=1000&federated_search_id=2196fb72-11e7-44f3-a8d2-45d0ac975952
+              - generic [ref=e1959]:
+                - generic [ref=e1960]: Appartement ⋅ Royan
+                - generic [ref=e1962]: Maison rénovée, grande terrasse à 600m de la mer
+                - generic [ref=e1963]:
+                  - generic [ref=e1964]:
+                    - generic [ref=e1965]: 3 chambres
+                    - generic [ref=e1966]: 3 chambres
+                  - generic [ref=e1967]:
+                    - generic [ref=e1968]: ","
+                    - generic [ref=e1969]: ·
+                    - generic [ref=e1970]: 4 lits
+                    - generic [ref=e1971]: 4 lits
+                  - generic [ref=e1972]:
+                    - generic [ref=e1973]: ","
+                    - generic [ref=e1974]: ·
+                    - generic [ref=e1975]: 1 salle de bain
+                    - generic [ref=e1976]: 1 salle de bain
+                - generic [ref=e1978]:
+                  - generic [ref=e1979]: Particulier
+                  - generic [ref=e1980]: Particulier
+                - 'generic "1 346 € au total. Prix initial : 1 598 €" [ref=e1985]':
+                  - generic [ref=e1987]:
+                    - generic [ref=e1988]: 1 598 €
+                    - button [ref=e1991] [cursor=pointer]:
+                      - text: 1 346 €
+                      - generic [ref=e1992]: au total
+                      - generic [ref=e1993]: Afficher le détail du prix
+                - generic [ref=e1994]:
+                  - generic:
+                    - generic: "Évaluation moyenne sur la base de 18 commentaires : 4,83 sur 5"
+                    - generic:
+                      - img
+                    - generic: 4,83 (18)
+        - navigation "Mise en page des résultats de recherche" [ref=e2134]:
+          - generic [ref=e2135]:
+            - link "Précédent" [disabled] [ref=e2136]:
+              - img [ref=e2137]
+            - link "1" [disabled] [ref=e2139]
+            - link "2" [ref=e2140] [cursor=pointer]:
+              - /url: /s/Royan/homes?flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-07-01&monthly_length=3&monthly_end_date=2026-10-01&price_filter_input_type=2&channel=EXPLORE&query=Royan&place_id=ChIJ33kHxkJ2AUgR4XPOWCqaafw&date_picker_type=calendar&checkin=2026-07-11&checkout=2026-07-18&adults=4&source=structured_search_input_header&refinement_paths%5B%5D=%2Fhomes&price_filter_num_nights=7&federated_search_session_id=2dab73a7-a17b-41f0-9b2e-5733e7921661&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D
+            - link "3" [ref=e2141] [cursor=pointer]:
+              - /url: /s/Royan/homes?flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-07-01&monthly_length=3&monthly_end_date=2026-10-01&price_filter_input_type=2&channel=EXPLORE&query=Royan&place_id=ChIJ33kHxkJ2AUgR4XPOWCqaafw&date_picker_type=calendar&checkin=2026-07-11&checkout=2026-07-18&adults=4&source=structured_search_input_header&refinement_paths%5B%5D=%2Fhomes&price_filter_num_nights=7&federated_search_session_id=2dab73a7-a17b-41f0-9b2e-5733e7921661&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjozNiwidmVyc2lvbiI6MX0%3D
+            - link "4" [ref=e2142] [cursor=pointer]:
+              - /url: /s/Royan/homes?flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-07-01&monthly_length=3&monthly_end_date=2026-10-01&price_filter_input_type=2&channel=EXPLORE&query=Royan&place_id=ChIJ33kHxkJ2AUgR4XPOWCqaafw&date_picker_type=calendar&checkin=2026-07-11&checkout=2026-07-18&adults=4&source=structured_search_input_header&refinement_paths%5B%5D=%2Fhomes&price_filter_num_nights=7&federated_search_session_id=2dab73a7-a17b-41f0-9b2e-5733e7921661&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0Ijo1NCwidmVyc2lvbiI6MX0%3D
+            - generic [ref=e2143]: …
+            - link "15" [ref=e2144] [cursor=pointer]:
+              - /url: /s/Royan/homes?flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-07-01&monthly_length=3&monthly_end_date=2026-10-01&price_filter_input_type=2&channel=EXPLORE&query=Royan&place_id=ChIJ33kHxkJ2AUgR4XPOWCqaafw&date_picker_type=calendar&checkin=2026-07-11&checkout=2026-07-18&adults=4&source=structured_search_input_header&refinement_paths%5B%5D=%2Fhomes&price_filter_num_nights=7&federated_search_session_id=2dab73a7-a17b-41f0-9b2e-5733e7921661&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjoyNTIsInZlcnNpb24iOjF9
+            - link "Suivant" [ref=e2145] [cursor=pointer]:
+              - /url: /s/Royan/homes?flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2026-07-01&monthly_length=3&monthly_end_date=2026-10-01&price_filter_input_type=2&channel=EXPLORE&query=Royan&place_id=ChIJ33kHxkJ2AUgR4XPOWCqaafw&date_picker_type=calendar&checkin=2026-07-11&checkout=2026-07-18&adults=4&source=structured_search_input_header&refinement_paths%5B%5D=%2Fhomes&price_filter_num_nights=7&federated_search_session_id=2dab73a7-a17b-41f0-9b2e-5733e7921661&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MCwiaXRlbXNfb2Zmc2V0IjoxOCwidmVyc2lvbiI6MX0%3D
+              - img [ref=e2146]
+      - region "Google Map" [ref=e2148]:
+        - generic [ref=e2149]: Centré sur Charente-Maritime
+        - heading "Carte Google 20 séjours affichés." [level=2] [ref=e2151]
+        - button "Paramètres de la carte" [ref=e2152] [cursor=pointer]:
+          - img [ref=e2153]
+        - generic [ref=e2155]:
+          - button "Afficher la carte en plein écran" [ref=e2158] [cursor=pointer]:
+            - img [ref=e2160]
+          - generic [ref=e2167]:
+            - button "Dézoomer" [ref=e2168] [cursor=pointer]:
+              - img [ref=e2169]
+            - button "Dézoomer" [ref=e2173] [cursor=pointer]:
+              - img [ref=e2174]
+        - generic [ref=e2002]:
+          - generic:
+            - button "Raccourcis clavier"
+          - generic "Carte" [ref=e2176]
+          - generic [ref=e2177]:
+            - generic [ref=e2196]:
+              - generic:
+                - generic:
+                  - generic:
+                    - button "Hébergement ⋅ Royan, 1 987 €":
+                      - generic [ref=e2204] [cursor=pointer]:
+                        - generic [ref=e2205]: Hébergement ⋅ Royan, 1 987 €
+                        - text: 1 987 €
+                    - button "Hébergement ⋅ Royan, 1 561 €":
+                      - generic [ref=e2212] [cursor=pointer]:
+                        - generic [ref=e2213]: Hébergement ⋅ Royan, 1 561 €
+                        - text: 1 561 €
+                    - button "Hébergement ⋅ Royan, 1 876 €":
+                      - generic [ref=e2220] [cursor=pointer]:
+                        - generic [ref=e2221]: Hébergement ⋅ Royan, 1 876 €
+                        - text: 1 876 €
+                    - button "Appartement ⋅ Royan, 907 €":
+                      - generic [ref=e2228] [cursor=pointer]:
+                        - generic [ref=e2229]: Appartement ⋅ Royan, 907 €
+                        - text: 907 €
+                    - button "Hébergement ⋅ Vaux-sur-Mer, 1 712 €":
+                      - generic [ref=e2236] [cursor=pointer]:
+                        - generic [ref=e2237]: Hébergement ⋅ Vaux-sur-Mer, 1 712 €
+                        - text: 1 712 €
+                    - button "Hébergement ⋅ Royan, 1 326 €":
+                      - generic [ref=e2244] [cursor=pointer]:
+                        - generic [ref=e2245]: Hébergement ⋅ Royan, 1 326 €
+                        - text: 1 326 €
+                    - button "Maison de ville ⋅ Royan, 1 094 €":
+                      - generic [ref=e2252] [cursor=pointer]:
+                        - generic [ref=e2253]: Maison de ville ⋅ Royan, 1 094 €
+                        - text: 1 094 €
+                    - button "Hébergement ⋅ Saint-Palais-sur-Mer, 1 586 €":
+                      - generic [ref=e2260] [cursor=pointer]:
+                        - generic [ref=e2261]: Hébergement ⋅ Saint-Palais-sur-Mer, 1 586 €
+                        - text: 1 586 €
+                    - button "Appartement ⋅ Royan, 1 421 €":
+                      - generic [ref=e2268] [cursor=pointer]:
+                        - generic [ref=e2269]: Appartement ⋅ Royan, 1 421 €
+                        - text: 1 421 €
+                    - button "Villa ⋅ Vaux-sur-Mer, 1 418 €":
+                      - generic [ref=e2276] [cursor=pointer]:
+                        - generic [ref=e2277]: Villa ⋅ Vaux-sur-Mer, 1 418 €
+                        - text: 1 418 €
+                    - button "Appartement en résidence ⋅ Royan, 988 €":
+                      - generic [ref=e2284] [cursor=pointer]:
+                        - generic [ref=e2285]: Appartement en résidence ⋅ Royan, 988 €
+                        - text: 988 €
+                    - button "Hébergement ⋅ Vaux-sur-Mer, 2 379 €":
+                      - generic [ref=e2292] [cursor=pointer]:
+                        - generic [ref=e2293]: Hébergement ⋅ Vaux-sur-Mer, 2 379 €
+                        - text: 2 379 €
+                    - button "Hébergement ⋅ Royan, 1 411 €":
+                      - generic [ref=e2300] [cursor=pointer]:
+                        - generic [ref=e2301]: Hébergement ⋅ Royan, 1 411 €
+                        - text: 1 411 €
+                    - button "Appartement ⋅ Meschers-sur-Gironde, 1 843 €":
+                      - generic [ref=e2308] [cursor=pointer]:
+                        - generic [ref=e2309]: Appartement ⋅ Meschers-sur-Gironde, 1 843 €
+                        - text: 1 843 €
+                    - button "Hébergement ⋅ Saint-Palais-sur-Mer, 1 158 €":
+                      - generic [ref=e2316] [cursor=pointer]:
+                        - generic [ref=e2317]: Hébergement ⋅ Saint-Palais-sur-Mer, 1 158 €
+                        - text: 1 158 €
+                    - button "Appartement ⋅ Royan, 1 218 €":
+                      - generic [ref=e2324] [cursor=pointer]:
+                        - generic [ref=e2325]: Appartement ⋅ Royan, 1 218 €
+                        - text: 1 218 €
+                    - button "Appartement ⋅ Royan, 1 643 €":
+                      - generic [ref=e2332] [cursor=pointer]:
+                        - generic [ref=e2333]: Appartement ⋅ Royan, 1 643 €
+                        - text: 1 643 €
+                    - button "Appartement ⋅ Royan, 1 346 €":
+                      - generic [ref=e2340] [cursor=pointer]:
+                        - generic [ref=e2341]: Appartement ⋅ Royan, 1 346 €
+                        - text: 1 346 €
+                    - button "Hébergement ⋅ Royan, 1 555 €":
+                      - generic [ref=e2348] [cursor=pointer]:
+                        - generic [ref=e2349]: Hébergement ⋅ Royan, 1 555 €
+                        - text: 1 555 €
+                    - button "Appartement ⋅ Royan, 1 505 €":
+                      - generic [ref=e2356] [cursor=pointer]:
+                        - generic [ref=e2357]: Appartement ⋅ Royan, 1 505 €
+                        - text: 1 505 €
+                    - button "Royan":
+                      - generic "Royan" [ref=e2359] [cursor=pointer]:
+                        - generic [ref=e2363]:
+                          - img [ref=e2366]
+                          - generic [ref=e2368]: Royan
+                    - button
+            - iframe [ref=e2376]:
+              
+            - link "Ouvrir cette zone dans Google Maps (dans une nouvelle fenêtre)" [ref=e2378] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?ll=45.632572,-1.038005&z=11.827841738906617&t=m&hl=fr&gl=FR&mapclient=apiv3
+              - img "Google" [ref=e2380]
+            - generic [ref=e2381]:
+              - button "Raccourcis clavier" [ref=e2387] [cursor=pointer]
+              - button "Données cartographiques" [ref=e2393] [cursor=pointer]
+              - 'button "Échelle de la carte : 2 km pour 66 pixels" [ref=e2394] [cursor=pointer]':
+                - generic [ref=e2397]: 2 km
+              - link "Conditions d'utilisation (s'ouvre dans un nouvel onglet)" [ref=e2409] [cursor=pointer]:
+                - /url: https://www.google.com/intl/fr_FR/help/terms_maps.html
+                - text: Conditions d'utilisation
+    - contentinfo [ref=e2009]:
+      - generic [ref=e2010]:
+        - heading "Pied de page du site" [level=2] [ref=e2012]
+        - generic [ref=e2013]:
+          - generic [ref=e2014]:
+            - heading "Assistance" [level=3] [ref=e2015]
+            - list [ref=e2016]:
+              - listitem [ref=e2017]:
+                - link "Centre d'aide" [ref=e2018] [cursor=pointer]:
+                  - /url: /help/home?from=footer
+              - listitem [ref=e2019]:
+                - link "Assistance sécurité" [ref=e2020] [cursor=pointer]:
+                  - /url: /help/contact-us?entry=DESKTOP_FOOTER_SAFETY
+              - listitem [ref=e2021]:
+                - link "AirCover" [ref=e2022] [cursor=pointer]:
+                  - /url: /aircover
+              - listitem [ref=e2023]:
+                - link "Lutte contre la discrimination" [ref=e2024] [cursor=pointer]:
+                  - /url: /against-discrimination
+              - listitem [ref=e2025]:
+                - link "Assistance handicap" [ref=e2026] [cursor=pointer]:
+                  - /url: /accessibility
+              - listitem [ref=e2027]:
+                - link "Options d'annulation" [ref=e2028] [cursor=pointer]:
+                  - /url: /help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19
+              - listitem [ref=e2029]:
+                - link "J'ai un problème de voisinage" [ref=e2030] [cursor=pointer]:
+                  - /url: /neighbors
+          - generic [ref=e2031]:
+            - heading "Accueil de voyageurs" [level=3] [ref=e2032]
+            - list [ref=e2033]:
+              - listitem [ref=e2034]:
+                - link "Mettez votre logement sur Airbnb" [ref=e2035] [cursor=pointer]:
+                  - /url: /host/homes?from_footer=1
+              - listitem [ref=e2036]:
+                - link "Proposez votre expérience sur Airbnb" [ref=e2037] [cursor=pointer]:
+                  - /url: /host/experiences
+              - listitem [ref=e2038]:
+                - link "Proposez votre service sur Airbnb" [ref=e2039] [cursor=pointer]:
+                  - /url: /host/services
+              - listitem [ref=e2040]:
+                - link "AirCover pour les hôtes" [ref=e2041] [cursor=pointer]:
+                  - /url: /aircover-for-hosts
+              - listitem [ref=e2042]:
+                - link "Ressources pour les hôtes" [ref=e2043] [cursor=pointer]:
+                  - /url: /resources
+              - listitem [ref=e2044]:
+                - link "Forum de la communauté" [ref=e2045] [cursor=pointer]:
+                  - /url: https://community.withairbnb.com/t5/Community-Center-FR/ct-p/community-center-fr
+              - listitem [ref=e2046]:
+                - link "Hébergement responsable" [ref=e2047] [cursor=pointer]:
+                  - /url: /help/responsible-hosting
+              - listitem [ref=e2048]:
+                - link "Participez à un cours gratuit pour les hôtes" [ref=e2049] [cursor=pointer]:
+                  - /url: /e/intro-to-hosting
+              - listitem [ref=e2050]:
+                - link "Trouver un co‑hôte" [ref=e2051] [cursor=pointer]:
+                  - /url: /host/co-hosts
+              - listitem [ref=e2052]:
+                - link "Parrainer un hôte" [ref=e2053] [cursor=pointer]:
+                  - /url: /refer
+          - generic [ref=e2054]:
+            - heading "Airbnb" [level=3] [ref=e2055]
+            - list [ref=e2056]:
+              - listitem [ref=e2057]:
+                - link "Édition été 2026" [ref=e2058] [cursor=pointer]:
+                  - /url: /release
+              - listitem [ref=e2059]:
+                - link "Newsroom" [ref=e2060] [cursor=pointer]:
+                  - /url: /press/news
+              - listitem [ref=e2061]:
+                - link "Carrières" [ref=e2062] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e2063]:
+                - link "Investisseurs" [ref=e2064] [cursor=pointer]:
+                  - /url: https://investors.airbnb.com
+              - listitem [ref=e2065]:
+                - link "Cartes cadeaux" [ref=e2066] [cursor=pointer]:
+                  - /url: /giftcards
+              - listitem [ref=e2067]:
+                - link "Séjours d'urgence Airbnb.org" [ref=e2068] [cursor=pointer]:
+                  - /url: https://www.airbnb.org?locale=fr
+        - generic [ref=e2069]:
+          - generic [ref=e2070]: Section de pied de page
+          - generic [ref=e2072]:
+            - generic [ref=e2074]:
+              - generic [ref=e2075]: © 2026 Airbnb, Inc.
+              - generic [ref=e2076]:
+                - generic [ref=e2078]: ·
+                - list [ref=e2080]:
+                  - listitem [ref=e2081]:
+                    - link "Confidentialité" [ref=e2082] [cursor=pointer]:
+                      - /url: /terms/privacy_policy
+                    - generic [ref=e2083]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e2084]:
+                    - link "Conditions générales" [ref=e2085] [cursor=pointer]:
+                      - /url: /terms
+                    - generic [ref=e2086]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e2087]:
+                    - link "Fonctionnement du site" [ref=e2088] [cursor=pointer]:
+                      - /url: /fonctionnement_du_site
+                    - generic [ref=e2089]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e2090]:
+                    - link "Infos sur l'entreprise" [ref=e2091] [cursor=pointer]:
+                      - /url: /about/company-details
+            - generic [ref=e2092]:
+              - generic [ref=e2094]:
+                - button "Sélectionnez une langue" [ref=e2096] [cursor=pointer]:
+                  - generic [ref=e2097]:
+                    - generic:
+                      - img
+                      - text: Français (FR)
+                - button "Sélectionnez une devise" [ref=e2099] [cursor=pointer]:
+                  - generic [ref=e2101]:
+                    - generic [ref=e2102]: €
+                    - generic [ref=e2103]: EUR
+              - list [ref=e2105]:
+                - listitem [ref=e2106]:
+                  - link "Accéder à Facebook" [ref=e2107] [cursor=pointer]:
+                    - /url: https://www.facebook.com/AirbnbFrance
+                    - img [ref=e2109]
+                - listitem [ref=e2111]:
+                  - link "Accéder à Twitter" [ref=e2112] [cursor=pointer]:
+                    - /url: https://twitter.com/airbnb_fr
+                    - img [ref=e2114]
+                - listitem [ref=e2116]:
+                  - link "Accéder à Instagram" [ref=e2117] [cursor=pointer]:
+                    - /url: https://instagram.com/airbnb
+                    - img [ref=e2119]

@@ -1,0 +1,667 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Passer directement au contenu principal" [ref=e2] [cursor=pointer]
+      - link "Aide sur l'accessibilité" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fr-MA
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "Coupe du Monde 2026 : l''art de la virgule" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=fr&ictx=2&sa=X&ved=0ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQPQgK
+          - 'img "Coupe du Monde 2026 : l''art de la virgule" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Rech." [ref=e19]: "\"saint trojan les bains\" location vacances maison plage \"saint trojan les bains\" location vacances maison plage"
+            - generic [ref=e20]:
+              - button "Effacer" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Utiliser la recherche vocale" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Rechercher par image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Rechercher" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Paramètres" [ref=e41] [cursor=pointer]:
+        - img [ref=e44]
+      - button "Partager" [ref=e47] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e53]:
+        - button "Applications Google" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Connexion" [ref=e60] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/search%3Fq%3D%2522saint%2Btrojan%2Bles%2Bbains%2522%2Blocation%2Bvacances%2Bmaison%2Bplage%26hl%3Dfr&ec=futura_srp_og_si_72236_p
+  - generic [ref=e62]:
+    - navigation [ref=e68]:
+      - generic [ref=e74]:
+        - list [ref=e75]:
+          - listitem [ref=e76]:
+            - link "Mode IA" [ref=e79] [cursor=pointer]:
+              - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ2J8OegQIDxAD
+              - generic [ref=e82]: Mode IA
+          - listitem [ref=e83]:
+            - link "Tous" [disabled] [ref=e84]:
+              - generic [ref=e86]: Tous
+          - listitem [ref=e87]:
+            - link "Images" [ref=e88] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQtKgLegQIFRAB
+              - generic [ref=e90]: Images
+          - listitem [ref=e91]:
+            - link "Vidéos courtes" [ref=e92] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQs6gLegQIFhAB
+              - generic [ref=e94]: Vidéos courtes
+          - listitem [ref=e95]:
+            - link "Vidéos" [ref=e96] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQtKgLegQIFBAB
+              - generic [ref=e98]: Vidéos
+          - listitem [ref=e99]:
+            - link "Maps" [ref=e100] [cursor=pointer]:
+              - /url: https://maps.google.com/maps?sca_esv=46b5e676a6bf9410&hl=fr&output=search&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&entry=mc&ved=1t:200715&ictx=111
+              - generic [ref=e102]: Maps
+          - listitem [ref=e103]:
+            - link "Actualités" [ref=e104] [cursor=pointer]:
+              - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ0pQJegQIEhAB
+              - generic [ref=e106]: Actualités
+          - listitem [ref=e107]:
+            - button "Plus de filtres" [ref=e108] [cursor=pointer]:
+              - generic "Plus de filtres" [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Plus
+                  - img [ref=e113]
+        - button "Outils" [ref=e116] [cursor=pointer]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Outils
+            - img [ref=e121]
+    - heading "Résultats de recherche" [level=1] [ref=e123]
+    - main [ref=e129]:
+      - generic [ref=e133]:
+        - generic [ref=e136]:
+          - heading "Résultats Web" [level=2] [ref=e137]
+          - generic [ref=e138]:
+            - generic [ref=e141]:
+              - link "Location de vacances à Saint-Trojan-les-Bains Oléron Location https://www.oleron-location.com › listings › location-va..." [ref=e143] [cursor=pointer]:
+                - /url: https://www.oleron-location.com/listings/location-vacances-st-trojan-les-bains/
+                - heading "Location de vacances à Saint-Trojan-les-Bains" [level=3] [ref=e144]
+                - generic [ref=e150]:
+                  - generic [ref=e152]: Oléron Location
+                  - generic [ref=e154]: https://www.oleron-location.com › listings › location-va...
+              - button "À propos de ce résultat" [ref=e157] [cursor=pointer]:
+                - img [ref=e160]
+            - generic [ref=e164]:
+              - emphasis [ref=e165]: Location
+              - text: de
+              - emphasis [ref=e166]: vacances
+              - text: à
+              - emphasis [ref=e167]: Saint-Trojan-les-Bains
+              - text: ; Gite climatisé St Trojan mimosas · 50 m² · 69 € ;
+              - emphasis [ref=e168]: maison
+              - text: bord de
+              - emphasis [ref=e169]: plage
+              - text: ", calme et ensoleillé · 80 m² · 100 € ;"
+              - emphasis [ref=e170]: Maison
+              - text: ...
+            - link "\"saint trojan les bains\" location vacances maison plage sur www.oleron-location.com" [ref=e173] [cursor=pointer]:
+              - /url: https://www.oleron-location.com/listings/location-vacances-st-trojan-les-bains/
+              - img "\"saint trojan les bains\" location vacances maison plage sur www.oleron-location.com" [ref=e175]
+        - generic [ref=e186]:
+          - generic [ref=e188]:
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - img [ref=e192]
+                - heading "Aperçu IA" [level=2] [ref=e194]
+              - generic [ref=e195]:
+                - button "Afficher 3 liens de corroboration" [ref=e198] [cursor=pointer]
+                - button "À propos de ce résultat" [ref=e205]:
+                  - img [ref=e207]
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - text: Trouvez la maison idéale à Saint-Trojan-les-Bains sur l'île d'Oléron.
+                - mark [ref=e233]: Les locations de vacances près de la plage et de la forêt domaniale débutent à environ 45 € par nuit
+                - text: . Utilisez les plateformes de confiance pour cibler une maison avec jardin ou terrasse à deux pas de l'eau.
+                - generic [ref=e235]:
+                  - link "Foncia (+ 4) – Afficher les liens associés" [ref=e237] [cursor=pointer]:
+                    - /url: https://vacances.foncia.com/locations-mer/poitou-charentes/ile-d-oleron/saint-trojan-les-bains
+                  - button "Foncia (+ 4) – Afficher les liens associés" [disabled] [ref=e238]:
+                    - generic [ref=e240]:
+                      - generic [ref=e241]: Foncia
+                      - generic [ref=e242]: "+4"
+                    - img [ref=e245]
+              - heading "Les meilleures plateformes pour votre recherche" [level=3] [ref=e247]
+              - list [ref=e249]:
+                - listitem [ref=e250]:
+                  - generic [ref=e251]:
+                    - strong [ref=e252]: "Gîtes de France :"
+                    - text: Idéal pour trouver des locations labellisées et authentiques. Parcourez les offres de
+                    - link "Gîtes de France" [ref=e254] [cursor=pointer]:
+                      - /url: https://www.gites-de-france.com/fr/search?towns=42247&seed=a6d3c84
+                    - text: pour découvrir des havres de paix comme "La Petite Plage" ou "Chez Jacques".
+                - listitem [ref=e255]:
+                  - generic [ref=e256]:
+                    - strong [ref=e257]: "Abritel :"
+                    - text: Parfait si vous voyagez en famille ou en groupe. Recherchez votre maison sur
+                    - link "Abritel" [ref=e259] [cursor=pointer]:
+                      - /url: https://www.abritel.fr/location-vacances/p2034358
+                    - text: pour des biens spacieux avec terrasse et douche de retour de plage.
+                - listitem [ref=e260]:
+                  - generic [ref=e261]:
+                    - strong [ref=e262]: "Booking.com :"
+                    - text: Idéal pour comparer les disponibilités de villas et maisons de vacances. Consultez les options sur
+                    - link "Booking.com" [ref=e264] [cursor=pointer]:
+                      - /url: https://www.booking.com/holiday-homes/city/fr/saint-trojan-les-bains.fr.html
+                    - text: pour cibler les hébergements les mieux notés.
+                - listitem [ref=e265]:
+                  - generic [ref=e266]:
+                    - strong [ref=e267]: "Amivac :"
+                    - text: Le spécialiste des locations de vacances directes. Parcourez les nombreuses annonces de maisons sur
+                    - link "Amivac" [ref=e269] [cursor=pointer]:
+                      - /url: https://www.amivac.com/location-vacances/type-maison/pays-france/region-poitou-charentes/dpt-charente-maritime/ville-saint-trojan-les-bains-10000113762
+                    - text: .
+                - listitem [ref=e270]:
+                  - generic [ref=e271]:
+                    - strong [ref=e272]: "PAP Vacances :"
+                    - text: Parfait pour louer directement entre particuliers. Trouvez des annonces de villas avec jardin arboré sur
+                    - link "PAP Vacances" [ref=e274] [cursor=pointer]:
+                      - /url: https://www.papvacances.fr/annonces/location-vacances-saint-trojan-les-bains-17370-g12987
+                    - text: .
+              - heading "Éléments à prendre en compte" [level=3] [ref=e276]
+              - generic [ref=e278]:
+                - text: Pour affiner votre sélection, pensez à vérifier la proximité immédiate avec les plages (Gatseau, Petite Plage), l'accès direct aux pistes cyclables traversant la forêt, et la disponibilité d'un espace extérieur clos si vous voyagez avec un animal.
+                - generic [ref=e280]:
+                  - link "Airbnb (+ 1) – Afficher les liens associés" [ref=e282] [cursor=pointer]:
+                    - /url: https://www.airbnb.fr/saint-trojan-les-bains-france/stays
+                  - button "Airbnb (+ 1) – Afficher les liens associés" [disabled] [ref=e283]:
+                    - generic [ref=e285]:
+                      - generic [ref=e286]: Airbnb
+                      - generic [ref=e287]: "+1"
+                    - img [ref=e290]
+              - generic [ref=e293]:
+                - generic [ref=e294]: "Pour vous aider à cibler la maison idéale, indiquez-moi :"
+                - list [ref=e295]:
+                  - listitem [ref=e296]:
+                    - generic [ref=e297]:
+                      - text: Vos
+                      - strong [ref=e298]: dates de séjour
+                      - text: exactes et la
+                      - strong [ref=e299]: durée
+                  - listitem [ref=e300]:
+                    - generic [ref=e301]:
+                      - text: Le
+                      - strong [ref=e302]: nombre de voyageurs
+                      - text: (adultes et enfants)
+                  - listitem [ref=e303]:
+                    - generic [ref=e304]:
+                      - text: Si vous souhaitez être
+                      - strong [ref=e305]: très proche de la plage à pied
+                      - text: ou si
+                      - strong [ref=e306]: louer des vélos
+                      - text: pour vous déplacer vous convient.
+          - button "Afficher plus, Aperçu IA" [ref=e317]:
+            - generic [ref=e319] [cursor=pointer]:
+              - generic [ref=e320]: Afficher plus
+              - img [ref=e322]
+        - generic [ref=e331]:
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - heading "Location de Vacances | Saint-Trojan-les-Bains, France" [level=2] [ref=e334]
+              - button "Plus d'infos" [ref=e339]:
+                - img [ref=e341]
+            - generic [ref=e343]: Affichage des prix moyens par nuit
+          - generic [ref=e345]:
+            - generic [ref=e348]:
+              - status
+              - button "Sélectionnez la date d'arrivée" [ref=e350] [cursor=pointer]:
+                - img [ref=e352]
+                - generic [ref=e354]: Arrivée
+              - button "Sélectionnez la date de départ" [disabled] [ref=e356] [cursor=pointer]:
+                - img [ref=e358]
+                - generic [ref=e360]: Départ
+            - 'button "Sélectionnez le nombre de clients. Sélection actuelle : 2 clients" [ref=e365] [cursor=pointer]':
+              - generic [ref=e367]:
+                - img [ref=e370]
+                - generic [ref=e372]: "2"
+                - img [ref=e375]
+          - list [ref=e380]:
+            - list [ref=e381]:
+              - link "Accès à la plage" [ref=e382] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=aAE&ictx=111&ved=1t:73268
+                - listitem [ref=e383]:
+                  - generic [ref=e385]:
+                    - img [ref=e387]
+                    - generic [ref=e389]: Accès à la plage
+              - link "Les mieux notés" [ref=e390] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAqEQoICgELOgNNQUQaAwoBFCgI&qs=CAE4BlqfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=aAE&ictx=111&ved=1t:54362
+                - listitem [ref=e391]:
+                  - generic [ref=e394]: Les mieux notés
+              - link "Ce week-end" [ref=e395] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAHGAMSBwjqDxAHGAUYAjICCAEqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=aAE&ictx=111&ved=1t:54365
+                - listitem [ref=e396]:
+                  - generic [ref=e399]: Ce week-end
+          - generic [ref=e400]:
+            - link "Agrandir le plan" [ref=e402] [cursor=pointer]:
+              - generic [ref=e403]:
+                - generic:
+                  - generic [ref=e405]:
+                    - img [ref=e407]
+                    - text: 1.536 MAD
+                  - img [ref=e413]
+                  - generic [ref=e417]:
+                    - img [ref=e419]
+                    - text: 5.051 MAD
+                  - img [ref=e425]
+                  - generic [ref=e429]:
+                    - img [ref=e431]
+                    - text: 2.373 MAD
+                  - img [ref=e437]
+                  - generic [ref=e441]:
+                    - img [ref=e443]
+                    - text: 1.257 MAD
+                  - img [ref=e449]
+                  - generic [ref=e453]:
+                    - img [ref=e455]
+                    - text: 2.902 MAD
+                  - generic [ref=e462]:
+                    - img [ref=e464]
+                    - text: 2.630 MAD
+                  - img [ref=e470]
+                  - generic [ref=e474]:
+                    - img [ref=e476]
+                    - text: 1.903 MAD
+                  - img [ref=e482]
+                  - generic [ref=e486]:
+                    - img [ref=e488]
+                    - text: 1.076 MAD
+                  - img [ref=e494]
+              - link [ref=e498]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=SAFoAQ&ictx=111&ved=1t:206005
+                - link [ref=e499]
+              - link "Agrandir le plan" [ref=e504]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=SAFoAQ&ictx=111&ved=1t:159633
+                - img [ref=e506]
+                - generic: Agrandir le plan
+            - list "Suggestions d'hôtels" [ref=e510]:
+              - link "Jolie maison 70 m2 typique pour de belles vacances entre ocean et forêt 1.076 MAD 4,9 étoile(s) sur 5 (41 avis), Accès à la plage 2 chambres · 4 personne(s)" [ref=e512] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAJGAQSBwjqDxAJGAkYBTICEAA4ASoPCggKAQs6A01BRBoDCgEU&qs=CAEyKENob1EzNjJQdS1icWg3MkhBUm9OTDJjdk1URjBaMmR3Y21ZM1h4QUM4CkIJEd_WY2dWH3qHQgkR216Z1WuwispCCRFwBsu0gDWJ31qfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=aAF6KENob1EzNjJQdS1icWg3MkhBUm9OTDJjdk1URjBaMmR3Y21ZM1h4QUO6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                - generic [ref=e513]:
+                  - group [ref=e515]:
+                    - group "1 sur 6" [ref=e518]:
+                      - img [ref=e519]
+                    - generic [ref=e520]:
+                      - button "Diapositive précédente" [ref=e521]:
+                        - img [ref=e522]
+                      - button "Diapositive suivante" [ref=e524]:
+                        - img [ref=e525]
+                  - generic [ref=e527]:
+                    - generic [ref=e528]:
+                      - generic [ref=e530]: Jolie maison 70 m2 typique pour de belles vacances entre ocean et forêt
+                      - generic [ref=e532]: 1.076 MAD
+                    - link "4,9 étoile(s) sur 5 (41 avis)," [ref=e534]:
+                      - 'img "Note : 4,9 sur 5 41 avis d''utilisateurs" [ref=e535]':
+                        - text: 4,9
+                        - img [ref=e536]
+                        - text: (41)
+                    - generic [ref=e540]:
+                      - generic [ref=e544]:
+                        - img [ref=e547]
+                        - generic [ref=e549]: Accès à la plage
+                      - generic [ref=e553]: 2 chambres · 4 personne(s)
+              - link "Charming villa in Port des Salines, calm, rest and relaxation guaranteed 1.903 MAD 4,9 étoile(s) sur 5 (140 avis), Accès à la plage 3 chambres · 6 personne(s)" [ref=e556] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAJGAUSBwjqDxAJGAwYBzICEAA4ASoPCggKAQs6A01BRBoDCgEU&qs=CAEyKENob1EyNzNsckwyTnJNWEtBUm9OTDJjdk1URjVjelYzT0ROMmJSQUM4CkIJEd_WY2dWH3qHQgkR216Z1WuwispCCRFwBsu0gDWJ31qfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=aAF6KENob1EyNzNsckwyTnJNWEtBUm9OTDJjdk1URjVjelYzT0ROMmJSQUO6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                - generic [ref=e557]:
+                  - group [ref=e559]:
+                    - group "1 sur 6" [ref=e562]:
+                      - img [ref=e563]
+                    - generic [ref=e564]:
+                      - button "Diapositive précédente" [ref=e565]:
+                        - img [ref=e566]
+                      - button "Diapositive suivante" [ref=e568]:
+                        - img [ref=e569]
+                  - generic [ref=e571]:
+                    - generic [ref=e572]:
+                      - generic [ref=e574]: Charming villa in Port des Salines, calm, rest and relaxation guaranteed
+                      - generic [ref=e576]: 1.903 MAD
+                    - link "4,9 étoile(s) sur 5 (140 avis)," [ref=e578]:
+                      - 'img "Note : 4,9 sur 5 140 avis d''utilisateurs" [ref=e579]':
+                        - text: 4,9
+                        - img [ref=e580]
+                        - text: (140)
+                    - generic [ref=e584]:
+                      - generic [ref=e588]:
+                        - img [ref=e591]
+                        - generic [ref=e593]: Accès à la plage
+                      - generic [ref=e597]: 3 chambres · 6 personne(s)
+              - link "Maison de vacances avec jardin ombragé. Proche plage. 2.630 MAD 5,0 étoile(s) sur 5 (6 avis), Accès à la plage 4 chambres · 8 personne(s)" [ref=e600] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAJGBUSBwjqDxAJGBkYBDICEAA4ASoPCggKAQs6A01BRBoDCgEU&qs=CAEyKENob1E4SXlzcG91d3pjVGZBUm9OTDJjdk1URnpkSGh3Y3pJMU9SQUM4CkIJEd_WY2dWH3qHQgkR216Z1WuwispCCRFwBsu0gDWJ31qfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=aAF6KENob1E4SXlzcG91d3pjVGZBUm9OTDJjdk1URnpkSGh3Y3pJMU9SQUO6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                - generic [ref=e601]:
+                  - group [ref=e603]:
+                    - group "1 sur 6" [ref=e606]:
+                      - img [ref=e607]
+                    - generic [ref=e608]:
+                      - button "Diapositive précédente" [ref=e609]:
+                        - img [ref=e610]
+                      - button "Diapositive suivante" [ref=e612]:
+                        - img [ref=e613]
+                  - generic [ref=e615]:
+                    - generic [ref=e616]:
+                      - generic [ref=e618]: Maison de vacances avec jardin ombragé. Proche plage.
+                      - generic [ref=e620]: 2.630 MAD
+                    - link "5,0 étoile(s) sur 5 (6 avis)," [ref=e622]:
+                      - 'img "Note : 5,0 sur 5 6 avis d''utilisateurs" [ref=e623]':
+                        - text: 5,0
+                        - img [ref=e624]
+                        - text: (6)
+                    - generic [ref=e628]:
+                      - generic [ref=e632]:
+                        - img [ref=e635]
+                        - generic [ref=e637]: Accès à la plage
+                      - generic [ref=e641]: 4 chambres · 8 personne(s)
+            - link "Afficher 36 établissements" [ref=e643] [cursor=pointer]:
+              - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BkIJEd_WY2dWH3qHQgkR216Z1WuwispCCRFwBsu0gDWJ31qfATKcAaoBmAEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqIiIebG9jYXRpb24gdmFjYW5jZXMgbWFpc29uIHBsYWdlKAQyHxABIhsxu4seO3o16NBEJxc-xdBvx40nNEB98w_BbYAyORACIjVzYWludCB0cm9qYW4gbGVzIGJhaW5zIGxvY2F0aW9uIHZhY2FuY2VzIG1haXNvbiBwbGFnZQ&ap=aAE&ictx=111&ved=1t:195904
+              - separator [ref=e644]
+              - generic [ref=e645]:
+                - generic [ref=e646]: Afficher 36 établissements
+                - img [ref=e648]
+        - generic [ref=e652]:
+          - heading "Résultats Web" [level=2] [ref=e653]
+          - generic [ref=e654]:
+            - generic [ref=e657]:
+              - 'link "Saint-Trojan-les-Bains : locations de vacances - Airbnb Airbnb https://www.airbnb.fr › ... › Charente-Maritime" [ref=e659] [cursor=pointer]':
+                - /url: https://www.airbnb.fr/saint-trojan-les-bains-france/stays
+                - 'heading "Saint-Trojan-les-Bains : locations de vacances - Airbnb" [level=3] [ref=e660]'
+                - generic [ref=e666]:
+                  - generic [ref=e668]: Airbnb
+                  - generic [ref=e670]: https://www.airbnb.fr › ... › Charente-Maritime
+              - button "À propos de ce résultat" [ref=e673] [cursor=pointer]:
+                - img [ref=e676]
+            - generic [ref=e680]:
+              - emphasis [ref=e681]: Locations
+              - text: de villas
+              - emphasis [ref=e682]: Saint-Trojan-les-Bains
+              - text: ·
+              - emphasis [ref=e683]: Locations
+              - text: de
+              - emphasis [ref=e684]: vacances
+              - text: avec piscine
+              - emphasis [ref=e685]: Saint-Trojan-les-Bains
+              - text: ·
+              - emphasis [ref=e686]: Locations
+              - text: avec accès à la
+              - emphasis [ref=e687]: plage Saint-Trojan-les-Bains
+              - text: .
+            - link "\"saint trojan les bains\" location vacances maison plage sur www.airbnb.fr" [ref=e690] [cursor=pointer]:
+              - /url: https://www.airbnb.fr/saint-trojan-les-bains-france/stays
+              - img "\"saint trojan les bains\" location vacances maison plage sur www.airbnb.fr" [ref=e692]
+            - 'img "Note : 5,0 sur 5 (245) avis d''utilisateurs" [ref=e697]':
+              - text: 5,0
+              - img [ref=e698]
+              - text: (245)
+        - generic [ref=e704]:
+          - generic [ref=e707]:
+            - link "Locations de vacances Saint-Trojan-les-Bains https://www.st-trojan-les-bains.fr › ... › Où dormir ?" [ref=e709] [cursor=pointer]:
+              - /url: https://www.st-trojan-les-bains.fr/preparer-mes-vacances/ou-dormir/locations-de-vacances
+              - heading "Locations de vacances" [level=3] [ref=e710]
+              - generic [ref=e716]:
+                - generic [ref=e718]: Saint-Trojan-les-Bains
+                - generic [ref=e720]: https://www.st-trojan-les-bains.fr › ... › Où dormir ?
+            - button "À propos de ce résultat" [ref=e723] [cursor=pointer]:
+              - img [ref=e726]
+          - generic [ref=e730]:
+            - text: Maisonnette Gatseau.
+            - emphasis [ref=e731]: Saint-Trojan-les-Bains
+            - text: . 2 pers. max. Appartement ... Meublé -
+            - emphasis [ref=e732]: Maison
+            - text: koh samet - Amélie Geay. dès 650€. Meublé -
+            - emphasis [ref=e733]: Maison
+            - text: koh samet ...
+          - link "\"saint trojan les bains\" location vacances maison plage sur www.st-trojan-les-bains.fr" [ref=e736] [cursor=pointer]:
+            - /url: https://www.st-trojan-les-bains.fr/preparer-mes-vacances/ou-dormir/locations-de-vacances
+            - img "\"saint trojan les bains\" location vacances maison plage sur www.st-trojan-les-bains.fr" [ref=e738]
+        - generic [ref=e742]:
+          - generic [ref=e745]:
+            - link "Locations de maisons de vacances à Saint-Trojan-les-Bains Amivac https://www.amivac.com › dpt-charente-maritime › vill..." [ref=e747] [cursor=pointer]:
+              - /url: https://www.amivac.com/location-vacances/type-maison/pays-france/region-poitou-charentes/dpt-charente-maritime/ville-saint-trojan-les-bains-10000113762
+              - heading "Locations de maisons de vacances à Saint-Trojan-les-Bains" [level=3] [ref=e748]
+              - generic [ref=e754]:
+                - generic [ref=e756]: Amivac
+                - generic [ref=e758]: https://www.amivac.com › dpt-charente-maritime › vill...
+            - button "À propos de ce résultat" [ref=e761] [cursor=pointer]:
+              - img [ref=e764]
+          - generic [ref=e768]:
+            - text: Amivac, l'expert pour vos
+            - emphasis [ref=e769]: vacances
+            - text: ", vous propose 119 maisons de"
+            - emphasis [ref=e770]: vacances
+            - text: disponibles à
+            - emphasis [ref=e771]: Saint-Trojan-les-Bains
+            - text: . ✓ Dès 49 € par nuit ✓ Jusqu'à 10% d'économie.
+          - link "\"saint trojan les bains\" location vacances maison plage sur www.amivac.com" [ref=e774] [cursor=pointer]:
+            - /url: https://www.amivac.com/location-vacances/type-maison/pays-france/region-poitou-charentes/dpt-charente-maritime/ville-saint-trojan-les-bains-10000113762
+            - img "\"saint trojan les bains\" location vacances maison plage sur www.amivac.com" [ref=e776]
+          - 'img "Note : 4,5 sur 5 (701) avis d''utilisateurs" [ref=e781]':
+            - text: 4,5
+            - img [ref=e782]
+            - text: (701)
+        - generic [ref=e788]:
+          - generic [ref=e791]:
+            - link "Office de Tourisme Saint Trojan les Bains gites https://www.gites.fr › tourisme_proximite_office-de-tou..." [ref=e793] [cursor=pointer]:
+              - /url: https://www.gites.fr/tourisme_proximite_office-de-tourisme-saint-trojan-les-bains_saint-trojan-les-bains_20958.html
+              - heading "Office de Tourisme Saint Trojan les Bains" [level=3] [ref=e794]
+              - generic [ref=e800]:
+                - generic [ref=e802]: gites
+                - generic [ref=e804]: https://www.gites.fr › tourisme_proximite_office-de-tou...
+            - button "À propos de ce résultat" [ref=e807] [cursor=pointer]:
+              - img [ref=e810]
+          - generic [ref=e814]:
+            - emphasis [ref=e815]: Locations
+            - text: de
+            - emphasis [ref=e816]: vacances
+            - text: à proximité de l'Office de Tourisme
+            - emphasis [ref=e817]: Saint Trojan les Bains
+            - text: . ...
+            - emphasis [ref=e818]: Maison
+            - text: de
+            - emphasis [ref=e819]: vacances
+            - text: ", 130 m² 10 personnes, 5 chambres, 4 salles de bains."
+        - generic [ref=e823]:
+          - generic [ref=e826]:
+            - link "Location Vacances Saint-Trojan-les-Bains (17370) PAP Vacances https://www.papvacances.fr › ... › Île d'Oléron" [ref=e828] [cursor=pointer]:
+              - /url: https://www.papvacances.fr/annonces/location-vacances-saint-trojan-les-bains-17370-g12987
+              - heading "Location Vacances Saint-Trojan-les-Bains (17370)" [level=3] [ref=e829]
+              - generic [ref=e835]:
+                - generic [ref=e837]: PAP Vacances
+                - generic [ref=e839]: https://www.papvacances.fr › ... › Île d'Oléron
+            - button "À propos de ce résultat" [ref=e842] [cursor=pointer]:
+              - img [ref=e845]
+          - generic [ref=e849]:
+            - emphasis [ref=e850]: Saint-Trojan-les-Bains
+            - text: (17370) Belle Villa de 120 m², à 300 m de la
+            - emphasis [ref=e851]: plage
+            - text: surveillée de Gatseau. Située dans un quartier résidentiel. Jardin arboré clos de ...
+        - generic [ref=e855]:
+          - generic [ref=e858]:
+            - link "Rechercher une location de vacances Saint-Trojan-les-Bains Gîtes de France https://www.gites-de-france.com › search" [ref=e860] [cursor=pointer]:
+              - /url: https://www.gites-de-france.com/fr/search?towns=42247&seed=a6d3c84
+              - heading "Rechercher une location de vacances Saint-Trojan-les-Bains" [level=3] [ref=e861]
+              - generic [ref=e867]:
+                - generic [ref=e869]: Gîtes de France
+                - generic [ref=e871]: https://www.gites-de-france.com › search
+            - button "À propos de ce résultat" [ref=e874] [cursor=pointer]:
+              - img [ref=e877]
+          - generic [ref=e881]:
+            - text: Rechercher une
+            - emphasis [ref=e882]: location
+            - text: de
+            - emphasis [ref=e883]: vacances Saint-Trojan-les-Bains
+            - text: ; LA PETITE
+            - emphasis [ref=e884]: PLAGE
+            - text: · 700 € · 10 avis ; CHEZ JACQUES · 450 € · 7 avis ; L'ESCALE · 500 € · 18 avis. · ; PATIO.
+        - generic [ref=e888]:
+          - generic [ref=e891]:
+            - link "Maisons de vacances à Saint-Trojan-les-Bains Booking.com https://www.booking.com › ... › France" [ref=e893] [cursor=pointer]:
+              - /url: https://www.booking.com/holiday-homes/city/fr/saint-trojan-les-bains.fr.html
+              - heading "Maisons de vacances à Saint-Trojan-les-Bains" [level=3] [ref=e894]
+              - generic [ref=e900]:
+                - generic [ref=e902]: Booking.com
+                - generic [ref=e904]: https://www.booking.com › ... › France
+            - button "À propos de ce résultat" [ref=e907] [cursor=pointer]:
+              - img [ref=e910]
+          - generic [ref=e914]:
+            - text: Situé à
+            - emphasis [ref=e915]: Saint-Trojan-les-Bains
+            - text: ", l'hébergement LES MIMOSAS offre une vue sur le jardin. Il comprend un jardin, une terrasse et une connexion Wi-Fi gratuite."
+          - link "\"saint trojan les bains\" location vacances maison plage sur www.booking.com" [ref=e918] [cursor=pointer]:
+            - /url: https://www.booking.com/holiday-homes/city/fr/saint-trojan-les-bains.fr.html
+            - img "\"saint trojan les bains\" location vacances maison plage sur www.booking.com" [ref=e920]
+        - generic [ref=e924]:
+          - generic [ref=e927]:
+            - link "Maison au cœur de Saint-Trojan les bains (2 minutes de la ... Abritel https://www.abritel.fr › ... › Saint-Trojan-les-Bains" [ref=e929] [cursor=pointer]:
+              - /url: https://www.abritel.fr/location-vacances/p2034358
+              - heading "Maison au cœur de Saint-Trojan les bains (2 minutes de la ..." [level=3] [ref=e930]
+              - generic [ref=e936]:
+                - generic [ref=e938]: Abritel
+                - generic [ref=e940]: https://www.abritel.fr › ... › Saint-Trojan-les-Bains
+            - button "À propos de ce résultat" [ref=e943] [cursor=pointer]:
+              - img [ref=e946]
+          - generic [ref=e950]:
+            - text: Nous louons notre
+            - emphasis [ref=e951]: maison
+            - text: de
+            - emphasis [ref=e952]: vacances
+            - text: ", située en plein de cœur de"
+            - emphasis [ref=e953]: Saint Trojan les bains
+            - text: ", à deux pas du port, de la forêt, des commerces, du marché ("
+            - emphasis [ref=e954]: Plage
+            - text: à 10 ...
+          - link "\"saint trojan les bains\" location vacances maison plage sur www.abritel.fr" [ref=e957] [cursor=pointer]:
+            - /url: https://www.abritel.fr/location-vacances/p2034358
+            - img "\"saint trojan les bains\" location vacances maison plage sur www.abritel.fr" [ref=e959]
+        - generic [ref=e963]:
+          - generic [ref=e966]:
+            - link "9 biens trouvés Saint Trojan les bains - Ile d'Oléron à la mer Foncia https://vacances.foncia.com › ... › Location Ile d'Oléron" [ref=e968] [cursor=pointer]:
+              - /url: https://vacances.foncia.com/locations-mer/poitou-charentes/ile-d-oleron/saint-trojan-les-bains
+              - heading "9 biens trouvés Saint Trojan les bains - Ile d'Oléron à la mer" [level=3] [ref=e969]
+              - generic [ref=e975]:
+                - generic [ref=e977]: Foncia
+                - generic [ref=e979]: https://vacances.foncia.com › ... › Location Ile d'Oléron
+            - button "À propos de ce résultat" [ref=e982] [cursor=pointer]:
+              - img [ref=e985]
+          - generic [ref=e989]:
+            - emphasis [ref=e990]: Maison
+            - text: 6 personnes.
+            - emphasis [ref=e991]: Saint trojan les bains
+            - text: • Poitou-charentes. Située à 1km de la
+            - emphasis [ref=e992]: plage
+            - text: et au pied de la forêt domaniale, agréable
+            - emphasis [ref=e993]: maison
+            - text: comprenant un séjour ...
+          - link "\"saint trojan les bains\" location vacances maison plage sur vacances.foncia.com" [ref=e996] [cursor=pointer]:
+            - /url: https://vacances.foncia.com/locations-mer/poitou-charentes/ile-d-oleron/saint-trojan-les-bains
+            - img "\"saint trojan les bains\" location vacances maison plage sur vacances.foncia.com" [ref=e998]
+      - generic [ref=e1000]:
+        - generic [ref=e1005]:
+          - heading "Recherches associées" [level=2] [ref=e1007]
+          - generic [ref=e1009]:
+            - generic [ref=e1010]:
+              - link "Location Saint Trojan-les-Bains le bon coin" [ref=e1014] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+Saint+Trojan-les-Bains+le+bon+coin&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhUEAE
+                - generic [ref=e1015]:
+                  - generic [ref=e1020]: Location Saint Trojan-les-Bains le bon coin
+                  - img [ref=e1024]
+              - link "Location Saint-Trojan particulier" [ref=e1029] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+Saint-Trojan+particulier&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhbEAE
+                - generic [ref=e1030]:
+                  - generic [ref=e1035]: Location Saint-Trojan particulier
+                  - img [ref=e1039]
+              - link "Location Saint-Trojan-les-Bains Airbnb" [ref=e1044] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+Saint-Trojan-les-Bains+Airbnb&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhWEAE
+                - generic [ref=e1045]:
+                  - generic [ref=e1050]: Location Saint-Trojan-les-Bains Airbnb
+                  - img [ref=e1054]
+              - link "Location à lannée Saint-Trojan-les-Bains" [ref=e1059] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+%C3%A0+lann%C3%A9e+Saint-Trojan-les-Bains&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhZEAE
+                - generic [ref=e1060]:
+                  - generic [ref=e1065]: Location à lannée Saint-Trojan-les-Bains
+                  - img [ref=e1069]
+            - generic [ref=e1071]:
+              - link "Meublés de tourisme saint trojan les bains" [ref=e1075] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Meubl%C3%A9s+de+tourisme+saint+trojan+les+bains&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhYEAE
+                - generic [ref=e1076]:
+                  - generic [ref=e1081]: Meublés de tourisme saint trojan les bains
+                  - img [ref=e1085]
+              - link "Le bon coin Saint-Trojan-les-Bains" [ref=e1090] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Le+bon+coin+Saint-Trojan-les-Bains&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhXEAE
+                - generic [ref=e1091]:
+                  - generic [ref=e1096]: Le bon coin Saint-Trojan-les-Bains
+                  - img [ref=e1100]
+              - link "Location maison Saint-Trojan-les-Bains" [ref=e1105] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+maison+Saint-Trojan-les-Bains&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhVEAE
+                - generic [ref=e1106]:
+                  - generic [ref=e1111]: Location maison Saint-Trojan-les-Bains
+                  - img [ref=e1115]
+              - link "Camping Saint-Trojan-les-Bains" [ref=e1120] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Camping+Saint-Trojan-les-Bains&sa=X&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ1QJ6BAhaEAE
+                - generic [ref=e1121]:
+                  - generic [ref=e1126]: Camping Saint-Trojan-les-Bains
+                  - img [ref=e1130]
+        - navigation [ref=e1132]:
+          - heading "Navigation par pages" [level=1] [ref=e1133]
+          - text: "1"
+          - link "Page 2" [ref=e1136] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=10&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAE
+            - text: "2"
+          - link "Page 3" [ref=e1138] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=20&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAG
+            - text: "3"
+          - link "Page 4" [ref=e1140] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=30&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAI
+            - text: "4"
+          - link "Page 5" [ref=e1142] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=40&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAK
+            - text: "5"
+          - link "Page 6" [ref=e1144] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=50&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAM
+            - text: "6"
+          - link "Page 7" [ref=e1146] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=60&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAO
+            - text: "7"
+          - link "Page 8" [ref=e1148] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=70&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAQ
+            - text: "8"
+          - link "Page 9" [ref=e1150] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=80&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAS
+            - text: "9"
+          - link "Page 10" [ref=e1152] [cursor=pointer]:
+            - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=90&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8tMDegQIURAU
+            - text: "10"
+          - heading "Suivant" [level=2] [ref=e1154]:
+            - link "Suivant" [ref=e1155] [cursor=pointer]:
+              - /url: /search?q=%22saint+trojan+les+bains%22+location+vacances+maison+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=h0BCaqyTF6K2hbIPo_OFqAI&start=10&sa=N&sstk=AU9db-AcOyq224rmdsUm5Ne0UemGWIwufqiwghuF69Wiih_igCryP7So2lKb7O3OhgIo8Nwaum4xHdBmRxwkacD8FxS9i4wX617xiw&ved=2ahUKEwjs8obplqyVAxUiW0EAHaN5ASUQ8NMDegQIURAW
+              - generic [ref=e1157]: Suivant
+      - navigation
+    - contentinfo [ref=e1158]:
+      - heading "Liens de pied de page" [level=1] [ref=e1159]
+      - generic [ref=e1163]:
+        - generic [ref=e1165]:
+          - text: Maroc
+          - generic [ref=e1167]:
+            - button "Marrakech - D'après votre historique d'activité" [ref=e1169] [cursor=pointer]:
+              - generic [ref=e1170]: Marrakech
+              - generic [ref=e1172]:
+                - text: "-"
+                - generic [ref=e1173]: D'après votre historique d'activité
+            - text: "-"
+            - button "Mettre à jour ma position" [ref=e1175] [cursor=pointer]: Mettre à jour ma position
+        - generic [ref=e1178]:
+          - link "Aide" [ref=e1179] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=fr-MA&fg=1
+          - link "Envoyer des commentaires" [ref=e1180] [cursor=pointer]:
+            - /url: "#"
+          - link "Confidentialité" [ref=e1181] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=fr-MA&fg=1
+          - link "Conditions" [ref=e1182] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=fr-MA&fg=1

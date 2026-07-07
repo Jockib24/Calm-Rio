@@ -1,0 +1,195 @@
+- generic [active] [ref=f5e1]:
+  - link "Aller au contenu principal" [ref=f5e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f5e3]:
+    - generic [ref=f5e4]:
+      - link "CalmRio — Accueil" [ref=f5e5] [cursor=pointer]:
+        - /url: ../../index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=f5e6]:
+        - list [ref=f5e7]:
+          - listitem [ref=f5e8]:
+            - link "Accueil" [ref=f5e9] [cursor=pointer]:
+              - /url: ../../index.html
+          - listitem [ref=f5e10]:
+            - link "Nos Locations" [ref=f5e11] [cursor=pointer]:
+              - /url: ../../index.html#nos-locations
+          - listitem [ref=f5e12]:
+            - link "Guide Local" [ref=f5e13] [cursor=pointer]:
+              - /url: ../../local-guide.html
+          - listitem [ref=f5e14]:
+            - link "Blog" [ref=f5e15] [cursor=pointer]:
+              - /url: ../index.html
+          - listitem [ref=f5e16]:
+            - link "À Propos" [ref=f5e17] [cursor=pointer]:
+              - /url: ../../about.html
+          - listitem [ref=f5e18]:
+            - link "Contact" [ref=f5e19] [cursor=pointer]:
+              - /url: ../../contact.html
+      - link "Réserver" [ref=f5e20] [cursor=pointer]:
+        - /url: ../../index.html#nos-locations
+  - main [ref=f5e21]:
+    - navigation "Fil d'Ariane" [ref=f5e22]:
+      - link "Accueil" [ref=f5e24] [cursor=pointer]:
+        - /url: ../../index.html
+      - generic [ref=f5e25]:
+        - text: /
+        - link "Blog" [ref=f5e26] [cursor=pointer]:
+          - /url: ../index.html
+      - generic [ref=f5e27]: / Que faire à Oléron en famille ?
+    - region "Que faire à Oléron en famille ?" [ref=f5e28]:
+      - img "Île d'Oléron" [ref=f5e30]
+      - generic [ref=f5e32]:
+        - heading "Que faire à Oléron en famille ?" [level=1] [ref=f5e33]
+        - paragraph [ref=f5e34]: 10 activités incontournables pour des vacances réussies
+    - article [ref=f5e35]:
+      - generic [ref=f5e37]:
+        - generic [ref=f5e38]:
+          - generic [ref=f5e39]:
+            - generic [ref=f5e40]: Famille •
+            - generic [ref=f5e41]: 1 juin 2026 •
+            - generic [ref=f5e42]: 7 min de lecture
+          - heading "Que faire à Oléron en famille ? 10 activités incontournables" [level=1] [ref=f5e43]
+        - paragraph [ref=f5e44]: L'île d'Oléron, surnommée la "lumineuse", est un véritable paradis pour les familles. Entre ses plages sauvages, ses forêts préservées, ses villages authentiques et sa gastronomie réputée, il y en a pour tous les goûts. Voici notre top 10 des activités à ne pas manquer lors de votre séjour sur la plus grande île de la côte atlantique française.
+        - heading "Nature & Découvertes" [level=2] [ref=f5e45]
+        - heading "1. Le Phare de Chassiron — La vue à 360°" [level=3] [ref=f5e46]
+        - paragraph [ref=f5e47]:
+          - text: Emblème de l'île d'Oléron, le phare de Chassiron culmine à
+          - strong [ref=f5e48]: 46 mètres
+          - text: au-dessus de l'océan. Après avoir gravi ses 224 marches, vous serez récompensés par un panorama à couper le souffle sur l'île, l'océan et les parcs ostréicoles. Le jardin paysager au pied du phare, en forme de rose des vents, est une agréable promenade pour toute la famille. Les enfants adoreront le petit musée qui retrace l'histoire du phare et de la navigation.
+        - paragraph [ref=f5e50]:
+          - strong [ref=f5e51]: "À savoir :"
+          - text: ouvert tous les jours en été. Prévoyez une arrivée en matinée pour éviter la foule et la chaleur dans l'escalier.
+        - heading "2. La Forêt domaniale de Saint-Trojan — À pied ou à vélo" [level=3] [ref=f5e52]
+        - paragraph [ref=f5e53]:
+          - text: Cette immense forêt de
+          - strong [ref=f5e54]: 2 000 hectares
+          - text: "est un écrin de verdure unique en son genre : une forêt littorale plantée sur des dunes au XIXe siècle pour fixer le sable. Aujourd'hui, c'est un paradis pour les balades à pied ou à vélo. Des sentiers balisés de tous niveaux la traversent, offrant des ambiances variées entre pins maritimes, chênes verts et sous-bois fleuris. L'odeur des pins, le chant des cigales et la lumière qui filtre à travers les arbres créent une atmosphère magique."
+        - paragraph [ref=f5e56]:
+          - strong [ref=f5e57]: "Conseil CalmRio :"
+          - text: depuis notre villa et notre maison à Saint-Trojan-les-Bains, la forêt est accessible directement à vélo par les pistes cyclables. Parfait pour une sortie improvisée !
+        - heading "3. Observation des oiseaux — Un spectacle naturel" [level=3] [ref=f5e58]
+        - paragraph [ref=f5e59]:
+          - text: "L'île d'Oléron est un haut lieu de l'ornithologie en France. Les marais salants, les vasières et les dunes abritent une faune aviaire exceptionnelle : hérons cendrés, aigrettes garzettes, avocettes élégantes, et bien d'autres espèces. Le meilleur endroit pour les observer est la"
+          - strong [ref=f5e60]: réserve naturelle de Moëze-Oléron
+          - text: ", située sur le continent mais à quelques minutes du pont. Des visites guidées sont organisées en été, idéales pour éveiller la curiosité des enfants."
+        - heading "Plages & Baignade" [level=2] [ref=f5e61]
+        - heading "4. La Plage de Gatseau — Le lagon oléronais" [level=3] [ref=f5e62]
+        - paragraph [ref=f5e63]: Située à Saint-Trojan-les-Bains, la plage de Gatseau est souvent surnommée "le lagon" pour ses eaux cristallines et son ambiance quasi tropicale. Protégée par la forêt, cette plage offre un cadre idyllique avec son sable fin et ses eaux peu profondes, parfait pour les jeunes enfants. À marée basse, des bassins naturels se forment et permettent aux plus petits de barboter en toute sécurité. Un spot absolument magique.
+        - heading "5. La Plage de la Rémigeasse — L'incontournable" [level=3] [ref=f5e64]
+        - paragraph [ref=f5e65]: Grande plage familiale par excellence, la Rémigeasse est l'une des plus appréciées des vacanciers. Avec son sable doré, ses vagues douces et sa surveillance en été, elle coche toutes les cases pour une journée réussie en famille. Les clubs de plage proposent des activités nautiques pour les enfants, et le snack permet de déjeuner les pieds dans le sable sans avoir à tout transporter.
+        - heading "6. La Plage de la Perroche — Sauvage et préservée" [level=3] [ref=f5e66]
+        - paragraph [ref=f5e67]: "Pour une expérience plus sauvage, direction la plage de la Perroche, sur la côte ouest de l'île. Moins fréquentée, elle séduit par son authenticité et ses magnifiques couchers de soleil. C'est l'endroit idéal pour une partie de pêche à pied à marée basse ou pour construire des châteaux de sable. Attention toutefois aux courants : la baignade y est plus sportive, mieux vaut rester au bord avec les enfants."
+        - paragraph [ref=f5e69]:
+          - strong [ref=f5e70]: "À savoir :"
+          - text: la plage de la Perroche est aussi réputée pour ses spots de surf. Si vos ados veulent s'initier, c'est l'endroit parfait.
+        - heading "Culture & Patrimoine" [level=2] [ref=f5e71]
+        - heading "7. La Citadelle du Château-d'Oléron — Voyage dans le temps" [level=3] [ref=f5e72]
+        - paragraph [ref=f5e73]: Cette imposante fortification du XVIIe siècle, construite sur les plans de Vauban, est un incontournable de l'île. La visite de la citadelle est un véritable voyage dans le temps qui fascine petits et grands. Les remparts offrent une vue imprenable sur le pertuis d'Antioche et le pont de l'île. Le village du Château-d'Oléron, avec ses cabanes colorées d'artisans et d'artistes, mérite également une promenade.
+        - heading "8. Le Marché de Saint-Trojan-les-Bains — Couleurs et saveurs" [level=3] [ref=f5e74]
+        - paragraph [ref=f5e75]: "Chaque matin en été, le marché de Saint-Trojan-les-Bains s'anime de couleurs, de parfums et de bonne humeur. C'est l'occasion parfaite pour découvrir les produits locaux : fruits de mer, fromages de chèvre, melons de l'île, et bien sûr les fameuses huîtres de Marennes-Oléron. Les enfants adorent flâner entre les étals et goûter les spécialités. Une expérience authentique à ne pas manquer."
+        - paragraph [ref=f5e77]:
+          - strong [ref=f5e78]: "Conseil CalmRio :"
+          - text: arrivez tôt le matin pour profiter de l'ambiance et du meilleur choix. Le marché se tient sous les halles et dans les rues alentour.
+        - heading "Gastronomie & Saveurs locales" [level=2] [ref=f5e79]
+        - heading "9. Dégustation d'huîtres — Un must absolu" [level=3] [ref=f5e80]
+        - paragraph [ref=f5e81]:
+          - text: Impossible de visiter l'île d'Oléron sans goûter aux célèbres
+          - strong [ref=f5e82]: huîtres de Marennes-Oléron
+          - text: ", les seules en France à bénéficier d'une Indication Géographique Protégée. Rendez-vous dans une cabane ostréicole du port de La Cotinière ou des villages alentour pour une dégustation en bord de mer, les pieds dans le sable. Pour les enfants qui ne sont pas fans d'huîtres, les cabanes proposent généralement des alternatives comme des crevettes ou des bulots."
+        - heading "10. Le Marché aux poissons de La Cotinière — Direct du bateau" [level=3] [ref=f5e83]
+        - paragraph [ref=f5e84]:
+          - text: La Cotinière est le
+          - strong [ref=f5e85]: premier port de pêche
+          - text: "de Charente-Maritime. Chaque jour, au retour des bateaux, le marché aux poissons propose une fraîcheur incomparable : soles, bars, dorades, langoustines... Les yeux écarquillés, les enfants observent les pêcheurs décharger leur pêche du jour. C'est une sortie à la fois ludique et éducative, et le meilleur moyen de préparer un délicieux repas de vacances."
+        - paragraph [ref=f5e87]:
+          - strong [ref=f5e88]: "À savoir :"
+          - text: le marché se tient en fin de matinée, après le retour de la criée. Renseignez-vous sur les horaires précis auprès de l'office de tourisme.
+        - heading "Prêts pour l'aventure oléronaise ?" [level=2] [ref=f5e89]
+        - paragraph [ref=f5e90]: L'île d'Oléron regorge d'activités pour toute la famille, et cette liste ne représente qu'un aperçu de tout ce que l'île a à offrir. Que vous soyez amateurs de nature, de plages, de culture ou de gastronomie, vous trouverez forcément votre bonheur sur la "lumineuse".
+        - paragraph [ref=f5e91]: Le meilleur conseil qu'on puisse vous donner ? Prenez le temps. Flânez, explorez les petites routes, arrêtez-vous dans un village pour un café en terrasse, laissez-vous porter par le rythme doux de l'île. C'est ça, l'esprit Oléron.
+        - generic [ref=f5e92]:
+          - paragraph [ref=f5e93]: Séjournez au cœur de l'île d'Oléron
+          - paragraph [ref=f5e94]: Notre villa neuve 6 personnes à Saint-Trojan-les-Bains est le point de départ idéal pour toutes ces activités. Jardin clos, terrasses et plage accessible à vélo.
+          - link "Découvrir la villa" [ref=f5e95] [cursor=pointer]:
+            - /url: ../../saint-trojan-villa.html
+        - navigation "Navigation entre articles" [ref=f5e96]:
+          - link "← Guide des plus belles plages de Royan" [ref=f5e97] [cursor=pointer]:
+            - /url: guide-plages-royan.html
+          - link "Retour au blog →" [ref=f5e98] [cursor=pointer]:
+            - /url: ../index.html
+  - contentinfo "Pied de page" [ref=f5e99]:
+    - generic [ref=f5e100]:
+      - generic [ref=f5e101]:
+        - generic [ref=f5e102]:
+          - link "CalmRio" [ref=f5e103] [cursor=pointer]:
+            - /url: ../../index.html
+          - paragraph [ref=f5e104]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          - generic [ref=f5e105]:
+            - link "Instagram CalmRio" [ref=f5e106] [cursor=pointer]:
+              - /url: https://www.instagram.com/calmrio
+              - img [ref=f5e107]
+            - link "Facebook CalmRio" [ref=f5e109] [cursor=pointer]:
+              - /url: https://www.facebook.com/calmrio
+              - img [ref=f5e110]
+        - generic [ref=f5e112]:
+          - heading "Navigation" [level=2] [ref=f5e113]
+          - list [ref=f5e114]:
+            - listitem [ref=f5e115]:
+              - link "Accueil" [ref=f5e116] [cursor=pointer]:
+                - /url: ../../index.html
+            - listitem [ref=f5e117]:
+              - link "Nos Locations" [ref=f5e118] [cursor=pointer]:
+                - /url: ../../index.html#nos-locations
+            - listitem [ref=f5e119]:
+              - link "Guide Local" [ref=f5e120] [cursor=pointer]:
+                - /url: ../../local-guide.html
+            - listitem [ref=f5e121]:
+              - link "Blog" [ref=f5e122] [cursor=pointer]:
+                - /url: ../index.html
+            - listitem [ref=f5e123]:
+              - link "À Propos" [ref=f5e124] [cursor=pointer]:
+                - /url: ../../about.html
+            - listitem [ref=f5e125]:
+              - link "Contact" [ref=f5e126] [cursor=pointer]:
+                - /url: ../../contact.html
+            - listitem [ref=f5e127]:
+              - link "FAQ" [ref=f5e128] [cursor=pointer]:
+                - /url: ../../faq.html
+        - generic [ref=f5e129]:
+          - heading "Nos Locations" [level=2] [ref=f5e130]
+          - list [ref=f5e131]:
+            - listitem [ref=f5e132]:
+              - link "Appartement Royan" [ref=f5e133] [cursor=pointer]:
+                - /url: ../../royan-appartement.html
+            - listitem [ref=f5e134]:
+              - link "Villa Saint-Trojan" [ref=f5e135] [cursor=pointer]:
+                - /url: ../../saint-trojan-villa.html
+            - listitem [ref=f5e136]:
+              - link "Maison Saint-Trojan" [ref=f5e137] [cursor=pointer]:
+                - /url: ../../saint-trojan-maison.html
+        - generic [ref=f5e138]:
+          - heading "Contact" [level=2] [ref=f5e139]
+          - list [ref=f5e140]:
+            - listitem [ref=f5e141]:
+              - img [ref=f5e142]
+              - link "contact@calm-rio.com" [ref=f5e145] [cursor=pointer]:
+                - /url: mailto:contact@calm-rio.com
+            - listitem [ref=f5e146]:
+              - img [ref=f5e147]
+              - link "+212 662-669887" [ref=f5e149] [cursor=pointer]:
+                - /url: tel:+212662669887
+            - listitem [ref=f5e150]:
+              - img [ref=f5e151]
+              - generic [ref=f5e154]:
+                - text: Royan & Saint-Trojan-les-Bains
+                - text: Nouvelle-Aquitaine, France
+      - generic [ref=f5e155]:
+        - paragraph [ref=f5e156]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f5e157]:
+          - listitem [ref=f5e158]:
+            - link "Mentions légales" [ref=f5e159] [cursor=pointer]:
+              - /url: ../../mentions-legales.html
+          - listitem [ref=f5e160]:
+            - link "Politique de confidentialité" [ref=f5e161] [cursor=pointer]:
+              - /url: ../../politique-de-confidentialite.html

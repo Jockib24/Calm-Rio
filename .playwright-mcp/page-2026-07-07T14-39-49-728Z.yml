@@ -1,0 +1,139 @@
+- generic [active] [ref=f4e1]:
+  - link "Aller au contenu principal" [ref=f4e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - link "CalmRio — Accueil" [ref=f4e5] [cursor=pointer]:
+        - /url: index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=f4e6]:
+        - list [ref=f4e7]:
+          - listitem [ref=f4e8]:
+            - link "Accueil" [ref=f4e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=f4e10]:
+            - link "Nos Locations" [ref=f4e11] [cursor=pointer]:
+              - /url: index.html#nos-locations
+          - listitem [ref=f4e12]:
+            - link "Guide Local" [ref=f4e13] [cursor=pointer]:
+              - /url: local-guide.html
+          - listitem [ref=f4e14]:
+            - link "Blog" [ref=f4e15] [cursor=pointer]:
+              - /url: blog/
+          - listitem [ref=f4e16]:
+            - link "À Propos" [ref=f4e17] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=f4e18]:
+            - link "Contact" [ref=f4e19] [cursor=pointer]:
+              - /url: contact.html
+      - link "Réserver" [ref=f4e20] [cursor=pointer]:
+        - /url: index.html#nos-locations
+  - main [ref=f4e21]:
+    - navigation "Fil d'Ariane" [ref=f4e22]:
+      - link "Accueil" [ref=f4e24] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=f4e25]: / Politique de Confidentialité
+    - region "Politique de Confidentialité" [ref=f4e26]:
+      - generic [ref=f4e28]:
+        - heading "Politique de Confidentialité" [level=1] [ref=f4e29]
+        - paragraph [ref=f4e30]: Comment nous protégeons vos données personnelles
+    - region [ref=f4e31]:
+      - generic [ref=f4e32]:
+        - heading "1. Collecte des données" [level=2] [ref=f4e33]
+        - paragraph [ref=f4e34]: "Nous collectons les données personnelles que vous nous fournissez lors de l'utilisation du formulaire de contact ou du processus de réservation : nom, prénom, adresse email, numéro de téléphone et informations relatives à votre séjour."
+        - heading "2. Utilisation des données" [level=2] [ref=f4e35]
+        - paragraph [ref=f4e36]: "Vos données sont utilisées exclusivement pour :"
+        - list [ref=f4e37]:
+          - listitem [ref=f4e38]: Traiter vos demandes de réservation
+          - listitem [ref=f4e39]: Répondre à vos questions via le formulaire de contact
+          - listitem [ref=f4e40]: Vous envoyer des informations relatives à votre séjour
+          - listitem [ref=f4e41]: Améliorer nos services
+        - heading "3. Base légale du traitement" [level=2] [ref=f4e42]
+        - paragraph [ref=f4e43]: Le traitement de vos données repose sur votre consentement (formulaire de contact) et sur l'exécution d'un contrat (réservation).
+        - heading "4. Durée de conservation" [level=2] [ref=f4e44]
+        - paragraph [ref=f4e45]: Vos données sont conservées pour la durée nécessaire à la gestion de votre demande ou réservation, puis archivées conformément aux obligations légales.
+        - heading "5. Vos droits" [level=2] [ref=f4e46]
+        - paragraph [ref=f4e47]: "Conformément au RGPD, vous disposez des droits suivants :"
+        - list [ref=f4e48]:
+          - listitem [ref=f4e49]: Droit d'accès à vos données
+          - listitem [ref=f4e50]: Droit de rectification
+          - listitem [ref=f4e51]: Droit à l'effacement (droit à l'oubli)
+          - listitem [ref=f4e52]: Droit à la limitation du traitement
+          - listitem [ref=f4e53]: Droit à la portabilité
+          - listitem [ref=f4e54]: Droit d'opposition
+        - paragraph [ref=f4e55]:
+          - text: Pour exercer ces droits, contactez-nous à
+          - link "contact@calm-rio.com" [ref=f4e56] [cursor=pointer]:
+            - /url: mailto:contact@calm-rio.com
+          - text: .
+        - heading "6. Sécurité" [level=2] [ref=f4e57]
+        - paragraph [ref=f4e58]: Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour garantir la sécurité de vos données personnelles.
+        - heading "7. Contact" [level=2] [ref=f4e59]
+        - paragraph [ref=f4e60]:
+          - text: Pour toute question relative à la protection des données, vous pouvez nous contacter à
+          - link "contact@calm-rio.com" [ref=f4e61] [cursor=pointer]:
+            - /url: mailto:contact@calm-rio.com
+          - text: .
+    - region "Des questions sur nos services ?" [ref=f4e62]:
+      - generic [ref=f4e63]:
+        - heading "Des questions sur nos services ?" [level=2] [ref=f4e64]
+        - paragraph [ref=f4e65]: Notre équipe est à votre écoute.
+        - generic [ref=f4e66]:
+          - link "Nous contacter" [ref=f4e67] [cursor=pointer]:
+            - /url: contact.html
+          - link "Voir nos locations" [ref=f4e68] [cursor=pointer]:
+            - /url: index.html#nos-locations
+  - contentinfo "Pied de page" [ref=f4e69]:
+    - generic [ref=f4e70]:
+      - generic [ref=f4e71]:
+        - generic [ref=f4e72]:
+          - link "CalmRio" [ref=f4e73] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=f4e74]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron.
+          - generic [ref=f4e75]:
+            - link "Instagram CalmRio" [ref=f4e76] [cursor=pointer]:
+              - /url: https://www.instagram.com/calmrio
+              - img [ref=f4e77]
+            - link "Facebook CalmRio" [ref=f4e79] [cursor=pointer]:
+              - /url: https://www.facebook.com/calmrio
+              - img [ref=f4e80]
+        - generic [ref=f4e82]:
+          - heading "Navigation" [level=2] [ref=f4e83]
+          - list [ref=f4e84]:
+            - listitem [ref=f4e85]:
+              - link "Accueil" [ref=f4e86] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=f4e87]:
+              - link "Nos Locations" [ref=f4e88] [cursor=pointer]:
+                - /url: index.html#nos-locations
+            - listitem [ref=f4e89]:
+              - link "Guide Local" [ref=f4e90] [cursor=pointer]:
+                - /url: local-guide.html
+            - listitem [ref=f4e91]:
+              - link "À Propos" [ref=f4e92] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=f4e93]:
+              - link "Contact" [ref=f4e94] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f4e95]:
+              - link "FAQ" [ref=f4e96] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=f4e97]:
+          - heading "Contact" [level=2] [ref=f4e98]
+          - list [ref=f4e99]:
+            - listitem [ref=f4e100]:
+              - img [ref=f4e101]
+              - link "contact@calm-rio.com" [ref=f4e104] [cursor=pointer]:
+                - /url: mailto:contact@calm-rio.com
+            - listitem [ref=f4e105]:
+              - img [ref=f4e106]
+              - generic [ref=f4e108]: +33 (0)6 XX XX XX XX
+      - generic [ref=f4e109]:
+        - paragraph [ref=f4e110]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f4e111]:
+          - listitem [ref=f4e112]:
+            - link "Mentions légales" [ref=f4e113] [cursor=pointer]:
+              - /url: mentions-legales.html
+          - listitem [ref=f4e114]:
+            - link "Politique de confidentialité" [ref=f4e115] [cursor=pointer]:
+              - /url: politique-de-confidentialite.html

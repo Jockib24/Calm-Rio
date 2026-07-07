@@ -1,0 +1,341 @@
+// ============================================================
+// CalmRio — Site Header & Navigation
+// ============================================================
+
+// ------------------------------------------------------------
+// Glass header variables
+// ------------------------------------------------------------
+$header-blur-radius: 12px;
+$header-glass-bg: rgba(255, 255, 255, 0.85);
+$header-glass-border: rgba(0, 0, 0, 0.06);
+$header-transition-duration: 0.3s;
+
+// ------------------------------------------------------------
+// Site Header — fixed top, transitions from transparent → glass
+// ------------------------------------------------------------
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+
+  // Initial: fully transparent, no blur
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+
+  transition: background-color #{$header-transition-duration} ease,
+              backdrop-filter #{$header-transition-duration} ease,
+              box-shadow #{$header-transition-duration} ease;
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+
+  // Scrolled state — frosted glass effect
+  &.header--sticky,
+  &.header--scrolled {
+    background-color: $header-glass-bg;
+    backdrop-filter: blur($header-blur-radius);
+    -webkit-backdrop-filter: blur($header-blur-radius);
+    box-shadow: 0 1px 0 $header-glass-border;
+  }
+}
+
+// ------------------------------------------------------------
+// Header inner — flex row with logo, nav, CTA
+// ------------------------------------------------------------
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: var(--container-2xl);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+  height: 100%;
+}
+
+// ------------------------------------------------------------
+// Logo
+// ------------------------------------------------------------
+.site-logo {
+  font-family: var(--font-heading);
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  text-decoration: none;
+  flex-shrink: 0;
+  z-index: 1010;
+  transition: color var(--transition-fast);
+
+  &:hover {
+    color: var(--color-accent);
+  }
+
+  // White logo on transparent header (dark hero background)
+  .site-header:not(.header--sticky):not(.header--scrolled) & {
+    color: #ffffff;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Main navigation — desktop
+// ------------------------------------------------------------
+.main-nav {
+  @media (max-width: 1023.98px) {
+    display: none;
+  }
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  text-decoration: none;
+  padding: var(--space-2) 0;
+  position: relative;
+  transition: color var(--transition-fast);
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-secondary);
+    transition: width var(--transition-fast), left var(--transition-fast);
+  }
+
+  &:hover {
+    color: var(--color-primary);
+
+    &::after {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+
+  &--active {
+    color: var(--color-primary);
+
+    &::after {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    &::after {
+      transition: none;
+    }
+  }
+}
+
+// Light nav-links on transparent header (dark hero background)
+.site-header:not(.header--sticky):not(.header--scrolled) .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+// ------------------------------------------------------------
+// Header CTA button
+// ------------------------------------------------------------
+.header-cta {
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: inline-flex;
+  }
+}
+
+// ------------------------------------------------------------
+// Menu toggle — hamburger for mobile
+// ------------------------------------------------------------
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1010;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+}
+
+.menu-toggle__bar {
+  display: block;
+  width: 26px;
+  height: 2.5px;
+  background-color: var(--color-text);
+  border-radius: 2px;
+  transition: transform var(--transition-base), opacity var(--transition-base), background-color var(--transition-base);
+  transform-origin: center;
+
+  // White bars on transparent header (dark hero background)
+  .site-header:not(.header--sticky):not(.header--scrolled) & {
+    background-color: #ffffff;
+  }
+
+  & + & {
+    margin-top: 6px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+// Hamburger animation — X shape
+.menu-toggle.is-active {
+  .menu-toggle__bar:nth-child(1) {
+    transform: translateY(8.5px) rotate(45deg);
+  }
+
+  .menu-toggle__bar:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  .menu-toggle__bar:nth-child(3) {
+    transform: translateY(-8.5px) rotate(-45deg);
+  }
+}
+
+// ------------------------------------------------------------
+// Mobile navigation — full-screen overlay
+// ------------------------------------------------------------
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-surface);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity var(--transition-base), visibility var(--transition-base), transform var(--transition-base);
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+.mobile-nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-6);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav__link {
+  font-family: var(--font-heading);
+  font-size: var(--h3-size);
+  font-weight: var(--weight-semibold);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+
+  &:hover {
+    color: var(--color-secondary);
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+.mobile-nav__cta {
+  margin-top: var(--space-8);
+}
+
+// ------------------------------------------------------------
+// Header light variant — forces light text on dark backgrounds
+// ------------------------------------------------------------
+.header-light {
+  .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .site-logo {
+    color: #ffffff;
+  }
+
+  .menu-toggle__bar {
+    background-color: #ffffff;
+  }
+}

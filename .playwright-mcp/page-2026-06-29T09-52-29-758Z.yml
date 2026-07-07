@@ -1,0 +1,811 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Passer directement au contenu principal" [ref=e2] [cursor=pointer]
+      - link "Aide sur l'accessibilité" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=fr-MA
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - generic:
+          - generic:
+            - generic:
+              - img
+        - 'link "Coupe du Monde 2026 : l''art de la virgule" [ref=e13] [cursor=pointer]':
+          - /url: https://www.google.com/webhp?hl=fr&ictx=2&sa=X&ved=0ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQPQgK
+          - 'img "Coupe du Monde 2026 : l''art de la virgule" [ref=e14]'
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - combobox "Rech." [ref=e19]: location vacances royan appartement plage location vacances royan appartement plage
+            - generic [ref=e20]:
+              - button "Effacer" [ref=e22] [cursor=pointer]:
+                - img [ref=e24]
+              - generic [ref=e27]:
+                - button "Utiliser la recherche vocale" [ref=e28] [cursor=pointer]:
+                  - img [ref=e29]
+                - button "Rechercher par image" [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+          - button "Rechercher" [ref=e34] [cursor=pointer]:
+            - img [ref=e37]
+    - generic [ref=e39]:
+      - button "Paramètres" [ref=e41] [cursor=pointer]
+      - button "Partager" [ref=e42] [cursor=pointer]:
+        - img [ref=e46]
+      - generic [ref=e48]:
+        - button "Applications Google" [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+        - link "Connexion" [ref=e55] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/search%3Fq%3Dlocation%2Bvacances%2Broyan%2Bappartement%2Bplage%26hl%3Dfr%26sei%3DVUBCauOaEfWRhbIP3sHo2Ag&ec=futura_srp_og_si_72236_p
+  - generic [ref=e57]:
+    - navigation [ref=e63]:
+      - list [ref=e66]:
+        - listitem [ref=e67]:
+          - link "Mode IA" [ref=e70] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&udm=50&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&aep=1&ntc=1&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ2J8OegQIFBAD
+            - generic [ref=e73]: Mode IA
+        - listitem [ref=e74]:
+          - link "Tous" [disabled] [ref=e75]:
+            - generic [ref=e77]: Tous
+        - listitem [ref=e78]:
+          - link "Images" [ref=e79] [cursor=pointer]:
+            - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&udm=2&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&q=location+vacances+royan+appartement+plage&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQtKgLegQIGhAB
+            - generic [ref=e81]: Images
+        - listitem [ref=e82]:
+          - link "Vidéos courtes" [ref=e83] [cursor=pointer]:
+            - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&udm=39&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&q=location+vacances+royan+appartement+plage&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQs6gLegQIFhAB
+            - generic [ref=e85]: Vidéos courtes
+        - listitem [ref=e86]:
+          - link "Vidéos" [ref=e87] [cursor=pointer]:
+            - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&udm=7&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&q=location+vacances+royan+appartement+plage&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQtKgLegQIFxAB
+            - generic [ref=e89]: Vidéos
+        - listitem [ref=e90]:
+          - link "Maps" [ref=e91] [cursor=pointer]:
+            - /url: https://maps.google.com/maps?sca_esv=46b5e676a6bf9410&hl=fr&output=search&q=location+vacances+royan+appartement+plage&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&entry=mc&ved=1t:200715&ictx=111
+            - generic [ref=e93]: Maps
+        - listitem [ref=e94]:
+          - link "Actualités" [ref=e95] [cursor=pointer]:
+            - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=location+vacances+royan+appartement+plage&tbm=nws&source=lnms&fbs=ABfTbFUDadgeu2mn4mYJ8iEZ1GUDDuwRa4um-2LNhBFWIpqZc2YynYX1IYTff9gmCpUOwEKj7uMHWN-f2-kaTXrl8btoqkBFB7YdfPP2KbEf8qebdbQN60EhCwghtt5UaEwN7nX2CLypVPFt9DzCaJsYcJcfma0TjI4QvCj4PxJd5TNFLtMf2ldWmYfboAyM0PglBH-MAUX4Dlkex3WuDBqmtdT4P0c2DQ&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ0pQJegQIGRAB
+            - generic [ref=e97]: Actualités
+        - listitem [ref=e98]:
+          - button "Plus de filtres" [ref=e99] [cursor=pointer]:
+            - generic "Plus de filtres" [ref=e100]:
+              - generic [ref=e101]:
+                - generic [ref=e102]: Plus
+                - img [ref=e104]
+    - heading "Résultats de recherche" [level=1] [ref=e106]
+    - main [ref=e112]:
+      - region "Annonces" [ref=e115]:
+        - generic [ref=e116]:
+          - heading "Résultats sponsorisés" [level=2] [ref=e123]
+          - generic [ref=e124]:
+            - generic [ref=e131]:
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - link "Offre de dernière minute - Locations De la Mer fr.airbnb.com https://fr.airbnb.com › de-la-mer › locations" [ref=e139] [cursor=pointer]:
+                    - /url: https://fr.airbnb.com/a/stays-near/de-la-mer--france?place_id=chijby-3st6bdkgrkydwwzobh5w
+                    - heading "Offre de dernière minute - Locations De la Mer" [level=3] [ref=e140]
+                    - generic [ref=e146]:
+                      - generic [ref=e148]: fr.airbnb.com
+                      - generic [ref=e149]: https://fr.airbnb.com › de-la-mer › locations
+                  - button "Pourquoi cette annonce ?" [ref=e152] [cursor=pointer]:
+                    - img [ref=e154]
+                - generic [ref=e159]:
+                  - text: "Communication simple et rapide avec les hôtes pour une arrivée facile. De la Mer: trouvez le meilleur des"
+                  - emphasis [ref=e160]: locations
+                  - text: sur Airbnb.
+                - generic [ref=e162]:
+                  - text: ‎
+                  - link "Logements uniques à petit prix" [ref=e163] [cursor=pointer]:
+                    - /url: /aclk?sa=L&pf=1&ai=DChsSEwjepNjRlqyVAxUEk1AGHZneEhAYACICCAEQBxoCZGc&co=1&ase=2&gclid=EAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYASABEgJgZvD_BwE&cid=CAASugHkaHEUEvYkQZVMhbACN7sA1UwRLuaHX0D2mSX7CXu4Is6BQ5WGgNaF3yDXNx1HZAIWxJWklK4KJjowVao8F-BIO0zEV0LJB0yRjpSUAX28T2jlENTzxJsO5N2-EXCuHfYZQbVGBX3fTYZSzOhJq_lAGU5El13I6T8p7ZsbUGSTN1ZJjq-XcVxybkRfLmD4TAK5prYptlPGaxYT4dmvGN_qWS7Cu94l711kRtoQ9dWOE1xKvtM4wWgGLCQ&cce=2&category=acrcp_v1_32&sig=AOD64_0-TNjUPZcevBMEbpNYy7hFnFW3tg&adurl=https://fr.airbnb.com/a/stays-near/de-la-mer--france%3Fplace_id%3Dchijby-3st6bdkgrkydwwzobh5w%26c%3D.pi0.pk23766549296_192893094942%26gclsrc%3Daw.ds%26%26c%3D.pi0.pk23766549296_192893094942%26gad_source%3D1%26gad_campaignid%3D23766549296%26gbraid%3D0AAAAADz55Lkwgwbt2AxklXF1xh5_wUmtD%26gclid%3DEAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYASABEgJgZvD_BwE&q=
+                  - text: · ‎
+                  - link "Locations sur Airbnb" [ref=e164] [cursor=pointer]:
+                    - /url: /aclk?sa=L&pf=1&ai=DChsSEwjepNjRlqyVAxUEk1AGHZneEhAYACICCAEQCBoCZGc&co=1&ase=2&gclid=EAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYASACEgIAuvD_BwE&cid=CAASugHkaHEUEvYkQZVMhbACN7sA1UwRLuaHX0D2mSX7CXu4Is6BQ5WGgNaF3yDXNx1HZAIWxJWklK4KJjowVao8F-BIO0zEV0LJB0yRjpSUAX28T2jlENTzxJsO5N2-EXCuHfYZQbVGBX3fTYZSzOhJq_lAGU5El13I6T8p7ZsbUGSTN1ZJjq-XcVxybkRfLmD4TAK5prYptlPGaxYT4dmvGN_qWS7Cu94l711kRtoQ9dWOE1xKvtM4wWgGLCQ&cce=2&category=acrcp_v1_32&sig=AOD64_2obg1CrVTrY_ESNkPEfbUmKeN7Ug&adurl=https://fr.airbnb.com/a/stays-near/de-la-mer--france%3Fplace_id%3Dchijby-3st6bdkgrkydwwzobh5w%26c%3D.pi0.pk23766549296_192893094942%26gclsrc%3Daw.ds%26%26c%3D.pi0.pk23766549296_192893094942%26gad_source%3D1%26gad_campaignid%3D23766549296%26gbraid%3D0AAAAADz55Lkwgwbt2AxklXF1xh5_wUmtD%26gclid%3DEAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYASACEgIAuvD_BwE&q=
+                - generic [ref=e169]: Plus de 100 000 visites le mois dernier
+              - generic [ref=e175]:
+                - link "Image issue de booking.com" [ref=e177] [cursor=pointer]:
+                  - /url: https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjepNjRlqyVAxUEk1AGHZneEhAYACICCAEQDRoCZGc&co=1&ase=2&gclid=EAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYAiADEgLUhPD_BwE&cid=CAASugHkaHEUEvYkQZVMhbACN7sA1UwRLuaHX0D2mSX7CXu4Is6BQ5WGgNaF3yDXNx1HZAIWxJWklK4KJjowVao8F-BIO0zEV0LJB0yRjpSUAX28T2jlENTzxJsO5N2-EXCuHfYZQbVGBX3fTYZSzOhJq_lAGU5El13I6T8p7ZsbUGSTN1ZJjq-XcVxybkRfLmD4TAK5prYptlPGaxYT4dmvGN_qWS7Cu94l711kRtoQ9dWOE1xKvtM4wWgGLCQ&cce=2&category=acrcp_v1_32&sig=AOD64_00GiMMptf_F48MmGaGhXluwiwvgw&q=&nis=4&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQh78CegQIEBAB&adurl=http://www.booking.com/city/fr/royan.fr.html%3Faid%3D375805%3Blabel%3Droyan-xGgOZapal6Qk*D2cednwNQS409923934992:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-456347842680:lp1009979:li:dec:dm:ppccp%3DUmFuZG9tSVYkc2RlIyh9YXeInlYDVjWvFLwBBKDtOVI%3Bws%3D%26gad_source%3D1%26gad_campaignid%3D177044906%26gbraid%3D0AAAAAD_Ls1LMPt9-wHVcwxzwoSF0LdSZ5%26gclid%3DEAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYAiADEgLUhPD_BwE
+                  - img "Image issue de booking.com" [ref=e179]
+                - generic [ref=e180]:
+                  - link "Appartement Royan - Pas de frais de réservation Booking.com http://www.booking.com › appartements › royan" [ref=e181] [cursor=pointer]:
+                    - /url: https://www.booking.com/apartments/city/fr/royan.fr.html
+                    - heading "Appartement Royan - Pas de frais de réservation" [level=3] [ref=e183]
+                    - generic [ref=e189]:
+                      - generic [ref=e191]: Booking.com
+                      - generic [ref=e192]: http://www.booking.com › appartements › royan
+                  - button "Pourquoi cette annonce ?" [ref=e195] [cursor=pointer]:
+                    - img [ref=e197]
+                - generic [ref=e202]:
+                  - text: Hôtels, hébergements indépendants et bien plus encore. Réservez des
+                  - emphasis [ref=e203]: Appartements
+                  - text: à
+                  - emphasis [ref=e204]: Royan
+                  - text: "! Sans Frais de Réservation. Taxi Aéroport Disponible. Nous parlons Votre Langue. Meilleur Tarif Garanti."
+                - generic [ref=e206]:
+                  - text: ‎
+                  - link "Options Plage à proximité" [ref=e207] [cursor=pointer]:
+                    - /url: http://www.booking.com/city/fr/royan.fr.html?aid=375805%7Bignore%7D;label=royan
+                  - text: · ‎
+                  - link "Appartements À Royan" [ref=e208] [cursor=pointer]:
+                    - /url: http://www.booking.com/city/fr/royan.fr.html?aid=375805%7Bignore%7D;label=royan
+                  - text: · ‎
+                  - link "Maison, Appartement, Etc." [ref=e209] [cursor=pointer]:
+                    - /url: https://www.booking.com/go.html?slc=h1;aid=375805;label=
+                  - text: · ‎
+                  - link "Louez Une Voiture" [ref=e210] [cursor=pointer]:
+                    - /url: https://www.booking.com/cars/index.html?slc=c6;aid=375805;label=
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - link "Location Vacances Royan en bord de mer - 227 locations disponibles Poplidays https://www.poplidays.com" [ref=e218] [cursor=pointer]:
+                    - /url: https://www.poplidays.com/fr/location-vacances-royan_11217/mer/
+                    - heading "Location Vacances Royan en bord de mer - 227 locations disponibles" [level=3] [ref=e219]
+                    - generic [ref=e225]:
+                      - generic [ref=e227]: Poplidays
+                      - generic [ref=e228]: https://www.poplidays.com
+                  - button "Pourquoi cette annonce ?" [ref=e231] [cursor=pointer]:
+                    - img [ref=e233]
+                - generic [ref=e238]:
+                  - text: Partez en
+                  - emphasis [ref=e239]: vacances
+                  - text: à
+                  - emphasis [ref=e240]: Royan
+                  - text: . 227
+                  - emphasis [ref=e241]: locations
+                  - text: à
+                  - emphasis [ref=e242]: Royan
+                  - text: près de la en bord de mer sont disponibles. Disponibilités Réelles. Logements vérifiés.
+                - generic [ref=e244]:
+                  - text: ‎
+                  - link "Locations Bord de Mer" [ref=e245] [cursor=pointer]:
+                    - /url: https://www.poplidays.com/fr/ou-partir/mer/
+                  - text: · ‎
+                  - link "Locations Dernière Minute" [ref=e246] [cursor=pointer]:
+                    - /url: https://www.poplidays.com/fr/dernieres-minutes/
+                  - text: · ‎
+                  - link "Les Promotions" [ref=e247] [cursor=pointer]:
+                    - /url: https://www.poplidays.com/fr/nos-promotions/
+                  - text: · ‎
+                  - link "Location au Meilleur Prix" [ref=e248] [cursor=pointer]:
+                    - /url: https://www.poplidays.com/fr/location-vacances-royan_11217/mer/
+              - generic [ref=e254]:
+                - link "Image issue de belambra.fr" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjepNjRlqyVAxUEk1AGHZneEhAYACICCAEQJxoCZGc&co=1&ase=2&gclid=EAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYBCAXEgLzRfD_BwE&cid=CAASugHkaHEUEvYkQZVMhbACN7sA1UwRLuaHX0D2mSX7CXu4Is6BQ5WGgNaF3yDXNx1HZAIWxJWklK4KJjowVao8F-BIO0zEV0LJB0yRjpSUAX28T2jlENTzxJsO5N2-EXCuHfYZQbVGBX3fTYZSzOhJq_lAGU5El13I6T8p7ZsbUGSTN1ZJjq-XcVxybkRfLmD4TAK5prYptlPGaxYT4dmvGN_qWS7Cu94l711kRtoQ9dWOE1xKvtM4wWgGLCQ&cce=2&category=acrcp_v1_32&sig=AOD64_0nHYVsnvEDAM8LhKUsK68Km_Rzzw&q=&nis=4&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQh78CegQIERAB&adurl=
+                  - img "Image issue de belambra.fr" [ref=e258]
+                - generic [ref=e259]:
+                  - 'link "Résidence vacances Royan : village vacances - Belambra Clubs Belambra https://www.belambra.fr" [ref=e260] [cursor=pointer]':
+                    - /url: https://www.belambra.fr/destinations/cote-atlantique/royan
+                    - 'heading "Résidence vacances Royan : village vacances - Belambra Clubs" [level=3] [ref=e262]'
+                    - generic [ref=e268]:
+                      - generic [ref=e270]: Belambra
+                      - generic [ref=e271]: https://www.belambra.fr
+                  - button "Pourquoi cette annonce ?" [ref=e274] [cursor=pointer]:
+                    - img [ref=e276]
+                - generic [ref=e281]:
+                  - text: Réservez dès maintenant votre
+                  - emphasis [ref=e282]: location
+                  - text: dans une résidence de
+                  - emphasis [ref=e283]: vacances
+                  - text: près de...
+                - generic [ref=e285]:
+                  - text: ‎
+                  - link "Dernières minutes" [ref=e286] [cursor=pointer]:
+                    - /url: https://www.belambra.fr/bons-plans/depart-immediat
+                  - text: · ‎
+                  - link "-15% Sur Vacances d'Eté" [ref=e287] [cursor=pointer]:
+                    - /url: https://www.belambra.fr/quand-partir/vacances-ete
+                  - text: · ‎
+                  - link "Emplacement exceptionnel" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.belambra.fr/destinations/cote-atlantique/royan%7Bignore%7D?utm_source=google&utm_medium=cpc&utm_campaign=%7BcampaignId%7D&utm_adgroup=%7Badgroupid%7D&utm_term=%7Bkeyword%7D&utm_content=%7Bcreative%7D&utm_device=%7Bdevice%7D&utm_matchtype=%7Bmatchtype%7D&utm_network=%7Bnetwork%7D&esl-k=sem-google%7Cn%7Bnetwork%7D%7Cc%7Bcreative%7D%7Cm%7Bmatchtype%7D%7Ck%7Bkeyword%7D%7Cp%7Bplacement%7D%7Ct%7Btarget%7D%7Cd%7Bdevice%7D%7Ca%7Badgroupid%7D%7Cg%7Bcampaignid%7D
+                  - text: · ‎
+                  - link "Bons Plans" [ref=e289] [cursor=pointer]:
+                    - /url: https://www.belambra.fr/bons-plans
+                  - text: · ‎
+                  - link "Belambra" [ref=e290] [cursor=pointer]:
+                    - /url: https://www.belambra.fr/destinations/cote-atlantique/royan%7Bignore%7D?utm_source=google&utm_medium=cpc&utm_campaign=%7BcampaignId%7D&utm_adgroup=%7Badgroupid%7D&utm_term=%7Bkeyword%7D&utm_content=%7Bcreative%7D&utm_device=%7Bdevice%7D&utm_matchtype=%7Bmatchtype%7D&utm_network=%7Bnetwork%7D&esl-k=sem-google%7Cn%7Bnetwork%7D%7Cc%7Bcreative%7D%7Cm%7Bmatchtype%7D%7Ck%7Bkeyword%7D%7Cp%7Bplacement%7D%7Ct%7Btarget%7D%7Cd%7Bdevice%7D%7Ca%7Badgroupid%7D%7Cg%7Bcampaignid%7D
+                - generic [ref=e292]:
+                  - link "Les, 431 Route de la Fouasse, Les Mathes" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjepNjRlqyVAxUEk1AGHZneEhAYACICCAEQFBoCZGc&co=1&ase=2&gclid=EAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAAYBCAGEgL_RvD_BwE&cid=CAASugHkaHEUEvYkQZVMhbACN7sA1UwRLuaHX0D2mSX7CXu4Is6BQ5WGgNaF3yDXNx1HZAIWxJWklK4KJjowVao8F-BIO0zEV0LJB0yRjpSUAX28T2jlENTzxJsO5N2-EXCuHfYZQbVGBX3fTYZSzOhJq_lAGU5El13I6T8p7ZsbUGSTN1ZJjq-XcVxybkRfLmD4TAK5prYptlPGaxYT4dmvGN_qWS7Cu94l711kRtoQ9dWOE1xKvtM4wWgGLCQ&cce=2&category=acrcp_v1_32&sig=AOD64_2vi2yn-CiSjzzhVGTPOKzhw4QZ1A&ctype=107&nis=4&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQmxB6BAgREBk&adurl=
+                    - text: Les, 431 Route de la Fouasse, Les Mathes
+                  - text: ‎ - +33 5 46 22 44 33‎
+            - button "Masquer les résultats sponsorisés" [ref=e296] [cursor=pointer]:
+              - separator [ref=e297]
+              - generic [ref=e298]:
+                - generic [ref=e299]: Masquer les résultats sponsorisés
+                - img [ref=e301]
+      - generic [ref=e306]:
+        - generic [ref=e317]:
+          - generic [ref=e319]:
+            - generic [ref=e321]:
+              - generic [ref=e322]:
+                - img [ref=e323]
+                - heading "Aperçu IA" [level=2] [ref=e325]
+              - generic [ref=e326]:
+                - button "Afficher 3 liens de corroboration" [ref=e329] [cursor=pointer]
+                - button "À propos de ce résultat" [ref=e336]:
+                  - img [ref=e338]
+            - generic [ref=e362]:
+              - generic [ref=e363]:
+                - mark [ref=e364]: Trouvez facilement votre location de vacances à Royan parmi plus de 400 offres d'appartements en bord de mer, avec des tarifs démarrant à environ $90/nuit
+                - text: . Les secteurs les plus recherchés incluent la
+                - strong [ref=e365]: Grande Conche
+                - text: ", le"
+                - strong [ref=e366]: quartier du Parc
+                - text: et
+                - strong [ref=e367]: Pontaillac
+                - text: ", situés à quelques pas du sable."
+                - generic [ref=e369]:
+                  - link "Amivac (+ 3) – Afficher les liens associés" [ref=e371] [cursor=pointer]:
+                    - /url: https://www.amivac.com/location-vacances/mer/option-bord-de-mer/pays-france/station-royan-865
+                  - button "Amivac (+ 3) – Afficher les liens associés" [disabled] [ref=e372]:
+                    - generic [ref=e374]:
+                      - generic [ref=e375]: Amivac
+                      - generic [ref=e376]: "+3"
+                    - img [ref=e379]
+              - generic [ref=e381]: "Les options de recherche pour réserver votre séjour se divisent selon les plateformes et agences locales :"
+              - list [ref=e383]:
+                - listitem [ref=e384]:
+                  - generic [ref=e385]:
+                    - strong [ref=e386]: "Plateformes de location :"
+                    - text: Comparez les disponibilités d'appartements avec vue sur mer sur
+                    - link "Airbnb" [ref=e388] [cursor=pointer]:
+                      - /url: https://www.airbnb.fr/royan-france/stays/beachfront
+                    - text: ou
+                    - link "Abritel" [ref=e390] [cursor=pointer]:
+                      - /url: https://www.abritel.fr/d/plage/29645/royan
+                    - text: .
+                - listitem [ref=e391]:
+                  - generic [ref=e392]:
+                    - strong [ref=e393]: "Agences locales :"
+                    - text: Pour un service spécialisé, contactez l'agence
+                    - link [ref=e395] [cursor=pointer]:
+                      - /url: https://www.ouest-holiday.fr/
+                      - text: Ouest Holiday
+                    - text: pour des résidences face à la plage, ou l'
+                    - link [ref=e397] [cursor=pointer]:
+                      - /url: https://www.lagence-du-parc.com/location-vacances/appartement/1
+                      - text: Agence du Parc
+                    - text: pour des biens dans le quartier du Parc.
+                - listitem [ref=e398]:
+                  - generic [ref=e399]:
+                    - strong [ref=e400]: "Office de Tourisme :"
+                    - text: Consultez la sélection d'hébergements vérifiés sur le site de
+                    - link [ref=e402] [cursor=pointer]:
+                      - /url: https://www.royanatlantique.fr/sejourner/hebergements/locations-vacances/
+                      - text: Royan Atlantique
+                    - text: .
+                  - button [disabled] [ref=e406]:
+                    - img [ref=e409]
+              - generic [ref=e412]:
+                - generic [ref=e413]: "Pour vous aider à affiner votre recherche, pourriez-vous préciser :"
+                - list [ref=e414]:
+                  - listitem [ref=e415]:
+                    - generic [ref=e416]:
+                      - text: Les
+                      - strong [ref=e417]: dates exactes
+                      - text: de votre séjour ?
+                  - listitem [ref=e418]:
+                    - generic [ref=e419]:
+                      - text: Le
+                      - strong [ref=e420]: nombre de personnes
+                      - text: (adultes/enfants) ?
+                  - listitem [ref=e421]:
+                    - generic [ref=e422]:
+                      - text: Vos critères indispensables (terrasse,
+                      - strong [ref=e423]: vue sur mer
+                      - text: ", parking,"
+                      - strong [ref=e424]: proximité immédiate
+                      - text: d'une plage spécifique) ?
+          - button "Afficher plus, Aperçu IA" [ref=e430]:
+            - generic [ref=e432] [cursor=pointer]:
+              - generic [ref=e433]: Afficher plus
+              - img [ref=e435]
+        - generic [ref=e440]:
+          - heading "Résultats Web" [level=2] [ref=e441]
+          - generic [ref=e442]:
+            - generic [ref=e445]:
+              - link "Locations de vacances en bord de mer à Royan dès 25 €/nuit Amivac https://www.amivac.com › mer › station-royan-865" [ref=e447] [cursor=pointer]:
+                - /url: https://www.amivac.com/location-vacances/mer/option-bord-de-mer/pays-france/station-royan-865
+                - heading "Locations de vacances en bord de mer à Royan dès 25 €/nuit" [level=3] [ref=e448]
+                - generic [ref=e454]:
+                  - generic [ref=e456]: Amivac
+                  - generic [ref=e458]: https://www.amivac.com › mer › station-royan-865
+              - button "À propos de ce résultat" [ref=e461] [cursor=pointer]:
+                - img [ref=e464]
+            - generic [ref=e468]:
+              - emphasis [ref=e469]: Appartement avec jardin et vue mer, au bord de l'eau à Royan
+              - text: ", parking et accès à la plage, idéal pour 4 personnes en quête de détente et de paysages ..."
+            - link "location vacances royan appartement plage sur www.amivac.com" [ref=e472] [cursor=pointer]:
+              - /url: https://www.amivac.com/location-vacances/mer/option-bord-de-mer/pays-france/station-royan-865
+              - img "location vacances royan appartement plage sur www.amivac.com" [ref=e474]
+        - generic [ref=e478]:
+          - generic [ref=e481]:
+            - 'link "Royan : locations de vacances en bord de mer Airbnb https://www.airbnb.fr › ... › Charente-Maritime › Royan" [ref=e483] [cursor=pointer]':
+              - /url: https://www.airbnb.fr/royan-france/stays/beachfront
+              - 'heading "Royan : locations de vacances en bord de mer" [level=3] [ref=e484]'
+              - generic [ref=e490]:
+                - generic [ref=e492]: Airbnb
+                - generic [ref=e494]: https://www.airbnb.fr › ... › Charente-Maritime › Royan
+            - button "À propos de ce résultat" [ref=e497] [cursor=pointer]:
+              - img [ref=e500]
+          - generic [ref=e504]:
+            - text: Découvrez notre
+            - emphasis [ref=e505]: appartement
+            - text: situé au cœur du centre-ville de
+            - emphasis [ref=e506]: Royan
+            - text: et à 200 mètres de sa
+            - emphasis [ref=e507]: plage
+            - text: principale et de son port. Il est situé au 1er étage (avec ...
+          - link "location vacances royan appartement plage sur www.airbnb.fr" [ref=e510] [cursor=pointer]:
+            - /url: https://www.airbnb.fr/royan-france/stays/beachfront
+            - img "location vacances royan appartement plage sur www.airbnb.fr" [ref=e512]
+          - 'img "Note : 5,0 sur 5 (411) avis d''utilisateurs" [ref=e517]':
+            - text: 5,0
+            - img [ref=e518]
+            - text: (411)
+        - generic [ref=e527]:
+          - generic [ref=e528]:
+            - generic [ref=e529]:
+              - heading "Location de Vacances | Royan, France" [level=2] [ref=e530]
+              - button "Plus d'infos" [ref=e535]:
+                - img [ref=e537]
+            - generic [ref=e539]: Affichage des prix moyens par nuit
+          - generic [ref=e541]:
+            - generic [ref=e544]:
+              - status
+              - button "Sélectionnez la date d'arrivée" [ref=e546] [cursor=pointer]:
+                - img [ref=e548]
+                - generic [ref=e550]: Arrivée
+              - button "Sélectionnez la date de départ" [ref=e552] [cursor=pointer]:
+                - img [ref=e554]
+                - generic [ref=e556]: Départ
+            - 'button "Sélectionnez le nombre de clients. Sélection actuelle : 2 clients" [ref=e561] [cursor=pointer]':
+              - generic [ref=e563]:
+                - img [ref=e566]
+                - generic [ref=e568]: "2"
+                - img [ref=e571]
+          - list [ref=e576]:
+            - list [ref=e577]:
+              - link "Accès à la plage" [ref=e578] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAE&ictx=111&ved=1t:73268
+                - listitem [ref=e579]:
+                  - generic [ref=e581]:
+                    - img [ref=e583]
+                    - generic [ref=e585]: Accès à la plage
+              - link "Les mieux notés" [ref=e586] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAqEQoICgELOgNNQUQaAwoBFCgI&qs=CAE4BlqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAE&ictx=111&ved=1t:54362
+                - listitem [ref=e587]:
+                  - generic [ref=e590]: Les mieux notés
+              - link "Économiques" [ref=e591] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAqFgoICgELOgNNQUQaAwoBFCIFEgMQ7gU&qs=CAE4BlqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAE&ictx=111&ved=1t:54363
+                - listitem [ref=e592]:
+                  - generic [ref=e595]: Économiques
+              - link "Ce week-end" [ref=e596] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAaHBIaEhQKBwjqDxAHGAMSBwjqDxAHGAUYAjICCAEqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAE&ictx=111&ved=1t:54365
+                - listitem [ref=e597]:
+                  - generic [ref=e600]: Ce week-end
+          - generic [ref=e601]:
+            - link "Agrandir le plan" [ref=e603] [cursor=pointer]:
+              - generic [ref=e604]:
+                - generic:
+                  - generic [ref=e606]:
+                    - img [ref=e608]
+                    - text: 663 MAD
+                  - generic [ref=e615]:
+                    - img [ref=e617]
+                    - text: 995 MAD
+                  - img [ref=e623]
+                  - generic [ref=e627]:
+                    - img [ref=e629]
+                    - text: 1.016 MAD
+                  - generic [ref=e636]:
+                    - img [ref=e638]
+                    - text: 1.081 MAD
+                  - generic [ref=e645]:
+                    - img [ref=e647]
+                    - text: 1.207 MAD
+                  - img [ref=e653]
+                  - generic [ref=e657]:
+                    - img [ref=e659]
+                    - text: 665 MAD
+                  - img [ref=e665]
+                  - generic [ref=e669]:
+                    - img [ref=e671]
+                    - text: 744 MAD
+                  - generic [ref=e678]:
+                    - img [ref=e680]
+                    - text: 786 MAD
+                  - img [ref=e686]
+                  - generic [ref=e690]:
+                    - img [ref=e692]
+                    - text: 625 MAD
+                  - img [ref=e698]
+                  - generic [ref=e702]:
+                    - img [ref=e704]
+                    - text: 850 MAD
+                  - img [ref=e710]
+                  - generic [ref=e714]:
+                    - img [ref=e716]
+                    - text: 1.011 MAD
+                  - img [ref=e722]
+              - link [ref=e726]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=SAFoAQ&ictx=111&ved=1t:206005
+                - link [ref=e727]
+              - link "Agrandir le plan" [ref=e732]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BlqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=SAFoAQ&ictx=111&ved=1t:159633
+                - img [ref=e734]
+                - generic: Agrandir le plan
+            - list "Suggestions d'hôtels" [ref=e738]:
+              - link "Agréable T2 Royan Centre 1.011 MAD 4,9 étoile(s) sur 5 (74 avis), Accès à la plage 2 chambres · 4 personne(s)" [ref=e740] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAJGBsSBwjqDxAKGAEYBDICEAA4ASoPCggKAQs6A01BRBoDCgEU&qs=CAEyKENob1F1dERiOXREeTVlLUVBUm9OTDJjdk1URjJOWGczZVdoeU5oQUM4CkIJETro1g6Vl9-EQgkRgunJlD_VqYRCCRFSB8-lmy7QxFqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAF6KENob1F1dERiOXREeTVlLUVBUm9OTDJjdk1URjJOWGczZVdoeU5oQUO6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                - generic [ref=e741]:
+                  - group [ref=e743]:
+                    - group "1 sur 6" [ref=e746]:
+                      - img [ref=e747]
+                    - generic [ref=e748]:
+                      - button "Diapositive précédente" [ref=e749]:
+                        - img [ref=e750]
+                      - button "Diapositive suivante" [ref=e752]:
+                        - img [ref=e753]
+                  - generic [ref=e755]:
+                    - generic [ref=e756]:
+                      - generic [ref=e758]: Agréable T2 Royan Centre
+                      - generic [ref=e760]: 1.011 MAD
+                    - link "4,9 étoile(s) sur 5 (74 avis)," [ref=e762]:
+                      - 'img "Note : 4,9 sur 5 74 avis d''utilisateurs" [ref=e763]':
+                        - text: 4,9
+                        - img [ref=e764]
+                        - text: (74)
+                    - generic [ref=e768]:
+                      - generic [ref=e772]:
+                        - img [ref=e775]
+                        - generic [ref=e777]: Accès à la plage
+                      - generic [ref=e781]: 2 chambres · 4 personne(s)
+              - link "Appartement T3 proche des plages 850 MAD 4,7 étoile(s) sur 5 (22 avis), Accès à la plage 2 chambres · 4 personne(s)" [ref=e784] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAJGAUSBwjqDxAJGAkYBDICEAA4ASoPCggKAQs6A01BRBoDCgEU&qs=CAEyKENob1FndE9ucHZtbjlkU0VBUm9OTDJjdk1URjJOWGczZDNSdGFoQUM4CkIJETro1g6Vl9-EQgkRgunJlD_VqYRCCRFSB8-lmy7QxFqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAF6KENob1FndE9ucHZtbjlkU0VBUm9OTDJjdk1URjJOWGczZDNSdGFoQUO6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                - generic [ref=e785]:
+                  - group [ref=e787]:
+                    - group "1 sur 6" [ref=e790]:
+                      - img [ref=e791]
+                    - generic [ref=e792]:
+                      - button "Diapositive précédente" [ref=e793]:
+                        - img [ref=e794]
+                      - button "Diapositive suivante" [ref=e796]:
+                        - img [ref=e797]
+                  - generic [ref=e799]:
+                    - generic [ref=e800]:
+                      - generic [ref=e802]: Appartement T3 proche des plages
+                      - generic [ref=e804]: 850 MAD
+                    - link "4,7 étoile(s) sur 5 (22 avis)," [ref=e806]:
+                      - 'img "Note : 4,7 sur 5 22 avis d''utilisateurs" [ref=e807]':
+                        - text: 4,7
+                        - img [ref=e808]
+                        - text: (22)
+                    - generic [ref=e812]:
+                      - generic [ref=e816]:
+                        - img [ref=e819]
+                        - generic [ref=e821]: Accès à la plage
+                      - generic [ref=e825]: 2 chambres · 4 personne(s)
+              - link "Apartment 4 persons-RDC-Jardinet 20m2- Private parking - 200m beach 625 MAD 4,7 étoile(s) sur 5 (66 avis), Accès à la plage 1 chambre · 4 personne(s)" [ref=e828] [cursor=pointer]:
+                - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAJGBQSBwjqDxAJGBgYBDICEAA4ASoPCggKAQs6A01BRBoDCgEU&qs=CAEyKENob1EwbzY4cnJyVGktakVBUm9OTDJjdk1URnNYemh3TldjemVCQUM4CkIJETro1g6Vl9-EQgkRgunJlD_VqYRCCRFSB8-lmy7QxFqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAF6KENob1EwbzY4cnJyVGktakVBUm9OTDJjdk1URnNYemh3TldjemVCQUO6AQhvdmVydmlldw&ictx=111&ved=1t:196188
+                - generic [ref=e829]:
+                  - group [ref=e831]:
+                    - group "1 sur 6" [ref=e834]:
+                      - img [ref=e835]
+                    - generic [ref=e836]:
+                      - button "Diapositive précédente" [ref=e837]:
+                        - img [ref=e838]
+                      - button "Diapositive suivante" [ref=e840]:
+                        - img [ref=e841]
+                  - generic [ref=e843]:
+                    - generic [ref=e844]:
+                      - generic [ref=e846]: Apartment 4 persons-RDC-Jardinet 20m2- Private parking - 200m beach
+                      - generic [ref=e848]: 625 MAD
+                    - link "4,7 étoile(s) sur 5 (66 avis)," [ref=e850]:
+                      - 'img "Note : 4,7 sur 5 66 avis d''utilisateurs" [ref=e851]':
+                        - text: 4,7
+                        - img [ref=e852]
+                        - text: (66)
+                    - generic [ref=e856]:
+                      - generic [ref=e860]:
+                        - img [ref=e863]
+                        - generic [ref=e865]: Accès à la plage
+                      - generic [ref=e869]: 1 chambre · 4 personne(s)
+            - link "Afficher 145 établissements" [ref=e871] [cursor=pointer]:
+              - /url: /travel/search?g2lb=4965990,72471280,72560029,72573224,72647020,72686036,72803964,72882230,73064764&hl=fr-MA&gl=ma&ssta=1&q=location+vacances+royan+appartement+plage&ts=CAISCgoCCAMKAggDEAAqDwoICgELOgNNQUQaAwoBFA&qs=CAE4BkIJETro1g6Vl9-EQgkRgunJlD_VqYRCCRFSB8-lmy7QxFqeATKbAaoBlwEKCS9tLzAyandxaAoJL20vMDV6cTJ0EAEqLSIpbG9jYXRpb24gdmFjYW5jZXMgcm95YW4gYXBwYXJ0ZW1lbnQgcGxhZ2UoBDIfEAEiGwWMaBczpp77oTcnkQ1lOlz9pFVTK8XY9uCFHTItEAIiKWxvY2F0aW9uIHZhY2FuY2VzIHJveWFuIGFwcGFydGVtZW50IHBsYWdl&ap=aAE&ictx=111&ved=1t:195904
+              - separator [ref=e872]
+              - generic [ref=e873]:
+                - generic [ref=e874]: Afficher 145 établissements
+                - img [ref=e876]
+        - generic [ref=e880]:
+          - heading "Résultats Web" [level=2] [ref=e881]
+          - generic [ref=e882]:
+            - generic [ref=e885]:
+              - link "Locations de Vacances à Royan Office de Tourisme Royan Atlantique https://www.royanatlantique.fr › ... › Hébergements" [ref=e887] [cursor=pointer]:
+                - /url: https://www.royanatlantique.fr/sejourner/hebergements/locations-vacances/
+                - heading "Locations de Vacances à Royan" [level=3] [ref=e888]
+                - generic [ref=e894]:
+                  - generic [ref=e896]: Office de Tourisme Royan Atlantique
+                  - generic [ref=e898]: https://www.royanatlantique.fr › ... › Hébergements
+              - button "À propos de ce résultat" [ref=e901] [cursor=pointer]:
+                - img [ref=e904]
+            - generic [ref=e908]:
+              - text: On réserve dès maintenant ses
+              - emphasis [ref=e909]: locations
+              - text: de
+              - emphasis [ref=e910]: vacances
+              - text: à
+              - emphasis [ref=e911]: Royan
+              - text: parmi plus de 400
+              - emphasis [ref=e912]: locations
+              - text: "saisonnières : un"
+              - emphasis [ref=e913]: appartement
+              - text: tout confort, une maison familiale ou un ...
+            - link "location vacances royan appartement plage sur www.royanatlantique.fr" [ref=e916] [cursor=pointer]:
+              - /url: https://www.royanatlantique.fr/sejourner/hebergements/locations-vacances/
+              - img "location vacances royan appartement plage sur www.royanatlantique.fr" [ref=e918]
+        - generic [ref=e922]:
+          - heading "Résultats sponsorisés" [level=2] [ref=e929]
+          - generic [ref=e930]:
+            - generic [ref=e937]:
+              - generic [ref=e942]:
+                - generic [ref=e943]:
+                  - link "Appart · Royan - Offre de dernière minute fr.airbnb.com https://fr.airbnb.com › royan › appartements" [ref=e944] [cursor=pointer]:
+                    - /url: https://fr.airbnb.com/a/stays/royan--france?place_id=chij33khxkj2augr4xpowcqaafw
+                    - heading "Appart · Royan - Offre de dernière minute" [level=3] [ref=e945]
+                    - generic [ref=e951]:
+                      - generic [ref=e953]: fr.airbnb.com
+                      - generic [ref=e954]: https://fr.airbnb.com › royan › appartements
+                  - button "Pourquoi cette annonce ?" [ref=e957] [cursor=pointer]:
+                    - img [ref=e959]
+                - generic [ref=e964]:
+                  - text: Communication simple et rapide avec les hôtes pour une arrivée facile. Ces
+                  - emphasis [ref=e965]: appartements
+                  - text: ont la cote ! Lisez les commentaires des voyageurs.
+                - generic [ref=e970]: Plus de 100 000 visites le mois dernier
+              - generic [ref=e975]:
+                - link "Image issue de booking.com" [ref=e977] [cursor=pointer]:
+                  - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwjepNjRlqyVAxUEk1AGHZneEhAYACICCAIQBBoCZGc&co=1&ase=2&gclid=EAIaIQobChMI3qTY0ZaslQMVBJNQBh2Z3hIQEAMYAiADEgIb1fD_BwE&cid=CAASugHkaHEUEvYkQZVMhbACN7sA1UwRLuaHX0D2mSX7CXu4Is6BQ5WGgNaF3yDXNx1HZAIWxJWklK4KJjowVao8F-BIO0zEV0LJB0yRjpSUAX28T2jlENTzxJsO5N2-EXCuHfYZQbVGBX3fTYZSzOhJq_lAGU5El13I6T8p7ZsbUGSTN1ZJjq-XcVxybkRfLmD4TAK5prYptlPGaxYT4dmvGN_qWS7Cu94l711kRtoQ9dWOE1xKvtM4wWgGLCQ&cce=2&category=acrcp_v1_32&sig=AOD64_2PoYQyMFtrh69HC2xmJPTxtIpajA&q=&nis=4&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQh78CegQINBAB&adurl=
+                  - img "Image issue de booking.com" [ref=e979]
+                - generic [ref=e980]:
+                  - link "Appartement Royan - Pas de frais de réservation Booking.com http://www.booking.com" [ref=e981] [cursor=pointer]:
+                    - /url: https://www.booking.com/apartments/city/fr/royan.fr.html
+                    - heading "Appartement Royan - Pas de frais de réservation" [level=3] [ref=e983]
+                    - generic [ref=e989]:
+                      - generic [ref=e991]: Booking.com
+                      - generic [ref=e992]: http://www.booking.com
+                  - button "Pourquoi cette annonce ?" [ref=e995] [cursor=pointer]:
+                    - img [ref=e997]
+                - generic [ref=e1002]:
+                  - text: Hôtels, hébergements indépendants et bien plus encore. Réservez des
+                  - emphasis [ref=e1003]: Appartements
+                  - text: à
+                  - emphasis [ref=e1004]: Royan
+                  - text: "! Sans Frais de Réservation. Taxi Aéroport Disponible. Nous parlons Votre Langue. Meilleur Tarif Garanti."
+                - generic [ref=e1006]:
+                  - text: ‎
+                  - link "Options Plage à proximité" [ref=e1007] [cursor=pointer]:
+                    - /url: http://www.booking.com/city/fr/royan.fr.html?aid=375805%7Bignore%7D;label=royan
+                  - text: · ‎
+                  - link "Appartements À Royan" [ref=e1008] [cursor=pointer]:
+                    - /url: http://www.booking.com/city/fr/royan.fr.html?aid=375805%7Bignore%7D;label=royan
+                  - text: · ‎
+                  - link "Maison, Appartement, Etc." [ref=e1009] [cursor=pointer]:
+                    - /url: https://www.booking.com/go.html?slc=h1;aid=375805;label=
+                  - text: · ‎
+                  - link "Louez Une Voiture" [ref=e1010] [cursor=pointer]:
+                    - /url: https://www.booking.com/cars/index.html?slc=c6;aid=375805;label=
+                - generic [ref=e1015]: Plus d'un million de visites le mois dernier
+            - button "Masquer les résultats sponsorisés" [ref=e1017] [cursor=pointer]:
+              - separator [ref=e1018]
+              - generic [ref=e1019]:
+                - generic [ref=e1020]: Masquer les résultats sponsorisés
+                - img [ref=e1022]
+        - generic [ref=e1027]:
+          - generic [ref=e1030]:
+            - link "Royan - VUE MER pour cet APPARTEMENT face à la ... Booking.com https://www.booking.com › ... › Appartements à Royan" [ref=e1032] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/fr/royan-vue-mer-pour-cet-appartement-face-a-la-plage-grande-conche.fr.html
+              - heading "Royan - VUE MER pour cet APPARTEMENT face à la ..." [level=3] [ref=e1033]
+              - generic [ref=e1039]:
+                - generic [ref=e1041]: Booking.com
+                - generic [ref=e1043]: https://www.booking.com › ... › Appartements à Royan
+            - button "À propos de ce résultat" [ref=e1046] [cursor=pointer]:
+              - img [ref=e1049]
+          - generic [ref=e1053]:
+            - text: Cet
+            - emphasis [ref=e1054]: appartement
+            - text: "est à respectivement 11 km et 17 km de :"
+            - emphasis [ref=e1055]: Royan
+            - text: Golf et Zoo de La Palmyre. Disposant d'un balcon et offrant une vue sur la mer, cet
+            - emphasis [ref=e1056]: appartement
+            - text: ...
+          - link "location vacances royan appartement plage sur www.booking.com" [ref=e1059] [cursor=pointer]:
+            - /url: https://www.booking.com/hotel/fr/royan-vue-mer-pour-cet-appartement-face-a-la-plage-grande-conche.fr.html
+            - img "location vacances royan appartement plage sur www.booking.com" [ref=e1061]
+          - 'img "Note : 4,0 sur 5 (7) avis d''utilisateurs" [ref=e1066]':
+            - text: 7,6/10
+            - img [ref=e1067]
+            - text: (7)
+        - generic [ref=e1073]:
+          - generic [ref=e1076]:
+            - link "Locations vacances vue sur la mer Royan MediaVacances https://www.mediavacances.com › ... › Location Royan" [ref=e1078] [cursor=pointer]:
+              - /url: https://www.mediavacances.com/locations-vacances-royan/0006236000/?vuemer=y
+              - heading "Locations vacances vue sur la mer Royan" [level=3] [ref=e1079]
+              - generic [ref=e1085]:
+                - generic [ref=e1087]: MediaVacances
+                - generic [ref=e1089]: https://www.mediavacances.com › ... › Location Royan
+            - button "À propos de ce résultat" [ref=e1092] [cursor=pointer]:
+              - img [ref=e1095]
+          - generic [ref=e1099]:
+            - emphasis [ref=e1100]: Appartement Royan 2 à 4 personnes · 371 €
+            - text: · H-HAR09J4 ; Appartement Royan 2 à 4 personnes · 560 € · H-HENJHFB ; Appartement Royan 2 à 6 personnes · 448 € · H-H92RSDE.
+        - generic [ref=e1104]:
+          - generic [ref=e1107]:
+            - 'link "Royan : locations de vacances à la plage Abritel https://www.abritel.fr › ... › Royan Atlantique" [ref=e1109] [cursor=pointer]':
+              - /url: https://www.abritel.fr/d/plage/29645/royan
+              - 'heading "Royan : locations de vacances à la plage" [level=3] [ref=e1110]'
+              - generic [ref=e1116]:
+                - generic [ref=e1118]: Abritel
+                - generic [ref=e1120]: https://www.abritel.fr › ... › Royan Atlantique
+            - button "À propos de ce résultat" [ref=e1123] [cursor=pointer]:
+              - img [ref=e1126]
+          - generic [ref=e1130]:
+            - emphasis [ref=e1131]: "Royan : découvrez les locations de vacances à la plage"
+            - text: ; NEW! Studio Royan Vue mer 4 personnes, parking, local vélos. 4 personnes · 1 chambre · 1 salle de bain.
+          - link "location vacances royan appartement plage sur www.abritel.fr" [ref=e1134] [cursor=pointer]:
+            - /url: https://www.abritel.fr/d/plage/29645/royan
+            - img "location vacances royan appartement plage sur www.abritel.fr" [ref=e1136]
+        - generic [ref=e1140]:
+          - generic [ref=e1143]:
+            - 'link "Ouest Holiday: Accueil Ouest Holiday https://www.ouest-holiday.fr" [ref=e1145] [cursor=pointer]':
+              - /url: https://www.ouest-holiday.fr/
+              - 'heading "Ouest Holiday: Accueil" [level=3] [ref=e1146]'
+              - generic [ref=e1152]:
+                - generic [ref=e1154]: Ouest Holiday
+                - generic [ref=e1156]: https://www.ouest-holiday.fr
+            - button "À propos de ce résultat" [ref=e1159] [cursor=pointer]:
+              - img [ref=e1162]
+          - generic [ref=e1166]:
+            - text: Nos
+            - emphasis [ref=e1167]: appartements
+            - text: avec vue mer sont situés à l'orée du quartier du Parc, face à la
+            - emphasis [ref=e1168]: plage
+            - text: de la Grande Conche. A proximité du centre-ville de
+            - emphasis [ref=e1169]: Royan
+            - text: ", le quartier ..."
+          - link "location vacances royan appartement plage sur www.ouest-holiday.fr" [ref=e1172] [cursor=pointer]:
+            - /url: https://www.ouest-holiday.fr/
+            - img "location vacances royan appartement plage sur www.ouest-holiday.fr" [ref=e1174]
+        - generic [ref=e1178]:
+          - generic [ref=e1181]:
+            - link "Location de vacances à Royan Tripandco.com https://www.tripandco.com › location-Poitou-Charentes..." [ref=e1183] [cursor=pointer]:
+              - /url: https://www.tripandco.com/location-Poitou-Charentes-Royan,search,6,14,80,1094.html
+              - heading "Location de vacances à Royan" [level=3] [ref=e1184]
+              - generic [ref=e1190]:
+                - generic [ref=e1192]: Tripandco.com
+                - generic [ref=e1194]: https://www.tripandco.com › location-Poitou-Charentes...
+            - button "À propos de ce résultat" [ref=e1197] [cursor=pointer]:
+              - img [ref=e1200]
+          - generic [ref=e1204]:
+            - emphasis [ref=e1205]: Appartement
+            - text: Le Colibri / 2 pers. / 1 chambre / 43m² ; 10. Joli T2 à
+            - emphasis [ref=e1206]: Royan
+            - text: ", 950 mètres des plages, commerces tout près. ; 17. Dans"
+            - emphasis [ref=e1207]: Royan
+            - text: ", villa neuve à 5 ,6 ..."
+          - link "location vacances royan appartement plage sur www.tripandco.com" [ref=e1210] [cursor=pointer]:
+            - /url: https://www.tripandco.com/location-Poitou-Charentes-Royan,search,6,14,80,1094.html
+            - img "location vacances royan appartement plage sur www.tripandco.com" [ref=e1212]
+        - generic [ref=e1216]:
+          - generic [ref=e1219]:
+            - link "Location appartement vacances Royan | Agence du Parc ... Agence du Parc du Royan https://www.lagence-du-parc.com › location-vacances" [ref=e1221] [cursor=pointer]:
+              - /url: https://www.lagence-du-parc.com/location-vacances/appartement/1
+              - heading "Location appartement vacances Royan | Agence du Parc ..." [level=3] [ref=e1222]
+              - generic [ref=e1228]:
+                - generic [ref=e1230]: Agence du Parc du Royan
+                - generic [ref=e1232]: https://www.lagence-du-parc.com › location-vacances
+            - button "À propos de ce résultat" [ref=e1235] [cursor=pointer]:
+              - img [ref=e1238]
+          - generic [ref=e1242]:
+            - emphasis [ref=e1243]: Appartement situé à l'entrée du Parc de Royan, à 700 mètres de la plage
+            - text: et à proximité des commerces. Ce T2 d'environ 42 m2 au 1er étage sans ascenseur, classé ...
+          - link "location vacances royan appartement plage sur www.lagence-du-parc.com" [ref=e1246] [cursor=pointer]:
+            - /url: https://www.lagence-du-parc.com/location-vacances/appartement/1
+            - img "location vacances royan appartement plage sur www.lagence-du-parc.com" [ref=e1248]
+        - generic [ref=e1252]:
+          - generic [ref=e1255]:
+            - link "Locations saisonnières royan (17200) - Leboncoin Leboncoin https://www.leboncoin.fr › ... › Locations saisonnières" [ref=e1257] [cursor=pointer]:
+              - /url: https://www.leboncoin.fr/cl/locations_saisonnieres/cp_royan_17200
+              - heading "Locations saisonnières royan (17200) - Leboncoin" [level=3] [ref=e1258]
+              - generic [ref=e1264]:
+                - generic [ref=e1266]: Leboncoin
+                - generic [ref=e1268]: https://www.leboncoin.fr › ... › Locations saisonnières
+            - button "À propos de ce résultat" [ref=e1271] [cursor=pointer]:
+              - img [ref=e1274]
+          - generic [ref=e1278]:
+            - emphasis [ref=e1279]: LOCATION Vaux sur Mer , Maison 300m plage - 4 pers avec jardin et piscine
+            - text: . Location vacances mer et plages. Tarif 875 euros la semaine. ·4 pers.·Maison.
+          - link "location vacances royan appartement plage sur www.leboncoin.fr" [ref=e1282] [cursor=pointer]:
+            - /url: https://www.leboncoin.fr/cl/locations_saisonnieres/cp_royan_17200
+            - img "location vacances royan appartement plage sur www.leboncoin.fr" [ref=e1284]
+      - generic [ref=e1286]:
+        - generic [ref=e1291]:
+          - heading "Recherches associées" [level=2] [ref=e1293]
+          - generic [ref=e1295]:
+            - generic [ref=e1296]:
+              - link "Location vacances Royan vue mer" [ref=e1300] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+vacances+Royan+vue+mer&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAg9EAE
+                - generic [ref=e1301]:
+                  - generic [ref=e1306]: Location vacances Royan vue mer
+                  - img [ref=e1310]
+              - link "Location vacances Royan Particulier" [ref=e1315] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+vacances+Royan+Particulier&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAhNEAE
+                - generic [ref=e1316]:
+                  - generic [ref=e1321]: Location vacances Royan Particulier
+                  - img [ref=e1325]
+              - link "Location vacances Royan vue mer le bon coin" [ref=e1330] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+vacances+Royan+vue+mer+le+bon+coin&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAhLEAE
+                - generic [ref=e1331]:
+                  - generic [ref=e1336]: Location vacances Royan vue mer le bon coin
+                  - img [ref=e1340]
+              - link "Location vacances Particulier Royan vue mer" [ref=e1345] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+vacances+Particulier+Royan+vue+mer&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAhKEAE
+                - generic [ref=e1346]:
+                  - generic [ref=e1351]: Location vacances Particulier Royan vue mer
+                  - img [ref=e1355]
+            - generic [ref=e1357]:
+              - link "Location Royan bord de mer" [ref=e1361] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+Royan+bord+de+mer&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAhIEAE
+                - generic [ref=e1362]:
+                  - generic [ref=e1367]: Location Royan bord de mer
+                  - img [ref=e1371]
+              - link "Location vacances Royan Airbnb" [ref=e1376] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+vacances+Royan+Airbnb&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAhBEAE
+                - generic [ref=e1377]:
+                  - generic [ref=e1382]: Location vacances Royan Airbnb
+                  - img [ref=e1386]
+              - link "Airbnb Royan centre ville" [ref=e1391] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Airbnb+Royan+centre+ville&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAg_EAE
+                - generic [ref=e1392]:
+                  - generic [ref=e1397]: Airbnb Royan centre ville
+                  - img [ref=e1401]
+              - link "Location vacances Royan pas cher" [ref=e1406] [cursor=pointer]:
+                - /url: /search?sca_esv=46b5e676a6bf9410&hl=fr&q=Location+vacances+Royan+pas+cher&sa=X&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ1QJ6BAg-EAE
+                - generic [ref=e1407]:
+                  - generic [ref=e1412]: Location vacances Royan pas cher
+                  - img [ref=e1416]
+        - navigation [ref=e1418]:
+          - heading "Navigation par pages" [level=1] [ref=e1419]
+          - text: "1"
+          - link "Page 2" [ref=e1422] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=10&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAE
+            - text: "2"
+          - link "Page 3" [ref=e1424] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=20&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAG
+            - text: "3"
+          - link "Page 4" [ref=e1426] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=30&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAI
+            - text: "4"
+          - link "Page 5" [ref=e1428] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=40&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAK
+            - text: "5"
+          - link "Page 6" [ref=e1430] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=50&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAM
+            - text: "6"
+          - link "Page 7" [ref=e1432] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=60&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAO
+            - text: "7"
+          - link "Page 8" [ref=e1434] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=70&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAQ
+            - text: "8"
+          - link "Page 9" [ref=e1436] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=80&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAS
+            - text: "9"
+          - link "Page 10" [ref=e1438] [cursor=pointer]:
+            - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=90&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8tMDegQIZRAU
+            - text: "10"
+          - heading "Suivant" [level=2] [ref=e1440]:
+            - link "Suivant" [ref=e1441] [cursor=pointer]:
+              - /url: /search?q=location+vacances+royan+appartement+plage&sca_esv=46b5e676a6bf9410&hl=fr&ei=VkBCav6lDdaDhbIPwIvS4QE&start=10&sa=N&sstk=AU9db-CF9-ce2l3gRFLXlu3s6vll_9Y01h_3NExdY8XTtxrXGZTdI5iHhC7StGGvBNehjCh2HXrypt1uCe-2hQitEWyKjpBxQulY8w&ved=2ahUKEwj-qM7RlqyVAxXWQUEAHcCFNBwQ8NMDegQIZRAW
+              - generic [ref=e1443]: Suivant
+      - navigation
+    - contentinfo [ref=e1444]:
+      - heading "Liens de pied de page" [level=1] [ref=e1445]

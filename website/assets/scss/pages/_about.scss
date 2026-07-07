@@ -1,0 +1,247 @@
+// ============================================================
+// CalmRio — About Page
+// ============================================================
+
+// ------------------------------------------------------------
+// About hero
+// ------------------------------------------------------------
+.about-hero {
+  .hero__title {
+    max-width: 800px;
+  }
+}
+
+// ------------------------------------------------------------
+// About story section (rich text with pull quote)
+// ------------------------------------------------------------
+.about-story {
+  .story-content {
+    max-width: 800px;
+    margin: 0 auto;
+
+    p {
+      font-size: var(--body-size);
+      line-height: var(--body-line-height);
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-5);
+
+      &:first-of-type {
+        font-size: var(--lead-size);
+        line-height: var(--lead-line-height);
+        color: var(--color-text);
+      }
+    }
+
+    .pull-quote {
+      font-family: var(--font-heading);
+      font-style: italic;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      color: var(--color-primary);
+      text-align: center;
+      padding: var(--space-6) var(--space-8);
+      margin: var(--space-6) 0;
+      border-top: 1px solid var(--color-secondary);
+      border-bottom: 1px solid var(--color-secondary);
+      position: relative;
+
+      &::before {
+        content: '\201C';
+        font-size: 4rem;
+        color: var(--color-secondary);
+        position: absolute;
+        top: -0.5rem;
+        left: var(--space-4);
+        opacity: 0.3;
+      }
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// About hosts / team
+// ------------------------------------------------------------
+.about-hosts {
+  .hosts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .host-card {
+    text-align: center;
+    padding: var(--space-6);
+    background-color: var(--color-surface);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+
+      &:hover {
+        transform: none;
+      }
+    }
+
+    .host-photo {
+      width: 140px;
+      height: 140px;
+      border-radius: var(--radius-full);
+      object-fit: cover;
+      margin: 0 auto var(--space_5);
+      border: 3px solid var(--color-secondary);
+    }
+
+    .host-name {
+      font-family: var(--font-heading);
+      font-size: var(--h4-size);
+      font-weight: var(--h4-weight);
+      color: var(--color-text);
+      margin-bottom: var(--space-1);
+    }
+
+    .host-role {
+      font-size: var(--small-size);
+      color: var(--color-accent);
+      font-weight: var(--weight-medium);
+      margin-bottom: var(--space-4);
+    }
+
+    .host-bio {
+      font-size: var(--small-size);
+      line-height: var(--small-line-height);
+      color: var(--color-text-secondary);
+      margin-bottom: var(--space-4);
+    }
+
+    .host-social {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-3);
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: var(--radius-full);
+        background-color: var(--color-bg-alt);
+        color: var(--color-text-secondary);
+        transition: background-color var(--transition-fast), color var(--transition-fast);
+
+        &:hover {
+          background-color: var(--color-primary);
+          color: var(--color-text-inverse);
+        }
+
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          transition: none;
+        }
+      }
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// About values
+// ------------------------------------------------------------
+.about-values {
+  .values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .value-card {
+    text-align: center;
+    padding: var(--space-6);
+
+    .value-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      margin: 0 auto var(--space-5);
+      border-radius: var(--radius-xl);
+      background-color: var(--color-bg-alt);
+      color: var(--color-accent);
+      transition: background-color var(--transition-base), color var(--transition-base);
+
+      svg {
+        width: 36px;
+        height: 36px;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        transition: none;
+      }
+    }
+
+    &:hover .value-icon {
+      background-color: var(--color-accent);
+      color: var(--color-text-inverse);
+    }
+
+    .value-title {
+      font-family: var(--font-heading);
+      font-size: var(--h4-size);
+      font-weight: var(--h4-weight);
+      color: var(--color-text);
+      margin-bottom: var(--space-3);
+    }
+
+    .value-description {
+      font-size: var(--small-size);
+      line-height: var(--small-line-height);
+      color: var(--color-text-secondary);
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// About portfolio (property grid)
+// ------------------------------------------------------------
+.about-portfolio {
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

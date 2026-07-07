@@ -1,0 +1,595 @@
+- generic [active] [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e24]:
+        - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img [ref=e28]
+        - search [ref=e30]:
+          - generic [ref=e32]:
+            - tablist [ref=e34]:
+              - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+                - generic [ref=e39]: Logements
+                - generic [ref=e41]: Logements
+              - tab "Expériences, nouveautés" [ref=e42] [cursor=pointer]:
+                - generic [ref=e47]:
+                  - text: NOUVEAU
+                  - generic [ref=e48]: NOUVEAU
+                - generic [ref=e49]: Expériences
+                - generic [ref=e51]: Expériences, nouveautés
+              - tab "Services, nouveautés" [ref=e52] [cursor=pointer]:
+                - generic [ref=e57]:
+                  - text: NOUVEAU
+                  - generic [ref=e58]: NOUVEAU
+                - generic [ref=e59]: Services
+                - generic [ref=e61]: Services, nouveautés
+            - search "Commencez votre recherche" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: Commencez votre recherche
+              - generic [ref=e65]:
+                - button "Destination N'importe où" [ref=e301]:
+                  - generic [ref=e67]: Destination
+                  - generic [ref=e302]: N'importe où
+                - button "Arrivée/Départ Dates flexibles" [ref=e303]:
+                  - generic [ref=e73]: Arrivée/Départ
+                  - generic [ref=e304]: Dates flexibles
+                - button "Voyageurs Ajouter des voyageurs" [ref=e305]:
+                  - generic [ref=e78]: Voyageurs
+                  - generic [ref=e306]: Ajouter des voyageurs
+              - img [ref=e84]
+        - navigation "Profil" [ref=e89]:
+          - generic [ref=e90]:
+            - button "Devenir hôte" [ref=e307] [cursor=pointer]:
+              - generic [ref=e308]: Devenir hôte
+            - button "Choisissez une langue et une devise" [ref=e309] [cursor=pointer]:
+              - img [ref=e311]
+          - button "Menu de navigation principal" [ref=e313] [cursor=pointer]:
+            - img [ref=e315]
+      - main [ref=e105]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e117]:
+              - heading "Appartement neuf bord de plage" [level=1] [ref=e120]
+              - generic [ref=e122]:
+                - button "Partager" [ref=e124] [cursor=pointer]:
+                  - generic [ref=e125]:
+                    - img [ref=e127]
+                    - text: Partager
+                - button "Ajouter aux favoris" [ref=e130] [cursor=pointer]:
+                  - generic [ref=e131]:
+                    - img [ref=e133]
+                    - text: Enregistrer
+            - generic [ref=e143]:
+              - generic [ref=e145]:
+                - button "Image 1 du logement Appartement neuf bord de plage" [ref=e150] [cursor=pointer]:
+                  - img [ref=e153]
+                - generic [ref=e155]:
+                  - button "Image 2 du logement Appartement neuf bord de plage" [ref=e159] [cursor=pointer]:
+                    - img [ref=e162]
+                  - button "Image 3 du logement Appartement neuf bord de plage" [ref=e166] [cursor=pointer]:
+                    - img [ref=e169]
+                - generic [ref=e171]:
+                  - button "Image 4 du logement Appartement neuf bord de plage" [ref=e175] [cursor=pointer]:
+                    - img [ref=e178]
+                  - button "Image 5 du logement Appartement neuf bord de plage" [ref=e182] [cursor=pointer]:
+                    - img [ref=e185]
+              - button "Afficher toutes les photos" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]:
+                  - generic:
+                    - img
+                    - text: Afficher toutes les photos
+          - generic [ref=e190]:
+            - generic [ref=e192]:
+              - generic [ref=e197]:
+                - 'heading "Logement entier : appartement - Royan, France" [level=2] [ref=e199]'
+                - list [ref=e201]:
+                  - listitem [ref=e202]: 4 voyageurs
+                  - listitem [ref=e203]:
+                    - generic [ref=e204]: ·
+                    - text: 2 chambres
+                  - listitem [ref=e205]:
+                    - generic [ref=e206]: ·
+                    - text: 3 lits
+                  - listitem [ref=e207]:
+                    - generic [ref=e208]: ·
+                    - text: 1 salle de bain
+                - generic [ref=e209]:
+                  - img [ref=e211]
+                  - generic [ref=e213]: Pas encore de commentaires
+                  - generic [ref=e214]: Pas encore de commentaires
+              - generic [ref=e220]:
+                - button "En savoir plus sur Mélanie." [ref=e222] [cursor=pointer]:
+                  - img "Photo de profil d'hôte" [ref=e224]:
+                    - img [ref=e225]
+                - generic [ref=e226]:
+                  - generic [ref=e227]: "Hôte : Mélanie"
+                  - list [ref=e229]:
+                    - listitem [ref=e230]: Hôte depuis 2 ans
+              - generic [ref=e235]:
+                - heading "Mise en avant des annonces" [level=2] [ref=e237]
+                - generic [ref=e241]:
+                  - img [ref=e243]
+                  - generic [ref=e245]:
+                    - heading "Cadre magnifique et accessible à pied" [level=3] [ref=e247]
+                    - generic [ref=e248]: Les environs sont pittoresques et le logement est facilement accessible à pied.
+              - generic [ref=e321]:
+                - generic [ref=e325]:
+                  - text: Appartement neuf de 60m2 avec une terrasse de 20m2 alliant un style bord de plage et contemporain, très lumineux, idéalement situé à 100m de la plage de la Grande Conche et à proximité de nombreux commerces du centre-ville.
+                  - text: Le logement
+                  - text: L’appartement comporte d’une grande pièce de vie avec un salon et une cuisine / salle à manger. Vous pourrez retrouver un canapé confortable dans le salon et la cuisine est entièrement équipée, dont une cave à vin de service.
+                  - text: Toutes les fenêtres donnent sur la terrasse qui se compose d’une partie salon et d’une partie dédiée aux repas. Elle est arborée pour son coté chaleureux et son ombre naturelle.
+                  - text: Vous aurez à votre disposition 2 chambres, l’une avec un grand lit de 160, une télé, ainsi qu’un espace de travail permettant le télétravail (écran et câble hdmi). L’autre se compose de 2 petits lits de 90. Les draps, ainsi que les serviettes, sont fournis.
+                  - text: Dans la salle de bain, il y a une douche à l’italienne, ainsi que la buanderie (lave-linge, sèche-linge, fer et table à repasser). Le WC est indépendant.
+                  - text: Pour les équipements bébé, merci de prévenir l’hôte à l’avance, ils seront mis à votre disposition.
+                  - text: Détails de l'enregistrement
+                  - text: 173060015134Z
+                - button "Show more about this place" [ref=e328] [cursor=pointer]:
+                  - generic [ref=e329]: Lire la suite
+              - region "Où vous dormirez" [ref=e334]:
+                - generic [ref=e335]:
+                  - heading "Où vous dormirez" [level=2] [ref=e340]
+                  - list [ref=e342]:
+                    - listitem [ref=e343]:
+                      - button "Chambre 1 Chambre 1 2 lits simples" [ref=e346] [cursor=pointer]:
+                        - generic [ref=e347]:
+                          - img "Chambre 1" [ref=e349]:
+                            - img [ref=e351]
+                          - generic [ref=e352]: Chambre 1
+                          - generic [ref=e353]: 2 lits simples
+                    - listitem [ref=e354]:
+                      - button "Chambre 2 Chambre 2 1 lit king size" [ref=e357] [cursor=pointer]:
+                        - generic [ref=e358]:
+                          - img "Chambre 2" [ref=e360]:
+                            - img [ref=e362]
+                          - generic [ref=e363]: Chambre 2
+                          - generic [ref=e364]: 1 lit king size
+              - generic [ref=e369]:
+                - heading "Ce que propose ce logement" [level=2] [ref=e372]
+                - generic [ref=e373]:
+                  - generic [ref=e375]:
+                    - generic [ref=e376]: Accès à la plage
+                    - img [ref=e378]
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: Cuisine
+                    - img [ref=e384]
+                  - generic [ref=e387]:
+                    - generic [ref=e388]: Wifi
+                    - img [ref=e390]
+                  - generic [ref=e393]:
+                    - generic [ref=e394]: Espace de travail dédié
+                    - img [ref=e396]
+                  - generic [ref=e399]:
+                    - generic [ref=e400]: Stationnement gratuit sur place
+                    - img [ref=e402]
+                  - generic [ref=e405]:
+                    - generic [ref=e406]: Animaux acceptés
+                    - img [ref=e408]
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: Télévision
+                    - img [ref=e414]
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: Ascenseur
+                    - img [ref=e420]
+                  - generic [ref=e423]:
+                    - generic [ref=e424]: Lave-linge
+                    - img [ref=e426]
+                  - generic [ref=e429]:
+                    - generic [ref=e430]:
+                      - generic [ref=e431]: "Indisponible : Détecteur de monoxyde de carbone"
+                      - deletion [ref=e432]: Détecteur de monoxyde de carbone
+                    - img [ref=e434]
+                - button "Afficher les 25 équipements" [ref=e437] [cursor=pointer]:
+                  - generic [ref=e438]: Afficher les 25 équipements
+              - generic [ref=e443]:
+                - generic [ref=e445]:
+                  - heading "Sélectionnez la date d'arrivée" [level=2] [ref=e448]
+                  - generic [ref=e450]: Ajoutez vos dates de voyage pour connaître le prix exact
+                - generic [ref=e452]:
+                  - generic [ref=e456]:
+                    - list [ref=e458]:
+                      - listitem [ref=e459]: L
+                      - listitem [ref=e460]: M
+                      - listitem [ref=e461]: M
+                      - listitem [ref=e462]: J
+                      - listitem [ref=e463]: V
+                      - listitem [ref=e464]: S
+                      - listitem [ref=e465]: D
+                    - list [ref=e467]:
+                      - listitem [ref=e468]: L
+                      - listitem [ref=e469]: M
+                      - listitem [ref=e470]: M
+                      - listitem [ref=e471]: J
+                      - listitem [ref=e472]: V
+                      - listitem [ref=e473]: S
+                      - listitem [ref=e474]: D
+                    - application "Calendrier" [ref=e475]:
+                      - generic:
+                        - button "Reculez pour passer au mois précédent." [disabled] [ref=e477]:
+                          - img [ref=e479]
+                        - button "Avancez pour passer au mois suivant." [ref=e482] [cursor=pointer]:
+                          - img [ref=e484]
+                      - generic [ref=e487]:
+                        - generic [ref=e489]:
+                          - heading "Juin 2026" [level=3] [ref=e492]
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e493]:
+                            - generic [ref=e494]: "1"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e495]:
+                            - generic [ref=e496]: "2"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e497]:
+                            - generic [ref=e498]: "3"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e499]:
+                            - generic [ref=e500]: "4"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e501]:
+                            - generic [ref=e502]: "5"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e503]:
+                            - generic [ref=e504]: "6"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e505]:
+                            - generic [ref=e506]: "7"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e507]:
+                            - generic [ref=e508]: "8"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e509]:
+                            - generic [ref=e510]: "9"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e511]:
+                            - generic [ref=e512]: "10"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e513]:
+                            - generic [ref=e514]: "11"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e515]:
+                            - generic [ref=e516]: "12"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e517]:
+                            - generic [ref=e518]: "13"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e519]:
+                            - generic [ref=e520]: "14"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e521]:
+                            - generic [ref=e522]: "15"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e523]:
+                            - generic [ref=e524]: "16"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e525]:
+                            - generic [ref=e526]: "17"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e527]:
+                            - generic [ref=e528]: "18"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e529]:
+                            - generic [ref=e530]: "19"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e531]:
+                            - generic [ref=e532]: "20"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e533]:
+                            - generic [ref=e534]: "21"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e535]:
+                            - generic [ref=e536]: "22"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e537]:
+                            - generic [ref=e538]: "23"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e539]:
+                            - generic [ref=e540]: "24"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e541]:
+                            - generic [ref=e542]: "25"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e543]:
+                            - generic [ref=e544]: "26"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e545]:
+                            - generic [ref=e546]: "27"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e547]:
+                            - generic [ref=e548]: "28"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e549]:
+                            - generic [ref=e550]: "29"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e551]:
+                            - generic [ref=e552]: "30"
+                        - generic [ref=e554]:
+                          - heading "Juillet 2026" [level=3] [ref=e557]
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e558]:
+                            - generic [ref=e559]: "1"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e560]:
+                            - generic [ref=e561]: "2"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e562]:
+                            - generic [ref=e563]: "3"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e564]:
+                            - generic [ref=e565]: "4"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible. Il y a une durée de séjour minimale de 4 nuits. Définir comme date d'arrivée." [ref=e566] [cursor=pointer]:
+                            - generic [ref=e567]: "5"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible. Il y a une durée de séjour minimale de 4 nuits. Définir comme date d'arrivée." [ref=e568] [cursor=pointer]:
+                            - generic [ref=e569]: "6"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible. Il y a une durée de séjour minimale de 4 nuits. Définir comme date d'arrivée." [ref=e570] [cursor=pointer]:
+                            - generic [ref=e571]: "7"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 4 nuits." [ref=e572] [cursor=pointer]:
+                            - generic [ref=e573]: "8"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 4 nuits." [ref=e574] [cursor=pointer]:
+                            - generic [ref=e575]: "9"
+                          - button "NaN, Invalid date, Invalid date NaN. Disponible, mais aucune date de départ n'est valide en raison de la durée de séjour minimale de 4 nuits." [ref=e576] [cursor=pointer]:
+                            - generic [ref=e577]: "10"
+                          - button "NaN, Invalid date, Invalid date NaN. Cette date est uniquement disponible pour le départ." [ref=e578] [cursor=pointer]:
+                            - generic [ref=e579]: "11"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e580]:
+                            - generic [ref=e581]: "12"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e582]:
+                            - generic [ref=e583]: "13"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e584]:
+                            - generic [ref=e585]: "14"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e586]:
+                            - generic [ref=e587]: "15"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e588]:
+                            - generic [ref=e589]: "16"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e590]:
+                            - generic [ref=e591]: "17"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e592]:
+                            - generic [ref=e593]: "18"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e594]:
+                            - generic [ref=e595]: "19"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e596]:
+                            - generic [ref=e597]: "20"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e598]:
+                            - generic [ref=e599]: "21"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e600]:
+                            - generic [ref=e601]: "22"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e602]:
+                            - generic [ref=e603]: "23"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e604]:
+                            - generic [ref=e605]: "24"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e606]:
+                            - generic [ref=e607]: "25"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e608]:
+                            - generic [ref=e609]: "26"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e610]:
+                            - generic [ref=e611]: "27"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e612]:
+                            - generic [ref=e613]: "28"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e614]:
+                            - generic [ref=e615]: "29"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e616]:
+                            - generic [ref=e617]: "30"
+                          - button "NaN, Invalid date, Invalid date NaN. Non disponible" [disabled] [ref=e618]:
+                            - generic [ref=e619]: "31"
+                  - generic [ref=e620]:
+                    - button "Ouvrez le panneau des raccourcis clavier" [ref=e622] [cursor=pointer]:
+                      - img [ref=e624]
+                    - button "Effacer les dates" [ref=e627] [cursor=pointer]:
+                      - generic [ref=e628]: Effacer les dates
+            - generic [ref=e251]:
+              - complementary "Informations de réservation" [ref=e256]:
+                - generic [ref=e259]:
+                  - generic [ref=e631]:
+                    - generic [ref=e632]: Indiquez vos dates pour afficher les prix
+                    - generic [ref=e633]: Indiquez vos dates pour afficher les prix
+                  - generic [ref=e270]:
+                    - 'button "Modifier les dates; Arrivée: Ajouter une date; Départ: Ajouter une date" [ref=e274] [cursor=pointer]':
+                      - generic [ref=e275]:
+                        - generic: Arrivée
+                        - generic [ref=e276]: Ajouter une date
+                      - generic [ref=e277]:
+                        - generic: Départ
+                        - generic [ref=e278]: Ajouter une date
+                    - button "1 voyageur" [ref=e282]:
+                      - generic [ref=e283]:
+                        - generic: Voyageurs
+                        - generic [ref=e285] [cursor=pointer]: 1 voyageur
+                      - generic:
+                        - img
+                  - button "Vérifier la disponibilité" [ref=e634] [cursor=pointer]:
+                    - generic [ref=e289]:
+                      - generic: Vérifier la disponibilité
+              - button "Signaler cette annonce" [ref=e640] [cursor=pointer]:
+                - generic [ref=e642]:
+                  - img [ref=e644]
+                  - text: Signaler cette annonce
+          - generic [ref=e652]:
+            - heading "Aucun commentaire (pour l'instant)" [level=2] [ref=e656]
+            - generic [ref=e658]: Soyez le premier voyageur à laisser un commentaire sur ce logement.
+          - generic [ref=e665]:
+            - heading "Où se situe le logement" [level=2] [ref=e668]
+            - generic [ref=e669]: Royan, Nouvelle-Aquitaine, France
+          - generic [ref=e679]:
+            - heading "Faites connaissance avec votre hôte" [level=2] [ref=e681]
+            - generic [ref=e684]:
+              - generic [ref=e685]:
+                - generic [ref=e686]:
+                  - generic [ref=e688]:
+                    - generic [ref=e689]:
+                      - img [ref=e693]
+                      - img "Identité vérifiée" [ref=e695]:
+                        - img [ref=e696]
+                    - generic [ref=e698]:
+                      - heading "Mélanie" [level=2] [ref=e700]:
+                        - generic [ref=e702]: Mélanie
+                      - generic [ref=e704]: Hôte depuis 2024
+                  - link "Accéder au profil complet de l'hôte" [ref=e706] [cursor=pointer]:
+                    - /url: /users/profile/1470516303021691080?previous_page_name=PdpHomeMarketplace
+                - generic [ref=e710]:
+                  - img [ref=e711]
+                  - generic [ref=e713]: Entreprises
+              - generic [ref=e715]:
+                - generic [ref=e716]:
+                  - heading "Informations sur l'hôte" [level=3] [ref=e718]
+                  - generic [ref=e719]:
+                    - generic [ref=e720]: "Taux de réponse : 100 %"
+                    - generic [ref=e721]: Répond dans l'heure
+                - link "Envoyer un message à l'hôte" [ref=e723] [cursor=pointer]:
+                  - /url: /contact_host/1101432035369683458/send_message
+                  - generic [ref=e724]: Envoyer un message à l'hôte
+                - generic [ref=e726]:
+                  - generic [ref=e727]:
+                    - img [ref=e729]
+                    - text: Afin de protéger votre paiement, utilisez toujours Airbnb pour envoyer de l'argent et communiquer avec les hôtes.
+                  - generic [ref=e738]:
+                    - text: Cette annonce est proposée par une entreprise.
+                    - link "En savoir plus" [ref=e740] [cursor=pointer]:
+                      - /url: "#action"
+          - generic [ref=e748]:
+            - heading "À savoir" [level=2] [ref=e749]:
+              - generic [ref=e750]: À savoir
+            - generic [ref=e752]:
+              - generic [ref=e754]:
+                - img [ref=e756]
+                - generic [ref=e758]:
+                  - generic [ref=e759]: Conditions d'annulation
+                  - generic [ref=e761]: Ajoutez vos dates de voyage pour connaître les conditions d'annulation de ce séjour.
+                  - button "Ajouter des dates" [ref=e763] [cursor=pointer]
+              - 'generic "En savoir plus sur : Règlement intérieur" [ref=e764]':
+                - generic [ref=e765]:
+                  - img [ref=e767]
+                  - generic [ref=e769]:
+                    - generic [ref=e770]: Règlement intérieur
+                    - generic [ref=e771]:
+                      - generic [ref=e772]: Arrivée à partir de 16:00
+                      - generic [ref=e773]: Départ avant 10:00
+                      - generic [ref=e774]: 4 voyageurs maximum
+                    - 'button "En savoir plus sur : Règlement intérieur" [ref=e776] [cursor=pointer]': En savoir plus
+              - generic [ref=e778]:
+                - img [ref=e780]
+                - generic [ref=e782]:
+                  - generic [ref=e783]: Sécurité et logement
+                  - generic [ref=e784]:
+                    - generic [ref=e785]: Aucune indication de la présence d'un détecteur de monoxyde de carbone
+                    - generic [ref=e786]: Détecteur de fumée
+                  - button "En savoir plus" [ref=e788] [cursor=pointer]
+          - navigation "Fil d'Ariane" [ref=e797]:
+            - list [ref=e798]:
+              - listitem [ref=e799]:
+                - link "Airbnb" [ref=e800] [cursor=pointer]:
+                  - /url: /
+                - generic [ref=e801]:
+                  - generic:
+                    - img
+              - listitem [ref=e802]:
+                - link "France" [ref=e803] [cursor=pointer]:
+                  - /url: /france/stays
+                - generic [ref=e804]:
+                  - generic:
+                    - img
+              - listitem [ref=e805]:
+                - link "Southern France" [ref=e806] [cursor=pointer]:
+                  - /url: /southern-france/stays
+    - contentinfo [ref=e809]:
+      - generic [ref=e811]:
+        - heading "Pied de page du site" [level=2] [ref=e813]
+        - generic [ref=e814]:
+          - generic [ref=e815]:
+            - heading "Assistance" [level=3] [ref=e816]
+            - list [ref=e817]:
+              - listitem [ref=e818]:
+                - link "Centre d'aide" [ref=e819] [cursor=pointer]:
+                  - /url: /help/home?from=footer
+              - listitem [ref=e820]:
+                - link "Assistance sécurité" [ref=e821] [cursor=pointer]:
+                  - /url: /help/contact-us?entry=DESKTOP_FOOTER_SAFETY
+              - listitem [ref=e822]:
+                - link "AirCover" [ref=e823] [cursor=pointer]:
+                  - /url: /aircover
+              - listitem [ref=e824]:
+                - link "Lutte contre la discrimination" [ref=e825] [cursor=pointer]:
+                  - /url: /against-discrimination
+              - listitem [ref=e826]:
+                - link "Assistance handicap" [ref=e827] [cursor=pointer]:
+                  - /url: /accessibility
+              - listitem [ref=e828]:
+                - link "Options d'annulation" [ref=e829] [cursor=pointer]:
+                  - /url: /help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19
+              - listitem [ref=e830]:
+                - link "J'ai un problème de voisinage" [ref=e831] [cursor=pointer]:
+                  - /url: /neighbors
+          - generic [ref=e832]:
+            - heading "Accueil de voyageurs" [level=3] [ref=e833]
+            - list [ref=e834]:
+              - listitem [ref=e835]:
+                - link "Mettez votre logement sur Airbnb" [ref=e836] [cursor=pointer]:
+                  - /url: /host/homes?from_footer=1
+              - listitem [ref=e837]:
+                - link "Proposez votre expérience sur Airbnb" [ref=e838] [cursor=pointer]:
+                  - /url: /host/experiences
+              - listitem [ref=e839]:
+                - link "Proposez votre service sur Airbnb" [ref=e840] [cursor=pointer]:
+                  - /url: /host/services
+              - listitem [ref=e841]:
+                - link "AirCover pour les hôtes" [ref=e842] [cursor=pointer]:
+                  - /url: /aircover-for-hosts
+              - listitem [ref=e843]:
+                - link "Ressources pour les hôtes" [ref=e844] [cursor=pointer]:
+                  - /url: /resources
+              - listitem [ref=e845]:
+                - link "Forum de la communauté" [ref=e846] [cursor=pointer]:
+                  - /url: https://community.withairbnb.com/t5/Community-Center-FR/ct-p/community-center-fr
+              - listitem [ref=e847]:
+                - link "Hébergement responsable" [ref=e848] [cursor=pointer]:
+                  - /url: /help/responsible-hosting
+              - listitem [ref=e849]:
+                - link "Participez à un cours gratuit pour les hôtes" [ref=e850] [cursor=pointer]:
+                  - /url: /e/intro-to-hosting
+              - listitem [ref=e851]:
+                - link "Trouver un co‑hôte" [ref=e852] [cursor=pointer]:
+                  - /url: /host/co-hosts
+              - listitem [ref=e853]:
+                - link "Parrainer un hôte" [ref=e854] [cursor=pointer]:
+                  - /url: /refer
+          - generic [ref=e855]:
+            - heading "Airbnb" [level=3] [ref=e856]
+            - list [ref=e857]:
+              - listitem [ref=e858]:
+                - link "Édition été 2026" [ref=e859] [cursor=pointer]:
+                  - /url: /release
+              - listitem [ref=e860]:
+                - link "Newsroom" [ref=e861] [cursor=pointer]:
+                  - /url: /press/news
+              - listitem [ref=e862]:
+                - link "Carrières" [ref=e863] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e864]:
+                - link "Investisseurs" [ref=e865] [cursor=pointer]:
+                  - /url: https://investors.airbnb.com
+              - listitem [ref=e866]:
+                - link "Cartes cadeaux" [ref=e867] [cursor=pointer]:
+                  - /url: /giftcards
+              - listitem [ref=e868]:
+                - link "Séjours d'urgence Airbnb.org" [ref=e869] [cursor=pointer]:
+                  - /url: https://www.airbnb.org?locale=fr
+        - generic [ref=e870]:
+          - generic [ref=e871]: Section de pied de page
+          - generic [ref=e873]:
+            - generic [ref=e875]:
+              - generic [ref=e876]: © 2026 Airbnb, Inc.
+              - generic [ref=e877]:
+                - generic [ref=e879]: ·
+                - list [ref=e881]:
+                  - listitem [ref=e882]:
+                    - link "Confidentialité" [ref=e883] [cursor=pointer]:
+                      - /url: /terms/privacy_policy
+                    - generic [ref=e884]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e885]:
+                    - link "Conditions générales" [ref=e886] [cursor=pointer]:
+                      - /url: /terms
+                    - generic [ref=e887]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e888]:
+                    - link "Fonctionnement du site" [ref=e889] [cursor=pointer]:
+                      - /url: /fonctionnement_du_site
+                    - generic [ref=e890]:
+                      - generic:
+                        - generic: ·
+                  - listitem [ref=e891]:
+                    - link "Infos sur l'entreprise" [ref=e892] [cursor=pointer]:
+                      - /url: /about/company-details
+            - generic [ref=e893]:
+              - generic [ref=e895]:
+                - button "Sélectionnez une langue" [ref=e897] [cursor=pointer]:
+                  - generic [ref=e898]:
+                    - generic:
+                      - img
+                      - text: Français (FR)
+                - button "Sélectionnez une devise" [ref=e900] [cursor=pointer]:
+                  - generic [ref=e902]:
+                    - generic [ref=e903]: €
+                    - generic [ref=e904]: EUR
+              - list [ref=e906]:
+                - listitem [ref=e907]:
+                  - link "Accéder à Facebook" [ref=e908] [cursor=pointer]:
+                    - /url: https://www.facebook.com/AirbnbFrance
+                    - img [ref=e910]
+                - listitem [ref=e912]:
+                  - link "Accéder à Twitter" [ref=e913] [cursor=pointer]:
+                    - /url: https://twitter.com/airbnb_fr
+                    - img [ref=e915]
+                - listitem [ref=e917]:
+                  - link "Accéder à Instagram" [ref=e918] [cursor=pointer]:
+                    - /url: https://instagram.com/airbnb
+                    - img [ref=e920]

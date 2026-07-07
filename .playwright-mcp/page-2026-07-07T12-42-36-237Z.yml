@@ -1,0 +1,402 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CalmRio — Accueil" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Accueil" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Nos Locations" [ref=e11] [cursor=pointer]:
+              - /url: "#properties"
+          - listitem [ref=e12]:
+            - link "À Propos" [ref=e13] [cursor=pointer]:
+              - /url: /about.html
+          - listitem [ref=e14]:
+            - link "Contact" [ref=e15] [cursor=pointer]:
+              - /url: /contact.html
+      - link "Réserver" [ref=e16] [cursor=pointer]:
+        - /url: "#booking-widget"
+  - region "Appartement neuf — 100m de la Grande Conche" [ref=e17]:
+    - img "Vue de l'appartement neuf à Royan avec terrasse lumineuse" [ref=e18]
+    - generic [ref=e20]:
+      - heading "Appartement neuf — 100m de la Grande Conche" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Royan, Nouvelle-Aquitaine — 4 voyageurs · 2 chambres · 1 salle de bain
+      - navigation "Fil d'Ariane" [ref=e23]:
+        - link "Accueil" [ref=e24] [cursor=pointer]:
+          - /url: /
+        - text: ›
+        - link "Nos Locations" [ref=e25] [cursor=pointer]:
+          - /url: "#properties"
+        - text: › Appartement Royan
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - region "Galerie photos de l'appartement" [ref=e28]:
+        - button "Voir l'image 1 en plein écran" [ref=e30] [cursor=pointer]
+        - button "Voir l'image 1" [ref=e31]:
+          - button "Voir l'image 2 en plein écran" [ref=e32] [cursor=pointer]
+        - button "Voir l'image 2" [ref=e33]:
+          - button "Voir l'image 3 en plein écran" [ref=e34] [cursor=pointer]
+        - button "Voir l'image 3" [ref=e35]:
+          - button "Voir l'image 4 en plein écran" [ref=e36] [cursor=pointer]
+        - button "Voir l'image 4" [ref=e37]:
+          - button "Voir l'image 5 en plein écran" [ref=e38] [cursor=pointer]
+        - button "Voir les 5 photos de l'appartement" [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+          - text: Voir toutes les photos
+      - region "Aperçu du logement" [ref=e44]:
+        - generic [ref=e45]:
+          - img [ref=e46]
+          - strong [ref=e49]: Royan
+          - text: ", Nouvelle-Aquitaine"
+        - generic [ref=e50]:
+          - img [ref=e51]
+          - strong [ref=e55]: "4"
+          - text: voyageurs
+        - generic [ref=e56]:
+          - img [ref=e57]
+          - strong [ref=e59]: "2"
+          - text: chambres
+        - generic [ref=e60]:
+          - img [ref=e61]
+          - strong [ref=e63]: "3"
+          - text: lits
+        - generic [ref=e64]:
+          - img [ref=e65]
+          - strong [ref=e69]: "1"
+          - text: salle de bain
+        - generic [ref=e70]:
+          - generic "Nouveau logement — pas encore d'avis" [ref=e71]:
+            - img [ref=e72]
+          - generic [ref=e74]: Nouveau
+      - region "À propos de ce logement" [ref=e75]:
+        - heading "À propos de ce logement" [level=2] [ref=e76]
+        - paragraph [ref=e77]: Appartement neuf de 60m² avec une terrasse de 20m² alliant un style bord de plage et contemporain, très lumineux, idéalement situé à 100m de la plage de la Grande Conche et à proximité de nombreux commerces du centre-ville.
+        - paragraph [ref=e78]: Grande pièce de vie avec salon et cuisine / salle à manger. Canapé confortable, cuisine entièrement équipée avec cave à vin de service. Toutes les fenêtres donnent sur la terrasse — partie salon, partie repas, arborée — parfaite pour les repas en plein air.
+        - heading "Les chambres" [level=3] [ref=e79]
+        - paragraph [ref=e80]: "L'appartement dispose de deux chambres : la première avec un grand lit de 160cm, télévision et espace de travail équipé d'un écran et câble HDMI ; la seconde avec deux petits lits de 90cm, idéale pour les enfants ou les amis."
+        - heading "La salle de bain" [level=3] [ref=e81]
+        - paragraph [ref=e82]: Salle de bain moderne avec douche à l'italienne. Buanderie séparée équipée d'un lave-linge, sèche-linge, fer et table à repasser. WC indépendant pour plus de confort.
+        - heading "Idéal pour" [level=3] [ref=e83]
+        - paragraph [ref=e84]: Cet appartement est parfait pour les couples, les familles avec enfants, les télétravailleurs et les amoureux de la plage. L'ascenseur facilite l'accès, et le parking gratuit sur place est un vrai plus à Royan.
+      - region "Points forts du logement" [ref=e85]:
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - generic [ref=e92]: 100m de la plage
+        - generic [ref=e93]:
+          - img [ref=e95]
+          - generic [ref=e98]: RDC avec ascenseur
+        - generic [ref=e99]:
+          - img [ref=e101]
+          - generic [ref=e103]: Espace télétravail
+        - generic [ref=e104]:
+          - img [ref=e106]
+          - generic [ref=e109]: Animaux acceptés
+        - generic [ref=e110]:
+          - img [ref=e112]
+          - generic [ref=e114]: Wifi haut débit
+        - generic [ref=e115]:
+          - img [ref=e117]
+          - generic [ref=e120]: TV dans chaque chambre
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - generic [ref=e125]: Draps et serviettes inclus
+        - generic [ref=e126]:
+          - img [ref=e128]
+          - generic [ref=e131]: Équipement bébé sur demande
+      - region "Équipements" [ref=e132]:
+        - heading "Équipements" [level=2] [ref=e133]
+        - paragraph [ref=e134]: Tout pour un séjour confortable à 100m de la plage
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: 📶
+            - generic [ref=e138]:
+              - generic [ref=e139]: WiFi haut débit
+              - generic [ref=e140]: Fibre optique
+          - generic [ref=e141]:
+            - generic [ref=e142]: 🍳
+            - generic [ref=e143]:
+              - generic [ref=e144]: Cuisine équipée
+              - generic [ref=e145]: Four, micro-ondes, cave à vin
+          - generic [ref=e146]:
+            - generic [ref=e147]: 🏖️
+            - generic [ref=e148]:
+              - generic [ref=e149]: Plage 100m
+              - generic [ref=e150]: Grande Conche
+          - generic [ref=e151]:
+            - generic [ref=e152]: 🧺
+            - generic [ref=e153]:
+              - generic [ref=e154]: Machine à laver
+              - generic [ref=e155]: Sèche-linge aussi
+          - generic [ref=e156]:
+            - generic [ref=e157]: 🌡️
+            - generic [ref=e158]:
+              - generic [ref=e159]: Chauffage
+              - generic [ref=e160]: Réversible
+          - generic [ref=e161]:
+            - generic [ref=e162]: ❄️
+            - generic [ref=e163]:
+              - generic [ref=e164]: Climatisation
+              - generic [ref=e165]: Réversible
+          - generic [ref=e166]:
+            - generic [ref=e167]: 📺
+            - generic [ref=e168]:
+              - generic [ref=e169]: Smart TV
+              - generic [ref=e170]: Dans chaque chambre
+          - generic [ref=e171]:
+            - generic [ref=e172]: 🛗
+            - generic [ref=e173]:
+              - generic [ref=e174]: Ascenseur
+              - generic [ref=e175]: RDC accessible
+          - generic [ref=e176]:
+            - generic [ref=e177]: 🚗
+            - generic [ref=e178]:
+              - generic [ref=e179]: Parking gratuit
+              - generic [ref=e180]: Sur place
+          - generic [ref=e181]:
+            - generic [ref=e182]: 🌿
+            - generic [ref=e183]:
+              - generic [ref=e184]: Terrasse 20m²
+              - generic [ref=e185]: Arborée, salon de jardin
+          - generic [ref=e186]:
+            - generic [ref=e187]: 💻
+            - generic [ref=e188]:
+              - generic [ref=e189]: Espace télétravail
+              - generic [ref=e190]: Écran HDMI
+          - generic [ref=e191]:
+            - generic [ref=e192]: 🐾
+            - generic [ref=e193]:
+              - generic [ref=e194]: Animaux acceptés
+              - generic [ref=e195]: Sur demande
+      - region "Avis des voyageurs" [ref=e196]:
+        - heading "Avis des voyageurs" [level=2] [ref=e197]
+        - paragraph [ref=e198]: Ce que nos voyageurs en disent
+        - generic [ref=e199]:
+          - generic [ref=e200]: 5,0
+          - generic [ref=e201]:
+            - generic "Note moyenne de 5 sur 5" [ref=e202]:
+              - generic [ref=e203]: ★★★★★
+            - generic [ref=e204]: 2 avis vérifiés
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - generic [ref=e208]: P
+              - generic [ref=e209]:
+                - generic [ref=e210]: Pierre M.
+                - generic [ref=e211]: juin 2026
+            - generic "5 étoiles" [ref=e212]: ★★★★★
+            - paragraph [ref=e213]: "\"Appartement splendide, tout neuf et décoré avec beaucoup de goût. La terrasse est un vrai plus, on y prend tous les petits-déjeuners au soleil. La plage est vraiment à 2 minutes à pied, c'est incroyable. Mention spéciale pour le bureau avec écran HDMI — parfait pour le télétravail. Nous reviendrons !\""
+            - generic [ref=e214]: — Séjour en juin 2026
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - generic [ref=e217]: A
+              - generic [ref=e218]:
+                - generic [ref=e219]: Anne & Bruno
+                - generic [ref=e220]: mai 2026
+            - generic "5 étoiles" [ref=e221]: ★★★★★
+            - paragraph [ref=e222]: "\"Quelle belle découverte ! L'emplacement est idéal — à 100m de la Grande Conche, on entend les vagues depuis la terrasse. L'appartement est très lumineux, parfaitement équipé et d'une propreté irréprochable. Le parking gratuit est un vrai luxe à Royan. Agnès a été très réactive et attentionnée. Une adresse qu'on garde précieusement.\""
+            - generic [ref=e223]: — Séjour en mai 2026
+        - generic [ref=e224]:
+          - paragraph [ref=e225]: Vous avez séjourné ici ?
+          - paragraph [ref=e226]: Partagez votre expérience avec les futurs voyageurs.
+          - link "Écrire un avis" [ref=e227] [cursor=pointer]:
+            - /url: /contact.html
+      - region "Emplacement" [ref=e228]:
+        - heading "Emplacement" [level=2] [ref=e229]
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - img [ref=e233]
+            - generic [ref=e237]:
+              - generic [ref=e238]: Plage de la Grande Conche
+              - generic [ref=e239]: 100 m
+          - generic [ref=e240]:
+            - img [ref=e242]
+            - generic [ref=e245]:
+              - generic [ref=e246]: Commerces du centre-ville
+              - generic [ref=e247]: 2,3 km
+          - generic [ref=e248]:
+            - img [ref=e250]
+            - generic [ref=e252]:
+              - generic [ref=e253]: Restaurants
+              - generic [ref=e254]: À proximité
+          - generic [ref=e255]:
+            - img [ref=e257]
+            - generic [ref=e260]:
+              - generic [ref=e261]: Marché central de Royan
+              - generic [ref=e262]: 2 km
+          - generic [ref=e263]:
+            - img [ref=e265]
+            - generic [ref=e268]:
+              - generic [ref=e269]: Supermarché
+              - generic [ref=e270]: 1,5 km
+          - generic [ref=e271]:
+            - img [ref=e273]
+            - generic [ref=e276]:
+              - generic [ref=e277]: Gare de Royan
+              - generic [ref=e278]: 3 km
+        - generic "Carte de l'emplacement" [ref=e279]:
+          - img "Plage de la Grande Conche à Royan" [ref=e280]
+    - complementary "Réservation" [ref=e281]:
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - generic [ref=e284]: À partir de 130€ / nuit
+          - generic [ref=e285]:
+            - img [ref=e287]
+            - generic [ref=e289]: Nouveau
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - generic [ref=e293]: Arrivée
+              - textbox "Arrivée" [ref=e294] [cursor=pointer]
+            - generic [ref=e295]:
+              - generic [ref=e296]: Départ
+              - textbox "Départ" [ref=e297] [cursor=pointer]
+          - generic [ref=e298]:
+            - generic [ref=e299]: Voyageurs
+            - combobox "Voyageurs" [ref=e300] [cursor=pointer]:
+              - option "1 voyageur"
+              - option "2 voyageurs"
+              - option "3 voyageurs"
+              - option "4 voyageurs" [selected]
+          - generic [ref=e301]:
+            - generic [ref=e302]: Total estimé (7 nuits)
+            - generic [ref=e303]: 910 €
+          - button "Réserver maintenant" [ref=e304] [cursor=pointer]
+        - generic [ref=e305]:
+          - link "Réserver sur Airbnb" [ref=e306] [cursor=pointer]:
+            - /url: https://airbnb.com
+          - generic [ref=e307]:
+            - generic [ref=e308]:
+              - img [ref=e309]
+              - text: Réservation directe
+            - generic [ref=e311]:
+              - img [ref=e312]
+              - text: Meilleurs tarifs
+            - generic [ref=e314]:
+              - img [ref=e315]
+              - text: Annulation flexible
+      - generic [ref=e317]:
+        - heading "Vous aimerez aussi" [level=3] [ref=e318]
+        - generic [ref=e319]:
+          - link "Villa neuve Saint-Trojan Villa neuve 6 pers Jardin clos, terrasses, plage à vélo ★ 4,95 · 6 pers" [ref=e320] [cursor=pointer]:
+            - /url: /saint-trojan-villa.html
+            - img "Villa neuve Saint-Trojan" [ref=e321]
+            - generic [ref=e322]:
+              - generic [ref=e323]: Villa neuve 6 pers
+              - generic [ref=e324]: Jardin clos, terrasses, plage à vélo
+              - generic [ref=e325]:
+                - generic [ref=e326]: ★ 4,95
+                - generic [ref=e327]: ·
+                - generic [ref=e328]: 6 pers
+          - link "Maison familiale Saint-Trojan Maison familiale 6 pers Jardin, plage à vélo, île d'Oléron ★ 5,0 · 6 pers" [ref=e329] [cursor=pointer]:
+            - /url: /saint-trojan-maison.html
+            - img "Maison familiale Saint-Trojan" [ref=e330]
+            - generic [ref=e331]:
+              - generic [ref=e332]: Maison familiale 6 pers
+              - generic [ref=e333]: Jardin, plage à vélo, île d'Oléron
+              - generic [ref=e334]:
+                - generic [ref=e335]: ★ 5,0
+                - generic [ref=e336]: ·
+                - generic [ref=e337]: 6 pers
+  - region "Questions fréquentes" [ref=e338]:
+    - generic [ref=e339]:
+      - heading "Questions fréquentes" [level=2] [ref=e340]
+      - generic [ref=e341]:
+        - group [ref=e342]:
+          - generic "À quelle distance se trouve la plage ?" [ref=e343] [cursor=pointer]
+          - paragraph [ref=e344]: L'appartement se situe à environ 100m de la plage de la Grande Conche, l'une des plus belles plages de la côte atlantique.
+        - group [ref=e345]:
+          - generic "Y a-t-il un ascenseur dans l'immeuble ?" [ref=e346] [cursor=pointer]
+        - group [ref=e347]:
+          - generic "Un espace de travail est-il disponible ?" [ref=e348] [cursor=pointer]
+        - group [ref=e349]:
+          - generic "Les animaux sont-ils acceptés ?" [ref=e350] [cursor=pointer]
+        - group [ref=e351]:
+          - generic "Le linge de maison est-il fourni ?" [ref=e352] [cursor=pointer]
+        - group [ref=e353]:
+          - generic "Quels sont les horaires d'arrivée et de départ ?" [ref=e354] [cursor=pointer]
+        - group [ref=e355]:
+          - generic "Y a-t-il un parking ?" [ref=e356] [cursor=pointer]
+  - region "Prêt à réserver votre séjour ?" [ref=e357]:
+    - generic [ref=e358]:
+      - heading "Prêt à réserver votre séjour ?" [level=2] [ref=e359]
+      - paragraph [ref=e360]: Contactez-nous ou réservez directement en ligne. Les meilleurs tarifs sont disponibles en réservation directe.
+      - generic [ref=e361]:
+        - link "Réserver maintenant" [ref=e362] [cursor=pointer]:
+          - /url: "#booking-widget"
+        - link "Nous contacter" [ref=e363] [cursor=pointer]:
+          - /url: /contact.html
+  - contentinfo "Pied de page" [ref=e364]:
+    - generic [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - link "CalmRio" [ref=e368] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e369]: Location de vacances premium sur la côte atlantique. Appartements et villas à Royan et sur l'île d'Oléron.
+          - generic [ref=e370]:
+            - link "Instagram" [ref=e371] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e372]
+            - link "Facebook" [ref=e374] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e375]
+        - generic [ref=e377]:
+          - heading "Locations" [level=3] [ref=e378]
+          - list [ref=e379]:
+            - listitem [ref=e380]:
+              - link "Royan — Appartement" [ref=e381] [cursor=pointer]:
+                - /url: /royan-appartement.html
+            - listitem [ref=e382]:
+              - link "Saint-Trojan — Villa" [ref=e383] [cursor=pointer]:
+                - /url: /saint-trojan-villa.html
+            - listitem [ref=e384]:
+              - link "Saint-Trojan — Maison" [ref=e385] [cursor=pointer]:
+                - /url: /saint-trojan-maison.html
+        - generic [ref=e386]:
+          - heading "Informations" [level=3] [ref=e387]
+          - list [ref=e388]:
+            - listitem [ref=e389]:
+              - link "À Propos" [ref=e390] [cursor=pointer]:
+                - /url: /about.html
+            - listitem [ref=e391]:
+              - link "Contact" [ref=e392] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e393]:
+              - link "FAQ" [ref=e394] [cursor=pointer]:
+                - /url: /faq.html
+            - listitem [ref=e395]:
+              - link "Guide local" [ref=e396] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e397]:
+          - heading "Contact" [level=3] [ref=e398]
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - img [ref=e401]
+              - generic [ref=e404]:
+                - text: Royan & Île d'Oléron
+                - text: Nouvelle-Aquitaine, France
+            - listitem [ref=e405]:
+              - img [ref=e406]
+              - link "+33 0 00 00 00 00" [ref=e408] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=e409]:
+              - img [ref=e410]
+              - link "contact@calmrio.com" [ref=e413] [cursor=pointer]:
+                - /url: mailto:contact@calmrio.com
+      - generic [ref=e414]:
+        - paragraph [ref=e415]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=e416]:
+          - listitem [ref=e417]:
+            - link "Mentions légales" [ref=e418] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e419]:
+            - link "Politique de confidentialité" [ref=e420] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e421]:
+            - link "CGV" [ref=e422] [cursor=pointer]:
+              - /url: "#"

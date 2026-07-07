@@ -1,0 +1,304 @@
+// ============================================================
+// CalmRio — Animations & Scroll Effects
+// ============================================================
+
+// ------------------------------------------------------------
+// Fade in (on scroll reveal)
+// ------------------------------------------------------------
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Fade in from left
+// ------------------------------------------------------------
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+
+  &.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Fade in from right
+// ------------------------------------------------------------
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+
+  &.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Scale in
+// ------------------------------------------------------------
+.scale-in {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+
+  &.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Reveal (clip-path)
+// ------------------------------------------------------------
+.reveal {
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.visible {
+    clip-path: inset(0 0 0 0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+// ------------------------------------------------------------
+// Counter animation
+// ------------------------------------------------------------
+.counter {
+  font-variant-numeric: tabular-nums;
+}
+
+// ------------------------------------------------------------
+// Stagger children (parent with delayed children)
+// ------------------------------------------------------------
+.stagger-children {
+  > * {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  &.visible > * {
+    opacity: 1;
+    transform: translateY(0);
+
+    @for $i from 1 through 12 {
+      &:nth-child(#{$i}) {
+        transition-delay: #{$i * 0.08}s;
+      }
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    > * {
+      transition: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// Keyframe animations
+// ------------------------------------------------------------
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+// ------------------------------------------------------------
+// Loading skeleton / shimmer
+// ------------------------------------------------------------
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-bg-alt) 25%,
+    var(--color-border-light) 50%,
+    var(--color-bg-alt) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite ease-in-out;
+  border-radius: var(--radius-md);
+
+  &.skeleton--text {
+    height: 0.875rem;
+    margin-bottom: var(--space-2);
+  }
+
+  &.skeleton--heading {
+    height: 1.5rem;
+    width: 60%;
+    margin-bottom: var(--space-4);
+  }
+
+  &.skeleton--image {
+    aspect-ratio: 16 / 9;
+  }
+
+  &.skeleton--avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-full);
+  }
+
+  &.skeleton--button {
+    width: 120px;
+    height: 2.75rem;
+  }
+
+  &.skeleton--card {
+    min-height: 320px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Reduced motion overrides
+// ------------------------------------------------------------
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

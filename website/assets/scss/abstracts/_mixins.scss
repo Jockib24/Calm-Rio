@@ -1,0 +1,241 @@
+// ============================================================
+// CalmRio — SCSS Mixins
+// ============================================================
+
+@use 'sass:math';
+@use 'sass:map';
+
+// ------------------------------------------------------------
+// respond($bp) — Mobile-first media queries
+// Usage: @include respond(lg) { ... }
+// ------------------------------------------------------------
+$breakpoints: (
+  'sm': 640px,
+  'md': 768px,
+  'lg': 1024px,
+  'xl': 1200px,
+  '2xl': 1400px,
+);
+
+@mixin respond($bp) {
+  @if map.has-key($breakpoints, $bp) {
+    @media (min-width: map.get($breakpoints, $bp)) {
+      @content;
+    }
+  } @else {
+    @error 'respond(): Unknown breakpoint "#{$bp}". Available: #{map.keys($breakpoints)}';
+  }
+}
+
+// ------------------------------------------------------------
+// respond-max($bp) — Max-width media queries
+// Usage: @include respond-max(md) { ... }
+// ------------------------------------------------------------
+@mixin respond-max($bp) {
+  @if map.has-key($breakpoints, $bp) {
+    @media (max-width: (map.get($breakpoints, $bp) - 0.02px)) {
+      @content;
+    }
+  } @else {
+    @error 'respond-max(): Unknown breakpoint "#{$bp}". Available: #{map.keys($breakpoints)}';
+  }
+}
+
+// ------------------------------------------------------------
+// container() — Max-width centered container with padding
+// ------------------------------------------------------------
+@mixin container($max-width: var(--container-xl)) {
+  width: 100%;
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+// ------------------------------------------------------------
+// focus-ring() — Accessible focus outline
+// ------------------------------------------------------------
+@mixin focus-ring($offset: 2px) {
+  outline: none;
+
+  &:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: $offset;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-focus);
+  }
+}
+
+// ------------------------------------------------------------
+// visually-hidden() — Screen-reader-only content
+// ------------------------------------------------------------
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+// ------------------------------------------------------------
+// sr-only() — Alias for visually-hidden
+// ------------------------------------------------------------
+@mixin sr-only {
+  @include visually-hidden;
+}
+
+// ------------------------------------------------------------
+// truncate() — Single-line text overflow with ellipsis
+// ------------------------------------------------------------
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// ------------------------------------------------------------
+// aspect-ratio($ratio) — Maintain aspect ratio
+// Usage: @include aspect-ratio(16/9);
+// ------------------------------------------------------------
+@mixin aspect-ratio($ratio: 16 / 9) {
+  aspect-ratio: $ratio;
+
+  @supports not (aspect-ratio: 1) {
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      padding-bottom: math.div(1, $ratio) * 100%;
+    }
+
+    > * {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// section() — Standard section vertical padding
+// ------------------------------------------------------------
+@mixin section {
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--section-padding-y);
+}
+
+// ------------------------------------------------------------
+// section-header() — Centered section heading block
+// ------------------------------------------------------------
+@mixin section-header {
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--space-8);
+}
+
+// ------------------------------------------------------------
+// flex-center() — Centered flex container
+// ------------------------------------------------------------
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// ------------------------------------------------------------
+// absolute-fill() — Absolute positioning to fill parent
+// ------------------------------------------------------------
+@mixin absolute-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// ------------------------------------------------------------
+// card-base() — Standard card foundation
+// ------------------------------------------------------------
+@mixin card-base {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+// ------------------------------------------------------------
+// link-underline() — Animated underline from center on hover
+// ------------------------------------------------------------
+@mixin link-underline($color: currentColor, $height: 2px) {
+  position: relative;
+  text-decoration: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 0;
+    height: $height;
+    background-color: $color;
+    transition: width var(--transition-fast), left var(--transition-fast);
+  }
+
+  &:hover::after,
+  &:focus-visible::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
+// ------------------------------------------------------------
+// reduce-motion() — Prefers-reduced-motion media query
+// ------------------------------------------------------------
+@mixin reduce-motion {
+  @media (prefers-reduced-motion: reduce) {
+    @content;
+  }
+}
+
+// ------------------------------------------------------------
+// dark-mode() — Dark theme media query
+// ------------------------------------------------------------
+@mixin dark-mode {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+
+// ------------------------------------------------------------
+// hover-focus() — Combined hover and focus-visible states
+// ------------------------------------------------------------
+@mixin hover-focus {
+  &:hover,
+  &:focus-visible {
+    @content;
+  }
+}
+
+// ------------------------------------------------------------
+// grid-cols($cols) — CSS Grid column shorthand
+// ------------------------------------------------------------
+@mixin grid-cols($cols) {
+  grid-template-columns: repeat($cols, 1fr);
+}

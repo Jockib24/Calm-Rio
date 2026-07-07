@@ -1,0 +1,472 @@
+{
+  "properties": [
+    {
+      "identity": {
+        "property_id": "1101432035369683458",
+        "source_url": "https://www.airbnb.fr/rooms/1101432035369683458",
+        "property_name": "Appartement neuf bord de plage",
+        "current_title": "Appartement neuf bord de plage",
+        "subtitle": "Logement entier : appartement - Royan, France",
+        "description": "Appartement neuf de 60m² avec une terrasse de 20m2 alliant un style bord de plage et contemporain, très lumineux, idéalement situé à 100m de la plage de la Grande Conche et à proximité de nombreux commerces du centre-ville. Grande pièce de vie avec salon et cuisine / salle à manger. Canapé confortable, cuisine entièrement équipée avec cave à vin de service. Toutes les fenêtres donnent sur la terrasse (partie salon + partie repas, arborée). 2 chambres : l'une avec un grand lit de 160, télé, espace de travail (écran + câble HDMI) ; l'autre avec 2 petits lits de 90. Salle de bain avec douche à l'italienne, buanderie (lave-linge, sèche-linge, fer et table à repasser). WC indépendant.",
+        "registration_number": "173060015134Z",
+        "host": {
+          "name": "Mélanie",
+          "host_since": "2024",
+          "superhost": false,
+          "response_rate": "100%",
+          "response_time": "within an hour",
+          "co_host": "UNKNOWN"
+        },
+        "property_type": "Apartment",
+        "listing_type": "Entire home/apartment",
+        "languages": ["French"],
+        "instant_book": "UNKNOWN",
+        "guest_favorite": false,
+        "superhost_status": false
+      },
+      "location": {
+        "city": "Royan",
+        "region": "Nouvelle-Aquitaine",
+        "country": "France",
+        "district": "UNKNOWN",
+        "neighborhood": "Grande Conche / Foncillon area",
+        "approximate_gps": {
+          "latitude": 45.614336,
+          "longitude": -1.012936,
+          "source": "OpenStreetMap/Nominatim - Plage de la Grande Conche"
+        },
+        "address_exact": "Verified by Airbnb; disclosed after booking",
+        "beach_distance_m": 100,
+        "beach_name": "Plage de la Grande Conche",
+        "center_distance_m": 2260,
+        "neighborhood_description": "Royan is the 'capital' of the Côte de Beauté, a major Atlantic resort. The Grande Conche is a 2.6 km sandy beach. The apartment is close to the seafront, shops, and the modernist post-war town center."
+      },
+      "accommodation": {
+        "max_guests": 4,
+        "bedrooms": 2,
+        "beds": 3,
+        "bathrooms": 1,
+        "size_sqm": 60,
+        "terrace_sqm": 20,
+        "floor": "UNKNOWN",
+        "elevator": true,
+        "floor_plan": "UNKNOWN",
+        "accessibility_features": ["Elevator"]
+      },
+      "amenities": {
+        "visible": [
+          "Beach access",
+          "Kitchen",
+          "Wifi",
+          "Dedicated workspace",
+          "Free parking on premises",
+          "Pets allowed",
+          "TV",
+          "Elevator",
+          "Washing machine",
+          "Smoke detector"
+        ],
+        "not_available": ["Carbon monoxide detector"],
+        "hidden_count": 25,
+        "baby_equipment": "Available on request",
+        "air_conditioning": false,
+        "heating": "UNKNOWN",
+        "workspace_details": "Screen + HDMI cable provided"
+      },
+      "operations": {
+        "check_in": "From 16:00",
+        "check_out": "Before 10:00",
+        "cancellation_policy": "Depends on dates (not specified without booking)",
+        "house_rules": [
+          "Arrivée à partir de 16:00",
+          "Départ avant 10:00",
+          "4 voyageurs maximum",
+          "Animaux acceptés"
+        ],
+        "cleaning_fee": "UNKNOWN",
+        "service_fee": "UNKNOWN",
+        "extra_fees": "UNKNOWN",
+        "security_deposit": "UNKNOWN",
+        "minimum_stay": "UNKNOWN",
+        "maximum_stay": "UNKNOWN",
+        "cleaning_included": "UNKNOWN"
+      },
+      "media": {
+        "photo_count": "UNKNOWN",
+        "main_photo_url": "https://a0.muscache.com/im/pictures/miso/Hosting-1101432035369683458/original/3577b5b7-fb96-41d4-b20c-fd97e25b15a1.jpeg",
+        "video": "UNKNOWN",
+        "floor_plan_url": "UNKNOWN",
+        "photo_urls_known": [
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1101432035369683458/original/3577b5b7-fb96-41d4-b20c-fd97e25b15a1.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1101432035369683458/original/07bce65e-aa65-4b4b-b96f-47565e8eb797.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1101432035369683458/original/92b8773e-7245-47e3-aafe-a4a3b2dd960f.jpeg"
+        ]
+      },
+      "pricing": {
+        "currency": "EUR",
+        "nightly_rate_range": "UNKNOWN",
+        "weekly_rate_range": "UNKNOWN",
+        "cleaning_fee": "UNKNOWN",
+        "service_fee": "UNKNOWN",
+        "occupancy_taxes": "UNKNOWN",
+        "seasonal_notes": "High season July-August expected to be premium for beachfront Royan"
+      },
+      "seo": {
+        "target_keywords": [
+          "location vacances royan",
+          "appartement royan plage",
+          "location vacances royan appartement",
+          "appartement bord de mer royan",
+          "location royan grande conche",
+          "royan beach apartment"
+        ],
+        "current_score_estimate": 55,
+        "title_score": 50,
+        "description_score": 60,
+        "photo_score": 45,
+        "trust_score": 40
+      },
+      "reviews": {
+        "review_count": 0,
+        "average_rating": "UNKNOWN",
+        "category_scores": {},
+        "sentiment_score": "UNKNOWN",
+        "review_texts": []
+      },
+      "distribution": {
+        "airbnb": "https://www.airbnb.fr/rooms/1101432035369683458",
+        "booking_com": "UNKNOWN",
+        "vrbo": "UNKNOWN",
+        "expedia": "UNKNOWN",
+        "direct_website": "UNKNOWN",
+        "ical_export_url": "UNKNOWN",
+        "ical_import_url": "UNKNOWN"
+      }
+    },
+    {
+      "identity": {
+        "property_id": "50122536",
+        "source_url": "https://www.airbnb.fr/rooms/50122536",
+        "property_name": "Belle villa neuve de bord de mer pour 6 pers",
+        "current_title": "Belle villa neuve de bord de mer pour 6 pers",
+        "subtitle": "Logement entier : hébergement - Saint-Trojan-les-Bains, France",
+        "description": "Maison neuve au style Oléronais, alliant le style insulaire charentais et contemporain, très lumineuse, avec de beaux volumes, idéalement située entre mer et forêt. 110m² sur un jardin arboré et clos, avec terrasse en bois 50m² plein sud (salon de jardin, parasol) et terrasse couverte 17m² (table en teck). Barbecue. Vaste salon/salle à manger avec grande hauteur sous plafond, baies vitrées sur terrasses. Cuisine ouverte équipée : lave-vaisselle, réfrigérateur, four, micro-ondes, plaque à induction. Cellier avec lave-linge, sèche-linge et congélateur. 3 chambres de 12m² : 2 avec lit de 160, 1 avec 2 lits de 80. Salle de bain avec douche à l'italienne, WC suspendu indépendant. Draps et draps de bain fournis. Prise recharge voiture électrique/hybride (supplément selon relevé de compteur). Bureau et écran HDMI pour télétravail.",
+        "registration_number": "17411000371D4",
+        "host": {
+          "name": "Agnès",
+          "host_since": "5 years",
+          "superhost": true,
+          "response_rate": "100%",
+          "response_time": "within an hour",
+          "co_host": "UNKNOWN"
+        },
+        "property_type": "House / Villa",
+        "listing_type": "Entire home",
+        "languages": ["French"],
+        "instant_book": "UNKNOWN",
+        "guest_favorite": true,
+        "superhost_status": true
+      },
+      "location": {
+        "city": "Saint-Trojan-les-Bains",
+        "region": "Nouvelle-Aquitaine",
+        "country": "France",
+        "district": "UNKNOWN",
+        "neighborhood": "Residential area between sea and forest",
+        "approximate_gps": {
+          "latitude": 45.84232,
+          "longitude": -1.206912,
+          "source": "OpenStreetMap/Nominatim - Saint-Trojan-les-Bains town centre"
+        },
+        "address_exact": "Verified by Airbnb; disclosed after booking",
+        "beach_distance_m": "UNKNOWN",
+        "beach_name": "Plage de Gatseau / Grande plage",
+        "center_distance_m": "UNKNOWN",
+        "neighborhood_description": "Saint-Trojan-les-Bains is the southernmost seaside resort on Île d'Oléron, set between the Atlantic and a large maritime pine forest. Village, port and market accessible by bike (5-10 min). Near sailing club, tennis club, and beaches."
+      },
+      "accommodation": {
+        "max_guests": 6,
+        "bedrooms": 3,
+        "beds": 4,
+        "bathrooms": 1,
+        "size_sqm": 110,
+        "garden": true,
+        "fenced": true,
+        "terrace_sqm": 67,
+        "floor": 0,
+        "elevator": false,
+        "floor_plan": "UNKNOWN",
+        "accessibility_features": []
+      },
+      "amenities": {
+        "visible": [
+          "Beach access",
+          "Kitchen",
+          "Wifi",
+          "Dedicated workspace",
+          "Free parking on premises",
+          "Pets allowed",
+          "Cable TV",
+          "Washing machine (free)",
+          "Dryer (free)",
+          "Private backyard - fully fenced",
+          "Carbon monoxide detector",
+          "Smoke detector",
+          "EV charging point"
+        ],
+        "not_available": [],
+        "hidden_count": 54,
+        "baby_equipment": "Available on request",
+        "air_conditioning": false,
+        "heating": "UNKNOWN",
+        "workspace_details": "Desk + HDMI screen for remote work"
+      },
+      "operations": {
+        "check_in": "16:00 - 20:00",
+        "check_out": "Before 10:00",
+        "cancellation_policy": "Depends on dates",
+        "house_rules": [
+          "Arrivée entre 16:00 et 20:00",
+          "Départ avant 10:00",
+          "6 voyageurs maximum",
+          "Animaux acceptés",
+          "Recharge voiture électrique avec supplément selon relevé de compteur"
+        ],
+        "cleaning_fee": "UNKNOWN",
+        "service_fee": "UNKNOWN",
+        "extra_fees": ["EV charging supplement"],
+        "security_deposit": "UNKNOWN",
+        "minimum_stay": "UNKNOWN",
+        "maximum_stay": "UNKNOWN"
+      },
+      "media": {
+        "photo_count": "UNKNOWN",
+        "main_photo_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg",
+        "video": "UNKNOWN",
+        "floor_plan_url": "UNKNOWN",
+        "photo_urls_known": [
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/cc206c89-ae13-4c23-b933-3aeccd4e90ea.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/96ad9084-70a5-416b-948d-d43a3eee5e7d.jpeg"
+        ]
+      },
+      "pricing": {
+        "currency": "EUR",
+        "nightly_rate_range": "UNKNOWN",
+        "weekly_rate_range": "UNKNOWN",
+        "cleaning_fee": "UNKNOWN",
+        "service_fee": "UNKNOWN",
+        "occupancy_taxes": "UNKNOWN",
+        "seasonal_notes": "Saint-Trojan peak season July-August; premium for new villa with garden"
+      },
+      "seo": {
+        "target_keywords": [
+          "location vacances saint trojan les bains",
+          "villa oleron 6 personnes",
+          "maison bord de mer saint trojan",
+          "location ile oleron villa",
+          "saint trojan les bains maison",
+          "villa neuve oleron"
+        ],
+        "current_score_estimate": 70,
+        "title_score": 65,
+        "description_score": 75,
+        "photo_score": 65,
+        "trust_score": 85
+      },
+      "reviews": {
+        "review_count": 40,
+        "average_rating": 4.95,
+        "category_scores": {
+          "Plage": "11 mentions",
+          "Vélo": "8 mentions",
+          "Emplacement": "18 mentions",
+          "Espaces extérieurs": "13 mentions",
+          "Hospitalité": "20 mentions",
+          "Équipements": "16 mentions",
+          "Espaces intérieurs": "13 mentions",
+          "Décoration": "9 mentions",
+          "Propreté": "11 mentions",
+          "Famille": "10 mentions"
+        },
+        "sentiment_score": 0.96,
+        "review_texts": [
+          "Nous avons passé un excellent séjour dans la maison d'Agnès. Elle est située dans un tres bel environnement et très proche de la mer à pieds ou en vélo. La maison est spacieuse, confortable et tres bien équipée. Nous reviendrons certainement.",
+          "Charmante maison et emplacement paisible. Un séjour d'une semaine dans la charmante maison d'Agnès et Ludovic où tout le confort est là, on se sent très bien dans leur belle propriété décorée avec goût, qui dispose de deux belles terrasses avec un petit jardin privatif en herbe et clôturé, idéal pour notre beagle !",
+          "Nous avons passé un excellent séjour sur l'île d'Oléron dans cette jolie maison très bien située, à quelques pas de l'océan. La maison est confortable, très bien équipée et décorée avec goût.",
+          "Maison magnifique, avec un jardin paisible offrant un bel espace pour se reposer et se ressourcer. Les propriétaires sont des personnes accueillantes et chaleureuses.",
+          "Le séjour s'est très bien passé. Le logement était incroyable: très grand, très propre, très fonctionnel, moderne, cuisine très bien équipée, terrasses et jardin très agréables, proche de la mer, propriétaires très gentils.",
+          "Belle maison moderne, spacieuse, bien équipée et idéalement située à proximité des plages. Nous avons particulièrement apprécié l'extérieur avec sa grande terrasse en bois et son salon de jardin. Toutefois, la semaine ayant été particulièrement chaude, et n'ayant pas de clim ni ventilateur, il nous a été très difficile de dormir la fenêtre ouverte en raison des moustiques..."
+        ]
+      },
+      "distribution": {
+        "airbnb": "https://www.airbnb.fr/rooms/50122536",
+        "booking_com": "UNKNOWN",
+        "vrbo": "UNKNOWN",
+        "expedia": "UNKNOWN",
+        "direct_website": "UNKNOWN",
+        "ical_export_url": "UNKNOWN",
+        "ical_import_url": "UNKNOWN"
+      }
+    },
+    {
+      "identity": {
+        "property_id": "1431741688356720747",
+        "source_url": "https://www.airbnb.fr/rooms/1431741688356720747",
+        "property_name": "Maison individuelle 6 pers",
+        "current_title": "Maison individuelle 6 pers",
+        "subtitle": "Logement entier : hébergement - Saint-Trojan-les-Bains, France",
+        "description": "Maison individuelle pour 6 personnes comprenant séjour/salle à manger, trois chambres (2 chambres avec lit de 160x200 et 1 chambre avec 2 lits de 90x200), cuisine, salle de bains, WC indépendant, terrasse et jardin arboré. À proximité de la piste cyclable, de la plage et du centre village. Draps, serviettes de toilette et torchons fournis. Équipement bébé disponible sur demande. Pour familles nombreuses, possibilité de louer une maison de capacité identique située en face (selon disponibilité).",
+        "registration_number": "17411000071C5",
+        "host": {
+          "name": "Agnès",
+          "host_since": "1 year",
+          "superhost": false,
+          "response_rate": "100%",
+          "response_time": "within an hour",
+          "co_host": "UNKNOWN"
+        },
+        "property_type": "House",
+        "listing_type": "Entire home",
+        "languages": ["French"],
+        "instant_book": "UNKNOWN",
+        "guest_favorite": false,
+        "superhost_status": false
+      },
+      "location": {
+        "city": "Saint-Trojan-les-Bains",
+        "region": "Nouvelle-Aquitaine",
+        "country": "France",
+        "district": "UNKNOWN",
+        "neighborhood": "UNKNOWN",
+        "approximate_gps": {
+          "latitude": 45.84232,
+          "longitude": -1.206912,
+          "source": "OpenStreetMap/Nominatim - Saint-Trojan-les-Bains town centre"
+        },
+        "address_exact": "Verified by Airbnb; disclosed after booking",
+        "beach_distance_m": "UNKNOWN",
+        "beach_name": "UNKNOWN",
+        "center_distance_m": "UNKNOWN",
+        "neighborhood_description": "Close to cycling path, beach, and village center of Saint-Trojan-les-Bains."
+      },
+      "accommodation": {
+        "max_guests": 6,
+        "bedrooms": 3,
+        "beds": 4,
+        "bathrooms": 1,
+        "size_sqm": "UNKNOWN",
+        "garden": true,
+        "terrace": true,
+        "floor": "UNKNOWN",
+        "elevator": false,
+        "floor_plan": "UNKNOWN",
+        "accessibility_features": []
+      },
+      "amenities": {
+        "visible": [
+          "Kitchen",
+          "Wifi",
+          "Free parking on premises",
+          "Pets allowed",
+          "TV",
+          "Washing machine",
+          "Smoke detector"
+        ],
+        "not_available": ["Carbon monoxide detector"],
+        "hidden_count": 9,
+        "baby_equipment": "Available on request",
+        "air_conditioning": false,
+        "heating": "UNKNOWN",
+        "workspace_details": "UNKNOWN"
+      },
+      "operations": {
+        "check_in": "From 16:00",
+        "check_out": "Before 10:00",
+        "cancellation_policy": "Depends on dates",
+        "house_rules": [
+          "Arrivée à partir de 16:00",
+          "Départ avant 10:00",
+          "6 voyageurs maximum",
+          "Animaux acceptés"
+        ],
+        "cleaning_fee": "UNKNOWN",
+        "service_fee": "UNKNOWN",
+        "extra_fees": [],
+        "security_deposit": "UNKNOWN",
+        "minimum_stay": "UNKNOWN",
+        "maximum_stay": "UNKNOWN"
+      },
+      "media": {
+        "photo_count": "UNKNOWN",
+        "main_photo_url": "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/e330beaf-cfaa-4576-81cb-2d6d328a3425.jpeg",
+        "video": "UNKNOWN",
+        "floor_plan_url": "UNKNOWN",
+        "photo_urls_known": [
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/e330beaf-cfaa-4576-81cb-2d6d328a3425.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/18c0d041-126c-46bd-a6b9-480907d6ed32.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/04e8cb4b-e8e6-456a-a2c7-33d3fdeefaea.jpeg",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1431741688356720747/original/a534fb7b-e7f9-494f-8c20-38e77d30bf2e.jpeg",
+          "https://a0.muscache.com/im/pictures/miso/Hosting-1431741688356720747/original/fb9e575a-75c6-4216-8f8e-b5e041b74bd2.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/a75c5a47-375a-42ed-91e1-7cbe85d6c49d.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/a3660333-ad9d-4604-bd41-1e1cb482086b.jpeg",
+          "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/38904394-33f2-49b2-a988-0bfdd32b1f80.jpeg"
+        ]
+      },
+      "pricing": {
+        "currency": "EUR",
+        "nightly_rate_range": "UNKNOWN",
+        "weekly_rate_range": "UNKNOWN",
+        "cleaning_fee": "UNKNOWN",
+        "service_fee": "UNKNOWN",
+        "occupancy_taxes": "UNKNOWN",
+        "seasonal_notes": "New listing with only 1 review; pricing likely set competitively"
+      },
+      "seo": {
+        "target_keywords": [
+          "location vacances saint trojan les bains",
+          "maison individuelle saint trojan",
+          "location ile oleron 6 personnes",
+          "maison saint trojan les bains",
+          "location oleron famille"
+        ],
+        "current_score_estimate": 45,
+        "title_score": 35,
+        "description_score": 55,
+        "photo_score": 50,
+        "trust_score": 35
+      },
+      "reviews": {
+        "review_count": 1,
+        "average_rating": 5,
+        "category_scores": {},
+        "sentiment_score": 1,
+        "review_texts": [
+          "Nous avons passés une superbe semaine au calme dans une jolie villa bien équipée et bien placée. L'accueil était très bon et réactif. Nous reviendrons avec plaisir."
+        ]
+      },
+      "distribution": {
+        "airbnb": "https://www.airbnb.fr/rooms/1431741688356720747",
+        "booking_com": "UNKNOWN",
+        "vrbo": "UNKNOWN",
+        "expedia": "UNKNOWN",
+        "direct_website": "UNKNOWN",
+        "ical_export_url": "UNKNOWN",
+        "ical_import_url": "UNKNOWN"
+      }
+    }
+  ],
+  "portfolio_notes": {
+    "common_host": "Listings 2 and 3 are both hosted by Agnès in Saint-Trojan-les-Bains and appear to be part of the same portfolio.",
+    "cross_sell_opportunity": "Listing 3 explicitly mentions the possibility to rent an identical house across the street (likely listing 2 or another Agnès property).",
+    "market_split": "One property in Royan (beach apartment); two properties in Saint-Trojan-les-Bains (family houses)."
+  },
+  "sources": [
+    "https://www.airbnb.fr/rooms/1101432035369683458",
+    "https://www.airbnb.fr/rooms/50122536",
+    "https://www.airbnb.fr/rooms/1431741688356720747",
+    "OpenStreetMap/Nominatim",
+    "Mappy route planner",
+    "Sub-agent competitive research"
+  ]
+}

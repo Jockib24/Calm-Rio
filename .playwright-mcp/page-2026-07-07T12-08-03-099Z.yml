@@ -1,0 +1,279 @@
+- generic [active] [ref=f10e1]:
+  - link "Aller au contenu principal" [ref=f10e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - link "CalmRio — Accueil" [ref=f10e5] [cursor=pointer]:
+        - /url: index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=f10e6]:
+        - list [ref=f10e7]:
+          - listitem [ref=f10e8]:
+            - link "Accueil" [ref=f10e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=f10e10]:
+            - link "Nos Locations" [ref=f10e11] [cursor=pointer]:
+              - /url: "#locations"
+          - listitem [ref=f10e12]:
+            - link "Guide Local" [ref=f10e13] [cursor=pointer]:
+              - /url: local-guide.html
+          - listitem [ref=f10e14]:
+            - link "À Propos" [ref=f10e15] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=f10e16]:
+            - link "Contact" [ref=f10e17] [cursor=pointer]:
+              - /url: contact.html
+      - link "Réserver" [ref=f10e18] [cursor=pointer]:
+        - /url: "#locations"
+  - main [ref=f10e19]:
+    - navigation "Fil d'Ariane" [ref=f10e20]:
+      - link "Accueil" [ref=f10e22] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=f10e23]: / FAQ
+    - region "Questions fréquentes" [ref=f10e24]:
+      - generic [ref=f10e26]:
+        - heading "Questions fréquentes" [level=1] [ref=f10e27]
+        - paragraph [ref=f10e28]: Tout ce que vous devez savoir avant de réserver
+    - region "Rechercher dans la FAQ" [ref=f10e29]:
+      - generic [ref=f10e30]:
+        - generic [ref=f10e31]:
+          - img
+          - searchbox "Rechercher une question dans la FAQ" [ref=f10e32]
+        - tablist "Filtrer les questions par catégorie" [ref=f10e33]:
+          - tab "Toutes" [selected] [ref=f10e34] [cursor=pointer]
+          - tab "Général" [ref=f10e35] [cursor=pointer]
+          - tab "Royan" [ref=f10e36] [cursor=pointer]
+          - tab "Saint-Trojan" [ref=f10e37] [cursor=pointer]
+          - tab "Réservation" [ref=f10e38] [cursor=pointer]
+        - generic [ref=f10e39]:
+          - generic [ref=f10e40]:
+            - heading "Général" [level=2] [ref=f10e41]
+            - generic [ref=f10e42]:
+              - button "Les animaux sont-ils acceptés ?" [ref=f10e43] [cursor=pointer]:
+                - generic [ref=f10e44]: Les animaux sont-ils acceptés ?
+                - img [ref=f10e45]
+              - paragraph [ref=f10e48]: Oui, les animaux sont acceptés dans toutes nos propriétés. Merci de nous prévenir à l'avance pour que nous puissions préparer l'espace et vous communiquer les éventuelles conditions spécifiques.
+            - generic [ref=f10e49]:
+              - button "Le parking est-il inclus ?" [ref=f10e50] [cursor=pointer]:
+                - generic [ref=f10e51]: Le parking est-il inclus ?
+                - img [ref=f10e52]
+              - paragraph [ref=f10e55]: Oui, un parking gratuit sur place est disponible à chaque propriété. Aucun supplément n'est facturé.
+            - generic [ref=f10e56]:
+              - button "Quels sont les horaires d'arrivée et de départ ?" [ref=f10e57] [cursor=pointer]:
+                - generic [ref=f10e58]: Quels sont les horaires d'arrivée et de départ ?
+                - img [ref=f10e59]
+              - paragraph [ref=f10e62]:
+                - text: L'arrivée (check-in) se fait à partir de
+                - strong [ref=f10e63]: 16h00
+                - text: . Pour la villa de Saint-Trojan, l'arrivée est possible entre 16h00 et 20h00. Le départ (check-out) est avant
+                - strong [ref=f10e64]: 10h00
+                - text: pour toutes les propriétés.
+            - generic [ref=f10e65]:
+              - button "Le WiFi est-il fourni ?" [ref=f10e66] [cursor=pointer]:
+                - generic [ref=f10e67]: Le WiFi est-il fourni ?
+                - img [ref=f10e68]
+              - paragraph [ref=f10e71]: Oui, toutes nos propriétés disposent du WiFi haut débit. La villa de Saint-Trojan propose également un espace de travail dédié avec bureau, écran et câble HDMI — idéal pour le télétravail.
+            - generic [ref=f10e72]:
+              - button "Les draps et serviettes sont-ils inclus ?" [ref=f10e73] [cursor=pointer]:
+                - generic [ref=f10e74]: Les draps et serviettes sont-ils inclus ?
+                - img [ref=f10e75]
+              - paragraph [ref=f10e78]: Oui, les draps et serviettes de toilette sont fournis dans toutes nos locations et inclus dans le prix de la réservation.
+            - generic [ref=f10e79]:
+              - button "Un équipement bébé est-il disponible ?" [ref=f10e80] [cursor=pointer]:
+                - generic [ref=f10e81]: Un équipement bébé est-il disponible ?
+                - img [ref=f10e82]
+              - paragraph [ref=f10e85]: Oui, un équipement bébé (lit parapluie, chaise haute) est disponible sur demande. Merci de nous en informer avant votre arrivée pour que nous puissions tout préparer.
+          - generic [ref=f10e86]:
+            - heading "Royan — Appartement" [level=2] [ref=f10e87]
+            - generic [ref=f10e88]:
+              - button "À quelle distance se trouve la plage ?" [ref=f10e89] [cursor=pointer]:
+                - generic [ref=f10e90]: À quelle distance se trouve la plage ?
+                - img [ref=f10e91]
+              - paragraph [ref=f10e94]:
+                - text: L'appartement se trouve à environ
+                - strong [ref=f10e95]: 100 mètres
+                - text: de la plage de la Grande Conche, la plus belle plage de Royan avec ses 2,6 km de sable fin.
+            - generic [ref=f10e96]:
+              - button "Y a-t-il un ascenseur ?" [ref=f10e97] [cursor=pointer]:
+                - generic [ref=f10e98]: Y a-t-il un ascenseur ?
+                - img [ref=f10e99]
+              - paragraph [ref=f10e102]: Oui, l'immeuble dispose d'un ascenseur. L'appartement est facilement accessible.
+            - generic [ref=f10e103]:
+              - button "Y a-t-il un espace de travail ?" [ref=f10e104] [cursor=pointer]:
+                - generic [ref=f10e105]: Y a-t-il un espace de travail ?
+                - img [ref=f10e106]
+              - paragraph [ref=f10e109]: Oui, la chambre principale dispose d'un bureau avec écran et câble HDMI, idéal pour le télétravail face à la mer.
+            - generic [ref=f10e110]:
+              - button "L'appartement est-il climatisé ?" [ref=f10e111] [cursor=pointer]:
+                - generic [ref=f10e112]: L'appartement est-il climatisé ?
+                - img [ref=f10e113]
+              - paragraph [ref=f10e116]: Non, l'appartement ne dispose pas de climatisation. Cependant, sa conception et sa ventilation naturelle offrent un confort agréable, et la proximité de l'océan apporte une brise rafraîchissante.
+          - generic [ref=f10e117]:
+            - heading "Saint-Trojan — Villa" [level=2] [ref=f10e118]
+            - generic [ref=f10e119]:
+              - button "À quelle distance se trouve la plage ?" [ref=f10e120] [cursor=pointer]:
+                - generic [ref=f10e121]: À quelle distance se trouve la plage ?
+                - img [ref=f10e122]
+              - paragraph [ref=f10e125]:
+                - text: La villa est située entre la forêt et l'océan. Le village, le port ostréicole et les plages sont accessibles à vélo en
+                - strong [ref=f10e126]: 5 à 10 minutes
+                - text: par les pistes cyclables.
+            - generic [ref=f10e127]:
+              - button "Y a-t-il un jardin ?" [ref=f10e128] [cursor=pointer]:
+                - generic [ref=f10e129]: Y a-t-il un jardin ?
+                - img [ref=f10e130]
+              - paragraph [ref=f10e133]:
+                - text: Oui, la villa dispose d'un
+                - strong [ref=f10e134]: jardin privé entièrement clos
+                - text: ", d'une terrasse en bois de 50m² et d'une terrasse couverte de 17m² — parfait pour les repas en plein air et les enfants."
+            - generic [ref=f10e135]:
+              - button "La recharge électrique est-elle disponible ?" [ref=f10e136] [cursor=pointer]:
+                - generic [ref=f10e137]: La recharge électrique est-elle disponible ?
+                - img [ref=f10e138]
+              - paragraph [ref=f10e141]:
+                - text: Oui, une
+                - strong [ref=f10e142]: borne de recharge pour véhicule électrique
+                - text: est disponible. Un supplément basé sur le relevé du compteur est demandé en fin de séjour.
+            - generic [ref=f10e143]:
+              - button "La villa est-elle climatisée ?" [ref=f10e144] [cursor=pointer]:
+                - generic [ref=f10e145]: La villa est-elle climatisée ?
+                - img [ref=f10e146]
+              - paragraph [ref=f10e149]: Non, mais la villa est conçue avec une excellente ventilation naturelle. Des ventilateurs sont à disposition pour votre confort.
+            - generic [ref=f10e150]:
+              - button "Peut-on louer pour un grand groupe ?" [ref=f10e151] [cursor=pointer]:
+                - generic [ref=f10e152]: Peut-on louer pour un grand groupe ?
+                - img [ref=f10e153]
+              - paragraph [ref=f10e156]:
+                - text: La villa peut accueillir jusqu'à
+                - strong [ref=f10e157]: 6 personnes
+                - text: . Pour les groupes plus grands, il est possible de louer simultanément la maison identique située en face — sous réserve de disponibilité.
+                - link [ref=f10e158] [cursor=pointer]:
+                  - /url: contact.html
+                  - text: Contactez-nous
+                - text: pour en savoir plus.
+          - generic [ref=f10e159]:
+            - heading "Saint-Trojan — Maison" [level=2] [ref=f10e160]
+            - generic [ref=f10e161]:
+              - button "À quelle distance se trouve la plage ?" [ref=f10e162] [cursor=pointer]:
+                - generic [ref=f10e163]: À quelle distance se trouve la plage ?
+                - img [ref=f10e164]
+              - paragraph [ref=f10e167]: La maison est située à proximité immédiate de la piste cyclable qui mène à la plage et au village. Le centre du village est à quelques minutes.
+            - generic [ref=f10e168]:
+              - button "Y a-t-il un jardin ?" [ref=f10e169] [cursor=pointer]:
+                - generic [ref=f10e170]: Y a-t-il un jardin ?
+                - img [ref=f10e171]
+              - paragraph [ref=f10e174]: Oui, la maison dispose d'un jardin arboré et d'une terrasse, parfaits pour profiter du climat doux de l'Île d'Oléron.
+            - generic [ref=f10e175]:
+              - button "Peut-on louer les deux maisons ensemble ?" [ref=f10e176] [cursor=pointer]:
+                - generic [ref=f10e177]: Peut-on louer les deux maisons ensemble ?
+                - img [ref=f10e178]
+              - paragraph [ref=f10e181]:
+                - text: Oui, selon les disponibilités, il est possible de louer les deux maisons ensemble pour les grandes familles ou les groupes d'amis.
+                - link [ref=f10e182] [cursor=pointer]:
+                  - /url: contact.html
+                  - text: Contactez-nous
+                - text: pour vérifier les disponibilités.
+          - generic [ref=f10e183]:
+            - heading "Réservation" [level=2] [ref=f10e184]
+            - generic [ref=f10e185]:
+              - button "Comment réserver ?" [ref=f10e186] [cursor=pointer]:
+                - generic [ref=f10e187]: Comment réserver ?
+                - img [ref=f10e188]
+              - paragraph [ref=f10e191]: Vous pouvez réserver directement sur ce site ou via Airbnb. Les réservations en direct offrent souvent les meilleurs tarifs, sans frais de plateforme supplémentaires.
+            - generic [ref=f10e192]:
+              - button "Quelle est la politique d'annulation ?" [ref=f10e193] [cursor=pointer]:
+                - generic [ref=f10e194]: Quelle est la politique d'annulation ?
+                - img [ref=f10e195]
+              - paragraph [ref=f10e198]: Les conditions d'annulation dépendent des dates de séjour et de la plateforme de réservation. Veuillez consulter la page de réservation pour les conditions exactes applicables à votre séjour.
+            - generic [ref=f10e199]:
+              - button "Proposez-vous des réductions pour longs séjours ?" [ref=f10e200] [cursor=pointer]:
+                - generic [ref=f10e201]: Proposez-vous des réductions pour longs séjours ?
+                - img [ref=f10e202]
+              - paragraph [ref=f10e205]:
+                - text: Oui, des
+                - strong [ref=f10e206]: réductions mensuelles
+                - text: sont disponibles pour les télétravailleurs, les digital nomads et les séjours prolongés.
+                - link [ref=f10e207] [cursor=pointer]:
+                  - /url: contact.html
+                  - text: Contactez-nous
+                - text: pour un devis personnalisé.
+        - generic [ref=f10e208]:
+          - heading "Vous ne trouvez pas votre réponse ?" [level=2] [ref=f10e209]
+          - paragraph [ref=f10e210]: Notre équipe est à votre écoute pour toute question. Nous vous répondons sous 1 heure en journée, 7j/7.
+          - generic [ref=f10e211]:
+            - link "Contactez-nous" [ref=f10e212] [cursor=pointer]:
+              - /url: contact.html
+            - link "Voir nos locations" [ref=f10e213] [cursor=pointer]:
+              - /url: "#locations"
+  - contentinfo "Pied de page" [ref=f10e214]:
+    - generic [ref=f10e215]:
+      - generic [ref=f10e216]:
+        - generic [ref=f10e217]:
+          - link "CalmRio" [ref=f10e218] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=f10e219]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          - generic [ref=f10e220]:
+            - link "Instagram CalmRio" [ref=f10e221] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f10e222]
+            - link "Facebook CalmRio" [ref=f10e224] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f10e225]
+        - generic [ref=f10e227]:
+          - heading "Navigation" [level=2] [ref=f10e228]
+          - list [ref=f10e229]:
+            - listitem [ref=f10e230]:
+              - link "Accueil" [ref=f10e231] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=f10e232]:
+              - link "Nos Locations" [ref=f10e233] [cursor=pointer]:
+                - /url: "#locations"
+            - listitem [ref=f10e234]:
+              - link "Guide Local" [ref=f10e235] [cursor=pointer]:
+                - /url: local-guide.html
+            - listitem [ref=f10e236]:
+              - link "À Propos" [ref=f10e237] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=f10e238]:
+              - link "Contact" [ref=f10e239] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f10e240]:
+              - link "FAQ" [ref=f10e241] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=f10e242]:
+          - heading "Nos Locations" [level=2] [ref=f10e243]
+          - list [ref=f10e244]:
+            - listitem [ref=f10e245]:
+              - link "Appartement Royan" [ref=f10e246] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f10e247]:
+              - link "Villa Saint-Trojan" [ref=f10e248] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f10e249]:
+              - link "Maison Saint-Trojan" [ref=f10e250] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f10e251]:
+          - heading "Contact" [level=2] [ref=f10e252]
+          - list [ref=f10e253]:
+            - listitem [ref=f10e254]:
+              - img [ref=f10e255]
+              - link "bonjour@calmrio.fr" [ref=f10e258] [cursor=pointer]:
+                - /url: mailto:bonjour@calmrio.fr
+            - listitem [ref=f10e259]:
+              - img [ref=f10e260]
+              - link "+33 (0)6 XX XX XX XX" [ref=f10e262] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=f10e263]:
+              - img [ref=f10e264]
+              - generic [ref=f10e267]:
+                - text: Royan & Saint-Trojan-les-Bains
+                - text: Nouvelle-Aquitaine, France
+      - generic [ref=f10e268]:
+        - paragraph [ref=f10e269]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f10e270]:
+          - listitem [ref=f10e271]:
+            - link "Mentions légales" [ref=f10e272] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f10e273]:
+            - link "Politique de confidentialité" [ref=f10e274] [cursor=pointer]:
+              - /url: "#"

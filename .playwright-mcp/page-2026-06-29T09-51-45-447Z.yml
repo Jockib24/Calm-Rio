@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e18]:
+    - generic [ref=e24]:
+      - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=e28]
+      - search [ref=e30]:
+        - generic [ref=e32]:
+          - tablist [ref=e34]:
+            - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+              - generic [ref=e41]: Logements
+            - tab "Expériences, nouveautés" [ref=e42] [cursor=pointer]:
+              - generic [ref=e47]:
+                - text: NOUVEAU
+                - generic [ref=e48]: NOUVEAU
+              - generic [ref=e51]: Expériences, nouveautés
+            - tab "Services, nouveautés" [ref=e52] [cursor=pointer]:
+              - generic [ref=e57]:
+                - text: NOUVEAU
+                - generic [ref=e58]: NOUVEAU
+              - generic [ref=e61]: Services, nouveautés
+          - search "Commencez votre recherche" [ref=e66] [cursor=pointer]:
+            - generic [ref=e67]: Commencez votre recherche
+            - generic [ref=e68]:
+              - button "Destination" [disabled] [ref=e69]:
+                - generic [ref=e70]: Destination
+              - button "Arrivée/Départ" [disabled] [ref=e75]:
+                - generic [ref=e76]: Arrivée/Départ
+              - button "Voyageurs" [disabled] [ref=e80]:
+                - generic [ref=e81]: Voyageurs
+            - img [ref=e87]
+      - navigation "Profil" [ref=e92]:
+        - generic [ref=e93]:
+          - button "Devenir hôte" [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: Devenir hôte
+          - button "Choisissez une langue et une devise" [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+        - button "Menu de navigation principal" [ref=e103] [cursor=pointer]:
+          - img [ref=e105]
+    - main [ref=e108]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e120]:
+            - heading "Maison individuelle 6 pers" [level=1] [ref=e123]
+            - generic [ref=e125]:
+              - button "Partager" [ref=e127] [cursor=pointer]:
+                - generic [ref=e128]:
+                  - img [ref=e130]
+                  - text: Partager
+              - button "Ajouter aux favoris" [ref=e133] [cursor=pointer]:
+                - generic [ref=e134]:
+                  - img [ref=e136]
+                  - text: Enregistrer
+          - generic [ref=e146]:
+            - generic [ref=e148]:
+              - button "Image 1 du logement Maison individuelle 6 pers" [ref=e153] [cursor=pointer]:
+                - img [ref=e156]
+              - generic [ref=e158]:
+                - button "Image 2 du logement Maison individuelle 6 pers" [ref=e162] [cursor=pointer]:
+                  - img [ref=e165]
+                - button "Image 3 du logement Maison individuelle 6 pers" [ref=e169] [cursor=pointer]:
+                  - img [ref=e172]
+              - generic [ref=e174]:
+                - button "Image 4 du logement Maison individuelle 6 pers" [ref=e178] [cursor=pointer]:
+                  - img [ref=e181]
+                - button "Image 5 du logement Maison individuelle 6 pers" [ref=e185] [cursor=pointer]:
+                  - img [ref=e188]
+            - button "Afficher toutes les photos" [ref=e190] [cursor=pointer]:
+              - generic [ref=e191]:
+                - generic:
+                  - img
+                  - text: Afficher toutes les photos
+        - generic [ref=e193]:
+          - generic [ref=e195]:
+            - generic [ref=e200]:
+              - 'heading "Logement entier : hébergement - Saint-Trojan-les-Bains, France" [level=2] [ref=e202]'
+              - list [ref=e204]:
+                - listitem [ref=e205]: 6 voyageurs
+                - listitem [ref=e206]:
+                  - generic [ref=e207]: ·
+                  - text: 3 chambres
+                - listitem [ref=e208]:
+                  - generic [ref=e209]: ·
+                  - text: 4 lits
+                - listitem [ref=e210]:
+                  - generic [ref=e211]: ·
+                  - text: 1 salle de bain
+              - generic [ref=e212]:
+                - img [ref=e214]
+                - generic [ref=e216]: 5,0 étoile(s) sur 5.
+                - generic [ref=e217]: 5,0
+                - generic [ref=e218]: ·
+                - link "1 commentaire" [ref=e219] [cursor=pointer]:
+                  - /url: /rooms/1431741688356720747/reviews?source_impression_id=p3_1782726702_P3ZS8-l4MHx67DQr&review_page_entrypoint=pdp_header
+            - generic [ref=e225]:
+              - button "En savoir plus sur Agnès." [ref=e227] [cursor=pointer]:
+                - img "Photo de profil d'hôte" [ref=e229]:
+                  - img [ref=e230]
+              - generic [ref=e231]:
+                - generic [ref=e232]: "Hôte : Agnès"
+                - list [ref=e234]:
+                  - listitem [ref=e235]: Hôte depuis 1 an
+            - generic [ref=e240]:
+              - heading "Mise en avant des annonces" [level=2] [ref=e242]
+              - generic [ref=e246]:
+                - img [ref=e248]
+                - generic [ref=e250]:
+                  - heading "Calme et paisible" [level=3] [ref=e252]
+                  - generic [ref=e253]: Ce logement se trouve dans un environnement calme.
+            - generic [ref=e257]:
+              - generic [ref=e261]:
+                - text: Maison individuelle pour 6 pers comprenant séjour/salle à manger, trois chambres (2 chambres avec lit de 160x200 et 1 chambre avec 2 lits de 90x200), cuisine, salle de bains, wc indépendant, terrasse et jardin arboré.
+                - text: A proximité de la piste cyclable, de la plage et du centre village.
+                - text: Draps, serviettes de toilette et torchons fournis.
+                - text: Equipement bébé disponible sur demande.
+                - text: Pour les familles nombreuses, possibilité de louer une maison de capacité identique, située en face (selon disponibilité)
+                - text: Détails de l'enregistrement
+                - text: 17411000071C5
+              - button "Show more about this place" [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]: Lire la suite
+            - region "Où vous dormirez" [ref=e269]:
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - heading "Où vous dormirez" [level=2] [ref=e275]
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - generic [ref=e278]: 1 sur 2 pages
+                      - generic [ref=e279]: 1 / 2
+                    - button "Précédent" [disabled] [ref=e281]:
+                      - img [ref=e283]
+                    - button "Suivant" [ref=e286] [cursor=pointer]:
+                      - img [ref=e288]
+                - list [ref=e291]:
+                  - listitem [ref=e292]:
+                    - button "Chambre 1 Chambre 1 1 lit king size" [ref=e295] [cursor=pointer]:
+                      - generic [ref=e296]:
+                        - img "Chambre 1" [ref=e298]:
+                          - img [ref=e300]
+                        - generic [ref=e301]: Chambre 1
+                        - generic [ref=e302]: 1 lit king size
+                  - listitem [ref=e303]:
+                    - button "Chambre 2 Chambre 2 1 lit king size" [ref=e306] [cursor=pointer]:
+                      - generic [ref=e307]:
+                        - img "Chambre 2" [ref=e309]:
+                          - img [ref=e311]
+                        - generic [ref=e312]: Chambre 2
+                        - generic [ref=e313]: 1 lit king size
+                  - listitem [ref=e314]:
+                    - button "Chambre 3 Chambre 3 2 lits simples" [ref=e317] [cursor=pointer]:
+                      - generic [ref=e318]:
+                        - img "Chambre 3" [ref=e320]:
+                          - img [ref=e322]
+                        - generic [ref=e323]: Chambre 3
+                        - generic [ref=e324]: 2 lits simples
+          - complementary "Informations de réservation" [ref=e332]:
+            - generic [ref=e335]:
+              - generic [ref=e339]:
+                - generic [ref=e340]: Indiquez vos dates pour afficher les prix
+                - generic [ref=e341]: Indiquez vos dates pour afficher les prix
+              - generic [ref=e345]:
+                - 'button "Modifier les dates; Arrivée: Ajouter une date; Départ: Ajouter une date" [ref=e349] [cursor=pointer]':
+                  - generic [ref=e350]:
+                    - generic: Arrivée
+                    - generic [ref=e351]: Ajouter une date
+                  - generic [ref=e352]:
+                    - generic: Départ
+                    - generic [ref=e353]: Ajouter une date
+                - button "1 voyageur" [ref=e357]:
+                  - generic [ref=e358]:
+                    - generic: Voyageurs
+                    - generic [ref=e360] [cursor=pointer]: 1 voyageur
+                  - generic:
+                    - img
+              - button "Vérifier la disponibilité" [ref=e363] [cursor=pointer]:
+                - generic [ref=e364]:
+                  - generic: Vérifier la disponibilité

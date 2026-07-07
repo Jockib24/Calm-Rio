@@ -1,0 +1,153 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://calm-rio.com/royan-appartement.html",
+      "name": "Appartement neuf bord de plage — Royan",
+      "description": "Appartement neuf de 60m² avec terrasse de 20m², à 100m de la plage de la Grande Conche à Royan. 2 chambres, 4 personnes, parking, wifi, espace télétravail.",
+      "url": "https://calm-rio.com/royan-appartement.html",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Royan",
+        "addressRegion": "Nouvelle-Aquitaine",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.614336,
+        "longitude": -1.012936
+      },
+      "telephone": "+212 662-669887",
+      "email": "contact@calm-rio.com",
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-1101432035369683458/original/3577b5b7-fb96-41d4-b20c-fd97e25b15a1.jpeg",
+      "priceRange": "€€",
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wifi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Parking", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Kitchen", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Dedicated workspace", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Pets allowed", "value": true }
+      ]
+    },
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://calm-rio.com/saint-trojan-villa.html",
+      "name": "Belle villa neuve de bord de mer pour 6 pers — Saint-Trojan-les-Bains",
+      "description": "Villa neuve de 110m² à Saint-Trojan-les-Bains pour 6 personnes. 3 chambres, jardin clos, terrasses, plage à vélo, télétravail, animaux acceptés.",
+      "url": "https://calm-rio.com/saint-trojan-villa.html",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Saint-Trojan-les-Bains",
+        "addressRegion": "Nouvelle-Aquitaine",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.84232,
+        "longitude": -1.206912
+      },
+      "telephone": "+212 662-669887",
+      "email": "contact@calm-rio.com",
+      "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg",
+      "priceRange": "€€",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.95,
+        "reviewCount": 40
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wifi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Parking", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Kitchen", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Garden", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Pets allowed", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "EV charging", "value": true }
+      ]
+    },
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://calm-rio.com/saint-trojan-maison.html",
+      "name": "Maison individuelle 6 pers — Saint-Trojan-les-Bains",
+      "description": "Maison individuelle pour 6 personnes à Saint-Trojan-les-Bains, île d'Oléron. 3 chambres, jardin, proche plage et pistes cyclables.",
+      "url": "https://calm-rio.com/saint-trojan-maison.html",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Saint-Trojan-les-Bains",
+        "addressRegion": "Nouvelle-Aquitaine",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.84232,
+        "longitude": -1.206912
+      },
+      "telephone": "+212 662-669887",
+      "email": "contact@calm-rio.com",
+      "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/e330beaf-cfaa-4576-81cb-2d6d328a3425.jpeg",
+      "priceRange": "€€",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 5,
+        "reviewCount": 1
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wifi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Parking", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Kitchen", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Garden", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Pets allowed", "value": true }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Les animaux sont-ils acceptés ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, les animaux sont acceptés dans nos trois propriétés. Merci d'informer l'hôte à l'avance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le parking est-il inclus ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, un parking gratuit sur place est disponible dans toutes les propriétés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les horaires d'arrivée et de départ ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "L'arrivée est à partir de 16h. Le départ est avant 10h."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://calm-rio.com/#organization",
+      "name": "CalmRio",
+      "url": "https://calm-rio.com",
+      "logo": "https://calm-rio.com/assets/icons/favicon.svg",
+      "telephone": "+212 662-669887",
+      "email": "contact@calm-rio.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MA"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://calm-rio.com/#website",
+      "name": "CalmRio — Locations de vacances premium",
+      "url": "https://calm-rio.com",
+      "inLanguage": "fr-FR",
+      "publisher": { "@id": "https://calm-rio.com/#organization" }
+    }
+  ]
+}

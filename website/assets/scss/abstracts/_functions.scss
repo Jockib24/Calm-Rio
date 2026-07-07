@@ -1,0 +1,119 @@
+// ============================================================
+// CalmRio — SCSS Functions
+// ============================================================
+
+@use 'sass:math';
+@use 'sass:map';
+
+// ------------------------------------------------------------
+// rem($px) — Convert pixel value to rem (base 16px)
+// Usage: width: rem(32); → width: 2rem;
+// ------------------------------------------------------------
+@function rem($px) {
+  @if math.is-unitless($px) {
+    @return math.div($px, 16) * 1rem;
+  }
+  @error 'rem() expects a unitless number but got #{$px}.';
+}
+
+// ------------------------------------------------------------
+// em($px) — Convert pixel value to em (base 16px)
+// Usage: font-size: em(18); → font-size: 1.125em;
+// ------------------------------------------------------------
+@function em($px) {
+  @if math.is-unitless($px) {
+    @return math.div($px, 16) * 1em;
+  }
+  @error 'em() expects a unitless number but got #{$px}.';
+}
+
+// ------------------------------------------------------------
+// fluid($min, $max, $min-vw, $max-vw) — Fluid clamp value
+// Usage: font-size: fluid(16, 32); → clamp(1rem, ... , 2rem);
+// ------------------------------------------------------------
+@function fluid($min, $max, $min-vw: 320, $max-vw: 1400) {
+  $min-rem: rem($min);
+  $max-rem: rem($max);
+
+  // slope = (max - min) / (max-vw - min-vw) * 100vw
+  $slope: math.div($max - $min, $max-vw - $min-vw);
+  $slope-vw: $slope * 100vw;
+
+  // intercept = min - slope * min-vw
+  $intercept: $min - $slope * $min-vw;
+  $intercept-rem: rem($intercept);
+
+  @return clamp(#{$min-rem}, #{$intercept-rem} + #{$slope-vw}, #{$max-rem});
+}
+
+// ------------------------------------------------------------
+// z($layer) — Access z-index scale by name
+// Usage: z-index: z(modal); → z-index: var(--z-modal);
+// ------------------------------------------------------------
+$z-layers: (
+  'below': var(--z-below),
+  'base': var(--z-base),
+  'dropdown': var(--z-dropdown),
+  'sticky': var(--z-sticky),
+  'overlay': var(--z-overlay),
+  'modal': var(--z-modal),
+  'toast': var(--z-toast),
+);
+
+@function z($layer) {
+  @if not map.has-key($z-layers, $layer) {
+    @error 'z(): Unknown layer "#{$layer}". Available: #{map.keys($z-layers)}';
+  }
+  @return map.get($z-layers, $layer);
+}
+
+// ------------------------------------------------------------
+// tint($color, $percentage) — Lighten by mixing with white
+// ------------------------------------------------------------
+@function tint($color, $percentage) {
+  @return mix(#FFFFFF, $color, $percentage);
+}
+
+// ------------------------------------------------------------
+// shade($color, $percentage) — Darken by mixing with black
+// ------------------------------------------------------------
+@function shade($color, $percentage) {
+  @return mix(#000000, $color, $percentage);
+}
+
+// ------------------------------------------------------------
+// color($name) — Access color tokens
+// Usage: color: color(primary);
+// ------------------------------------------------------------
+$color-tokens: (
+  'primary': var(--color-primary),
+  'primary-light': var(--color-primary-light),
+  'primary-dark': var(--color-primary-dark),
+  'secondary': var(--color-secondary),
+  'secondary-light': var(--color-secondary-light),
+  'secondary-dark': var(--color-secondary-dark),
+  'accent': var(--color-accent),
+  'accent-light': var(--color-accent-light),
+  'accent-dark': var(--color-accent-dark),
+  'bg': var(--color-bg),
+  'bg-alt': var(--color-bg-alt),
+  'surface': var(--color-surface),
+  'surface-alt': var(--color-surface-alt),
+  'border': var(--color-border),
+  'border-light': var(--color-border-light),
+  'text': var(--color-text),
+  'text-secondary': var(--color-text-secondary),
+  'text-muted': var(--color-text-muted),
+  'text-inverse': var(--color-text-inverse),
+  'success': var(--color-success),
+  'warning': var(--color-warning),
+  'error': var(--color-error),
+  'info': var(--color-info),
+);
+
+@function color($name) {
+  @if not map.has-key($color-tokens, $name) {
+    @error 'color(): Unknown color "#{$name}". Available: #{map.keys($color-tokens)}';
+  }
+  @return map.get($color-tokens, $name);
+}

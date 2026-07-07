@@ -1,0 +1,119 @@
+- generic [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e11]:
+    - generic [ref=e18]:
+      - generic [ref=e24]:
+        - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img [ref=e28]
+        - search [ref=e30]:
+          - generic [ref=e32]:
+            - tablist [ref=e34]:
+              - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+                - generic [ref=e41]: Logements
+              - tab "Expériences, nouveautés" [ref=e42] [cursor=pointer]:
+                - generic [ref=e47]:
+                  - text: NOUVEAU
+                  - generic [ref=e48]: NOUVEAU
+                - generic [ref=e51]: Expériences, nouveautés
+              - tab "Services, nouveautés" [ref=e52] [cursor=pointer]:
+                - generic [ref=e57]:
+                  - text: NOUVEAU
+                  - generic [ref=e58]: NOUVEAU
+                - generic [ref=e61]: Services, nouveautés
+            - search "Commencez votre recherche" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: Commencez votre recherche
+              - generic [ref=e65]:
+                - button "Destination" [disabled] [ref=e66]:
+                  - generic [ref=e67]: Destination
+                - button "Arrivée/Départ" [disabled] [ref=e72]:
+                  - generic [ref=e73]: Arrivée/Départ
+                - button "Voyageurs" [disabled] [ref=e77]:
+                  - generic [ref=e78]: Voyageurs
+              - img [ref=e84]
+        - navigation "Profil" [ref=e89]:
+          - generic [ref=e90]:
+            - link "Devenir hôte" [ref=e91] [cursor=pointer]:
+              - /url: "#guest-header-become-a-host-menu"
+              - generic [ref=e92]: Devenir hôte
+            - link "Choisissez une langue et une devise" [ref=e94] [cursor=pointer]:
+              - /url: "#simple-header-locale-menu-combined"
+              - img [ref=e96]
+          - generic [ref=e99]:
+            - link "Menu de navigation principal" [ref=e100] [cursor=pointer]:
+              - /url: "#guest-header-dropdownmenu"
+              - img [ref=e102]
+            - link "Fermer":
+              - /url: "#"
+      - main [ref=e105]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e117]:
+              - heading "Appartement neuf bord de plage" [level=1] [ref=e120]
+              - generic [ref=e122]:
+                - button "Partager" [ref=e124] [cursor=pointer]:
+                  - generic [ref=e125]:
+                    - img [ref=e127]
+                    - text: Partager
+                - button "Ajouter aux favoris" [ref=e130] [cursor=pointer]:
+                  - generic [ref=e131]:
+                    - img [ref=e133]
+                    - text: Enregistrer
+            - generic [ref=e143]:
+              - generic [ref=e145]:
+                - button "Image 1 du logement Appartement neuf bord de plage" [ref=e150] [cursor=pointer]:
+                  - img [ref=e153]
+                - generic [ref=e155]:
+                  - button "Image 2 du logement Appartement neuf bord de plage" [ref=e159] [cursor=pointer]:
+                    - img [ref=e162]
+                  - button "Image 3 du logement Appartement neuf bord de plage" [ref=e166] [cursor=pointer]:
+                    - img [ref=e169]
+                - generic [ref=e171]:
+                  - button "Image 4 du logement Appartement neuf bord de plage" [ref=e175] [cursor=pointer]:
+                    - img [ref=e178]
+                  - button "Image 5 du logement Appartement neuf bord de plage" [ref=e182] [cursor=pointer]:
+                    - img [ref=e185]
+              - button "Afficher toutes les photos" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]:
+                  - generic:
+                    - img
+                    - text: Afficher toutes les photos
+          - complementary "Informations de réservation" [ref=e205]:
+            - generic [ref=e208]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: Indiquez vos dates pour afficher les prix
+                - generic [ref=e214]: Indiquez vos dates pour afficher les prix
+              - generic [ref=e218]:
+                - 'button "Modifier les dates; Arrivée: Ajouter une date; Départ: Ajouter une date" [ref=e222] [cursor=pointer]':
+                  - generic [ref=e223]:
+                    - generic: Arrivée
+                    - generic [ref=e224]: Ajouter une date
+                  - generic [ref=e225]:
+                    - generic: Départ
+                    - generic [ref=e226]: Ajouter une date
+                - button "1 voyageur" [ref=e230]:
+                  - generic [ref=e231]:
+                    - generic: Voyageurs
+                    - generic [ref=e233] [cursor=pointer]: 1 voyageur
+                  - generic:
+                    - img
+              - button "Vérifier la disponibilité" [ref=e236] [cursor=pointer]:
+                - generic [ref=e237]:
+                  - generic: Vérifier la disponibilité
+    - generic [ref=e247]:
+      - generic [ref=e248]:
+        - heading "Aidez-nous à améliorer votre expérience" [level=1] [ref=e250]:
+          - generic [ref=e251]: Aidez-nous à améliorer votre expérience
+        - paragraph [ref=e252]:
+          - text: Nous utilisons des cookies et d'autres technologies pour personnaliser notre contenu, mesurer l'efficacité de nos publicités et vous offrir une expérience optimisée. Certains cookies sont nécessaires au fonctionnement du site et ne peuvent pas être désactivés. En acceptant, vous acceptez la
+          - link "Politique d'Airbnb en matière de cookies" [ref=e253] [cursor=pointer]:
+            - /url: /terms/cookie_policy
+          - text: . Vous pouvez mettre à jour vos préférences à tout moment.
+      - generic [ref=e254]:
+        - button "Accepter tout" [active] [ref=e256] [cursor=pointer]
+        - button "Uniquement les cookies nécessaires" [ref=e258] [cursor=pointer]
+        - button "Gérer les préférences" [ref=e260] [cursor=pointer]

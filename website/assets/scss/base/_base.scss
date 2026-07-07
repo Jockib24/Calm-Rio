@@ -1,0 +1,136 @@
+// ============================================================
+// CalmRio — Base Element Styles
+// ============================================================
+
+// ------------------------------------------------------------
+// HTML
+// ------------------------------------------------------------
+html {
+  scroll-behavior: smooth;
+  font-size: 100%; // 16px base for rem calculations
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+// ------------------------------------------------------------
+// Body
+// ------------------------------------------------------------
+body {
+  font-family: var(--font-body);
+  font-size: var(--body-size);
+  font-weight: var(--body-weight);
+  line-height: var(--body-line-height);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ------------------------------------------------------------
+// Images & Media
+// ------------------------------------------------------------
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// Prevent image alt text from showing while loading
+img {
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
+
+// ------------------------------------------------------------
+// Selection
+// ------------------------------------------------------------
+::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+
+::-moz-selection {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+
+// ------------------------------------------------------------
+// Focus visible global
+// ------------------------------------------------------------
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+// Remove focus styles for mouse users
+:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+// ------------------------------------------------------------
+// Skip link (accessibility)
+// ------------------------------------------------------------
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-4);
+  padding: var(--space-3) var(--space-5);
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  z-index: var(--z-toast);
+  transition: top var(--transition-fast);
+
+  &:focus {
+    top: var(--space-4);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Horizontal rules
+// ------------------------------------------------------------
+hr {
+  border: 0;
+  height: 1px;
+  background-color: var(--color-border);
+  margin: var(--space-8) 0;
+}
+
+// ------------------------------------------------------------
+// Details / Summary
+// ------------------------------------------------------------
+details {
+  summary {
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+}
+
+// ------------------------------------------------------------
+// ::before and ::after inherit box-sizing
+// ------------------------------------------------------------
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

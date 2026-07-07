@@ -1,0 +1,36 @@
+property,poi_type,name,walking_distance,walking_time,driving_distance,driving_time,latitude,longitude,source
+Royan,beach,Plage de la Grande Conche,100m,1min,N/A,N/A,45.614336,-1.012936,OpenStreetMap
+Royan,city_center,Royan town center,2260m,27min,3km,5min,45.624533,-1.028764,OpenStreetMap
+Royan,restaurant,Les Baigneuses de Royan,1570m,19min,3km,4min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Royan,cafe,La Cigale de Royan,1310m,16min,3km,4min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Royan,market,Marché central,2780m,33min,3km,5min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Royan,supermarket,Biocoop,3760m,45min,4km,6min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Royan,pharmacy,Pharmacie du Parc,530m,6min,2km,2min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Royan,hospital,Centre hospitalier de Royan,6260m,75min,6km,10min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Royan,atm,La Banque Postale,1830m,22min,3km,4min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Royan,parking,On premises,0m,0min,N/A,N/A,UNKNOWN,UNKNOWN,Listing
+Royan,train_station,Gare de Royan,~2km,25min,N/A,N/A,UNKNOWN,UNKNOWN,Wikivoyage
+Royan,bus_station,Gare routière Royan,~2km,25min,N/A,N/A,UNKNOWN,UNKNOWN,Wikivoyage
+Royan,airport,Aéroport Rochefort-Saint-Agnant,N/A,N/A,34-36km,31-38min,UNKNOWN,UNKNOWN,Mappy
+Royan,airport,Aéroport La Rochelle-Île de Ré,N/A,N/A,77km,65-71min,UNKNOWN,UNKNOWN,Mappy
+Royan,airport,Bordeaux-Mérignac,N/A,N/A,105-143km,101-122min,UNKNOWN,UNKNOWN,Mappy
+Royan,city,La Rochelle,N/A,N/A,72-77km,63-69min,UNKNOWN,UNKNOWN,Mappy
+Royan,zoo,Zoo de La Palmyre,N/A,N/A,15km,20min,UNKNOWN,UNKNOWN,Sub-agent
+Saint-Trojan,beach,Plage de Gatseau,UNKNOWN,UNKNOWN,5-10min,N/A,45.812481,-1.218326,OpenStreetMap
+Saint-Trojan,city_center,Saint-Trojan village center,UNKNOWN,5-10min bike,2km,2min,45.842320,-1.206912,Host/OSM
+Saint-Trojan,restaurant,Saint Tro',320m,4min,1km,1min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Saint-Trojan,cafe,Bar de la Paix,230m,3min,1km,1min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Saint-Trojan,market,Marché couvert,50m,1min,1km,1min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Saint-Trojan,supermarket,Spar,390m,5min,2km,2min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Saint-Trojan,pharmacy,Pharmacie du Coureau,7300m,88min,10km,10min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Saint-Trojan,hospital,Centre hospitalier de Rochefort,N/A,N/A,39km,36-41min,UNKNOWN,UNKNOWN,Mappy
+Saint-Trojan,atm,Banque Populaire Le Château-d'Oléron,7350m,88min,10km,10min,UNKNOWN,UNKNOWN,Sub-agent/OSM
+Saint-Trojan,parking,On premises,0m,0min,N/A,N/A,UNKNOWN,UNKNOWN,Listing
+Saint-Trojan,attraction,Le P'tit Train de Saint-Trojan,N/A,N/A,N/A,N/A,UNKNOWN,UNKNOWN,Sub-agent
+Saint-Trojan,train_station,Gare de Rochefort,N/A,N/A,39km,37-43min,UNKNOWN,UNKNOWN,Mappy
+Saint-Trojan,airport,Aéroport Rochefort-Saint-Agnant,N/A,N/A,29-34km,35-36min,UNKNOWN,UNKNOWN,Mappy
+Saint-Trojan,airport,Aéroport La Rochelle-Île de Ré,N/A,N/A,76-77km,63-70min,UNKNOWN,UNKNOWN,Mappy
+Saint-Trojan,city,Royan,N/A,N/A,44-47km,49-57min,UNKNOWN,UNKNOWN,Mappy
+Saint-Trojan,city,La Rochelle,N/A,N/A,71-76km,62-67min,UNKNOWN,UNKNOWN,Mappy
+Saint-Trojan,attraction,Fort Boyard,N/A,N/A,boat trip,boat trip,UNKNOWN,UNKNOWN,Sub-agent
+Saint-Trojan,attraction,Château-d'Oléron,N/A,N/A,10km,15min,UNKNOWN,UNKNOWN,Sub-agent

@@ -1,0 +1,155 @@
+- generic [active] [ref=f21e1]:
+  - link "Aller au contenu principal" [ref=f21e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f21e3]:
+    - generic [ref=f21e4]:
+      - link "CalmRio — Accueil" [ref=f21e5] [cursor=pointer]:
+        - /url: index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=f21e6]:
+        - list [ref=f21e7]:
+          - listitem [ref=f21e8]:
+            - link "Accueil" [ref=f21e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=f21e10]:
+            - link "Nos Locations" [ref=f21e11] [cursor=pointer]:
+              - /url: "#locations"
+          - listitem [ref=f21e12]:
+            - link "Guide Local" [ref=f21e13] [cursor=pointer]:
+              - /url: local-guide.html
+          - listitem [ref=f21e14]:
+            - link "À Propos" [ref=f21e15] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=f21e16]:
+            - link "Contact" [ref=f21e17] [cursor=pointer]:
+              - /url: contact.html
+      - link "Réserver" [ref=f21e18] [cursor=pointer]:
+        - /url: "#locations"
+  - main [ref=f21e19]:
+    - navigation "Fil d'Ariane" [ref=f21e20]:
+      - link "Accueil" [ref=f21e22] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=f21e23]: / Page non trouvée
+    - region "Oups ! Page non trouvée" [ref=f21e24]:
+      - generic [ref=f21e26]:
+        - img [ref=f21e28]:
+          - generic [ref=f21e37]: "404"
+        - heading "Oups ! Page non trouvée" [level=1] [ref=f21e39]
+        - paragraph [ref=f21e40]: Il semble que cette page ait pris le large...
+        - paragraph [ref=f21e41]: La page que vous recherchez n'existe pas ou a été déplacée. Mais ne vous inquiétez pas, nos locations vous attendent !
+        - generic [ref=f21e42]:
+          - link "Retour à l'accueil" [ref=f21e43] [cursor=pointer]:
+            - /url: index.html
+          - link "Voir nos locations" [ref=f21e44] [cursor=pointer]:
+            - /url: "#locations"
+      - generic [ref=f21e45] [cursor=pointer]:
+        - generic [ref=f21e46]: Pages populaires
+        - img [ref=f21e47]
+    - region "Pages populaires" [ref=f21e49]:
+      - generic [ref=f21e50]:
+        - generic [ref=f21e51]:
+          - generic [ref=f21e52]: Vous cherchiez peut-être
+          - heading "Pages populaires" [level=2] [ref=f21e53]
+          - paragraph [ref=f21e54]: Voici les pages les plus consultées par nos visiteurs.
+        - generic [ref=f21e55]:
+          - link "Accueil Retour à la page d'accueil" [ref=f21e56] [cursor=pointer]:
+            - /url: index.html
+            - img [ref=f21e58]
+            - heading "Accueil" [level=3] [ref=f21e61]
+            - paragraph [ref=f21e62]: Retour à la page d'accueil
+          - link "Nos Locations Découvrir nos propriétés" [ref=f21e63] [cursor=pointer]:
+            - /url: "#locations"
+            - img [ref=f21e65]
+            - heading "Nos Locations" [level=3] [ref=f21e67]
+            - paragraph [ref=f21e68]: Découvrir nos propriétés
+          - link "Guide Local Explorer la région" [ref=f21e69] [cursor=pointer]:
+            - /url: local-guide.html
+            - img [ref=f21e71]
+            - heading "Guide Local" [level=3] [ref=f21e74]
+            - paragraph [ref=f21e75]: Explorer la région
+          - link "FAQ Questions fréquentes" [ref=f21e76] [cursor=pointer]:
+            - /url: faq.html
+            - img [ref=f21e78]
+            - heading "FAQ" [level=3] [ref=f21e81]
+            - paragraph [ref=f21e82]: Questions fréquentes
+    - region "Besoin d'aide ?" [ref=f21e83]:
+      - generic [ref=f21e84]:
+        - heading "Besoin d'aide ?" [level=2] [ref=f21e85]
+        - paragraph [ref=f21e86]: Notre équipe est à votre disposition pour vous guider vers la bonne page ou répondre à vos questions.
+        - generic [ref=f21e87]:
+          - link "Nous contacter" [ref=f21e88] [cursor=pointer]:
+            - /url: contact.html
+          - link "À propos de nous" [ref=f21e89] [cursor=pointer]:
+            - /url: about.html
+  - contentinfo [ref=f21e90]:
+    - generic [ref=f21e91]:
+      - generic [ref=f21e92]:
+        - generic [ref=f21e93]:
+          - link "CalmRio" [ref=f21e94] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=f21e95]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          - generic [ref=f21e96]:
+            - link "Instagram CalmRio" [ref=f21e97] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f21e98]
+            - link "Facebook CalmRio" [ref=f21e100] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f21e101]
+        - generic [ref=f21e103]:
+          - heading "Navigation" [level=2] [ref=f21e104]
+          - list [ref=f21e105]:
+            - listitem [ref=f21e106]:
+              - link "Accueil" [ref=f21e107] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=f21e108]:
+              - link "Nos Locations" [ref=f21e109] [cursor=pointer]:
+                - /url: "#locations"
+            - listitem [ref=f21e110]:
+              - link "Guide Local" [ref=f21e111] [cursor=pointer]:
+                - /url: local-guide.html
+            - listitem [ref=f21e112]:
+              - link "À Propos" [ref=f21e113] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=f21e114]:
+              - link "Contact" [ref=f21e115] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=f21e116]:
+              - link "FAQ" [ref=f21e117] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=f21e118]:
+          - heading "Nos Locations" [level=2] [ref=f21e119]
+          - list [ref=f21e120]:
+            - listitem [ref=f21e121]:
+              - link "Appartement Royan" [ref=f21e122] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f21e123]:
+              - link "Villa Saint-Trojan" [ref=f21e124] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f21e125]:
+              - link "Maison Saint-Trojan" [ref=f21e126] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f21e127]:
+          - heading "Contact" [level=2] [ref=f21e128]
+          - list [ref=f21e129]:
+            - listitem [ref=f21e130]:
+              - img [ref=f21e131]
+              - link "bonjour@calmrio.fr" [ref=f21e134] [cursor=pointer]:
+                - /url: mailto:bonjour@calmrio.fr
+            - listitem [ref=f21e135]:
+              - img [ref=f21e136]
+              - link "+33 (0)6 XX XX XX XX" [ref=f21e138] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=f21e139]:
+              - img [ref=f21e140]
+              - generic [ref=f21e143]:
+                - text: Royan & Saint-Trojan-les-Bains
+                - text: Nouvelle-Aquitaine, France
+      - generic [ref=f21e144]:
+        - paragraph [ref=f21e145]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f21e146]:
+          - listitem [ref=f21e147]:
+            - link "Mentions légales" [ref=f21e148] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f21e149]:
+            - link "Politique de confidentialité" [ref=f21e150] [cursor=pointer]:
+              - /url: "#"

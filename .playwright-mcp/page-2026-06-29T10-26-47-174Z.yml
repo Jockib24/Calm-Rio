@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - link "Aller directement au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#site-content"
+    - text: Aller directement au contenu
+    - img [ref=e3]
+  - alert
+  - generic [ref=e18]:
+    - generic [ref=e24]:
+      - link "Page d'accueil Airbnb" [ref=e26] [cursor=pointer]:
+        - /url: /
+        - img [ref=e28]
+      - search [ref=e30]:
+        - generic [ref=e32]:
+          - tablist [ref=e34]:
+            - tab "Logements" [selected] [ref=e35] [cursor=pointer]:
+              - generic [ref=e41]: Logements
+            - tab "Expériences, nouveautés" [ref=e42] [cursor=pointer]:
+              - generic [ref=e47]:
+                - text: NOUVEAU
+                - generic [ref=e48]: NOUVEAU
+              - generic [ref=e51]: Expériences, nouveautés
+            - tab "Services, nouveautés" [ref=e52] [cursor=pointer]:
+              - generic [ref=e57]:
+                - text: NOUVEAU
+                - generic [ref=e58]: NOUVEAU
+              - generic [ref=e61]: Services, nouveautés
+          - search "Commencez votre recherche" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: Commencez votre recherche
+            - generic [ref=e65]:
+              - button "Destination" [disabled] [ref=e66]:
+                - generic [ref=e67]: Destination
+              - button "Arrivée/Départ" [disabled] [ref=e72]:
+                - generic [ref=e73]: Arrivée/Départ
+              - button "Voyageurs" [disabled] [ref=e77]:
+                - generic [ref=e78]: Voyageurs
+            - img [ref=e84]
+      - navigation "Profil" [ref=e89]:
+        - generic [ref=e90]:
+          - link "Devenir hôte" [ref=e91] [cursor=pointer]:
+            - /url: "#guest-header-become-a-host-menu"
+            - generic [ref=e92]: Devenir hôte
+          - link "Choisissez une langue et une devise" [ref=e94] [cursor=pointer]:
+            - /url: "#simple-header-locale-menu-combined"
+            - img [ref=e96]
+        - generic [ref=e99]:
+          - link "Menu de navigation principal" [ref=e100] [cursor=pointer]:
+            - /url: "#guest-header-dropdownmenu"
+            - img [ref=e102]
+          - link "Fermer":
+            - /url: "#"
+    - main [ref=e105]:
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e117]:
+            - heading "Belle villa neuve de bord de mer pour 6 pers" [level=1] [ref=e120]
+            - generic [ref=e122]:
+              - button "Partager" [ref=e124] [cursor=pointer]:
+                - generic [ref=e125]:
+                  - img [ref=e127]
+                  - text: Partager
+              - button "Ajouter aux favoris" [ref=e130] [cursor=pointer]:
+                - generic [ref=e131]:
+                  - img [ref=e133]
+                  - text: Enregistrer
+          - generic [ref=e143]:
+            - generic [ref=e145]:
+              - button "Image 1 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e150] [cursor=pointer]:
+                - img [ref=e153]
+              - generic [ref=e155]:
+                - button "Image 2 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e159] [cursor=pointer]:
+                  - img [ref=e162]
+                - button "Image 3 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e166] [cursor=pointer]:
+                  - img [ref=e169]
+              - generic [ref=e171]:
+                - button "Image 4 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e175] [cursor=pointer]:
+                  - img [ref=e178]
+                - button "Image 5 du logement Belle villa neuve de bord de mer pour 6 pers" [ref=e182] [cursor=pointer]:
+                  - img [ref=e185]
+            - button "Afficher toutes les photos" [ref=e187] [cursor=pointer]:
+              - generic [ref=e188]:
+                - generic:
+                  - img
+                  - text: Afficher toutes les photos
+        - generic [ref=e190]:
+          - generic [ref=e192]:
+            - generic [ref=e197]:
+              - 'heading "Logement entier : hébergement - Saint-Trojan-les-Bains, France" [level=2] [ref=e199]'
+              - list [ref=e201]:
+                - listitem [ref=e202]: 6 voyageurs
+                - listitem [ref=e203]:
+                  - generic [ref=e204]: ·
+                  - text: 3 chambres
+                - listitem [ref=e205]:
+                  - generic [ref=e206]: ·
+                  - text: 4 lits
+                - listitem [ref=e207]:
+                  - generic [ref=e208]: ·
+                  - text: 1 salle de bain
+            - button "Coup de cœur voyageurs. Un des logements préférés des voyageurs sur Airbnb 4,95 étoile(s) sur 5. 40 commentaires" [ref=e213] [cursor=pointer]:
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - img "Coup de cœur voyageurs." [ref=e216]:
+                    - generic [ref=e217]:
+                      - img [ref=e219]
+                      - generic [ref=e230]: Coup de cœur voyageurs
+                      - img [ref=e232]
+                  - generic [ref=e243]: Un des logements préférés des voyageurs sur Airbnb
+                - generic [ref=e244]:
+                  - generic [ref=e245]: 4,95 étoile(s) sur 5.
+                  - generic [ref=e246]: 4,95
+                  - generic [ref=e247]:
+                    - img [ref=e249]
+                    - img [ref=e251]
+                    - img [ref=e253]
+                    - img [ref=e255]
+                    - img [ref=e257]
+                - generic [ref=e260]:
+                  - generic [ref=e261]: 40 commentaires
+                  - generic [ref=e262]: "40"
+                  - generic [ref=e263]: Commentaires
+          - complementary "Informations de réservation" [ref=e273]:
+            - generic [ref=e276]:
+              - generic [ref=e280]:
+                - generic [ref=e281]: Indiquez vos dates pour afficher les prix
+                - generic [ref=e282]: Indiquez vos dates pour afficher les prix
+              - generic [ref=e286]:
+                - 'button "Modifier les dates; Arrivée: Ajouter une date; Départ: Ajouter une date" [ref=e290] [cursor=pointer]':
+                  - generic [ref=e291]:
+                    - generic: Arrivée
+                    - generic [ref=e292]: Ajouter une date
+                  - generic [ref=e293]:
+                    - generic: Départ
+                    - generic [ref=e294]: Ajouter une date
+                - button "1 voyageur" [ref=e298]:
+                  - generic [ref=e299]:
+                    - generic: Voyageurs
+                    - generic [ref=e301] [cursor=pointer]: 1 voyageur
+                  - generic:
+                    - img
+              - button "Vérifier la disponibilité" [ref=e304] [cursor=pointer]:
+                - generic [ref=e305]:
+                  - generic: Vérifier la disponibilité

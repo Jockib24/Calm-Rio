@@ -1,0 +1,266 @@
+// ==========================================================================
+// _blog.scss — Blog listing and post styles
+// CalmRio — Premium Vacation Rentals
+// ==========================================================================
+
+// --------------------------------------------------------------------------
+// Blog Grid (listing page)
+// --------------------------------------------------------------------------
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    gap: var(--space-8);
+  }
+}
+
+// --------------------------------------------------------------------------
+// Blog Card
+// --------------------------------------------------------------------------
+
+.blog-card {
+  position: relative;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: box-shadow var(--transition-fast), transform var(--transition-fast);
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+  }
+
+  .blog-card__image {
+    aspect-ratio: 16 / 9;
+    background: linear-gradient(135deg, var(--color-bg-alt), var(--color-border-light));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .blog-card__category {
+    position: absolute;
+    top: var(--space-3);
+    left: var(--space-3);
+    background: var(--color-accent);
+    color: #fff;
+    font-size: var(--xs-size, 0.75rem);
+    font-weight: var(--weight-semibold);
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-full, 999px);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .blog-card__body {
+    padding: var(--space-5);
+  }
+
+  .blog-card__meta {
+    font-size: var(--small-size);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-2);
+    display: flex;
+    gap: var(--space-3);
+    align-items: center;
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+    }
+  }
+
+  .blog-card__title {
+    font-family: var(--font-heading);
+    font-size: var(--h4-size);
+    line-height: var(--h4-line-height);
+    margin-bottom: var(--space-3);
+
+    a {
+      color: var(--color-text);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+  }
+
+  .blog-card__excerpt {
+    color: var(--color-text-secondary);
+    font-size: var(--body-size);
+    line-height: var(--body-line-height);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: var(--space-4);
+  }
+
+  .blog-card__link {
+    font-weight: var(--weight-semibold);
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: var(--small-size);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// --------------------------------------------------------------------------
+// Blog Post (single article)
+// --------------------------------------------------------------------------
+
+.blog-post {
+  max-width: var(--container-md);
+  margin: 0 auto;
+
+  // Article header
+  .blog-post__header {
+    margin-bottom: var(--space-6);
+    padding-bottom: var(--space-5);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .blog-post__meta {
+    display: flex;
+    gap: var(--space-4);
+    font-size: var(--small-size);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-3);
+    flex-wrap: wrap;
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: var(--space-1);
+
+      &:not(:last-child)::after {
+        content: '•';
+        margin-left: var(--space-2);
+        color: var(--color-border);
+      }
+    }
+  }
+
+  .blog-post__title {
+    font-family: var(--font-heading);
+    font-size: var(--h2-size);
+    line-height: var(--h2-line-height);
+    color: var(--color-text);
+    margin-bottom: var(--space-3);
+  }
+
+  .blog-post__intro {
+    font-size: var(--lead-size, 1.125rem);
+    line-height: var(--lead-line-height, 1.7);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-6);
+  }
+
+  // Article body
+  h2 {
+    font-family: var(--font-heading);
+    font-size: var(--h3-size);
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+    color: var(--color-text);
+  }
+
+  h3 {
+    font-family: var(--font-heading);
+    font-size: var(--h4-size);
+    margin-top: var(--space-6);
+    margin-bottom: var(--space-3);
+    color: var(--color-text);
+  }
+
+  p {
+    margin-bottom: var(--space-4);
+    color: var(--color-text-secondary);
+    line-height: var(--body-line-height);
+  }
+
+  ul, ol {
+    margin-bottom: var(--space-4);
+    padding-left: var(--space-5);
+    color: var(--color-text-secondary);
+    line-height: var(--body-line-height);
+
+    li {
+      margin-bottom: var(--space-2);
+    }
+  }
+
+  // Tip/Info callout box
+  .blog-post__tip {
+    background: var(--color-bg-alt);
+    padding: var(--space-5);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--color-secondary);
+    margin: var(--space-6) 0;
+
+    p {
+      margin-bottom: 0;
+      font-size: var(--small-size);
+    }
+
+    strong {
+      color: var(--color-text);
+    }
+  }
+
+  // Inline CTA
+  .blog-post__cta {
+    background: var(--color-bg-alt);
+    padding: var(--space-6);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    margin: var(--space-8) 0;
+    border: 1px solid var(--color-border);
+
+    p {
+      margin-bottom: var(--space-3);
+      font-size: var(--lead-size, 1.125rem);
+      color: var(--color-text);
+    }
+  }
+
+  // Post navigation
+  .blog-post__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--space-6);
+    margin-top: var(--space-8);
+    border-top: 1px solid var(--color-border);
+    gap: var(--space-4);
+
+    @media (max-width: 639px) {
+      flex-direction: column;
+      gap: var(--space-3);
+    }
+
+    a {
+      color: var(--color-accent);
+      text-decoration: none;
+      font-weight: var(--weight-semibold);
+      font-size: var(--small-size);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

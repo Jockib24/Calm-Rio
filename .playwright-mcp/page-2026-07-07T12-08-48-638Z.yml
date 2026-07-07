@@ -1,0 +1,558 @@
+- generic [active] [ref=f17e1]:
+  - link "Aller au contenu principal" [ref=f17e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f17e3]:
+    - generic [ref=f17e4]:
+      - link "CalmRio — Accueil" [ref=f17e5] [cursor=pointer]:
+        - /url: /
+        - text: CalmRio
+      - link "Réserver" [ref=f17e6] [cursor=pointer]:
+        - /url: "#booking-widget"
+      - button "Menu principal" [ref=f17e7] [cursor=pointer]
+  - region "Villa neuve 6 pers — Jardin clos & terrasses" [ref=f17e11]:
+    - img "Vue extérieure de la villa neuve à Saint-Trojan-les-Bains avec terrasse en bois" [ref=f17e12]
+    - generic [ref=f17e14]:
+      - generic [ref=f17e15]:
+        - img [ref=f17e16]
+        - text: Superhost · Coup de cœur voyageurs · 4,95★
+      - heading "Villa neuve 6 pers — Jardin clos & terrasses" [level=1] [ref=f17e18]
+      - paragraph [ref=f17e19]: Saint-Trojan-les-Bains, Île d'Oléron — 6 voyageurs · 3 chambres · 1 salle de bain
+      - navigation "Fil d'Ariane" [ref=f17e20]:
+        - link "Accueil" [ref=f17e21] [cursor=pointer]:
+          - /url: /
+        - text: ›
+        - link "Nos Locations" [ref=f17e22] [cursor=pointer]:
+          - /url: "#properties"
+        - text: › Villa Saint-Trojan
+  - main [ref=f17e23]:
+    - generic [ref=f17e24]:
+      - region "Galerie photos de la villa" [ref=f17e25]:
+        - button "Voir l'image 1 en plein écran" [ref=f17e27] [cursor=pointer]
+        - button "Voir l'image 1" [ref=f17e28]:
+          - button "Voir l'image 2 en plein écran" [ref=f17e29] [cursor=pointer]
+        - button "Voir l'image 2" [ref=f17e30]:
+          - button "Voir l'image 3 en plein écran" [ref=f17e31] [cursor=pointer]
+        - button "Voir l'image 3" [ref=f17e32]:
+          - button "Voir l'image 4 en plein écran" [ref=f17e33] [cursor=pointer]
+        - button "Voir l'image 4" [ref=f17e34]:
+          - button "Voir l'image 5 en plein écran" [ref=f17e35] [cursor=pointer]
+        - button "Voir les 5 photos de la villa" [ref=f17e36] [cursor=pointer]:
+          - img [ref=f17e37]
+          - text: Voir toutes les photos
+      - region "Aperçu du logement" [ref=f17e41]:
+        - generic [ref=f17e42]:
+          - img [ref=f17e43]
+          - strong [ref=f17e46]: Saint-Trojan-les-Bains
+          - text: ", Île d'Oléron"
+        - generic [ref=f17e47]:
+          - img [ref=f17e48]
+          - strong [ref=f17e52]: "6"
+          - text: voyageurs
+        - generic [ref=f17e53]:
+          - img [ref=f17e54]
+          - strong [ref=f17e56]: "3"
+          - text: chambres
+        - generic [ref=f17e57]:
+          - img [ref=f17e58]
+          - strong [ref=f17e60]: "4"
+          - text: lits
+        - generic [ref=f17e61]:
+          - img [ref=f17e62]
+          - strong [ref=f17e66]: "1"
+          - text: salle de bain
+        - generic [ref=f17e67]:
+          - generic "Note de 4,95 sur 5" [ref=f17e68]:
+            - img [ref=f17e69]
+          - text: 4,95
+          - generic [ref=f17e71]: (40 avis)
+      - region "À propos de cette villa" [ref=f17e72]:
+        - heading "À propos de cette villa" [level=2] [ref=f17e73]
+        - paragraph [ref=f17e74]: Maison neuve au style Oléronais, alliant le style insulaire charentais et contemporain, très lumineuse, avec de beaux volumes, idéalement située entre mer et forêt. 110m² sur un jardin arboré et clos, avec terrasse en bois de 50m² plein sud — salon de jardin, parasol — et terrasse couverte de 17m² avec table en teck. Barbecue à disposition.
+        - paragraph [ref=f17e75]: "Vaste salon / salle à manger avec grande hauteur sous plafond, baies vitrées donnant sur les terrasses. Cuisine ouverte équipée : lave-vaisselle, réfrigérateur, four, micro-ondes, plaque à induction. Cellier avec lave-linge, sèche-linge et congélateur."
+        - heading "Les chambres" [level=3] [ref=f17e76]
+        - paragraph [ref=f17e77]: "3 chambres de 12m² chacune : deux avec lit de 160cm, une avec deux lits de 80cm. Chaque chambre est pensée pour le confort avec une décoration apaisante aux tons naturels."
+        - heading "Salle de bain" [level=3] [ref=f17e78]
+        - paragraph [ref=f17e79]: Salle de bain moderne avec douche à l'italienne et WC suspendu indépendant. Draps et draps de bain fournis.
+        - heading "Télétravail" [level=3] [ref=f17e80]
+        - paragraph [ref=f17e81]: Un bureau équipé d'un écran HDMI est à votre disposition pour travailler dans un cadre exceptionnel, entre forêt et océan.
+        - heading "Véhicule électrique" [level=3] [ref=f17e82]
+        - paragraph [ref=f17e83]: Une prise de recharge pour véhicule électrique ou hybride est disponible sur place. Un supplément basé sur le relevé du compteur est demandé en fin de séjour.
+      - region "Points forts du logement" [ref=f17e84]:
+        - generic [ref=f17e85]:
+          - img [ref=f17e87]
+          - generic [ref=f17e91]: Plage à 5-10 min à vélo
+        - generic [ref=f17e92]:
+          - img [ref=f17e94]
+          - generic [ref=f17e97]: Jardin clos arboré
+        - generic [ref=f17e98]:
+          - img [ref=f17e100]
+          - generic [ref=f17e102]: Recharge VE
+        - generic [ref=f17e103]:
+          - img [ref=f17e105]
+          - generic [ref=f17e107]: Espace télétravail
+        - generic [ref=f17e108]:
+          - img [ref=f17e110]
+          - generic [ref=f17e113]: Animaux acceptés
+        - generic [ref=f17e114]:
+          - img [ref=f17e116]
+          - generic [ref=f17e118]: Wifi haut débit
+        - generic [ref=f17e119]:
+          - img [ref=f17e121]
+          - generic [ref=f17e123]: Draps et serviettes inclus
+        - generic [ref=f17e124]:
+          - img [ref=f17e126]
+          - generic [ref=f17e129]: Équipement bébé sur demande
+      - region "Équipements" [ref=f17e130]:
+        - heading "Équipements" [level=2] [ref=f17e131]
+        - paragraph [ref=f17e132]: Tout ce dont vous avez besoin pour un séjour confortable
+        - generic [ref=f17e133]:
+          - generic [ref=f17e134]:
+            - generic [ref=f17e135]: 📶
+            - generic [ref=f17e136]:
+              - generic [ref=f17e137]: WiFi haut débit
+              - generic [ref=f17e138]: Fibre optique
+          - generic [ref=f17e139]:
+            - generic [ref=f17e140]: 🚗
+            - generic [ref=f17e141]:
+              - generic [ref=f17e142]: Parking gratuit
+              - generic [ref=f17e143]: 2 places
+          - generic [ref=f17e144]:
+            - generic [ref=f17e145]: 🍳
+            - generic [ref=f17e146]:
+              - generic [ref=f17e147]: Cuisine équipée
+              - generic [ref=f17e148]: Gaz, four, lave-vaisselle
+          - generic [ref=f17e149]:
+            - generic [ref=f17e150]: 🌿
+            - generic [ref=f17e151]:
+              - generic [ref=f17e152]: Jardin clos
+              - generic [ref=f17e153]: Arboré, 300m²
+          - generic [ref=f17e154]:
+            - generic [ref=f17e155]: ☀️
+            - generic [ref=f17e156]:
+              - generic [ref=f17e157]: Terrasse sud
+              - generic [ref=f17e158]: 50m² + terrasse couverte
+          - generic [ref=f17e159]:
+            - generic [ref=f17e160]: 🔌
+            - generic [ref=f17e161]:
+              - generic [ref=f17e162]: Borne EV
+              - generic [ref=f17e163]: Recharge véhicule électrique
+          - generic [ref=f17e164]:
+            - generic [ref=f17e165]: 🔥
+            - generic [ref=f17e166]:
+              - generic [ref=f17e167]: BBQ
+              - generic [ref=f17e168]: Barbecue à charbon
+          - generic [ref=f17e169]:
+            - generic [ref=f17e170]: 💻
+            - generic [ref=f17e171]:
+              - generic [ref=f17e172]: Espace télétravail
+              - generic [ref=f17e173]: Bureau dédié
+          - generic [ref=f17e174]:
+            - generic [ref=f17e175]: 🐾
+            - generic [ref=f17e176]:
+              - generic [ref=f17e177]: Animaux acceptés
+              - generic [ref=f17e178]: Sur demande
+          - generic [ref=f17e179]:
+            - generic [ref=f17e180]: 🧺
+            - generic [ref=f17e181]:
+              - generic [ref=f17e182]: Lave-linge
+              - generic [ref=f17e183]: Sèche-linge aussi
+          - generic [ref=f17e184]:
+            - generic [ref=f17e185]: ☕
+            - generic [ref=f17e186]:
+              - generic [ref=f17e187]: Machine à café
+              - generic [ref=f17e188]: Nespresso + filtre
+          - generic [ref=f17e189]:
+            - generic [ref=f17e190]: 🌡️
+            - generic [ref=f17e191]:
+              - generic [ref=f17e192]: Chauffage
+              - generic [ref=f17e193]: Pompe à chaleur
+      - region "Avis des voyageurs" [ref=f17e194]:
+        - heading "Avis des voyageurs" [level=2] [ref=f17e195]
+        - paragraph [ref=f17e196]: Ce que nos voyageurs en disent
+        - generic [ref=f17e197]:
+          - generic [ref=f17e198]: 4,95
+          - generic [ref=f17e199]:
+            - generic "Note moyenne de 4,95 sur 5" [ref=f17e200]:
+              - img [ref=f17e201]
+              - img [ref=f17e203]
+              - img [ref=f17e205]
+              - img [ref=f17e207]
+              - img [ref=f17e209]
+            - generic [ref=f17e211]: 40 avis vérifiés
+        - generic [ref=f17e212]:
+          - generic [ref=f17e213]:
+            - generic [ref=f17e214]:
+              - generic [ref=f17e215]: C
+              - generic [ref=f17e216]:
+                - generic [ref=f17e217]: Claire & Laurent
+                - generic [ref=f17e218]: août 2025
+            - generic [ref=f17e219]:
+              - img [ref=f17e220]
+              - img [ref=f17e222]
+              - img [ref=f17e224]
+              - img [ref=f17e226]
+              - img [ref=f17e228]
+            - paragraph [ref=f17e230]: Séjour fantastique dans cette villa neuve décorée avec beaucoup de goût. La terrasse plein sud est un vrai bonheur, nous y avons pris tous nos repas. Le jardin clos est parfait pour les enfants et notre chien. La plage de Gatseau est accessible facilement à vélo. Agnès est une hôte attentionnée et réactive. Nous recommandons sans hésiter !
+          - generic [ref=f17e231]:
+            - generic [ref=f17e232]:
+              - generic [ref=f17e233]: M
+              - generic [ref=f17e234]:
+                - generic [ref=f17e235]: Marie & Jean-Paul
+                - generic [ref=f17e236]: juillet 2025
+            - generic [ref=f17e237]:
+              - img [ref=f17e238]
+              - img [ref=f17e240]
+              - img [ref=f17e242]
+              - img [ref=f17e244]
+              - img [ref=f17e246]
+            - paragraph [ref=f17e248]: Quelle belle découverte que cette villa sur l'île d'Oléron ! Tout est neuf, propre et très bien pensé. Les trois chambres sont spacieuses, la cuisine hyper bien équipée. Nous avons adoré la situation entre forêt et mer — les balades à vélo jusqu'à la plage sont un régal. Agnès est une hôte formidable, aux petits soins. Nous reviendrons !
+          - generic [ref=f17e249]:
+            - generic [ref=f17e250]:
+              - generic [ref=f17e251]: T
+              - generic [ref=f17e252]:
+                - generic [ref=f17e253]: Thomas
+                - generic [ref=f17e254]: septembre 2025
+            - generic [ref=f17e255]:
+              - img [ref=f17e256]
+              - img [ref=f17e258]
+              - img [ref=f17e260]
+              - img [ref=f17e262]
+              - img [ref=f17e264]
+            - paragraph [ref=f17e266]: J'ai passé un mois en télétravail depuis cette villa et c'était parfait. Le bureau avec l'écran HDMI est très pratique, la connexion wifi est stable. Le soir, barbecue sur la terrasse et balade en forêt. Le village de Saint-Trojan est charmant avec tous les commerces nécessaires. Je recommande particulièrement pour les longs séjours.
+          - generic [ref=f17e267]:
+            - generic [ref=f17e268]:
+              - generic [ref=f17e269]: S
+              - generic [ref=f17e270]:
+                - generic [ref=f17e271]: Sophie & Marc
+                - generic [ref=f17e272]: juin 2025
+            - generic [ref=f17e273]:
+              - img [ref=f17e274]
+              - img [ref=f17e276]
+              - img [ref=f17e278]
+              - img [ref=f17e280]
+              - img [ref=f17e282]
+            - paragraph [ref=f17e284]: "Villa superbe, très bien située au calme. La lumière dans le salon est magnifique grâce aux grandes baies vitrées. Nous avons passé des soirées inoubliables sur la terrasse. Agnès nous a accueillis avec des conseils précieux sur l'île : marchés, restaurants, balades. Mention spéciale pour le jardin clos où notre labrador s'est régalé !"
+          - generic [ref=f17e285]:
+            - generic [ref=f17e286]:
+              - generic [ref=f17e287]: B
+              - generic [ref=f17e288]:
+                - generic [ref=f17e289]: Famille Bernard
+                - generic [ref=f17e290]: mai 2025
+            - generic [ref=f17e291]:
+              - img [ref=f17e292]
+              - img [ref=f17e294]
+              - img [ref=f17e296]
+              - img [ref=f17e298]
+              - img [ref=f17e300]
+            - paragraph [ref=f17e302]: Nous avons passé une semaine merveilleuse en famille. La villa est très fonctionnelle avec de beaux espaces. Le jardin est un vrai plus, surtout avec des enfants. La recharge pour notre voiture électrique a été très appréciée. Saint-Trojan est un village attachant, et l'île d'Oléron regorge de trésors à découvrir. Merci Agnès pour votre accueil chaleureux.
+          - generic [ref=f17e303]:
+            - generic [ref=f17e304]:
+              - generic [ref=f17e305]: L
+              - generic [ref=f17e306]:
+                - generic [ref=f17e307]: Lucie
+                - generic [ref=f17e308]: avril 2025
+            - generic [ref=f17e309]:
+              - img [ref=f17e310]
+              - img [ref=f17e312]
+              - img [ref=f17e314]
+              - img [ref=f17e316]
+              - img [ref=f17e318]
+            - paragraph [ref=f17e320]: Un véritable cocon ! La décoration est raffinée, tout est impeccablement propre. Nous sommes venus hors saison et avons profité du calme absolu. La terrasse couverte permet de déjeuner dehors même quand il fait frais. Les pistes cyclables à deux pas sont idéales pour explorer l'île. Un grand merci à Agnès pour sa gentillesse et ses petites attentions.
+      - region "Emplacement" [ref=f17e321]:
+        - heading "Emplacement" [level=2] [ref=f17e322]
+        - generic [ref=f17e323]:
+          - generic [ref=f17e324]:
+            - img [ref=f17e326]
+            - generic [ref=f17e330]:
+              - generic [ref=f17e331]: Plage de Gatseau
+              - generic [ref=f17e332]: 5-10 min à vélo
+          - generic [ref=f17e333]:
+            - img [ref=f17e335]
+            - generic [ref=f17e338]:
+              - generic [ref=f17e339]: Village & commerces
+              - generic [ref=f17e340]: 5-10 min à vélo
+          - generic [ref=f17e341]:
+            - img [ref=f17e343]
+            - generic [ref=f17e345]:
+              - generic [ref=f17e346]: Restaurants
+              - generic [ref=f17e347]: À proximité
+          - generic [ref=f17e348]:
+            - img [ref=f17e350]
+            - generic [ref=f17e353]:
+              - generic [ref=f17e354]: Marché de Saint-Trojan
+              - generic [ref=f17e355]: À vélo
+          - generic [ref=f17e356]:
+            - img [ref=f17e358]
+            - generic [ref=f17e361]:
+              - generic [ref=f17e362]: Supermarché
+              - generic [ref=f17e363]: À vélo
+          - generic [ref=f17e364]:
+            - img [ref=f17e366]
+            - generic [ref=f17e370]:
+              - generic [ref=f17e371]: Forêt de Saint-Trojan
+              - generic [ref=f17e372]: À proximité
+        - generic "Carte de l'emplacement" [ref=f17e373]:
+          - img "Côte de l'Île d'Oléron vue depuis la plage de Gatseau" [ref=f17e374]
+    - complementary "Réservation" [ref=f17e375]:
+      - generic [ref=f17e376]:
+        - generic [ref=f17e377]:
+          - generic [ref=f17e378]: À partir de 180€ / nuit
+          - generic [ref=f17e379]:
+            - img [ref=f17e381]
+            - text: 4,95 · 40 avis
+        - generic [ref=f17e383]:
+          - generic [ref=f17e384]:
+            - generic [ref=f17e385]:
+              - generic [ref=f17e386]: Arrivée
+              - textbox "Arrivée" [ref=f17e387] [cursor=pointer]
+            - generic [ref=f17e388]:
+              - generic [ref=f17e389]: Départ
+              - textbox "Départ" [ref=f17e390] [cursor=pointer]
+          - generic [ref=f17e391]:
+            - generic [ref=f17e392]: Voyageurs
+            - combobox "Voyageurs" [ref=f17e393] [cursor=pointer]:
+              - option "1 voyageur"
+              - option "2 voyageurs"
+              - option "3 voyageurs"
+              - option "4 voyageurs"
+              - option "5 voyageurs"
+              - option "6 voyageurs" [selected]
+          - generic [ref=f17e394]:
+            - generic [ref=f17e395]: Total estimé (7 nuits)
+            - generic [ref=f17e396]: 1 260 €
+          - button "Réserver maintenant" [ref=f17e397] [cursor=pointer]
+        - generic [ref=f17e398]:
+          - link "Réserver sur Airbnb" [ref=f17e399] [cursor=pointer]:
+            - /url: https://airbnb.com
+          - generic [ref=f17e400]:
+            - generic [ref=f17e401]:
+              - img [ref=f17e402]
+              - text: Réservation directe
+            - generic [ref=f17e404]:
+              - img [ref=f17e405]
+              - text: Meilleurs tarifs
+            - generic [ref=f17e407]:
+              - img [ref=f17e408]
+              - text: Annulation flexible
+      - group "Calendrier de disponibilité" [ref=f17e411]:
+        - paragraph [ref=f17e414]: Chargement du calendrier...
+        - generic [ref=f17e415]:
+          - button "Mois précédent" [disabled] [ref=f17e416]:
+            - img [ref=f17e417]
+          - heading "juillet 2026" [level=3] [ref=f17e419]
+          - button "Mois suivant" [ref=f17e420] [cursor=pointer]:
+            - img [ref=f17e421]
+        - application [ref=f17e423]:
+          - grid "Calendrier" [ref=f17e424]:
+            - row "lundi mardi mercredi jeudi vendredi samedi dimanche" [ref=f17e425]:
+              - columnheader "lundi" [ref=f17e426]: lun
+              - columnheader "mardi" [ref=f17e427]: mar
+              - columnheader "mercredi" [ref=f17e428]: mer
+              - columnheader "jeudi" [ref=f17e429]: jeu
+              - columnheader "vendredi" [ref=f17e430]: ven
+              - columnheader "samedi" [ref=f17e431]: sam
+              - columnheader "dimanche" [ref=f17e432]: dim
+            - rowgroup [ref=f17e433]:
+              - row "mercredi 1 juillet 2026, passé jeudi 2 juillet 2026, passé vendredi 3 juillet 2026, passé samedi 4 juillet 2026, passé" [ref=f17e434]:
+                - gridcell [ref=f17e435]
+                - gridcell [ref=f17e436]
+                - gridcell [ref=f17e437]
+                - gridcell "mercredi 1 juillet 2026, passé" [disabled] [ref=f17e438]:
+                  - generic [ref=f17e439]: "1"
+                - gridcell "jeudi 2 juillet 2026, passé" [disabled] [ref=f17e440]:
+                  - generic [ref=f17e441]: "2"
+                - gridcell "vendredi 3 juillet 2026, passé" [disabled] [ref=f17e442]:
+                  - generic [ref=f17e443]: "3"
+                - gridcell "samedi 4 juillet 2026, passé" [disabled] [ref=f17e444]:
+                  - generic [ref=f17e445]: "4"
+              - row "dimanche 5 juillet 2026, passé lundi 6 juillet 2026, passé mardi 7 juillet 2026 mercredi 8 juillet 2026 jeudi 9 juillet 2026 vendredi 10 juillet 2026, occupé samedi 11 juillet 2026" [ref=f17e446]:
+                - gridcell "dimanche 5 juillet 2026, passé" [disabled] [ref=f17e447]:
+                  - generic [ref=f17e448]: "5"
+                - gridcell "lundi 6 juillet 2026, passé" [disabled] [ref=f17e449]:
+                  - generic [ref=f17e450]: "6"
+                - gridcell "mardi 7 juillet 2026" [ref=f17e451] [cursor=pointer]:
+                  - generic [ref=f17e452]: "7"
+                - gridcell "mercredi 8 juillet 2026" [ref=f17e453] [cursor=pointer]:
+                  - generic [ref=f17e454]: "8"
+                - gridcell "jeudi 9 juillet 2026" [ref=f17e455] [cursor=pointer]:
+                  - generic [ref=f17e456]: "9"
+                - gridcell "vendredi 10 juillet 2026, occupé" [disabled] [ref=f17e457]:
+                  - generic [ref=f17e458]: "10"
+                - gridcell "samedi 11 juillet 2026" [ref=f17e459] [cursor=pointer]:
+                  - generic [ref=f17e460]: "11"
+              - row "dimanche 12 juillet 2026 lundi 13 juillet 2026 mardi 14 juillet 2026, occupé mercredi 15 juillet 2026, occupé jeudi 16 juillet 2026, occupé vendredi 17 juillet 2026, occupé samedi 18 juillet 2026, occupé" [ref=f17e461]:
+                - gridcell "dimanche 12 juillet 2026" [ref=f17e462] [cursor=pointer]:
+                  - generic [ref=f17e463]: "12"
+                - gridcell "lundi 13 juillet 2026" [ref=f17e464] [cursor=pointer]:
+                  - generic [ref=f17e465]: "13"
+                - gridcell "mardi 14 juillet 2026, occupé" [disabled] [ref=f17e466]:
+                  - generic [ref=f17e467]: "14"
+                - gridcell "mercredi 15 juillet 2026, occupé" [disabled] [ref=f17e468]:
+                  - generic [ref=f17e469]: "15"
+                - gridcell "jeudi 16 juillet 2026, occupé" [disabled] [ref=f17e470]:
+                  - generic [ref=f17e471]: "16"
+                - gridcell "vendredi 17 juillet 2026, occupé" [disabled] [ref=f17e472]:
+                  - generic [ref=f17e473]: "17"
+                - gridcell "samedi 18 juillet 2026, occupé" [disabled] [ref=f17e474]:
+                  - generic [ref=f17e475]: "18"
+              - row "dimanche 19 juillet 2026, occupé lundi 20 juillet 2026, occupé mardi 21 juillet 2026, occupé mercredi 22 juillet 2026, occupé jeudi 23 juillet 2026, occupé vendredi 24 juillet 2026, occupé samedi 25 juillet 2026, occupé" [ref=f17e476]:
+                - gridcell "dimanche 19 juillet 2026, occupé" [disabled] [ref=f17e477]:
+                  - generic [ref=f17e478]: "19"
+                - gridcell "lundi 20 juillet 2026, occupé" [disabled] [ref=f17e479]:
+                  - generic [ref=f17e480]: "20"
+                - gridcell "mardi 21 juillet 2026, occupé" [disabled] [ref=f17e481]:
+                  - generic [ref=f17e482]: "21"
+                - gridcell "mercredi 22 juillet 2026, occupé" [disabled] [ref=f17e483]:
+                  - generic [ref=f17e484]: "22"
+                - gridcell "jeudi 23 juillet 2026, occupé" [disabled] [ref=f17e485]:
+                  - generic [ref=f17e486]: "23"
+                - gridcell "vendredi 24 juillet 2026, occupé" [disabled] [ref=f17e487]:
+                  - generic [ref=f17e488]: "24"
+                - gridcell "samedi 25 juillet 2026, occupé" [disabled] [ref=f17e489]:
+                  - generic [ref=f17e490]: "25"
+              - row "dimanche 26 juillet 2026, occupé lundi 27 juillet 2026, occupé mardi 28 juillet 2026, occupé mercredi 29 juillet 2026, occupé jeudi 30 juillet 2026, occupé vendredi 31 juillet 2026, occupé" [ref=f17e491]:
+                - gridcell "dimanche 26 juillet 2026, occupé" [disabled] [ref=f17e492]:
+                  - generic [ref=f17e493]: "26"
+                - gridcell "lundi 27 juillet 2026, occupé" [disabled] [ref=f17e494]:
+                  - generic [ref=f17e495]: "27"
+                - gridcell "mardi 28 juillet 2026, occupé" [disabled] [ref=f17e496]:
+                  - generic [ref=f17e497]: "28"
+                - gridcell "mercredi 29 juillet 2026, occupé" [disabled] [ref=f17e498]:
+                  - generic [ref=f17e499]: "29"
+                - gridcell "jeudi 30 juillet 2026, occupé" [disabled] [ref=f17e500]:
+                  - generic [ref=f17e501]: "30"
+                - gridcell "vendredi 31 juillet 2026, occupé" [disabled] [ref=f17e502]:
+                  - generic [ref=f17e503]: "31"
+                - gridcell [ref=f17e504]
+        - generic [ref=f17e505]:
+          - generic [ref=f17e506]: Disponible
+          - generic [ref=f17e508]: Occupé
+          - generic [ref=f17e510]: Sélectionné
+      - generic [ref=f17e512]:
+        - heading "Vous aimerez aussi" [level=3] [ref=f17e513]
+        - generic [ref=f17e514]:
+          - link "Maison familiale Saint-Trojan Maison familiale 6 pers Jardin, plage à vélo, identique en face ★ 5,0 · 6 pers" [ref=f17e515] [cursor=pointer]:
+            - /url: /saint-trojan-maison.html
+            - img "Maison familiale Saint-Trojan" [ref=f17e516]
+            - generic [ref=f17e517]:
+              - generic [ref=f17e518]: Maison familiale 6 pers
+              - generic [ref=f17e519]: Jardin, plage à vélo, identique en face
+              - generic [ref=f17e520]:
+                - generic [ref=f17e521]: ★ 5,0
+                - generic [ref=f17e522]: ·
+                - generic [ref=f17e523]: 6 pers
+          - link "Appartement Royan Appartement Royan 4 pers Neuf, 100m de la Grande Conche Nouveau · 4 pers" [ref=f17e524] [cursor=pointer]:
+            - /url: /royan-appartement.html
+            - img "Appartement Royan" [ref=f17e525]
+            - generic [ref=f17e526]:
+              - generic [ref=f17e527]: Appartement Royan 4 pers
+              - generic [ref=f17e528]: Neuf, 100m de la Grande Conche
+              - generic [ref=f17e529]:
+                - generic [ref=f17e530]: Nouveau
+                - generic [ref=f17e531]: ·
+                - generic [ref=f17e532]: 4 pers
+  - region "Questions fréquentes" [ref=f17e533]:
+    - generic [ref=f17e534]:
+      - heading "Questions fréquentes" [level=2] [ref=f17e535]
+      - generic [ref=f17e536]:
+        - group [ref=f17e537]:
+          - generic "À quelle distance se trouve la plage ?" [ref=f17e538] [cursor=pointer]
+          - paragraph [ref=f17e539]: La villa est située entre la forêt et la mer. La plage de Gatseau est accessible en 5 à 10 minutes à vélo par les pistes cyclables.
+        - group [ref=f17e540]:
+          - generic "Y a-t-il un jardin ?" [ref=f17e541] [cursor=pointer]
+        - group [ref=f17e542]:
+          - generic "La recharge pour véhicule électrique est-elle disponible ?" [ref=f17e543] [cursor=pointer]
+        - group [ref=f17e544]:
+          - generic "Peut-on louer pour un grand groupe ?" [ref=f17e545] [cursor=pointer]
+        - group [ref=f17e546]:
+          - generic "Les animaux sont-ils acceptés ?" [ref=f17e547] [cursor=pointer]
+        - group [ref=f17e548]:
+          - generic "Le linge de maison est-il fourni ?" [ref=f17e549] [cursor=pointer]
+        - group [ref=f17e550]:
+          - generic "Quels sont les horaires d'arrivée et de départ ?" [ref=f17e551] [cursor=pointer]
+  - region "Prêt à réserver votre séjour ?" [ref=f17e552]:
+    - generic [ref=f17e553]:
+      - heading "Prêt à réserver votre séjour ?" [level=2] [ref=f17e554]
+      - paragraph [ref=f17e555]: Contactez-nous ou réservez directement en ligne. Les meilleurs tarifs sont disponibles en réservation directe.
+      - generic [ref=f17e556]:
+        - link "Réserver maintenant" [ref=f17e557] [cursor=pointer]:
+          - /url: "#booking-widget"
+        - link "Nous contacter" [ref=f17e558] [cursor=pointer]:
+          - /url: "#contact"
+  - contentinfo "Pied de page" [ref=f17e559]:
+    - generic [ref=f17e560]:
+      - generic [ref=f17e561]:
+        - generic [ref=f17e562]:
+          - link "CalmRio" [ref=f17e563] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=f17e564]: Location de vacances premium sur la côte atlantique. Appartements et villas à Royan et sur l'île d'Oléron.
+          - generic [ref=f17e565]:
+            - link "Instagram" [ref=f17e566] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f17e567]
+            - link "Facebook" [ref=f17e569] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f17e570]
+        - generic [ref=f17e572]:
+          - heading "Locations" [level=3] [ref=f17e573]
+          - list [ref=f17e574]:
+            - listitem [ref=f17e575]:
+              - link "Royan — Appartement" [ref=f17e576] [cursor=pointer]:
+                - /url: /royan-appartement.html
+            - listitem [ref=f17e577]:
+              - link "Saint-Trojan — Villa" [ref=f17e578] [cursor=pointer]:
+                - /url: /saint-trojan-villa.html
+            - listitem [ref=f17e579]:
+              - link "Saint-Trojan — Maison" [ref=f17e580] [cursor=pointer]:
+                - /url: /saint-trojan-maison.html
+        - generic [ref=f17e581]:
+          - heading "Informations" [level=3] [ref=f17e582]
+          - list [ref=f17e583]:
+            - listitem [ref=f17e584]:
+              - link "À Propos" [ref=f17e585] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=f17e586]:
+              - link "Contact" [ref=f17e587] [cursor=pointer]:
+                - /url: "#contact"
+            - listitem [ref=f17e588]:
+              - link "FAQ" [ref=f17e589] [cursor=pointer]:
+                - /url: "#faq"
+            - listitem [ref=f17e590]:
+              - link "Guide local" [ref=f17e591] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=f17e592]:
+          - heading "Contact" [level=3] [ref=f17e593]
+          - list [ref=f17e594]:
+            - listitem [ref=f17e595]:
+              - img [ref=f17e596]
+              - generic [ref=f17e599]:
+                - text: Royan & Île d'Oléron
+                - text: Nouvelle-Aquitaine, France
+            - listitem [ref=f17e600]:
+              - img [ref=f17e601]
+              - link "+33 0 00 00 00 00" [ref=f17e603] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=f17e604]:
+              - img [ref=f17e605]
+              - link "contact@calmrio.com" [ref=f17e608] [cursor=pointer]:
+                - /url: mailto:contact@calmrio.com
+      - generic [ref=f17e609]:
+        - paragraph [ref=f17e610]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=f17e611]:
+          - listitem [ref=f17e612]:
+            - link "Mentions légales" [ref=f17e613] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f17e614]:
+            - link "Politique de confidentialité" [ref=f17e615] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f17e616]:
+            - link "CGV" [ref=f17e617] [cursor=pointer]:
+              - /url: "#"
+  - complementary "Réservation rapide" [ref=f17e618]:
+    - generic [ref=f17e619]:
+      - generic [ref=f17e620]: À partir de 180€ / nuit
+      - generic [ref=f17e621]:
+        - generic [ref=f17e622]: ★
+        - text: 4,95
+    - link "Voir disponibilités" [ref=f17e623] [cursor=pointer]:
+      - /url: "#availability-calendar"

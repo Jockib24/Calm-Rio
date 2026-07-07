@@ -1,0 +1,207 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CalmRio — Accueil" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Accueil" [ref=e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e10]:
+            - link "Nos Locations" [ref=e11] [cursor=pointer]:
+              - /url: "#locations"
+          - listitem [ref=e12]:
+            - link "Guide Local" [ref=e13] [cursor=pointer]:
+              - /url: local-guide.html
+          - listitem [ref=e14]:
+            - link "À Propos" [ref=e15] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=e16]:
+            - link "Contact" [ref=e17] [cursor=pointer]:
+              - /url: contact.html
+      - link "Réserver" [ref=e18] [cursor=pointer]:
+        - /url: "#locations"
+  - main [ref=e19]:
+    - navigation "Fil d'Ariane" [ref=e20]:
+      - link "Accueil" [ref=e22] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e23]: / Contact
+    - region "Contactez-nous" [ref=e24]:
+      - generic [ref=e26]:
+        - heading "Contactez-nous" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Une question ? Envie de réserver ? Nous sommes à votre écoute.
+    - region "Envoyez-nous un message" [ref=e29]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "Envoyez-nous un message" [level=2] [ref=e33]
+          - paragraph [ref=e34]: Nous vous répondons sous 1 heure en journée, 7j/7.
+          - generic [ref=e35]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: Nom et prénom *
+              - textbox "Nom et prénom *" [ref=e39]:
+                - /placeholder: Votre nom complet
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e42]: Email *
+                - textbox "Email *" [ref=e43]:
+                  - /placeholder: votre@email.fr
+              - generic [ref=e44]:
+                - generic [ref=e45]: Téléphone
+                - textbox "Téléphone" [ref=e46]:
+                  - /placeholder: 06 XX XX XX XX
+            - generic [ref=e48]:
+              - generic [ref=e49]: Sujet *
+              - combobox "Sujet *" [ref=e50] [cursor=pointer]:
+                - option "Sélectionnez un sujet" [disabled] [selected]
+                - option "Réservation"
+                - option "Question sur une location"
+                - option "Demande d'information"
+                - option "Autre"
+            - generic [ref=e51]:
+              - generic [ref=e52]: Je suis intéressé par
+              - combobox "Je suis intéressé par" [ref=e53]:
+                - option "Sélectionnez une propriété" [selected]
+                - option "Appartement Royan — 4 pers, 100m de la plage"
+                - option "Villa Saint-Trojan — 6 pers, jardin clos"
+                - option "Maison Saint-Trojan — 6 pers, jardin"
+                - option "Autre question"
+            - generic [ref=e54]:
+              - generic [ref=e55]: Message *
+              - textbox "Message *" [ref=e56]:
+                - /placeholder: Décrivez votre demande...
+            - generic [ref=e58] [cursor=pointer]:
+              - checkbox "J'accepte que mes données soient traitées conformément à la politique de confidentialité" [ref=e59]
+              - generic [ref=e60]:
+                - text: J'accepte que mes données soient traitées conformément à la
+                - link "politique de confidentialité" [ref=e61]:
+                  - /url: "#"
+            - button "Envoyer le message" [ref=e62] [cursor=pointer]
+            - paragraph [ref=e63]:
+              - text: ⏱️ Nous nous engageons à répondre sous
+              - strong [ref=e64]: 2 heures
+              - text: en journée
+        - complementary "Informations de contact" [ref=e65]:
+          - generic [ref=e66]:
+            - heading "Email" [level=3] [ref=e67]
+            - list [ref=e68]:
+              - listitem [ref=e69]:
+                - img [ref=e70]
+                - link "bonjour@calmrio.fr" [ref=e73] [cursor=pointer]:
+                  - /url: mailto:bonjour@calmrio.fr
+          - generic [ref=e74]:
+            - heading "Téléphone" [level=3] [ref=e75]
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - img [ref=e78]
+                - link "+33 (0)6 XX XX XX XX" [ref=e80] [cursor=pointer]:
+                  - /url: tel:+33000000000
+          - generic [ref=e81]:
+            - heading "Horaires" [level=3] [ref=e82]
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - img [ref=e85]
+                - generic [ref=e88]: Réponse sous 1h en journée, 7j/7
+          - generic [ref=e89]:
+            - heading "Adresses" [level=3] [ref=e90]
+            - list [ref=e91]:
+              - listitem [ref=e92]:
+                - img [ref=e93]
+                - generic [ref=e96]: Royan (Charente-Maritime) et Saint-Trojan-les-Bains (Île d'Oléron)
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Vous préférez nous appeler ?
+            - link "+33 6 00 00 00 00" [ref=e99] [cursor=pointer]:
+              - /url: tel:+33600000000
+            - paragraph [ref=e100]: Disponible de 9h à 19h
+    - region "Carte de la région" [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: Où nous trouver
+          - heading "Carte de la région" [level=2] [ref=e105]
+          - paragraph [ref=e106]: De Royan à l'Île d'Oléron, découvrez l'emplacement de nos propriétés.
+        - img "Carte de la région entre Royan et l'Île d'Oléron. Nos locations se trouvent à Royan et Saint-Trojan-les-Bains." [ref=e107]:
+          - generic [ref=e109]:
+            - img [ref=e110]
+            - paragraph [ref=e113]: Carte interactive — Royan & Île d'Oléron
+            - paragraph [ref=e114]: Chargement de la carte Google Maps...
+    - region "Préférez réserver directement ?" [ref=e115]:
+      - generic [ref=e116]:
+        - heading "Préférez réserver directement ?" [level=2] [ref=e117]
+        - paragraph [ref=e118]: Découvrez nos trois propriétés et choisissez celle qui vous correspond.
+        - link "Voir nos locations" [ref=e120] [cursor=pointer]:
+          - /url: "#locations"
+  - contentinfo "Pied de page" [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - link "CalmRio" [ref=e125] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=e126]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          - generic [ref=e127]:
+            - link "Instagram CalmRio" [ref=e128] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e129]
+            - link "Facebook CalmRio" [ref=e131] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e132]
+        - generic [ref=e134]:
+          - heading "Navigation" [level=2] [ref=e135]
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - link "Accueil" [ref=e138] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=e139]:
+              - link "Nos Locations" [ref=e140] [cursor=pointer]:
+                - /url: "#locations"
+            - listitem [ref=e141]:
+              - link "Guide Local" [ref=e142] [cursor=pointer]:
+                - /url: local-guide.html
+            - listitem [ref=e143]:
+              - link "À Propos" [ref=e144] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=e145]:
+              - link "Contact" [ref=e146] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=e147]:
+              - link "FAQ" [ref=e148] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=e149]:
+          - heading "Nos Locations" [level=2] [ref=e150]
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "Appartement Royan" [ref=e153] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e154]:
+              - link "Villa Saint-Trojan" [ref=e155] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e156]:
+              - link "Maison Saint-Trojan" [ref=e157] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e158]:
+          - heading "Contact" [level=2] [ref=e159]
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - img [ref=e162]
+              - link "bonjour@calmrio.fr" [ref=e165] [cursor=pointer]:
+                - /url: mailto:bonjour@calmrio.fr
+            - listitem [ref=e166]:
+              - img [ref=e167]
+              - link "+33 (0)6 XX XX XX XX" [ref=e169] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=e170]:
+              - img [ref=e171]
+              - generic [ref=e174]:
+                - text: Royan & Saint-Trojan-les-Bains
+                - text: Nouvelle-Aquitaine, France
+      - generic [ref=e175]:
+        - paragraph [ref=e176]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=e177]:
+          - listitem [ref=e178]:
+            - link "Mentions légales" [ref=e179] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e180]:
+            - link "Politique de confidentialité" [ref=e181] [cursor=pointer]:
+              - /url: "#"

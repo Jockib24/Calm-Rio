@@ -1,0 +1,769 @@
+- generic [active] [ref=f33e1]:
+  - generic [ref=f33e3]:
+    - generic [ref=f33e4]:
+      - generic [ref=f33e5]:
+        - generic [ref=f33e6]:
+          - button [ref=f33e7] [cursor=pointer]
+          - generic:
+            - link:
+              - /url: /
+              - img
+        - generic [ref=f33e14]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img "Pin"
+                - generic: Destinations
+              - generic:
+                - generic:
+                  - img "Calendar"
+                - generic: Dates
+              - generic:
+                - generic:
+                  - img "Avatar"
+                - generic: Guests
+              - generic:
+                - img "Search"
+          - generic:
+            - button "Trips":
+              - generic:
+                - generic: Trips
+            - button "Magazine":
+              - generic:
+                - generic: Magazine
+        - generic [ref=f33e15]:
+          - link "Share Your Home" [ref=f33e17] [cursor=pointer]:
+            - /url: /become-a-host
+            - generic [ref=f33e18]: Share Your Home
+          - button "Avatar BH" [ref=f33e19] [cursor=pointer]:
+            - generic [ref=f33e28]:
+              - img "Avatar" [ref=f33e30]
+              - generic [ref=f33e35]: BH
+          - generic:
+            - generic:
+              - banner:
+                - generic: Greetings Traveler
+                - generic:
+                  - button "Avatar BH":
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Avatar"
+                        - generic:
+                          - generic: BH
+              - navigation:
+                - generic:
+                  - generic:
+                    - button "Unlocked Sign In":
+                      - img "Unlocked"
+                      - generic:
+                        - generic: Sign In
+                    - button "Sign Register Create an account":
+                      - img "Sign"
+                      - generic:
+                        - generic: Register
+                        - generic: Create an account
+                    - listitem:
+                      - separator
+                    - link "KeyShare Share Your Home":
+                      - /url: https://boutique-homes.com/become-a-host
+                      - generic:
+                        - img "KeyShare"
+                        - generic:
+                          - generic: Share Your Home
+                  - generic:
+                    - link "Book FAQs":
+                      - /url: https://boutique-homes.com/faq
+                      - generic:
+                        - img "Book"
+                        - generic:
+                          - generic: FAQs
+                    - link "Support Get Support":
+                      - /url: https://boutique-homes.com/contact
+                      - generic:
+                        - img "Support"
+                        - generic:
+                          - generic: Get Support
+                    - listitem:
+                      - separator
+              - generic:
+                - generic:
+                  - heading "Color Theme" [level=4]
+                  - paragraph: Adjust the appearance to reduce glare and give your eyes a break.
+                - generic:
+                  - button "Auto"
+                  - button "Light"
+                  - button "Dark"
+      - link [ref=f33e37] [cursor=pointer]:
+        - /url: /
+        - img [ref=f33e38]
+      - generic:
+        - list [ref=f33e51]:
+          - listitem [ref=f33e52]:
+            - link "New Arrivals" [ref=f33e53] [cursor=pointer]:
+              - /url: /properties/new
+              - generic [ref=f33e54]: New Arrivals
+          - listitem [ref=f33e55]:
+            - link "By Architects" [ref=f33e56] [cursor=pointer]:
+              - /url: /properties/architects
+              - generic [ref=f33e57]: By Architects
+          - listitem [ref=f33e58]:
+            - link "Full Service" [ref=f33e59] [cursor=pointer]:
+              - /url: /properties/grade/posh
+              - generic [ref=f33e60]: Full Service
+          - listitem [ref=f33e61]:
+            - link "Monthly Stays" [ref=f33e62] [cursor=pointer]:
+              - /url: /properties/monthly-stays
+              - generic [ref=f33e63]: Monthly Stays
+          - listitem [ref=f33e64]:
+            - link "Photo Shoots" [ref=f33e65] [cursor=pointer]:
+              - /url: /collection/photo-shoots
+              - generic [ref=f33e66]: Photo Shoots
+          - listitem [ref=f33e67]:
+            - link "Little Gems" [ref=f33e68] [cursor=pointer]:
+              - /url: /properties/little-gems
+              - generic [ref=f33e69]: Little Gems
+          - listitem [ref=f33e70]:
+            - link "Magazine" [ref=f33e71] [cursor=pointer]:
+              - /url: /articles
+              - generic [ref=f33e72]: Magazine
+          - listitem [ref=f33e73]:
+            - link "Private Sale" [ref=f33e74] [cursor=pointer]:
+              - /url: /collection/private-sale
+              - generic [ref=f33e75]: Private Sale
+        - generic:
+          - generic:
+            - generic: result count
+            - generic: new
+            - generic: old
+            - generic: kinda-new
+            - generic: Filters
+    - generic [ref=f33e79]:
+      - generic [ref=f33e82]:
+        - generic [ref=f33e83] [cursor=pointer]:
+          - link "The Boat House on Shelter Island" [ref=f33e84]:
+            - /url: /property/the-boat-house-shelter-island
+          - img "The Boat House on Shelter Island" [ref=f33e87]
+          - generic [ref=f33e88]:
+            - img "Design Within Reach" [ref=f33e90]
+            - heading "The Boat House on Shelter Island" [level=1] [ref=f33e92]
+            - generic [ref=f33e93]:
+              - heading [level=2]
+              - link "Book Now" [ref=f33e94]:
+                - /url: /property/the-boat-house-shelter-island
+                - button "Book Now" [ref=f33e95]:
+                  - generic [ref=f33e97]: Book Now
+        - generic [ref=f33e99]:
+          - button "Where Search Destinations" [ref=f33e100] [cursor=pointer]:
+            - generic [ref=f33e101]: Where
+            - generic [ref=f33e102]: Search Destinations
+          - button "Check In/Out Add Dates" [ref=f33e103] [cursor=pointer]:
+            - generic [ref=f33e104]: Check In/Out
+            - generic [ref=f33e105]: Add Dates
+          - button "Who Add Guests" [ref=f33e106] [cursor=pointer]:
+            - generic [ref=f33e107]: Who
+            - generic [ref=f33e108]: Add Guests
+          - img "Search"
+      - generic [ref=f33e111]:
+        - link "These Websites Offer the Most Stylish and Unique Vacation Rentals" [ref=f33e113] [cursor=pointer]:
+          - /url: https://www.architecturaldigest.com/story/unique-vacation-rental-websites
+          - img [ref=f33e114]
+          - generic [ref=f33e117]: These Websites Offer the Most Stylish and Unique Vacation Rentals
+        - link "You can now stay at this iconic modernist house in Palm Desert" [ref=f33e119] [cursor=pointer]:
+          - /url: https://www.wallpaper.com/travel/desert-wave-house-palm-desert
+          - img [ref=f33e120]
+          - generic [ref=f33e122]: You can now stay at this iconic modernist house in Palm Desert
+        - link "The 10 Best Alternatives to Airbnb" [ref=f33e124] [cursor=pointer]:
+          - /url: https://www.wsj.com/articles/how-airbnb-and-its-rivals-are-winning-over-hotel-snobs-1498157392
+          - img [ref=f33e125]
+          - generic [ref=f33e128]: The 10 Best Alternatives to Airbnb
+        - link "Four dreamy Greek getaways to book now" [ref=f33e130] [cursor=pointer]:
+          - /url: https://www.ft.com/content/9c5fd374-326c-42d4-87c9-8f1feeefe4d0
+          - img [ref=f33e131]
+          - generic [ref=f33e133]: Four dreamy Greek getaways to book now
+        - link "Design Within Reach just turned this iconic Palm Desert house into a shoppable vacation home" [ref=f33e135] [cursor=pointer]:
+          - /url: https://www.fastcompany.com/91319960/dwr-and-boutique-reimagine-vacation-rentals
+          - img [ref=f33e136]
+          - generic [ref=f33e141]: Design Within Reach just turned this iconic Palm Desert house into a shoppable vacation home
+        - 'link "Blazing a trail: Five movers and shakers rethinking the travel industry" [ref=f33e143] [cursor=pointer]':
+          - /url: https://monocle.com/business/travel-industry-pioneers/
+          - img [ref=f33e144]
+          - generic [ref=f33e146]: "Blazing a trail: Five movers and shakers rethinking the travel industry"
+      - generic [ref=f33e148]:
+        - generic [ref=f33e150]:
+          - heading "The City List" [level=2] [ref=f33e151]
+          - heading "Some cities are destinations in their own right. Others are the perfect stop-off between the airport and wherever you're really going. These homes make a compelling case for both." [level=3] [ref=f33e152]
+        - list [ref=f33e153]:
+          - listitem [ref=f33e154]:
+            - link "Heart Casa Siza Casa Siza Santa Maria la Ribera, Mexico City, Mexico" [ref=f33e155] [cursor=pointer]:
+              - /url: /property/casa-siza
+              - generic [ref=f33e156]:
+                - button "Heart" [ref=f33e157]:
+                  - img "Heart" [ref=f33e158]
+                - img "Casa Siza" [ref=f33e163]
+              - generic [ref=f33e165]:
+                - heading "Casa Siza" [level=3] [ref=f33e166]
+                - heading "Santa Maria la Ribera, Mexico City, Mexico" [level=4] [ref=f33e167]
+          - listitem [ref=f33e168]:
+            - link "Heart CasaCau Apartments CasaCau Apartments Rome, Italy" [ref=f33e169] [cursor=pointer]:
+              - /url: /property/casacau-apartments
+              - generic [ref=f33e170]:
+                - button "Heart" [ref=f33e171]:
+                  - img "Heart" [ref=f33e172]
+                - img "CasaCau Apartments" [ref=f33e177]
+              - generic [ref=f33e179]:
+                - heading "CasaCau Apartments" [level=3] [ref=f33e180]
+                - heading "Rome, Italy" [level=4] [ref=f33e181]
+          - listitem [ref=f33e182]:
+            - link "Heart 34 Rue Louise-Emilie 34 Rue Louise-Emilie Paris, France" [ref=f33e183] [cursor=pointer]:
+              - /url: /property/34-rue-louise-emilie
+              - generic [ref=f33e184]:
+                - button "Heart" [ref=f33e185]:
+                  - img "Heart" [ref=f33e186]
+                - img "34 Rue Louise-Emilie" [ref=f33e191]
+              - generic [ref=f33e193]:
+                - heading "34 Rue Louise-Emilie" [level=3] [ref=f33e194]
+                - heading "Paris, France" [level=4] [ref=f33e195]
+          - listitem [ref=f33e196]:
+            - link "Heart Casa Tepeji Casa Tepeji Roma, Mexico City, Mexico" [ref=f33e197] [cursor=pointer]:
+              - /url: /property/casa-tepeji
+              - generic [ref=f33e198]:
+                - button "Heart" [ref=f33e199]:
+                  - img "Heart" [ref=f33e200]
+                - img "Casa Tepeji" [ref=f33e205]
+              - generic [ref=f33e207]:
+                - heading "Casa Tepeji" [level=3] [ref=f33e208]
+                - heading "Roma, Mexico City, Mexico" [level=4] [ref=f33e209]
+          - listitem [ref=f33e210]:
+            - link "Heart Parisian Designer Pied à Terre Parisian Designer Pied à Terre Le Marais, Paris, France" [ref=f33e211] [cursor=pointer]:
+              - /url: /property/parisian-designer-pied-a-terre
+              - generic [ref=f33e212]:
+                - button "Heart" [ref=f33e213]:
+                  - img "Heart" [ref=f33e214]
+                - img "Parisian Designer Pied à Terre" [ref=f33e219]
+              - generic [ref=f33e221]:
+                - heading "Parisian Designer Pied à Terre" [level=3] [ref=f33e222]
+                - heading "Le Marais, Paris, France" [level=4] [ref=f33e223]
+        - generic [ref=f33e224]:
+          - separator [ref=f33e225]
+          - link "View collection" [ref=f33e226] [cursor=pointer]:
+            - /url: /collection/the-city-list
+            - button "View collection" [ref=f33e227]:
+              - generic [ref=f33e229]: View collection
+          - separator [ref=f33e230]
+      - generic [ref=f33e231]:
+        - generic [ref=f33e235]:
+          - heading "Our Favorite Destinations" [level=2] [ref=f33e236]
+          - heading "Handpicked homes and small hotels in our most popular locations" [level=3] [ref=f33e237]
+        - generic [ref=f33e238]:
+          - button "ChevronLeft" [ref=f33e239] [cursor=pointer]:
+            - img "ChevronLeft" [ref=f33e240]
+          - button "ChevronRight" [ref=f33e244] [cursor=pointer]:
+            - img "ChevronRight" [ref=f33e245]
+          - list [ref=f33e252]:
+            - listitem [ref=f33e253]:
+              - link "Italy Italy" [ref=f33e254] [cursor=pointer]:
+                - /url: /location/italy
+                - img "Italy" [ref=f33e257]
+                - heading "Italy" [level=3] [ref=f33e260]
+            - listitem [ref=f33e261]:
+              - link "France France" [ref=f33e262] [cursor=pointer]:
+                - /url: /location/france
+                - img "France" [ref=f33e265]
+                - heading "France" [level=3] [ref=f33e268]
+            - listitem [ref=f33e269]:
+              - link "Greece Greece" [ref=f33e270] [cursor=pointer]:
+                - /url: /location/greece
+                - img "Greece" [ref=f33e273]
+                - heading "Greece" [level=3] [ref=f33e276]
+            - listitem [ref=f33e277]:
+              - link "Spain Spain" [ref=f33e278] [cursor=pointer]:
+                - /url: /location/spain
+                - img "Spain" [ref=f33e281]
+                - heading "Spain" [level=3] [ref=f33e284]
+            - listitem [ref=f33e285]:
+              - link "Portugal Portugal" [ref=f33e286] [cursor=pointer]:
+                - /url: /location/portugal
+                - img "Portugal" [ref=f33e289]
+                - heading "Portugal" [level=3] [ref=f33e292]
+            - listitem [ref=f33e293]:
+              - link "California California" [ref=f33e294] [cursor=pointer]:
+                - /url: /location/California
+                - img "California" [ref=f33e297]
+                - heading "California" [level=3] [ref=f33e300]
+            - listitem [ref=f33e301]:
+              - link "Mexico Mexico" [ref=f33e302] [cursor=pointer]:
+                - /url: /location/mexico
+                - img "Mexico" [ref=f33e305]
+                - heading "Mexico" [level=3] [ref=f33e308]
+            - listitem [ref=f33e309]:
+              - link "Canada Canada" [ref=f33e310] [cursor=pointer]:
+                - /url: /location/Canada
+                - img "Canada" [ref=f33e313]
+                - heading "Canada" [level=3] [ref=f33e316]
+            - listitem [ref=f33e317]:
+              - link "Costa Rica Costa Rica" [ref=f33e318] [cursor=pointer]:
+                - /url: /location/costa-rica
+                - img "Costa Rica" [ref=f33e321]
+                - heading "Costa Rica" [level=3] [ref=f33e324]
+            - listitem [ref=f33e325]:
+              - link "United Kingdom United Kingdom" [ref=f33e326] [cursor=pointer]:
+                - /url: /location/United%20Kingdom
+                - img "United Kingdom" [ref=f33e329]
+                - heading "United Kingdom" [level=3] [ref=f33e332]
+      - generic [ref=f33e333]:
+        - button "ChevronRight" [ref=f33e334] [cursor=pointer]:
+          - img "ChevronRight" [ref=f33e335]
+        - list [ref=f33e341]:
+          - link "Villa villa" [ref=f33e342] [cursor=pointer]:
+            - /url: /properties/type/villa
+            - listitem [ref=f33e343]:
+              - img "Villa" [ref=f33e344]
+              - generic [ref=f33e347]: villa
+          - link "BeachHouse beachHouse" [ref=f33e348] [cursor=pointer]:
+            - /url: /properties/type/beach-house
+            - listitem [ref=f33e349]:
+              - img "BeachHouse" [ref=f33e350]
+              - generic [ref=f33e355]: beachHouse
+          - link "Cabin cabin" [ref=f33e356] [cursor=pointer]:
+            - /url: /properties/type/cabin
+            - listitem [ref=f33e357]:
+              - img "Cabin" [ref=f33e358]
+              - generic [ref=f33e362]: cabin
+          - link "AFrame a frame" [ref=f33e363] [cursor=pointer]:
+            - /url: /properties/type/a-frame
+            - listitem [ref=f33e364]:
+              - img "AFrame" [ref=f33e365]
+              - generic [ref=f33e369]: a frame
+          - link "House house" [ref=f33e370] [cursor=pointer]:
+            - /url: /properties/type/house
+            - listitem [ref=f33e371]:
+              - img "House" [ref=f33e372]
+              - generic [ref=f33e376]: house
+          - link "Chalet chalet" [ref=f33e377] [cursor=pointer]:
+            - /url: /properties/type/chalet
+            - listitem [ref=f33e378]:
+              - img "Chalet" [ref=f33e379]
+              - generic [ref=f33e383]: chalet
+          - link "Cottage cottage" [ref=f33e384] [cursor=pointer]:
+            - /url: /properties/type/cottage
+            - listitem [ref=f33e385]:
+              - img "Cottage" [ref=f33e386]
+              - generic [ref=f33e390]: cottage
+          - link "Farmhouse farmhouse" [ref=f33e391] [cursor=pointer]:
+            - /url: /farmhouse
+            - listitem [ref=f33e392]:
+              - img "Farmhouse" [ref=f33e393]
+              - generic [ref=f33e397]: farmhouse
+          - link "Trullo trullo" [ref=f33e398] [cursor=pointer]:
+            - /url: /properties/type/trullo
+            - listitem [ref=f33e399]:
+              - img "Trullo" [ref=f33e400]
+              - generic [ref=f33e404]: trullo
+          - link "CountryHouse country house" [ref=f33e405] [cursor=pointer]:
+            - /url: /properties/type/country-house
+            - listitem [ref=f33e406]:
+              - img "CountryHouse" [ref=f33e407]
+              - generic [ref=f33e411]: country house
+          - link "Estate estate" [ref=f33e412] [cursor=pointer]:
+            - /url: /properties/type/estate
+            - listitem [ref=f33e413]:
+              - img "Estate" [ref=f33e414]
+              - generic [ref=f33e419]: estate
+          - link "Castle castle" [ref=f33e420] [cursor=pointer]:
+            - /url: /properties/type/castle
+            - listitem [ref=f33e421]:
+              - img "Castle" [ref=f33e422]
+              - generic [ref=f33e433]: castle
+          - link "Chateau chateau" [ref=f33e434] [cursor=pointer]:
+            - /url: /properties/type/chateau
+            - listitem [ref=f33e435]:
+              - img "Chateau" [ref=f33e436]
+              - generic [ref=f33e447]: chateau
+          - link "Mansion mansion" [ref=f33e448] [cursor=pointer]:
+            - /url: /properties/type/mansion
+            - listitem [ref=f33e449]:
+              - img "Mansion" [ref=f33e450]
+              - generic [ref=f33e462]: mansion
+          - link "Palazzo palazzo" [ref=f33e463] [cursor=pointer]:
+            - /url: /properties/type/palazzo
+            - listitem [ref=f33e464]:
+              - img "Palazzo" [ref=f33e465]
+              - generic [ref=f33e475]: palazzo
+          - link "Bungalow bungalow" [ref=f33e476] [cursor=pointer]:
+            - /url: /properties/type/bungalow
+            - listitem [ref=f33e477]:
+              - img "Bungalow" [ref=f33e478]
+              - generic [ref=f33e482]: bungalow
+          - link "Townhouse townhouse" [ref=f33e483] [cursor=pointer]:
+            - /url: /properties/type/townhouse
+            - listitem [ref=f33e484]:
+              - img "Townhouse" [ref=f33e485]
+              - generic [ref=f33e488]: townhouse
+          - link "SmallHotel small hotel" [ref=f33e489] [cursor=pointer]:
+            - /url: /properties/type/small-hotel
+            - listitem [ref=f33e490]:
+              - img "SmallHotel" [ref=f33e491]
+              - generic [ref=f33e497]: small hotel
+          - link "BedAndBreakfast bed and breakfast" [ref=f33e498] [cursor=pointer]:
+            - /url: /properties/type/bed-and-breakfast
+            - listitem [ref=f33e499]:
+              - img "BedAndBreakfast" [ref=f33e500]
+              - generic [ref=f33e503]: bed and breakfast
+          - link "Guesthouse guesthouse" [ref=f33e504] [cursor=pointer]:
+            - /url: /properties/type/guesthouse
+            - listitem [ref=f33e505]:
+              - img "Guesthouse" [ref=f33e506]
+              - generic [ref=f33e511]: guesthouse
+          - link "Apartment apartment" [ref=f33e512] [cursor=pointer]:
+            - /url: /properties/type/apartment
+            - listitem [ref=f33e513]:
+              - img "Apartment" [ref=f33e514]
+              - generic [ref=f33e523]: apartment
+          - link "Studio studio" [ref=f33e524] [cursor=pointer]:
+            - /url: /properties/type/studio
+            - listitem [ref=f33e525]:
+              - img "Studio" [ref=f33e526]
+              - generic [ref=f33e530]: studio
+          - link "Loft loft" [ref=f33e531] [cursor=pointer]:
+            - /url: /properties/type/loft
+            - listitem [ref=f33e532]:
+              - img "Loft" [ref=f33e533]
+              - generic [ref=f33e540]: loft
+          - link "Penthouse penthouse" [ref=f33e541] [cursor=pointer]:
+            - /url: /properties/type/penthouse
+            - listitem [ref=f33e542]:
+              - img "Penthouse" [ref=f33e543]
+              - generic [ref=f33e546]: penthouse
+          - link "TinyHome tiny home" [ref=f33e547] [cursor=pointer]:
+            - /url: /properties/type/tiny-home
+            - listitem [ref=f33e548]:
+              - img "TinyHome" [ref=f33e549]
+              - generic [ref=f33e552]: tiny home
+          - link "Treehouse treehouse" [ref=f33e553] [cursor=pointer]:
+            - /url: /properties/type/treehouse
+            - listitem [ref=f33e554]:
+              - img "Treehouse" [ref=f33e555]
+              - generic [ref=f33e559]: treehouse
+          - link "Palapa palapa" [ref=f33e560] [cursor=pointer]:
+            - /url: /properties/type/palapa
+            - listitem [ref=f33e561]:
+              - img "Palapa" [ref=f33e562]
+              - generic [ref=f33e565]: palapa
+          - link "Houseboat houseboat" [ref=f33e566] [cursor=pointer]:
+            - /url: /properties/type/houseboat
+            - listitem [ref=f33e567]:
+              - img "Houseboat" [ref=f33e568]
+              - generic [ref=f33e574]: houseboat
+          - link "Dome dome" [ref=f33e575] [cursor=pointer]:
+            - /url: /properties/type/dome
+            - listitem [ref=f33e576]:
+              - img "Dome" [ref=f33e577]
+              - generic [ref=f33e581]: dome
+          - link "Riad riad" [ref=f33e582] [cursor=pointer]:
+            - /url: /properties/type/riad
+            - listitem [ref=f33e583]:
+              - img "Riad" [ref=f33e584]
+              - generic [ref=f33e591]: riad
+          - link "Yurt yurt" [ref=f33e592] [cursor=pointer]:
+            - /url: /properties/type/yurt
+            - listitem [ref=f33e593]:
+              - img "Yurt" [ref=f33e594]
+              - generic [ref=f33e597]: yurt
+          - link "Tent tent" [ref=f33e598] [cursor=pointer]:
+            - /url: /properties/type/tent
+            - listitem [ref=f33e599]:
+              - img "Tent" [ref=f33e600]
+              - generic [ref=f33e603]: tent
+      - generic [ref=f33e605]:
+        - generic [ref=f33e607]:
+          - heading "The Guestbook" [level=2] [ref=f33e608]
+          - heading "See what our guests are saying about us." [level=3] [ref=f33e609]
+        - generic [ref=f33e611]:
+          - link "Designed to near perfection The Wedge A Brutalist modern home nestled into the mountains... Thoughtfully designed to near perfection, its geometric architecture—clad in blackened wood and concrete with expansive glass walls—carves a striking silhouette against the forest, the snow, and the rushing green river at its base. Read More AC Athena Calderone" [ref=f33e613] [cursor=pointer]:
+            - /url: /property/the-wedge-by-boutique
+            - generic [ref=f33e614]:
+              - generic [ref=f33e615]:
+                - heading "Designed to near perfection" [level=4] [ref=f33e616]
+                - heading "The Wedge" [level=5] [ref=f33e617]
+              - generic [ref=f33e618]:
+                - paragraph [ref=f33e619]: A Brutalist modern home nestled into the mountains... Thoughtfully designed to near perfection, its geometric architecture—clad in blackened wood and concrete with expansive glass walls—carves a striking silhouette against the forest, the snow, and the rushing green river at its base.
+                - button "Read More" [ref=f33e620]
+            - generic [ref=f33e621]:
+              - generic [ref=f33e623]: AC
+              - generic [ref=f33e626]: Athena Calderone
+          - link "The most amazing view The Honu Villa When we got to the house, we were greeted by big terrazzo floors, concrete lines, and soft wood details. Not to mention, an iconic pool. I woke up to the most amazing view from bed, big fluffy clouds and a crisp morning view of the pool. Read More LS Lily Sullivan" [ref=f33e628] [cursor=pointer]:
+            - /url: /property/the-honu-villa
+            - generic [ref=f33e629]:
+              - generic [ref=f33e630]:
+                - heading "The most amazing view" [level=4] [ref=f33e631]
+                - heading "The Honu Villa" [level=5] [ref=f33e632]
+              - generic [ref=f33e633]:
+                - paragraph [ref=f33e634]: When we got to the house, we were greeted by big terrazzo floors, concrete lines, and soft wood details. Not to mention, an iconic pool. I woke up to the most amazing view from bed, big fluffy clouds and a crisp morning view of the pool.
+                - button "Read More" [ref=f33e635]
+            - generic [ref=f33e636]:
+              - generic [ref=f33e638]: LS
+              - generic [ref=f33e641]: Lily Sullivan
+          - link "Exactly what we needed The Desert Wave We arrived near sunset and were able to catch the last light of the day as we got settled. Then in the morning, waking up and opening the curtains to let the light in, we were treated to the full extent of how the light fills up the space. The house felt special, elevated, and yet everything we needed was there. So, it just felt easy—and trips don’t always go that way! Read More AW Ally Walsh" [ref=f33e643] [cursor=pointer]:
+            - /url: /property/the-desert-wave
+            - generic [ref=f33e644]:
+              - generic [ref=f33e645]:
+                - heading "Exactly what we needed" [level=4] [ref=f33e646]
+                - heading "The Desert Wave" [level=5] [ref=f33e647]
+              - generic [ref=f33e648]:
+                - paragraph [ref=f33e649]: We arrived near sunset and were able to catch the last light of the day as we got settled. Then in the morning, waking up and opening the curtains to let the light in, we were treated to the full extent of how the light fills up the space. The house felt special, elevated, and yet everything we needed was there. So, it just felt easy—and trips don’t always go that way!
+                - button "Read More" [ref=f33e650]
+            - generic [ref=f33e651]:
+              - generic [ref=f33e653]: AW
+              - generic [ref=f33e656]: Ally Walsh
+      - generic [ref=f33e658]:
+        - generic [ref=f33e660]:
+          - heading "Point of View" [level=2] [ref=f33e661]
+          - heading "Our network of travelers and creative minds share stories and guides to destinations near and far." [level=3] [ref=f33e662]
+        - generic [ref=f33e663]:
+          - article [ref=f33e664]:
+            - link "Concrete, Cork and Kingly Indiscretions" [ref=f33e665] [cursor=pointer]:
+              - /url: /article/concrete-cork-and-kingly-indiscretions
+              - img "Concrete, Cork and Kingly Indiscretions" [ref=f33e668]
+            - generic [ref=f33e669]:
+              - link "Concrete, Cork and Kingly Indiscretions" [ref=f33e670] [cursor=pointer]:
+                - /url: /article/concrete-cork-and-kingly-indiscretions
+                - heading "Concrete, Cork and Kingly Indiscretions" [level=2] [ref=f33e671]
+              - generic [ref=f33e672]:
+                - link "Boutique's CEO Marc Blazer tours nine homes in the Spanish regions of Catalonia and Aragon, remarkable as much for their design as their locations and the stories behind them." [ref=f33e673] [cursor=pointer]:
+                  - /url: /article/concrete-cork-and-kingly-indiscretions
+                  - paragraph [ref=f33e674]: Boutique's CEO Marc Blazer tours nine homes in the Spanish regions of Catalonia and Aragon, remarkable as much for their design as their locations and the stories behind them.
+                - link "Read Article" [ref=f33e676] [cursor=pointer]:
+                  - /url: /article/concrete-cork-and-kingly-indiscretions
+                  - generic [ref=f33e677]:
+                    - generic [ref=f33e678]: Read Article
+                    - img [ref=f33e679]
+          - list [ref=f33e681]:
+            - listitem [ref=f33e682]:
+              - link "Tiny Atlas Quarterly at Le Porciglia Tiny Atlas Quarterly at Le Porciglia First Person" [ref=f33e683] [cursor=pointer]:
+                - /url: /article/tiny-atlas-quarterly-at-le-porciglia
+                - img "Tiny Atlas Quarterly at Le Porciglia" [ref=f33e686]
+                - generic [ref=f33e688]:
+                  - heading "Tiny Atlas Quarterly at Le Porciglia" [level=3] [ref=f33e689]
+                  - heading "First Person" [level=4] [ref=f33e690]
+            - listitem [ref=f33e691]:
+              - link "Corten Steel Raindrop Doors at Villa CP Corten Steel Raindrop Doors at Villa CP A Closer Look" [ref=f33e692] [cursor=pointer]:
+                - /url: /article/raindrop-doors-in-corten-steel
+                - img "Corten Steel Raindrop Doors at Villa CP" [ref=f33e695]
+                - generic [ref=f33e697]:
+                  - heading "Corten Steel Raindrop Doors at Villa CP" [level=3] [ref=f33e698]
+                  - heading "A Closer Look" [level=4] [ref=f33e699]
+            - listitem [ref=f33e700]:
+              - link "No More No More Trendspotting" [ref=f33e701] [cursor=pointer]:
+                - /url: /article/no-more
+                - img "No More" [ref=f33e704]
+                - generic [ref=f33e706]:
+                  - heading "No More" [level=3] [ref=f33e707]
+                  - heading "Trendspotting" [level=4] [ref=f33e708]
+        - generic [ref=f33e709]:
+          - separator [ref=f33e710]
+          - link "Visit Magazine" [ref=f33e711] [cursor=pointer]:
+            - /url: /articles
+            - button "Visit Magazine" [ref=f33e712]:
+              - generic [ref=f33e714]: Visit Magazine
+          - separator [ref=f33e715]
+      - generic [ref=f33e717]:
+        - generic [ref=f33e719]:
+          - heading "Daily Inspiration" [level=2] [ref=f33e720]
+          - heading "Get inspired by following our Instagram feed." [level=3] [ref=f33e721]
+        - generic [ref=f33e722]:
+          - listitem [ref=f33e723]:
+            - link "Boutique Homes, Casa Cutura, Puglia" [ref=f33e724] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes
+              - img "Boutique Homes, Casa Cutura, Puglia" [ref=f33e726]
+          - listitem [ref=f33e727]:
+            - link "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue." [ref=f33e728] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes/
+              - img "Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue." [ref=f33e730]
+          - listitem [ref=f33e731]:
+            - link "As we tuck into winter, some homes are joining us in hiding under blankets – theirs of the white, sparkling persuasion, of course. A favorite example in our collection is Voss Lodge in Norway, a ski in/ski out cabin that capitalizes on coziness. Come share in the breathtaking landscape of the western fjords, embrace a snow day, or top yourself with a blanket of the knitted variety, and decompress by the fireplace." [ref=f33e732] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes
+              - img "As we tuck into winter, some homes are joining us in hiding under blankets – theirs of the white, sparkling persuasion, of course. A favorite example in our collection is Voss Lodge in Norway, a ski in/ski out cabin that capitalizes on coziness. Come share in the breathtaking landscape of the western fjords, embrace a snow day, or top yourself with a blanket of the knitted variety, and decompress by the fireplace." [ref=f33e734]
+          - listitem [ref=f33e735]:
+            - link "We’re exploring the bold colors of Spain, starting with the salmon pinks of Mallorca Villa." [ref=f33e736] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes
+              - img "We’re exploring the bold colors of Spain, starting with the salmon pinks of Mallorca Villa." [ref=f33e738]
+          - listitem [ref=f33e739]:
+            - link "At the heart of Salento, three intimate, independent houses share a Mediterranean garden with a swimming pool set between fruit orchards and ancient olive trees. Each casa was designed for relaxation and slow living, an ideal escape with family or friends." [ref=f33e740] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes
+              - img "At the heart of Salento, three intimate, independent houses share a Mediterranean garden with a swimming pool set between fruit orchards and ancient olive trees. Each casa was designed for relaxation and slow living, an ideal escape with family or friends." [ref=f33e742]
+          - listitem [ref=f33e743]:
+            - link "This vacation home rental in Greece is huddled among the historic whitewashed houses of Hora overlooking the Aegean, under the watchful gaze of the magnificent 11th-century monastery above." [ref=f33e744] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes/
+              - img "This vacation home rental in Greece is huddled among the historic whitewashed houses of Hora overlooking the Aegean, under the watchful gaze of the magnificent 11th-century monastery above." [ref=f33e746]
+          - listitem [ref=f33e747]:
+            - link "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla." [ref=f33e748] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes/
+              - img "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla." [ref=f33e750]
+          - listitem [ref=f33e751]:
+            - link "Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam." [ref=f33e752] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes/
+              - img "Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam." [ref=f33e754]
+          - listitem [ref=f33e755]:
+            - link "Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur." [ref=f33e756] [cursor=pointer]:
+              - /url: https://www.instagram.com/boutiquehomes/
+              - img "Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur." [ref=f33e758]
+        - generic [ref=f33e759]:
+          - separator [ref=f33e760]
+          - link "Follow on Instagram" [ref=f33e761] [cursor=pointer]:
+            - /url: https://instagram.com/boutiquehomes
+            - button "Follow on Instagram" [ref=f33e762]:
+              - generic [ref=f33e764]: Follow on Instagram
+          - separator [ref=f33e765]
+      - generic [ref=f33e768]:
+        - generic [ref=f33e769]: Why Book with Boutique
+        - generic [ref=f33e770]:
+          - generic [ref=f33e771]:
+            - img "Diamond" [ref=f33e773]
+            - generic [ref=f33e775]: Discerning by Design
+            - generic [ref=f33e776]: Handpicked properties vetted for quality, character and distinctive design.
+          - generic [ref=f33e777]:
+            - img "Chats" [ref=f33e779]
+            - generic [ref=f33e782]: A Human Touch
+            - generic [ref=f33e783]: Questions? Our team is ready by phone, email, chat, or direct message.
+          - generic [ref=f33e784]:
+            - img "Trust" [ref=f33e786]
+            - generic [ref=f33e790]: Taste to Trust
+            - generic [ref=f33e791]:
+              - text: Tens of thousands of quality stays
+              - text: hosted since 2010.
+      - generic [ref=f33e795]:
+        - generic [ref=f33e797]:
+          - generic [ref=f33e798]:
+            - heading "Sign up for the Latest Travel Offers & Intel" [level=2] [ref=f33e799]:
+              - generic [ref=f33e800]:
+                - text: Sign up for the Latest
+                - strong [ref=f33e801]:
+                  - emphasis [ref=f33e802]: Travel Offers & Intel
+            - paragraph [ref=f33e803]: Subscribe to our newsletter to discover new homes & deals as they're released, as well as the latest editorial.
+          - generic [ref=f33e804] [cursor=pointer]:
+            - generic [ref=f33e805]:
+              - checkbox "CheckmarkSmall I agree to receive this newsletter" [checked]
+              - img "CheckmarkSmall" [ref=f33e807]
+            - generic [ref=f33e812]: I agree to receive this newsletter
+        - generic [ref=f33e814]:
+          - generic [ref=f33e815]:
+            - generic [ref=f33e817]:
+              - textbox "ex. Johnny" [ref=f33e818]
+              - generic: First Name
+              - generic:
+                - img "Lock"
+            - generic [ref=f33e820]:
+              - textbox "ex. Appleseed" [ref=f33e821]
+              - generic: Last Name
+              - generic:
+                - img "Lock"
+            - generic [ref=f33e823]:
+              - textbox "ex. johnny@email.com" [ref=f33e824]
+              - generic: Email Address
+              - generic:
+                - img "Lock"
+          - button "Subscribe" [ref=f33e825]:
+            - generic [ref=f33e827]: Subscribe
+    - contentinfo [ref=f33e828]:
+      - generic [ref=f33e830]:
+        - generic [ref=f33e832]:
+          - list [ref=f33e833]:
+            - listitem [ref=f33e834]:
+              - link "About" [ref=f33e835] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f33e836]:
+              - link "FAQ" [ref=f33e837] [cursor=pointer]:
+                - /url: https://intercom.help/boutique-homes/en/
+            - listitem [ref=f33e838]:
+              - link "Contact Us" [ref=f33e839] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=f33e840]:
+              - link "Hosting" [ref=f33e841] [cursor=pointer]:
+                - /url: /become-a-host
+            - listitem [ref=f33e842]:
+              - link "Advisors" [ref=f33e843] [cursor=pointer]:
+                - /url: https://advisors.boutique-homes.com
+          - list [ref=f33e844]:
+            - listitem [ref=f33e845]:
+              - heading "Travel" [level=6] [ref=f33e846]
+            - listitem [ref=f33e847]:
+              - link "What’s New" [ref=f33e848] [cursor=pointer]:
+                - /url: /properties/new
+            - listitem [ref=f33e849]:
+              - link "Private Sale" [ref=f33e850] [cursor=pointer]:
+                - /url: /collection/private-sale
+            - listitem [ref=f33e851]:
+              - heading "Popular" [level=6] [ref=f33e852]
+            - listitem [ref=f33e853]:
+              - link "The Luxe Edit" [ref=f33e854] [cursor=pointer]:
+                - /url: /properties/grade/luxe
+            - listitem [ref=f33e855]:
+              - link "Style For a Steal" [ref=f33e856] [cursor=pointer]:
+                - /url: /properties/style-for-a-steal
+            - listitem [ref=f33e857]:
+              - link "Small Hotels" [ref=f33e858] [cursor=pointer]:
+                - /url: /properties/type/small-hotel
+        - generic [ref=f33e859]:
+          - generic [ref=f33e860]:
+            - generic [ref=f33e861]: Handpicked Homes
+            - generic [ref=f33e862]: "& Small Hotels"
+          - generic [ref=f33e863]:
+            - button "Register" [ref=f33e864] [cursor=pointer]:
+              - generic [ref=f33e866]: Register
+            - button "Sign In" [ref=f33e867] [cursor=pointer]:
+              - generic [ref=f33e869]: Sign In
+        - list [ref=f33e871]:
+          - listitem [ref=f33e872]:
+            - link "Facebook Facebook" [ref=f33e873] [cursor=pointer]:
+              - /url: https://www.facebook.com/BoutiqueHomes/
+              - img "Facebook" [ref=f33e874]
+              - generic [ref=f33e877]: Facebook
+          - listitem [ref=f33e878]:
+            - link "Instagram Instagram" [ref=f33e879] [cursor=pointer]:
+              - /url: https://instagram.com/boutiquehomes
+              - img "Instagram" [ref=f33e880]
+              - generic [ref=f33e883]: Instagram
+          - listitem [ref=f33e884]:
+            - link "Twitter Twitter" [ref=f33e885] [cursor=pointer]:
+              - /url: https://twitter.com/boutique_homes
+              - img "Twitter" [ref=f33e886]
+              - generic [ref=f33e889]: Twitter
+          - listitem [ref=f33e890]:
+            - link "Pinterest Pinterest" [ref=f33e891] [cursor=pointer]:
+              - /url: https://www.pinterest.com/boutiquehomes/
+              - img "Pinterest" [ref=f33e892]
+              - generic [ref=f33e895]: Pinterest
+          - listitem [ref=f33e896]:
+            - link "LinkedIn LinkedIn" [ref=f33e897] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/boutiquehomes
+              - img "LinkedIn" [ref=f33e898]
+              - generic [ref=f33e901]: LinkedIn
+      - generic [ref=f33e904]:
+        - generic [ref=f33e906]: © 2026 Boutique Life Inc.
+        - generic [ref=f33e907]:
+          - link "Terms of Service" [ref=f33e908] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=f33e909] [cursor=pointer]:
+            - /url: /privacy-policy
+    - generic:
+      - generic:
+        - img
+      - generic:
+        - generic: One Moment...
+    - generic [ref=f33e912]:
+      - button "Close"
+    - generic [ref=f33e914]:
+      - img "Info" [ref=f33e916]
+      - generic [ref=f33e920]:
+        - generic [ref=f33e921]:
+          - term [ref=f33e922]: This website uses cookies
+          - definition [ref=f33e923]: We never sell your private information.
+        - generic [ref=f33e924]:
+          - button "Settings" [ref=f33e925] [cursor=pointer]:
+            - generic [ref=f33e927]: Settings
+          - button "Okay" [ref=f33e928] [cursor=pointer]:
+            - generic [ref=f33e930]: Okay
+      - button [ref=f33e932] [cursor=pointer]
+  - alert [ref=f33e933]

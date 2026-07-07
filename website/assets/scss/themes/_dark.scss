@@ -1,0 +1,69 @@
+// ============================================================
+// CalmRio — Dark Theme
+// ============================================================
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1A1E24;
+    --color-bg-alt: #21262D;
+    --color-surface: #292E36;
+    --color-surface-alt: #2F353E;
+    --color-border: #3A4048;
+    --color-border-light: #323840;
+
+    --color-text: #F0EDE8;
+    --color-text-secondary: #A8B0B8;
+    --color-text-muted: #6A7278;
+
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.2);
+    --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.35), 0 8px 20px rgba(0, 0, 0, 0.25);
+    --shadow-focus: 0 0 0 3px rgba(90, 159, 201, 0.3);
+  }
+
+  // Dark-specific overrides
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  .site-header.header-scrolled {
+    background-color: var(--color-surface);
+  }
+
+  .mobile-nav {
+    background-color: var(--color-surface);
+  }
+
+  .card {
+    background-color: var(--color-surface);
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    background-color: var(--color-surface);
+  }
+
+  .search-form {
+    background-color: var(--color-surface);
+  }
+
+  .site-footer {
+    background-color: #0D141A;
+  }
+
+  blockquote {
+    border-left-color: var(--color-secondary);
+  }
+
+  hr {
+    background-color: var(--color-border);
+  }
+
+  ::selection {
+    background-color: var(--color-secondary);
+    color: var(--color-primary-dark);
+  }
+}

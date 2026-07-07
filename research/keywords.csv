@@ -1,0 +1,40 @@
+market,language,keyword,intent,keyword_type,use_case,est_volume
+Royan,FR,location vacances royan,Transactional,high_volume,Title meta,High
+Royan,FR,location vacances royan appartement,Transactional,high_volume,Title description,High
+Royan,FR,location royan bord de mer,Transactional,high_volume,Title,High
+Royan,FR,location vacances royan vue mer,Transactional,high_volume,Title description,High
+Royan,FR,appartement royan plage,Transactional,high_volume,Title,High
+Royan,FR,location appartement royan,Transactional,high_volume,Title,High
+Royan,EN,royan beach apartment,Transactional,high_volume,English title,Medium
+Royan,EN,royan france vacation rental,Transactional,high_volume,English meta,Medium
+Royan,FR,location vacances royan appartement terrasse,Transactional,long_tail,Description,Medium
+Royan,FR,location vacances royan grande conche,Transactional,long_tail,Title description,Medium
+Royan,FR,location vacances royan appartement famille,Transactional,long_tail,Description,Medium
+Royan,FR,location vacances royan appartement 4 personnes,Transactional,long_tail,Description,Medium
+Royan,FR,location vacances royan teletravail,Transactional,long_tail,Description,Low
+Royan,FR,appartement royan parking,Transactional,long_tail,Description,Low
+Royan,FR,sejour familial royan,Emotional,emotional,Description,Medium
+Royan,FR,escapade bord de mer royan,Emotional,emotional,Description,Low
+Royan,FR,appartement contemporain royan,Luxury,luxury,Description,Low
+Royan,FR,terrasse privee royan,Luxury,luxury,Description,Low
+Royan,FR,week end romantique royan,Couple,couple,Description,Low
+Saint-Trojan,FR,location vacances saint trojan les bains,Transactional,high_volume,Title meta,High
+Saint-Trojan,FR,villa oleron 6 personnes,Transactional,high_volume,Title,High
+Saint-Trojan,FR,maison bord de mer saint trojan,Transactional,high_volume,Title,High
+Saint-Trojan,FR,location ile oleron villa,Transactional,high_volume,Title,High
+Saint-Trojan,FR,saint trojan les bains maison,Transactional,high_volume,Title,High
+Saint-Trojan,FR,villa neuve oleron,Transactional,high_volume,Title,High
+Saint-Trojan,FR,location vacances ile oleron 6 personnes,Transactional,long_tail,Description,Medium
+Saint-Trojan,FR,villa jardin clos oleron,Transactional,long_tail,Description,Medium
+Saint-Trojan,FR,maison animaux acceptes oleron,Transactional,long_tail,Description,Medium
+Saint-Trojan,FR,location maison saint trojan plage,Transactional,long_tail,Description,Medium
+Saint-Trojan,FR,villa teletravail oleron,Transactional,long_tail,Description,Low
+Saint-Trojan,FR,villa familiale oleron,Emotional,emotional,Description,Medium
+Saint-Trojan,FR,sejour entre mer et foret,Emotional,emotional,Description,Low
+Saint-Trojan,FR,maison de vacances reve oleron,Emotional,emotional,Description,Low
+Saint-Trojan,FR,villa contemporaine oleron,Luxury,luxury,Description,Low
+Saint-Trojan,FR,terrasse bois jardin arboré,Luxury,luxury,Description,Low
+Saint-Trojan,FR,week end couple oleron,Couple,couple,Description,Low
+Saint-Trojan,FR,location oleron famille,Family,family,Description,Medium
+Saint-Trojan,FR,maison 6 personnes oleron,Family,family,Description,Medium
+Saint-Trojan,FR,teletravail oleron,Remote Worker,remote_worker,Description,Low
