@@ -1,0 +1,119 @@
+// ============================================================
+// CalmRio — Category Grid (Welcome Beyond inspired)
+// ============================================================
+
+.category-grid {
+  padding: var(--space-9) 0;
+  background-color: var(--color-bg-alt);
+
+  .category-grid__header {
+    text-align: center;
+    margin-bottom: var(--space-7);
+  }
+
+  .category-grid__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+
+    @media (min-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .category-card {
+    position: relative;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    min-height: 240px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+
+      .category-card__image img {
+        transform: scale(1.08);
+      }
+    }
+
+    &:focus-visible {
+      outline: 3px solid var(--color-accent);
+      outline-offset: 2px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+
+      .category-card__image img {
+        transition: none;
+      }
+    }
+  }
+
+  .category-card__image {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--transition-slow);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        transparent 40%,
+        rgba(15, 26, 38, 0.85) 100%
+      );
+      z-index: 1;
+    }
+  }
+
+  .category-card__content {
+    position: relative;
+    z-index: 2;
+    padding: var(--space-6);
+    color: var(--color-text-inverse);
+  }
+
+  .category-card__count {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    font-size: 0.75rem;
+    font-weight: var(--weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-secondary);
+    margin-bottom: var(--space-2);
+  }
+
+  .category-card__title {
+    font-family: var(--font-heading);
+    font-size: var(--h4-size);
+    font-weight: var(--weight-semibold);
+    line-height: 1.2;
+    margin-bottom: var(--space-1);
+  }
+
+  .category-card__description {
+    font-size: var(--small-size);
+    line-height: var(--small-line-height);
+    color: rgba(255, 255, 255, 0.75);
+  }
+}

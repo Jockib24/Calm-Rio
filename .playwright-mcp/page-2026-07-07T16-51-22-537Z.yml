@@ -1,0 +1,587 @@
+- generic [active] [ref=f16e1]:
+  - region "We value your privacy" [ref=f16e437]:
+    - generic [ref=f16e439]:
+      - heading "We value your privacy" [level=2] [ref=f16e440]
+      - generic [ref=f16e441]:
+        - paragraph [ref=f16e443]: We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+        - generic [ref=f16e444]:
+          - button "Customise" [ref=f16e445] [cursor=pointer]
+          - button "Accept All" [ref=f16e446] [cursor=pointer]
+  - generic [ref=f16e2]:
+    - banner [ref=f16e3]:
+      - generic [ref=f16e4]:
+        - link [ref=f16e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=f16e6]
+        - navigation "Primary navigation" [ref=f16e10]:
+          - generic [ref=f16e11]:
+            - button "Destinations" [ref=f16e12] [cursor=pointer]
+            - button "Villa Holidays" [ref=f16e13] [cursor=pointer]
+            - button "Concierge" [ref=f16e14] [cursor=pointer]
+            - region:
+              - generic:
+                - generic:
+                  - generic:
+                    - list
+        - navigation [ref=f16e15]:
+          - list [ref=f16e16]:
+            - listitem [ref=f16e17]:
+              - link [ref=f16e18] [cursor=pointer]:
+                - /url: /holiday-destinations/
+                - text: Destinations
+              - list [ref=f16e19]:
+                - listitem [ref=f16e20]:
+                  - link [ref=f16e21] [cursor=pointer]:
+                    - /url: /france/
+                    - text: France
+                - listitem [ref=f16e22]:
+                  - link [ref=f16e23] [cursor=pointer]:
+                    - /url: /britain-ireland/
+                    - text: Britain & Ireland
+                - listitem [ref=f16e24]:
+                  - link [ref=f16e25] [cursor=pointer]:
+                    - /url: /italy/
+                    - text: Italy
+                - listitem [ref=f16e26]:
+                  - link [ref=f16e27] [cursor=pointer]:
+                    - /url: /spain/
+                    - text: Spain
+                - listitem [ref=f16e28]:
+                  - link [ref=f16e29] [cursor=pointer]:
+                    - /url: /greece/
+                    - text: Greece
+                - listitem [ref=f16e30]:
+                  - link [ref=f16e31] [cursor=pointer]:
+                    - /url: /portugal/
+                    - text: Portugal
+                - listitem [ref=f16e32]:
+                  - link [ref=f16e33] [cursor=pointer]:
+                    - /url: /croatia/
+                    - text: Croatia
+                - listitem [ref=f16e34]:
+                  - link [ref=f16e35] [cursor=pointer]:
+                    - /url: /caribbean/
+                    - text: Caribbean
+                - listitem [ref=f16e36]:
+                  - link [ref=f16e37] [cursor=pointer]:
+                    - /url: /usa/
+                    - text: USA
+                - listitem [ref=f16e38]:
+                  - link [ref=f16e39] [cursor=pointer]:
+                    - /url: /morocco/
+                    - text: Morocco
+                - listitem [ref=f16e40]:
+                  - link [ref=f16e41] [cursor=pointer]:
+                    - /url: /montenegro/
+                    - text: Montenegro
+                - listitem [ref=f16e42]:
+                  - link [ref=f16e43] [cursor=pointer]:
+                    - /url: /turkey/
+                    - text: Turkey
+                - listitem [ref=f16e44]:
+                  - link [ref=f16e45] [cursor=pointer]:
+                    - /url: /malta-gozo/
+                    - text: Malta & Gozo
+                - listitem [ref=f16e46]:
+                  - link [ref=f16e47] [cursor=pointer]:
+                    - /url: /ski/
+                    - text: Ski
+                - listitem [ref=f16e48]:
+                  - link [ref=f16e49] [cursor=pointer]:
+                    - /url: /city-homes-and-apartments/
+                    - text: City Homes & Apartments
+                - listitem [ref=f16e50]:
+                  - link [ref=f16e51] [cursor=pointer]:
+                    - /url: /finland/finnish-lapland/
+                    - text: Finnish Lapland
+                - listitem [ref=f16e52]:
+                  - link [ref=f16e53] [cursor=pointer]:
+                    - /url: /slovenia/
+                    - text: Slovenia
+                - listitem [ref=f16e54]:
+                  - link [ref=f16e55] [cursor=pointer]:
+                    - /url: /thailand/
+                    - text: Thailand
+                - listitem [ref=f16e56]:
+                  - link [ref=f16e57] [cursor=pointer]:
+                    - /url: /cyprus/
+                    - text: Cyprus
+                - listitem [ref=f16e58]:
+                  - link [ref=f16e59] [cursor=pointer]:
+                    - /url: /south-africa/
+                    - text: South Africa
+                - listitem [ref=f16e60]:
+                  - link [ref=f16e61] [cursor=pointer]:
+                    - /url: /bali/
+                    - text: Bali
+                - listitem [ref=f16e62]:
+                  - link [ref=f16e63] [cursor=pointer]:
+                    - /url: /sri-lanka/
+                    - text: Sri Lanka
+                - listitem [ref=f16e64]:
+                  - link [ref=f16e65] [cursor=pointer]:
+                    - /url: /vietnam/
+                    - text: Vietnam
+                - listitem [ref=f16e66]:
+                  - link [ref=f16e67] [cursor=pointer]:
+                    - /url: /villa-holidays/special-offers/summer-sale/
+                    - text: Summer Sale 2026
+            - listitem [ref=f16e68]:
+              - link [ref=f16e69] [cursor=pointer]:
+                - /url: /villa-holidays/
+                - text: Villa Holidays
+              - list [ref=f16e70]:
+                - listitem [ref=f16e71]:
+                  - link [ref=f16e72] [cursor=pointer]:
+                    - /url: /villa-holidays/villa-holidays-2026/
+                    - text: Villa Holidays 2026
+                - listitem [ref=f16e73]:
+                  - link [ref=f16e74] [cursor=pointer]:
+                    - /url: /villa-holidays/villas-with-pools/
+                    - text: Villas with Pools
+                - listitem [ref=f16e75]:
+                  - link [ref=f16e76] [cursor=pointer]:
+                    - /url: /villa-holidays/kids/
+                    - text: Family Villas
+                - listitem [ref=f16e77]:
+                  - link [ref=f16e78] [cursor=pointer]:
+                    - /url: /villa-holidays/villas-near-the-beach/
+                    - text: Villas Near The Beach
+                - listitem [ref=f16e79]:
+                  - link [ref=f16e80] [cursor=pointer]:
+                    - /url: /villa-holidays/villas-for-two/
+                    - text: Villas For Two
+                - listitem [ref=f16e81]:
+                  - link [ref=f16e82] [cursor=pointer]:
+                    - /url: /villa-holidays/resort-villas/
+                    - text: Resort Villas
+                - listitem [ref=f16e83]:
+                  - link [ref=f16e84] [cursor=pointer]:
+                    - /url: /villa-holidays/multigenerational-holidays/
+                    - text: Multigenerational Holidays
+                - listitem [ref=f16e85]:
+                  - link [ref=f16e86] [cursor=pointer]:
+                    - /url: /villa-holidays/new/
+                    - text: New Villas
+                - listitem [ref=f16e87]:
+                  - link [ref=f16e88] [cursor=pointer]:
+                    - /url: /villa-holidays/special-offers/
+                    - text: Special Offers
+                - listitem [ref=f16e89]:
+                  - link [ref=f16e90] [cursor=pointer]:
+                    - /url: /villa-holidays/oliver-recommends/
+                    - text: Oliver Recommends
+                - listitem [ref=f16e91]:
+                  - link [ref=f16e92] [cursor=pointer]:
+                    - /url: /search/?search_type=fixed&tags=190
+                    - text: Chateaux & Castles Collection
+                - listitem [ref=f16e93]:
+                  - link [ref=f16e94] [cursor=pointer]:
+                    - /url: /villa-holidays/wedding-venues/
+                    - text: Wedding Venues
+                - listitem [ref=f16e95]:
+                  - link [ref=f16e96] [cursor=pointer]:
+                    - /url: /villa-holidays/luxe-collection/
+                    - text: Luxe Collection
+                - listitem [ref=f16e97]:
+                  - link [ref=f16e98] [cursor=pointer]:
+                    - /url: /villa-holidays/wellness-collection/
+                    - text: Wellness Collection
+                - listitem [ref=f16e99]:
+                  - link [ref=f16e100] [cursor=pointer]:
+                    - /url: /villa-holidays/lakes-and-mountains/
+                    - text: Lakes & Mountains Collection
+                - listitem [ref=f16e101]:
+                  - link [ref=f16e102] [cursor=pointer]:
+                    - /url: /villa-holidays/quirky-villas/
+                    - text: Quirky
+                - listitem [ref=f16e103]:
+                  - link [ref=f16e104] [cursor=pointer]:
+                    - /url: /villa-holidays/large-houses-to-rent/
+                    - text: Large Houses to Rent
+                - listitem [ref=f16e105]:
+                  - link [ref=f16e106] [cursor=pointer]:
+                    - /url: /villa-holidays/villa-holidays-2026/
+                    - text: Villa Holidays 2026/27
+            - listitem [ref=f16e107]:
+              - link [ref=f16e108] [cursor=pointer]:
+                - /url: /concierge-services/
+                - text: Concierge
+              - list [ref=f16e109]:
+                - listitem [ref=f16e110]:
+                  - link [ref=f16e111] [cursor=pointer]:
+                    - /url: /concierge-services/
+                    - text: Concierge Services
+                - listitem [ref=f16e112]:
+                  - link [ref=f16e113] [cursor=pointer]:
+                    - /url: /chefs/
+                    - text: Chefs & Catering
+                - listitem [ref=f16e114]:
+                  - link [ref=f16e115] [cursor=pointer]:
+                    - /url: /concierge-services/fridge-stocking/
+                    - text: Fridge Stocking
+                - listitem [ref=f16e116]:
+                  - link [ref=f16e117] [cursor=pointer]:
+                    - /url: /concierge-services/maid-services/
+                    - text: Housekeeping
+                - listitem [ref=f16e118]:
+                  - link [ref=f16e119] [cursor=pointer]:
+                    - /url: /concierge-services/car-hire-transfers/
+                    - text: Car Hire & Transfers
+                - listitem [ref=f16e120]:
+                  - link [ref=f16e121] [cursor=pointer]:
+                    - /url: /concierge-services/tours-activities/
+                    - text: Tours & Activities
+                - listitem [ref=f16e122]:
+                  - link [ref=f16e123] [cursor=pointer]:
+                    - /url: /chefs/
+                    - text: Private Chef
+                - listitem [ref=f16e124]:
+                  - link [ref=f16e125] [cursor=pointer]:
+                    - /url: /concierge-services/
+                    - text: Concierge Services
+        - generic [ref=f16e126]:
+          - link "0333 058 8342" [ref=f16e447] [cursor=pointer]:
+            - /url: tel:03330588342
+          - navigation "Secondary navigation" [ref=f16e127]:
+            - list [ref=f16e128]:
+              - listitem [ref=f16e129]:
+                - link "List a Home" [ref=f16e130] [cursor=pointer]:
+                  - /url: /list-your-home/
+              - listitem [ref=f16e131]:
+                - link "About" [ref=f16e132] [cursor=pointer]:
+                  - /url: /about/
+              - listitem [ref=f16e133]:
+                - link "Contact Us" [ref=f16e134] [cursor=pointer]:
+                  - /url: /contact/
+          - button "Search" [ref=f16e448] [cursor=pointer]:
+            - img [ref=f16e449]
+            - generic [ref=f16e453]: Search
+          - link "Favourites" [ref=f16e141] [cursor=pointer]:
+            - /url: /favourites/
+            - generic [ref=f16e142]: Favourites
+            - img [ref=f16e143]
+          - button "Log In" [ref=f16e147] [cursor=pointer]:
+            - img [ref=f16e148]
+            - generic [ref=f16e152]: Log In
+    - generic [ref=f16e153]:
+      - generic [ref=f16e160]:
+        - generic [ref=f16e162]:
+          - heading "Extraordinary Villa Holidays" [level=1] [ref=f16e164]:
+            - emphasis [ref=f16e454]: Extraordinary
+            - text: Villa Holidays
+          - generic [ref=f16e166]: A handpicked collection of the world’s most exceptional stays
+        - generic [ref=f16e168]:
+          - button "Where to?" [ref=f16e169] [cursor=pointer]:
+            - generic [ref=f16e170]: Where to?
+            - img [ref=f16e172]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Where
+                  - textbox "Where":
+                    - /placeholder: Destination / property name
+              - generic:
+                - button "Select dates":
+                  - generic: When
+                  - generic: Add dates
+              - generic:
+                - button "Select guests":
+                  - generic: Who
+                  - generic: Add guests
+              - button "Search":
+                - img
+      - generic [ref=f16e176]:
+        - generic [ref=f16e177]:
+          - heading "Villa Holidays" [level=2] [ref=f16e179]
+          - generic [ref=f16e455]:
+            - button "Previous slide" [disabled] [ref=f16e456]:
+              - img [ref=f16e457]
+            - button "Next slide" [ref=f16e461] [cursor=pointer]:
+              - img [ref=f16e462]
+        - generic [ref=f16e467]:
+          - generic [ref=f16e470]:
+            - img "Dive Straight In" [ref=f16e472]
+            - generic [ref=f16e474]:
+              - paragraph [ref=f16e475]: Dive Straight In
+              - link "Find Villas with Pools" [ref=f16e476] [cursor=pointer]:
+                - /url: /search/?tags=-9999
+            - link [ref=f16e477] [cursor=pointer]:
+              - /url: /search/?tags=-9999
+          - generic [ref=f16e480]:
+            - img "All Together Now" [ref=f16e482]
+            - generic [ref=f16e484]:
+              - paragraph [ref=f16e485]: All Together Now
+              - link "Find Family Escapes" [ref=f16e486] [cursor=pointer]:
+                - /url: /villa-holidays/kids/
+            - link [ref=f16e487] [cursor=pointer]:
+              - /url: /villa-holidays/kids/
+          - generic [ref=f16e490]:
+            - img "Just Add Suncream" [ref=f16e492]
+            - generic [ref=f16e494]:
+              - paragraph [ref=f16e495]: Just Add Suncream
+              - link "Find Beachfront Stays" [ref=f16e496] [cursor=pointer]:
+                - /url: /villa-holidays/villas-near-the-beach/
+            - link [ref=f16e497] [cursor=pointer]:
+              - /url: /villa-holidays/villas-near-the-beach/
+          - generic [ref=f16e499]:
+            - img "Live Large" [ref=f16e501]
+            - generic [ref=f16e503]:
+              - paragraph [ref=f16e504]: Live Large
+              - link "Explore Our Luxe Collection" [ref=f16e505] [cursor=pointer]:
+                - /url: /villa-holidays/luxe-collection/
+            - link [ref=f16e506] [cursor=pointer]:
+              - /url: /villa-holidays/luxe-collection/
+      - generic [ref=f16e228]:
+        - heading "ONLY THE UNFORGETTABLE" [level=2] [ref=f16e229]:
+          - generic [ref=f16e230]: ONLY
+          - generic [ref=f16e231]: THE
+          - emphasis [ref=f16e233]: UNFORGETTABLE
+        - paragraph [ref=f16e235]: Our destination experts have reviewed over 100,000 holiday homes; only the top 2% earn a place in our collection
+        - paragraph [ref=f16e237]: Voted one of the Best Villa Rental Companies in the World by Condé Nast Traveller readers for nine years running.
+        - generic [ref=f16e238]:
+          - img "Feefo rating" [ref=f16e239]
+          - paragraph [ref=f16e240]: 4.7/5 Rated Excellent
+      - generic [ref=f16e245]:
+        - heading "Summer Sale" [level=2] [ref=f16e247]
+        - paragraph [ref=f16e249]: Summer 2026 is all about slow days, standout stays, and villas so beautiful you’ll never want to leave. Book during our summer sale and enjoy a typical saving of £1,750 on our extraordinary homes.
+        - link "Explore Our Summer Sale" [ref=f16e251] [cursor=pointer]:
+          - /url: /villa-holidays/special-offers/summer-sale/
+      - generic [ref=f16e253]:
+        - img "FRANCE Picker Le Hameau De Horizon Olivers Travels1" [ref=f16e255]
+        - img [ref=f16e257]
+        - img [ref=f16e259]
+        - img [ref=f16e261]
+        - img [ref=f16e263]
+        - img [ref=f16e265]
+        - img [ref=f16e267]
+        - generic [ref=f16e270]:
+          - generic [ref=f16e271]:
+            - link "FRANCE" [ref=f16e272] [cursor=pointer]:
+              - /url: /france/
+            - link "BRITAIN & IRELAND" [ref=f16e273] [cursor=pointer]:
+              - /url: /britain-ireland/
+            - link "ITALY" [ref=f16e274] [cursor=pointer]:
+              - /url: /italy/
+            - link "SPAIN" [ref=f16e275] [cursor=pointer]:
+              - /url: /spain/
+            - link "PORTUGAL" [ref=f16e276] [cursor=pointer]:
+              - /url: /portugal/
+            - link "GREECE" [ref=f16e277] [cursor=pointer]:
+              - /url: /greece/
+            - link "CROATIA" [ref=f16e278] [cursor=pointer]:
+              - /url: /croatia/
+          - generic [ref=f16e279]:
+            - link [ref=f16e280] [cursor=pointer]:
+              - /url: /france/
+              - text: FRANCE
+            - link [ref=f16e281] [cursor=pointer]:
+              - /url: /britain-ireland/
+              - text: BRITAIN & IRELAND
+            - link [ref=f16e282] [cursor=pointer]:
+              - /url: /italy/
+              - text: ITALY
+            - link [ref=f16e283] [cursor=pointer]:
+              - /url: /spain/
+              - text: SPAIN
+            - link [ref=f16e284] [cursor=pointer]:
+              - /url: /portugal/
+              - text: PORTUGAL
+            - link [ref=f16e285] [cursor=pointer]:
+              - /url: /greece/
+              - text: GREECE
+            - link [ref=f16e286] [cursor=pointer]:
+              - /url: /croatia/
+              - text: CROATIA
+          - generic [ref=f16e287]:
+            - link [ref=f16e288] [cursor=pointer]:
+              - /url: /france/
+              - text: FRANCE
+            - link [ref=f16e289] [cursor=pointer]:
+              - /url: /britain-ireland/
+              - text: BRITAIN & IRELAND
+            - link [ref=f16e290] [cursor=pointer]:
+              - /url: /italy/
+              - text: ITALY
+            - link [ref=f16e291] [cursor=pointer]:
+              - /url: /spain/
+              - text: SPAIN
+            - link [ref=f16e292] [cursor=pointer]:
+              - /url: /portugal/
+              - text: PORTUGAL
+            - link [ref=f16e293] [cursor=pointer]:
+              - /url: /greece/
+              - text: GREECE
+            - link [ref=f16e294] [cursor=pointer]:
+              - /url: /croatia/
+              - text: CROATIA
+          - generic [ref=f16e295]:
+            - link [ref=f16e296] [cursor=pointer]:
+              - /url: /france/
+              - text: FRANCE
+            - link [ref=f16e297] [cursor=pointer]:
+              - /url: /britain-ireland/
+              - text: BRITAIN & IRELAND
+            - link [ref=f16e298] [cursor=pointer]:
+              - /url: /italy/
+              - text: ITALY
+            - link [ref=f16e299] [cursor=pointer]:
+              - /url: /spain/
+              - text: SPAIN
+            - link [ref=f16e300] [cursor=pointer]:
+              - /url: /portugal/
+              - text: PORTUGAL
+            - link [ref=f16e301] [cursor=pointer]:
+              - /url: /greece/
+              - text: GREECE
+            - link [ref=f16e302] [cursor=pointer]:
+              - /url: /croatia/
+              - text: CROATIA
+        - link "See All Destinations" [ref=f16e304] [cursor=pointer]:
+          - /url: /holiday-destinations/
+      - generic [ref=f16e307]:
+        - heading "Handpicked Luxury Villas" [level=2] [ref=f16e308]:
+          - emphasis [ref=f16e310]: Handpicked
+          - generic [ref=f16e311]: Luxury Villas
+        - generic [ref=f16e312]:
+          - paragraph [ref=f16e313]:
+            - text: Private villa holidays with Oliver’s Travels are all about the extraordinary, especially when it comes to our collection of villas and chateaux. Our love affair with villa holidays first began in 2003 when Co-Founders Oliver and Ravi spent a week at a crumbling chateau in the Dordogne with a group of their closest friends. As fate would have it, that holiday was the start of something special. It was the beginning of Oliver’s Travels. Our handpicked villas, chateaux, and holiday homes are located across the top holiday destinations – with new regions launching every year. You can learn more about
+            - link "how we handpick our villas" [ref=f16e314] [cursor=pointer]:
+              - /url: https://www.oliverstravels.com/the-olivers-way/
+            - text: .
+          - paragraph [ref=f16e315]
+          - paragraph [ref=f16e316]: Quirky, stylish and full of character, our villas for rent have been handpicked by our knowledgeable destination experts who are the best in the business. So one year you could be in a medieval castle, and the next you could be soaking up the sun on your very own private island.
+    - generic [ref=f16e319]:
+      - generic [ref=f16e320]:
+        - heading "Stay in the Know" [level=2] [ref=f16e322]:
+          - text: Stay in the
+          - emphasis [ref=f16e323]: Know
+        - paragraph [ref=f16e325]: Sign up to our newsletter for beautiful villas, destinations and things to do.
+      - generic [ref=f16e329]:
+        - textbox "Email" [ref=f16e330]
+        - generic: Email
+        - button "Subscribe to newsletter" [ref=f16e332] [cursor=pointer]:
+          - img [ref=f16e333]
+    - contentinfo [ref=f16e337]:
+      - generic [ref=f16e339]:
+        - img "Conde Nast Traveller Readers Choice Award 2025" [ref=f16e341]
+        - paragraph [ref=f16e344]: Voted one of the Best Villa Rental Companies in the World by Condé Nast Traveller readers for nine years running.
+      - generic [ref=f16e346]:
+        - generic [ref=f16e347]:
+          - generic [ref=f16e348]: "Talk to our team:"
+          - link "0333 058 8342" [ref=f16e508] [cursor=pointer]:
+            - /url: tel:03330588342
+        - generic [ref=f16e350]:
+          - generic [ref=f16e351]:
+            - generic [ref=f16e352]: Popular Destinations
+            - list [ref=f16e353]:
+              - listitem [ref=f16e354]:
+                - link "France" [ref=f16e355] [cursor=pointer]:
+                  - /url: /france/
+              - listitem [ref=f16e356]:
+                - link "Britain & Ireland" [ref=f16e357] [cursor=pointer]:
+                  - /url: /britain-ireland/
+              - listitem [ref=f16e358]:
+                - link "Italy" [ref=f16e359] [cursor=pointer]:
+                  - /url: /italy/
+              - listitem [ref=f16e360]:
+                - link "Spain" [ref=f16e361] [cursor=pointer]:
+                  - /url: /spain/
+              - listitem [ref=f16e362]:
+                - link "Greece" [ref=f16e363] [cursor=pointer]:
+                  - /url: /greece/
+              - listitem [ref=f16e364]:
+                - link "Portugal" [ref=f16e365] [cursor=pointer]:
+                  - /url: /portugal/
+          - generic [ref=f16e366]:
+            - generic [ref=f16e367]: About Oliver’s Travels
+            - list [ref=f16e368]:
+              - listitem [ref=f16e369]:
+                - link "About Oliver’s Travels" [ref=f16e370] [cursor=pointer]:
+                  - /url: /about/
+              - listitem [ref=f16e371]:
+                - link "Awards" [ref=f16e372] [cursor=pointer]:
+                  - /url: /about/awards/
+              - listitem [ref=f16e373]:
+                - link "Press" [ref=f16e374] [cursor=pointer]:
+                  - /url: /about/press/
+              - listitem [ref=f16e375]:
+                - link "Giving Back" [ref=f16e376] [cursor=pointer]:
+                  - /url: /go-beyond/
+              - listitem [ref=f16e377]:
+                - link "Blog" [ref=f16e378] [cursor=pointer]:
+                  - /url: /blog/
+              - listitem [ref=f16e379]:
+                - link "Careers" [ref=f16e380] [cursor=pointer]:
+                  - /url: /jobs/
+          - generic [ref=f16e381]:
+            - generic [ref=f16e382]: Help & Information
+            - list [ref=f16e383]:
+              - listitem [ref=f16e384]:
+                - link "Contact Us" [ref=f16e385] [cursor=pointer]:
+                  - /url: /contact/
+              - listitem [ref=f16e386]:
+                - link "VIP Rewards" [ref=f16e387] [cursor=pointer]:
+                  - /url: /vip-rewards/
+              - listitem [ref=f16e388]:
+                - link "Gift Vouchers" [ref=f16e389] [cursor=pointer]:
+                  - /url: /gift-vouchers/
+              - listitem [ref=f16e390]:
+                - link "FAQs" [ref=f16e391] [cursor=pointer]:
+                  - /url: /faq/
+              - listitem [ref=f16e392]:
+                - link "Why Book With Us" [ref=f16e393] [cursor=pointer]:
+                  - /url: /about/why-book-with-us/
+          - generic [ref=f16e394]:
+            - generic [ref=f16e395]: Partners & Owners
+            - list [ref=f16e396]:
+              - listitem [ref=f16e397]:
+                - link "Owner Login" [ref=f16e398] [cursor=pointer]:
+                  - /url: https://booking.oliverstravels.com/owner/login?ref=39023fb7-fa56-43bc-a34c-30c1125c6c74
+              - listitem [ref=f16e399]:
+                - link "Owner Sign Up" [ref=f16e400] [cursor=pointer]:
+                  - /url: /owner-signup/
+              - listitem [ref=f16e401]:
+                - link "Travel Partners" [ref=f16e402] [cursor=pointer]:
+                  - /url: /travel-partners/
+              - listitem [ref=f16e403]:
+                - link "Acquisitions" [ref=f16e404] [cursor=pointer]:
+                  - /url: /about/acquisitions/
+              - listitem [ref=f16e405]:
+                - link "Affiliate Programme" [ref=f16e406] [cursor=pointer]:
+                  - /url: /affiliates/
+          - generic [ref=f16e407]:
+            - generic [ref=f16e408]: Legal
+            - list [ref=f16e409]:
+              - listitem [ref=f16e410]:
+                - link "Terms" [ref=f16e411] [cursor=pointer]:
+                  - /url: /terms-and-conditions/
+              - listitem [ref=f16e412]:
+                - link "Privacy Policy" [ref=f16e413] [cursor=pointer]:
+                  - /url: /terms-and-conditions/privacy-policy/
+              - listitem [ref=f16e414]:
+                - link "Cookies" [ref=f16e415] [cursor=pointer]:
+                  - /url: /terms-and-conditions/cookies/
+              - listitem [ref=f16e416]:
+                - link "Sitemap" [ref=f16e417] [cursor=pointer]:
+                  - /url: /otsitemap/
+        - generic [ref=f16e418]:
+          - generic [ref=f16e419]:
+            - link [ref=f16e420] [cursor=pointer]:
+              - /url: http://www.facebook.com/oliversjournal?ref=39023fb7-fa56-43bc-a34c-30c1125c6c74
+              - img [ref=f16e421]
+            - link [ref=f16e423] [cursor=pointer]:
+              - /url: https://www.instagram.com/_oliverstravels_/?ref=39023fb7-fa56-43bc-a34c-30c1125c6c74
+              - img [ref=f16e424]
+            - link [ref=f16e426] [cursor=pointer]:
+              - /url: https://www.pinterest.co.uk/oliverstravels?ref=39023fb7-fa56-43bc-a34c-30c1125c6c74
+              - img [ref=f16e427]
+            - link [ref=f16e429] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@_oliverstravels_?ref=39023fb7-fa56-43bc-a34c-30c1125c6c74
+              - img [ref=f16e430]
+            - link [ref=f16e432] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Oliverstravels?ref=39023fb7-fa56-43bc-a34c-30c1125c6c74
+              - img [ref=f16e433]
+          - paragraph [ref=f16e435]: © 2026 Oliver's Travels
+  - alert [ref=f16e509]

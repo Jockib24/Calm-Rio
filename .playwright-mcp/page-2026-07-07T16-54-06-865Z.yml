@@ -1,0 +1,716 @@
+- generic [active] [ref=f78e1]:
+  - generic [ref=f78e2]:
+    - banner [ref=f78e3]:
+      - generic [ref=f78e4]:
+        - paragraph [ref=f78e5]:
+          - text: By using Plum Guide, you agree to our
+          - link "Cookie Policy" [ref=f78e6] [cursor=pointer]:
+            - /url: /cookie-policy
+          - text: .
+        - button "Close" [ref=f78e7] [cursor=pointer]:
+          - img [ref=f78e9]
+      - button "Plum Guide" [ref=f78e13] [cursor=pointer]:
+        - img [ref=f78e15]
+      - generic [ref=f78e22]:
+        - button "Language is en-US Currency is MAD" [ref=f78e23] [cursor=pointer]:
+          - paragraph [ref=f78e24]: en
+          - paragraph [ref=f78e26]: MAD
+        - button "Log in" [ref=f78e27] [cursor=pointer]:
+          - img [ref=f78e29]
+          - img [ref=f78e35]
+    - generic [ref=f78e37]:
+      - generic [ref=f78e40]:
+        - list [ref=f78e43]:
+          - listitem [ref=f78e44]:
+            - button "Search"
+          - listitem [ref=f78e45]:
+            - combobox "Destination" [ref=f78e46]:
+              - button "Destination Morocco" [ref=f78e47] [cursor=pointer]:
+                - generic [ref=f78e48]: Destination
+                - button "Morocco" [ref=f78e49]:
+                  - paragraph [ref=f78e50]: Morocco
+            - button "Add dates" [ref=f78e51] [cursor=pointer]:
+              - paragraph [ref=f78e52]: Add dates
+          - listitem [ref=f78e53]:
+            - generic [ref=f78e54]:
+              - button "Add guests" [ref=f78e55] [cursor=pointer]:
+                - paragraph [ref=f78e56]: Add guests
+              - button "Search" [ref=f78e57] [cursor=pointer]:
+                - img [ref=f78e59]
+                - paragraph [ref=f78e61]: Search
+        - button "Filter&Sort" [ref=f78e63] [cursor=pointer]:
+          - img [ref=f78e66]
+          - generic [ref=f78e68]: Filter&Sort
+      - main [ref=f78e69]:
+        - generic [ref=f78e71]:
+          - generic [ref=f78e72]:
+            - generic [ref=f78e74]:
+              - paragraph [ref=f78e76]: 50 homes available
+              - generic [ref=f78e77]: We reject thousands of homes worldwide, so you don't have to.
+              - button "Learn about our standards" [ref=f78e78] [cursor=pointer]:
+                - generic [ref=f78e79]: Learn about our standards
+            - generic [ref=f78e80]:
+              - listitem [ref=f78e81]:
+                - generic [ref=f78e82]:
+                  - separator [ref=f78e83]
+                  - article [ref=f78e84]:
+                    - generic [ref=f78e85]:
+                      - generic [ref=f78e86]:
+                        - link [ref=f78e88] [cursor=pointer]:
+                          - /url: /homes/101274/pomegranate-orange
+                          - img [ref=f78e90]
+                        - link [ref=f78e92] [cursor=pointer]:
+                          - /url: /homes/101274/pomegranate-orange
+                          - img [ref=f78e94]
+                        - link [ref=f78e96] [cursor=pointer]:
+                          - /url: /homes/101274/pomegranate-orange
+                          - img [ref=f78e98]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e106]:
+                          - img [ref=f78e108]
+                        - button "Go next" [ref=f78e110] [cursor=pointer]:
+                          - img [ref=f78e112]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e114] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e116] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e118] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e120] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e122] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e124] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e126] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e128] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e130] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e132] [cursor=pointer]
+                    - generic [ref=f78e134]:
+                      - generic [ref=f78e136]:
+                        - heading "Pomegranate & Orange" [level=5] [ref=f78e137]
+                        - button "favourite" [ref=f78e139] [cursor=pointer]:
+                          - img [ref=f78e140]
+                      - paragraph [ref=f78e142]: Gueliz, Marrakesh
+                      - list [ref=f78e143]:
+                        - listitem [ref=f78e144]: 8 guests
+                        - listitem [ref=f78e145]: •4 bedrooms
+                        - listitem [ref=f78e146]: •4 bathrooms
+                      - generic [ref=f78e150]:
+                        - img [ref=f78e151]
+                        - paragraph [ref=f78e154]: Free cancellation
+                    - link "Pomegranate & Orange" [ref=f78e155] [cursor=pointer]:
+                      - /url: /homes/101274/pomegranate-orange
+              - listitem [ref=f78e156]:
+                - generic [ref=f78e157]:
+                  - separator [ref=f78e158]
+                  - article [ref=f78e159]:
+                    - generic [ref=f78e160]:
+                      - generic [ref=f78e161]:
+                        - link [ref=f78e163] [cursor=pointer]:
+                          - /url: /homes/1115024/annakhils-oasis
+                          - img [ref=f78e165]
+                        - link [ref=f78e167] [cursor=pointer]:
+                          - /url: /homes/1115024/annakhils-oasis
+                          - img [ref=f78e169]
+                        - link [ref=f78e171] [cursor=pointer]:
+                          - /url: /homes/1115024/annakhils-oasis
+                          - img [ref=f78e173]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e191]:
+                          - img [ref=f78e193]
+                        - button "Go next" [ref=f78e195] [cursor=pointer]:
+                          - img [ref=f78e197]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e199] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e201] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e203] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e205] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e207] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e209] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e211] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e213] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e215] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e217] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e219] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e221] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e223] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e225] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e227] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e229] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e231] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e233] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e235] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e237] [cursor=pointer]
+                    - generic [ref=f78e239]:
+                      - generic [ref=f78e241]:
+                        - heading "Annakhil's Oasis" [level=5] [ref=f78e242]
+                        - button "favourite" [ref=f78e244] [cursor=pointer]:
+                          - img [ref=f78e245]
+                      - paragraph [ref=f78e247]: Annakhil, Marrakesh
+                      - list [ref=f78e248]:
+                        - listitem [ref=f78e249]: 16 guests
+                        - listitem [ref=f78e250]: •8 bedrooms
+                        - listitem [ref=f78e251]: •9 bathrooms
+                    - link "Annakhil's Oasis" [ref=f78e254] [cursor=pointer]:
+                      - /url: /homes/1115024/annakhils-oasis
+              - listitem [ref=f78e255]:
+                - generic [ref=f78e256]:
+                  - separator [ref=f78e257]
+                  - article [ref=f78e258]:
+                    - generic [ref=f78e259]:
+                      - generic [ref=f78e260]:
+                        - link [ref=f78e262] [cursor=pointer]:
+                          - /url: /homes/1115055/moroccan-sanctuary
+                          - img [ref=f78e264]
+                        - link [ref=f78e266] [cursor=pointer]:
+                          - /url: /homes/1115055/moroccan-sanctuary
+                          - img [ref=f78e268]
+                        - link [ref=f78e270] [cursor=pointer]:
+                          - /url: /homes/1115055/moroccan-sanctuary
+                          - img [ref=f78e272]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e290]:
+                          - img [ref=f78e292]
+                        - button "Go next" [ref=f78e294] [cursor=pointer]:
+                          - img [ref=f78e296]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e298] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e300] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e302] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e304] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e306] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e308] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e310] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e312] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e314] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e316] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e318] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e320] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e322] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e324] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e326] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e328] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e330] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e332] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e334] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e336] [cursor=pointer]
+                    - generic [ref=f78e338]:
+                      - generic [ref=f78e340]:
+                        - heading "Moroccan Sanctuary" [level=5] [ref=f78e341]
+                        - button "favourite" [ref=f78e343] [cursor=pointer]:
+                          - img [ref=f78e344]
+                      - paragraph [ref=f78e346]: Sidi Youssef Ben Ali, Marrakesh-Safi
+                      - list [ref=f78e347]:
+                        - listitem [ref=f78e348]: 10 guests
+                        - listitem [ref=f78e349]: •5 bedrooms
+                        - listitem [ref=f78e350]: •5 bathrooms
+                    - link "Moroccan Sanctuary" [ref=f78e353] [cursor=pointer]:
+                      - /url: /homes/1115055/moroccan-sanctuary
+              - listitem [ref=f78e354]:
+                - generic [ref=f78e355]:
+                  - separator [ref=f78e356]
+                  - article [ref=f78e357]:
+                    - generic [ref=f78e358]:
+                      - generic [ref=f78e359]:
+                        - link [ref=f78e361] [cursor=pointer]:
+                          - /url: /homes/1252216/moroccan-masterpiece
+                          - img [ref=f78e363]
+                        - link [ref=f78e365] [cursor=pointer]:
+                          - /url: /homes/1252216/moroccan-masterpiece
+                          - img [ref=f78e367]
+                        - link [ref=f78e369] [cursor=pointer]:
+                          - /url: /homes/1252216/moroccan-masterpiece
+                          - img [ref=f78e371]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e389]:
+                          - img [ref=f78e391]
+                        - button "Go next" [ref=f78e393] [cursor=pointer]:
+                          - img [ref=f78e395]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e397] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e399] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e401] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e403] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e405] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e407] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e409] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e411] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e413] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e415] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e417] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e419] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e421] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e423] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e425] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e427] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e429] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e431] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e433] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e435] [cursor=pointer]
+                    - generic [ref=f78e437]:
+                      - generic [ref=f78e439]:
+                        - heading "Moroccan Masterpiece" [level=5] [ref=f78e440]
+                        - button "favourite" [ref=f78e442] [cursor=pointer]:
+                          - img [ref=f78e443]
+                      - paragraph [ref=f78e445]: Taroudant, Souss-Massa
+                      - list [ref=f78e446]:
+                        - listitem [ref=f78e447]: 15 guests
+                        - listitem [ref=f78e448]: •8 bedrooms
+                        - listitem [ref=f78e449]: •8 bathrooms
+                      - generic [ref=f78e453]:
+                        - img [ref=f78e454]
+                        - paragraph [ref=f78e457]: Free cancellation
+                    - link "Moroccan Masterpiece" [ref=f78e458] [cursor=pointer]:
+                      - /url: /homes/1252216/moroccan-masterpiece
+              - listitem [ref=f78e459]:
+                - generic [ref=f78e460]:
+                  - separator [ref=f78e461]
+                  - article [ref=f78e462]:
+                    - generic [ref=f78e463]:
+                      - generic [ref=f78e464]:
+                        - link [ref=f78e466] [cursor=pointer]:
+                          - /url: /homes/1256444/an-atlas-view
+                          - img [ref=f78e468]
+                        - link [ref=f78e470] [cursor=pointer]:
+                          - /url: /homes/1256444/an-atlas-view
+                          - img [ref=f78e472]
+                        - link [ref=f78e474] [cursor=pointer]:
+                          - /url: /homes/1256444/an-atlas-view
+                          - img [ref=f78e476]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e494]:
+                          - img [ref=f78e496]
+                        - button "Go next" [ref=f78e498] [cursor=pointer]:
+                          - img [ref=f78e500]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e502] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e504] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e506] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e508] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e510] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e512] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e514] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e516] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e518] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e520] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e522] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e524] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e526] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e528] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e530] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e532] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e534] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e536] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e538] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e540] [cursor=pointer]
+                    - generic [ref=f78e542]:
+                      - generic [ref=f78e544]:
+                        - heading "An Atlas View" [level=5] [ref=f78e545]
+                        - button "favourite" [ref=f78e547] [cursor=pointer]:
+                          - img [ref=f78e548]
+                      - paragraph [ref=f78e550]: Al Ouidane, Marrakesh
+                      - list [ref=f78e551]:
+                        - listitem [ref=f78e552]: 14 guests
+                        - listitem [ref=f78e553]: •7 bedrooms
+                        - listitem [ref=f78e554]: •8 bathrooms
+                      - generic [ref=f78e558]:
+                        - img [ref=f78e559]
+                        - paragraph [ref=f78e562]: Free cancellation
+                    - link "An Atlas View" [ref=f78e563] [cursor=pointer]:
+                      - /url: /homes/1256444/an-atlas-view
+              - listitem [ref=f78e564]:
+                - generic [ref=f78e565]:
+                  - separator [ref=f78e566]
+                  - article [ref=f78e567]:
+                    - generic [ref=f78e568]:
+                      - generic [ref=f78e569]:
+                        - link [ref=f78e571] [cursor=pointer]:
+                          - /url: /homes/1091928/contemporary-oasis
+                          - img [ref=f78e573]
+                        - link [ref=f78e575] [cursor=pointer]:
+                          - /url: /homes/1091928/contemporary-oasis
+                          - img [ref=f78e577]
+                        - link [ref=f78e579] [cursor=pointer]:
+                          - /url: /homes/1091928/contemporary-oasis
+                          - img [ref=f78e581]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e599]:
+                          - img [ref=f78e601]
+                        - button "Go next" [ref=f78e603] [cursor=pointer]:
+                          - img [ref=f78e605]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e607] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e609] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e611] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e613] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e615] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e617] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e619] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e621] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e623] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e625] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e627] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e629] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e631] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e633] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e635] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e637] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e639] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e641] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e643] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e645] [cursor=pointer]
+                    - generic [ref=f78e647]:
+                      - generic [ref=f78e649]:
+                        - heading "Contemporary Oasis" [level=5] [ref=f78e650]
+                        - button "favourite" [ref=f78e652] [cursor=pointer]:
+                          - img [ref=f78e653]
+                      - paragraph [ref=f78e655]: Annakhil, Marrakesh
+                      - list [ref=f78e656]:
+                        - listitem [ref=f78e657]: 10 guests
+                        - listitem [ref=f78e658]: •5 bedrooms
+                        - listitem [ref=f78e659]: •6 bathrooms
+                    - link "Contemporary Oasis" [ref=f78e662] [cursor=pointer]:
+                      - /url: /homes/1091928/contemporary-oasis
+              - listitem [ref=f78e663]:
+                - generic [ref=f78e664]:
+                  - separator [ref=f78e665]
+                  - article [ref=f78e666]:
+                    - generic [ref=f78e667]:
+                      - generic [ref=f78e668]:
+                        - link [ref=f78e670] [cursor=pointer]:
+                          - /url: /homes/1091947/soulful-retreat
+                          - img [ref=f78e672]
+                        - link [ref=f78e674] [cursor=pointer]:
+                          - /url: /homes/1091947/soulful-retreat
+                          - img [ref=f78e676]
+                        - link [ref=f78e678] [cursor=pointer]:
+                          - /url: /homes/1091947/soulful-retreat
+                          - img [ref=f78e680]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e698]:
+                          - img [ref=f78e700]
+                        - button "Go next" [ref=f78e702] [cursor=pointer]:
+                          - img [ref=f78e704]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e706] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e708] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e710] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e712] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e714] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e716] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e718] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e720] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e722] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e724] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e726] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e728] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e730] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e732] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e734] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e736] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e738] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e740] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e742] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e744] [cursor=pointer]
+                    - generic [ref=f78e746]:
+                      - generic [ref=f78e748]:
+                        - heading "Soulful Retreat" [level=5] [ref=f78e749]
+                        - button "favourite" [ref=f78e751] [cursor=pointer]:
+                          - img [ref=f78e752]
+                      - paragraph [ref=f78e754]: Annakhil, Marrakesh
+                      - list [ref=f78e755]:
+                        - listitem [ref=f78e756]: 16 guests
+                        - listitem [ref=f78e757]: •8 bedrooms
+                        - listitem [ref=f78e758]: •9 bathrooms
+                    - link "Soulful Retreat" [ref=f78e761] [cursor=pointer]:
+                      - /url: /homes/1091947/soulful-retreat
+              - listitem [ref=f78e762]:
+                - generic [ref=f78e763]:
+                  - separator [ref=f78e764]
+                  - article [ref=f78e765]:
+                    - generic [ref=f78e766]:
+                      - generic [ref=f78e767]:
+                        - link [ref=f78e769] [cursor=pointer]:
+                          - /url: /homes/1091952/oasis-of-tranquility
+                          - img [ref=f78e771]
+                        - link [ref=f78e773] [cursor=pointer]:
+                          - /url: /homes/1091952/oasis-of-tranquility
+                          - img [ref=f78e775]
+                        - link [ref=f78e777] [cursor=pointer]:
+                          - /url: /homes/1091952/oasis-of-tranquility
+                          - img [ref=f78e779]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e797]:
+                          - img [ref=f78e799]
+                        - button "Go next" [ref=f78e801] [cursor=pointer]:
+                          - img [ref=f78e803]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e805] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e807] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e809] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e811] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e813] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e815] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e817] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e819] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e821] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e823] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e825] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e827] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e829] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e831] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e833] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e835] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e837] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e839] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e841] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e843] [cursor=pointer]
+                    - generic [ref=f78e845]:
+                      - generic [ref=f78e847]:
+                        - heading "Oasis of Tranquility" [level=5] [ref=f78e848]
+                        - button "favourite" [ref=f78e850] [cursor=pointer]:
+                          - img [ref=f78e851]
+                      - paragraph [ref=f78e853]: Tassoultante, Marrakesh
+                      - list [ref=f78e854]:
+                        - listitem [ref=f78e855]: 14 guests
+                        - listitem [ref=f78e856]: •5 bedrooms
+                        - listitem [ref=f78e857]: •8 bathrooms
+                    - link "Oasis of Tranquility" [ref=f78e860] [cursor=pointer]:
+                      - /url: /homes/1091952/oasis-of-tranquility
+              - listitem [ref=f78e861]:
+                - generic [ref=f78e862]:
+                  - separator [ref=f78e863]
+                  - article [ref=f78e864]:
+                    - generic [ref=f78e865]:
+                      - generic [ref=f78e866]:
+                        - link [ref=f78e868] [cursor=pointer]:
+                          - /url: /homes/1092668/exquisite-oasis
+                          - img [ref=f78e870]
+                        - link [ref=f78e872] [cursor=pointer]:
+                          - /url: /homes/1092668/exquisite-oasis
+                          - img [ref=f78e874]
+                        - link [ref=f78e876] [cursor=pointer]:
+                          - /url: /homes/1092668/exquisite-oasis
+                          - img [ref=f78e878]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e896]:
+                          - img [ref=f78e898]
+                        - button "Go next" [ref=f78e900] [cursor=pointer]:
+                          - img [ref=f78e902]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e904] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e906] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e908] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e910] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e912] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e914] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e916] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e918] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e920] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e922] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e924] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e926] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e928] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e930] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e932] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e934] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e936] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e938] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e940] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e942] [cursor=pointer]
+                    - generic [ref=f78e944]:
+                      - generic [ref=f78e946]:
+                        - heading "Exquisite Oasis" [level=5] [ref=f78e947]
+                        - button "favourite" [ref=f78e949] [cursor=pointer]:
+                          - img [ref=f78e950]
+                      - paragraph [ref=f78e952]: Annakhil, Marrakesh
+                      - list [ref=f78e953]:
+                        - listitem [ref=f78e954]: 10 guests
+                        - listitem [ref=f78e955]: •5 bedrooms
+                        - listitem [ref=f78e956]: •5 bathrooms
+                    - link "Exquisite Oasis" [ref=f78e959] [cursor=pointer]:
+                      - /url: /homes/1092668/exquisite-oasis
+              - listitem [ref=f78e960]:
+                - generic [ref=f78e961]:
+                  - separator [ref=f78e962]
+                  - article [ref=f78e963]:
+                    - generic [ref=f78e964]:
+                      - generic [ref=f78e965]:
+                        - link [ref=f78e967] [cursor=pointer]:
+                          - /url: /homes/1092669/serene-splendor
+                          - img [ref=f78e969]
+                        - link [ref=f78e971] [cursor=pointer]:
+                          - /url: /homes/1092669/serene-splendor
+                          - img [ref=f78e973]
+                        - link [ref=f78e975] [cursor=pointer]:
+                          - /url: /homes/1092669/serene-splendor
+                          - img [ref=f78e977]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f78e995]:
+                          - img [ref=f78e997]
+                        - button "Go next" [ref=f78e999] [cursor=pointer]:
+                          - img [ref=f78e1001]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f78e1003] [cursor=pointer]
+                          - button "Go to 2" [ref=f78e1005] [cursor=pointer]
+                          - button "Go to 3" [ref=f78e1007] [cursor=pointer]
+                          - button "Go to 4" [ref=f78e1009] [cursor=pointer]
+                          - button "Go to 5" [ref=f78e1011] [cursor=pointer]
+                          - button "Go to 6" [ref=f78e1013] [cursor=pointer]
+                          - button "Go to 7" [ref=f78e1015] [cursor=pointer]
+                          - button "Go to 8" [ref=f78e1017] [cursor=pointer]
+                          - button "Go to 9" [ref=f78e1019] [cursor=pointer]
+                          - button "Go to 10" [ref=f78e1021] [cursor=pointer]
+                          - button "Go to 11" [ref=f78e1023] [cursor=pointer]
+                          - button "Go to 12" [ref=f78e1025] [cursor=pointer]
+                          - button "Go to 13" [ref=f78e1027] [cursor=pointer]
+                          - button "Go to 14" [ref=f78e1029] [cursor=pointer]
+                          - button "Go to 15" [ref=f78e1031] [cursor=pointer]
+                          - button "Go to 16" [ref=f78e1033] [cursor=pointer]
+                          - button "Go to 17" [ref=f78e1035] [cursor=pointer]
+                          - button "Go to 18" [ref=f78e1037] [cursor=pointer]
+                          - button "Go to 19" [ref=f78e1039] [cursor=pointer]
+                          - button "Go to 20" [ref=f78e1041] [cursor=pointer]
+                    - generic [ref=f78e1043]:
+                      - generic [ref=f78e1045]:
+                        - heading "Serene Splendor" [level=5] [ref=f78e1046]
+                        - button "favourite" [ref=f78e1048] [cursor=pointer]:
+                          - img [ref=f78e1049]
+                      - paragraph [ref=f78e1051]: Centre Commune Ouled Hassoune, Sidi Youssef Ben Ali
+                      - list [ref=f78e1052]:
+                        - listitem [ref=f78e1053]: 24 guests
+                        - listitem [ref=f78e1054]: •11 bedrooms
+                        - listitem [ref=f78e1055]: •11 bathrooms
+                    - link "Serene Splendor" [ref=f78e1058] [cursor=pointer]:
+                      - /url: /homes/1092669/serene-splendor
+              - separator [ref=f78e1059]
+            - generic [ref=f78e1061]:
+              - generic [ref=f78e1062]:
+                - button "Previous page button" [disabled]:
+                  - generic:
+                    - img
+              - paragraph [ref=f78e1064]:
+                - strong [ref=f78e1065]: 1 – 40
+                - text: of 50 homes
+              - button "Next page button" [ref=f78e1067] [cursor=pointer]:
+                - img [ref=f78e1069]
+          - generic [ref=f78e1073]:
+            - paragraph [ref=f78e1074]: © Copyright Plum Guide 2026
+            - list [ref=f78e1075]:
+              - listitem [ref=f78e1076]:
+                - link "Terms" [ref=f78e1077] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=f78e1078]:
+                - text: "|"
+                - link "Privacy" [ref=f78e1079] [cursor=pointer]:
+                  - /url: /privacy-policy
+              - listitem [ref=f78e1080]:
+                - text: "|"
+                - link "Sitemap" [ref=f78e1081] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=f78e1082]: "| Cookie Preferences"
+        - generic [ref=f78e1084]:
+          - generic:
+            - button "Map view" [ref=f78e1086] [cursor=pointer]:
+              - img [ref=f78e1088]
+            - generic [ref=f78e1091]:
+              - button "Zoom in" [ref=f78e1092] [cursor=pointer]:
+                - img [ref=f78e1094]
+              - button "Zoom out" [ref=f78e1096] [cursor=pointer]:
+                - img [ref=f78e1098]
+          - generic [ref=f78e1102]:
+            - region "Map" [ref=f78e1103]
+            - generic [ref=f78e1104]:
+              - generic [ref=f78e1169]:
+                - button [ref=f78e1171] [cursor=pointer]:
+                  - img [ref=f78e1173]
+                - button [ref=f78e1176] [cursor=pointer]:
+                  - img [ref=f78e1178]
+                - button [ref=f78e1181] [cursor=pointer]:
+                  - img [ref=f78e1183]
+                - button [ref=f78e1186] [cursor=pointer]:
+                  - img [ref=f78e1188]
+                - button [ref=f78e1191] [cursor=pointer]:
+                  - img [ref=f78e1193]
+                - button [ref=f78e1196] [cursor=pointer]:
+                  - img [ref=f78e1198]
+                - button [ref=f78e1201] [cursor=pointer]:
+                  - img [ref=f78e1203]
+                - button [ref=f78e1206] [cursor=pointer]:
+                  - img [ref=f78e1208]
+                - button [ref=f78e1211] [cursor=pointer]:
+                  - img [ref=f78e1213]
+                - button [ref=f78e1216] [cursor=pointer]:
+                  - img [ref=f78e1218]
+                - button [ref=f78e1221] [cursor=pointer]:
+                  - img [ref=f78e1223]
+                - button [ref=f78e1226] [cursor=pointer]:
+                  - img [ref=f78e1228]
+                - button [ref=f78e1231] [cursor=pointer]:
+                  - img [ref=f78e1233]
+                - button [ref=f78e1236] [cursor=pointer]:
+                  - img [ref=f78e1238]
+                - button [ref=f78e1241] [cursor=pointer]:
+                  - img [ref=f78e1243]
+                - button [ref=f78e1246] [cursor=pointer]:
+                  - img [ref=f78e1248]
+                - button [ref=f78e1251] [cursor=pointer]:
+                  - img [ref=f78e1253]
+                - button [ref=f78e1256] [cursor=pointer]:
+                  - img [ref=f78e1258]
+                - button [ref=f78e1261] [cursor=pointer]:
+                  - img [ref=f78e1263]
+                - button [ref=f78e1266] [cursor=pointer]:
+                  - img [ref=f78e1268]
+                - button [ref=f78e1271] [cursor=pointer]:
+                  - img [ref=f78e1273]
+                - button [ref=f78e1276] [cursor=pointer]:
+                  - img [ref=f78e1278]
+                - button [ref=f78e1281] [cursor=pointer]:
+                  - img [ref=f78e1283]
+                - button [ref=f78e1286] [cursor=pointer]:
+                  - img [ref=f78e1288]
+                - button [ref=f78e1291] [cursor=pointer]:
+                  - img [ref=f78e1293]
+                - button [ref=f78e1296] [cursor=pointer]:
+                  - img [ref=f78e1298]
+                - button [ref=f78e1301] [cursor=pointer]:
+                  - img [ref=f78e1303]
+                - button [ref=f78e1306] [cursor=pointer]:
+                  - img [ref=f78e1308]
+                - button [ref=f78e1311] [cursor=pointer]:
+                  - img [ref=f78e1313]
+                - button [ref=f78e1316] [cursor=pointer]:
+                  - img [ref=f78e1318]
+                - button [ref=f78e1321] [cursor=pointer]:
+                  - img [ref=f78e1323]
+                - button [ref=f78e1326] [cursor=pointer]:
+                  - img [ref=f78e1328]
+                - button [ref=f78e1331] [cursor=pointer]:
+                  - img [ref=f78e1333]
+                - button [ref=f78e1336] [cursor=pointer]:
+                  - img [ref=f78e1338]
+                - button [ref=f78e1341] [cursor=pointer]:
+                  - img [ref=f78e1343]
+                - button [ref=f78e1346] [cursor=pointer]:
+                  - img [ref=f78e1348]
+                - button [ref=f78e1351] [cursor=pointer]:
+                  - img [ref=f78e1353]
+                - button [ref=f78e1356] [cursor=pointer]:
+                  - img [ref=f78e1358]
+                - button [ref=f78e1361] [cursor=pointer]:
+                  - img [ref=f78e1363]
+                - button [ref=f78e1366] [cursor=pointer]:
+                  - img [ref=f78e1368]
+              - iframe [ref=f78e1370]:
+                
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=f78e1371]
+  - status [ref=f78e1372]

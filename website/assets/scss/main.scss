@@ -62,6 +62,11 @@
 @use 'utilities/helpers';
 
 // ------------------------------------------------------------
+// Animations — Scroll Reveal
+// ------------------------------------------------------------
+@use 'animations/scroll-reveal';
+
+// ------------------------------------------------------------
 // New UI/UX Components
 // ------------------------------------------------------------
 @use 'components/sticky-bar';
@@ -71,3 +76,6 @@
 @use 'components/why-book-direct';
 @use 'components/newsletter';
 @use 'components/gallery-lightbox';
+@use 'components/category-grid';
+@use 'components/tabs';
+@use 'components/promise-section';

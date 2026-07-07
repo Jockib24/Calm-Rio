@@ -1,0 +1,47 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip to content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=f8e3]:
+    - generic [ref=f8e5]:
+      - heading "My Store" [level=1] [ref=f8e6]
+      - group [ref=f8e8]:
+        - button "Enter using password" [ref=f8e9] [cursor=pointer]:
+          - generic [ref=f8e10]:
+            - img [ref=f8e12]
+            - text: Enter using password
+    - separator [ref=f8e14]
+  - main [ref=f8e15]:
+    - generic [ref=f8e17]:
+      - img [ref=f8e19]
+      - generic [ref=f8e35]:
+        - heading "Opening soon" [level=2] [ref=f8e36]
+        - paragraph [ref=f8e38]: Be the first to know when we launch.
+        - generic [ref=f8e42]:
+          - textbox "Email" [ref=f8e43]
+          - generic: Email
+          - button "Subscribe" [ref=f8e44] [cursor=pointer]:
+            - img [ref=f8e46]
+  - contentinfo [ref=f8e48]:
+    - generic [ref=f8e49]:
+      - separator [ref=f8e50]
+      - generic [ref=f8e51]:
+        - list [ref=f8e52]:
+          - listitem [ref=f8e53]:
+            - link "Instagram" [ref=f8e54] [cursor=pointer]:
+              - /url: http://instagram.com/shopify
+              - img [ref=f8e56]
+              - generic [ref=f8e58]: Instagram
+          - listitem [ref=f8e59]:
+            - link "TikTok" [ref=f8e60] [cursor=pointer]:
+              - /url: https://tiktok.com/@shopify
+              - img [ref=f8e62]
+              - generic [ref=f8e64]: TikTok
+        - generic [ref=f8e65]:
+          - text: This shop will be powered by
+          - link "Shopify" [ref=f8e66] [cursor=pointer]:
+            - /url: //www.shopify.com
+            - img [ref=f8e67]
+        - generic [ref=f8e69]:
+          - text: Are you the store owner?
+          - link "Log in here" [ref=f8e70] [cursor=pointer]:
+            - /url: /admin

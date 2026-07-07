@@ -103,6 +103,18 @@ img {
 }
 
 // ------------------------------------------------------------
+// Fixed header anchor offset — prevents content behind fixed header
+// ------------------------------------------------------------
+#main-content {
+  scroll-margin-top: calc(var(--header-height) + var(--space-4));
+}
+
+// Apply to all section targets on the page for scroll spy
+[id] {
+  scroll-margin-top: calc(var(--header-height) + var(--space-4));
+}
+
+// ------------------------------------------------------------
 // Horizontal rules
 // ------------------------------------------------------------
 hr {
@@ -126,11 +138,4 @@ details {
   }
 }
 
-// ------------------------------------------------------------
-// ::before and ::after inherit box-sizing
-// ------------------------------------------------------------
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+

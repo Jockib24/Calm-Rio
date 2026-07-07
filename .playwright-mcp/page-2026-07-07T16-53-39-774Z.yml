@@ -1,0 +1,287 @@
+- document [active] [ref=f70e1]:
+  - generic [ref=f70e3]:
+    - generic:
+      - navigation:
+        - generic:
+          - generic:
+            - link "Welcome Beyond" [ref=f70e4] [cursor=pointer]:
+              - /url: https://www.welcomebeyond.com
+              - img [ref=f70e5]
+            - generic [ref=f70e9]:
+              - list [ref=f70e12]:
+                - listitem [ref=f70e13]:
+                  - link "Search" [ref=f70e14] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/search/
+                - listitem [ref=f70e15]:
+                  - generic [ref=f70e16]: Collections
+                - listitem [ref=f70e17]:
+                  - generic [ref=f70e18]: Property types
+              - list [ref=f70e20]:
+                - listitem [ref=f70e21] [cursor=pointer]:
+                  - button "Log in" [ref=f70e22]
+                  - text: "|"
+                - listitem [ref=f70e23] [cursor=pointer]:
+                  - button "Register" [ref=f70e24]
+    - main [ref=f70e25]:
+      - generic [ref=f70e30]:
+        - region "Map" [ref=f70e31]
+        - iframe [ref=f70e36]:
+          
+      - generic [ref=f70e37]:
+        - generic [ref=f70e40]:
+          - generic [ref=f70e41]:
+            - generic [ref=f70e43]:
+              - listbox [ref=f70e44]:
+                - option [ref=f70e45]: Argentina
+                - option [ref=f70e46]: Australia
+                - option [ref=f70e47]: Austria
+                - option [ref=f70e48]: Barbados
+                - option [ref=f70e49]: Brazil
+                - option [ref=f70e50]: Canada
+                - option [ref=f70e51]: Chile
+                - option [ref=f70e52]: Colombia
+                - option [ref=f70e53]: Croatia
+                - option [ref=f70e54]: Cuba
+                - option [ref=f70e55]: Czechia
+                - option [ref=f70e56]: Denmark
+                - option [ref=f70e57]: Dominican Republic
+                - option [ref=f70e58]: Finland
+                - option [ref=f70e59]: France
+                - option [ref=f70e60]: Germany
+                - option [ref=f70e61]: Greece
+                - option [ref=f70e62]: Hungary
+                - option [ref=f70e63]: Iceland
+                - option [ref=f70e64]: India
+                - option [ref=f70e65]: Indonesia
+                - option [ref=f70e66]: Ireland
+                - option [ref=f70e67]: Italy
+                - option [ref=f70e68]: Kenya
+                - option [ref=f70e69]: Malta
+                - option [ref=f70e70]: Mexico
+                - option [ref=f70e71]: Morocco
+                - option [ref=f70e72]: Netherlands
+                - option [ref=f70e73]: New Zealand
+                - option [ref=f70e74]: Nicaragua
+                - option [ref=f70e75]: Norway
+                - option [ref=f70e76]: Portugal
+                - option [ref=f70e77]: Romania
+                - option [ref=f70e78]: Slovenia
+                - option [ref=f70e79]: South Africa
+                - option [ref=f70e80]: Spain
+                - option [ref=f70e81]: Sri Lanka
+                - option [ref=f70e82]: Sweden
+                - option [ref=f70e83]: Switzerland
+                - option [ref=f70e84]: Tanzania
+                - option [ref=f70e85]: Thailand
+                - option [ref=f70e86]: Turkey
+                - option [ref=f70e87]: United Kingdom
+                - option [ref=f70e88]: United States
+                - option [ref=f70e89]: Uruguay
+              - combobox [ref=f70e92]:
+                - list [ref=f70e93]:
+                  - listitem [ref=f70e94]:
+                    - textbox "All countries" [ref=f70e95]
+            - combobox [disabled] [ref=f70e98]:
+              - option "Region" [selected]
+          - generic [ref=f70e99]:
+            - generic [ref=f70e102]:
+              - generic:
+                - img
+              - generic: 1 Adult
+            - textbox [ref=f70e105]: No dates selected
+          - generic [ref=f70e106]:
+            - button "Show search refinements" [ref=f70e107] [cursor=pointer]
+            - generic [ref=f70e108]: 0 properties
+        - list [ref=f70e111]:
+          - listitem [ref=f70e112]
+    - generic [ref=f70e116]:
+      - generic [ref=f70e117]:
+        - generic [ref=f70e118]:
+          - img "Welcome Beyond" [ref=f70e119]
+          - generic [ref=f70e120]:
+            - paragraph [ref=f70e121]: Welcome Beyond hand-picks small hotels and holiday rentals that are truly original and reflect their owners’ passion for distinctive architecture and design. Each is singular, memorable and definitely worth writing home about.
+            - paragraph [ref=f70e122]:
+              - link "Miles & More" [ref=f70e123] [cursor=pointer]:
+                - /url: https://bit.ly/welcomebeyond-email-milesandmore
+                - img "Miles & More" [ref=f70e124]
+            - list
+          - list [ref=f70e126]:
+            - listitem [ref=f70e127]:
+              - link "Welcome Beyond on Instagram" [ref=f70e128] [cursor=pointer]:
+                - /url: https://www.instagram.com/welcomebeyond
+                - img [ref=f70e129]
+            - listitem [ref=f70e131]:
+              - link "Welcome Beyond on Facebook" [ref=f70e132] [cursor=pointer]:
+                - /url: https://www.facebook.com/WelcomeBeyond
+                - img [ref=f70e133]
+            - listitem [ref=f70e135]:
+              - link "Welcome Beyond on twitter" [ref=f70e136] [cursor=pointer]:
+                - /url: https://www.twitter.com/WelcomeBeyond
+                - img [ref=f70e137]
+            - listitem [ref=f70e139]:
+              - link "Welcome Beyond on Pinterest" [ref=f70e140] [cursor=pointer]:
+                - /url: https://www.pinterest.com/welcomebeyond
+                - img [ref=f70e141]
+        - generic [ref=f70e143]:
+          - navigation [ref=f70e144]:
+            - heading "Properties" [level=3] [ref=f70e145]
+            - list [ref=f70e146]:
+              - listitem [ref=f70e147]:
+                - link "Beach houses" [ref=f70e148] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/beach-houses
+              - listitem [ref=f70e149]:
+                - link "Bed & Breakfasts" [ref=f70e150] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/hotels/bed-and-breakfasts
+              - listitem [ref=f70e151]:
+                - link "Boutique hotels" [ref=f70e152] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/hotels/boutique-hotels
+              - listitem [ref=f70e153]:
+                - link "Camps / Lodges" [ref=f70e154] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/camps-and-lodges
+              - listitem [ref=f70e155]:
+                - link "Cottages / Cabins / Chalets" [ref=f70e156] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/cottages-cabins-chalets
+              - listitem [ref=f70e157]:
+                - link "Holiday homes" [ref=f70e158] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/holiday-homes
+              - listitem [ref=f70e159]:
+                - link "Holiday apartments" [ref=f70e160] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/holiday-apartments
+              - listitem [ref=f70e161]:
+                - link "Private islands" [ref=f70e162] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/private-islands
+              - listitem [ref=f70e163]:
+                - link "Unique rentals" [ref=f70e164] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/unique-rentals
+              - listitem [ref=f70e165]:
+                - link "Villa rentals" [ref=f70e166] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+              - listitem [ref=f70e167]:
+                - link "Yurts / Igloos" [ref=f70e168] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/yurts-and-igloos
+          - navigation [ref=f70e169]:
+            - heading "Information" [level=3] [ref=f70e170]
+            - list [ref=f70e171]:
+              - listitem [ref=f70e172]:
+                - link "Explorer travel guide" [ref=f70e173] [cursor=pointer]:
+                  - /url: https://explorer.welcomebeyond.com
+              - listitem [ref=f70e174]:
+                - link "About us" [ref=f70e175] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/about-us/
+              - listitem [ref=f70e176]:
+                - link "FAQ" [ref=f70e177] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/faq/
+              - listitem [ref=f70e178]:
+                - link "Contact us" [ref=f70e179] [cursor=pointer]:
+                  - /url: https://welcomebeyond.typeform.com/to/CWTHDk
+              - listitem [ref=f70e180]:
+                - link "Press enquiries" [ref=f70e181] [cursor=pointer]:
+                  - /url: https://welcomebeyond.typeform.com/to/hfkdBl
+              - listitem [ref=f70e182]:
+                - link "Property applications" [ref=f70e183] [cursor=pointer]:
+                  - /url: https://welcomebeyond.typeform.com/to/aidy3V
+              - listitem [ref=f70e184]:
+                - link "Partners" [ref=f70e185] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/partners/
+              - listitem [ref=f70e186]:
+                - link "Gift experiences" [ref=f70e187] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/gift-vouchers/
+              - listitem [ref=f70e188]:
+                - link "Vacation homes for sale" [ref=f70e189] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/vacation-homes-for-sale/
+              - listitem [ref=f70e190]:
+                - link "Welcome Beyond reviews on Google" [ref=f70e191] [cursor=pointer]:
+                  - /url: https://share.google/V1pJ2nK3tKXVAXKMo
+        - generic [ref=f70e192]:
+          - generic [ref=f70e197]:
+            - generic [ref=f70e198]: Change your currency
+            - combobox "Change your currency" [ref=f70e199]:
+              - option "Euro" [selected]
+              - option "British Pound Sterling"
+              - option "United States Dollar"
+              - option "Argentine Peso"
+              - option "Australian Dollar"
+              - option "Brazilian Real"
+              - option "Canadian Dollar"
+              - option "Chilean Peso"
+              - option "Chinese Yuan"
+              - option "Croatian Kuna"
+              - option "Czech Republic Koruna"
+              - option "Cuban Convertible Peso"
+              - option "Danish Krone"
+              - option "Hungarian Forint"
+              - option "Icelandic Króna"
+              - option "Indian Rupee"
+              - option "Indonesian Rupiah"
+              - option "Japanese Yen"
+              - option "Mexican Peso"
+              - option "New Zealand Dollar"
+              - option "Norwegian Krone"
+              - option "Philippine Peso"
+              - option "Polish Zloty"
+              - option "South African Rand"
+              - option "Swedish Krona"
+              - option "Swiss Franc"
+              - option "Thai Baht"
+              - option "Turkish Lira"
+              - option "Moroccan Dirham"
+          - generic [ref=f70e200]:
+            - heading "Newsletter" [level=3] [ref=f70e201]
+            - generic [ref=f70e204]:
+              - textbox [ref=f70e205]:
+                - /placeholder: Your email
+              - button "Submit" [ref=f70e206] [cursor=pointer]
+            - paragraph [ref=f70e207]: Get updates on our beautiful new properties every Friday.
+            - paragraph [ref=f70e208]:
+              - generic [ref=f70e209]:
+                - text: We guarantee 100% privacy. Your information will not be shared.
+                - link "Read our previous newsletters here." [ref=f70e210] [cursor=pointer]:
+                  - /url: https://us2.campaign-archive.com/home/?u=46fdad8165ddf74293a2ed577&id=c1817e94f6
+      - generic [ref=f70e211]:
+        - navigation [ref=f70e212]:
+          - list [ref=f70e213]:
+            - listitem [ref=f70e214]: © Welcome Beyond 2026
+            - listitem [ref=f70e215]:
+              - text: •
+              - link "Impressum" [ref=f70e216] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/impressum/
+            - listitem [ref=f70e217]:
+              - text: •
+              - link "Terms & Conditions" [ref=f70e218] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/terms-and-conditions-agb/
+        - navigation [ref=f70e219]:
+          - list [ref=f70e220]:
+            - listitem [ref=f70e221]:
+              - link "Privacy policy" [ref=f70e222] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841576
+            - listitem [ref=f70e223]:
+              - text: •
+              - link "Datenschutzerklärung" [ref=f70e224] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841640
+            - listitem [ref=f70e225]:
+              - text: •
+              - link "Cookie policy" [ref=f70e226] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841576/cookie-policy
+            - listitem [ref=f70e227]:
+              - text: •
+              - link "Cookie Richtlinien" [ref=f70e228] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841640/cookie-policy
+  - text: "* * * * * * * *"
+  - link:
+    - /url: "#"
+  - alertdialog "Notice" [ref=f70e230]:
+    - generic [ref=f70e232]:
+      - document [ref=f70e233]:
+        - heading "Notice" [level=2] [ref=f70e234]
+        - generic [ref=f70e235]:
+          - paragraph [ref=f70e236]:
+            - text: We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, for other purposes as specified in the
+            - button "cookie policy - link opens in a new tab" [ref=f70e237] [cursor=pointer]: cookie policy
+            - text: .
+          - paragraph
+          - paragraph [ref=f70e238]: Use the “Accept” button to consent. Use the “Reject” button to continue without accepting.
+      - generic [ref=f70e239]:
+        - button "Learn more and customize" [ref=f70e241] [cursor=pointer]
+        - generic [ref=f70e242]:
+          - button "Reject" [ref=f70e243] [cursor=pointer]
+          - button "Accept" [ref=f70e244] [cursor=pointer]

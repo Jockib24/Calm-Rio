@@ -125,11 +125,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/style.css">
+
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
-  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body id="top" class="has-sticky-bar">
 
@@ -147,6 +147,7 @@
         <ul class="nav-list">
           <li><a href="/" class="nav-link">Accueil</a></li>
           <li><a href="#properties" class="nav-link">Nos Locations</a></li>
+          <li><a href="/local-guide.html" class="nav-link">Guide Local</a></li>
           <li><a href="blog/" class="nav-link">Blog</a></li>
           <li><a href="/about.html" class="nav-link">À Propos</a></li>
           <li><a href="/contact.html" class="nav-link">Contact</a></li>
@@ -167,6 +168,7 @@
       <ul class="mobile-nav__list">
         <li><a href="/" class="mobile-nav__link">Accueil</a></li>
         <li><a href="#properties" class="mobile-nav__link">Nos Locations</a></li>
+        <li><a href="/local-guide.html" class="mobile-nav__link">Guide Local</a></li>
         <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
         <li><a href="/royan-appartement.html" class="mobile-nav__link">Royan — Appartement</a></li>
         <li><a href="/saint-trojan-villa.html" class="mobile-nav__link">Saint-Trojan — Villa</a></li>
@@ -229,8 +231,14 @@
         </button>
       </section>
 
+      <!-- Owner Quote — personality highlight (Welcome Beyond inspired) -->
+      <div class="owner-quote">
+        <p class="owner-quote__text">« Un appartement où la mer est si proche qu'on l'entend respirer depuis le canapé. »</p>
+        <cite class="owner-quote__author">Agnès, hôte CalmRio</cite>
+      </div>
+
       <!-- Property Intro -->
-      <section class="property-intro" aria-label="Aperçu du logement">
+      <section class="property-intro fade-in" aria-label="Aperçu du logement">
         <div class="intro-item">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
           <strong>Royan</strong>, Nouvelle-Aquitaine
@@ -259,310 +267,366 @@
         </div>
       </section>
 
-      <!-- Property Description -->
-      <section class="property-description" aria-labelledby="desc-title">
-        <h2 class="property-description__title" id="desc-title">À propos de ce logement</h2>
-        <p>Appartement neuf de 60m² avec une terrasse de 20m² alliant un style bord de plage et contemporain, très lumineux, idéalement situé à 100m de la plage de la Grande Conche et à proximité de nombreux commerces du centre-ville.</p>
-        <p>Grande pièce de vie avec salon et cuisine / salle à manger. Canapé confortable, cuisine entièrement équipée avec cave à vin de service. Toutes les fenêtres donnent sur la terrasse — partie salon, partie repas, arborée — parfaite pour les repas en plein air.</p>
-        <h3>Les chambres</h3>
-        <p>L'appartement dispose de deux chambres : la première avec un grand lit de 160cm, télévision et espace de travail équipé d'un écran et câble HDMI ; la seconde avec deux petits lits de 90cm, idéale pour les enfants ou les amis.</p>
-        <h3>La salle de bain</h3>
-        <p>Salle de bain moderne avec douche à l'italienne. Buanderie séparée équipée d'un lave-linge, sèche-linge, fer et table à repasser. WC indépendant pour plus de confort.</p>
-        <h3>Idéal pour</h3>
-        <p>Cet appartement est parfait pour les couples, les familles avec enfants, les télétravailleurs et les amoureux de la plage. L'ascenseur facilite l'accès, et le parking gratuit sur place est un vrai plus à Royan.</p>
-      </section>
-
-      <!-- Property Highlights -->
-      <section class="property-highlights" aria-label="Points forts du logement">
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h1M12 2v1M20 12h1M12 20v1"/><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>
-          </div>
-          <div class="highlight-item__label">100m de la plage</div>
-        </div>
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 20v-4H8l4-8 4 8h-2v4"/></svg>
-          </div>
-          <div class="highlight-item__label">RDC avec ascenseur</div>
-        </div>
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-          </div>
-          <div class="highlight-item__label">Espace télétravail</div>
-        </div>
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
-          </div>
-          <div class="highlight-item__label">Animaux acceptés</div>
-        </div>
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-          </div>
-          <div class="highlight-item__label">Wifi haut débit</div>
-        </div>
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 23 3 23 16 16 11 16 8"/></svg>
-          </div>
-          <div class="highlight-item__label">TV dans chaque chambre</div>
-        </div>
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v2M18 2v2M2 6h20M4 6v14a2 2 0 002 2h12a2 2 0 002-2V6"/></svg>
-          </div>
-          <div class="highlight-item__label">Draps et serviettes inclus</div>
-        </div>
-        <div class="highlight-item">
-          <div class="highlight-item__value">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
-          </div>
-          <div class="highlight-item__label">Équipement bébé sur demande</div>
-        </div>
-      </section>
-
-      <!-- Full Amenities List — Icon Grid -->
-      <section class="property-amenities" aria-labelledby="amenities-title">
-        <h2 class="property-amenities__title" id="amenities-title">Équipements</h2>
-        <p class="section__subtitle" style="font-size:var(--small-size);margin-bottom:var(--space-5);">Tout pour un séjour confortable à 100m de la plage</p>
-
-        <div class="amenities-grid">
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">📶</span>
-            <div>
-              <div class="amenity-item__text">WiFi haut débit</div>
-              <div class="amenity-item__subtext">Fibre optique</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🍳</span>
-            <div>
-              <div class="amenity-item__text">Cuisine équipée</div>
-              <div class="amenity-item__subtext">Four, micro-ondes, cave à vin</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🏖️</span>
-            <div>
-              <div class="amenity-item__text">Plage 100m</div>
-              <div class="amenity-item__subtext">Grande Conche</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🧺</span>
-            <div>
-              <div class="amenity-item__text">Machine à laver</div>
-              <div class="amenity-item__subtext">Sèche-linge aussi</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🌡️</span>
-            <div>
-              <div class="amenity-item__text">Chauffage</div>
-              <div class="amenity-item__subtext">Réversible</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">❄️</span>
-            <div>
-              <div class="amenity-item__text">Climatisation</div>
-              <div class="amenity-item__subtext">Réversible</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">📺</span>
-            <div>
-              <div class="amenity-item__text">Smart TV</div>
-              <div class="amenity-item__subtext">Dans chaque chambre</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🛗</span>
-            <div>
-              <div class="amenity-item__text">Ascenseur</div>
-              <div class="amenity-item__subtext">RDC accessible</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🚗</span>
-            <div>
-              <div class="amenity-item__text">Parking gratuit</div>
-              <div class="amenity-item__subtext">Sur place</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🌿</span>
-            <div>
-              <div class="amenity-item__text">Terrasse 20m²</div>
-              <div class="amenity-item__subtext">Arborée, salon de jardin</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">💻</span>
-            <div>
-              <div class="amenity-item__text">Espace télétravail</div>
-              <div class="amenity-item__subtext">Écran HDMI</div>
-            </div>
-          </div>
-          <div class="amenity-item">
-            <span class="amenity-item__icon" aria-hidden="true">🐾</span>
-            <div>
-              <div class="amenity-item__text">Animaux acceptés</div>
-              <div class="amenity-item__subtext">Sur demande</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Reviews Section -->
-      <section class="property-reviews" aria-labelledby="reviews-title">
-        <h2 class="property-reviews__title" id="reviews-title">Avis des voyageurs</h2>
-        <p class="section__subtitle" style="font-size:var(--small-size);margin-bottom:var(--space-5);">Ce que nos voyageurs en disent</p>
-
-        <div class="property-reviews__summary">
-          <div class="property-reviews__avg">5,0</div>
-          <div>
-            <div class="stars" aria-label="Note moyenne de 5 sur 5" style="display:flex;gap:1px;color:var(--color-warning)">
-              <span style="font-size:1.25rem;">★★★★★</span>
-            </div>
-            <div class="property-reviews__meta">2 avis vérifiés</div>
-          </div>
+      <!-- ============================================================ -->
+      <!-- TABBED CONTENT PANELS                                          -->
+      <!-- ============================================================ -->
+      <div class="tabs" data-tabs>
+        <div role="tablist" class="tabs__nav fade-in" aria-label="Contenu de l'appartement">
+          <button class="tab__button tabs__btn is-active" role="tab" data-hash="#description">Description</button>
+          <button class="tab__button tabs__btn" role="tab" data-hash="#equipements">Équipements</button>
+          <button class="tab__button tabs__btn" role="tab" data-hash="#avis">Avis</button>
+          <button class="tab__button tabs__btn" role="tab" data-hash="#emplacement">Emplacement</button>
         </div>
 
-        <div class="review-cards">
-          <div class="review-card">
-            <div class="review-card__header">
-              <div class="review-card__avatar" style="background-color:#3A7CA5;">P</div>
-              <div>
-                <div class="review-card__name">Pierre M.</div>
-                <div class="review-card__date">juin 2026</div>
+        <!-- Tab 1: Description -->
+        <div class="tab__panel tabs__panel is-active">
+          <section class="property-description" aria-labelledby="desc-title">
+            <h2 class="property-description__title" id="desc-title">À propos de ce logement</h2>
+            <p>Appartement neuf de 60m² avec une terrasse de 20m² alliant un style bord de plage et contemporain, très lumineux, idéalement situé à 100m de la plage de la Grande Conche et à proximité de nombreux commerces du centre-ville.</p>
+            <p>Grande pièce de vie avec salon et cuisine / salle à manger. Canapé confortable, cuisine entièrement équipée avec cave à vin de service. Toutes les fenêtres donnent sur la terrasse — partie salon, partie repas, arborée — parfaite pour les repas en plein air.</p>
+            <h3>Les chambres</h3>
+            <p>L'appartement dispose de deux chambres : la première avec un grand lit de 160cm, télévision et espace de travail équipé d'un écran et câble HDMI ; la seconde avec deux petits lits de 90cm, idéale pour les enfants ou les amis.</p>
+            <h3>La salle de bain</h3>
+            <p>Salle de bain moderne avec douche à l'italienne. Buanderie séparée équipée d'un lave-linge, sèche-linge, fer et table à repasser. WC indépendant pour plus de confort.</p>
+            <h3>Idéal pour</h3>
+            <p>Cet appartement est parfait pour les couples, les familles avec enfants, les télétravailleurs et les amoureux de la plage. L'ascenseur facilite l'accès, et le parking gratuit sur place est un vrai plus à Royan.</p>
+          </section>
+        </div>
+
+        <!-- Tab 2: Équipements -->
+        <div class="tab__panel tabs__panel">
+          <section class="property-highlights stagger-children" aria-label="Points forts du logement">
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h1M12 2v1M20 12h1M12 20v1"/><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>
+              </div>
+              <div class="highlight-item__label">100m de la plage</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 20v-4H8l4-8 4 8h-2v4"/></svg>
+              </div>
+              <div class="highlight-item__label">RDC avec ascenseur</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <div class="highlight-item__label">Espace télétravail</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+              </div>
+              <div class="highlight-item__label">Animaux acceptés</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              </div>
+              <div class="highlight-item__label">Wifi haut débit</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 23 3 23 16 16 11 16 8"/></svg>
+              </div>
+              <div class="highlight-item__label">TV dans chaque chambre</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2v2M18 2v2M2 6h20M4 6v14a2 2 0 002 2h12a2 2 0 002-2V6"/></svg>
+              </div>
+              <div class="highlight-item__label">Draps et serviettes inclus</div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-item__value">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+              </div>
+              <div class="highlight-item__label">Équipement bébé sur demande</div>
+            </div>
+          </section>
+
+          <section class="property-amenities" aria-labelledby="amenities-title">
+            <h2 class="property-amenities__title" id="amenities-title">Équipements</h2>
+            <p class="section__subtitle text-sm mb-5">Tout pour un séjour confortable à 100m de la plage</p>
+
+            <div class="amenities-grid">
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">📶</span>
+                <div>
+                  <div class="amenity-item__text">WiFi haut débit</div>
+                  <div class="amenity-item__subtext">Fibre optique</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🍳</span>
+                <div>
+                  <div class="amenity-item__text">Cuisine équipée</div>
+                  <div class="amenity-item__subtext">Four, micro-ondes, cave à vin</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🏖️</span>
+                <div>
+                  <div class="amenity-item__text">Plage 100m</div>
+                  <div class="amenity-item__subtext">Grande Conche</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🧺</span>
+                <div>
+                  <div class="amenity-item__text">Machine à laver</div>
+                  <div class="amenity-item__subtext">Sèche-linge aussi</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🌡️</span>
+                <div>
+                  <div class="amenity-item__text">Chauffage</div>
+                  <div class="amenity-item__subtext">Réversible</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">❄️</span>
+                <div>
+                  <div class="amenity-item__text">Climatisation</div>
+                  <div class="amenity-item__subtext">Réversible</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">📺</span>
+                <div>
+                  <div class="amenity-item__text">Smart TV</div>
+                  <div class="amenity-item__subtext">Dans chaque chambre</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🛗</span>
+                <div>
+                  <div class="amenity-item__text">Ascenseur</div>
+                  <div class="amenity-item__subtext">RDC accessible</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🚗</span>
+                <div>
+                  <div class="amenity-item__text">Parking gratuit</div>
+                  <div class="amenity-item__subtext">Sur place</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🌿</span>
+                <div>
+                  <div class="amenity-item__text">Terrasse 20m²</div>
+                  <div class="amenity-item__subtext">Arborée, salon de jardin</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">💻</span>
+                <div>
+                  <div class="amenity-item__text">Espace télétravail</div>
+                  <div class="amenity-item__subtext">Écran HDMI</div>
+                </div>
+              </div>
+              <div class="amenity-item">
+                <span class="amenity-item__icon" aria-hidden="true">🐾</span>
+                <div>
+                  <div class="amenity-item__text">Animaux acceptés</div>
+                  <div class="amenity-item__subtext">Sur demande</div>
+                </div>
               </div>
             </div>
-            <div class="review-card__stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="review-card__text">"Appartement splendide, tout neuf et décoré avec beaucoup de goût. La terrasse est un vrai plus, on y prend tous les petits-déjeuners au soleil. La plage est vraiment à 2 minutes à pied, c'est incroyable. Mention spéciale pour le bureau avec écran HDMI — parfait pour le télétravail. Nous reviendrons !"</p>
-            <div class="review-card__source">— Séjour en juin 2026</div>
-          </div>
+          </section>
+        </div>
 
-          <div class="review-card">
-            <div class="review-card__header">
-              <div class="review-card__avatar" style="background-color:var(--color-accent);">A</div>
+        <!-- Tab 3: Avis -->
+        <div class="tab__panel tabs__panel">
+          <section class="property-reviews fade-in" aria-labelledby="reviews-title">
+            <h2 class="property-reviews__title" id="reviews-title">Avis des voyageurs</h2>
+            <p class="section__subtitle text-sm mb-5">Ce que nos voyageurs en disent</p>
+
+            <div class="property-reviews__summary">
+              <div class="property-reviews__avg">5,0</div>
               <div>
-                <div class="review-card__name">Anne & Bruno</div>
-                <div class="review-card__date">mai 2026</div>
+                <div class="stars" aria-label="Note moyenne de 5 sur 5">
+                  <span class="text-20">★★★★★</span>
+                </div>
+                <div class="property-reviews__meta">2 avis vérifiés</div>
               </div>
             </div>
-            <div class="review-card__stars" aria-label="5 étoiles">★★★★★</div>
-            <p class="review-card__text">"Quelle belle découverte ! L'emplacement est idéal — à 100m de la Grande Conche, on entend les vagues depuis la terrasse. L'appartement est très lumineux, parfaitement équipé et d'une propreté irréprochable. Le parking gratuit est un vrai luxe à Royan. Agnès a été très réactive et attentionnée. Une adresse qu'on garde précieusement."</p>
-            <div class="review-card__source">— Séjour en mai 2026</div>
-          </div>
+
+            <div class="review-cards stagger-children">
+              <div class="review-card">
+                <div class="review-card__header">
+                  <div class="review-card__avatar avatar-blue">P</div>
+                  <div>
+                    <div class="review-card__name">Pierre M.</div>
+                    <div class="review-card__date">juin 2026</div>
+                  </div>
+                </div>
+                <div class="review-card__stars" aria-label="5 étoiles">★★★★★</div>
+                <p class="review-card__text">"Appartement splendide, tout neuf et décoré avec beaucoup de goût. La terrasse est un vrai plus, on y prend tous les petits-déjeuners au soleil. La plage est vraiment à 2 minutes à pied, c'est incroyable. Mention spéciale pour le bureau avec écran HDMI — parfait pour le télétravail. Nous reviendrons !"</p>
+                <div class="review-card__source">— Séjour en juin 2026</div>
+              </div>
+
+              <div class="review-card">
+                <div class="review-card__header">
+                  <div class="review-card__avatar avatar-accent">A</div>
+                  <div>
+                    <div class="review-card__name">Anne & Bruno</div>
+                    <div class="review-card__date">mai 2026</div>
+                  </div>
+                </div>
+                <div class="review-card__stars" aria-label="5 étoiles">★★★★★</div>
+                <p class="review-card__text">"Quelle belle découverte ! L'emplacement est idéal — à 100m de la Grande Conche, on entend les vagues depuis la terrasse. L'appartement est très lumineux, parfaitement équipé et d'une propreté irréprochable. Le parking gratuit est un vrai luxe à Royan. Agnès a été très réactive et attentionnée. Une adresse qu'on garde précieusement."</p>
+                <div class="review-card__source">— Séjour en mai 2026</div>
+              </div>
+            </div>
+
+            <div class="p-5 bg-alt rounded-md text-center">
+              <p class="fw-semibold text-heading mb-3">Vous avez séjourné ici ?</p>
+              <p class="text-sm text-muted mb-4">Partagez votre expérience avec les futurs voyageurs.</p>
+              <a href="/contact.html" class="btn btn--secondary btn--sm">Écrire un avis</a>
+            </div>
+          </section>
         </div>
 
-        <div style="padding:var(--space-5);background-color:var(--color-bg-alt);border-radius:var(--radius-md);text-align:center;">
-          <p style="font-weight:var(--weight-semibold);color:var(--color-text);margin-bottom:var(--space-3);">Vous avez séjourné ici ?</p>
-          <p style="font-size:var(--small-size);color:var(--color-text-muted);margin-bottom:var(--space-4);">Partagez votre expérience avec les futurs voyageurs.</p>
-          <a href="/contact.html" class="btn btn--secondary btn--sm">Écrire un avis</a>
-        </div>
-      </section>
+        <!-- Tab 4: Emplacement -->
+        <div class="tab__panel tabs__panel">
+          <section class="property-location" aria-labelledby="location-title">
+            <h2 class="property-location__title" id="location-title">Emplacement</h2>
+            <div class="nearby-points">
+              <div class="nearby-point">
+                <div class="nearby-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h1M12 2v1M20 12h1M12 20v1"/><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>
+                </div>
+                <div class="nearby-info">
+                  <div class="nearby-name">Plage de la Grande Conche</div>
+                  <div class="nearby-distance">100 m</div>
+                </div>
+              </div>
+              <div class="nearby-point">
+                <div class="nearby-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+                </div>
+                <div class="nearby-info">
+                  <div class="nearby-name">Commerces du centre-ville</div>
+                  <div class="nearby-distance">2,3 km</div>
+                </div>
+              </div>
+              <div class="nearby-point">
+                <div class="nearby-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+                </div>
+                <div class="nearby-info">
+                  <div class="nearby-name">Restaurants</div>
+                  <div class="nearby-distance">À proximité</div>
+                </div>
+              </div>
+              <div class="nearby-point">
+                <div class="nearby-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                </div>
+                <div class="nearby-info">
+                  <div class="nearby-name">Marché central de Royan</div>
+                  <div class="nearby-distance">2 km</div>
+                </div>
+              </div>
+              <div class="nearby-point">
+                <div class="nearby-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 23 3 23 16 16 11 16 8"/></svg>
+                </div>
+                <div class="nearby-info">
+                  <div class="nearby-name">Supermarché</div>
+                  <div class="nearby-distance">1,5 km</div>
+                </div>
+              </div>
+              <div class="nearby-point">
+                <div class="nearby-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4M14 4v4M2 8h20M6 12v4M10 12v4M14 12v4M18 12v4"/></svg>
+                </div>
+                <div class="nearby-info">
+                  <div class="nearby-name">Gare de Royan</div>
+                  <div class="nearby-distance">3 km</div>
+                </div>
+              </div>
+            </div>
 
-      <!-- Location / Nearby -->
-      <section class="property-location" aria-labelledby="location-title">
-        <h2 class="property-location__title" id="location-title">Emplacement</h2>
-        <div class="nearby-points">
-          <div class="nearby-point">
-            <div class="nearby-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h1M12 2v1M20 12h1M12 20v1"/><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>
+            <!-- Map Placeholder -->
+            <div class="property-map mt-6 fade-in" aria-label="Carte de l'emplacement">
+              <img src="https://images.unsplash.com/photo-1559825481-12a05cc00344?w=800&q=80&fm=webp" alt="Plage de la Grande Conche à Royan" loading="lazy" decoding="async" width="800" height="400" class="w-full h-auto rounded-lg">
             </div>
-            <div class="nearby-info">
-              <div class="nearby-name">Plage de la Grande Conche</div>
-              <div class="nearby-distance">100 m</div>
-            </div>
-          </div>
-          <div class="nearby-point">
-            <div class="nearby-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
-            </div>
-            <div class="nearby-info">
-              <div class="nearby-name">Commerces du centre-ville</div>
-              <div class="nearby-distance">2,3 km</div>
-            </div>
-          </div>
-          <div class="nearby-point">
-            <div class="nearby-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
-            </div>
-            <div class="nearby-info">
-              <div class="nearby-name">Restaurants</div>
-              <div class="nearby-distance">À proximité</div>
-            </div>
-          </div>
-          <div class="nearby-point">
-            <div class="nearby-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
-            </div>
-            <div class="nearby-info">
-              <div class="nearby-name">Marché central de Royan</div>
-              <div class="nearby-distance">2 km</div>
-            </div>
-          </div>
-          <div class="nearby-point">
-            <div class="nearby-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 23 3 23 16 16 11 16 8"/></svg>
-            </div>
-            <div class="nearby-info">
-              <div class="nearby-name">Supermarché</div>
-              <div class="nearby-distance">1,5 km</div>
-            </div>
-          </div>
-          <div class="nearby-point">
-            <div class="nearby-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4M14 4v4M2 8h20M6 12v4M10 12v4M14 12v4M18 12v4"/></svg>
-            </div>
-            <div class="nearby-info">
-              <div class="nearby-name">Gare de Royan</div>
-              <div class="nearby-distance">3 km</div>
-            </div>
-          </div>
+          </section>
         </div>
+      </div>
 
-        <!-- Map Placeholder -->
-        <div class="property-map" style="margin-top:var(--space-6);" aria-label="Carte de l'emplacement">
-          <img src="https://images.unsplash.com/photo-1559825481-12a05cc00344?w=800&q=80&fm=webp" alt="Plage de la Grande Conche à Royan" loading="lazy" decoding="async" width="800" height="400" style="width:100%;height:auto;border-radius:var(--radius-lg);">
+      <!-- Visual Local Guide — Welcome Beyond inspired carousel -->
+      <section class="local-guide-carousel" aria-labelledby="local-guide-heading">
+        <h2 class="property-location__title" id="local-guide-heading">Autour de l'appartement</h2>
+        <p class="section__subtitle text-sm mb-5">Les coups de cœur d'Agnès à proximité</p>
+        <div class="local-guide-carousel__track">
+          <div class="local-guide-carousel__card">
+            <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=400&q=80&fm=webp" alt="Plage de la Grande Conche" loading="lazy" width="400" height="300">
+            <div class="local-guide-carousel__body">
+              <h3>Plage de la Grande Conche</h3>
+              <p>À 2 min à pied — La plus longue plage de Royan, idéale pour les familles.</p>
+            </div>
+          </div>
+          <div class="local-guide-carousel__card">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80&fm=webp" alt="Marché Central" loading="lazy" width="400" height="300">
+            <div class="local-guide-carousel__body">
+              <h3>Marché Central</h3>
+              <p>Produits du terroir, huîtres, pineau — le cœur de Royan à quelques pas.</p>
+            </div>
+          </div>
+          <div class="local-guide-carousel__card">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80&fm=webp" alt="Restauration" loading="lazy" width="400" height="300">
+            <div class="local-guide-carousel__body">
+              <h3>Restaurants & Commerces</h3>
+              <p>Les meilleures tables de Royan et tout le confort urbain à portée de main.</p>
+            </div>
+          </div>
+          <div class="local-guide-carousel__card">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&q=80&fm=webp" alt="Parc de la Forêt" loading="lazy" width="400" height="300">
+            <div class="local-guide-carousel__body">
+              <h3>Parc & Promenades</h3>
+              <p>Le parc de la ville, le port de plaisance, les sentiers côtiers — tout commence ici.</p>
+            </div>
+          </div>
         </div>
+        <a href="/local-guide.html" class="btn btn--secondary btn--md mt-4">Explorer le guide complet →</a>
       </section>
     </div>
 
     <!-- RIGHT COLUMN (1/3 sticky sidebar) -->
     <aside class="property-sidebar" aria-label="Réservation">
-      <div class="booking-widget" id="booking-widget">
+      <div class="booking-widget fade-in-right" id="booking-widget">
         <div class="booking-widget__header">
           <div class="booking-widget__price">
             À partir de 130€ <span>/ nuit</span>
           </div>
           <div class="booking-widget__rating">
-            <span class="stars" style="display:flex;gap:1px;">
+            <span class="stars">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="var(--color-warning)"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/></svg>
             </span>
             <span>Nouveau</span>
           </div>
         </div>
 
-        <form class="booking-widget__form" action="#" method="post" novalidate>
+        <form class="booking-widget__form" novalidate>
           <div class="form-row">
             <div>
-              <label for="checkin" style="display:block;font-size:var(--small-size);font-weight:var(--weight-semibold);margin-bottom:var(--space-1);color:var(--color-text);">Arrivée</label>
+              <label for="checkin" class="booking-label">Arrivée</label>
               <input type="date" id="checkin" name="checkin" class="date-input" min="2026-07-07" required aria-required="true">
             </div>
             <div>
-              <label for="checkout" style="display:block;font-size:var(--small-size);font-weight:var(--weight-semibold);margin-bottom:var(--space-1);color:var(--color-text);">Départ</label>
+              <label for="checkout" class="booking-label">Départ</label>
               <input type="date" id="checkout" name="checkout" class="date-input" min="2026-07-08" required aria-required="true">
             </div>
           </div>
 
           <div>
-            <label for="guests" style="display:block;font-size:var(--small-size);font-weight:var(--weight-semibold);margin-bottom:var(--space-1);color:var(--color-text);">Voyageurs</label>
+            <label for="guests" class="booking-label">Voyageurs</label>
             <select id="guests" name="guests" class="guest-select" required aria-required="true">
               <option value="1">1 voyageur</option>
               <option value="2">2 voyageurs</option>
@@ -579,18 +643,18 @@
           <button type="submit" class="btn btn--primary btn--full btn--lg">Réserver maintenant</button>
         </form>
 
-        <div style="padding:0 var(--space-5) var(--space-5);text-align:center;">
-          <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--full btn--md" style="margin-bottom:var(--space-4);">Réserver sur Airbnb</a>
-          <div style="display:flex;flex-direction:column;gap:var(--space-2);font-size:0.8125rem;color:var(--color-text-muted);">
-            <div style="display:flex;align-items:center;gap:var(--space-2);justify-content:center;">
+        <div class="booking-perks">
+          <a href="https://airbnb.com" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--full btn--md booking-airbnb-btn">Réserver sur Airbnb</a>
+          <div class="booking-perks__list">
+            <div class="booking-perks__row">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               Réservation directe
             </div>
-            <div style="display:flex;align-items:center;gap:var(--space-2);justify-content:center;">
+            <div class="booking-perks__row">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               Meilleurs tarifs
             </div>
-            <div style="display:flex;align-items:center;gap:var(--space-2);justify-content:center;">
+            <div class="booking-perks__row">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
               Annulation flexible
             </div>
@@ -599,12 +663,38 @@
       </div>
 
       <!-- Availability Calendar -->
-      <div id="availability-calendar" style="margin-top:var(--space-5);"></div>
+      <div id="availability-calendar" data-property-id="1101432035369683458" data-property-name="Appartement neuf — 100m de la Grande Conche" class="mt-5"></div>
+
+      <!-- CalmRio Promise — Plum Guide inspired trust badges -->
+      <div class="sidebar-promise">
+        <h3 class="sidebar-promise__title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+          Pourquoi réserver avec CalmRio ?
+        </h3>
+        <ul class="sidebar-promise__list">
+          <li class="sidebar-promise__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><strong>Vérifié sur place</strong> — Chaque villa est inspectée personnellement</span>
+          </li>
+          <li class="sidebar-promise__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><strong>Meilleur prix</strong> — Moins cher que sur les plateformes</span>
+          </li>
+          <li class="sidebar-promise__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><strong>Accueil personnalisé</strong> — Réponse sous 1h et conseils sur mesure</span>
+          </li>
+          <li class="sidebar-promise__item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+            <span><strong>Annulation flexible</strong> — Des conditions adaptées à vos besoins</span>
+          </li>
+        </ul>
+      </div>
 
       <!-- Cross-sell -->
-      <div class="cross-sell">
+      <div class="cross-sell fade-in">
         <h3 class="cross-sell__title">Vous aimerez aussi</h3>
-        <div class="cross-sell__grid">
+        <div class="cross-sell__grid stagger-children">
           <a href="/saint-trojan-villa.html" class="cross-sell-card">
             <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg?im_w=720" alt="Villa neuve Saint-Trojan" class="cross-sell-card__image" loading="lazy" decoding="async" width="100" height="80">
             <div class="cross-sell-card__body">
@@ -637,10 +727,10 @@
   <!-- ============================================================ -->
   <!-- FAQ SECTION                                                    -->
   <!-- ============================================================ -->
-  <section class="section" aria-labelledby="faq-title" style="background-color:var(--color-bg-alt);">
+  <section class="section bg-alt fade-in" aria-labelledby="faq-title">
     <div class="container">
       <h2 class="section__title" id="faq-title">Questions fréquentes</h2>
-      <div class="faq-accordion" style="max-width:800px;margin:0 auto;">
+      <div class="faq-accordion max-w-800 mx-auto">
         <details class="faq-item" open>
           <summary class="faq-item__question">À quelle distance se trouve la plage ?</summary>
           <p class="faq-item__answer">L'appartement se situe à environ 100m de la plage de la Grande Conche, l'une des plus belles plages de la côte atlantique.</p>
@@ -676,10 +766,10 @@
   <!-- ============================================================ -->
   <!-- CTA SECTION                                                    -->
   <!-- ============================================================ -->
-  <section class="section" aria-labelledby="cta-title" style="background-color:var(--color-primary);color:var(--color-text-inverse);text-align:center;">
+  <section class="section bg-primary text-white text-center" aria-labelledby="cta-title">
     <div class="container">
-      <h2 class="section__title" id="cta-title" style="color:var(--color-text-inverse);">Prêt à réserver votre séjour ?</h2>
-      <p class="section__subtitle" style="color:rgba(255,255,255,0.8);max-width:600px;margin:0 auto var(--space-6);">Contactez-nous ou réservez directement en ligne. Les meilleurs tarifs sont disponibles en réservation directe.</p>
+      <h2 class="section__title text-white" id="cta-title">Prêt à réserver votre séjour ?</h2>
+      <p class="section__subtitle cta-subtitle">Contactez-nous ou réservez directement en ligne. Les meilleurs tarifs sont disponibles en réservation directe.</p>
       <div class="btn-group btn-group--center">
         <a href="#booking-widget" class="btn btn--gold btn--lg">Réserver maintenant</a>
         <a href="/contact.html" class="btn btn--secondary-light btn--lg">Nous contacter</a>
@@ -690,7 +780,7 @@
   <!-- ============================================================ -->
   <!-- FOOTER                                                         -->
   <!-- ============================================================ -->
-  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+  <footer class="site-footer fade-in" role="contentinfo" aria-label="Pied de page">
     <div class="footer-inner">
       <div class="footer-grid">
         <!-- Brand -->
@@ -761,18 +851,25 @@
   </footer>
 
   <!-- JavaScript Module -->
-  <script type="module" src="assets/js/app.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
 
   <!-- ============================================================ -->
   <!-- STICKY BOOKING BAR (mobile only)                               -->
   <!-- ============================================================ -->
-  <div class="sticky-bar" role="complementary" aria-label="Réservation rapide">
-    <div>
+  <div class="sticky-bar" role="complementary" aria-label="Réservation rapide" data-sticky-bar>
+    <div class="sticky-bar__info">
       <div class="sticky-bar__price">
-        À partir de <span id="sticky-price">120</span>€ <small>/ nuit</small>
+        À partir de <span id="sticky-price">175</span>€ <small>/ nuit</small>
       </div>
-      <div class="sticky-bar__rating">
-        <span class="star">★</span> 4,95
+      <div class="sticky-bar__meta">
+        <span class="sticky-bar__rating">
+          <span class="star">★</span> 4,95
+        </span>
+        <span class="sticky-bar__separator" aria-hidden="true">·</span>
+        <span class="sticky-bar__guests">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span>4 pers</span>
+        </span>
       </div>
     </div>
     <a href="#availability-calendar" class="btn btn--primary btn--sm sticky-bar__cta">Voir disponibilités</a>

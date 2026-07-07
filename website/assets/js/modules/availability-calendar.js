@@ -705,3 +705,31 @@ export class AvailabilityCalendar {
 }
 
 export default AvailabilityCalendar;
+
+/**
+ * Auto-initialize availability calendars on DOM elements
+ * with id="availability-calendar" on matching property detail pages.
+ */
+export function initAvailabilityCalendar() {
+  const containers = document.querySelectorAll('#availability-calendar');
+  if (!containers.length) return;
+
+  containers.forEach(container => {
+    const propertyId = container.dataset.propertyId || 'default';
+    const propertyName = container.dataset.propertyName || 'Property';
+    const icalUrl = container.dataset.icalUrl || null;
+
+    try {
+      const calendar = new AvailabilityCalendar(container, {
+        propertyId,
+        propertyName,
+        icalUrl,
+        useMockData: !icalUrl,
+        locale: 'fr-FR'
+      });
+      container.__calendar = calendar;
+    } catch (err) {
+      console.warn('Availability calendar init failed:', err.message);
+    }
+  });
+}

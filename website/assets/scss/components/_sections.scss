@@ -3,17 +3,8 @@
 // ============================================================
 
 // ------------------------------------------------------------
-// Base section
+// Section dark variant — kept here as component-level override
 // ------------------------------------------------------------
-.section {
-  padding-top: var(--section-padding-y);
-  padding-bottom: var(--section-padding-y);
-}
-
-.section--alt {
-  background-color: var(--color-bg-alt);
-}
-
 .section--dark {
   background-color: var(--color-primary);
   color: var(--color-text-inverse);

@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CalmRio — Accueil" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Accueil" [ref=e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e10]:
+            - link "Nos Locations" [ref=e11] [cursor=pointer]:
+              - /url: index.html#nos-locations
+          - listitem [ref=e12]:
+            - link "Guide Local" [ref=e13] [cursor=pointer]:
+              - /url: local-guide.html
+          - listitem [ref=e14]:
+            - link "Blog" [ref=e15] [cursor=pointer]:
+              - /url: blog/
+          - listitem [ref=e16]:
+            - link "À Propos" [ref=e17] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=e18]:
+            - link "Contact" [ref=e19] [cursor=pointer]:
+              - /url: contact.html
+      - link "Switch to English" [ref=e234] [cursor=pointer]:
+        - /url: /en/about.html
+        - text: EN
+      - button "Activer le thème sombre" [ref=e235] [cursor=pointer]:
+        - img [ref=e236]
+      - link "Réserver" [ref=e20] [cursor=pointer]:
+        - /url: index.html#nos-locations
+  - main [ref=e38]:
+    - navigation "Fil d'Ariane" [ref=e39]:
+      - link "Accueil" [ref=e41] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e238]: / À Propos
+    - region "Notre histoire" [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Notre histoire" [level=1] [ref=e44]
+        - paragraph [ref=e45]: Des locations de caractère sur la côte atlantique
+    - region "Rencontrez vos hôtes" [ref=e46]:
+      - generic [ref=e48]:
+        - generic [ref=e49]: CR
+        - heading "Rencontrez vos hôtes" [level=2] [ref=e50]
+        - paragraph [ref=e51]: CalmRio est né d'une passion pour la côte atlantique et du désir de partager ses plus beaux secrets.
+        - paragraph [ref=e52]: Après avoir passé des années à explorer les plages sauvages de l'île d'Oléron et les ruelles colorées de Royan, nous avons eu un coup de cœur pour cette région que nous appelons désormais notre chez-nous. Chaque propriété CalmRio a été choisie pour son âme, son emplacement d'exception et son potentiel à offrir des souvenirs inoubliables.
+        - paragraph [ref=e53]: Nous vivons à proximité de nos propriétés et sommes toujours disponibles pour vous accueillir, vous conseiller et vous faire découvrir les adresses que seuls les locaux connaissent. Pour nous, l'hospitalité n'est pas un métier, c'est une philosophie.
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]: "3"
+            - generic [ref=e57]: Propriétés
+          - generic [ref=e58]:
+            - generic [ref=e59]: ★ 4,95
+            - generic [ref=e60]: Note moyenne
+          - generic [ref=e61]:
+            - generic [ref=e62]: 50+
+            - generic [ref=e63]: Voyageurs accueillis
+          - generic [ref=e64]:
+            - generic [ref=e65]: 100%
+            - generic [ref=e66]: Satisfaction
+    - region [ref=e67]:
+      - generic [ref=e69]:
+        - paragraph [ref=e70]: CalmRio est né d'une passion pour la côte atlantique française et du désir de partager ses plus beaux refuges. Chaque propriété de notre collection a été sélectionnée pour son caractère unique, son emplacement d'exception et son confort irréprochable.
+        - paragraph [ref=e71]: De l'appartement contemporain face à la Grande Conche à Royan aux villas familiales entre mer et forêt à Saint-Trojan-les-Bains, nous avons imaginé ces lieux comme des écrins de sérénité pour les familles, les couples et les télétravailleurs en quête d'authenticité.
+        - blockquote [ref=e72]: “ Nous croyons que les plus beaux souvenirs de vacances naissent dans des lieux où l'on se sent immédiatement chez soi.
+    - region "Des hôtes passionnés à votre service" [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e240]: Nos hôtes
+          - heading "Des hôtes passionnés à votre service" [level=2] [ref=e76]
+          - paragraph [ref=e77]: Chaque propriété est gérée avec soin par des hôtes qui connaissent et aiment leur région.
+        - generic [ref=e78]:
+          - article [ref=e79]:
+            - img "Photo de Mélanie, hôte à Royan" [ref=e80]:
+              - img [ref=e81]
+            - heading "Mélanie" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Hôte — Royan
+            - paragraph [ref=e86]: Mélanie accueille ses voyageurs à Royan avec une attention toute particulière aux détails. Son appartement neuf, à 100m de la Grande Conche, allie design contemporain et confort fonctionnel — avec un espace télétravail pensé pour les nomades digitaux.
+          - article [ref=e87]:
+            - img "Photo d'Agnès, Superhost à Saint-Trojan-les-Bains" [ref=e88]:
+              - img [ref=e89]
+            - heading "Agnès" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Superhost — Saint-Trojan-les-Bains
+            - paragraph [ref=e94]: Agnès est Superhost Airbnb depuis 5 ans et sa villa est classée Guest Favorite avec une note exceptionnelle de 4,95★. Elle met un point d'honneur à offrir un accueil chaleureux et personnalisé. Son portfolio de deux maisons à Saint-Trojan-les-Bains permet d'accueillir aussi bien les petites que les grandes familles.
+    - region "Ce qui fait la différence CalmRio" [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e241]: Nos valeurs
+          - heading "Ce qui fait la différence CalmRio" [level=2] [ref=e98]
+          - paragraph [ref=e99]: Trois piliers qui guident chacune de nos décisions.
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - img [ref=e103]
+            - heading "Qualité avant tout" [level=3] [ref=e105]
+            - paragraph [ref=e106]: Des locations neuves ou récemment rénovées, équipées avec soin pour offrir un confort irréprochable à chaque séjour.
+          - generic [ref=e107]:
+            - img [ref=e109]
+            - heading "Proximité de la nature" [level=3] [ref=e111]
+            - paragraph [ref=e112]: Entre océan et forêt, chaque propriété est une porte d'entrée vers l'évasion, à deux pas des plus belles plages de la côte atlantique.
+          - generic [ref=e113]:
+            - img [ref=e115]
+            - heading "Accueil personnalisé" [level=3] [ref=e120]
+            - paragraph [ref=e121]: Hôtes réactifs, conseils locaux sur mesure, équipement bébé disponible et animaux acceptés dans toutes nos locations.
+    - region "Découvrez nos trois propriétés" [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e242]: Notre collection
+          - heading "Découvrez nos trois propriétés" [level=2] [ref=e125]
+          - paragraph [ref=e126]: De Royan à l'Île d'Oléron, trois lieux uniques pour des vacances inoubliables.
+        - generic [ref=e127]:
+          - article [ref=e128]:
+            - img "Appartement neuf à Royan, terrasse ombragée, à 100m de la Grande Conche" [ref=e130]
+            - generic [ref=e131]:
+              - paragraph [ref=e132]:
+                - img [ref=e133]
+                - text: Royan
+              - heading "Appartement neuf bord de plage" [level=3] [ref=e136]
+              - paragraph [ref=e137]: 60m² contemporain — 2 chambres, terrasse 20m², à 100m de la plage. Idéal pour 4 personnes.
+              - generic [ref=e138]:
+                - generic [ref=e243]: 🛏️ 4 pers.
+                - generic [ref=e244]: 🚿 1 SdB
+                - generic [ref=e245]: 🏖️ 100m plage
+              - link "Voir la location" [ref=e139] [cursor=pointer]:
+                - /url: royan-appartement.html
+          - article [ref=e140]:
+            - generic [ref=e141]:
+              - img "Villa neuve 110m² à Saint-Trojan-les-Bains, jardin clos et terrasses" [ref=e142]
+              - generic "Note de 4,95 sur 5" [ref=e246]: ★ 4,95
+            - generic [ref=e143]:
+              - paragraph [ref=e144]:
+                - img [ref=e145]
+                - text: Saint-Trojan-les-Bains
+              - heading "Villa neuve 6 personnes" [level=3] [ref=e148]
+              - paragraph [ref=e149]: 110m² — 3 chambres, jardin clos, 2 terrasses, plage à vélo. Guest Favorite ★4,95.
+              - generic [ref=e150]:
+                - generic [ref=e247]: 🛏️ 6 pers.
+                - generic [ref=e248]: 🌿 Jardin
+                - generic [ref=e249]: 🚲 Plage à vélo
+              - link "Voir la location" [ref=e151] [cursor=pointer]:
+                - /url: royan-appartement.html
+          - article [ref=e152]:
+            - img "Maison familiale 3 chambres à Saint-Trojan-les-Bains avec jardin" [ref=e154]
+            - generic [ref=e155]:
+              - paragraph [ref=e156]:
+                - img [ref=e157]
+                - text: Saint-Trojan-les-Bains
+              - heading "Maison familiale 6 personnes" [level=3] [ref=e160]
+              - paragraph [ref=e161]: 3 chambres, jardin arboré, proche plage et pistes cyclables. Parfait pour les familles.
+              - generic [ref=e162]:
+                - generic [ref=e250]: 🛏️ 6 pers.
+                - generic [ref=e251]: 🌳 Jardin
+                - generic [ref=e252]: 🚲 Pistes cyclables
+              - link "Voir la location" [ref=e163] [cursor=pointer]:
+                - /url: royan-appartement.html
+    - region "Prêt à découvrir nos locations ?" [ref=e164]:
+      - generic [ref=e165]:
+        - heading "Prêt à découvrir nos locations ?" [level=2] [ref=e166]
+        - paragraph [ref=e167]: Trouvez le refuge parfait pour vos prochaines vacances sur la côte atlantique.
+        - generic [ref=e168]:
+          - link "Découvrir nos locations" [ref=e169] [cursor=pointer]:
+            - /url: index.html#nos-locations
+          - link "Nous contacter" [ref=e170] [cursor=pointer]:
+            - /url: contact.html
+  - contentinfo "Pied de page" [ref=e171]:
+    - generic [ref=e172]:
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - link "CalmRio" [ref=e175] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=e176]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron. Des refuges de caractère pour des séjours inoubliables entre océan et forêt.
+          - generic [ref=e177]:
+            - link "Instagram CalmRio" [ref=e178] [cursor=pointer]:
+              - /url: https://www.instagram.com/calmrio
+              - img [ref=e179]
+            - link "Facebook CalmRio" [ref=e181] [cursor=pointer]:
+              - /url: https://www.facebook.com/calmrio
+              - img [ref=e182]
+        - generic [ref=e184]:
+          - heading "Navigation" [level=2] [ref=e185]
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "Accueil" [ref=e188] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=e189]:
+              - link "Nos Locations" [ref=e190] [cursor=pointer]:
+                - /url: index.html#nos-locations
+            - listitem [ref=e191]:
+              - link "Guide Local" [ref=e192] [cursor=pointer]:
+                - /url: local-guide.html
+            - listitem [ref=e193]:
+              - link "Blog" [ref=e194] [cursor=pointer]:
+                - /url: blog/
+            - listitem [ref=e195]:
+              - link "À Propos" [ref=e196] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=e197]:
+              - link "Contact" [ref=e198] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=e199]:
+              - link "FAQ" [ref=e200] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=e201]:
+          - heading "Nos Locations" [level=2] [ref=e202]
+          - list [ref=e203]:
+            - listitem [ref=e204]:
+              - link "Appartement Royan" [ref=e205] [cursor=pointer]:
+                - /url: royan-appartement.html
+            - listitem [ref=e206]:
+              - link "Villa Saint-Trojan" [ref=e207] [cursor=pointer]:
+                - /url: saint-trojan-villa.html
+            - listitem [ref=e208]:
+              - link "Maison Saint-Trojan" [ref=e209] [cursor=pointer]:
+                - /url: saint-trojan-maison.html
+        - generic [ref=e210]:
+          - heading "Contact" [level=2] [ref=e211]
+          - list [ref=e212]:
+            - listitem [ref=e213]:
+              - img [ref=e214]
+              - link "contact@calm-rio.com" [ref=e217] [cursor=pointer]:
+                - /url: mailto:contact@calm-rio.com
+            - listitem [ref=e218]:
+              - img [ref=e219]
+              - link "+33 (0)6 XX XX XX XX" [ref=e221] [cursor=pointer]:
+                - /url: tel:+33000000000
+            - listitem [ref=e222]:
+              - img [ref=e223]
+              - generic [ref=e226]:
+                - text: Royan & Saint-Trojan-les-Bains
+                - text: Nouvelle-Aquitaine, France
+      - generic [ref=e227]:
+        - paragraph [ref=e228]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=e229]:
+          - listitem [ref=e230]:
+            - link "Mentions légales" [ref=e231] [cursor=pointer]:
+              - /url: mentions-legales.html
+          - listitem [ref=e232]:
+            - link "Politique de confidentialité" [ref=e233] [cursor=pointer]:
+              - /url: politique-de-confidentialite.html

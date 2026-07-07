@@ -119,8 +119,6 @@ section {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 // Remove list styles on ul, ol elements
@@ -207,10 +205,6 @@ fieldset {
   }
 }
 
-// HTML smooth scrolling
-html {
-  scroll-behavior: smooth;
-}
 
 // Set anchor color inheritance where appropriate
 a {

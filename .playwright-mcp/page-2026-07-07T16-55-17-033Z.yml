@@ -1,0 +1,642 @@
+- generic [active] [ref=f88e1]:
+  - generic [ref=f88e3]:
+    - generic [ref=f88e4]:
+      - paragraph [ref=f88e5]:
+        - text: By using Plum Guide, you agree to our
+        - link "Cookie Policy" [ref=f88e6] [cursor=pointer]:
+          - /url: /cookie-policy
+        - text: .
+      - button "Close" [ref=f88e7] [cursor=pointer]:
+        - img [ref=f88e9]
+    - banner [ref=f88e11]:
+      - button "Plum Guide" [ref=f88e14] [cursor=pointer]:
+        - img [ref=f88e16]
+      - generic [ref=f88e23]:
+        - link "Become a host" [ref=f88e24] [cursor=pointer]:
+          - /url: /become-a-host
+        - button "Need help?" [ref=f88e25] [cursor=pointer]
+        - button "Change your user settings" [ref=f88e26] [cursor=pointer]:
+          - paragraph [ref=f88e27]: en
+          - paragraph [ref=f88e29]: MAD
+        - button "Log in" [ref=f88e30] [cursor=pointer]:
+          - img [ref=f88e32]
+          - img [ref=f88e38]
+    - main [ref=f88e40]:
+      - generic [ref=f88e43]:
+        - generic [ref=f88e44]:
+          - region "Notifications (F8)":
+            - list
+          - generic [ref=f88e45]:
+            - button "View Photos (16)" [ref=f88e46] [cursor=pointer]:
+              - img "The Marais Marvel - 1" [ref=f88e48]
+            - button "View Photos (16)" [ref=f88e49] [cursor=pointer]:
+              - img "The Marais Marvel - 2" [ref=f88e51]
+        - button "View 16 photos" [ref=f88e53] [cursor=pointer]:
+          - generic [ref=f88e54]: View 16 photos
+      - generic [ref=f88e56]:
+        - generic [ref=f88e57]:
+          - generic [ref=f88e58]:
+            - generic [ref=f88e59]:
+              - generic [ref=f88e60]:
+                - link "France" [ref=f88e61] [cursor=pointer]:
+                  - /url: /search?placeId=ChIJMVd4MymgVA0R99lHx5Y__Ws&location=France
+                  - generic [ref=f88e62]: France
+                - img [ref=f88e65]
+              - generic [ref=f88e67]:
+                - link "Paris" [ref=f88e68] [cursor=pointer]:
+                  - /url: /search?placeId=ChIJD7fiBh9u5kcRYJSMaMOCCwQ&location=Paris
+                  - generic [ref=f88e69]: Paris
+                - img [ref=f88e72]
+              - link "Saint-Merri" [ref=f88e75] [cursor=pointer]:
+                - /url: /search?placeId=ChIJmep0th1u5kcRP1E_FYBvqWU&location=Saint-Merri
+                - generic [ref=f88e76]: Saint-Merri
+            - heading "The Marais Marvel" [level=1] [ref=f88e77]
+          - list [ref=f88e79]:
+            - listitem [ref=f88e80]:
+              - img [ref=f88e82]
+              - paragraph [ref=f88e84]: 6 guests
+            - listitem [ref=f88e85]:
+              - img [ref=f88e87]
+              - paragraph [ref=f88e89]: 2 bedrooms, 3 beds
+            - listitem [ref=f88e90]:
+              - img [ref=f88e92]
+              - paragraph [ref=f88e95]: 2.5 bathrooms
+            - listitem [ref=f88e96]:
+              - img [ref=f88e98]
+              - paragraph [ref=f88e100]: 70 sq/m
+        - generic [ref=f88e102]:
+          - generic [ref=f88e107]:
+            - generic [ref=f88e108]:
+              - paragraph [ref=f88e110]: Add dates for price
+              - generic [ref=f88e112]:
+                - button "Share this home" [ref=f88e113] [cursor=pointer]:
+                  - img [ref=f88e115]
+                - button "Favourite this home" [ref=f88e121] [cursor=pointer]:
+                  - img [ref=f88e122]
+            - generic [ref=f88e127]:
+              - button "Select dates" [ref=f88e129] [cursor=pointer]:
+                - generic [ref=f88e130]:
+                  - generic [ref=f88e131]:
+                    - img [ref=f88e133]
+                    - img [ref=f88e136]
+                  - generic [ref=f88e138]: Select dates
+              - button "1 guest" [ref=f88e141] [cursor=pointer]:
+                - generic [ref=f88e142]:
+                  - generic [ref=f88e143]:
+                    - img [ref=f88e145]
+                    - img [ref=f88e148]
+                  - generic [ref=f88e150]: 1 guest
+            - button "Check availability" [ref=f88e153] [cursor=pointer]:
+              - generic [ref=f88e154]: Check availability
+          - generic [ref=f88e156]:
+            - generic [ref=f88e157]:
+              - paragraph [ref=f88e158]: Ask us anything
+              - paragraph [ref=f88e159]:
+                - text: Do you have a question about this home or the local area?
+                - button "Start a chat" [ref=f88e160] [cursor=pointer]:
+                  - generic [ref=f88e161]: Start a chat
+            - img [ref=f88e162]
+        - generic [ref=f88e170]:
+          - paragraph [ref=f88e172]: For a fantastic location, this apartment hits all the right notes. You can stroll to local bars, boutiques, bakeries and iconic sights like Notre Dame and the Louvre. It’s also just a short walk to Rambuteau metro station – making it easy to explore further afield. And when you’re in search of rest and relaxation, this apartment delivers the perfect solution. The living room provides a sweet spot for evening drinks, while the bedrooms (both with an en-suite bathroom) have everything you could need for a peaceful night’s sleep.
+          - separator [ref=f88e173]
+          - generic [ref=f88e174]:
+            - heading "The Plum Promise" [level=2] [ref=f88e175]
+            - list [ref=f88e176]:
+              - listitem [ref=f88e177]:
+                - img [ref=f88e179]
+                - generic [ref=f88e181]:
+                  - strong [ref=f88e182]: No time for average
+                  - text: – We rejected 41,781 homes in Paris, so you don't have to.
+              - listitem [ref=f88e183]:
+                - img [ref=f88e185]
+                - generic [ref=f88e187]:
+                  - strong [ref=f88e188]: Hosts we know
+                  - text: – With track records of high-quality hosting.
+              - listitem [ref=f88e189]:
+                - img [ref=f88e191]
+                - generic [ref=f88e193]:
+                  - strong [ref=f88e194]: Rated ‘Excellent’ on Trustpilot
+                  - text: – Exceptional service before, during and after your stay.
+            - button "Learn about our Promise" [ref=f88e195] [cursor=pointer]:
+              - generic [ref=f88e196]: Learn about our Promise
+          - generic [ref=f88e197]:
+            - heading "What to expect" [level=2] [ref=f88e199]
+            - separator [ref=f88e201]
+            - generic [ref=f88e203]:
+              - generic [ref=f88e204]:
+                - paragraph [ref=f88e205]: Highlights
+                - generic [ref=f88e207]:
+                  - button "Previous highlight" [disabled]:
+                    - img
+                  - button "Next highlight" [ref=f88e208] [cursor=pointer]:
+                    - img [ref=f88e209]
+              - generic [ref=f88e213]:
+                - generic [ref=f88e214]:
+                  - img "Begin your stay with an inspiring stroll through the Louvre" [ref=f88e217]
+                  - paragraph [ref=f88e219]: Begin your stay with an inspiring stroll through the Louvre
+                - generic [ref=f88e220]:
+                  - img "Soak up the atmosphere while sipping drinks in a cafe" [ref=f88e223]
+                  - paragraph [ref=f88e225]: Soak up the atmosphere while sipping drinks in a cafe
+                - generic [ref=f88e226]:
+                  - img "Enjoy home comforts after a day of sightseeing" [ref=f88e229]
+                  - paragraph [ref=f88e231]: Enjoy home comforts after a day of sightseeing
+                - generic [ref=f88e233]:
+                  - paragraph [ref=f88e234]: Like what you see? Explore more of this home
+                  - button "View all photos" [ref=f88e235] [cursor=pointer]:
+                    - generic [ref=f88e236]: View all photos
+            - generic [ref=f88e238]:
+              - heading "Home truths" [level=1] [ref=f88e239]
+              - list [ref=f88e241]:
+                - listitem [ref=f88e242]:
+                  - img [ref=f88e244]
+                  - paragraph [ref=f88e247]: At full occupancy, two guests will be sleeping on the sofa bed in the living room.
+                - listitem [ref=f88e248]:
+                  - img [ref=f88e250]
+                  - paragraph [ref=f88e253]: Complimentary cleaning is included in your stay.
+                - listitem [ref=f88e254]:
+                  - img [ref=f88e256]
+                  - paragraph [ref=f88e259]: There is no welcome basket or extras provided, such a coffee and tea, so prepare to source your own.
+                - listitem [ref=f88e260]:
+                  - img [ref=f88e262]
+                  - paragraph [ref=f88e265]: We've had comments that the home can be cold during the winter months.
+          - generic [ref=f88e267]:
+            - heading "About this stay" [level=2] [ref=f88e268]
+            - separator [ref=f88e270]
+            - generic [ref=f88e272]:
+              - heading "Amenities" [level=1] [ref=f88e273]
+              - generic [ref=f88e275]:
+                - generic [ref=f88e277]:
+                  - img [ref=f88e279]
+                  - paragraph [ref=f88e282]: Desk
+                - generic [ref=f88e284]:
+                  - img [ref=f88e286]
+                  - paragraph [ref=f88e289]: Wi-fi
+                - generic [ref=f88e291]:
+                  - img [ref=f88e293]
+                  - paragraph [ref=f88e296]: Parking available
+                - generic [ref=f88e298]:
+                  - img [ref=f88e300]
+                  - paragraph [ref=f88e303]: Washing machine
+                - generic [ref=f88e305]:
+                  - img [ref=f88e307]
+                  - paragraph [ref=f88e310]: Dryer
+                - generic [ref=f88e312]:
+                  - img [ref=f88e314]
+                  - paragraph [ref=f88e317]: Lift access
+                - generic [ref=f88e319]:
+                  - img [ref=f88e321]
+                  - paragraph [ref=f88e324]: TV
+                - generic [ref=f88e326]:
+                  - img [ref=f88e328]
+                  - paragraph [ref=f88e331]: Dishwasher
+              - button "Show all 31 amenities" [ref=f88e333] [cursor=pointer]:
+                - generic [ref=f88e334]: Show all 31 amenities
+            - heading "Bedrooms & bathrooms" [level=3] [ref=f88e336]
+            - generic [ref=f88e337]:
+              - generic [ref=f88e338]:
+                - img [ref=f88e339]
+                - paragraph [ref=f88e341]: 2 bedrooms, 3 beds
+              - generic [ref=f88e342]:
+                - img [ref=f88e343]
+                - paragraph [ref=f88e346]: 2.5 bathrooms
+            - button "Show configuration" [ref=f88e348] [cursor=pointer]:
+              - generic [ref=f88e349]: Show configuration
+          - heading "Extras" [level=2] [ref=f88e352]
+          - paragraph [ref=f88e354]: Arranged by your host • Subject to availability
+          - separator [ref=f88e356]
+          - generic [ref=f88e358]:
+            - heading "VIP services" [level=3] [ref=f88e359]
+            - button "More information" [ref=f88e360] [cursor=pointer]:
+              - img [ref=f88e361]
+          - generic [ref=f88e366]:
+            - img [ref=f88e368]
+            - paragraph [ref=f88e370]: Luggage storage
+          - generic [ref=f88e372]:
+            - generic [ref=f88e373]:
+              - heading "Additional fees" [level=3] [ref=f88e374]
+              - button "More information" [ref=f88e375] [cursor=pointer]:
+                - img [ref=f88e376]
+            - list [ref=f88e380]:
+              - listitem [ref=f88e381]:
+                - generic [ref=f88e385]:
+                  - generic [ref=f88e386]: Exceptionally here, the host will require you to complete a digital check-in before arrival, and they will hold a security deposit for incidentals throughout your stay.
+                  - generic [ref=f88e387]: Cost on request
+              - listitem [ref=f88e388]:
+                - generic [ref=f88e392]:
+                  - generic [ref=f88e393]: Your host can provide a cot and high chair for little ones for an additional fee of €40 each per stay.
+                  - generic [ref=f88e394]: Cost on request
+              - listitem [ref=f88e395]:
+                - generic [ref=f88e399]:
+                  - generic [ref=f88e400]: There's no free parking at this home, but you can pay to use the nearby public car park.
+                  - generic [ref=f88e401]: Cost on request
+      - generic [ref=f88e406]:
+        - generic [ref=f88e407]:
+          - generic [ref=f88e408]:
+            - heading "Local guide" [level=2] [ref=f88e409]
+            - separator [ref=f88e411]
+            - heading "About Le Marais" [level=3] [ref=f88e413]
+            - generic [ref=f88e416]:
+              - paragraph [ref=f88e418]: Le Marais is without a doubt one of the most sought-after neighbourhoods in all of Paris. Famous for its maze of picture-perfect narrow streets, striking architecture with aristocratic roots, and bustling nightlife, it’s a melting pot of different cultures, popular with tourists and locals alike. The streets are packed with independent homeware and clothes shops, markets selling fresh produce, and street-side cafes where you can do some serious people-watching. And...
+              - button "Read more" [ref=f88e420] [cursor=pointer]:
+                - generic [ref=f88e421]: Read more
+          - generic [ref=f88e423]:
+            - heading "Explore the area" [level=2] [ref=f88e424]
+            - paragraph [ref=f88e425]: Local restaurants, cafes, museums, sites and activities, recommended by our community of hosts and travel experts
+          - generic [ref=f88e428]:
+            - button "Previous attraction" [disabled]:
+              - img
+            - generic [ref=f88e430]:
+              - generic [ref=f88e431]:
+                - img "Explore The Picasso Museum" [ref=f88e434]
+                - heading "Explore The Picasso Museum" [level=3] [ref=f88e435]
+                - paragraph [ref=f88e436]: If you're a fan of Picasso, it would be a crime not to drop by and take in this incredible collection of his works.
+                - generic [ref=f88e437]:
+                  - img [ref=f88e438]
+                  - generic [ref=f88e441]: 10 min
+              - generic [ref=f88e442]:
+                - img "Get modern at the Centre Georges Pompidou" [ref=f88e445]
+                - heading "Get modern at the Centre Georges Pompidou" [level=3] [ref=f88e446]
+                - paragraph [ref=f88e447]: Dedicated to modern and contemporary art, this museum will impress you inside as much as outside with its external escalators and coloured tubing.
+                - generic [ref=f88e448]:
+                  - img [ref=f88e449]
+                  - generic [ref=f88e452]: 4 min
+              - generic [ref=f88e453]:
+                - img "Shop at BHV Marais" [ref=f88e456]
+                - heading "Shop at BHV Marais" [level=3] [ref=f88e457]
+                - paragraph [ref=f88e458]: Explore this extensive department store in The Marais, offering a wide range of mid to high-end quality items. From designer clothing and accessories to home goods and furniture, BHV Marais has everything you need for a stylish and convenient shopping experience.
+                - generic [ref=f88e459]:
+                  - img [ref=f88e460]
+                  - generic [ref=f88e463]: 4 min
+              - generic [ref=f88e464]:
+                - img "Share a piece of a cake and coffee in Le Loir dans la Théière" [ref=f88e467]
+                - heading "Share a piece of a cake and coffee in Le Loir dans la Théière" [level=3] [ref=f88e468]
+                - paragraph [ref=f88e469]: This beautiful tea place is perfect to take a break after a long day visiting the area. If you like cakes, they serve delicious lemon pie with chantilly cream as well as apple pie and chocolate cake.
+                - generic [ref=f88e470]:
+                  - img [ref=f88e471]
+                  - generic [ref=f88e474]: 9 min
+              - generic [ref=f88e475]:
+                - img "Try French classics at Les Philosophes" [ref=f88e478]
+                - heading "Try French classics at Les Philosophes" [level=3] [ref=f88e479]
+                - paragraph [ref=f88e480]: Home to some of the best onion soup in Paris, Les Philosophes is also a great spot to relax and people watch.
+                - generic [ref=f88e481]:
+                  - img [ref=f88e482]
+                  - generic [ref=f88e485]: 6 min
+              - generic [ref=f88e486]:
+                - img "Explore Paris' history at the Musée Carnavalet" [ref=f88e489]
+                - heading "Explore Paris' history at the Musée Carnavalet" [level=3] [ref=f88e490]
+                - paragraph [ref=f88e491]: Learn about Paris' history from its foundation to the present day, as well as seeing trinkets from the French Revolution.
+                - generic [ref=f88e492]:
+                  - img [ref=f88e493]
+                  - generic [ref=f88e496]: 10 min
+              - generic [ref=f88e497]:
+                - img "Visit the Saint Jacques tower" [ref=f88e500]
+                - heading "Visit the Saint Jacques tower" [level=3] [ref=f88e501]
+                - paragraph [ref=f88e502]: This flamboyant gothic tower is all that remains of the former 16th-century Church - it's a place steeped in history.
+                - generic [ref=f88e503]:
+                  - img [ref=f88e504]
+                  - generic [ref=f88e507]: 8 min
+              - generic [ref=f88e508]:
+                - img "Have lunch al fresco at Georges's terrace" [ref=f88e511]
+                - heading "Have lunch al fresco at Georges's terrace" [level=3] [ref=f88e512]
+                - paragraph [ref=f88e513]: If you enjoy dining al fresco, take advantage of the view from the rooftop in the Centre Pompidou's top floor restaurant.
+                - generic [ref=f88e514]:
+                  - img [ref=f88e515]
+                  - generic [ref=f88e518]: 3 min
+              - generic [ref=f88e519]:
+                - img "Taste a Burger to Tata Burger" [ref=f88e522]
+                - heading "Taste a Burger to Tata Burger" [level=3] [ref=f88e523]
+                - paragraph [ref=f88e524]: You like Burgers? Do not hesitate anymore and take off to Felt Burger, a cosy place and girly which is going to give to smile you the time of a lunch or a pleasant brunch.
+                - generic [ref=f88e525]:
+                  - img [ref=f88e526]
+                  - generic [ref=f88e529]: 1 min
+              - generic [ref=f88e530]:
+                - img "Indulge with delicious crêpes at Breizh Café" [ref=f88e533]
+                - heading "Indulge with delicious crêpes at Breizh Café" [level=3] [ref=f88e534]
+                - paragraph [ref=f88e535]: You can stay classically Bretonne, or be slightly more adventurous with their ever changing crêpes of the day at Breizh Café.
+                - generic [ref=f88e536]:
+                  - img [ref=f88e537]
+                  - generic [ref=f88e540]: 9 min
+              - generic [ref=f88e541]:
+                - img "Eat Israeli delicacies at Miznon" [ref=f88e544]
+                - heading "Eat Israeli delicacies at Miznon" [level=3] [ref=f88e545]
+                - paragraph [ref=f88e546]: Miznon serves finger-licking warm pitta bread sandwiches with all kinds of fillings. You can even try pitta in its sweet form, filled with chocolate and banana.
+                - generic [ref=f88e547]:
+                  - img [ref=f88e548]
+                  - generic [ref=f88e551]: 9 min
+              - generic [ref=f88e552]:
+                - img "Unwind in the Square du Temple" [ref=f88e555]
+                - heading "Unwind in the Square du Temple" [level=3] [ref=f88e556]
+                - paragraph [ref=f88e557]: A lovely small park with lush lawns, rare trees, and a peaceful atmosphere. Enjoy a game of ping pong or chess, surrounded by beautiful buildings. Perfect for a quiet moment in the city.
+                - generic [ref=f88e558]:
+                  - img [ref=f88e559]
+                  - generic [ref=f88e562]: 11 min
+            - button "Next attraction" [ref=f88e563] [cursor=pointer]:
+              - img [ref=f88e564]
+        - generic [ref=f88e570]:
+          - generic [ref=f88e571]:
+            - paragraph [ref=f88e572]: Get around
+            - generic [ref=f88e573]:
+              - paragraph [ref=f88e574]: Airport
+              - generic [ref=f88e575]:
+                - paragraph [ref=f88e577]: Paris-Orly
+                - generic [ref=f88e578]:
+                  - paragraph [ref=f88e579]: 39 min
+                  - img [ref=f88e580]
+                - paragraph [ref=f88e585]: Paris Charles de Gaulle
+                - generic [ref=f88e586]:
+                  - paragraph [ref=f88e587]: 49 min
+                  - img [ref=f88e588]
+            - generic [ref=f88e592]:
+              - generic [ref=f88e593]:
+                - paragraph [ref=f88e594]: Subway station
+                - paragraph [ref=f88e595]: Rambuteau
+              - generic [ref=f88e596]:
+                - paragraph [ref=f88e597]: 4 min
+                - img [ref=f88e598]
+            - generic [ref=f88e601]:
+              - generic [ref=f88e602]:
+                - paragraph [ref=f88e603]: Train station
+                - paragraph [ref=f88e604]: Chatelet Les Halles
+              - generic [ref=f88e605]:
+                - paragraph [ref=f88e606]: 11 min
+                - img [ref=f88e607]
+            - generic [ref=f88e610]:
+              - generic [ref=f88e611]:
+                - paragraph [ref=f88e612]: Bus stop
+                - paragraph [ref=f88e613]: Centre Georges Pompidou
+              - generic [ref=f88e614]:
+                - paragraph [ref=f88e615]: 3 min
+                - img [ref=f88e616]
+          - generic [ref=f88e619]:
+            - paragraph [ref=f88e620]: Local shops & services
+            - generic [ref=f88e621]:
+              - paragraph [ref=f88e623]: Supermarket
+              - generic [ref=f88e624]:
+                - paragraph [ref=f88e625]: 1 min
+                - img [ref=f88e626]
+            - generic [ref=f88e629]:
+              - paragraph [ref=f88e631]: Cafe
+              - generic [ref=f88e632]:
+                - paragraph [ref=f88e633]: 1 min
+                - img [ref=f88e634]
+            - generic [ref=f88e637]:
+              - paragraph [ref=f88e639]: Pharmacy
+              - generic [ref=f88e640]:
+                - paragraph [ref=f88e641]: 1 min
+                - img [ref=f88e642]
+      - generic [ref=f88e645]:
+        - generic [ref=f88e647]:
+          - heading "Booking policies" [level=2] [ref=f88e648]
+          - separator [ref=f88e650]
+          - generic [ref=f88e652]:
+            - generic [ref=f88e653]:
+              - heading "House Rules" [level=2] [ref=f88e654]
+              - generic [ref=f88e655]:
+                - generic [ref=f88e656]:
+                  - img [ref=f88e658]
+                  - paragraph [ref=f88e660]:
+                    - strong [ref=f88e661]: Children
+                    - text: welcome (1-12 years)
+                - generic [ref=f88e662]:
+                  - img [ref=f88e664]
+                  - paragraph [ref=f88e666]:
+                    - strong [ref=f88e667]: Infants
+                    - text: welcome (under 12 months)
+                - generic [ref=f88e668]:
+                  - img [ref=f88e670]
+                  - paragraph [ref=f88e672]: No pets
+                - generic [ref=f88e673]:
+                  - img [ref=f88e675]
+                  - paragraph [ref=f88e677]: No parties or events
+                - generic [ref=f88e678]:
+                  - img [ref=f88e680]
+                  - paragraph [ref=f88e682]: No smoking
+            - generic [ref=f88e683]:
+              - heading "Good to know" [level=2] [ref=f88e684]
+              - generic [ref=f88e685]:
+                - generic [ref=f88e686]:
+                  - generic [ref=f88e687]:
+                    - img [ref=f88e689]
+                    - paragraph [ref=f88e693]:
+                      - text: Arrival from
+                      - strong [ref=f88e694]: 16:00
+                  - generic [ref=f88e696]:
+                    - img [ref=f88e698]
+                    - paragraph [ref=f88e702]:
+                      - text: Departure before
+                      - strong [ref=f88e703]: 11:00
+                - generic [ref=f88e704]:
+                  - img [ref=f88e705]
+                  - paragraph [ref=f88e707]: On floor 3, has a lift
+                - generic [ref=f88e708]:
+                  - img [ref=f88e709]
+                  - paragraph [ref=f88e711]: Wifi
+                - generic [ref=f88e712]:
+                  - img [ref=f88e713]
+                  - paragraph [ref=f88e720]: No air con
+            - generic [ref=f88e721]:
+              - heading "Cancellation policy" [level=2] [ref=f88e722]
+              - list [ref=f88e723]:
+                - listitem [ref=f88e724]:
+                  - generic [ref=f88e726]:
+                    - paragraph [ref=f88e727]: Up until
+                    - paragraph [ref=f88e728]: "5"
+                    - paragraph [ref=f88e729]: days
+                  - paragraph [ref=f88e731]:
+                    - text: Cancel at least 5 days before your check-in date for a
+                    - strong [ref=f88e732]: full refund
+                    - text: .
+                - listitem [ref=f88e733]:
+                  - img [ref=f88e735]
+                  - generic [ref=f88e737]:
+                    - paragraph [ref=f88e738]: Not eligible for a refund once your check-in date is under 5 days away.
+                    - paragraph [ref=f88e739]:
+                      - button "View full terms" [ref=f88e740] [cursor=pointer]:
+                        - paragraph [ref=f88e742]: View full terms
+        - generic [ref=f88e744]:
+          - heading "Host" [level=2] [ref=f88e745]
+          - separator [ref=f88e746]
+          - generic [ref=f88e747]:
+            - generic [ref=f88e748]:
+              - generic [ref=f88e749]:
+                - heading "This home is managed by HP" [level=2] [ref=f88e750]
+                - paragraph [ref=f88e751]: This home is managed by a business on behalf of its owner. A member of their staff will be your point of contact before and during your stay. Unlike most other property managers, Nicolas has chosen to select only a small portfolio of homes to manage them with the upmost care. His apartments are all elegantly designed whilst remaining functional, providing the perfect balance.
+              - button "Login to ask us anything" [ref=f88e752] [cursor=pointer]:
+                - generic [ref=f88e753]: Login to ask us anything
+              - paragraph [ref=f88e754]: "Registration or licence number: 7510405377042."
+              - paragraph [ref=f88e755]: This home is nominated for the Plum Guide Award.
+            - list [ref=f88e757]:
+              - listitem [ref=f88e758]:
+                - img [ref=f88e760]
+                - generic [ref=f88e762]:
+                  - strong [ref=f88e763]: Great hosts, not just great homes
+                  - text: – We reject homes managed by hosts who don’t meet our standards of excellence.
+      - generic [ref=f88e766]:
+        - heading "The Plum Promise" [level=2] [ref=f88e767]
+        - list [ref=f88e768]:
+          - listitem [ref=f88e769]:
+            - img [ref=f88e771]
+            - generic [ref=f88e773]:
+              - strong [ref=f88e774]: Every home scrutinised by experts
+              - text: ", they have to meet our standards."
+          - listitem [ref=f88e775]:
+            - img [ref=f88e777]
+            - generic [ref=f88e779]:
+              - strong [ref=f88e780]: Hosts we know
+              - text: ", with track records of high-quality hosting."
+          - listitem [ref=f88e781]:
+            - img [ref=f88e783]
+            - generic [ref=f88e785]:
+              - strong [ref=f88e786]: Impeccably clean
+              - text: ", well maintained homes."
+          - listitem [ref=f88e787]:
+            - img [ref=f88e789]
+            - generic [ref=f88e791]:
+              - strong [ref=f88e792]: Peace of mind
+              - text: in the rare event your host cancels.
+          - listitem [ref=f88e793]:
+            - img [ref=f88e795]
+            - generic [ref=f88e797]:
+              - strong [ref=f88e798]: Rated ‘Excellent’ on Trustpilot
+              - text: ", delivering exceptional service before, during and after your stay."
+        - button "Learn about our Promise" [ref=f88e799] [cursor=pointer]:
+          - generic [ref=f88e800]: Learn about our Promise
+      - list [ref=f88e805]:
+        - listitem [ref=f88e806]:
+          - link "Plum Guide" [ref=f88e807] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f88e808]: Plum Guide
+        - listitem [ref=f88e809]:
+          - link "France" [ref=f88e810] [cursor=pointer]:
+            - /url: /d/fr/airbnb
+            - paragraph [ref=f88e811]: France
+        - listitem [ref=f88e812]:
+          - link "Paris" [ref=f88e813] [cursor=pointer]:
+            - /url: /d/fr-paris/airbnb
+            - paragraph [ref=f88e814]: Paris
+        - listitem [ref=f88e815]:
+          - link "Saint-Merri" [ref=f88e816] [cursor=pointer]:
+            - /url: /d/fr-paris-saint-merri/airbnb
+            - paragraph [ref=f88e817]: Saint-Merri
+    - generic:
+      - generic [ref=f88e818]:
+        - generic [ref=f88e819]:
+          - paragraph [ref=f88e821]: Get weekly travel inspiration, exclusive offers, and early access to our newest homes.
+          - paragraph [ref=f88e823]:
+            - text: By submitting this form, you agree to our
+            - link "Terms" [ref=f88e824] [cursor=pointer]:
+              - /url: https://www.plumguide.com/terms
+              - generic [ref=f88e825]: Terms
+            - text: and
+            - link "Privacy Policy" [ref=f88e827] [cursor=pointer]:
+              - /url: https://www.plumguide.com/privacy-policy
+              - generic [ref=f88e828]: Privacy Policy
+        - generic [ref=f88e831]:
+          - textbox "Enter your email address" [ref=f88e833]
+          - button "Subscribe" [ref=f88e834] [cursor=pointer]:
+            - generic [ref=f88e835]: Subscribe
+      - generic:
+        - generic:
+          - img "Subscribe banner travel scenery"
+    - generic [ref=f88e836]:
+      - generic [ref=f88e839]:
+        - generic [ref=f88e840]:
+          - generic [ref=f88e841]:
+            - heading "Explore" [level=4] [ref=f88e842]
+            - list [ref=f88e843]:
+              - listitem [ref=f88e844]:
+                - link "Become a host" [ref=f88e845] [cursor=pointer]:
+                  - /url: /become-a-host
+              - listitem [ref=f88e846]:
+                - link "Partnerships" [ref=f88e847] [cursor=pointer]:
+                  - /url: /partnership
+              - listitem [ref=f88e848]:
+                - link "Affiliate program" [ref=f88e849] [cursor=pointer]:
+                  - /url: https://discover.plumguide.com/affiliates/
+              - listitem [ref=f88e850]:
+                - link "Journal" [ref=f88e851] [cursor=pointer]:
+                  - /url: /journal
+              - listitem [ref=f88e852]:
+                - link "Plum Guide vs Airbnb" [ref=f88e853] [cursor=pointer]:
+                  - /url: /journal/plum-guide-vs-airbnb
+          - generic [ref=f88e854]:
+            - heading "Support" [level=4] [ref=f88e855]
+            - list [ref=f88e856]:
+              - listitem [ref=f88e857]:
+                - link "Help centre" [ref=f88e858] [cursor=pointer]:
+                  - /url: https://help.plumguide.com
+              - listitem [ref=f88e859]:
+                - link "Get in touch" [ref=f88e860] [cursor=pointer]:
+                  - /url: /contact-us
+              - listitem [ref=f88e861]:
+                - link "Travel experts" [ref=f88e862] [cursor=pointer]:
+                  - /url: /travel-experts
+              - listitem [ref=f88e863]:
+                - link "Cancellation Policies" [ref=f88e864] [cursor=pointer]:
+                  - /url: /cancellation-policy
+              - listitem [ref=f88e865]:
+                - link "Reviews" [ref=f88e866] [cursor=pointer]:
+                  - /url: /reviews
+          - generic [ref=f88e867]:
+            - heading "Plum Guide" [level=4] [ref=f88e868]
+            - list [ref=f88e869]:
+              - listitem [ref=f88e870]:
+                - link "About us" [ref=f88e871] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=f88e872]:
+                - link "Our story" [ref=f88e873] [cursor=pointer]:
+                  - /url: /our-story
+              - listitem [ref=f88e874]:
+                - link "Plum Guide for business" [ref=f88e875] [cursor=pointer]:
+                  - /url: /for-business
+              - listitem [ref=f88e876]:
+                - link "The Plum Test" [ref=f88e877] [cursor=pointer]:
+                  - /url: /learn-how
+              - listitem [ref=f88e878]:
+                - link "Careers" [ref=f88e879] [cursor=pointer]:
+                  - /url: /careers
+          - generic [ref=f88e880]:
+            - heading "Social" [level=4] [ref=f88e881]
+            - list [ref=f88e882]:
+              - listitem [ref=f88e883]:
+                - link "Check us on Instagram" [ref=f88e884] [cursor=pointer]:
+                  - /url: https://www.instagram.com/plumguide/
+                  - img [ref=f88e885]
+              - listitem [ref=f88e887]:
+                - link "Check us on Facebook" [ref=f88e888] [cursor=pointer]:
+                  - /url: https://www.facebook.com/plumguide/
+                  - img [ref=f88e889]
+              - listitem [ref=f88e891]:
+                - link "Check us on LinkedIn" [ref=f88e892] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/plumguide/
+                  - img [ref=f88e893]
+        - separator [ref=f88e895]
+        - generic [ref=f88e896]:
+          - img [ref=f88e898]
+          - button "Language & currency en MAD" [ref=f88e946] [cursor=pointer]:
+            - generic [ref=f88e947]: Language & currency
+            - generic [ref=f88e948]:
+              - generic [ref=f88e949]: en
+              - generic [ref=f88e951]: MAD
+      - generic [ref=f88e953]:
+        - paragraph [ref=f88e954]: © Copyright Plum Guide 2026
+        - list [ref=f88e955]:
+          - listitem [ref=f88e956]:
+            - link "Terms" [ref=f88e957] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f88e958]:
+            - text: "|"
+            - link "Privacy" [ref=f88e959] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f88e960]:
+            - text: "|"
+            - link "Sitemap" [ref=f88e961] [cursor=pointer]:
+              - /url: /sitemap
+          - listitem [ref=f88e962]: "| Cookie Preferences"
+  - alert [ref=f88e963]
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications (F8)":
+    - list
+  - iframe [ref=f88e964]:
+    

@@ -46,7 +46,7 @@
   <link rel="alternate" hreflang="x-default" href="https://calm-rio.com/">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#1A2B3C">
   <meta name="msapplication-TileColor" content="#1A2B3C">
@@ -61,7 +61,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css">
+
 
   <!-- Schema.org JSON-LD — VacationRental Portfolio -->
   <script type="application/ld+json">
@@ -332,19 +332,15 @@
           Appartements et maisons soigneusement aménagés, à deux pas des plages de Royan et de l&rsquo;île d&rsquo;Oléron. Réservez en direct et profitez d&rsquo;un séjour authentique sur la côte atlantique.
         </p>
 
-          <div style="display:flex;flex-wrap:wrap;gap:var(--space-4);margin-top:var(--space-6);justify-content:center;align-items:center;">
-            <a href="#properties" class="btn btn--primary btn--lg">Découvrir nos propriétés</a>
-            <div style="display:flex;align-items:center;gap:var(--space-2);padding:var(--space-2) var(--space-4);background:rgba(255,255,255,0.15);backdrop-filter:blur(8px);border-radius:var(--radius-full);font-size:0.875rem;color:var(--color-text-inverse);">
-              <span style="color:var(--color-secondary);">★</span>
-              <strong>4,95</strong>
-              <span style="opacity:0.7;">—</span>
-              <span>Favoris des voyageurs</span>
-            </div>
-          </div>
-
         <div class="hero__cta">
           <a href="#nos-locations" class="btn btn--primary btn--lg">Découvrir nos locations</a>
           <a href="/local-guide.html" class="btn btn--secondary-light btn--lg">Guide local</a>
+          <div class="hero__rating-badge d-flex items-center gap-2 py-2 px-4 rounded-full text-14 text-white">
+            <span class="text-secondary">★</span>
+            <strong>4,95</strong>
+            <span class="opacity-70">—</span>
+            <span>Favoris des voyageurs</span>
+          </div>
         </div>
 
         <!-- Scroll indicator -->
@@ -355,52 +351,123 @@
       </div>
 
       <!-- Trust badges row below hero -->
-      <div class="hero__trust-row" aria-label="Nos engagements" style="position: absolute; bottom: 0; left: 0; right: 0; z-index: 2; display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 1.5rem var(--container-padding); background: rgba(15, 26, 38, 0.5); backdrop-filter: blur(8px);">
-        <span style="color: rgba(255,255,255,0.9); font-size: 0.875rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+      <div class="hero__trust-row" aria-label="Nos engagements">
+        <span class="hero__trust-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
           100&nbsp;% de réponse
         </span>
-        <span style="color: rgba(255,255,255,0.9); font-size: 0.875rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+        <span class="hero__trust-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
           Superhost
         </span>
-        <span style="color: rgba(255,255,255,0.9); font-size: 0.875rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+        <span class="hero__trust-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .137 1.217 1.5 2 2.5 2s2-.5 3-1l1.5 1"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.137 1.217-1.5 2-2.5 2s-2-.5-3-1-1.5 1-1.5 1"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75Z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444c0-1.061-.162-2.2-.493-3.309m-9.243-6.082A8.801 8.801 0 0 1 12 5c.78 0 1.5.108 2.161.306"/></svg>
           Animaux acceptés
         </span>
-        <span style="color: rgba(255,255,255,0.9); font-size: 0.875rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem;">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+        <span class="hero__trust-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
           Parking gratuit
         </span>
       </div>
     </section>
 
     <!-- --------------------------------------------------------
+         CATEGORY GRID — Welcome Beyond inspired
+         -------------------------------------------------------- -->
+    <section class="category-grid fade-in" aria-labelledby="category-heading">
+      <div class="container">
+        <div class="category-grid__header">
+          <span class="section__label">Explorez</span>
+          <h2 class="section__title" id="category-heading">Vivez l'Atlantique selon vos envies</h2>
+          <p class="section__subtitle">De la plage à la forêt, du télétravail au grand air — choisissez votre expérience.</p>
+        </div>
+
+        <div class="category-grid__grid">
+          <a href="#properties" class="category-card">
+            <div class="category-card__image">
+              <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80&fm=webp" alt="" loading="lazy" decoding="async" width="600" height="400">
+            </div>
+            <div class="category-card__content">
+              <div class="category-card__count">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M12 2v2m0 16v2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"/><circle cx="12" cy="12" r="3"/></svg>
+                3 locations · Plages
+              </div>
+              <h3 class="category-card__title">Bord de mer</h3>
+              <p class="category-card__description">À 100m de la Grande Conche ou à 5min à vélo de la plage de Gatseau — l'océan à portée de main.</p>
+            </div>
+          </a>
+
+          <a href="#properties" class="category-card">
+            <div class="category-card__image">
+              <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&q=80&fm=webp" alt="" loading="lazy" decoding="async" width="600" height="400">
+            </div>
+            <div class="category-card__content">
+              <div class="category-card__count">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
+                3 locations · 130km de pistes
+              </div>
+              <h3 class="category-card__title">Nature &amp; Grand Air</h3>
+              <p class="category-card__description">Forêt de Saint-Trojan, pistes cyclables, marais salants — la côte atlantique comme terrain de jeu.</p>
+            </div>
+          </a>
+
+          <a href="#properties" class="category-card">
+            <div class="category-card__image">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80&fm=webp" alt="" loading="lazy" decoding="async" width="600" height="400">
+            </div>
+            <div class="category-card__content">
+              <div class="category-card__count">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                2 locations · Espace dédié
+              </div>
+              <h3 class="category-card__title">Télétravail &amp; Long Séjour</h3>
+              <p class="category-card__description">Bureau avec écran HDMI, WiFi haut débit et vue sur l'océan — travaillez d'où vous rêvez.</p>
+            </div>
+          </a>
+
+          <a href="#properties" class="category-card">
+            <div class="category-card__image">
+              <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=600&q=80&fm=webp" alt="" loading="lazy" decoding="async" width="600" height="400">
+            </div>
+            <div class="category-card__content">
+              <div class="category-card__count">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                3 locations · Lits king-size
+              </div>
+              <h3 class="category-card__title">Familles &amp; Animaux</h3>
+              <p class="category-card__description">Jardin clos, animaux acceptés, équipement bébé — des vacances sans compromis pour toute la tribu.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
          STATS BANNER
          -------------------------------------------------------- -->
-    <section class="stats-banner" aria-labelledby="stats-heading">
+    <section class="stats-banner fade-in" aria-labelledby="stats-heading">
       <div class="container">
         <h2 class="sr-only" id="stats-heading">CalmRio en chiffres</h2>
         <div class="stats-banner__grid">
           <div class="stat-item">
             <span class="stat-item__number" data-counter="3" aria-live="polite">3</span>
             <span class="stat-item__label">locations</span>
-            <span class="stat-item__label" style="font-size:0.75rem; text-transform:none; letter-spacing:0; color:rgba(255,255,255,0.5);">Soigneusement sélectionnées</span>
+            <span class="stat-item__label text-xs" style="text-transform:none;letter-spacing:0;">Soigneusement sélectionnées</span>
           </div>
           <div class="stat-item">
             <span class="stat-item__number" data-counter="40" data-suffix="+" aria-live="polite">40+</span>
             <span class="stat-item__label">avis</span>
-            <span class="stat-item__label" style="font-size:0.75rem; text-transform:none; letter-spacing:0; color:rgba(255,255,255,0.5);">Note moyenne 4,95<span style="color:var(--color-secondary);">&#9733;</span></span>
+            <span class="stat-item__label text-xs" style="text-transform:none;letter-spacing:0;">Note moyenne 4,95<span class="text-secondary">&#9733;</span></span>
           </div>
           <div class="stat-item">
             <span class="stat-item__number" data-counter="100" data-suffix="m" aria-live="polite">100m</span>
             <span class="stat-item__label">de la plage</span>
-            <span class="stat-item__label" style="font-size:0.75rem; text-transform:none; letter-spacing:0; color:rgba(255,255,255,0.5);">Appartement Royan</span>
+            <span class="stat-item__label text-xs" style="text-transform:none;letter-spacing:0;">Appartement Royan</span>
           </div>
           <div class="stat-item">
             <span class="stat-item__number" data-counter="6" aria-live="polite">6</span>
             <span class="stat-item__label">voyageurs</span>
-            <span class="stat-item__label" style="font-size:0.75rem; text-transform:none; letter-spacing:0; color:rgba(255,255,255,0.5);">Capacité maximale</span>
+            <span class="stat-item__label text-xs" style="text-transform:none;letter-spacing:0;">Capacité maximale</span>
           </div>
         </div>
       </div>
@@ -410,7 +477,7 @@
          PROPERTIES PREVIEW
          -------------------------------------------------------- -->
     <div id="properties">
-    <section class="section properties-preview" id="nos-locations" aria-labelledby="properties-heading">
+    <section class="section properties-preview fade-in" id="nos-locations" aria-labelledby="properties-heading">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Nos locations</span>
@@ -420,12 +487,12 @@
           </p>
         </div>
 
-        <div class="properties-grid">
+        <div class="properties-grid stagger-children">
           <!-- Property Card 1: Royan Apartment -->
           <article class="card card--property">
             <div class="card__image card__image--4-3">
               <img class="card__image" src="https://a0.muscache.com/im/pictures/miso/Hosting-1101432035369683458/original/3577b5b7-fb96-41d4-b20c-fd97e25b15a1.jpeg" alt="Appartement neuf bord de plage Royan — terrasse et vue" loading="lazy" decoding="async" width="600" height="400">
-              <span class="card__badge card__badge--new" style="position:absolute; top:var(--space-3); left:var(--space-3); padding:var(--space-1) var(--space-3); background-color:var(--color-accent); color:var(--color-text-inverse); border-radius:var(--radius-full); font-size:0.75rem; font-weight:var(--weight-semibold); text-transform:uppercase; letter-spacing:0.05em;">Nouveau</span>
+              <span class="card__badge card__badge--new absolute py-1 px-3 bg-accent text-white rounded-full text-xs fw-semibold" style="top:var(--space-3);left:var(--space-3);text-transform:uppercase;letter-spacing:0.05em;">Nouveau</span>
             </div>
             <div class="card__body">
               <h3 class="card__title">Appartement neuf — 100m de la Grande Conche</h3>
@@ -433,7 +500,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
                 Royan, Nouvelle-Aquitaine
               </div>
-              <div class="card__features" style="display:flex;flex-wrap:wrap;gap:var(--space-2);font-size:var(--small-size);color:var(--color-text-secondary);margin-bottom:var(--space-3);">
+              <div class="card__features" class="d-flex flex-wrap gap-2 text-sm text-body mb-3">
                 <span>2 chambres</span><span aria-hidden="true">·</span>
                 <span>4 personnes</span><span aria-hidden="true">·</span>
                 <span>60 m² + terrasse 20 m²</span>
@@ -449,7 +516,7 @@
                 <span class="price-amount">À partir de 130 €</span>
                 <span class="price-period"> / nuit</span>
               </div>
-              <a href="/royan-appartement.html" class="btn btn--primary btn--full" style="margin-top: var(--space-4);">Voir ce logement</a>
+              <a href="/royan-appartement.html" class="btn btn--primary btn--full" class="mt-4">Voir ce logement</a>
             </div>
           </article>
 
@@ -457,7 +524,7 @@
           <article class="card card--property card--featured">
             <div class="card__image card__image--4-3">
               <img class="card__image" src="https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg" alt="Villa neuve avec jardin clos et terrasses à Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
-              <span class="card__badge card__badge--featured" style="position:absolute; top:var(--space-3); left:var(--space-3); padding:var(--space-1) var(--space-3); background-color:var(--color-secondary); color:var(--color-text); border-radius:var(--radius-full); font-size:0.75rem; font-weight:var(--weight-semibold); display:flex; align-items:center; gap:4px;">Coup de cœur <span style="color:var(--color-warning);">&#9733;4,95</span></span>
+              <span class="card__badge card__badge--featured d-flex items-center gap-1 py-1 px-3 bg-secondary text-heading rounded-full text-xs fw-semibold" style="position:absolute;top:var(--space-3);left:var(--space-3);">Coup de cœur <span style="color:var(--color-warning);">&#9733;4,95</span></span>
             </div>
             <div class="card__body">
               <h3 class="card__title">Villa neuve 6 pers — Jardin clos &amp; terrasses</h3>
@@ -465,7 +532,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
                 Saint-Trojan-les-Bains, Île d&rsquo;Oléron
               </div>
-              <div class="card__features" style="display:flex;flex-wrap:wrap;gap:var(--space-2);font-size:var(--small-size);color:var(--color-text-secondary);margin-bottom:var(--space-3);">
+              <div class="card__features" class="d-flex flex-wrap gap-2 text-sm text-body mb-3">
                 <span>3 chambres</span><span aria-hidden="true">·</span>
                 <span>6 personnes</span><span aria-hidden="true">·</span>
                 <span>110 m² + jardin</span>
@@ -482,7 +549,7 @@
                 <span class="price-amount">À partir de 180 €</span>
                 <span class="price-period"> / nuit</span>
               </div>
-              <a href="/saint-trojan-villa.html" class="btn btn--primary btn--full" style="margin-top: var(--space-4);">Voir ce logement</a>
+              <a href="/saint-trojan-villa.html" class="btn btn--primary btn--full" class="mt-4">Voir ce logement</a>
             </div>
           </article>
 
@@ -490,7 +557,7 @@
           <article class="card card--property">
             <div class="card__image card__image--4-3">
               <img class="card__image" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/e330beaf-cfaa-4576-81cb-2d6d328a3425.jpeg" alt="Maison familiale avec jardin arboré à Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
-              <span class="card__badge card__badge--new" style="position:absolute; top:var(--space-3); left:var(--space-3); padding:var(--space-1) var(--space-3); background-color:var(--color-accent); color:var(--color-text-inverse); border-radius:var(--radius-full); font-size:0.75rem; font-weight:var(--weight-semibold); text-transform:uppercase; letter-spacing:0.05em;">Nouveau</span>
+              <span class="card__badge card__badge--new absolute py-1 px-3 bg-accent text-white rounded-full text-xs fw-semibold" style="top:var(--space-3);left:var(--space-3);text-transform:uppercase;letter-spacing:0.05em;">Nouveau</span>
             </div>
             <div class="card__body">
               <h3 class="card__title">Maison familiale 6 pers — Jardin &amp; plage à vélo</h3>
@@ -498,7 +565,7 @@
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
                 Saint-Trojan-les-Bains, Île d&rsquo;Oléron
               </div>
-              <div class="card__features" style="display:flex;flex-wrap:wrap;gap:var(--space-2);font-size:var(--small-size);color:var(--color-text-secondary);margin-bottom:var(--space-3);">
+              <div class="card__features" class="d-flex flex-wrap gap-2 text-sm text-body mb-3">
                 <span>3 chambres</span><span aria-hidden="true">·</span>
                 <span>6 personnes</span><span aria-hidden="true">·</span>
                 <span>Jardin arboré</span>
@@ -514,13 +581,13 @@
                 <span class="price-amount">À partir de 150 €</span>
                 <span class="price-period"> / nuit</span>
               </div>
-              <a href="/saint-trojan-maison.html" class="btn btn--primary btn--full" style="margin-top: var(--space-4);">Voir ce logement</a>
+              <a href="/saint-trojan-maison.html" class="btn btn--primary btn--full" class="mt-4">Voir ce logement</a>
             </div>
           </article>
         </div>
 
-        <div style="text-align:center; margin-top: var(--space-8);">
-          <a href="#nos-locations" class="view-all-link" style="display:inline-flex;align-items:center;gap:var(--space-2);font-weight:var(--weight-semibold);color:var(--color-primary);text-decoration:none;">
+        <div class="text-center mt-8">
+          <a href="#nos-locations" class="view-all-link d-inline-flex items-center gap-2 fw-semibold text-primary no-underline">
             Voir toutes nos locations
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
           </a>
@@ -532,9 +599,9 @@
   <!-- ============================================================ -->
   <!-- WHY BOOK DIRECT                                                -->
   <!-- ============================================================ -->
-  <section class="why-book-direct" aria-labelledby="whydirect-title">
+  <section class="why-book-direct fade-in" aria-labelledby="whydirect-title">
     <div class="container">
-      <h2 class="section__title" id="whydirect-title" style="text-align:center;margin-bottom:var(--space-7);">Pourquoi réserver en direct ?</h2>
+      <h2 class="section__title text-center mb-7" id="whydirect-title">Pourquoi réserver en direct ?</h2>
       <div class="why-book-direct__grid">
         <div class="why-book-direct__card">
           <div class="why-book-direct__icon">
@@ -562,9 +629,62 @@
   </section>
 
     <!-- --------------------------------------------------------
+         CALMRIO PROMISE — Plum Guide inspired
+         -------------------------------------------------------- -->
+    <section class="promise-section fade-in" aria-labelledby="promise-heading">
+      <div class="container">
+        <div class="promise-section__header">
+          <span class="section__label">La promesse CalmRio</span>
+          <h2 class="section__title" id="promise-heading">Confiance et sérénité</h2>
+          <p class="section__subtitle">Chaque propriété est choisie avec soin. Chaque séjour est une promesse tenue.</p>
+        </div>
+
+        <div class="promise-section__grid">
+          <div class="promise-card">
+            <div class="promise-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="promise-card__title">Vérifié sur place</h3>
+            <p class="promise-card__text">Chaque propriété est inspectée personnellement. Nous connaissons nos hôtes et nos lieux — pas de mauvaise surprise.</p>
+          </div>
+
+          <div class="promise-card">
+            <div class="promise-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3 class="promise-card__title">Meilleur prix garanti</h3>
+            <p class="promise-card__text">En réservant directement, vous bénéficiez de nos meilleurs tarifs — moins chers que sur les plateformes.</p>
+          </div>
+
+          <div class="promise-card">
+            <div class="promise-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="promise-card__title">Accueil personnalisé</h3>
+            <p class="promise-card__text">Réponse sous 1h, conseils sur mesure, petites attentions à l'arrivée — vous êtes reçus comme à la maison.</p>
+          </div>
+
+          <div class="promise-card">
+            <div class="promise-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3 class="promise-card__title">Annulation flexible</h3>
+            <p class="promise-card__text">Des conditions d'annulation adaptées. Parce que les imprévus font aussi partie des voyages.</p>
+          </div>
+        </div>
+
+        <!-- Testimonial highlight quote -->
+        <div class="testimonial-highlight mt-8">
+          <div class="testimonial-highlight__quote">« Vous ne voudrez plus jamais séjourner dans un hôtel. »</div>
+          <div class="testimonial-highlight__source">— Harper's Bazaar · À propos de CalmRio</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
          TESTIMONIALS SECTION
          -------------------------------------------------------- -->
-    <section class="section section--alt testimonials-section" aria-labelledby="testimonials-heading">
+    <section class="section section--alt testimonials-section fade-in" aria-labelledby="testimonials-heading">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Témoignages</span>
@@ -574,7 +694,7 @@
           </p>
         </div>
 
-        <div class="testimonials-slider" id="testimonials-slider" role="region" aria-label="Témoignages de nos voyageurs" tabindex="0">
+        <div class="testimonials-slider stagger-children" id="testimonials-slider" role="region" aria-label="Témoignages de nos voyageurs" tabindex="0">
           <!-- Review 1 -->
           <div class="card card--testimonial" role="group" aria-label="Avis 1 sur 5">
             <div class="card__stars" aria-label="5 étoiles sur 5">
@@ -667,16 +787,16 @@
         </div>
 
         <!-- Slider controls -->
-        <div class="testimonials-controls" style="display:flex; align-items:center; justify-content:center; gap:var(--space-3); margin-top:var(--space-6);" aria-label="Contrôles du carrousel">
+        <div class="testimonials-controls d-flex items-center justify-center gap-3 mt-6" aria-label="Contrôles du carrousel">
           <button class="btn btn--icon btn--secondary testimonial-prev" aria-label="Témoignage précédent" id="testimonial-prev">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
           </button>
-          <div class="testimonials-dots" style="display:flex;gap:var(--space-2);" id="testimonials-dots" aria-label="Indicateur de position">
-            <button class="testimonials-dot is-active" style="width:10px;height:10px;border-radius:var(--radius-full);border:none;background:var(--color-primary);cursor:pointer;padding:0;" aria-label="Témoignage 1 sur 5" aria-current="true"></button>
-            <button class="testimonials-dot" style="width:10px;height:10px;border-radius:var(--radius-full);border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 2 sur 5"></button>
-            <button class="testimonials-dot" style="width:10px;height:10px;border-radius:var(--radius-full);border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 3 sur 5"></button>
-            <button class="testimonials-dot" style="width:10px;height:10px;border-radius:var(--radius-full);border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 4 sur 5"></button>
-            <button class="testimonials-dot" style="width:10px;height:10px;border-radius:var(--radius-full);border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 5 sur 5"></button>
+          <div class="testimonials-dots d-flex gap-2" id="testimonials-dots" aria-label="Indicateur de position">
+            <button class="testimonials-dot is-active rounded-full" style="width:10px;height:10px;border:none;background:var(--color-primary);cursor:pointer;padding:0;" aria-label="Témoignage 1 sur 5" aria-current="true"></button>
+            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 2 sur 5"></button>
+            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 3 sur 5"></button>
+            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 4 sur 5"></button>
+            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 5 sur 5"></button>
           </div>
           <button class="btn btn--icon btn--secondary testimonial-next" aria-label="Témoignage suivant" id="testimonial-next">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
@@ -688,7 +808,7 @@
     <!-- --------------------------------------------------------
          EXPERIENCE / LIFESTYLE SECTION (Split Section)
          -------------------------------------------------------- -->
-    <section class="section" aria-labelledby="experience-heading">
+    <section class="section fade-in" aria-labelledby="experience-heading">
       <div class="container">
         <div class="section__header">
           <span class="section__label">L&rsquo;expérience CalmRio</span>
@@ -698,12 +818,12 @@
       </div>
 
       <!-- Row 1: Image left, Text right -->
-      <div class="split-section" style="margin-bottom:var(--space-2);">
+      <div class="split-section mb-2">
         <div class="split-section__image">
-          <div style="width:100%; min-height:400px; background: linear-gradient(135deg, #1A2B3C 0%, #3A7CA5 100%); display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.7); font-family:var(--font-heading); font-size:1.25rem;" aria-hidden="true">Entre mer et forêt</div>
+          <div class="w-full d-flex items-center justify-center font-heading text-20" style="min-height:400px;background:linear-gradient(135deg,#1A2B3C 0%,#3A7CA5 100%);color:rgba(255,255,255,0.7);" aria-hidden="true">Entre mer et forêt</div>
         </div>
         <div class="split-section__content">
-          <span class="section__label" style="text-align:left; margin-left:0;">Nature &amp; Grand Air</span>
+          <span class="section__label text-left ml-0">Nature &amp; Grand Air</span>
           <h3 class="split-section__title">Entre mer et forêt</h3>
           <div class="split-section__text">
             <p>Imaginez-vous pédaler à travers la forêt domaniale de Saint-Trojan, l&rsquo;odeur des pins maritimes mêlée aux embruns de l&rsquo;Atlantique. L&rsquo;île d&rsquo;Oléron est un paradis pour les cyclistes, avec plus de 130 km de pistes cyclables qui serpentent entre marais salants, parcs ostréicoles et plages sauvages.</p>
@@ -718,10 +838,10 @@
       <!-- Row 2: Text left, Image right -->
       <div class="split-section split-section--reverse">
         <div class="split-section__image">
-          <div style="width:100%; min-height:400px; background: linear-gradient(135deg, #2C4055 0%, #5A9FC9 100%); display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.7); font-family:var(--font-heading); font-size:1.25rem;" aria-hidden="true">Le télétravail en bord de mer</div>
+          <div class="w-full d-flex items-center justify-center font-heading text-20" style="min-height:400px;background:linear-gradient(135deg,#2C4055 0%,#5A9FC9 100%);color:rgba(255,255,255,0.7);" aria-hidden="true">Le télétravail en bord de mer</div>
         </div>
         <div class="split-section__content">
-          <span class="section__label" style="text-align:left; margin-left:0;">Télétravail</span>
+          <span class="section__label text-left ml-0">Télétravail</span>
           <h3 class="split-section__title">Le télétravail en bord de mer</h3>
           <div class="split-section__text">
             <p>Et si votre bureau avait vue sur l&rsquo;océan&nbsp;? Nos locations à Royan et Saint-Trojan-les-Bains sont équipées d&rsquo;espaces de travail dédiés avec écran, câble HDMI et connexion WiFi haut débit. Installez-vous face à la terrasse, laissez la lumière naturelle inonder votre espace de travail et faites une pause baignade entre deux réunions.</p>
@@ -737,7 +857,7 @@
     <!-- --------------------------------------------------------
          LOCAL GUIDE PREVIEW
          -------------------------------------------------------- -->
-    <section class="section section--alt" aria-labelledby="guide-heading">
+    <section class="section section--alt fade-in" aria-labelledby="guide-heading">
       <div class="container">
         <div class="section__header">
           <span class="section__label">À découvrir</span>
@@ -745,7 +865,7 @@
           <p class="section__subtitle">Des plages de la Grande Conche aux forêts de l&rsquo;île d&rsquo;Oléron, explorez les trésors de la côte atlantique.</p>
         </div>
 
-        <div class="card-grid card-grid--4" style="margin-bottom:var(--space-8);">
+        <div class="card-grid card-grid--4 mb-8">
           <!-- Activity 1: Plages -->
           <article class="card card--info">
             <div class="card__icon">
@@ -791,7 +911,7 @@
           </article>
         </div>
 
-        <div style="text-align:center;">
+        <div class="text-center">
           <a href="/local-guide.html" class="btn btn--secondary btn--lg">Explorer le guide complet</a>
         </div>
       </div>
@@ -800,43 +920,43 @@
     <!-- --------------------------------------------------------
          TRUST BADGES
          -------------------------------------------------------- -->
-    <section class="trust-badges-row" aria-labelledby="trust-heading">
+    <section class="trust-badges-row fade-in" aria-labelledby="trust-heading">
       <div class="container">
         <h2 class="sr-only" id="trust-heading">Pourquoi choisir CalmRio</h2>
         <div class="trust-badges-grid">
           <div class="trust-badge-item">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
             <div>
-              <strong style="display:block; font-size:var(--small-size); color:var(--color-text);">Hôtes expérimentés</strong>
-              <span style="font-size:0.8125rem; color:var(--color-text-muted);">Superhost · Réponse &lt; 1h</span>
+              <strong class="d-block text-sm text-heading">Hôtes expérimentés</strong>
+              <span class="text-13 text-muted">Superhost · Réponse &lt; 1h</span>
             </div>
           </div>
           <div class="trust-badge-item">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
             <div>
-              <strong style="display:block; font-size:var(--small-size); color:var(--color-text);">Réservation directe</strong>
-              <span style="font-size:0.8125rem; color:var(--color-text-muted);">Meilleurs tarifs garantis</span>
+              <strong class="d-block text-sm text-heading">Réservation directe</strong>
+              <span class="text-13 text-muted">Meilleurs tarifs garantis</span>
             </div>
           </div>
           <div class="trust-badge-item">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 8V4H8"/><path d="M4 12h6l-2 8"/><path d="M12 8h6l-2 8h-4"/></svg>
             <div>
-              <strong style="display:block; font-size:var(--small-size); color:var(--color-text);">Animaux bienvenus</strong>
-              <span style="font-size:0.8125rem; color:var(--color-text-muted);">Toute la famille</span>
+              <strong class="d-block text-sm text-heading">Animaux bienvenus</strong>
+              <span class="text-13 text-muted">Toute la famille</span>
             </div>
           </div>
           <div class="trust-badge-item">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
             <div>
-              <strong style="display:block; font-size:var(--small-size); color:var(--color-text);">Parking gratuit</strong>
-              <span style="font-size:0.8125rem; color:var(--color-text-muted);">Sur place</span>
+              <strong class="d-block text-sm text-heading">Parking gratuit</strong>
+              <span class="text-13 text-muted">Sur place</span>
             </div>
           </div>
           <div class="trust-badge-item">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
             <div>
-              <strong style="display:block; font-size:var(--small-size); color:var(--color-text);">Draps &amp; serviettes</strong>
-              <span style="font-size:0.8125rem; color:var(--color-text-muted);">Inclus</span>
+              <strong class="d-block text-sm text-heading">Draps &amp; serviettes</strong>
+              <span class="text-13 text-muted">Inclus</span>
             </div>
           </div>
         </div>
@@ -846,7 +966,7 @@
     <!-- --------------------------------------------------------
          NEWSLETTER SECTION
          -------------------------------------------------------- -->
-    <section class="section newsletter-section" aria-labelledby="newsletter-heading">
+    <section class="section newsletter-section fade-in" aria-labelledby="newsletter-heading">
       <div class="container">
         <div class="section__header">
           <h2 class="section__title" id="newsletter-heading">Restez inspirés</h2>
@@ -867,7 +987,7 @@
           <button type="submit" class="btn btn--primary btn--lg">Je m&rsquo;inscris</button>
         </form>
 
-        <p style="margin-top: var(--space-3); font-size: 0.8125rem; color: var(--color-text-muted); text-align: center;">
+        <p class="mt-3 text-13 text-muted text-center">
           Pas de spam. Désinscription à tout moment.
         </p>
       </div>
@@ -878,7 +998,7 @@
   <!-- ============================================================
        SITE FOOTER
        ============================================================ -->
-  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+  <footer class="site-footer fade-in" role="contentinfo" aria-label="Pied de page">
     <div class="footer-inner">
       <div class="footer-grid">
         <!-- Brand column -->
@@ -954,7 +1074,7 @@
   <!-- ============================================================
        JAVASCRIPT
        ============================================================ -->
-  <script type="module" src="assets/js/app.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
 
   <!-- ============================================================ -->
   <!-- STICKY BOOKING BAR (mobile only)                               -->

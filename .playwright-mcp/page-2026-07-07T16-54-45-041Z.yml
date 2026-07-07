@@ -1,0 +1,710 @@
+- generic [active] [ref=f84e1]:
+  - generic [ref=f84e2]:
+    - banner [ref=f84e3]:
+      - generic [ref=f84e4]:
+        - paragraph [ref=f84e5]:
+          - text: By using Plum Guide, you agree to our
+          - link "Cookie Policy" [ref=f84e6] [cursor=pointer]:
+            - /url: /cookie-policy
+          - text: .
+        - button "Close" [ref=f84e7] [cursor=pointer]:
+          - img [ref=f84e9]
+      - button "Plum Guide" [ref=f84e13] [cursor=pointer]:
+        - img [ref=f84e15]
+      - generic [ref=f84e22]:
+        - button "Language is en-US Currency is MAD" [ref=f84e23] [cursor=pointer]:
+          - paragraph [ref=f84e24]: en
+          - paragraph [ref=f84e26]: MAD
+        - button "Log in" [ref=f84e27] [cursor=pointer]:
+          - img [ref=f84e29]
+          - img [ref=f84e35]
+    - generic [ref=f84e37]:
+      - generic [ref=f84e40]:
+        - list [ref=f84e43]:
+          - listitem [ref=f84e44]:
+            - button "Search"
+          - listitem [ref=f84e45]:
+            - combobox "Destination" [ref=f84e46]:
+              - button "Destination Paris" [ref=f84e47] [cursor=pointer]:
+                - generic [ref=f84e48]: Destination
+                - button "Paris" [ref=f84e49]:
+                  - paragraph [ref=f84e50]: Paris
+            - button "Add dates" [ref=f84e51] [cursor=pointer]:
+              - paragraph [ref=f84e52]: Add dates
+          - listitem [ref=f84e53]:
+            - generic [ref=f84e54]:
+              - button "Add guests" [ref=f84e55] [cursor=pointer]:
+                - paragraph [ref=f84e56]: Add guests
+              - button "Search" [ref=f84e57] [cursor=pointer]:
+                - img [ref=f84e59]
+                - paragraph [ref=f84e61]: Search
+        - button "Filter&Sort" [ref=f84e63] [cursor=pointer]:
+          - img [ref=f84e66]
+          - generic [ref=f84e68]: Filter&Sort
+      - main [ref=f84e69]:
+        - generic [ref=f84e71]:
+          - generic [ref=f84e72]:
+            - generic [ref=f84e74]:
+              - paragraph [ref=f84e76]: 1000+ homes available
+              - generic [ref=f84e77]: We rejected 41,781 homes in Paris, so you don't have to.
+              - button "Learn about our standards" [ref=f84e78] [cursor=pointer]:
+                - generic [ref=f84e79]: Learn about our standards
+            - generic [ref=f84e80]:
+              - listitem [ref=f84e81]:
+                - generic [ref=f84e82]:
+                  - separator [ref=f84e83]
+                  - article [ref=f84e84]:
+                    - generic [ref=f84e85]:
+                      - generic [ref=f84e86]:
+                        - link [ref=f84e88] [cursor=pointer]:
+                          - /url: /homes/1164060/the-marais-marvel
+                          - img [ref=f84e90]
+                        - link [ref=f84e92] [cursor=pointer]:
+                          - /url: /homes/1164060/the-marais-marvel
+                          - img [ref=f84e94]
+                        - link [ref=f84e96] [cursor=pointer]:
+                          - /url: /homes/1164060/the-marais-marvel
+                          - img [ref=f84e98]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e112]:
+                          - img [ref=f84e114]
+                        - button "Go next" [ref=f84e116] [cursor=pointer]:
+                          - img [ref=f84e118]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e120] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e122] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e124] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e126] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e128] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e130] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e132] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e134] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e136] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e138] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e140] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e142] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e144] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e146] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e148] [cursor=pointer]
+                          - button "Go to 16" [ref=f84e150] [cursor=pointer]
+                    - generic [ref=f84e152]:
+                      - generic [ref=f84e154]:
+                        - heading "The Marais Marvel" [level=5] [ref=f84e155]
+                        - button "favourite" [ref=f84e157] [cursor=pointer]:
+                          - img [ref=f84e158]
+                      - paragraph [ref=f84e160]: Saint-Merri, Paris
+                      - list [ref=f84e161]:
+                        - listitem [ref=f84e162]: 6 guests
+                        - listitem [ref=f84e163]: •2 bedrooms
+                        - listitem [ref=f84e164]: •2 bathrooms
+                      - generic [ref=f84e168]:
+                        - img [ref=f84e169]
+                        - paragraph [ref=f84e172]: Free cancellation
+                    - link "The Marais Marvel" [ref=f84e173] [cursor=pointer]:
+                      - /url: /homes/1164060/the-marais-marvel
+              - listitem [ref=f84e174]:
+                - generic [ref=f84e175]:
+                  - separator [ref=f84e176]
+                  - article [ref=f84e177]:
+                    - generic [ref=f84e178]:
+                      - generic [ref=f84e179]:
+                        - link [ref=f84e181] [cursor=pointer]:
+                          - /url: /homes/1415156/urban-quiet
+                          - img [ref=f84e183]
+                        - link [ref=f84e185] [cursor=pointer]:
+                          - /url: /homes/1415156/urban-quiet
+                          - img [ref=f84e187]
+                        - link [ref=f84e189] [cursor=pointer]:
+                          - /url: /homes/1415156/urban-quiet
+                          - img [ref=f84e191]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e204]:
+                          - img [ref=f84e206]
+                        - button "Go next" [ref=f84e208] [cursor=pointer]:
+                          - img [ref=f84e210]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e212] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e214] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e216] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e218] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e220] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e222] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e224] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e226] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e228] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e230] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e232] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e234] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e236] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e238] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e240] [cursor=pointer]
+                    - generic [ref=f84e242]:
+                      - generic [ref=f84e244]:
+                        - heading "Urban Quiet" [level=5] [ref=f84e245]
+                        - button "favourite" [ref=f84e247] [cursor=pointer]:
+                          - img [ref=f84e248]
+                      - paragraph [ref=f84e250]: Saint Gervais, Paris
+                      - list [ref=f84e251]:
+                        - listitem [ref=f84e252]: 4 guests
+                        - listitem [ref=f84e253]: •2 bedrooms
+                        - listitem [ref=f84e254]: •2 bathrooms
+                      - generic [ref=f84e258]:
+                        - img [ref=f84e259]
+                        - paragraph [ref=f84e262]: Free cancellation
+                    - link "Urban Quiet" [ref=f84e263] [cursor=pointer]:
+                      - /url: /homes/1415156/urban-quiet
+              - listitem [ref=f84e264]:
+                - generic [ref=f84e265]:
+                  - separator [ref=f84e266]
+                  - article [ref=f84e267]:
+                    - generic [ref=f84e268]:
+                      - generic [ref=f84e269]:
+                        - link [ref=f84e271] [cursor=pointer]:
+                          - /url: /homes/1311078/parisian-window
+                          - img [ref=f84e273]
+                        - link [ref=f84e275] [cursor=pointer]:
+                          - /url: /homes/1311078/parisian-window
+                          - img [ref=f84e277]
+                        - link [ref=f84e279] [cursor=pointer]:
+                          - /url: /homes/1311078/parisian-window
+                          - img [ref=f84e281]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e299]:
+                          - img [ref=f84e301]
+                        - button "Go next" [ref=f84e303] [cursor=pointer]:
+                          - img [ref=f84e305]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e307] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e309] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e311] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e313] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e315] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e317] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e319] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e321] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e323] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e325] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e327] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e329] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e331] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e333] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e335] [cursor=pointer]
+                          - button "Go to 16" [ref=f84e337] [cursor=pointer]
+                          - button "Go to 17" [ref=f84e339] [cursor=pointer]
+                          - button "Go to 18" [ref=f84e341] [cursor=pointer]
+                          - button "Go to 19" [ref=f84e343] [cursor=pointer]
+                          - button "Go to 20" [ref=f84e345] [cursor=pointer]
+                    - generic [ref=f84e347]:
+                      - generic [ref=f84e349]:
+                        - heading "Parisian Window" [level=5] [ref=f84e350]
+                        - button "favourite" [ref=f84e352] [cursor=pointer]:
+                          - img [ref=f84e353]
+                      - paragraph [ref=f84e355]: Vivienne, Paris
+                      - list [ref=f84e356]:
+                        - listitem [ref=f84e357]: 6 guests
+                        - listitem [ref=f84e358]: •3 bedrooms
+                        - listitem [ref=f84e359]: •3 bathrooms
+                    - link "Parisian Window" [ref=f84e362] [cursor=pointer]:
+                      - /url: /homes/1311078/parisian-window
+              - listitem [ref=f84e363]:
+                - generic [ref=f84e364]:
+                  - separator [ref=f84e365]
+                  - article [ref=f84e366]:
+                    - generic [ref=f84e367]:
+                      - generic [ref=f84e368]:
+                        - link [ref=f84e370] [cursor=pointer]:
+                          - /url: /homes/45131/a-thousand-words
+                          - img [ref=f84e372]
+                        - link [ref=f84e374] [cursor=pointer]:
+                          - /url: /homes/45131/a-thousand-words
+                          - img [ref=f84e376]
+                        - link [ref=f84e378] [cursor=pointer]:
+                          - /url: /homes/45131/a-thousand-words
+                          - img [ref=f84e380]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e398]:
+                          - img [ref=f84e400]
+                        - button "Go next" [ref=f84e402] [cursor=pointer]:
+                          - img [ref=f84e404]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e406] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e408] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e410] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e412] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e414] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e416] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e418] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e420] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e422] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e424] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e426] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e428] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e430] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e432] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e434] [cursor=pointer]
+                          - button "Go to 16" [ref=f84e436] [cursor=pointer]
+                          - button "Go to 17" [ref=f84e438] [cursor=pointer]
+                          - button "Go to 18" [ref=f84e440] [cursor=pointer]
+                          - button "Go to 19" [ref=f84e442] [cursor=pointer]
+                          - button "Go to 20" [ref=f84e444] [cursor=pointer]
+                    - generic [ref=f84e446]:
+                      - generic [ref=f84e448]:
+                        - heading "A Thousand Words" [level=5] [ref=f84e449]
+                        - button "favourite" [ref=f84e451] [cursor=pointer]:
+                          - img [ref=f84e452]
+                      - paragraph [ref=f84e454]: Beaubourg, Paris
+                      - list [ref=f84e455]:
+                        - listitem [ref=f84e456]: 4 guests
+                        - listitem [ref=f84e457]: •2 bedrooms
+                        - listitem [ref=f84e458]: •2 bathrooms
+                      - generic [ref=f84e462]:
+                        - img [ref=f84e463]
+                        - paragraph [ref=f84e466]: Free cancellation
+                    - link "A Thousand Words" [ref=f84e467] [cursor=pointer]:
+                      - /url: /homes/45131/a-thousand-words
+              - listitem [ref=f84e468]:
+                - generic [ref=f84e469]:
+                  - separator [ref=f84e470]
+                  - article [ref=f84e471]:
+                    - generic [ref=f84e472]:
+                      - generic [ref=f84e473]:
+                        - link [ref=f84e475] [cursor=pointer]:
+                          - /url: /homes/1210888/where-birds-nest
+                          - img [ref=f84e477]
+                        - link [ref=f84e479] [cursor=pointer]:
+                          - /url: /homes/1210888/where-birds-nest
+                          - img [ref=f84e481]
+                        - link [ref=f84e483] [cursor=pointer]:
+                          - /url: /homes/1210888/where-birds-nest
+                          - img [ref=f84e485]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e496]:
+                          - img [ref=f84e498]
+                        - button "Go next" [ref=f84e500] [cursor=pointer]:
+                          - img [ref=f84e502]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e504] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e506] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e508] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e510] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e512] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e514] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e516] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e518] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e520] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e522] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e524] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e526] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e528] [cursor=pointer]
+                    - generic [ref=f84e530]:
+                      - generic [ref=f84e532]:
+                        - heading "Where Birds Nest" [level=5] [ref=f84e533]
+                        - button "favourite" [ref=f84e535] [cursor=pointer]:
+                          - img [ref=f84e536]
+                      - paragraph [ref=f84e538]: Les Halles, Paris
+                      - list [ref=f84e539]:
+                        - listitem [ref=f84e540]: 2 guests
+                        - listitem [ref=f84e541]: •1 bedroom
+                        - listitem [ref=f84e542]: •1 bathroom
+                      - generic [ref=f84e546]:
+                        - img [ref=f84e547]
+                        - paragraph [ref=f84e550]: Free cancellation
+                    - link "Where Birds Nest" [ref=f84e551] [cursor=pointer]:
+                      - /url: /homes/1210888/where-birds-nest
+              - listitem [ref=f84e552]:
+                - generic [ref=f84e553]:
+                  - separator [ref=f84e554]
+                  - article [ref=f84e555]:
+                    - generic [ref=f84e556]:
+                      - generic [ref=f84e557]:
+                        - link [ref=f84e559] [cursor=pointer]:
+                          - /url: /homes/1312891/parisian-memories
+                          - img [ref=f84e561]
+                        - link [ref=f84e563] [cursor=pointer]:
+                          - /url: /homes/1312891/parisian-memories
+                          - img [ref=f84e565]
+                        - link [ref=f84e567] [cursor=pointer]:
+                          - /url: /homes/1312891/parisian-memories
+                          - img [ref=f84e569]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e587]:
+                          - img [ref=f84e589]
+                        - button "Go next" [ref=f84e591] [cursor=pointer]:
+                          - img [ref=f84e593]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e595] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e597] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e599] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e601] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e603] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e605] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e607] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e609] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e611] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e613] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e615] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e617] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e619] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e621] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e623] [cursor=pointer]
+                          - button "Go to 16" [ref=f84e625] [cursor=pointer]
+                          - button "Go to 17" [ref=f84e627] [cursor=pointer]
+                          - button "Go to 18" [ref=f84e629] [cursor=pointer]
+                          - button "Go to 19" [ref=f84e631] [cursor=pointer]
+                          - button "Go to 20" [ref=f84e633] [cursor=pointer]
+                    - generic [ref=f84e635]:
+                      - generic [ref=f84e637]:
+                        - heading "Parisian Memories" [level=5] [ref=f84e638]
+                        - button "favourite" [ref=f84e640] [cursor=pointer]:
+                          - img [ref=f84e641]
+                      - paragraph [ref=f84e643]: Gaillon, Paris
+                      - list [ref=f84e644]:
+                        - listitem [ref=f84e645]: 7 guests
+                        - listitem [ref=f84e646]: •3 bedrooms
+                        - listitem [ref=f84e647]: •3 bathrooms
+                      - generic [ref=f84e651]:
+                        - img [ref=f84e652]
+                        - paragraph [ref=f84e655]: Free cancellation
+                    - link "Parisian Memories" [ref=f84e656] [cursor=pointer]:
+                      - /url: /homes/1312891/parisian-memories
+              - listitem [ref=f84e657]:
+                - generic [ref=f84e658]:
+                  - separator [ref=f84e659]
+                  - article [ref=f84e660]:
+                    - generic [ref=f84e661]:
+                      - generic [ref=f84e662]:
+                        - link [ref=f84e664] [cursor=pointer]:
+                          - /url: /homes/1414194/the-capital-pad
+                          - img [ref=f84e666]
+                        - link [ref=f84e668] [cursor=pointer]:
+                          - /url: /homes/1414194/the-capital-pad
+                          - img [ref=f84e670]
+                        - link [ref=f84e672] [cursor=pointer]:
+                          - /url: /homes/1414194/the-capital-pad
+                          - img [ref=f84e674]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e688]:
+                          - img [ref=f84e690]
+                        - button "Go next" [ref=f84e692] [cursor=pointer]:
+                          - img [ref=f84e694]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e696] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e698] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e700] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e702] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e704] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e706] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e708] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e710] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e712] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e714] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e716] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e718] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e720] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e722] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e724] [cursor=pointer]
+                          - button "Go to 16" [ref=f84e726] [cursor=pointer]
+                    - generic [ref=f84e728]:
+                      - generic [ref=f84e730]:
+                        - heading "The Capital Pad" [level=5] [ref=f84e731]
+                        - button "favourite" [ref=f84e733] [cursor=pointer]:
+                          - img [ref=f84e734]
+                      - paragraph [ref=f84e736]: Palais-Royal, Paris
+                      - list [ref=f84e737]:
+                        - listitem [ref=f84e738]: 6 guests
+                        - listitem [ref=f84e739]: •2 bedrooms
+                        - listitem [ref=f84e740]: •2 bathrooms
+                      - generic [ref=f84e744]:
+                        - img [ref=f84e745]
+                        - paragraph [ref=f84e748]: Free cancellation
+                    - link "The Capital Pad" [ref=f84e749] [cursor=pointer]:
+                      - /url: /homes/1414194/the-capital-pad
+              - listitem [ref=f84e750]:
+                - generic [ref=f84e751]:
+                  - separator [ref=f84e752]
+                  - article [ref=f84e753]:
+                    - generic [ref=f84e754]:
+                      - generic [ref=f84e755]:
+                        - link [ref=f84e757] [cursor=pointer]:
+                          - /url: /homes/48190/quatorze-juillet
+                          - img [ref=f84e759]
+                        - link [ref=f84e761] [cursor=pointer]:
+                          - /url: /homes/48190/quatorze-juillet
+                          - img [ref=f84e763]
+                        - link [ref=f84e765] [cursor=pointer]:
+                          - /url: /homes/48190/quatorze-juillet
+                          - img [ref=f84e767]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e775]:
+                          - img [ref=f84e777]
+                        - button "Go next" [ref=f84e779] [cursor=pointer]:
+                          - img [ref=f84e781]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e783] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e785] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e787] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e789] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e791] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e793] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e795] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e797] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e799] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e801] [cursor=pointer]
+                    - generic [ref=f84e803]:
+                      - generic [ref=f84e805]:
+                        - heading "Quatorze Juillet" [level=5] [ref=f84e806]
+                        - button "favourite" [ref=f84e808] [cursor=pointer]:
+                          - img [ref=f84e809]
+                      - paragraph [ref=f84e811]: Arsenal, Paris
+                      - list [ref=f84e812]:
+                        - listitem [ref=f84e813]: 2 guests
+                        - listitem [ref=f84e814]: •1 bedroom
+                        - listitem [ref=f84e815]: •1 bathroom
+                      - generic [ref=f84e819]:
+                        - img [ref=f84e820]
+                        - paragraph [ref=f84e823]: Free cancellation
+                    - link "Quatorze Juillet" [ref=f84e824] [cursor=pointer]:
+                      - /url: /homes/48190/quatorze-juillet
+              - listitem [ref=f84e825]:
+                - generic [ref=f84e826]:
+                  - separator [ref=f84e827]
+                  - article [ref=f84e828]:
+                    - generic [ref=f84e829]:
+                      - generic [ref=f84e830]:
+                        - link [ref=f84e832] [cursor=pointer]:
+                          - /url: /homes/71770/a-splash-of-paris-red
+                          - img [ref=f84e834]
+                        - link [ref=f84e836] [cursor=pointer]:
+                          - /url: /homes/71770/a-splash-of-paris-red
+                          - img [ref=f84e838]
+                        - link [ref=f84e840] [cursor=pointer]:
+                          - /url: /homes/71770/a-splash-of-paris-red
+                          - img [ref=f84e842]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e859]:
+                          - img [ref=f84e861]
+                        - button "Go next" [ref=f84e863] [cursor=pointer]:
+                          - img [ref=f84e865]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e867] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e869] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e871] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e873] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e875] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e877] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e879] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e881] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e883] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e885] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e887] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e889] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e891] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e893] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e895] [cursor=pointer]
+                          - button "Go to 16" [ref=f84e897] [cursor=pointer]
+                          - button "Go to 17" [ref=f84e899] [cursor=pointer]
+                          - button "Go to 18" [ref=f84e901] [cursor=pointer]
+                          - button "Go to 19" [ref=f84e903] [cursor=pointer]
+                    - generic [ref=f84e905]:
+                      - generic [ref=f84e907]:
+                        - heading "A Splash of Paris Red" [level=5] [ref=f84e908]
+                        - button "favourite" [ref=f84e910] [cursor=pointer]:
+                          - img [ref=f84e911]
+                      - paragraph [ref=f84e913]: Arsenal, Paris
+                      - list [ref=f84e914]:
+                        - listitem [ref=f84e915]: 2 guests
+                        - listitem [ref=f84e916]: •1 bedroom
+                        - listitem [ref=f84e917]: •1 bathroom
+                      - generic [ref=f84e921]:
+                        - img [ref=f84e922]
+                        - paragraph [ref=f84e925]: Free cancellation
+                    - link "A Splash of Paris Red" [ref=f84e926] [cursor=pointer]:
+                      - /url: /homes/71770/a-splash-of-paris-red
+              - listitem [ref=f84e927]:
+                - generic [ref=f84e928]:
+                  - separator [ref=f84e929]
+                  - article [ref=f84e930]:
+                    - generic [ref=f84e931]:
+                      - generic [ref=f84e932]:
+                        - link [ref=f84e934] [cursor=pointer]:
+                          - /url: /homes/1116088/the-bienville
+                          - img [ref=f84e936]
+                        - link [ref=f84e938] [cursor=pointer]:
+                          - /url: /homes/1116088/the-bienville
+                          - img [ref=f84e940]
+                        - link [ref=f84e942] [cursor=pointer]:
+                          - /url: /homes/1116088/the-bienville
+                          - img [ref=f84e944]
+                      - generic:
+                        - button "Go previous" [disabled] [ref=f84e959]:
+                          - img [ref=f84e961]
+                        - button "Go next" [ref=f84e963] [cursor=pointer]:
+                          - img [ref=f84e965]
+                      - generic:
+                        - generic:
+                          - button "Go to 1" [ref=f84e967] [cursor=pointer]
+                          - button "Go to 2" [ref=f84e969] [cursor=pointer]
+                          - button "Go to 3" [ref=f84e971] [cursor=pointer]
+                          - button "Go to 4" [ref=f84e973] [cursor=pointer]
+                          - button "Go to 5" [ref=f84e975] [cursor=pointer]
+                          - button "Go to 6" [ref=f84e977] [cursor=pointer]
+                          - button "Go to 7" [ref=f84e979] [cursor=pointer]
+                          - button "Go to 8" [ref=f84e981] [cursor=pointer]
+                          - button "Go to 9" [ref=f84e983] [cursor=pointer]
+                          - button "Go to 10" [ref=f84e985] [cursor=pointer]
+                          - button "Go to 11" [ref=f84e987] [cursor=pointer]
+                          - button "Go to 12" [ref=f84e989] [cursor=pointer]
+                          - button "Go to 13" [ref=f84e991] [cursor=pointer]
+                          - button "Go to 14" [ref=f84e993] [cursor=pointer]
+                          - button "Go to 15" [ref=f84e995] [cursor=pointer]
+                          - button "Go to 16" [ref=f84e997] [cursor=pointer]
+                          - button "Go to 17" [ref=f84e999] [cursor=pointer]
+                    - generic [ref=f84e1001]:
+                      - generic [ref=f84e1003]:
+                        - heading "The Bienville" [level=5] [ref=f84e1004]
+                        - button "favourite" [ref=f84e1006] [cursor=pointer]:
+                          - img [ref=f84e1007]
+                      - paragraph [ref=f84e1009]: Gros-Caillou, Paris
+                      - list [ref=f84e1010]:
+                        - listitem [ref=f84e1011]: 4 guests
+                        - listitem [ref=f84e1012]: •2 bedrooms
+                        - listitem [ref=f84e1013]: •2 bathrooms
+                      - generic [ref=f84e1017]:
+                        - img [ref=f84e1018]
+                        - paragraph [ref=f84e1021]: Free cancellation
+                    - link "The Bienville" [ref=f84e1022] [cursor=pointer]:
+                      - /url: /homes/1116088/the-bienville
+              - separator [ref=f84e1023]
+            - generic [ref=f84e1025]:
+              - generic [ref=f84e1026]:
+                - button "Previous page button" [disabled]:
+                  - generic:
+                    - img
+              - paragraph [ref=f84e1028]:
+                - strong [ref=f84e1029]: 1 – 40
+                - text: of 1000+ homes
+              - button "Next page button" [ref=f84e1031] [cursor=pointer]:
+                - img [ref=f84e1033]
+          - generic [ref=f84e1037]:
+            - paragraph [ref=f84e1038]: © Copyright Plum Guide 2026
+            - list [ref=f84e1039]:
+              - listitem [ref=f84e1040]:
+                - link "Terms" [ref=f84e1041] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=f84e1042]:
+                - text: "|"
+                - link "Privacy" [ref=f84e1043] [cursor=pointer]:
+                  - /url: /privacy-policy
+              - listitem [ref=f84e1044]:
+                - text: "|"
+                - link "Sitemap" [ref=f84e1045] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=f84e1046]: "| Cookie Preferences"
+        - generic [ref=f84e1048]:
+          - generic:
+            - button "Map view" [ref=f84e1050] [cursor=pointer]:
+              - img [ref=f84e1052]
+            - generic [ref=f84e1055]:
+              - button "Zoom in" [ref=f84e1056] [cursor=pointer]:
+                - img [ref=f84e1058]
+              - button "Zoom out" [ref=f84e1060] [cursor=pointer]:
+                - img [ref=f84e1062]
+          - generic [ref=f84e1066]:
+            - region "Map" [ref=f84e1067]
+            - generic [ref=f84e1068]:
+              - generic [ref=f84e1121]:
+                - button [ref=f84e1123] [cursor=pointer]:
+                  - img [ref=f84e1125]
+                - button [ref=f84e1128] [cursor=pointer]:
+                  - img [ref=f84e1130]
+                - button [ref=f84e1133] [cursor=pointer]:
+                  - img [ref=f84e1135]
+                - button [ref=f84e1138] [cursor=pointer]:
+                  - img [ref=f84e1140]
+                - button [ref=f84e1143] [cursor=pointer]:
+                  - img [ref=f84e1145]
+                - button [ref=f84e1148] [cursor=pointer]:
+                  - img [ref=f84e1150]
+                - button [ref=f84e1153] [cursor=pointer]:
+                  - img [ref=f84e1155]
+                - button [ref=f84e1158] [cursor=pointer]:
+                  - img [ref=f84e1160]
+                - button [ref=f84e1163] [cursor=pointer]:
+                  - img [ref=f84e1165]
+                - button [ref=f84e1168] [cursor=pointer]:
+                  - img [ref=f84e1170]
+                - button [ref=f84e1173] [cursor=pointer]:
+                  - img [ref=f84e1175]
+                - button [ref=f84e1178] [cursor=pointer]:
+                  - img [ref=f84e1180]
+                - button [ref=f84e1183] [cursor=pointer]:
+                  - img [ref=f84e1185]
+                - button [ref=f84e1188] [cursor=pointer]:
+                  - img [ref=f84e1190]
+                - button [ref=f84e1193] [cursor=pointer]:
+                  - img [ref=f84e1195]
+                - button [ref=f84e1198] [cursor=pointer]:
+                  - img [ref=f84e1200]
+                - button [ref=f84e1203] [cursor=pointer]:
+                  - img [ref=f84e1205]
+                - button [ref=f84e1208] [cursor=pointer]:
+                  - img [ref=f84e1210]
+                - button [ref=f84e1213] [cursor=pointer]:
+                  - img [ref=f84e1215]
+                - button [ref=f84e1218] [cursor=pointer]:
+                  - img [ref=f84e1220]
+                - button [ref=f84e1223] [cursor=pointer]:
+                  - img [ref=f84e1225]
+                - button [ref=f84e1228] [cursor=pointer]:
+                  - img [ref=f84e1230]
+                - button [ref=f84e1233] [cursor=pointer]:
+                  - img [ref=f84e1235]
+                - button [ref=f84e1238] [cursor=pointer]:
+                  - img [ref=f84e1240]
+                - button [ref=f84e1243] [cursor=pointer]:
+                  - img [ref=f84e1245]
+                - button [ref=f84e1248] [cursor=pointer]:
+                  - img [ref=f84e1250]
+                - button [ref=f84e1253] [cursor=pointer]:
+                  - img [ref=f84e1255]
+                - button [ref=f84e1258] [cursor=pointer]:
+                  - img [ref=f84e1260]
+                - button [ref=f84e1263] [cursor=pointer]:
+                  - img [ref=f84e1265]
+                - button [ref=f84e1268] [cursor=pointer]:
+                  - img [ref=f84e1270]
+                - button [ref=f84e1273] [cursor=pointer]:
+                  - img [ref=f84e1275]
+                - button [ref=f84e1278] [cursor=pointer]:
+                  - img [ref=f84e1280]
+                - button [ref=f84e1283] [cursor=pointer]:
+                  - img [ref=f84e1285]
+                - button [ref=f84e1288] [cursor=pointer]:
+                  - img [ref=f84e1290]
+                - button [ref=f84e1293] [cursor=pointer]:
+                  - img [ref=f84e1295]
+                - button [ref=f84e1298] [cursor=pointer]:
+                  - img [ref=f84e1300]
+                - button [ref=f84e1303] [cursor=pointer]:
+                  - img [ref=f84e1305]
+                - button [ref=f84e1308] [cursor=pointer]:
+                  - img [ref=f84e1310]
+                - button [ref=f84e1313] [cursor=pointer]:
+                  - img [ref=f84e1315]
+                - button [ref=f84e1318] [cursor=pointer]:
+                  - img [ref=f84e1320]
+              - iframe [ref=f84e1322]:
+                
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=f84e1323]
+  - status [ref=f84e1324]

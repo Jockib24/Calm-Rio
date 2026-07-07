@@ -1,0 +1,532 @@
+- document [active] [ref=f90e1]:
+  - generic [ref=f90e3]:
+    - generic:
+      - navigation:
+        - generic [ref=f90e5]:
+          - generic [ref=f90e6]:
+            - button [ref=f90e7] [cursor=pointer]
+            - link "Welcome Beyond" [ref=f90e10] [cursor=pointer]:
+              - /url: https://www.welcomebeyond.com
+              - img [ref=f90e11]
+            - generic [ref=f90e15]: Hand-picked Boutique Hotels & Holiday Homes
+            - button [ref=f90e16] [cursor=pointer]:
+              - img [ref=f90e18]
+          - generic:
+            - generic [ref=f90e20]:
+              - button "Close" [ref=f90e22] [cursor=pointer]
+              - list [ref=f90e24]:
+                - listitem [ref=f90e25]:
+                  - link "Home" [ref=f90e26] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/
+                - listitem [ref=f90e27]:
+                  - link "Search" [ref=f90e28] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/search/
+                - listitem [ref=f90e29]:
+                  - generic [ref=f90e30]: Collections
+                - listitem [ref=f90e31]:
+                  - generic [ref=f90e32]: Property types
+              - list [ref=f90e34]:
+                - listitem [ref=f90e35]:
+                  - link "About us" [ref=f90e36] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/about-us/
+                - listitem [ref=f90e37]:
+                  - link "Contact us" [ref=f90e38] [cursor=pointer]:
+                    - /url: https://welcomebeyond.typeform.com/to/CWTHDk
+                - listitem [ref=f90e39]:
+                  - link "FAQ" [ref=f90e40] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/faq/
+                - listitem [ref=f90e41]:
+                  - link "Press enquiries" [ref=f90e42] [cursor=pointer]:
+                    - /url: https://welcomebeyond.typeform.com/to/hfkdBl
+                - listitem [ref=f90e43]:
+                  - link "Property applications" [ref=f90e44] [cursor=pointer]:
+                    - /url: https://welcomebeyond.typeform.com/to/aidy3V
+                - listitem [ref=f90e45]:
+                  - link "Gift experiences" [ref=f90e46] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/gift-vouchers/
+                - listitem [ref=f90e47]:
+                  - link "Vacation homes for sale" [ref=f90e48] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/vacation-homes-for-sale/
+                - listitem [ref=f90e49]:
+                  - link "Welcome Beyond reviews on Google" [ref=f90e50] [cursor=pointer]:
+                    - /url: https://share.google/V1pJ2nK3tKXVAXKMo
+              - list [ref=f90e53]:
+                - listitem [ref=f90e54]:
+                  - link "Welcome Beyond on Instagram" [ref=f90e55] [cursor=pointer]:
+                    - /url: https://www.instagram.com/welcomebeyond
+                    - img [ref=f90e56]
+                - listitem [ref=f90e58]:
+                  - link "Welcome Beyond on Facebook" [ref=f90e59] [cursor=pointer]:
+                    - /url: https://www.facebook.com/WelcomeBeyond
+                    - img [ref=f90e60]
+                - listitem [ref=f90e62]:
+                  - link "Welcome Beyond on twitter" [ref=f90e63] [cursor=pointer]:
+                    - /url: https://www.twitter.com/WelcomeBeyond
+                    - img [ref=f90e64]
+                - listitem [ref=f90e66]:
+                  - link "Welcome Beyond on Pinterest" [ref=f90e67] [cursor=pointer]:
+                    - /url: https://www.pinterest.com/welcomebeyond
+                    - img [ref=f90e68]
+              - generic [ref=f90e75]:
+                - generic [ref=f90e76]: Change your currency
+                - combobox "Change your currency" [ref=f90e77]:
+                  - option "Euro" [selected]
+                  - option "British Pound Sterling"
+                  - option "United States Dollar"
+                  - option "Argentine Peso"
+                  - option "Australian Dollar"
+                  - option "Brazilian Real"
+                  - option "Canadian Dollar"
+                  - option "Chilean Peso"
+                  - option "Chinese Yuan"
+                  - option "Croatian Kuna"
+                  - option "Czech Republic Koruna"
+                  - option "Cuban Convertible Peso"
+                  - option "Danish Krone"
+                  - option "Hungarian Forint"
+                  - option "Icelandic Króna"
+                  - option "Indian Rupee"
+                  - option "Indonesian Rupiah"
+                  - option "Japanese Yen"
+                  - option "Mexican Peso"
+                  - option "New Zealand Dollar"
+                  - option "Norwegian Krone"
+                  - option "Philippine Peso"
+                  - option "Polish Zloty"
+                  - option "South African Rand"
+                  - option "Swedish Krona"
+                  - option "Swiss Franc"
+                  - option "Thai Baht"
+                  - option "Turkish Lira"
+                  - option "Moroccan Dirham"
+            - generic [ref=f90e78]:
+              - button "Close" [ref=f90e80] [cursor=pointer]
+              - list [ref=f90e81]:
+                - listitem [ref=f90e82] [cursor=pointer]:
+                  - button "Log in" [ref=f90e83]:
+                    - img [ref=f90e85]
+                    - text: Log in
+                - listitem [ref=f90e87] [cursor=pointer]:
+                  - button "Register" [ref=f90e88]:
+                    - img [ref=f90e90]
+                    - text: Register
+    - main [ref=f90e92]:
+      - generic [ref=f90e94]:
+        - generic [ref=f90e96]:
+          - heading "La Tropical" [level=1] [ref=f90e97]:
+            - link "5 out of 5 stars" [ref=f90e99] [cursor=pointer]:
+              - /url: "#reviews"
+              - generic [ref=f90e100]:
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+            - text: La Tropical
+          - generic [ref=f90e101]: in Mérida, Yucatan, Mexico
+          - text: “” —
+        - generic [ref=f90e103]:
+          - img "La Tropical, Mérida, Yucatan, Mexico"
+      - generic [ref=f90e104]:
+        - generic [ref=f90e108]:
+          - navigation [ref=f90e109]:
+            - generic [ref=f90e110]:
+              - link "Home" [ref=f90e111] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com
+              - generic [ref=f90e113]:
+                - link "Mexico" [ref=f90e114] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/search/?countries=MX
+                - generic [ref=f90e116]:
+                  - link "Yucatan" [ref=f90e117] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Yucatan
+                  - generic [ref=f90e119]:
+                    - text: Mérida
+                    - strong [ref=f90e121]: La Tropical
+          - button "50" [ref=f90e124] [cursor=pointer]
+        - generic [ref=f90e127]:
+          - generic [ref=f90e128]:
+            - list [ref=f90e129]:
+              - listitem [ref=f90e130]:
+                - img [ref=f90e132]
+                - generic [ref=f90e134]:
+                  - link "Villa rental" [ref=f90e135] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                  - text: / 520m²
+              - listitem [ref=f90e136]:
+                - img [ref=f90e138]
+                - generic [ref=f90e140]: 1 bedrooms for 2 people
+              - listitem [ref=f90e141]:
+                - img [ref=f90e143]
+                - generic [ref=f90e145]:
+                  - link "Ideal for couples" [ref=f90e146] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Not suitable for young children" [ref=f90e147] [cursor=pointer]:
+                    - /url: "#"
+              - listitem [ref=f90e148]:
+                - img [ref=f90e150]
+                - generic [ref=f90e153]:
+                  - link "Grocery shopping on request" [ref=f90e154] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Groceries for the first day included" [ref=f90e155] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Kitchen" [ref=f90e156] [cursor=pointer]:
+                    - /url: "#"
+            - list [ref=f90e157]:
+              - listitem [ref=f90e158]:
+                - img [ref=f90e160]
+                - generic [ref=f90e164]:
+                  - text: "Location:"
+                  - link "City" [ref=f90e165] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=f90e166]:
+                  - text: "Cathedral square: In walking distance"
+                  - text: "Colourful Lucas de Gálvez Market: In walking distance"
+                  - text: "The ancient Maya city of Uxmal: 85km (1h 10 mins by car)"
+                  - text: "Sisal beach (favourite): 70km (1h by car)"
+              - listitem [ref=f90e167]:
+                - img [ref=f90e169]
+                - generic [ref=f90e171]:
+                  - text: "Mérida International Airport (MID): 6km (10 mins by taxi)"
+                  - text: "Cancún International Airport (CUN): 300km"
+                - generic [ref=f90e172]:
+                  - text: Airport transfer available on request
+                  - text: Car recommended
+          - generic [ref=f90e174]:
+            - paragraph [ref=f90e175]: La Tropical is a design enthusiast's oasis. The 15 meter lap pool and tropical garden are pristine, and the retractable glass windows fully integrate the bedroom and bathroom to the pool and garden. The double height glass doors in the living/dining room are a striking feature. All in all, La Tropical offers a truly incomparable stay in Mérida.
+            - paragraph
+        - generic:
+          - text: 50 50
+          - generic [ref=f90e176]:
+            - button "Contact" [ref=f90e177] [cursor=pointer]
+            - button "Book" [ref=f90e178] [cursor=pointer]
+        - generic [ref=f90e182]:
+          - heading "An introduction to La Tropical" [level=2] [ref=f90e183] [cursor=pointer]
+          - generic [ref=f90e185]:
+            - paragraph [ref=f90e186]:
+              - strong [ref=f90e187]: How would you describe La Tropical in a nutshell?
+            - paragraph [ref=f90e188]: La Tropical is a contemporary lush retreat hidden behind one of the many colonial facades of historic Merida. Proportion, space, privacy, nature and calm make it feel like a villa, yet you are in the middle of one of Mexico‘s fastest-growing and safest cities and in the heart of fascinating Yucatán.
+            - paragraph [ref=f90e189]:
+              - strong [ref=f90e190]: What was your inspiration to buy La Tropical?
+            - paragraph [ref=f90e191]: "We discovered La Tropical as Welcome Beyond guests and kept coming back until the opportunity to purchase it became a reality. We fell in love with the house, the pool, the garden and the city. Mérida is a fascinating city in the middle of a thriving region with so much to offer: a network of historic haciendas, Mayan ruins, cenotes and other natural marvels: a colonial city built of stone and stucco in the middle of the jungle. La Tropical offers an oasis-like experience with a modernist look that feels fresh, unpretentious and at the same time completely unique in the city."
+            - paragraph [ref=f90e192]:
+              - strong [ref=f90e193]: How would you describe the interior design and architecture?
+            - paragraph [ref=f90e194]: "The designers of the house would tell us how they would peep through an old door or window to discover long-abandoned plots with overgrown gardens. That was their inspiration when designing it: indoor and outdoor all merged and all in a long view from the entrance door."
+            - paragraph [ref=f90e195]: We also appreciate how clean and modern the design is, as opposed to everything else in Mérida. The designers didn't want to do faux-Mexican. The colonial space in the front of the house was respected, but the rest of the house is a modern take on Mexican brutalism with textured concrete, Mexican stones, woods, and of course, the open relationship between indoor and outdoor.
+            - paragraph [ref=f90e196]:
+              - strong [ref=f90e197]: To you personally, what is so special about La Tropical?
+            - paragraph [ref=f90e198]: "The feeling of being both outdoors and sheltered at the same time. It’s a world within a world: you can experience to the fullest a vibrant Mexican city and minutes later take refuge in a modern oasis, bathed in light, water, plants, the chirping of the birds."
+            - paragraph [ref=f90e199]:
+              - strong [ref=f90e200]: Please tell us about the food.
+            - paragraph [ref=f90e201]: The opportunities to experience the wonderful Mexican cuisine are countless and close by. From popular morning tacos to the best restaurants in Mexico, all are within walking distance.
+            - paragraph [ref=f90e202]: If you rather eat at home, there are many little convenience stores around as well as the huge and colourful Lucas de Gálvez Market, which is a 12 minutes walk away.
+            - paragraph [ref=f90e203]:
+              - strong [ref=f90e204]: Is La Tropical best suited for couples, families, groups? What’s your policy on kids?
+            - paragraph [ref=f90e205]: Casa Mérida is designed for couples. Or a very tasteful individual.
+            - paragraph [ref=f90e206]:
+              - strong [ref=f90e207]: Is there anything else that’s important to know?
+            - paragraph [ref=f90e208]: "The bedroom does not have blackout curtains. Instead we favoured natural textiles: thick cotton curtains that allow for a natural wake up light."
+            - paragraph [ref=f90e209]: To encourage responsible use of air conditioning, guests are responsible for the electricity they consume over 30kw per day which will suffice with normal use. Electricity is measured per kwh and the meter will be read at check-in and check-out to determine usage. The current rate is 2.4 Mexican pesos per kwh.
+            - paragraph [ref=f90e210]: Mérida is in the middle of the Yucatán rainforest and enjoys a tropical climate. Our house is designed to be as open to nature as possible. But nothing is without compromise. Mosquitos, scorpions, spiders and roaches are a natural occurrence. We fumigate for pest control on a regular basis but insects are a fact of life.
+        - generic [ref=f90e213]:
+          - listbox [ref=f90e216]:
+            - img [ref=f90e219]
+            - img [ref=f90e222]
+            - option "La Tropical — Bedroom wing of the house with pool" [ref=f90e223]:
+              - img "La Tropical — Bedroom wing of the house with pool" [ref=f90e225]
+            - option [ref=f90e226]:
+              - img [ref=f90e228]
+            - option [ref=f90e229]:
+              - img [ref=f90e231]
+            - option [ref=f90e232]:
+              - img [ref=f90e234]
+            - option [ref=f90e235]:
+              - img [ref=f90e237]
+            - option [ref=f90e238]:
+              - img [ref=f90e240]
+            - option [ref=f90e241]:
+              - img [ref=f90e243]
+            - option [ref=f90e244]:
+              - img [ref=f90e246]
+            - option [ref=f90e247]:
+              - img [ref=f90e249]
+            - option [ref=f90e250]:
+              - img [ref=f90e252]
+            - option [ref=f90e253]:
+              - img [ref=f90e255]
+            - option [ref=f90e256]:
+              - img [ref=f90e258]
+            - option [ref=f90e259]:
+              - img [ref=f90e261]
+            - option [ref=f90e262]:
+              - img [ref=f90e264]
+            - option [ref=f90e265]:
+              - img [ref=f90e267]
+            - option [ref=f90e268]:
+              - img [ref=f90e270]
+            - option [ref=f90e271]:
+              - img [ref=f90e273]
+            - option [ref=f90e274]:
+              - img [ref=f90e276]
+            - option [ref=f90e277]:
+              - img [ref=f90e279]
+            - option [ref=f90e280]:
+              - img [ref=f90e282]
+            - option [ref=f90e283]:
+              - img [ref=f90e285]
+            - option [ref=f90e286]:
+              - img [ref=f90e288]
+            - img [ref=f90e291]
+            - img [ref=f90e294]
+          - listbox [ref=f90e297]:
+            - option "Bedroom wing of the house with pool" [ref=f90e298]
+            - option [ref=f90e299]: Living area wing of the house with pool
+            - option [ref=f90e300]: Dining area
+            - option [ref=f90e301]: Living area
+            - option [ref=f90e302]: Kitchen
+            - option [ref=f90e303]: Kitchen
+            - option [ref=f90e304]: Kitchen
+            - option [ref=f90e305]: Bathroom
+            - option [ref=f90e306]: Bathroom
+            - option [ref=f90e307]: Bedroom
+            - option [ref=f90e308]: Bedroom
+            - option [ref=f90e309]: Bedroom and bathroom
+            - option [ref=f90e310]: Bedroom wing and pool
+            - option [ref=f90e311]: Massage by the pool
+            - option [ref=f90e312]: Pool area
+            - option [ref=f90e313]: Pool area
+            - option [ref=f90e314]: Living area in the evening
+            - option [ref=f90e315]: Courtyard in the evening
+            - option [ref=f90e316]: Bedroom in the evening
+            - option [ref=f90e317]: Living area in the evening
+            - option [ref=f90e318]: Courtyard in the evening
+            - option [ref=f90e319]: At night
+        - generic [ref=f90e323]:
+          - heading "La Tropical rooms & rates" [level=2] [ref=f90e324] [cursor=pointer]
+          - generic [ref=f90e325]:
+            - generic [ref=f90e327]:
+              - paragraph [ref=f90e328]: "Behind a severe colonial facade with two doors there is a huge kitchen. Another large twin door gives access to the living room opening to the garden. A long pool is the connection between the colonial volumes and the modernist bungalow at the end of the property where the spacious bedroom is. Adjacent to the bedroom there is an expansive open bathroom where you can shower or bath with a view of the garden. Service areas: lavatories, pantry, supply closets are all cleverly hidden in the door frames so the plan — a total of 520 sqm — is as open as possible."
+              - paragraph [ref=f90e329]: The long pool (15 meters) is the center of the house — a pool with a house instead of a house with a pool.
+            - list [ref=f90e331]:
+              - listitem [ref=f90e332]:
+                - generic [ref=f90e333]:
+                  - generic [ref=f90e334]: La Tropical for 2 people / 520 m²
+                  - generic [ref=f90e337]: €156 - €247 / night
+                - list [ref=f90e339]:
+                  - listitem [ref=f90e340]: 1 Double bedroom
+                  - listitem [ref=f90e341]: 1 Shower room
+                  - listitem [ref=f90e342]: 1 Living room
+                  - listitem [ref=f90e343]: 1 Dining room
+                  - listitem [ref=f90e344]: 1 Kitchen
+                  - listitem [ref=f90e345]: Terrace
+                  - listitem [ref=f90e346]: Air conditioning
+            - generic [ref=f90e348]:
+              - generic [ref=f90e349]:
+                - term [ref=f90e350]: Included in the rates
+                - definition [ref=f90e351]: Rates are on a self-catering basis and include a welcome breakfast hamper.
+                - term [ref=f90e352]: Extra charges
+                - definition [ref=f90e353]: To encourage responsible use of air conditioning, guests are responsible for the electricity they consume over 30kw per day which will suffice with normal use.
+                - term [ref=f90e354]: Children & Extra beds
+                - definition [ref=f90e355]: Because of the depth of the pool only children 13+ years are allowed. There is no space for extra beds.
+              - generic [ref=f90e356]:
+                - term [ref=f90e357]: Minimum stay
+                - definition [ref=f90e358]: 1 - 2 nights (check calendar for dates)
+                - term [ref=f90e359]: Check in time
+                - definition [ref=f90e360]: after 16:00
+                - term [ref=f90e361]: Check out time
+                - definition [ref=f90e362]: before 11:00
+                - term [ref=f90e363]: Cancellation policy
+                - definition [ref=f90e364]:
+                  - text: 25% non-refundable
+                  - text: 50% if cancelled 60–31 days before arrival
+                  - text: 100% if cancelled within 30 days of arrival
+        - generic [ref=f90e368]:
+          - heading "Facilities & services" [level=2] [ref=f90e369] [cursor=pointer]
+          - generic [ref=f90e371]:
+            - list [ref=f90e372]:
+              - listitem [ref=f90e373]: Swimming pool
+              - listitem [ref=f90e374]: WiFi
+              - listitem [ref=f90e375]: Air conditioning
+              - listitem [ref=f90e376]: TV
+              - listitem [ref=f90e377]: Washing machine
+            - list [ref=f90e378]:
+              - listitem [ref=f90e379]: Music system
+              - listitem [ref=f90e380]: Courtyard
+              - listitem [ref=f90e381]: Iron & Board
+              - listitem [ref=f90e382]: Not suitable for young children
+              - listitem [ref=f90e383]: Hair dryer
+          - generic [ref=f90e385]:
+            - paragraph [ref=f90e386]: Privacy is always one of our main concerns. This is why we decided to offer our guests a fridge full of breakfast basics and a basket with a selection of carefully chosen organic local produce.
+            - paragraph [ref=f90e387]: We found out that having a massage in our garden is pure bliss, so we partnered with a women-owned local company to offer treatments next to the pool.
+            - paragraph [ref=f90e388]: A lot of our guests are here on their honeymoons. Extra flowers, champagne or wine are regular requests. Also, we offer a private chef on request.
+        - generic [ref=f90e392]:
+          - heading "Things to do in Yucatan & Mérida" [level=2] [ref=f90e393] [cursor=pointer]
+          - generic [ref=f90e395]:
+            - list [ref=f90e396]:
+              - listitem [ref=f90e397]: Art / Culture
+              - listitem [ref=f90e398]: Shopping / Markets
+              - listitem [ref=f90e399]: Night life
+              - listitem [ref=f90e400]: Massages / Treatments
+            - list [ref=f90e401]:
+              - listitem [ref=f90e402]: Hiking
+              - listitem [ref=f90e403]: Horseback riding
+              - listitem [ref=f90e404]: Sailing / Kayaking
+          - generic [ref=f90e406]:
+            - paragraph [ref=f90e407]: "Around Mérida, there is an infinity of amazing experiences. If you are into history, Mérida is a treasure trove: Archeological sites, a colonial center, haciendas... For the adventurers we advise visiting the many cenotes, kayaking in the mangroves or going horseback riding on the beach."
+            - paragraph [ref=f90e408]: Progreso is the nearest coastal town, 45 minutes away from the center. Our favourite beach is Sisal. The trip takes roughly an hour and you will find long extensions of dunes and mangroves along a very peaceful beach.
+            - paragraph [ref=f90e409]: Wildlife lovers will love to visit the reserve of Celestún, especially in the flamingo season (November-February).
+            - paragraph [ref=f90e410]: "Our personal highlights in the region around Merida are: 1) Uxmal (an incredible ancient Mayan city) 2) Cenotes (the sunken lakes you can swim in) 3) Haciendas (Sisal estates)"
+        - generic [ref=f90e414]:
+          - heading "La Tropical reviews" [level=2] [ref=f90e415] [cursor=pointer]
+          - generic [ref=f90e417]:
+            - generic [ref=f90e418]:
+              - generic [ref=f90e419]:
+                - generic [ref=f90e421]:
+                  - list:
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                  - generic [ref=f90e422]: 5 of 5 stars
+                - generic [ref=f90e423]: Verfied Welcome Beyond stay
+                - generic [ref=f90e424]: We had an amazing experience in Merida. Cecilia took good care of us en was very responsive. The house was great and we’ve enjoyed the pool daily.
+              - generic [ref=f90e425]:
+                - generic [ref=f90e426]: Marc v.
+                - generic [ref=f90e427]: stayed at La Tropical in June 2024
+            - generic [ref=f90e428]:
+              - generic [ref=f90e429]:
+                - generic [ref=f90e431]:
+                  - list:
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                  - generic [ref=f90e432]: 5 of 5 stars
+                - generic [ref=f90e433]: Verfied Welcome Beyond stay
+                - generic [ref=f90e434]:
+                  - text: Beautiful property! Well designed. Very quiet, and safe. Easy walk to Centro.
+                  - text: Antonio was very helpful. Absolutely loved it.
+              - generic [ref=f90e435]:
+                - generic [ref=f90e436]: Annette T.
+                - generic [ref=f90e437]: stayed at La Tropical in February 2022
+            - button "Read more reviews" [ref=f90e438] [cursor=pointer]
+      - generic [ref=f90e445]:
+        - heading "The location of La Tropical" [level=2] [ref=f90e446] [cursor=pointer]
+        - generic [ref=f90e448]:
+          - paragraph [ref=f90e449]: La Tropical is in a very peaceful and charming part of Merida‘s historical center. The closest cities are Izamal, Valladolid and Campeche. Mérida is surrounded by gorgeous cenotes (sunken lakes in which you can swim), charming haciendas, virgin beaches and last but not at all least, the impressive Mayan sites.
+          - paragraph [ref=f90e450]: "Yucatán has a specific character. It has traditionally been an isolated part of México so it retains a lot of authenticity. And Mérida is a gem of a city: the safest in Mexico, with a provincial atmosphere, yet with cosmopolitan touches. People are very laid back and gentle."
+      - generic [ref=f90e454]:
+        - heading "When is the best time to visit Yucatan?" [level=2] [ref=f90e455] [cursor=pointer]
+        - paragraph [ref=f90e458]: Mérida is warm all year round. November to April have a mild and delicious spring-like weather. And the absolute best day to visit Mérida is around 1st November for the Día de los Muertos festivities. May to July are hot and humid months so you’d enjoy our pool the most.
+      - generic: 65 4 77 11 201 109 21 5 18
+    - generic [ref=f90e461]:
+      - generic [ref=f90e462]:
+        - generic [ref=f90e463]:
+          - img "Welcome Beyond" [ref=f90e464]
+          - generic [ref=f90e465]:
+            - paragraph [ref=f90e466]: Welcome Beyond hand-picks small hotels and holiday rentals that are truly original and reflect their owners’ passion for distinctive architecture and design. Each is singular, memorable and definitely worth writing home about.
+            - paragraph [ref=f90e467]:
+              - link "Miles & More" [ref=f90e468] [cursor=pointer]:
+                - /url: https://bit.ly/welcomebeyond-email-milesandmore
+                - img "Miles & More" [ref=f90e469]
+            - list
+          - list [ref=f90e471]:
+            - listitem [ref=f90e472]:
+              - link "Welcome Beyond on Instagram" [ref=f90e473] [cursor=pointer]:
+                - /url: https://www.instagram.com/welcomebeyond
+                - img [ref=f90e474]
+            - listitem [ref=f90e476]:
+              - link "Welcome Beyond on Facebook" [ref=f90e477] [cursor=pointer]:
+                - /url: https://www.facebook.com/WelcomeBeyond
+                - img [ref=f90e478]
+            - listitem [ref=f90e480]:
+              - link "Welcome Beyond on twitter" [ref=f90e481] [cursor=pointer]:
+                - /url: https://www.twitter.com/WelcomeBeyond
+                - img [ref=f90e482]
+            - listitem [ref=f90e484]:
+              - link "Welcome Beyond on Pinterest" [ref=f90e485] [cursor=pointer]:
+                - /url: https://www.pinterest.com/welcomebeyond
+                - img [ref=f90e486]
+        - generic [ref=f90e493]:
+          - generic [ref=f90e494]: Change your currency
+          - combobox "Change your currency" [ref=f90e495]:
+            - option "Euro" [selected]
+            - option "British Pound Sterling"
+            - option "United States Dollar"
+            - option "Argentine Peso"
+            - option "Australian Dollar"
+            - option "Brazilian Real"
+            - option "Canadian Dollar"
+            - option "Chilean Peso"
+            - option "Chinese Yuan"
+            - option "Croatian Kuna"
+            - option "Czech Republic Koruna"
+            - option "Cuban Convertible Peso"
+            - option "Danish Krone"
+            - option "Hungarian Forint"
+            - option "Icelandic Króna"
+            - option "Indian Rupee"
+            - option "Indonesian Rupiah"
+            - option "Japanese Yen"
+            - option "Mexican Peso"
+            - option "New Zealand Dollar"
+            - option "Norwegian Krone"
+            - option "Philippine Peso"
+            - option "Polish Zloty"
+            - option "South African Rand"
+            - option "Swedish Krona"
+            - option "Swiss Franc"
+            - option "Thai Baht"
+            - option "Turkish Lira"
+            - option "Moroccan Dirham"
+      - generic [ref=f90e496]:
+        - navigation [ref=f90e497]:
+          - list [ref=f90e498]:
+            - listitem [ref=f90e499]: © Welcome Beyond 2026
+            - listitem [ref=f90e500]:
+              - text: •
+              - link "Impressum" [ref=f90e501] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/impressum/
+            - listitem [ref=f90e502]:
+              - text: •
+              - link "Terms & Conditions" [ref=f90e503] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/terms-and-conditions-agb/
+        - navigation [ref=f90e504]:
+          - list [ref=f90e505]:
+            - listitem [ref=f90e506]:
+              - text: •
+              - link "Privacy policy" [ref=f90e507] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841576
+            - listitem [ref=f90e508]:
+              - text: •
+              - link "Datenschutzerklärung" [ref=f90e509] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841640
+            - listitem [ref=f90e510]:
+              - text: •
+              - link "Cookie policy" [ref=f90e511] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841576/cookie-policy
+            - listitem [ref=f90e512]:
+              - text: •
+              - link "Cookie Richtlinien" [ref=f90e513] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841640/cookie-policy
+  - text: "* * * * * * * *"
+  - link:
+    - /url: "#"
+  - alertdialog "Notice" [ref=f90e514]:
+    - generic [ref=f90e516]:
+      - document [ref=f90e517]:
+        - heading "Notice" [level=2] [ref=f90e518]
+        - generic [ref=f90e519]:
+          - paragraph [ref=f90e520]:
+            - text: We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, for other purposes as specified in the
+            - button "cookie policy - link opens in a new tab" [ref=f90e521] [cursor=pointer]: cookie policy
+            - text: .
+          - paragraph
+          - paragraph [ref=f90e522]: Use the “Accept” button to consent. Use the “Reject” button to continue without accepting.
+      - generic [ref=f90e523]:
+        - button "Learn more and customize" [ref=f90e525] [cursor=pointer]
+        - generic [ref=f90e526]:
+          - button "Reject" [ref=f90e527] [cursor=pointer]
+          - button "Accept" [ref=f90e528] [cursor=pointer]

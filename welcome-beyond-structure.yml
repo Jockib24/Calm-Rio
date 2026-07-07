@@ -1,0 +1,215 @@
+- document [active] [ref=f41e1]:
+  - generic [ref=f41e3]:
+    - generic:
+      - navigation:
+        - generic [ref=f41e4]:
+          - generic [ref=f41e6]
+          - generic
+    - main [ref=f41e43]:
+      - generic [ref=f41e46]:
+        - generic [ref=f41e47]:
+          - img "Welcome Beyond." [ref=f41e48]
+          - heading "Hand-picked Boutique Hotels & Holiday Homes" [level=1] [ref=f41e49]
+        - generic [ref=f41e50]:
+          - generic [ref=f41e51]
+          - link "Advanced search" [ref=f41e55] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/search/
+      - generic [ref=f41e58]:
+        - button "Previous" [ref=f41e665] [cursor=pointer]:
+          - img [ref=f41e666]
+        - listbox [ref=f41e669]:
+          - link [ref=f41e670] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/property/aurora-cabin/
+          - link [ref=f41e673] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/property/la-tropical/
+          - option "Condé Nast Traveller 2026 Readers' Choice Awards" [ref=f41e676] [cursor=pointer]
+          - option [ref=f41e677] [cursor=pointer]
+          - option [ref=f41e679] [cursor=pointer]
+          - option [ref=f41e681] [cursor=pointer]
+          - option [ref=f41e683] [cursor=pointer]
+          - option [ref=f41e685] [cursor=pointer]
+          - option [ref=f41e687] [cursor=pointer]
+          - option [ref=f41e689] [cursor=pointer]
+          - option [ref=f41e691] [cursor=pointer]
+          - option [ref=f41e693] [cursor=pointer]
+          - option [ref=f41e695] [cursor=pointer]
+          - option [ref=f41e697] [cursor=pointer]
+          - option [ref=f41e699] [cursor=pointer]
+          - option [ref=f41e701] [cursor=pointer]
+          - option [ref=f41e703] [cursor=pointer]
+          - option [ref=f41e705] [cursor=pointer]
+          - option [ref=f41e707] [cursor=pointer]
+          - option [ref=f41e709] [cursor=pointer]
+          - option [ref=f41e711] [cursor=pointer]
+          - option [ref=f41e713] [cursor=pointer]
+          - option [ref=f41e715] [cursor=pointer]
+          - option [ref=f41e717] [cursor=pointer]
+          - link [ref=f41e719] [cursor=pointer]:
+            - /url: https://condenast-interactive.typeform.com/to/XjstqQJp
+          - link [ref=f41e722] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/search/
+        - button "Next" [ref=f41e725] [cursor=pointer]:
+          - img [ref=f41e726]
+        - listbox [ref=f41e729]:
+          - option "Condé Nast Traveller 2026 Readers' Choice Awards" [ref=f41e730]
+          - option [ref=f41e731]: Welcome Beyond is now a partner of Miles & More
+          - option [ref=f41e732]: Majamaja in Helsinki, Finland
+          - option [ref=f41e733]: Freiform, an architectural rental in South Tyrol, Italy
+          - option [ref=f41e734]: Les Terrasses de Comporta, a villa rental in Comporta, Portugal
+          - option [ref=f41e735]: Osmoliš boutique hotel, on the Dalmatian Coast, Croatia
+          - option [ref=f41e736]: Masseria Salice Salentino holiday retrat in Puglia, Italy
+          - option [ref=f41e737]: Dá Licença design hotel in Estremoz, Alentejo, Portugal
+          - option [ref=f41e738]: Villa Aleomandra on Mykonos, Grece
+          - option [ref=f41e739]: The Lodge holiday cabin in Scotland, United Kingdom
+          - option [ref=f41e740]: SynVillan tree house in Blekinge, Sweden
+          - option [ref=f41e741]: Villa Peduzzi on Lake Como, Italy
+          - option [ref=f41e742]: Monsieur Didot boutique hotel in Athens, Greece
+          - option [ref=f41e743]: VillaVerde spa hotel in South Tyrol, Italy
+          - option [ref=f41e744]: Fjellhytte, a cabin rental in Innlandet, Norway
+          - option [ref=f41e745]: The Unterhus, a design rental in Vals, Graubünden, Switzerland
+          - option [ref=f41e746]: Aufberg 1113, two holiday apartments in Salzburger Land, Austria
+          - option [ref=f41e747]: hinterhouse cabin rental in Québec, Canada
+          - option [ref=f41e748]: Schgaguler design hotel in South Tyrol, Italy
+          - option [ref=f41e749]: Modern Chalet, an architectural rental in South Tyrol, Italy
+          - option [ref=f41e750]: Aurora Cabin rental in Lofoten, Norway
+          - option [ref=f41e751]: La Tropical, a design rental in Mérida, Yucatán, Mexico
+      - list [ref=f41e151]:
+        - listitem [ref=f41e152]:
+          - link "Art, Design & Architecture 71" [ref=f41e153] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/art-design-and-architecture-holidays
+        - listitem [ref=f41e159]:
+          - link "City breaks 69" [ref=f41e160] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/city-breaks
+        - listitem [ref=f41e166]:
+          - link "Ecotourism 79" [ref=f41e167] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/ecotourism
+        - listitem [ref=f41e173]:
+          - link "Family holidays 336" [ref=f41e174] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/family-holidays
+        - listitem [ref=f41e180]:
+          - link "Food travel 177" [ref=f41e181] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/food-travel
+        - listitem [ref=f41e187]:
+          - link "Group getaways 261" [ref=f41e188] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/group-getaways
+        - listitem [ref=f41e194]:
+          - link "Honeymoon destinations 218" [ref=f41e195] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/honeymoon-destinations
+        - listitem [ref=f41e201]:
+          - link "Photoshoot locations 137" [ref=f41e202] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/photoshoot-locations
+        - listitem [ref=f41e208]:
+          - link "Remote work 105" [ref=f41e209] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/remote-work
+        - listitem [ref=f41e215]:
+          - link "Romantic getaways 274" [ref=f41e216] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/romantic-getaways
+        - listitem [ref=f41e222]:
+          - link "Secluded retreats 188" [ref=f41e223] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/secluded-retreats
+        - listitem [ref=f41e229]:
+          - link "Spas & Resorts 28" [ref=f41e230] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/spas-and-resorts
+        - listitem [ref=f41e236]:
+          - link "Summer & Beach holidays 291" [ref=f41e237] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/summer-and-beach-holidays
+        - listitem [ref=f41e243]:
+          - link "Summer availability 11" [ref=f41e244] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/summer-availability
+        - listitem [ref=f41e250]:
+          - link "The Stays collection 3" [ref=f41e251] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/the-stays-collection
+        - listitem [ref=f41e257]:
+          - link "Unique destinations 25" [ref=f41e258] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/unique-holiday-destinations
+        - listitem [ref=f41e264]:
+          - link "Wedding & Event venues 128" [ref=f41e265] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/wedding-and-event-venues
+        - listitem [ref=f41e271]:
+          - link "Winter & Ski holidays 51" [ref=f41e272] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/winter-and-ski-holidays
+        - listitem [ref=f41e278]:
+          - link "Winter sun holidays 76" [ref=f41e279] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/winter-sun-holidays
+      - generic [ref=f41e286]:
+        - generic [ref=f41e287]:
+          - heading "Our latest design hotels & holiday rentals" [level=2] [ref=f41e288]
+          - generic [ref=f41e289]
+        - listbox [ref=f41e754]:
+          - option [ref=f41e755]
+          - option [ref=f41e766]
+          - option [ref=f41e777]
+          - option [ref=f41e788]
+          - option [ref=f41e826]
+          - option [ref=f41e864]
+          - option [ref=f41e902]
+          - option [ref=f41e940]
+          - option [ref=f41e978]
+      - generic [ref=f41e388]:
+        - toolbar [ref=f41e1016]:
+          - listbox [ref=f41e1018]
+          - tablist
+        - link "Press enquiries" [ref=f41e436] [cursor=pointer]:
+          - /url: https://welcomebeyond.typeform.com/to/hfkdBl
+      - generic [ref=f41e438]:
+        - heading "Travel inspiration" [level=2] [ref=f41e439]
+        - list [ref=f41e440]:
+          - listitem [ref=f41e441]
+          - listitem [ref=f41e446]
+          - listitem [ref=f41e451]
+          - listitem [ref=f41e456]
+          - listitem [ref=f41e461]
+          - listitem [ref=f41e466]
+      - generic [ref=f41e473]:
+        - generic [ref=f41e474]:
+          - generic [ref=f41e475]
+          - generic [ref=f41e478]
+        - generic [ref=f41e483]:
+          - generic [ref=f41e484]
+          - generic [ref=f41e487]
+        - generic [ref=f41e494]:
+          - generic [ref=f41e495]
+          - generic [ref=f41e498]
+    - generic [ref=f41e514]:
+      - generic [ref=f41e517]:
+        - list [ref=f41e519]:
+          - listitem [ref=f41e520]
+          - listitem [ref=f41e522]
+          - paragraph [ref=f41e524]: Welcome Beyond and its properties have been featured in these fine publications.
+        - list [ref=f41e525]:
+          - listitem [ref=f41e526]
+          - listitem [ref=f41e528]
+          - listitem [ref=f41e530]
+          - listitem [ref=f41e532]
+          - listitem [ref=f41e534]
+          - listitem [ref=f41e536]
+          - listitem [ref=f41e538]
+          - listitem [ref=f41e540]
+          - listitem [ref=f41e542]
+          - listitem [ref=f41e544]
+          - listitem [ref=f41e546]
+          - listitem [ref=f41e548]
+      - generic [ref=f41e551]:
+        - generic [ref=f41e552]:
+          - generic [ref=f41e553]
+          - generic [ref=f41e578]
+          - generic [ref=f41e627]
+        - generic [ref=f41e646]:
+          - navigation [ref=f41e647]
+          - navigation [ref=f41e654]
+  - text: "* * * * * * * *"
+  - link:
+    - /url: "#"
+  - alertdialog "Notice" [ref=f41e1029]:
+    - generic [ref=f41e1031]:
+      - document [ref=f41e1032]:
+        - heading "Notice" [level=2] [ref=f41e1033]
+        - generic [ref=f41e1034]:
+          - paragraph [ref=f41e1035]
+          - paragraph
+          - paragraph [ref=f41e1037]: Use the “Accept” button to consent. Use the “Reject” button to continue without accepting.
+      - generic [ref=f41e1038]:
+        - button "Learn more and customize" [ref=f41e1040] [cursor=pointer]
+        - generic [ref=f41e1041]:
+          - button "Reject" [ref=f41e1042] [cursor=pointer]
+          - button "Accept" [ref=f41e1043] [cursor=pointer]

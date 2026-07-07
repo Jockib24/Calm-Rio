@@ -3,14 +3,6 @@
 // ============================================================
 
 // ------------------------------------------------------------
-// Glass header variables
-// ------------------------------------------------------------
-$header-blur-radius: 12px;
-$header-glass-bg: rgba(255, 255, 255, 0.85);
-$header-glass-border: rgba(0, 0, 0, 0.06);
-$header-transition-duration: 0.3s;
-
-// ------------------------------------------------------------
 // Site Header — fixed top, transitions from transparent → glass
 // ------------------------------------------------------------
 .site-header {
@@ -28,9 +20,9 @@ $header-transition-duration: 0.3s;
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
 
-  transition: background-color #{$header-transition-duration} ease,
-              backdrop-filter #{$header-transition-duration} ease,
-              box-shadow #{$header-transition-duration} ease;
+  transition: background-color 0.3s ease,
+              backdrop-filter 0.3s ease,
+              box-shadow 0.3s ease;
 
   @media (prefers-reduced-motion: reduce) {
     transition: none;
@@ -39,10 +31,10 @@ $header-transition-duration: 0.3s;
   // Scrolled state — frosted glass effect
   &.header--sticky,
   &.header--scrolled {
-    background-color: $header-glass-bg;
-    backdrop-filter: blur($header-blur-radius);
-    -webkit-backdrop-filter: blur($header-blur-radius);
-    box-shadow: 0 1px 0 $header-glass-border;
+    background-color: var(--header-glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 1px 0 var(--header-glass-border);
   }
 }
 
@@ -317,6 +309,147 @@ $header-transition-duration: 0.3s;
 
 .mobile-nav__cta {
   margin-top: var(--space-8);
+}
+
+// ------------------------------------------------------------
+// Language switcher button
+// ------------------------------------------------------------
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-right: var(--space-2);
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-weight: var(--weight-bold);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background-color: var(--color-bg-alt);
+    color: var(--color-text);
+    border-color: var(--color-text-muted);
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  // White on transparent header (dark hero background)
+  .site-header:not(.header--sticky):not(.header--scrolled) & {
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.2);
+
+    &:hover {
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  @media (max-width: 1023.98px) {
+    display: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+// ------------------------------------------------------------
+// Theme toggle button
+// ------------------------------------------------------------
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-right: var(--space-2);
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  color: var(--color-text-muted);
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+  flex-shrink: 0;
+
+  &:hover {
+    background-color: var(--color-bg-alt);
+    color: var(--color-text);
+    border-color: var(--color-text-muted);
+    transform: scale(1.05);
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 18px;
+    height: 18px;
+    transition: transform 0.3s ease;
+  }
+
+  // White icon on transparent header (dark hero background)
+  .site-header:not(.header--sticky):not(.header--scrolled) & {
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.2);
+
+    &:hover {
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.5);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
+
+  @media (max-width: 1023.98px) {
+    display: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+
+    svg {
+      transition: none;
+    }
+  }
+}
+
+// Rotate animation on toggle
+.theme-toggle--dark svg {
+  transform: rotate(180deg);
+}
+
+// ------------------------------------------------------------
+// Smooth color transition for dark/light mode switch
+// ------------------------------------------------------------
+// Apply to elements that change color between themes
+html.color-theme-in-transition,
+html.color-theme-in-transition *,
+html.color-theme-in-transition *::before,
+html.color-theme-in-transition *::after {
+  transition: color 0.3s ease,
+              background-color 0.3s ease,
+              border-color 0.3s ease,
+              box-shadow 0.3s ease !important;
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none !important;
+  }
 }
 
 // ------------------------------------------------------------

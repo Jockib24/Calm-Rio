@@ -1,0 +1,366 @@
+- generic [ref=f27e2]:
+  - menubar [ref=f27e3]:
+    - generic [ref=f27e4]:
+      - generic [ref=f27e5]:
+        - link "Skip to main content" [ref=f27e6] [cursor=pointer]:
+          - /url: "#main"
+        - img "The travel club" [ref=f27e7]
+      - link "Homepage" [ref=f27e9] [cursor=pointer]:
+        - /url: /
+        - img "Mr. & Mrs. Smith" [ref=f27e10]
+      - generic [ref=f27e12]:
+        - generic:
+          - link "Speak to a Smith travel specialist":
+            - /url: tel:+442083387753
+        - generic "Wishlist"
+        - link "Cart" [ref=f27e15] [cursor=pointer]:
+          - /url: /basket
+        - button "Log In" [ref=f27e16] [cursor=pointer]
+    - navigation [ref=f27e18]:
+      - link "Hotels" [ref=f27e19] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/luxury-hotels
+      - link "Villas" [ref=f27e20] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/luxury-villas
+      - link "Offers" [ref=f27e21] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/luxury-hotel-deals
+      - link "Honeymoons" [ref=f27e22] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/honeymoons
+      - link "Inspiration" [ref=f27e23] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/collections
+      - link "Destinations" [ref=f27e24] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/destinations
+      - link "Family" [ref=f27e25] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/family
+      - link "Editorial" [ref=f27e26] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/editorial
+      - link "Gift shop" [ref=f27e27] [cursor=pointer]:
+        - /url: https://www.mrandmrssmith.com/shop
+  - search [ref=f27e29]:
+    - generic [ref=f27e30]:
+      - generic [ref=f27e31]:
+        - generic [ref=f27e32]: Destination
+        - searchbox "Add destination" [ref=f27e35] [cursor=pointer]
+        - dialog
+      - generic [ref=f27e36]:
+        - generic [ref=f27e37]: Dates
+        - generic [ref=f27e38]:
+          - textbox "Travel Date" [ref=f27e39] [cursor=pointer]
+          - button
+        - dialog
+      - generic [ref=f27e40]:
+        - generic [ref=f27e41]: Guests
+        - textbox "Travel Occupancy details" [ref=f27e43] [cursor=pointer]:
+          - /placeholder: Add guests
+        - dialog
+    - button "Search" [ref=f27e44] [cursor=pointer]:
+      - generic [ref=f27e45]: Search
+  - iframe [ref=f27e48]:
+    - generic [ref=f30e2]:
+      - link "Trustpilot reviews" [ref=f30e3] [cursor=pointer]:
+        - /url: https://www.trustpilot.com/review/www.mrandmrssmith.com?utm_medium=trustbox&utm_source=MicroCombo
+        - generic [ref=f30e4]: Excellent
+        - img "4.6 out of 5 star rating on Trustpilot" [ref=f30e9]
+        - generic [ref=f30e29]:
+          - generic [ref=f30e30]:
+            - strong [ref=f30e31]: 7,362
+            - text: reviews on
+          - img "Trustpilot" [ref=f30e35]
+      - generic [ref=f30e39]: Rated Excellent. 4.6 out of 5. 7362 reviews on Trustpilot
+      - generic [ref=f30e40]: Click to view the company's Trustpilot profile
+  - main [ref=f27e49]:
+    - generic [ref=f27e50]:
+      - generic [ref=f27e53]:
+        - heading "Find and book the world's best boutique and luxury hotels" [level=1] [ref=f27e55]:
+          - text: Find and book
+          - text: the
+          - generic [ref=f27e56]:
+            - text: world's
+            - text: best
+          - text: boutique
+          - text: and luxury
+          - text: hotels
+        - generic [ref=f27e57]:
+          - img "Six Senses Ibiza, Spain" [ref=f27e60]
+          - generic [ref=f27e61]:
+            - link "Free Smith Extras" [ref=f27e62] [cursor=pointer]:
+              - /url: /search/best-free-smith-extras/hotels
+            - link "Best-price guarantee" [ref=f27e63] [cursor=pointer]:
+              - /url: /about-us/price-guarantee
+      - generic [ref=f27e64]:
+        - article [ref=f27e65]:
+          - link "Why book with Mr &amp; Mrs Smith? Member Benefits Why book with Mr & Mrs Smith?" [ref=f27e66] [cursor=pointer]:
+            - /url: /about-us/book-with-us
+            - img "Why book with Mr &amp; Mrs Smith?" [ref=f27e68]
+            - generic [ref=f27e69]:
+              - heading "Member Benefits" [level=2] [ref=f27e70]
+              - paragraph [ref=f27e71]: Why book with Mr & Mrs Smith?
+          - link "Romantic city or countryside escapes Weekend breaks Romantic city or countryside escapes" [ref=f27e72] [cursor=pointer]:
+            - /url: /weekend-breaks
+            - img "Romantic city or countryside escapes" [ref=f27e74]
+            - generic [ref=f27e75]:
+              - heading "Weekend breaks" [level=2] [ref=f27e76]
+              - paragraph [ref=f27e77]: Romantic city or countryside escapes
+          - link "Guides, interviews, reviews and more Travel Inspiration Guides, interviews, reviews and more" [ref=f27e78] [cursor=pointer]:
+            - /url: /editorial
+            - img "Guides, interviews, reviews and more" [ref=f27e80]
+            - generic [ref=f27e81]:
+              - heading "Travel Inspiration" [level=2] [ref=f27e82]
+              - paragraph [ref=f27e83]: Guides, interviews, reviews and more
+          - link "Give the gift of luxury travel Gift cards Give the gift of luxury travel" [ref=f27e84] [cursor=pointer]:
+            - /url: /shop
+            - img "Give the gift of luxury travel" [ref=f27e86]
+            - generic [ref=f27e87]:
+              - heading "Gift cards" [level=2] [ref=f27e88]
+              - paragraph [ref=f27e89]: Give the gift of luxury travel
+        - generic [ref=f27e90]:
+          - region [ref=f27e91]:
+            - heading "Popular searches" [level=3] [ref=f27e92]
+            - generic [ref=f27e94]:
+              - link "Winter sun holidays Winter sun holidays" [ref=f27e95] [cursor=pointer]:
+                - /url: /winter-sun
+                - img "Winter sun holidays" [ref=f27e97]
+                - heading "Winter sun holidays" [level=2] [ref=f27e98]
+              - link "Where to go when Where to go when" [ref=f27e99] [cursor=pointer]:
+                - /url: /where-to-go-when
+                - img "Where to go when" [ref=f27e101]
+                - heading "Where to go when" [level=2] [ref=f27e102]
+              - link "Dog-friendly hotels Dog-friendly hotels" [ref=f27e103] [cursor=pointer]:
+                - /url: /dog-friendly
+                - img "Dog-friendly hotels" [ref=f27e105]
+                - heading "Dog-friendly hotels" [level=2] [ref=f27e106]
+              - link "Luxury UK hotels Luxury UK hotels" [ref=f27e107] [cursor=pointer]:
+                - /url: /destinations/united-kingdom/hotels
+                - img "Luxury UK hotels" [ref=f27e109]
+                - heading "Luxury UK hotels" [level=2] [ref=f27e110]
+              - link "Great Italian getaways Great Italian getaways" [ref=f27e111] [cursor=pointer]:
+                - /url: /destinations/italy/hotels
+                - img "Great Italian getaways" [ref=f27e113]
+                - heading "Great Italian getaways" [level=2] [ref=f27e114]
+          - region [ref=f27e115]:
+            - heading "Smith collections" [level=3] [ref=f27e116]
+            - generic [ref=f27e118]:
+              - link "Budget boutique hotels Budget boutique hotels" [ref=f27e119] [cursor=pointer]:
+                - /url: /search/budget-boutique-hotels/hotels
+                - img "Budget boutique hotels" [ref=f27e121]
+                - heading "Budget boutique hotels" [level=2] [ref=f27e122]
+              - link "Best luxury spa hotels Best luxury spa hotels" [ref=f27e123] [cursor=pointer]:
+                - /url: /search/spa-hotels/hotels
+                - img "Best luxury spa hotels" [ref=f27e125]
+                - heading "Best luxury spa hotels" [level=2] [ref=f27e126]
+              - link "Luxury hotels & villas with private pools Luxury hotels & villas with private pools" [ref=f27e127] [cursor=pointer]:
+                - /url: /search/hotels-with-private-pools/hotels
+                - img "Luxury hotels & villas with private pools" [ref=f27e129]
+                - heading "Luxury hotels & villas with private pools" [level=2] [ref=f27e130]
+              - link "Luxury dog & pet-friendly hotels Luxury dog & pet-friendly hotels" [ref=f27e131] [cursor=pointer]:
+                - /url: /search/pet-friendly-hotels/hotels
+                - img "Luxury dog & pet-friendly hotels" [ref=f27e133]
+                - heading "Luxury dog & pet-friendly hotels" [level=2] [ref=f27e134]
+        - generic [ref=f27e135]:
+          - region [ref=f27e136]:
+            - heading "Smith collections" [level=3] [ref=f27e137]
+            - generic [ref=f27e139]:
+              - link "Best luxury & boutique ski hotels Best luxury & boutique ski hotels" [ref=f27e140] [cursor=pointer]:
+                - /url: /search/ski-hotels/hotels
+                - img "Best luxury & boutique ski hotels" [ref=f27e142]
+                - heading "Best luxury & boutique ski hotels" [level=2] [ref=f27e143]
+              - link "City breaks City breaks" [ref=f27e144] [cursor=pointer]:
+                - /url: /search/city-breaks/hotels
+                - img "City breaks" [ref=f27e146]
+                - heading "City breaks" [level=2] [ref=f27e147]
+              - link "Accessible hotels Accessible hotels" [ref=f27e148] [cursor=pointer]:
+                - /url: /search/accessible-hotels/hotels
+                - img "Accessible hotels" [ref=f27e150]
+                - heading "Accessible hotels" [level=2] [ref=f27e151]
+              - link "Three hours from London Three hours from London" [ref=f27e152] [cursor=pointer]:
+                - /url: /search/three-hours-from-london/hotels
+                - img "Three hours from London" [ref=f27e154]
+                - heading "Three hours from London" [level=2] [ref=f27e155]
+          - region [ref=f27e156]:
+            - heading "Smith collections" [level=3] [ref=f27e157]
+            - generic [ref=f27e159]:
+              - link "Honeymoon hotels and romantic stays Honeymoon hotels and romantic stays" [ref=f27e160] [cursor=pointer]:
+                - /url: /search/honeymoon-hotels/hotels
+                - img "Honeymoon hotels and romantic stays" [ref=f27e162]
+                - heading "Honeymoon hotels and romantic stays" [level=2] [ref=f27e163]
+              - link "The best gourmet getaways The best gourmet getaways" [ref=f27e164] [cursor=pointer]:
+                - /url: /search/gourmet-hotel-breaks/hotels
+                - img "The best gourmet getaways" [ref=f27e166]
+                - heading "The best gourmet getaways" [level=2] [ref=f27e167]
+              - link "Beach and coastal hotels Beach and coastal hotels" [ref=f27e168] [cursor=pointer]:
+                - /url: /search/coastal-hotels/hotels
+                - img "Beach and coastal hotels" [ref=f27e170]
+                - heading "Beach and coastal hotels" [level=2] [ref=f27e171]
+              - link "Hotels with sustainability initiatives Hotels with sustainability initiatives" [ref=f27e172] [cursor=pointer]:
+                - /url: /search/hotels-with-sustainability-initiatives/hotels
+                - img "Hotels with sustainability initiatives" [ref=f27e174]
+                - heading "Hotels with sustainability initiatives" [level=2] [ref=f27e175]
+  - contentinfo [ref=f27e176]:
+    - generic [ref=f27e177]:
+      - generic [ref=f27e178]:
+        - generic [ref=f27e179]:
+          - button "Top countries" [ref=f27e180] [cursor=pointer]: Top countries
+          - list [ref=f27e183]:
+            - listitem [ref=f27e184]:
+              - link "England" [ref=f27e185] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/united-kingdom/england/hotels
+            - listitem [ref=f27e186]:
+              - link "Morocco" [ref=f27e187] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/morocco/hotels
+            - listitem [ref=f27e188]:
+              - link "Spain" [ref=f27e189] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/spain/hotels
+            - listitem [ref=f27e190]:
+              - link "US" [ref=f27e191] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/united-states/hotels
+            - listitem [ref=f27e192]:
+              - link "Italy" [ref=f27e193] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/italy/hotels
+            - listitem [ref=f27e194]:
+              - link "France" [ref=f27e195] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/france/hotels
+            - listitem [ref=f27e196]:
+              - link "Portugal" [ref=f27e197] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/portugal/hotels
+            - listitem [ref=f27e198]:
+              - link "Greece" [ref=f27e199] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/greece/hotels
+        - generic [ref=f27e200]:
+          - button "Collections" [ref=f27e201] [cursor=pointer]: Collections
+          - list [ref=f27e204]:
+            - listitem [ref=f27e205]:
+              - link "Beach hotels" [ref=f27e206] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/collections/coastal-hotels
+            - listitem [ref=f27e207]:
+              - link "Spa hotels" [ref=f27e208] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/collections/spa-hotels
+            - listitem [ref=f27e209]:
+              - link "City break hotels" [ref=f27e210] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/collections/city-breaks
+            - listitem [ref=f27e211]:
+              - link "Honeymoon hotels" [ref=f27e212] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/honeymoons
+            - listitem [ref=f27e213]:
+              - link "Child-friendly hotels" [ref=f27e214] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/family
+            - listitem [ref=f27e215]:
+              - link "Hotels with swimming pools" [ref=f27e216] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/search/hotels-with-pool
+            - listitem [ref=f27e217]:
+              - link "Hotels with sustainability initiatives" [ref=f27e218] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/collections/hotels-with-sustainability-initiatives
+            - listitem [ref=f27e219]:
+              - link "Ski hotels" [ref=f27e220] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/collections/ski-hotels
+            - listitem [ref=f27e221]:
+              - link "Pet-friendly hotels" [ref=f27e222] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/collections/pet-friendly-hotels
+        - generic [ref=f27e223]:
+          - button "Popular destinations" [ref=f27e224] [cursor=pointer]: Popular destinations
+          - list [ref=f27e227]:
+            - listitem [ref=f27e228]:
+              - link "Barcelona" [ref=f27e229] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/catalonia/barcelona/hotels
+            - listitem [ref=f27e230]:
+              - link "London" [ref=f27e231] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/england/london/hotels
+            - listitem [ref=f27e232]:
+              - link "Paris" [ref=f27e233] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/france/paris/hotels
+            - listitem [ref=f27e234]:
+              - link "Rome" [ref=f27e235] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/lazio/rome/hotels
+            - listitem [ref=f27e236]:
+              - link "New York" [ref=f27e237] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/new-york-state/new-york/hotels
+            - listitem [ref=f27e238]:
+              - link "Cotswolds" [ref=f27e239] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/england/cotswolds/hotels
+            - listitem [ref=f27e240]:
+              - link "Santorini" [ref=f27e241] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/greece/santorini/hotels
+            - listitem [ref=f27e242]:
+              - link "Marrakech" [ref=f27e243] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/destinations/morocco/marrakech/hotels
+        - generic [ref=f27e244]:
+          - button "Editorial articles" [ref=f27e245] [cursor=pointer]: Editorial articles
+          - list [ref=f27e248]:
+            - listitem [ref=f27e249]:
+              - link "Hotel lovers" [ref=f27e250] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/editorial/hotel-lovers
+            - listitem [ref=f27e251]:
+              - link "Style" [ref=f27e252] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/editorial/style
+            - listitem [ref=f27e253]:
+              - link "Food & drink" [ref=f27e254] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/editorial/food-drink
+            - listitem [ref=f27e255]:
+              - link "Places" [ref=f27e256] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/editorial/travel-guides
+            - listitem [ref=f27e257]:
+              - link "Wellness" [ref=f27e258] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/editorial/wellness
+            - listitem [ref=f27e259]:
+              - link "Design" [ref=f27e260] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/editorial/design
+            - listitem [ref=f27e261]:
+              - link "Culture" [ref=f27e262] [cursor=pointer]:
+                - /url: https://www.mrandmrssmith.com/editorial/culture
+      - generic [ref=f27e263]:
+        - paragraph [ref=f27e264]: Join the travel club for hotel lovers
+        - paragraph [ref=f27e265]: Sign up to get free Smith Extras on arrival and savings of up to 50% off
+        - button "Sign up" [ref=f27e266] [cursor=pointer]:
+          - generic [ref=f27e267]: Sign up
+      - tablist [ref=f27e270]:
+        - tab "ABOUT US" [ref=f27e271] [cursor=pointer]
+        - tab "BENEFITS" [ref=f27e272] [cursor=pointer]
+        - tab "GIFT SHOP" [ref=f27e273] [cursor=pointer]
+        - link "CONTACT US" [ref=f27e274] [cursor=pointer]:
+          - /url: https://www.mrandmrssmith.com/contact
+      - generic [ref=f27e275]:
+        - link "Instagram" [ref=f27e276] [cursor=pointer]:
+          - /url: https://www.instagram.com/mrandmrssmith/
+        - link "Facebook" [ref=f27e278] [cursor=pointer]:
+          - /url: https://www.facebook.com/smithhotels
+        - link "LinkedIn" [ref=f27e280] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/mr-mrs-smith
+        - link "TikTok" [ref=f27e282] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@mrandmrssmith
+    - generic [ref=f27e284]:
+      - img "Certified B Corporation" [ref=f27e286]
+      - iframe [ref=f27e289]:
+        - generic [ref=f31e2]:
+          - link "Trustpilot reviews" [ref=f31e3] [cursor=pointer]:
+            - /url: https://uk.trustpilot.com/review/www.mrandmrssmith.com?utm_medium=trustbox&utm_source=MicroTrustScore
+            - generic [ref=f31e4]: Excellent
+            - generic [ref=f31e5]: 4.6 out of 5
+            - img "Trustpilot" [ref=f31e9]
+          - generic [ref=f31e13]: Rated Excellent. 4.6 out of 5 on Trustpilot
+          - generic [ref=f31e14]: Click to view the company's Trustpilot profile
+      - generic [ref=f27e290]:
+        - text: Speak to a Smith travel specialist on
+        - link "+44 20 8338 7753" [ref=f27e291] [cursor=pointer]:
+          - /url: tel:+442083387753
+    - generic [ref=f27e292]:
+      - paragraph [ref=f27e293]: © 2026 Smith Global Ltd – Boutique and luxury hotels and villas
+      - list [ref=f27e294]:
+        - listitem [ref=f27e295]:
+          - link "Legal" [ref=f27e296] [cursor=pointer]:
+            - /url: /legal
+        - listitem [ref=f27e297]:
+          - link "FAQs" [ref=f27e298] [cursor=pointer]:
+            - /url: /faqs
+        - listitem [ref=f27e299]:
+          - link "Press" [ref=f27e300] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=f27e301]:
+          - link "Agents" [ref=f27e302] [cursor=pointer]:
+            - /url: /travel-agents
+        - listitem [ref=f27e303]:
+          - link "Careers" [ref=f27e304] [cursor=pointer]:
+            - /url: //careers.mrandmrssmith.com
+        - listitem [ref=f27e305]:
+          - link "Gift cards" [ref=f27e306] [cursor=pointer]:
+            - /url: /gift-cards
+        - listitem [ref=f27e307]:
+          - link "Accessibility" [ref=f27e308] [cursor=pointer]:
+            - /url: /digital-accessibility

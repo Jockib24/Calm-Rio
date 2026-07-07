@@ -1,0 +1,240 @@
+- generic [active] [ref=f77e1]:
+  - link "Skip to main content" [ref=f77e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f77e592]:
+    - paragraph [ref=f77e593]:
+      - text: By using Plum Guide, you agree to our
+      - link "Cookie Policy" [ref=f77e594] [cursor=pointer]:
+        - /url: /cookie-policy
+      - text: .
+    - button "Close" [ref=f77e595] [cursor=pointer]:
+      - img [ref=f77e597]
+  - banner [ref=f77e3]:
+    - button "Plum Guide" [ref=f77e5] [cursor=pointer]:
+      - img [ref=f77e7]
+    - generic [ref=f77e17]:
+      - button "Change your user settings" [ref=f77e18] [cursor=pointer]:
+        - generic [ref=f77e19]: EN
+        - generic [ref=f77e21]: MAD
+      - button "Log in" [ref=f77e22] [cursor=pointer]:
+        - img [ref=f77e24]
+        - img [ref=f77e31]
+  - main [ref=f77e38]:
+    - region "Search for vacation homes" [ref=f77e39]:
+      - img "Outdoor pool terrace with sun loungers overlooking a mountain landscape" [ref=f77e42]
+      - generic [ref=f77e44]:
+        - heading "Stay in the World's Most Remarkable Vacation Homes." [level=1] [ref=f77e46]
+        - list [ref=f77e51]:
+          - listitem [ref=f77e52]:
+            - button [ref=f77e54] [cursor=pointer]
+          - listitem [ref=f77e56]:
+            - button "Add dates" [ref=f77e58] [cursor=pointer]
+          - listitem [ref=f77e60]:
+            - button "Add guests" [ref=f77e62] [cursor=pointer]
+          - listitem [ref=f77e64]:
+            - button "Search" [ref=f77e65] [cursor=pointer]
+    - region "Featured destinations" [ref=f77e67]:
+      - generic [ref=f77e69]:
+        - heading "No time for average stays." [level=2] [ref=f77e70]
+        - paragraph [ref=f77e71]: We take the guesswork out of finding the perfect stay, vetting each home obsessively so you can book with total confidence.
+      - generic [ref=f77e76]:
+        - link "Italian countryside with Conde Nast award badge “BEST HOMESTAYS & VILLAS” Read more about the award" [ref=f77e78] [cursor=pointer]:
+          - /url: https://www.plumguide.com/journal/plum-guide-top-10-homestays-and-villas-conde-nast-traveller-reviews?utm_medium=homepage
+          - generic [ref=f77e79]:
+            - img "Italian countryside with Conde Nast award badge" [ref=f77e83]
+            - generic [ref=f77e84]
+        - link "Decadent Parisian home interior REMARKABLY PARISIAN View apartments in Paris" [ref=f77e91] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?listingId=9006&location=Paris--France&placeId=ChIJD7fiBh9u5kcRYJSMaMOCCwQ&propertyTypes=1&utm_medium=homepage
+          - generic [ref=f77e92]:
+            - img "Decadent Parisian home interior" [ref=f77e96]
+            - generic [ref=f77e97]
+        - link "Pool-side scenary in Mallorca SPLASH OUT STAYS View homes with a pool" [ref=f77e104] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?amenities=56&utm_medium=homepage
+          - generic [ref=f77e105]:
+            - img "Pool-side scenary in Mallorca" [ref=f77e109]
+            - generic [ref=f77e110]
+    - region "Why Plum Guide" [ref=f77e115]:
+      - generic [ref=f77e117]:
+        - heading "Trusted for a reason." [level=2] [ref=f77e118]
+        - paragraph [ref=f77e119]: Our dedication to exceptional guest experiences has earned us both industry recognition and traveler trust worldwide.
+      - generic [ref=f77e123]:
+        - img "Skift 2024 Award" [ref=f77e125]
+        - generic:
+          - img [ref=f77e126]
+          - img [ref=f77e173]
+          - img [ref=f77e220]
+      - generic [ref=f77e273]:
+        - link "The New Vibes London, England The New Vibes View homes in London" [ref=f77e275] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?listingId=1114265&location=London&placeId=ChIJdd4hrwug2EcRmSrV3Vo6llI&utm_medium=homepage
+          - generic [ref=f77e276]:
+            - img "The New Vibes" [ref=f77e280]
+            - generic [ref=f77e281]
+        - link "Be Our Guest Cassis, France BE OUR GUEST View homes in the South of France" [ref=f77e289] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?listingId=50661&location=Provence-Alpes-Côte-d'Azur&placeId=ChIJrVP5ihlothIRp9EWPSaQFrc&utm_medium=homepage
+          - generic [ref=f77e290]:
+            - img "Be Our Guest" [ref=f77e294]
+            - generic [ref=f77e295]
+        - link "Little Jewel ARROIOS, LISBON Little Jewel View homes in Lisbon" [ref=f77e303] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?listingId=1253532&location=Arroios&placeId=ChIJo1rldpszGQ0RC6R6T9uxjjE&utm_medium=homepage
+          - generic [ref=f77e304]:
+            - img "Little Jewel" [ref=f77e308]
+            - generic [ref=f77e309]
+        - link "Olive and Horizon Tuscany, Italy OLIVE & HORIZON View homes in Tuscany" [ref=f77e317] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?listingId=1409925&location=Tuscany--Italy&placeId=ChIJezSAEFMr1BIRq1kgW7rDxro&utm_medium=homepage
+          - generic [ref=f77e318]:
+            - img "Olive and Horizon" [ref=f77e322]
+            - generic [ref=f77e323]
+    - region "Harper's Bazaar quote" [ref=f77e329]:
+      - generic [ref=f77e335]:
+        - img [ref=f77e336]
+        - paragraph [ref=f77e338]:
+          - text: You'll never want
+          - text: to stay in a hotel again.
+        - img "Logo Harpers Bazaar"
+    - region "Curated stays" [ref=f77e339]:
+      - generic [ref=f77e340]:
+        - heading "We've done the hard work for you." [level=2] [ref=f77e342]
+        - paragraph [ref=f77e344]: Explore our curated collection of over 30,000 meticulously vetted stays, in 40+ of the most sought-after destinations - from London to Los Angeles, Paris to Tuscany.
+      - generic [ref=f77e349]:
+        - link "Dog next to fireplace TAKE BELLA FOR A TRIP View pet-friendly getaways" [ref=f77e351] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?petsAllowed=true&utm_medium=homepage
+          - generic [ref=f77e352]:
+            - img "Dog next to fireplace" [ref=f77e356]
+            - generic [ref=f77e357]
+        - link "Patio overlooking river GREAT BRITISH ESCAPE View homes in Devon" [ref=f77e364] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?listingId=46026&location=Devon&placeId=ChIJRwLA2qv4a0gR_Vicygy6xhI&utm_medium=homepage
+          - generic [ref=f77e365]:
+            - img "Patio overlooking river" [ref=f77e369]
+            - generic [ref=f77e370]
+        - link "Aerial shot of beachfront property SEA GAZING SPOTS View beachfront retreats" [ref=f77e377] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?occasions=23&utm_medium=homepage
+          - generic [ref=f77e378]:
+            - img "Aerial shot of beachfront property" [ref=f77e382]
+            - generic [ref=f77e383]
+        - link "Luxurious white living room LOS ANGELES HIGHLIGHTS View homes in Los Angeles" [ref=f77e390] [cursor=pointer]:
+          - /url: https://www.plumguide.com/search?defaultResultCount=32&location=Los-Angeles--CA--USA&placeId=ChIJE9on3F3HwoAR9AhGJW_fL-I&utm_medium=homepage
+          - generic [ref=f77e391]:
+            - img "Luxurious white living room" [ref=f77e395]
+            - generic [ref=f77e396]
+    - region "New York Times quote" [ref=f77e401]:
+      - generic [ref=f77e407]:
+        - img [ref=f77e408]
+        - paragraph [ref=f77e410]:
+          - text: High standards
+          - text: of service.
+        - img "Logo New York Times"
+    - region "Plum Guide Promise" [ref=f77e411]:
+      - heading "Plum Guide Promise." [level=2] [ref=f77e414]
+      - generic [ref=f77e419]:
+        - generic [ref=f77e422]:
+          - img "Home inspector investigating home" [ref=f77e426]
+          - generic [ref=f77e428]:
+            - paragraph [ref=f77e429]
+            - paragraph [ref=f77e430]: Our team of local experts vet every home, only accepting the top 3% to guarantee an exceptional stay every time.
+        - generic [ref=f77e434]:
+          - img "Portraits of matchmaking team" [ref=f77e438]
+          - generic [ref=f77e440]:
+            - paragraph [ref=f77e441]
+            - paragraph [ref=f77e442]: Efficient and empowered home and travel experts, whose sole task is to make your stay exceptional.
+        - generic [ref=f77e446]:
+          - img "Holding a phone displaying Plum Guide cancellation details" [ref=f77e450]
+          - generic [ref=f77e451]:
+            - generic [ref=f77e452]
+            - link "Terms apply" [ref=f77e455] [cursor=pointer]:
+              - /url: https://help.plumguide.com/en/articles/4812365-guest-cancellation-faqs
+    - region "Guest reviews" [ref=f77e457]:
+      - generic [ref=f77e460]:
+        - img [ref=f77e462]
+        - generic [ref=f77e465]:
+          - button "Previous slide" [ref=f77e466] [cursor=pointer]:
+            - img [ref=f77e467]
+          - generic [ref=f77e470]:
+            - generic [ref=f77e471]
+            - generic [ref=f77e478]
+            - generic [ref=f77e485]
+            - generic [ref=f77e492]
+          - button "Next slide" [ref=f77e499] [cursor=pointer]:
+            - img [ref=f77e500]
+    - generic:
+      - generic [ref=f77e611]:
+        - generic [ref=f77e612]:
+          - paragraph [ref=f77e614]: Get weekly travel inspiration, exclusive offers, and early access to our newest homes.
+          - paragraph [ref=f77e616]:
+            - text: By submitting this form, you agree to our
+            - link "Terms" [ref=f77e617] [cursor=pointer]:
+              - /url: https://www.plumguide.com/terms
+            - text: and
+            - link "Privacy Policy" [ref=f77e620] [cursor=pointer]:
+              - /url: https://www.plumguide.com/privacy-policy
+        - generic [ref=f77e624]:
+          - textbox "Enter your email address" [ref=f77e626]
+          - button "Subscribe" [ref=f77e627] [cursor=pointer]:
+            - generic [ref=f77e628]: Subscribe
+      - generic:
+        - generic:
+          - img "Subscribe banner travel scenery"
+    - region "Destinations directory" [ref=f77e502]:
+      - generic [ref=f77e504]:
+        - heading "Top Destinations" [level=3] [ref=f77e506]:
+          - button "Top Destinations" [ref=f77e507] [cursor=pointer]:
+            - text: Top Destinations
+            - img [ref=f77e508]
+        - heading "Destinations" [level=3] [ref=f77e511]:
+          - button "Destinations" [ref=f77e512] [cursor=pointer]:
+            - text: Destinations
+            - img [ref=f77e513]
+        - heading "Other stays" [level=3] [ref=f77e516]:
+          - button "Other stays" [ref=f77e517] [cursor=pointer]:
+            - text: Other stays
+            - img [ref=f77e518]
+  - contentinfo [ref=f77e520]:
+    - generic [ref=f77e523]:
+      - generic [ref=f77e524]:
+        - generic [ref=f77e525]:
+          - heading "Explore" [level=4] [ref=f77e526]
+          - list [ref=f77e527]:
+            - listitem [ref=f77e528]
+            - listitem [ref=f77e530]
+            - listitem [ref=f77e532]
+            - listitem [ref=f77e534]
+            - listitem [ref=f77e536]
+        - generic [ref=f77e538]:
+          - heading "Support" [level=4] [ref=f77e539]
+          - list [ref=f77e540]:
+            - listitem [ref=f77e541]
+            - listitem [ref=f77e543]
+            - listitem [ref=f77e545]
+            - listitem [ref=f77e547]
+            - listitem [ref=f77e549]
+        - generic [ref=f77e551]:
+          - heading "Plum Guide" [level=4] [ref=f77e552]
+          - list [ref=f77e553]:
+            - listitem [ref=f77e554]
+            - listitem [ref=f77e556]
+            - listitem [ref=f77e558]
+            - listitem [ref=f77e560]
+            - listitem [ref=f77e562]
+        - generic [ref=f77e564]:
+          - heading "Social" [level=4] [ref=f77e565]
+          - list [ref=f77e566]:
+            - listitem [ref=f77e567]
+            - listitem [ref=f77e571]
+            - listitem [ref=f77e575]
+      - separator [ref=f77e579]
+    - generic [ref=f77e582]:
+      - paragraph [ref=f77e583]: © Copyright Plum Guide 2026
+      - list [ref=f77e584]:
+        - listitem [ref=f77e585]:
+          - link "Terms" [ref=f77e586] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=f77e587]:
+          - text: "|"
+          - link "Privacy" [ref=f77e588] [cursor=pointer]:
+            - /url: /privacy-policy
+        - listitem [ref=f77e589]:
+          - text: "|"
+          - link "Sitemap" [ref=f77e590] [cursor=pointer]:
+            - /url: /sitemap
+        - listitem [ref=f77e591]: "| Cookie Preferences"
+  - alert [ref=f77e629]
+  - status [ref=f77e630]

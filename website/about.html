@@ -23,11 +23,10 @@
   <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/style.css">
 
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
@@ -101,34 +100,34 @@
     <section class="section" aria-labelledby="hosts-story-title">
       <div class="container">
         <!-- Personal story -->
-        <div style="max-width:800px;margin:0 auto;text-align:center;">
-          <div style="width:100px;height:100px;border-radius:50%;background:var(--color-accent);margin:0 auto var(--space-5);display:flex;align-items:center;justify-content:center;color:white;font-size:2.5rem;font-weight:700;font-family:var(--font-heading);">CR</div>
-          <h2 class="section__title" id="hosts-story-title" style="text-align:center;">Rencontrez vos hôtes</h2>
-          <p style="font-size:var(--lead-size);color:var(--color-text);line-height:var(--lead-line-height);margin-bottom:var(--space-5);max-width:650px;margin-left:auto;margin-right:auto;">
+        <div class="max-w-800 mx-auto text-center">
+          <div class="about-logo-circle">CR</div>
+          <h2 class="section__title" id="hosts-story-title">Rencontrez vos hôtes</h2>
+          <p class="text-lg text-heading mb-5 mx-auto max-w-600">
             CalmRio est né d'une passion pour la côte atlantique et du désir de partager ses plus beaux secrets.
           </p>
-          <p style="color:var(--color-text-secondary);margin-bottom:var(--space-4);">
+          <p class="text-body mb-4">
             Après avoir passé des années à explorer les plages sauvages de l'île d'Oléron et les ruelles colorées de Royan, nous avons eu un coup de cœur pour cette région que nous appelons désormais notre chez-nous. Chaque propriété CalmRio a été choisie pour son âme, son emplacement d'exception et son potentiel à offrir des souvenirs inoubliables.
           </p>
-          <p style="color:var(--color-text-secondary);margin-bottom:var(--space-4);">
+          <p class="text-body mb-4">
             Nous vivons à proximité de nos propriétés et sommes toujours disponibles pour vous accueillir, vous conseiller et vous faire découvrir les adresses que seuls les locaux connaissent. Pour nous, l'hospitalité n'est pas un métier, c'est une philosophie.
           </p>
-          <div style="display:flex;gap:var(--space-6);justify-content:center;flex-wrap:wrap;margin-top:var(--space-6);">
-            <div style="text-align:center;">
-              <div style="font-size:2rem;font-weight:700;font-family:var(--font-heading);color:var(--color-accent);">3</div>
-              <div style="font-size:0.875rem;color:var(--color-text-muted);">Propriétés</div>
+          <div class="d-flex justify-center flex-wrap mt-6 gap-6">
+            <div class="text-center">
+              <div class="text-2xl fw-700 font-heading text-accent">3</div>
+              <div class="text-14 text-muted">Propriétés</div>
             </div>
-            <div style="text-align:center;">
-              <div style="font-size:2rem;font-weight:700;font-family:var(--font-heading);color:var(--color-accent);">★ 4,95</div>
-              <div style="font-size:0.875rem;color:var(--color-text-muted);">Note moyenne</div>
+            <div class="text-center">
+              <div class="text-2xl fw-700 font-heading text-accent">★ 4,95</div>
+              <div class="text-14 text-muted">Note moyenne</div>
             </div>
-            <div style="text-align:center;">
-              <div style="font-size:2rem;font-weight:700;font-family:var(--font-heading);color:var(--color-accent);">50+</div>
-              <div style="font-size:0.875rem;color:var(--color-text-muted);">Voyageurs accueillis</div>
+            <div class="text-center">
+              <div class="text-2xl fw-700 font-heading text-accent">50+</div>
+              <div class="text-14 text-muted">Voyageurs accueillis</div>
             </div>
-            <div style="text-align:center;">
-              <div style="font-size:2rem;font-weight:700;font-family:var(--font-heading);color:var(--color-accent);">100%</div>
-              <div style="font-size:0.875rem;color:var(--color-text-muted);">Satisfaction</div>
+            <div class="text-center">
+              <div class="text-2xl fw-700 font-heading text-accent">100%</div>
+              <div class="text-14 text-muted">Satisfaction</div>
             </div>
           </div>
         </div>
@@ -138,7 +137,7 @@
     <!-- ============================================================ -->
     <!-- STORY SECTION                                                -->
     <!-- ============================================================ -->
-    <section class="section about-story" aria-labelledby="story-title">
+    <section class="section about-story fade-in" aria-labelledby="story-title">
       <div class="container">
         <div class="story-content">
           <p>
@@ -157,7 +156,7 @@
     <!-- ============================================================ -->
     <!-- HOSTS SECTION                                                -->
     <!-- ============================================================ -->
-    <section class="section section--alt about-hosts" aria-labelledby="hosts-title">
+    <section class="section section--alt about-hosts fade-in" aria-labelledby="hosts-title">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Nos hôtes</span>
@@ -165,10 +164,10 @@
           <p class="section__subtitle">Chaque propriété est gérée avec soin par des hôtes qui connaissent et aiment leur région.</p>
         </div>
 
-        <div class="hosts-grid">
+        <div class="hosts-grid stagger-children">
           <!-- Host 1: Mélanie — Royan -->
           <article class="host-card">
-            <div class="host-photo" role="img" aria-label="Photo de Mélanie, hôte à Royan" style="background: var(--color-bg-alt); display: flex; align-items: center; justify-content: center;">
+            <div class="host-photo bg-alt d-flex items-center justify-center" role="img" aria-label="Photo de Mélanie, hôte à Royan">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
@@ -183,7 +182,7 @@
 
           <!-- Host 2: Agnès — Saint-Trojan-les-Bains -->
           <article class="host-card">
-            <div class="host-photo" role="img" aria-label="Photo d'Agnès, Superhost à Saint-Trojan-les-Bains" style="background: var(--color-bg-alt); display: flex; align-items: center; justify-content: center;">
+            <div class="host-photo bg-alt d-flex items-center justify-center" role="img" aria-label="Photo d'Agnès, Superhost à Saint-Trojan-les-Bains">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                 <circle cx="12" cy="7" r="4"></circle>
@@ -202,7 +201,7 @@
     <!-- ============================================================ -->
     <!-- VALUES SECTION                                               -->
     <!-- ============================================================ -->
-    <section class="section about-values" aria-labelledby="values-title">
+    <section class="section about-values fade-in" aria-labelledby="values-title">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Nos valeurs</span>
@@ -210,7 +209,7 @@
           <p class="section__subtitle">Trois piliers qui guident chacune de nos décisions.</p>
         </div>
 
-        <div class="values-grid">
+        <div class="values-grid stagger-children">
           <!-- Value 1 -->
           <div class="value-card">
             <div class="value-icon" aria-hidden="true">
@@ -255,7 +254,7 @@
     <!-- ============================================================ -->
     <!-- PORTFOLIO SECTION                                            -->
     <!-- ============================================================ -->
-    <section class="section section--alt about-portfolio" aria-labelledby="portfolio-title">
+    <section class="section section--alt about-portfolio fade-in" aria-labelledby="portfolio-title">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Notre collection</span>
@@ -263,7 +262,7 @@
           <p class="section__subtitle">De Royan à l'Île d'Oléron, trois lieux uniques pour des vacances inoubliables.</p>
         </div>
 
-        <div class="portfolio-grid card-grid">
+        <div class="portfolio-grid card-grid stagger-children">
           <!-- Royan Apartment -->
           <article class="card card--property">
             <div class="card__image card__image--16-9">
@@ -334,7 +333,7 @@
     <!-- ============================================================ -->
     <!-- CTA SECTION                                                  -->
     <!-- ============================================================ -->
-    <section class="cta-section" aria-labelledby="about-cta-title">
+    <section class="cta-section fade-in" aria-labelledby="about-cta-title">
       <div class="container">
         <h2 class="cta-section__title" id="about-cta-title">Prêt à découvrir nos locations ?</h2>
         <p class="cta-section__text">Trouvez le refuge parfait pour vos prochaines vacances sur la côte atlantique.</p>
@@ -349,7 +348,7 @@
   <!-- ============================================================ -->
   <!-- FOOTER                                                       -->
   <!-- ============================================================ -->
-  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+  <footer class="site-footer fade-in" role="contentinfo" aria-label="Pied de page">
     <div class="footer-inner">
       <div class="footer-grid">
         <!-- Brand Column -->
@@ -422,6 +421,6 @@
     </div>
   </footer>
 
-  <script type="module" src="assets/js/app.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
 </body>
 </html>

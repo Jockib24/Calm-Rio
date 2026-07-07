@@ -1,0 +1,432 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - navigation "Primary" [ref=f10e4]:
+        - generic [ref=f10e6]:
+          - generic [ref=f10e7]:
+            - link "+44 20 7377 8518" [ref=f10e8] [cursor=pointer]:
+              - /url: tel:+442073778518
+              - img [ref=f10e9]
+              - generic [ref=f10e11]: +44 20 7377 8518
+            - link "Open until 10:30 PM today" [ref=f10e12] [cursor=pointer]:
+              - /url: https://www.thethinkingtraveller.com/contact
+              - generic [ref=f10e14]: Open until 10:30 PM today
+          - link "enquires" [ref=f10e15] [cursor=pointer]:
+            - /url: https://www.thethinkingtraveller.com/enquiries
+            - img [ref=f10e16]
+            - generic [ref=f10e18]: Enquire
+        - link "The Thinking Traveller" [ref=f10e20] [cursor=pointer]:
+          - /url: https://www.thethinkingtraveller.com/
+          - generic [ref=f10e21]: The Thinking Traveller
+          - img [ref=f10e22]
+        - generic [ref=f10e45]:
+          - 'complementary "Language selected: English" [ref=f10e49]':
+            - 'combobox "Language Switcher: English" [ref=f10e50]':
+              - link "English" [ref=f10e51] [cursor=pointer]:
+                - /url: "#"
+          - button "View Shortlist" [ref=f10e52] [cursor=pointer]:
+            - img [ref=f10e53]
+          - link "Account" [ref=f10e55] [cursor=pointer]:
+            - /url: https://www.thethinkingtraveller.com/account
+            - img [ref=f10e56]
+            - generic [ref=f10e58]: Account
+          - button "Search" [ref=f10e59] [cursor=pointer]:
+            - img [ref=f10e60]
+            - generic [ref=f10e62]: Search
+      - generic [ref=f10e64]:
+        - button "Our villas" [ref=f10e65] [cursor=pointer]
+        - button "Destinations" [ref=f10e66] [cursor=pointer]
+        - button "Experiences" [ref=f10e67] [cursor=pointer]
+        - button "Inspiration" [ref=f10e68] [cursor=pointer]
+        - button "About us" [ref=f10e69] [cursor=pointer]
+    - main [ref=f10e70]:
+      - generic [ref=f10e72]:
+        - generic [ref=f10e74]:
+          - img "<span class=\"italic\">Where</span><br> <span class=\"uppercase\">villa memories</span><br> <span class=\"italic\">are made</span>" [ref=f10e75]
+          - iframe [ref=f10e76]:
+            
+          - generic [ref=f10e78]:
+            - heading "Where villa memories are made" [level=1] [ref=f10e81]:
+              - text: Where
+              - text: villa memories
+              - text: are made
+            - link "button" [ref=f10e83] [cursor=pointer]:
+              - /url: /results
+              - text: Browse our villas
+            - generic [ref=f10e85]:
+              - button "Destinations" [ref=f10e87] [cursor=pointer]:
+                - text: Destinations
+                - img [ref=f10e88]
+              - button "Dates" [ref=f10e91] [cursor=pointer]:
+                - text: Dates
+                - img [ref=f10e92]
+              - button "Guests" [ref=f10e95] [cursor=pointer]:
+                - text: Guests
+                - img [ref=f10e96]
+              - button "bedrooms" [ref=f10e99] [cursor=pointer]:
+                - text: bedrooms
+                - img [ref=f10e100]
+              - button "button" [ref=f10e102] [cursor=pointer]: Search Villas
+        - generic [ref=f10e104]:
+          - generic [ref=f10e106]:
+            - heading "Extraordinary Villas, Lifelong Memories" [level=2] [ref=f10e107]
+            - generic [ref=f10e108]:
+              - generic [ref=f10e109]:
+                - generic [ref=f10e110]:
+                  - generic [ref=f10e111]: "1."
+                  - heading "Exceptional, Exclusive Villas" [level=3] [ref=f10e112]
+                - paragraph [ref=f10e113]: Our villas are only operated exclusively through us, ensuring award-winning quality of both properties and service, and real-time availability to book online with complete confidence.
+              - generic [ref=f10e114]:
+                - generic [ref=f10e115]:
+                  - generic [ref=f10e116]: "2."
+                  - heading "Unrivalled Local Knowledge" [level=3] [ref=f10e117]
+                - paragraph [ref=f10e118]: We're locals, deeply rooted in our destinations, with a passion for sharing the places we love and know like no one else.
+              - generic [ref=f10e119]:
+                - generic [ref=f10e120]:
+                  - generic [ref=f10e121]: "3."
+                  - heading "Personal Service" [level=3] [ref=f10e122]
+                - paragraph [ref=f10e123]: Our experts have visited each villa personally, so they can listen to your needs and help you find your perfect place.
+            - generic [ref=f10e124]:
+              - link "button" [ref=f10e125] [cursor=pointer]:
+                - /url: /results
+                - text: Search all villas
+              - link "button" [ref=f10e126] [cursor=pointer]:
+                - /url: /enquiries
+                - text: Enquire
+            - generic [ref=f10e127]:
+              - link "BCorp Logo" [ref=f10e128] [cursor=pointer]:
+                - /url: /responsible-business
+                - img "BCorp Logo" [ref=f10e129]
+              - link "Winner of Condé Nast Traveller's 2025 Best Villa Rental Company in the World" [ref=f10e133] [cursor=pointer]:
+                - /url: /conde-nast-traveller-readers-travel-awards
+                - img "Winner of Condé Nast Traveller's 2025 Best Villa Rental Company in the World" [ref=f10e134]
+          - generic [ref=f10e136]:
+            - heading "Top Collections" [level=2] [ref=f10e137]
+            - region [ref=f10e138]:
+              - generic [ref=f10e140]:
+                - group [ref=f10e141]:
+                  - link "Villas in Sardinia Villas in Sardinia Find Your Sardinian Escape" [ref=f10e143] [cursor=pointer]:
+                    - /url: /collections/all-villas-in-sardinia
+                    - generic [ref=f10e144]:
+                      - img "Villas in Sardinia" [ref=f10e146]
+                      - generic [ref=f10e148]:
+                        - heading "Villas in Sardinia" [level=3] [ref=f10e149]
+                        - heading "Find Your Sardinian Escape" [level=4] [ref=f10e150]:
+                          - text: Find Your Sardinian Escape
+                          - img [ref=f10e151]
+                - group [ref=f10e153]:
+                  - link "Large family villas Large family villas Find the perfect family villa" [ref=f10e155] [cursor=pointer]:
+                    - /url: /collections/villas-in-the-mediterranean-for-two-families-to-share
+                    - generic [ref=f10e156]:
+                      - img "Large family villas" [ref=f10e158]
+                      - generic [ref=f10e160]:
+                        - heading "Large family villas" [level=3] [ref=f10e161]
+                        - heading "Find the perfect family villa" [level=4] [ref=f10e162]:
+                          - text: Find the perfect family villa
+                          - img [ref=f10e163]
+                - group [ref=f10e165]:
+                  - link "Villas in Puglia Villas in Puglia Find Your Puglian Escape" [ref=f10e167] [cursor=pointer]:
+                    - /url: "/collections/all-villas-in-puglia "
+                    - generic [ref=f10e168]:
+                      - img "Villas in Puglia" [ref=f10e170]
+                      - generic [ref=f10e172]:
+                        - heading "Villas in Puglia" [level=3] [ref=f10e173]
+                        - heading "Find Your Puglian Escape" [level=4] [ref=f10e174]:
+                          - text: Find Your Puglian Escape
+                          - img [ref=f10e175]
+                - group [ref=f10e177]:
+                  - link "Villas in Sicily Villas in Sicily View Sicily's best villas" [ref=f10e179] [cursor=pointer]:
+                    - /url: /collections/all-villas-in-sicily
+                    - generic [ref=f10e180]:
+                      - img "Villas in Sicily" [ref=f10e182]
+                      - generic [ref=f10e184]:
+                        - heading "Villas in Sicily" [level=3] [ref=f10e185]
+                        - heading "View Sicily's best villas" [level=4] [ref=f10e186]:
+                          - text: View Sicily's best villas
+                          - img [ref=f10e187]
+                - group [ref=f10e189]:
+                  - link "Villas in Tuscany Villas in Tuscany Find Your Tuscan Escape" [ref=f10e191] [cursor=pointer]:
+                    - /url: /collections/villas-in-tuscany
+                    - generic [ref=f10e192]:
+                      - img "Villas in Tuscany" [ref=f10e194]
+                      - generic [ref=f10e196]:
+                        - heading "Villas in Tuscany" [level=3] [ref=f10e197]
+                        - heading "Find Your Tuscan Escape" [level=4] [ref=f10e198]:
+                          - text: Find Your Tuscan Escape
+                          - img [ref=f10e199]
+                - group [ref=f10e201]:
+                  - link "Villas on the sea Villas on the sea Villas with a gate to the sea" [ref=f10e203] [cursor=pointer]:
+                    - /url: /collections/all-our-villas-on-the-sea
+                    - generic [ref=f10e204]:
+                      - img "Villas on the sea" [ref=f10e206]
+                      - generic [ref=f10e208]:
+                        - heading "Villas on the sea" [level=3] [ref=f10e209]
+                        - heading "Villas with a gate to the sea" [level=4] [ref=f10e210]:
+                          - text: Villas with a gate to the sea
+                          - img [ref=f10e211]
+                - group [ref=f10e213]:
+                  - link "See more Explore our collections" [ref=f10e214] [cursor=pointer]:
+                    - /url: https://www.thethinkingtraveller.com/collections
+                    - generic [ref=f10e216]:
+                      - heading "See more" [level=3] [ref=f10e217]
+                      - heading "Explore our collections" [level=4] [ref=f10e218]:
+                        - text: Explore our collections
+                        - img [ref=f10e219]
+              - button "button" [disabled]:
+                - img
+                - generic: Previous slide
+              - button "button" [ref=f10e221] [cursor=pointer]:
+                - img [ref=f10e222]
+                - generic [ref=f10e224]: Next slide
+              - heading "button" [level=3] [ref=f10e225]:
+                - link "button" [ref=f10e226] [cursor=pointer]:
+                  - /url: /results
+                  - text: Search all villas
+          - region [ref=f10e228]:
+            - generic [ref=f10e230]:
+              - group [ref=f10e231]:
+                - generic [ref=f10e233]:
+                  - img "Discover The Salento" [ref=f10e235]
+                  - generic [ref=f10e237]:
+                    - heading "Discover The Salento" [level=3] [ref=f10e238]
+                    - generic [ref=f10e239]: At the sun-drenched tip of Puglia, The Salento captivates with its baroque towns, ancient olive groves and two spectacular coastlines. A refreshing sea breeze offers welcome relief on warm August days, with hidden coves and golden beaches, exceptional seafood and relaxed coastal living, this corner of southern Italy offers an unforgettable setting for a villa escape.
+                    - link "View Villas in The Salento" [ref=f10e240] [cursor=pointer]:
+                      - /url: /italy/puglia/the-salento
+              - group [ref=f10e241]:
+                - generic [ref=f10e243]:
+                  - img "Short Stay Offers" [ref=f10e245]
+                  - generic [ref=f10e247]:
+                    - heading "Short Stay Offers" [level=3] [ref=f10e248]
+                    - generic [ref=f10e249]: This summer, a limited number of our finest villas are available for shorter stays. Ideal for those looking to complement a longer Mediterranean journey, or experience villa life for the first time, these properties offer a flexible way to enjoy some of our most popular homes. With limited availability throughout July and August, selected dates also benefit from special savings of up to 50%.
+                    - link "View Villas" [ref=f10e250] [cursor=pointer]:
+                      - /url: /short-stays-this-summer
+              - group [ref=f10e251]:
+                - generic [ref=f10e253]:
+                  - img "August Villas, Thoughtfully Priced" [ref=f10e255]
+                  - generic [ref=f10e257]:
+                    - heading "August Villas, Thoughtfully Priced" [level=3] [ref=f10e258]
+                    - generic [ref=f10e259]: We know that for many families, August is the only window for a summer escape, and travelling with school-age children comes with its own rhythm. To make things a little easier, we’re offering a little something extra this season. Our exclusive collection of family-friendly villas now includes savings of up to 20%, with all reductions already applied to the price. That means less time calculating and more time planning the kind of holiday that works for everyone.
+                    - link "View Villas" [ref=f10e260] [cursor=pointer]:
+                      - /url: /collections/august-family-villas-with-reductions
+              - group [ref=f10e261]:
+                - generic [ref=f10e263]:
+                  - img "October Half Term" [ref=f10e265]
+                  - generic [ref=f10e267]:
+                    - heading "October Half Term" [level=3] [ref=f10e268]
+                    - generic [ref=f10e269]: "Autumn is one of the Mediterranean’s most rewarding seasons to travel. For those making the most of a half-term or fall break, (and with many UK schools introducing a two week holiday this year), it’s an ideal time to escape: the sea remains warm, the pace is gentle, and the summer crowds are gone."
+                    - link "Book Now" [ref=f10e270] [cursor=pointer]:
+                      - /url: "/results?dateSelectionType=flexible&flex_startDate=2026-10-01&flex_endDate=2026-10-31&flex_NumberOfNights=7 "
+              - group [ref=f10e271]:
+                - generic [ref=f10e273]:
+                  - img "Sardinia, new for 2026" [ref=f10e275]
+                  - generic [ref=f10e277]:
+                    - heading "Sardinia, new for 2026" [level=3] [ref=f10e278]
+                    - generic [ref=f10e279]: Our most requested destination by our customers and it's easy to see why. Legendary white-sand beaches and electric-blue waters meet authentic mountain villages, rich history, and natural beauty. Our new, hand-picked collection of villas offer exclusive coastal living and bespoke experiences, making Sardinia an irresistible location.
+                    - link "View Sardinian Villas" [ref=f10e280] [cursor=pointer]:
+                      - /url: /italy/sardinia
+            - button "button" [ref=f10e281] [cursor=pointer]:
+              - img [ref=f10e282]
+              - generic [ref=f10e284]: Previous slide
+            - button "button" [ref=f10e285] [cursor=pointer]:
+              - img [ref=f10e286]
+              - generic [ref=f10e288]: Next slide
+          - generic [ref=f10e290]:
+            - img "Condé Nast Choice 2025" [ref=f10e291]
+            - heading "Extraordinary, Exclusive Villas" [level=2] [ref=f10e292]
+            - paragraph [ref=f10e293]: Our villas are only operated exclusively through us, ensuring award-winning quality of both properties and service. This exclusivity also guarantees secure, 24/7 online booking with real-time availability, meaning you can reserve with complete confidence.
+            - link "button" [ref=f10e294] [cursor=pointer]:
+              - /url: /enquiries
+              - text: Request Tailored Suggestions
+              - img [ref=f10e295]
+        - generic [ref=f10e298]:
+          - img "Greece" [ref=f10e299]
+          - generic [ref=f10e301]:
+            - heading "Our destinations" [level=2] [ref=f10e302]
+            - generic [ref=f10e303]:
+              - link "Greece Greece" [ref=f10e304] [cursor=pointer]:
+                - /url: /greece
+                - generic [ref=f10e305]:
+                  - heading "Greece" [level=3] [ref=f10e306]
+                  - paragraph [ref=f10e307]: Greece
+              - link "Sicily Sicily" [ref=f10e308] [cursor=pointer]:
+                - /url: /italy/sicily
+                - generic [ref=f10e309]:
+                  - heading "Sicily" [level=3] [ref=f10e310]
+                  - paragraph [ref=f10e311]: Sicily
+              - link "Puglia Puglia" [ref=f10e312] [cursor=pointer]:
+                - /url: /italy/puglia
+                - generic [ref=f10e313]:
+                  - heading "Puglia" [level=3] [ref=f10e314]
+                  - paragraph [ref=f10e315]: Puglia
+              - link "Corsica Corsica" [ref=f10e316] [cursor=pointer]:
+                - /url: /france/corsica
+                - generic [ref=f10e317]:
+                  - heading "Corsica" [level=3] [ref=f10e318]
+                  - paragraph [ref=f10e319]: Corsica
+              - link "Tuscany Tuscany" [ref=f10e320] [cursor=pointer]:
+                - /url: /italy/tuscany
+                - generic [ref=f10e321]:
+                  - heading "Tuscany" [level=3] [ref=f10e322]
+                  - paragraph [ref=f10e323]: Tuscany
+              - link "Sardinia Sardinia" [ref=f10e324] [cursor=pointer]:
+                - /url: /italy/sardinia
+                - generic [ref=f10e325]:
+                  - heading "Sardinia" [level=3] [ref=f10e326]
+                  - paragraph [ref=f10e327]: Sardinia
+            - heading "button" [level=3] [ref=f10e328]:
+              - link "button" [ref=f10e329] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/results
+                - text: Search all villas
+        - generic [ref=f10e334]:
+          - generic [ref=f10e335]:
+            - img "Door illustration"
+          - generic [ref=f10e336]:
+            - heading "Speak to our Villa Specialists" [level=2] [ref=f10e337]
+            - paragraph [ref=f10e338]: If booking online does not suit you, our experts have visited each villa personally, so they can listen to your needs and help you find your perfect place.
+            - generic [ref=f10e339]:
+              - link "Call us" [ref=f10e340] [cursor=pointer]:
+                - /url: tel:+442073778518
+                - img [ref=f10e342]
+                - text: Call us
+              - link "Enquire" [ref=f10e345] [cursor=pointer]:
+                - /url: /enquiries
+                - img [ref=f10e347]
+                - text: Enquire
+    - generic [ref=f10e351]:
+      - generic [ref=f10e353]:
+        - combobox [ref=f10e354] [cursor=pointer]:
+          - generic: € EUR
+          - img [ref=f10e355]
+        - 'complementary "Language selected: English" [ref=f10e359]':
+          - 'combobox "Language Switcher: English" [ref=f10e360]':
+            - link "English" [ref=f10e361] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f10e363]:
+        - generic [ref=f10e364]:
+          - generic [ref=f10e365]:
+            - generic [ref=f10e366]: Your keys to our house
+            - generic [ref=f10e367]: Sign up to our newsletter for beautiful villas, destinations and things to do
+            - generic [ref=f10e368]:
+              - generic [ref=f10e369]: Email
+              - generic [ref=f10e370]:
+                - textbox "Email" [ref=f10e371]:
+                  - /placeholder: Enter email address
+                - button "Submit" [ref=f10e372] [cursor=pointer]:
+                  - generic [ref=f10e373]: Submit
+                  - img [ref=f10e374]
+          - paragraph [ref=f10e376]: Winner of Condé Nast Traveller’s 2025 Best Villa Rental Company in the World
+          - generic [ref=f10e377]:
+            - generic [ref=f10e378]:
+              - link "Instagram" [ref=f10e379] [cursor=pointer]:
+                - /url: https://www.instagram.com/thethinkingtraveller/
+                - generic [ref=f10e380]: Instagram
+                - img [ref=f10e381]
+              - link "YouTube" [ref=f10e384] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/thethinkingtraveller
+                - generic [ref=f10e385]: YouTube
+                - img [ref=f10e386]
+              - link "Facebook" [ref=f10e388] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheThinkingTraveller
+                - generic [ref=f10e389]: Facebook
+                - img [ref=f10e390]
+              - link "LinkedIn" [ref=f10e393] [cursor=pointer]:
+                - /url: https://uk.linkedin.com/company/the-thinking-traveller-ltd.
+                - generic [ref=f10e394]: LinkedIn
+                - img [ref=f10e395]
+            - generic [ref=f10e397]:
+              - link "BCorp Logo" [ref=f10e398] [cursor=pointer]:
+                - /url: /responsible-business
+                - img "BCorp Logo" [ref=f10e399]
+              - link "Condé Nast Choice 2025" [ref=f10e403] [cursor=pointer]:
+                - /url: /conde-nast-traveller-readers-travel-awards
+                - img "Condé Nast Choice 2025" [ref=f10e404]
+        - generic [ref=f10e405]:
+          - generic [ref=f10e406]:
+            - generic [ref=f10e407]:
+              - generic [ref=f10e408]: Our destinations
+              - generic [ref=f10e409]:
+                - link "Greece" [ref=f10e410] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/greece
+                - link "Sicily" [ref=f10e411] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/italy/sicily
+                - link "Puglia" [ref=f10e412] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/italy/puglia
+                - link "Tuscany" [ref=f10e413] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/italy/tuscany
+                - link "Sardinia" [ref=f10e414] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/italy/sardinia
+                - link "Corsica" [ref=f10e415] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/france/corsica
+                - link "All destinations" [ref=f10e416] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/results
+            - generic [ref=f10e417]:
+              - generic [ref=f10e418]: Booking your villa
+              - generic [ref=f10e419]:
+                - link "Login to your Account" [ref=f10e420] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/account
+                - link "Booking conditions" [ref=f10e421] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/booking-your-holiday/conditions
+                - link "Contact us" [ref=f10e422] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/contact
+                - link "FAQ" [ref=f10e423] [cursor=pointer]:
+                  - /url: https://www.thethinkingtraveller.com/faq
+          - generic [ref=f10e426]:
+            - generic [ref=f10e427]: Our company
+            - generic [ref=f10e428]:
+              - link "Travel Notes blog" [ref=f10e429] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/blog
+              - link "About us" [ref=f10e430] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/about-us
+              - link "Awards" [ref=f10e431] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/conde-nast-traveller-readers-travel-awards
+              - link "Careers" [ref=f10e432] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/careers
+              - link "Travel agents" [ref=f10e433] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/travel-agents
+              - link "Press enquiries" [ref=f10e434] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/press-coverage/press-enquiries
+              - link "Villa owners" [ref=f10e435] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/rent-your-villa-with-us
+              - link "Responsible business" [ref=f10e436] [cursor=pointer]:
+                - /url: https://www.thethinkingtraveller.com/responsible-business
+          - generic [ref=f10e437]:
+            - generic [ref=f10e438]:
+              - generic [ref=f10e439]: London
+              - generic [ref=f10e441]:
+                - generic [ref=f10e442]:
+                  - paragraph [ref=f10e443]: The Old Truman Brewery
+                  - paragraph [ref=f10e444]: 91-95 Brick Lane
+                  - paragraph [ref=f10e445]: London, E1 6QL
+                  - paragraph [ref=f10e446]: United Kingdom
+                - link "+44 20 7377 8518" [ref=f10e447] [cursor=pointer]:
+                  - /url: tel:+442073778518
+            - generic [ref=f10e448]:
+              - generic [ref=f10e449]: Athens
+              - generic [ref=f10e451]:
+                - paragraph [ref=f10e452]: Ethnikis Antistaseos 73
+                - paragraph [ref=f10e453]: Halandri, Athens 15231
+                - paragraph [ref=f10e454]: Greece
+                - link "+30 210 721 5530" [ref=f10e455] [cursor=pointer]:
+                  - /url: tel:+302107215530
+      - generic [ref=f10e457]:
+        - link "Excellent 4.7/5 1,201 Reviews" [ref=f10e458] [cursor=pointer]:
+          - /url: https://uk.trustpilot.com/review/thethinkingtraveller.com
+          - generic [ref=f10e459]:
+            - paragraph [ref=f10e460]: Excellent
+            - img [ref=f10e461]
+            - paragraph [ref=f10e467]: 4.7/5
+          - generic [ref=f10e468]:
+            - paragraph [ref=f10e469]: 1,201 Reviews
+            - img [ref=f10e470]
+        - generic [ref=f10e476]:
+          - link "Privacy & Conditions" [ref=f10e477] [cursor=pointer]:
+            - /url: https://www.thethinkingtraveller.com/privacy-policy
+          - link "Terms of Use" [ref=f10e478] [cursor=pointer]:
+            - /url: https://www.thethinkingtraveller.com/terms-of-use
+          - link "Cookie Policy" [ref=f10e479] [cursor=pointer]:
+            - /url: https://www.thethinkingtraveller.com/cookie-information
+          - button "Cookie Preferences" [ref=f10e480] [cursor=pointer]
+          - generic [ref=f10e481]: "Company Reg No: 04421653"
+          - generic [ref=f10e482]: Copyright © 2002-2026
+  - region "Notifications alt+T"
+  - alert [ref=f10e483]

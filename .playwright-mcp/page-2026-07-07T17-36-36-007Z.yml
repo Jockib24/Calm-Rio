@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CalmRio — Accueil" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - text: CalmRio
+      - navigation "Navigation principale" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Accueil" [ref=e9] [cursor=pointer]:
+              - /url: index.html
+          - listitem [ref=e10]:
+            - link "Nos Locations" [ref=e11] [cursor=pointer]:
+              - /url: index.html#nos-locations
+          - listitem [ref=e12]:
+            - link "Guide Local" [ref=e13] [cursor=pointer]:
+              - /url: local-guide.html
+          - listitem [ref=e14]:
+            - link "Blog" [ref=e15] [cursor=pointer]:
+              - /url: blog/
+          - listitem [ref=e16]:
+            - link "À Propos" [ref=e17] [cursor=pointer]:
+              - /url: about.html
+          - listitem [ref=e18]:
+            - link "Contact" [ref=e19] [cursor=pointer]:
+              - /url: contact.html
+      - link "Switch to English" [ref=e20] [cursor=pointer]:
+        - /url: /en/mentions-legales.html
+        - text: EN
+      - button "Activer le thème sombre" [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+      - link "Réserver" [ref=e24] [cursor=pointer]:
+        - /url: index.html#nos-locations
+  - main [ref=e25]:
+    - navigation "Fil d'Ariane" [ref=e26]:
+      - link "Accueil" [ref=e28] [cursor=pointer]:
+        - /url: index.html
+      - generic [ref=e29]: / Mentions Légales
+    - region "Mentions Légales" [ref=e30]:
+      - generic [ref=e32]:
+        - heading "Mentions Légales" [level=1] [ref=e33]
+        - paragraph [ref=e34]: Informations légales relatives au site CalmRio
+    - region [ref=e35]:
+      - generic [ref=e36]:
+        - heading "1. Éditeur du site" [level=2] [ref=e37]
+        - paragraph [ref=e38]:
+          - strong [ref=e39]: CalmRio
+        - paragraph [ref=e40]:
+          - text: "Email :"
+          - link "contact@calm-rio.com" [ref=e41] [cursor=pointer]:
+            - /url: mailto:contact@calm-rio.com
+        - heading "2. Directeur de la publication" [level=2] [ref=e42]
+        - paragraph [ref=e43]: Le directeur de la publication est la personne physique ou morale responsable de la gestion de CalmRio.
+        - heading "3. Hébergement" [level=2] [ref=e44]
+        - paragraph [ref=e45]: "Le site calm-rio.com est hébergé par :"
+        - paragraph [ref=e46]:
+          - text: "[Nom de l'hébergeur]"
+          - text: "[Adresse de l'hébergeur]"
+          - text: "[Site web de l'hébergeur]"
+        - heading "4. Propriété intellectuelle" [level=2] [ref=e47]
+        - paragraph [ref=e48]: L'ensemble du contenu du site calm-rio.com (textes, images, vidéos, logos, etc.) est protégé par le droit d'auteur et le droit de la propriété intellectuelle. Toute reproduction, représentation, modification ou exploitation, totale ou partielle, sans autorisation préalable écrite de CalmRio est interdite.
+        - heading "5. Données personnelles" [level=2] [ref=e49]
+        - paragraph [ref=e50]:
+          - text: Les informations recueillies via le formulaire de contact ou le processus de réservation font l'objet d'un traitement informatique destiné à la gestion des demandes et des réservations. Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour l'exercer, contactez-nous à
+          - link "contact@calm-rio.com" [ref=e51] [cursor=pointer]:
+            - /url: mailto:contact@calm-rio.com
+          - text: .
+        - paragraph [ref=e52]:
+          - text: Pour en savoir plus, consultez notre
+          - link "Politique de confidentialité" [ref=e53] [cursor=pointer]:
+            - /url: politique-de-confidentialite.html
+          - text: .
+        - heading "6. Cookies" [level=2] [ref=e54]
+        - paragraph [ref=e55]: Le site calm-rio.com est susceptible d'utiliser des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie publicitaire ou de traçage n'est utilisé sans consentement préalable.
+        - heading "7. Droit applicable" [level=2] [ref=e56]
+        - paragraph [ref=e57]: Les présentes mentions légales sont régies par le droit français. En cas de litige, les tribunaux français seront seuls compétents.
+    - region "Prêt à découvrir nos locations ?" [ref=e58]:
+      - generic [ref=e59]:
+        - heading "Prêt à découvrir nos locations ?" [level=2] [ref=e60]
+        - paragraph [ref=e61]: Découvrez nos propriétés d'exception sur la côte atlantique.
+        - generic [ref=e62]:
+          - link "Découvrir nos locations" [ref=e63] [cursor=pointer]:
+            - /url: index.html#nos-locations
+          - link "Nous contacter" [ref=e64] [cursor=pointer]:
+            - /url: contact.html
+  - contentinfo "Pied de page" [ref=e65]:
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "CalmRio" [ref=e69] [cursor=pointer]:
+            - /url: index.html
+          - paragraph [ref=e70]: Locations de vacances premium sur la côte atlantique — Royan & Île d'Oléron.
+          - generic [ref=e71]:
+            - link "Instagram CalmRio" [ref=e72] [cursor=pointer]:
+              - /url: https://www.instagram.com/calmrio
+              - img [ref=e73]
+            - link "Facebook CalmRio" [ref=e75] [cursor=pointer]:
+              - /url: https://www.facebook.com/calmrio
+              - img [ref=e76]
+        - generic [ref=e78]:
+          - heading "Navigation" [level=2] [ref=e79]
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - link "Accueil" [ref=e82] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=e83]:
+              - link "Nos Locations" [ref=e84] [cursor=pointer]:
+                - /url: index.html#nos-locations
+            - listitem [ref=e85]:
+              - link "Guide Local" [ref=e86] [cursor=pointer]:
+                - /url: local-guide.html
+            - listitem [ref=e87]:
+              - link "Blog" [ref=e88] [cursor=pointer]:
+                - /url: blog/
+            - listitem [ref=e89]:
+              - link "À Propos" [ref=e90] [cursor=pointer]:
+                - /url: about.html
+            - listitem [ref=e91]:
+              - link "Contact" [ref=e92] [cursor=pointer]:
+                - /url: contact.html
+            - listitem [ref=e93]:
+              - link "FAQ" [ref=e94] [cursor=pointer]:
+                - /url: faq.html
+        - generic [ref=e95]:
+          - heading "Contact" [level=2] [ref=e96]
+          - list [ref=e97]:
+            - listitem [ref=e98]:
+              - img [ref=e99]
+              - link "contact@calm-rio.com" [ref=e102] [cursor=pointer]:
+                - /url: mailto:contact@calm-rio.com
+            - listitem [ref=e103]:
+              - img [ref=e104]
+              - generic [ref=e106]: +33 (0)6 XX XX XX XX
+      - generic [ref=e107]:
+        - paragraph [ref=e108]: © 2026 CalmRio. Tous droits réservés.
+        - list [ref=e109]:
+          - listitem [ref=e110]:
+            - link "Mentions légales" [ref=e111] [cursor=pointer]:
+              - /url: mentions-legales.html
+          - listitem [ref=e112]:
+            - link "Politique de confidentialité" [ref=e113] [cursor=pointer]:
+              - /url: politique-de-confidentialite.html

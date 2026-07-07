@@ -1,57 +1,310 @@
 // ============================================================
 // CalmRio — Dark Theme
+// Uses .dark-mode class only (JS manages system detection)
 // ============================================================
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #1A1E24;
-    --color-bg-alt: #21262D;
-    --color-surface: #292E36;
-    --color-surface-alt: #2F353E;
-    --color-border: #3A4048;
-    --color-border-light: #323840;
+@mixin dark-vars {
+  color-scheme: dark;
 
-    --color-text: #F0EDE8;
-    --color-text-secondary: #A8B0B8;
-    --color-text-muted: #6A7278;
+  // Dark mode uses warmer, deeper tones inspired by the Atlantic coast at night
+  --color-bg:           #1A1E24;
+  --color-bg-alt:       #23282F;
+  --color-surface:      #2C313A;
+  --color-surface-alt:  #323841;
+  --color-border:       #3D434D;
+  --color-border-light: #353B44;
 
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.15);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.15);
-    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.2);
-    --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.35), 0 8px 20px rgba(0, 0, 0, 0.25);
-    --shadow-focus: 0 0 0 3px rgba(90, 159, 201, 0.3);
-  }
+  // Text stays warm in dark mode
+  --color-text:           #EAE7E0;
+  --color-text-secondary: #A8A39C;
+  --color-text-muted:     #7A7570;
 
-  // Dark-specific overrides
+  // Shadows: deeper, softer in dark mode
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.35), 0 4px 10px rgba(0, 0, 0, 0.25);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.4), 0 8px 20px rgba(0, 0, 0, 0.3);
+  --shadow-focus: 0 0 0 3px rgba(196, 154, 90, 0.35);
+
+  --header-glass-bg: rgba(44, 49, 58, 0.92);
+  --header-glass-border: rgba(255, 255, 255, 0.06);
+}
+
+@mixin dark-elements {
   body {
     background-color: var(--color-bg);
     color: var(--color-text);
   }
 
-  .site-header.header-scrolled {
-    background-color: var(--color-surface);
+  ::selection {
+    background-color: var(--color-secondary);
+    color: var(--color-primary-dark);
+  }
+
+  // Header
+  .site-header.header--sticky,
+  .site-header.header--scrolled {
+    background-color: var(--header-glass-bg);
+    box-shadow: 0 1px 0 var(--header-glass-border);
+  }
+
+  .site-logo {
+    color: var(--color-text);
+
+    .site-header:not(.header--sticky):not(.header--scrolled) & {
+      color: #ffffff;
+    }
   }
 
   .mobile-nav {
     background-color: var(--color-surface);
   }
 
+  // Cards
   .card {
     background-color: var(--color-surface);
+    box-shadow: var(--shadow-sm);
   }
 
+  .blog-card {
+    background-color: var(--color-surface);
+  }
+
+  .blog-card__image {
+    background-color: var(--color-bg-alt);
+  }
+
+  .host-card,
+  .value-card {
+    background-color: var(--color-surface);
+  }
+
+  // Forms
   .form-input,
   .form-select,
-  .form-textarea {
+  .form-textarea,
+  .faq-search__input {
     background-color: var(--color-surface);
+    color: var(--color-text);
+    border-color: var(--color-border);
+
+    &::placeholder {
+      color: var(--color-text-muted);
+    }
   }
 
-  .search-form {
-    background-color: var(--color-surface);
+  // Buttons
+  .btn--primary {
+    background-color: var(--color-primary-light);
+    border-color: var(--color-primary-light);
+
+    &:hover {
+      background-color: var(--color-accent);
+      border-color: var(--color-accent);
+    }
   }
 
+  .btn--secondary {
+    color: var(--color-text);
+    border-color: var(--color-text-secondary);
+
+    &:hover {
+      background-color: var(--color-text);
+      color: var(--color-bg);
+    }
+  }
+
+  .btn--ghost {
+    &:hover {
+      background-color: var(--color-bg-alt);
+    }
+  }
+
+  .btn--gold {
+    color: var(--color-primary-dark);
+  }
+
+  .header-cta.btn--primary {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: var(--color-primary-dark);
+
+    &:hover {
+      background-color: var(--color-secondary-light);
+      border-color: var(--color-secondary-light);
+    }
+  }
+
+  // Sections
+  .section--alt {
+    background-color: var(--color-bg-alt);
+  }
+
+  .section--dark {
+    background-color: var(--color-primary-dark);
+  }
+
+  .cta-section {
+    background-color: var(--color-primary);
+  }
+
+  .cta-section--dark {
+    background-color: #0D141A;
+  }
+
+  .faq-cta {
+    background-color: var(--color-bg-alt);
+  }
+
+  // Footer
   .site-footer {
     background-color: #0D141A;
+
+    &::before {
+      opacity: 0.15;
+    }
+  }
+
+  .footer-newsletter__input {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: var(--color-text-inverse);
+    border-color: rgba(255, 255, 255, 0.15);
+
+    &:focus {
+      border-color: var(--color-secondary);
+    }
+  }
+
+  // Hero
+  .hero {
+    background-color: #0D141A;
+  }
+
+  .hero__overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0.4) 70%,
+      rgba(0, 0, 0, 0.75) 100%
+    );
+  }
+
+  .hero--sm .hero__overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0.75) 100%
+    );
+  }
+
+  // Tabs & Accordion
+  .accordion__trigger {
+    background-color: var(--color-surface);
+
+    &:hover {
+      background-color: var(--color-bg-alt);
+    }
+  }
+
+  .accordion {
+    border-color: var(--color-border);
+  }
+
+  .tab__button--active {
+    border-bottom-color: var(--color-secondary);
+  }
+
+  // Gallery
+  .gallery-lightbox {
+    background-color: rgba(0, 0, 0, 0.92);
+  }
+
+  .breadcrumbs__item a:hover {
+    color: var(--color-text);
+  }
+
+  .sub-nav__link {
+    &:hover {
+      background-color: var(--color-bg-alt);
+    }
+
+    &--active {
+      background-color: var(--color-primary-light);
+    }
+  }
+
+  .calendar {
+    background-color: var(--color-surface);
+    border-color: var(--color-border);
+  }
+
+  .calendar__day--available {
+    color: var(--color-text);
+  }
+
+  .calendar__day--unavailable {
+    background-color: var(--color-bg-alt);
+  }
+
+  .calendar__day--selected {
+    background-color: var(--color-accent);
+    color: var(--color-text-inverse);
+  }
+
+  .modal__content {
+    background-color: var(--color-surface);
+  }
+
+  .cross-sell__card {
+    background-color: var(--color-surface);
+  }
+
+  .why-book-direct {
+    background-color: var(--color-bg-alt);
+  }
+
+  .newsletter-form__input {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    border-color: var(--color-border);
+
+    &::placeholder {
+      color: var(--color-text-muted);
+    }
+  }
+
+  .sticky-bar {
+    background-color: var(--color-surface);
+    border-top-color: var(--color-border);
+  }
+
+  .property-detail__card {
+    background-color: var(--color-surface);
+  }
+
+  .amenity-icon {
+    background-color: var(--color-bg-alt);
+  }
+
+  .about-story .pull-quote {
+    color: var(--color-text);
+    border-top-color: var(--color-secondary);
+    border-bottom-color: var(--color-secondary);
+
+    &::before {
+      opacity: 0.15;
+    }
+  }
+
+  .host-card .host-social a {
+    background-color: var(--color-bg-alt);
+
+    &:hover {
+      background-color: var(--color-secondary);
+      color: var(--color-primary-dark);
+    }
   }
 
   blockquote {
@@ -62,8 +315,37 @@
     background-color: var(--color-border);
   }
 
-  ::selection {
-    background-color: var(--color-secondary);
-    color: var(--color-primary-dark);
+  // Hero trust row — warm up in dark mode
+  .hero__trust-row {
+    background: rgba(10, 14, 18, 0.7);
   }
+
+  .hero__trust-item {
+    color: rgba(255, 255, 255, 0.85);
+
+    svg {
+      color: var(--color-accent);
+    }
+  }
+
+  .hero__rating-badge {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+// ============================================================
+// APPLY via .dark-mode class (JS-managed toggle)
+// ============================================================
+:root.dark-mode {
+  @include dark-vars;
+}
+
+:root.dark-mode body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+:root.dark-mode {
+  @include dark-elements;
 }

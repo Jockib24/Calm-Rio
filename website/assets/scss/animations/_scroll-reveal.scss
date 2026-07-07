@@ -1,0 +1,93 @@
+// ============================================================
+// CalmRio — Scroll Reveal Animations
+// ============================================================
+//
+// Usage in HTML:
+//   data-reveal="fade-up | fade-in | slide-left | slide-right | scale-in"
+//   data-reveal-delay="100"  (milliseconds, optional, default 0)
+//   data-reveal-duration="600" (milliseconds, optional, default 600)
+//   data-reveal-stagger        (on parent — staggers children by 80ms each)
+//
+// Respects prefers-reduced-motion.
+
+// ------------------------------------------------------------
+// Keyframes
+// ------------------------------------------------------------
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+// ------------------------------------------------------------
+// Base reveal class (hidden before animation)
+// ------------------------------------------------------------
+.reveal {
+  opacity: 0;
+
+  &.is-visible {
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+}
+
+// ------------------------------------------------------------
+// Animation variants
+// ------------------------------------------------------------
+.reveal--fade-up     { &.is-visible { animation-name: fade-up; } }
+.reveal--fade-in     { &.is-visible { animation-name: fade-in; } }
+.reveal--slide-left  { &.is-visible { animation-name: slide-left; } }
+.reveal--slide-right { &.is-visible { animation-name: slide-right; } }
+.reveal--scale-in    { &.is-visible { animation-name: scale-in; } }
+
+// ------------------------------------------------------------
+// Reduced motion: show immediately
+// ------------------------------------------------------------
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+  }
+}

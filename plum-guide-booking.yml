@@ -1,0 +1,224 @@
+- generic [ref=f102e1]:
+  - generic [ref=f102e3]:
+    - generic [ref=f102e4]:
+      - paragraph [ref=f102e5]:
+        - text: By using Plum Guide, you agree to our
+        - link "Cookie Policy" [ref=f102e6] [cursor=pointer]:
+          - /url: /cookie-policy
+        - text: .
+      - button "Close" [ref=f102e7] [cursor=pointer]:
+        - img [ref=f102e9]
+    - banner [ref=f102e11]:
+      - button "Plum Guide" [ref=f102e14] [cursor=pointer]:
+        - img [ref=f102e16]
+      - generic [ref=f102e23]:
+        - link "Become a host" [ref=f102e24] [cursor=pointer]:
+          - /url: /become-a-host
+        - button "Need help?" [ref=f102e25] [cursor=pointer]
+        - button "Change your user settings" [ref=f102e26] [cursor=pointer]:
+          - paragraph [ref=f102e27]: en
+          - paragraph [ref=f102e29]: MAD
+        - button "Log in" [ref=f102e30] [cursor=pointer]:
+          - img [ref=f102e32]
+          - img [ref=f102e38]
+    - main [ref=f102e40]:
+      - generic [ref=f102e43]:
+        - generic [ref=f102e44]:
+          - region "Notifications (F8)":
+            - list
+          - generic [ref=f102e45]:
+            - button "View Photos (16)" [ref=f102e46] [cursor=pointer]
+            - button "View Photos (16)" [ref=f102e49] [cursor=pointer]
+        - button "View 16 photos" [ref=f102e53] [cursor=pointer]:
+          - generic [ref=f102e54]: View 16 photos
+      - generic [ref=f102e56]:
+        - generic [ref=f102e57]:
+          - generic [ref=f102e58]:
+            - generic [ref=f102e59]
+            - heading "The Marais Marvel" [level=1] [ref=f102e77]
+          - list [ref=f102e79]:
+            - listitem [ref=f102e80]
+            - listitem [ref=f102e85]
+            - listitem [ref=f102e90]
+            - listitem [ref=f102e96]
+        - generic [ref=f102e102]:
+          - generic [ref=f102e107]:
+            - generic [ref=f102e108]
+            - generic [ref=f102e127]
+            - button "Check availability" [ref=f102e153] [cursor=pointer]
+          - generic [ref=f102e156]:
+            - generic [ref=f102e157]
+            - img [ref=f102e162]
+        - generic [ref=f102e170]:
+          - paragraph [ref=f102e172]: For a fantastic location, this apartment hits all the right notes. You can stroll to local bars, boutiques, bakeries and iconic sights like Notre Dame and the Louvre. It’s also just a short walk to Rambuteau metro station – making it easy to explore further afield. And when you’re in search of rest and relaxation, this apartment delivers the perfect solution. The living room provides a sweet spot for evening drinks, while the bedrooms (both with an en-suite bathroom) have everything you could need for a peaceful night’s sleep.
+          - separator [ref=f102e173]
+          - generic [ref=f102e174]:
+            - heading "The Plum Promise" [level=2] [ref=f102e175]
+            - list [ref=f102e176]
+            - button "Learn about our Promise" [ref=f102e195] [cursor=pointer]
+          - generic [ref=f102e197]:
+            - heading "What to expect" [level=2] [ref=f102e199]
+            - separator [ref=f102e201]
+            - generic [ref=f102e203]
+            - generic [ref=f102e238]
+          - generic [ref=f102e267]:
+            - heading "About this stay" [level=2] [ref=f102e268]
+            - separator [ref=f102e270]
+            - generic [ref=f102e272]
+            - heading "Bedrooms & bathrooms" [level=3] [ref=f102e336]
+            - generic [ref=f102e337]
+            - button "Show configuration" [ref=f102e348] [cursor=pointer]
+          - heading "Extras" [level=2] [ref=f102e352]
+          - paragraph [ref=f102e354]: Arranged by your host • Subject to availability
+          - separator [ref=f102e356]
+          - generic [ref=f102e358]:
+            - heading "VIP services" [level=3] [ref=f102e359]
+            - button "More information" [ref=f102e360] [cursor=pointer]
+          - generic [ref=f102e366]:
+            - img [ref=f102e368]
+            - paragraph [ref=f102e370]: Luggage storage
+          - generic [ref=f102e372]:
+            - generic [ref=f102e373]
+            - list [ref=f102e380]
+      - generic [ref=f102e406]:
+        - generic [ref=f102e407]:
+          - generic [ref=f102e408]:
+            - heading "Local guide" [level=2] [ref=f102e409]
+            - separator [ref=f102e411]
+            - heading "About Le Marais" [level=3] [ref=f102e413]
+            - generic [ref=f102e416]
+          - generic [ref=f102e423]:
+            - heading "Explore the area" [level=2] [ref=f102e424]
+            - paragraph [ref=f102e425]: Local restaurants, cafes, museums, sites and activities, recommended by our community of hosts and travel experts
+          - generic [ref=f102e428]:
+            - button "Previous attraction" [disabled]
+            - generic [ref=f102e430]
+            - button "Next attraction" [ref=f102e563] [cursor=pointer]
+        - generic [ref=f102e570]:
+          - generic [ref=f102e571]:
+            - paragraph [ref=f102e572]: Get around
+            - generic [ref=f102e573]
+            - generic [ref=f102e592]
+            - generic [ref=f102e601]
+            - generic [ref=f102e610]
+          - generic [ref=f102e619]:
+            - paragraph [ref=f102e620]: Local shops & services
+            - generic [ref=f102e621]
+            - generic [ref=f102e629]
+            - generic [ref=f102e637]
+      - generic [ref=f102e645]:
+        - generic [ref=f102e647]:
+          - heading "Booking policies" [level=2] [ref=f102e648]
+          - separator [ref=f102e650]
+          - generic [ref=f102e652]:
+            - generic [ref=f102e653]
+            - generic [ref=f102e683]
+            - generic [ref=f102e721]
+        - generic [ref=f102e744]:
+          - heading "Host" [level=2] [ref=f102e745]
+          - separator [ref=f102e746]
+          - generic [ref=f102e747]:
+            - generic [ref=f102e748]
+            - list [ref=f102e757]
+      - generic [ref=f102e766]:
+        - heading "The Plum Promise" [level=2] [ref=f102e767]
+        - list [ref=f102e768]:
+          - listitem [ref=f102e769]:
+            - img [ref=f102e771]
+            - generic [ref=f102e773]
+          - listitem [ref=f102e775]:
+            - img [ref=f102e777]
+            - generic [ref=f102e779]
+          - listitem [ref=f102e781]:
+            - img [ref=f102e783]
+            - generic [ref=f102e785]
+          - listitem [ref=f102e787]:
+            - img [ref=f102e789]
+            - generic [ref=f102e791]
+          - listitem [ref=f102e793]:
+            - img [ref=f102e795]
+            - generic [ref=f102e797]
+        - button "Learn about our Promise" [ref=f102e799] [cursor=pointer]:
+          - generic [ref=f102e800]: Learn about our Promise
+      - list [ref=f102e805]:
+        - listitem [ref=f102e806]:
+          - link "Plum Guide" [ref=f102e807] [cursor=pointer]:
+            - /url: /
+            - paragraph [ref=f102e808]: Plum Guide
+        - listitem [ref=f102e809]:
+          - link "France" [ref=f102e810] [cursor=pointer]:
+            - /url: /d/fr/airbnb
+            - paragraph [ref=f102e811]: France
+        - listitem [ref=f102e812]:
+          - link "Paris" [ref=f102e813] [cursor=pointer]:
+            - /url: /d/fr-paris/airbnb
+            - paragraph [ref=f102e814]: Paris
+        - listitem [ref=f102e815]:
+          - link "Saint-Merri" [ref=f102e816] [cursor=pointer]:
+            - /url: /d/fr-paris-saint-merri/airbnb
+            - paragraph [ref=f102e817]: Saint-Merri
+    - generic:
+      - generic [ref=f102e818]:
+        - generic [ref=f102e819]:
+          - paragraph [ref=f102e821]: Get weekly travel inspiration, exclusive offers, and early access to our newest homes.
+          - paragraph [ref=f102e823]:
+            - text: By submitting this form, you agree to our
+            - link "Terms" [ref=f102e824] [cursor=pointer]:
+              - /url: https://www.plumguide.com/terms
+            - text: and
+            - link "Privacy Policy" [ref=f102e827] [cursor=pointer]:
+              - /url: https://www.plumguide.com/privacy-policy
+        - generic [ref=f102e831]:
+          - textbox "Enter your email address" [ref=f102e833]
+          - button "Subscribe" [ref=f102e834] [cursor=pointer]:
+            - generic [ref=f102e835]: Subscribe
+      - generic:
+        - generic:
+          - img "Subscribe banner travel scenery"
+    - generic [ref=f102e836]:
+      - generic [ref=f102e839]:
+        - generic [ref=f102e840]:
+          - generic [ref=f102e841]:
+            - heading "Explore" [level=4] [ref=f102e842]
+            - list [ref=f102e843]
+          - generic [ref=f102e854]:
+            - heading "Support" [level=4] [ref=f102e855]
+            - list [ref=f102e856]
+          - generic [ref=f102e867]:
+            - heading "Plum Guide" [level=4] [ref=f102e868]
+            - list [ref=f102e869]
+          - generic [ref=f102e880]:
+            - heading "Social" [level=4] [ref=f102e881]
+            - list [ref=f102e882]
+        - separator [ref=f102e895]
+        - generic [ref=f102e896]:
+          - img [ref=f102e898]
+          - button "Language & currency en MAD" [ref=f102e946] [cursor=pointer]:
+            - generic [ref=f102e947]: Language & currency
+            - generic [ref=f102e948]
+      - generic [ref=f102e953]:
+        - paragraph [ref=f102e954]: © Copyright Plum Guide 2026
+        - list [ref=f102e955]:
+          - listitem [ref=f102e956]:
+            - link "Terms" [ref=f102e957] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=f102e958]:
+            - text: "|"
+            - link "Privacy" [ref=f102e959] [cursor=pointer]:
+              - /url: /privacy-policy
+          - listitem [ref=f102e960]:
+            - text: "|"
+            - link "Sitemap" [ref=f102e961] [cursor=pointer]:
+              - /url: /sitemap
+          - listitem [ref=f102e962]: "| Cookie Preferences"
+  - alert [ref=f102e963]
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications (F8)":
+    - list
+  - iframe [ref=f102e964]:
+    
+  - button "Open Intercom Messenger" [ref=f102e965] [cursor=pointer]:
+    - img [ref=f102e967]
+    - generic:
+      - img

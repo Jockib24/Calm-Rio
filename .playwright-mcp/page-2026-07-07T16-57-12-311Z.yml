@@ -1,0 +1,1034 @@
+- document [active] [ref=f104e1]:
+  - generic [ref=f104e3]:
+    - generic:
+      - navigation:
+        - generic [ref=f104e4]:
+          - generic [ref=f104e5]:
+            - link "Welcome Beyond" [ref=f104e7] [cursor=pointer]:
+              - /url: https://www.welcomebeyond.com
+              - img [ref=f104e8]
+            - generic [ref=f104e12]:
+              - list [ref=f104e15]:
+                - listitem [ref=f104e16]:
+                  - link "Search" [ref=f104e17] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/search/
+                - listitem [ref=f104e18]:
+                  - generic [ref=f104e19]: Collections
+                - listitem [ref=f104e20]:
+                  - generic [ref=f104e21]: Property types
+              - list [ref=f104e23]:
+                - listitem [ref=f104e24] [cursor=pointer]:
+                  - button "Log in" [ref=f104e25]
+                  - text: "|"
+                - listitem [ref=f104e26] [cursor=pointer]:
+                  - button "Register" [ref=f104e27]
+          - list [ref=f104e29]:
+            - listitem [ref=f104e30]:
+              - link "Overview" [ref=f104e31] [cursor=pointer]:
+                - /url: "#overview"
+            - listitem [ref=f104e32]:
+              - link "Introduction" [ref=f104e33] [cursor=pointer]:
+                - /url: "#introduction"
+            - listitem [ref=f104e34]:
+              - link "Images" [ref=f104e35] [cursor=pointer]:
+                - /url: "#images"
+            - listitem [ref=f104e36]:
+              - link "Rooms & Rates" [ref=f104e37] [cursor=pointer]:
+                - /url: "#rooms-rates"
+            - listitem [ref=f104e38]:
+              - link "Facilities & Services" [ref=f104e39] [cursor=pointer]:
+                - /url: "#facilities-services"
+            - listitem [ref=f104e40]:
+              - link "Things to do" [ref=f104e41] [cursor=pointer]:
+                - /url: "#things-to-do"
+            - listitem [ref=f104e42]:
+              - link "Reviews" [ref=f104e43] [cursor=pointer]:
+                - /url: "#reviews"
+            - listitem [ref=f104e44]:
+              - link "Location" [ref=f104e45] [cursor=pointer]:
+                - /url: "#location"
+            - listitem [ref=f104e46]:
+              - link "Time to travel" [ref=f104e47] [cursor=pointer]:
+                - /url: "#time-to-travel"
+            - listitem [ref=f104e48]:
+              - link "Related properties" [ref=f104e49] [cursor=pointer]:
+                - /url: "#related-properties"
+    - main [ref=f104e50]:
+      - generic [ref=f104e52]:
+        - generic [ref=f104e54]:
+          - heading "La Tropical" [level=1] [ref=f104e55]:
+            - link "5 out of 5 stars" [ref=f104e57] [cursor=pointer]:
+              - /url: "#reviews"
+              - generic [ref=f104e58]:
+                - list:
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+                  - listitem
+            - text: La Tropical
+          - generic [ref=f104e59]: in Mérida, Yucatan, Mexico
+          - separator [ref=f104e60]
+          - blockquote [ref=f104e61]:
+            - paragraph [ref=f104e62]: “The pool is the center of the house — a pool with a house instead of a house with a pool.”
+            - generic [ref=f104e63]: — Carlos, owner
+        - generic [ref=f104e65]:
+          - img "La Tropical, Mérida, Yucatan, Mexico"
+      - generic [ref=f104e66]:
+        - generic [ref=f104e70]:
+          - navigation [ref=f104e71]:
+            - generic [ref=f104e72]:
+              - link "Home" [ref=f104e73] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com
+              - generic [ref=f104e75]:
+                - link "Mexico" [ref=f104e76] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/search/?countries=MX
+                - generic [ref=f104e78]:
+                  - link "Yucatan" [ref=f104e79] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Yucatan
+                  - generic [ref=f104e81]:
+                    - text: Mérida
+                    - strong [ref=f104e83]: La Tropical
+          - text: "50"
+        - generic [ref=f104e86]:
+          - paragraph [ref=f104e87]: La Tropical
+          - generic [ref=f104e88]:
+            - list [ref=f104e89]:
+              - listitem [ref=f104e90]:
+                - img [ref=f104e92]
+                - generic [ref=f104e94]:
+                  - link "Villa rental" [ref=f104e95] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                  - text: / 520m²
+              - listitem [ref=f104e96]:
+                - img [ref=f104e98]
+                - generic [ref=f104e100]: 1 bedrooms for 2 people
+              - listitem [ref=f104e101]:
+                - img [ref=f104e103]
+                - generic [ref=f104e105]:
+                  - link "Ideal for couples" [ref=f104e106] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Not suitable for young children" [ref=f104e107] [cursor=pointer]:
+                    - /url: "#"
+              - listitem [ref=f104e108]:
+                - img [ref=f104e110]
+                - generic [ref=f104e113]:
+                  - link "Grocery shopping on request" [ref=f104e114] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Groceries for the first day included" [ref=f104e115] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Kitchen" [ref=f104e116] [cursor=pointer]:
+                    - /url: "#"
+            - list [ref=f104e117]:
+              - listitem [ref=f104e118]:
+                - img [ref=f104e120]
+                - generic [ref=f104e124]:
+                  - text: "Location:"
+                  - link "City" [ref=f104e125] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=f104e126]:
+                  - text: "Cathedral square: In walking distance"
+                  - text: "Colourful Lucas de Gálvez Market: In walking distance"
+                  - text: "The ancient Maya city of Uxmal: 85km (1h 10 mins by car)"
+                  - text: "Sisal beach (favourite): 70km (1h by car)"
+              - listitem [ref=f104e127]:
+                - img [ref=f104e129]
+                - generic [ref=f104e131]:
+                  - text: "Mérida International Airport (MID): 6km (10 mins by taxi)"
+                  - text: "Cancún International Airport (CUN): 300km"
+                - generic [ref=f104e132]:
+                  - text: Airport transfer available on request
+                  - text: Car recommended
+          - generic [ref=f104e134]:
+            - paragraph [ref=f104e135]: La Tropical is a design enthusiast's oasis. The 15 meter lap pool and tropical garden are pristine, and the retractable glass windows fully integrate the bedroom and bathroom to the pool and garden. The double height glass doors in the living/dining room are a striking feature. All in all, La Tropical offers a truly incomparable stay in Mérida.
+            - paragraph
+          - list [ref=f104e139]:
+            - listitem [ref=f104e140]:
+              - link "Art, Design & Architecture 71" [ref=f104e141] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/art-design-and-architecture-holidays
+                - img [ref=f104e143]
+                - generic [ref=f104e145]: Art, Design & Architecture
+                - generic [ref=f104e146]: "71"
+            - listitem [ref=f104e147]:
+              - link "Winter sun holidays 76" [ref=f104e148] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/winter-sun-holidays
+                - img [ref=f104e150]
+                - generic [ref=f104e152]: Winter sun holidays
+                - generic [ref=f104e153]: "76"
+            - listitem [ref=f104e154]:
+              - link "Romantic getaways 274" [ref=f104e155] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/romantic-getaways
+                - img [ref=f104e157]
+                - generic [ref=f104e159]: Romantic getaways
+                - generic [ref=f104e160]: "274"
+            - listitem [ref=f104e161]:
+              - link "Honeymoon destinations 218" [ref=f104e162] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/honeymoon-destinations
+                - img [ref=f104e164]
+                - generic [ref=f104e166]: Honeymoon destinations
+                - generic [ref=f104e167]: "218"
+            - listitem [ref=f104e168]:
+              - link "Remote work 105" [ref=f104e169] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/remote-work
+                - img [ref=f104e171]
+                - generic [ref=f104e173]: Remote work
+                - generic [ref=f104e174]: "105"
+        - generic [ref=f104e175]:
+          - text: "50"
+          - generic [ref=f104e177]:
+            - generic [ref=f104e178]: Use left and right arrows to navigate between tabs.
+            - tablist [ref=f104e179]:
+              - tab "Book" [selected] [ref=f104e180] [cursor=pointer]
+              - tab "Contact" [ref=f104e181] [cursor=pointer]
+            - generic [ref=f104e182]:
+              - tabpanel "Book" [ref=f104e183]:
+                - generic [ref=f104e184]: Select your dates
+                - generic [ref=f104e186]: €156 - €247 / night
+                - generic [ref=f104e187]:
+                  - generic [ref=f104e188]:
+                    - textbox [ref=f104e191]: No dates selected
+                    - generic [ref=f104e194]:
+                      - generic:
+                        - img
+                      - generic: 1 Adult
+                    - list [ref=f104e195]:
+                      - listitem [ref=f104e196]:
+                        - generic [ref=f104e198] [cursor=pointer]:
+                          - checkbox "Cleaning fee €91" [checked] [disabled] [ref=f104e199]
+                          - generic [ref=f104e201]:
+                            - generic [ref=f104e202]: Cleaning fee
+                            - generic [ref=f104e204]: €91
+                  - generic [ref=f104e205]:
+                    - paragraph [ref=f104e206]:
+                      - strong [ref=f104e207]: You won't be charged yet.
+                      - text: You can still review your booking as well as the booking and cancellation terms.
+                    - button "Proceed to book" [disabled] [ref=f104e208]
+                    - link "I am not ready yet, email me this quote" [ref=f104e209] [cursor=pointer]:
+                      - /url: "#"
+              - tabpanel [ref=f104e210]:
+                - button [ref=f104e212] [cursor=pointer]: "50"
+                - generic [ref=f104e215]: Share
+        - generic [ref=f104e220]:
+          - heading "An introduction to La Tropical" [level=2] [ref=f104e221]
+          - generic [ref=f104e223]:
+            - generic [ref=f104e224]:
+              - paragraph [ref=f104e225]:
+                - strong [ref=f104e226]: How would you describe La Tropical in a nutshell?
+              - paragraph [ref=f104e227]: La Tropical is a contemporary lush retreat hidden behind one of the many colonial facades of historic Merida. Proportion, space, privacy, nature and calm make it feel like a villa, yet you are in the middle of one of Mexico‘s fastest-growing and safest cities and in the heart of fascinating Yucatán.
+              - paragraph [ref=f104e228]:
+                - strong [ref=f104e229]: What was your inspiration to buy La Tropical?
+              - paragraph [ref=f104e230]: "We discovered La Tropical as Welcome Beyond guests and kept coming back until the opportunity to purchase it became a reality. We fell in love with the house, the pool, the garden and the city. Mérida is a fascinating city in the middle of a thriving region with so much to offer: a network of historic haciendas, Mayan ruins, cenotes and other natural marvels: a colonial city built of stone and stucco in the middle of the jungle. La Tropical offers an oasis-like experience with a modernist look that feels fresh, unpretentious and at the same time completely unique in the city."
+              - paragraph [ref=f104e231]:
+                - strong [ref=f104e232]: How would you describe the interior design and architecture?
+              - paragraph [ref=f104e233]: "The designers of the house would tell us how they would peep through an old door or window to discover long-abandoned plots with overgrown gardens. That was their inspiration when designing it: indoor and outdoor all merged and all in a long view from the entrance door."
+              - paragraph [ref=f104e234]: We also appreciate how clean and modern the design is, as opposed to everything else in Mérida. The designers didn't want to do faux-Mexican. The colonial space in the front of the house was respected, but the rest of the house is a modern take on Mexican brutalism with textured concrete, Mexican stones, woods, and of course, the open relationship between indoor and outdoor.
+              - paragraph [ref=f104e235]:
+                - strong [ref=f104e236]: To you personally, what is so special about La Tropical?
+              - paragraph [ref=f104e237]: "The feeling of being both outdoors and sheltered at the same time. It’s a world within a world: you can experience to the fullest a vibrant Mexican city and minutes later take refuge in a modern oasis, bathed in light, water, plants, the chirping of the birds."
+              - paragraph [ref=f104e238]:
+                - strong [ref=f104e239]: Please tell us about the food.
+              - paragraph [ref=f104e240]: The opportunities to experience the wonderful Mexican cuisine are countless and close by. From popular morning tacos to the best restaurants in Mexico, all are within walking distance.
+              - paragraph [ref=f104e241]: If you rather eat at home, there are many little convenience stores around as well as the huge and colourful Lucas de Gálvez Market, which is a 12 minutes walk away.
+              - paragraph [ref=f104e242]:
+                - strong [ref=f104e243]: Is La Tropical best suited for couples, families, groups? What’s your policy on kids?
+              - paragraph [ref=f104e244]: Casa Mérida is designed for couples. Or a very tasteful individual.
+              - paragraph [ref=f104e245]:
+                - strong [ref=f104e246]: Is there anything else that’s important to know?
+              - paragraph [ref=f104e247]: "The bedroom does not have blackout curtains. Instead we favoured natural textiles: thick cotton curtains that allow for a natural wake up light."
+              - paragraph [ref=f104e248]: To encourage responsible use of air conditioning, guests are responsible for the electricity they consume over 30kw per day which will suffice with normal use. Electricity is measured per kwh and the meter will be read at check-in and check-out to determine usage. The current rate is 2.4 Mexican pesos per kwh.
+              - paragraph [ref=f104e249]: Mérida is in the middle of the Yucatán rainforest and enjoys a tropical climate. Our house is designed to be as open to nature as possible. But nothing is without compromise. Mosquitos, scorpions, spiders and roaches are a natural occurrence. We fumigate for pest control on a regular basis but insects are a fact of life.
+            - button "Read more" [ref=f104e250] [cursor=pointer]
+        - generic [ref=f104e253]:
+          - button "Previous" [ref=f104e254] [cursor=pointer]:
+            - img [ref=f104e255]
+          - listbox [ref=f104e259]:
+            - img [ref=f104e262]
+            - img [ref=f104e265]
+            - option "La Tropical — Bedroom wing of the house with pool" [ref=f104e266]:
+              - img "La Tropical — Bedroom wing of the house with pool" [ref=f104e268]
+            - option [ref=f104e269]:
+              - img [ref=f104e271]
+            - option [ref=f104e272]:
+              - img [ref=f104e274]
+            - option [ref=f104e275]:
+              - img [ref=f104e277]
+            - option [ref=f104e278]:
+              - img [ref=f104e280]
+            - option [ref=f104e281]:
+              - img [ref=f104e283]
+            - option [ref=f104e284]:
+              - img [ref=f104e286]
+            - option [ref=f104e287]:
+              - img [ref=f104e289]
+            - option [ref=f104e290]:
+              - img [ref=f104e292]
+            - option [ref=f104e293]:
+              - img [ref=f104e295]
+            - option [ref=f104e296]:
+              - img [ref=f104e298]
+            - option [ref=f104e299]:
+              - img [ref=f104e301]
+            - option [ref=f104e302]:
+              - img [ref=f104e304]
+            - option [ref=f104e305]:
+              - img [ref=f104e307]
+            - option [ref=f104e308]:
+              - img [ref=f104e310]
+            - option [ref=f104e311]:
+              - img [ref=f104e313]
+            - option [ref=f104e314]:
+              - img [ref=f104e316]
+            - option [ref=f104e317]:
+              - img [ref=f104e319]
+            - option [ref=f104e320]:
+              - img [ref=f104e322]
+            - option [ref=f104e323]:
+              - img [ref=f104e325]
+            - option [ref=f104e326]:
+              - img [ref=f104e328]
+            - option [ref=f104e329]:
+              - img [ref=f104e331]
+            - img [ref=f104e334]
+            - img [ref=f104e337]
+          - button "Next" [ref=f104e338] [cursor=pointer]:
+            - img [ref=f104e339]
+          - listbox [ref=f104e343]:
+            - option "Bedroom wing of the house with pool" [ref=f104e344]
+            - option [ref=f104e345]: Living area wing of the house with pool
+            - option [ref=f104e346]: Dining area
+            - option [ref=f104e347]: Living area
+            - option [ref=f104e348]: Kitchen
+            - option [ref=f104e349]: Kitchen
+            - option [ref=f104e350]: Kitchen
+            - option [ref=f104e351]: Bathroom
+            - option [ref=f104e352]: Bathroom
+            - option [ref=f104e353]: Bedroom
+            - option [ref=f104e354]: Bedroom
+            - option [ref=f104e355]: Bedroom and bathroom
+            - option [ref=f104e356]: Bedroom wing and pool
+            - option [ref=f104e357]: Massage by the pool
+            - option [ref=f104e358]: Pool area
+            - option [ref=f104e359]: Pool area
+            - option [ref=f104e360]: Living area in the evening
+            - option [ref=f104e361]: Courtyard in the evening
+            - option [ref=f104e362]: Bedroom in the evening
+            - option [ref=f104e363]: Living area in the evening
+            - option [ref=f104e364]: Courtyard in the evening
+            - option [ref=f104e365]: At night
+        - generic [ref=f104e369]:
+          - heading "La Tropical rooms & rates" [level=2] [ref=f104e370]
+          - generic [ref=f104e371]:
+            - generic [ref=f104e372]:
+              - generic [ref=f104e373]:
+                - paragraph [ref=f104e374]: "Behind a severe colonial facade with two doors there is a huge kitchen. Another large twin door gives access to the living room opening to the garden. A long pool is the connection between the colonial volumes and the modernist bungalow at the end of the property where the spacious bedroom is. Adjacent to the bedroom there is an expansive open bathroom where you can shower or bath with a view of the garden. Service areas: lavatories, pantry, supply closets are all cleverly hidden in the door frames so the plan — a total of 520 sqm — is as open as possible."
+                - paragraph [ref=f104e375]: The long pool (15 meters) is the center of the house — a pool with a house instead of a house with a pool.
+              - button "Read more" [ref=f104e376] [cursor=pointer]
+            - list [ref=f104e378]:
+              - listitem [ref=f104e379]:
+                - generic [ref=f104e380]:
+                  - generic [ref=f104e381]: La Tropical for 2 people / 520 m²
+                  - generic [ref=f104e384]: €156 - €247 / night
+                - list [ref=f104e386]:
+                  - listitem [ref=f104e387]: 1 Double bedroom
+                  - listitem [ref=f104e388]: 1 Shower room
+                  - listitem [ref=f104e389]: 1 Living room
+                  - listitem [ref=f104e390]: 1 Dining room
+                  - listitem [ref=f104e391]: 1 Kitchen
+                  - listitem [ref=f104e392]: Terrace
+                  - listitem [ref=f104e393]: Air conditioning
+            - generic [ref=f104e395]:
+              - generic [ref=f104e396]:
+                - term [ref=f104e397]: Included in the rates
+                - definition [ref=f104e398]: Rates are on a self-catering basis and include a welcome breakfast hamper.
+                - term [ref=f104e399]: Extra charges
+                - definition [ref=f104e400]: To encourage responsible use of air conditioning, guests are responsible for the electricity they consume over 30kw per day which will suffice with normal use.
+                - term [ref=f104e401]: Children & Extra beds
+                - definition [ref=f104e402]: Because of the depth of the pool only children 13+ years are allowed. There is no space for extra beds.
+              - generic [ref=f104e403]:
+                - term [ref=f104e404]: Minimum stay
+                - definition [ref=f104e405]: 1 - 2 nights (check calendar for dates)
+                - term [ref=f104e406]: Check in time
+                - definition [ref=f104e407]: after 16:00
+                - term [ref=f104e408]: Check out time
+                - definition [ref=f104e409]: before 11:00
+                - term [ref=f104e410]: Cancellation policy
+                - definition [ref=f104e411]:
+                  - text: 25% non-refundable
+                  - text: 50% if cancelled 60–31 days before arrival
+                  - text: 100% if cancelled within 30 days of arrival
+        - generic [ref=f104e415]:
+          - heading "Facilities & services" [level=2] [ref=f104e416]
+          - generic [ref=f104e417]:
+            - generic [ref=f104e419]:
+              - list [ref=f104e420]:
+                - listitem [ref=f104e421]: Swimming pool
+                - listitem [ref=f104e422]: WiFi
+                - listitem [ref=f104e423]: Air conditioning
+                - listitem [ref=f104e424]: TV
+                - listitem [ref=f104e425]: Washing machine
+              - list [ref=f104e426]:
+                - listitem [ref=f104e427]: Music system
+                - listitem [ref=f104e428]: Courtyard
+                - listitem [ref=f104e429]: Iron & Board
+                - listitem [ref=f104e430]: Not suitable for young children
+                - listitem [ref=f104e431]: Hair dryer
+            - generic [ref=f104e432]:
+              - generic [ref=f104e433]:
+                - paragraph [ref=f104e434]: Privacy is always one of our main concerns. This is why we decided to offer our guests a fridge full of breakfast basics and a basket with a selection of carefully chosen organic local produce.
+                - paragraph [ref=f104e435]: We found out that having a massage in our garden is pure bliss, so we partnered with a women-owned local company to offer treatments next to the pool.
+                - paragraph [ref=f104e436]: A lot of our guests are here on their honeymoons. Extra flowers, champagne or wine are regular requests. Also, we offer a private chef on request.
+              - button "Read more" [ref=f104e437] [cursor=pointer]
+        - generic [ref=f104e441]:
+          - heading "Things to do in Yucatan & Mérida" [level=2] [ref=f104e442]
+          - generic [ref=f104e443]:
+            - generic [ref=f104e445]:
+              - list [ref=f104e446]:
+                - listitem [ref=f104e447]: Art / Culture
+                - listitem [ref=f104e448]: Shopping / Markets
+                - listitem [ref=f104e449]: Night life
+                - listitem [ref=f104e450]: Massages / Treatments
+              - list [ref=f104e451]:
+                - listitem [ref=f104e452]: Hiking
+                - listitem [ref=f104e453]: Horseback riding
+                - listitem [ref=f104e454]: Sailing / Kayaking
+            - generic [ref=f104e455]:
+              - generic [ref=f104e456]:
+                - paragraph [ref=f104e457]: "Around Mérida, there is an infinity of amazing experiences. If you are into history, Mérida is a treasure trove: Archeological sites, a colonial center, haciendas... For the adventurers we advise visiting the many cenotes, kayaking in the mangroves or going horseback riding on the beach."
+                - paragraph [ref=f104e458]: Progreso is the nearest coastal town, 45 minutes away from the center. Our favourite beach is Sisal. The trip takes roughly an hour and you will find long extensions of dunes and mangroves along a very peaceful beach.
+                - paragraph [ref=f104e459]: Wildlife lovers will love to visit the reserve of Celestún, especially in the flamingo season (November-February).
+                - paragraph [ref=f104e460]: "Our personal highlights in the region around Merida are: 1) Uxmal (an incredible ancient Mayan city) 2) Cenotes (the sunken lakes you can swim in) 3) Haciendas (Sisal estates)"
+              - button "Read more" [ref=f104e461] [cursor=pointer]
+        - generic [ref=f104e465]:
+          - heading "La Tropical reviews" [level=2] [ref=f104e466]
+          - generic [ref=f104e468]:
+            - generic [ref=f104e469]:
+              - generic [ref=f104e470]:
+                - generic [ref=f104e472]:
+                  - list:
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                  - generic [ref=f104e473]: 5 of 5 stars
+                - generic [ref=f104e474]: Verfied Welcome Beyond stay
+                - generic [ref=f104e475]: We had an amazing experience in Merida. Cecilia took good care of us en was very responsive. The house was great and we’ve enjoyed the pool daily.
+              - generic [ref=f104e476]:
+                - generic [ref=f104e477]: Marc v.
+                - generic [ref=f104e478]: stayed at La Tropical in June 2024
+            - generic [ref=f104e479]:
+              - generic [ref=f104e480]:
+                - generic [ref=f104e482]:
+                  - list:
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                  - generic [ref=f104e483]: 5 of 5 stars
+                - generic [ref=f104e484]: Verfied Welcome Beyond stay
+                - generic [ref=f104e485]:
+                  - text: Beautiful property! Well designed. Very quiet, and safe. Easy walk to Centro.
+                  - text: Antonio was very helpful. Absolutely loved it.
+              - generic [ref=f104e486]:
+                - generic [ref=f104e487]: Annette T.
+                - generic [ref=f104e488]: stayed at La Tropical in February 2022
+            - button "Read more reviews" [ref=f104e489] [cursor=pointer]
+      - generic [ref=f104e496]:
+        - heading "The location of La Tropical" [level=2] [ref=f104e497]
+        - generic [ref=f104e499]:
+          - generic [ref=f104e500]:
+            - paragraph [ref=f104e501]: La Tropical is in a very peaceful and charming part of Merida‘s historical center. The closest cities are Izamal, Valladolid and Campeche. Mérida is surrounded by gorgeous cenotes (sunken lakes in which you can swim), charming haciendas, virgin beaches and last but not at all least, the impressive Mayan sites.
+            - paragraph [ref=f104e502]: "Yucatán has a specific character. It has traditionally been an isolated part of México so it retains a lot of authenticity. And Mérida is a gem of a city: the safest in Mexico, with a provincial atmosphere, yet with cosmopolitan touches. People are very laid back and gentle."
+          - button "Read more" [ref=f104e503] [cursor=pointer]
+      - generic [ref=f104e507]:
+        - heading "When is the best time to visit Yucatan?" [level=2] [ref=f104e508]
+        - paragraph [ref=f104e512]: Mérida is warm all year round. November to April have a mild and delicious spring-like weather. And the absolute best day to visit Mérida is around 1st November for the Día de los Muertos festivities. May to July are hot and humid months so you’d enjoy our pool the most.
+      - generic [ref=f104e514]:
+        - generic [ref=f104e515]:
+          - heading "Related hotels & holiday rentals" [level=2] [ref=f104e516]
+          - generic [ref=f104e517]:
+            - button "Previous" [disabled] [ref=f104e518]:
+              - img [ref=f104e519]
+            - button "Next" [ref=f104e521] [cursor=pointer]:
+              - img [ref=f104e522]
+        - listbox [ref=f104e526]:
+          - option [ref=f104e527]:
+            - article [ref=f104e529]:
+              - generic [ref=f104e530]:
+                - generic [ref=f104e531]:
+                  - button "Previous" [ref=f104e532] [cursor=pointer]
+                  - generic [ref=f104e535]:
+                    - link [ref=f104e536] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/hacienda-sac-chich/
+                      - img [ref=f104e537]
+                    - link [ref=f104e538] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/hacienda-sac-chich/
+                      - img [ref=f104e539]
+                    - link [ref=f104e540] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/hacienda-sac-chich/
+                      - img [ref=f104e541]
+                    - link [ref=f104e542] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/hacienda-sac-chich/
+                      - img [ref=f104e543]
+                  - button "Next" [ref=f104e544] [cursor=pointer]
+                - generic: night from €890
+              - generic [ref=f104e545]:
+                - heading "Hacienda Sac Chich" [level=3] [ref=f104e546]:
+                  - link "Hacienda Sac Chich" [ref=f104e547] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/hacienda-sac-chich/
+                - generic [ref=f104e548]:
+                  - generic [ref=f104e549]:
+                    - generic "Location" [ref=f104e550]
+                    - text: Acanceh,
+                    - link "Yucatan" [ref=f104e551] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Yucatan
+                    - text: ","
+                    - link "Mexico" [ref=f104e552] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                  - generic [ref=f104e553]:
+                    - generic "Occupancy" [ref=f104e554]
+                    - text: 13 - 14 people
+                - paragraph [ref=f104e555]: Hacienda Sac Chic is a vacation villa rental on the Yucatan peninsula. It is a renovated sisal factory from 1850 surrounded by lush gardens and ideal for groups of friends or families.
+              - generic [ref=f104e556]:
+                - link "Villa rental" [ref=f104e557] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                - generic [ref=f104e558]:
+                  - button "65" [ref=f104e560] [cursor=pointer]
+                  - generic [ref=f104e563]: Share
+          - option [ref=f104e565]:
+            - article [ref=f104e567]:
+              - generic [ref=f104e568]:
+                - generic [ref=f104e569]:
+                  - button "Previous" [ref=f104e570] [cursor=pointer]
+                  - generic [ref=f104e573]:
+                    - link [ref=f104e574] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-escuela/
+                      - img [ref=f104e575]
+                    - link [ref=f104e576] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-escuela/
+                      - img [ref=f104e577]
+                    - link [ref=f104e578] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-escuela/
+                      - img [ref=f104e579]
+                    - link [ref=f104e580] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-escuela/
+                      - img [ref=f104e581]
+                  - button "Next" [ref=f104e582] [cursor=pointer]
+                - generic: night from €1,708
+              - generic [ref=f104e583]:
+                - heading "Casa Escuela" [level=3] [ref=f104e584]:
+                  - link "Casa Escuela" [ref=f104e585] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/casa-escuela/
+                - generic [ref=f104e586]:
+                  - generic [ref=f104e587]:
+                    - generic "Location" [ref=f104e588]
+                    - text: Mérida,
+                    - link "Yucatan" [ref=f104e589] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Yucatan
+                    - text: ","
+                    - link "Mexico" [ref=f104e590] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                  - generic [ref=f104e591]:
+                    - generic "Occupancy" [ref=f104e592]
+                    - text: 10 - 12 people
+                - paragraph [ref=f104e593]: Occupying a century-old school, Casa Escuela pays homage to the Yucatan’s rich architectural heritage, with beautifully curated rooms and a cenote-inspired spa in the heart of downtown Merida.
+              - generic [ref=f104e594]:
+                - link "Villa rental" [ref=f104e595] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                - generic [ref=f104e596]:
+                  - button "4" [ref=f104e598] [cursor=pointer]
+                  - generic [ref=f104e601]: Share
+          - option [ref=f104e603]:
+            - article [ref=f104e605]:
+              - generic [ref=f104e606]:
+                - generic [ref=f104e607]:
+                  - button "Previous" [ref=f104e608] [cursor=pointer]
+                  - generic [ref=f104e611]:
+                    - link [ref=f104e612] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-sisal/
+                      - img [ref=f104e613]
+                    - link [ref=f104e614] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-sisal/
+                      - img [ref=f104e615]
+                    - link [ref=f104e616] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-sisal/
+                      - img [ref=f104e617]
+                    - link [ref=f104e618] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-sisal/
+                      - img [ref=f104e619]
+                  - button "Next" [ref=f104e620] [cursor=pointer]
+                - generic: night from €274
+              - generic [ref=f104e621]:
+                - heading "Casa Sisal" [level=3] [ref=f104e622]:
+                  - link "Casa Sisal" [ref=f104e623] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/casa-sisal/
+                - generic [ref=f104e624]:
+                  - generic [ref=f104e625]:
+                    - generic "Location" [ref=f104e626]
+                    - text: Acanceh,
+                    - link "Yucatan" [ref=f104e627] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Yucatan
+                    - text: ","
+                    - link "Mexico" [ref=f104e628] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                  - generic [ref=f104e629]:
+                    - generic "Occupancy" [ref=f104e630]
+                    - text: 6 - 7 people
+                - paragraph [ref=f104e631]: Casa Sisal is a beautiful modern vacation villa surrounded by lush gardens on the Yucatan peninsula.
+              - generic [ref=f104e632]:
+                - link "Villa rental" [ref=f104e633] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                - generic [ref=f104e634]:
+                  - button "77" [ref=f104e636] [cursor=pointer]
+                  - generic [ref=f104e639]: Share
+          - option [ref=f104e641]:
+            - article [ref=f104e643]:
+              - generic [ref=f104e644]:
+                - generic [ref=f104e645]:
+                  - button [ref=f104e646] [cursor=pointer]
+                  - generic [ref=f104e649]:
+                    - link [ref=f104e650] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/galopina-casa-silvestre/
+                      - img [ref=f104e651]
+                    - link [ref=f104e652] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/galopina-casa-silvestre/
+                      - img [ref=f104e653]
+                    - link [ref=f104e654] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/galopina-casa-silvestre/
+                      - img [ref=f104e655]
+                    - link [ref=f104e656] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/galopina-casa-silvestre/
+                      - img [ref=f104e657]
+                  - button [ref=f104e658] [cursor=pointer]
+                - generic: night from €239
+              - generic [ref=f104e659]:
+                - heading [level=3] [ref=f104e660]:
+                  - link [ref=f104e661] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/galopina-casa-silvestre/
+                    - text: Galopina Casa Silvestre
+                - generic [ref=f104e662]:
+                  - generic [ref=f104e663]:
+                    - text: Seyé,
+                    - link [ref=f104e665] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Yucatan
+                      - text: Yucatan
+                    - text: ","
+                    - link [ref=f104e666] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                      - text: Mexico
+                  - generic [ref=f104e667]: 2 people
+                - paragraph [ref=f104e669]: Surrounded by cenotes, Galopina Casa Silvestre is a located near Merida on Mexico’s Yucatan Peninsula. It draws on traditional architecture and vintage furnishings in its modern design.
+              - generic [ref=f104e670]:
+                - link [ref=f104e671] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/hotels/boutique-hotels
+                  - text: Boutique hotel
+                - generic [ref=f104e672]:
+                  - button [ref=f104e674] [cursor=pointer]: "11"
+                  - generic [ref=f104e677]: Share
+          - option [ref=f104e679]:
+            - article [ref=f104e681]:
+              - generic [ref=f104e682]:
+                - generic [ref=f104e683]:
+                  - button [ref=f104e684] [cursor=pointer]
+                  - generic [ref=f104e687]:
+                    - link [ref=f104e688] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-dos-chicos/
+                      - img [ref=f104e689]
+                    - link [ref=f104e690] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-dos-chicos/
+                      - img [ref=f104e691]
+                    - link [ref=f104e692] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-dos-chicos/
+                      - img [ref=f104e693]
+                    - link [ref=f104e694] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-dos-chicos/
+                      - img [ref=f104e695]
+                  - button [ref=f104e696] [cursor=pointer]
+                - generic: night from €594
+              - generic [ref=f104e697]:
+                - heading [level=3] [ref=f104e698]:
+                  - link [ref=f104e699] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/casa-dos-chicos/
+                    - text: Casa dos Chicos
+                - generic [ref=f104e700]:
+                  - generic [ref=f104e701]:
+                    - text: Sayulita,
+                    - link [ref=f104e703] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Mexican Riviera
+                      - text: Mexican Riviera
+                    - text: ","
+                    - link [ref=f104e704] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                      - text: Mexico
+                  - generic [ref=f104e705]: 8 - 10 people
+                - paragraph [ref=f104e707]: Casa dos Chicos is a beautiful vacation villa rental on the Mexican Riviera with its long, sandy beaches and just a short walk to the town of Sayulita.
+              - generic [ref=f104e708]:
+                - link [ref=f104e709] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                  - text: Villa rental
+                - generic [ref=f104e710]:
+                  - button [ref=f104e712] [cursor=pointer]: "201"
+                  - generic [ref=f104e715]: Share
+          - option [ref=f104e717]:
+            - article [ref=f104e719]:
+              - generic [ref=f104e720]:
+                - generic [ref=f104e721]:
+                  - button [ref=f104e722] [cursor=pointer]
+                  - generic [ref=f104e725]:
+                    - link [ref=f104e726] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/cangrejo-y-toro/
+                    - link [ref=f104e727] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/cangrejo-y-toro/
+                    - link [ref=f104e728] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/cangrejo-y-toro/
+                    - link [ref=f104e729] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/cangrejo-y-toro/
+                  - button [ref=f104e730] [cursor=pointer]
+                - generic: night from €1,370
+              - generic [ref=f104e731]:
+                - heading [level=3] [ref=f104e732]:
+                  - link [ref=f104e733] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/cangrejo-y-toro/
+                    - text: Cangrejo y Toro
+                - generic [ref=f104e734]:
+                  - generic [ref=f104e735]:
+                    - text: Troncones,
+                    - link [ref=f104e737] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Guerrero
+                      - text: Guerrero
+                    - text: ","
+                    - link [ref=f104e738] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                      - text: Mexico
+                  - generic [ref=f104e739]: 6 - 8 people
+                - paragraph [ref=f104e741]: Cangrejo y Toro is a quiet vacation villa retreat on seven acres of oceanfront land located in Troncones on the Mexican Riviera.
+              - generic [ref=f104e742]:
+                - link [ref=f104e743] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                  - text: Villa rental
+                - generic [ref=f104e744]:
+                  - button [ref=f104e746] [cursor=pointer]: "109"
+                  - generic [ref=f104e749]: Share
+          - option [ref=f104e751]:
+            - article [ref=f104e753]:
+              - generic [ref=f104e754]:
+                - generic [ref=f104e755]:
+                  - button [ref=f104e756] [cursor=pointer]
+                  - generic [ref=f104e759]:
+                    - link [ref=f104e760] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-tulum/
+                      - img [ref=f104e761]
+                    - link [ref=f104e762] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-tulum/
+                      - img [ref=f104e763]
+                    - link [ref=f104e764] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-tulum/
+                      - img [ref=f104e765]
+                    - link [ref=f104e766] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-tulum/
+                      - img [ref=f104e767]
+                  - button [ref=f104e768] [cursor=pointer]
+                - generic: night from €1,151
+              - generic [ref=f104e769]:
+                - heading [level=3] [ref=f104e770]:
+                  - link [ref=f104e771] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/villa-tulum/
+                    - text: Villa Tulum
+                - generic [ref=f104e772]:
+                  - generic [ref=f104e773]:
+                    - text: Tulum,
+                    - link [ref=f104e775] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Riviera Maya
+                      - text: Riviera Maya
+                    - text: ","
+                    - link [ref=f104e776] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                      - text: Mexico
+                  - generic [ref=f104e777]: 8 - 20 people
+                - paragraph [ref=f104e779]: Villa Tulum is located away from the crowds but just minutes away from the pulsating heart of Tulum and the vast sandy beach with all the restaurants and shops.
+              - generic [ref=f104e780]:
+                - link [ref=f104e781] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                  - text: Villa rental
+                - generic [ref=f104e782]:
+                  - button [ref=f104e784] [cursor=pointer]: "21"
+                  - generic [ref=f104e787]: Share
+          - option [ref=f104e789]:
+            - article [ref=f104e791]:
+              - generic [ref=f104e792]:
+                - generic [ref=f104e793]:
+                  - button [ref=f104e794] [cursor=pointer]
+                  - generic [ref=f104e797]:
+                    - link [ref=f104e798] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-capullo/
+                      - img [ref=f104e799]
+                    - link [ref=f104e800] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-capullo/
+                      - img [ref=f104e801]
+                    - link [ref=f104e802] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-capullo/
+                      - img [ref=f104e803]
+                    - link [ref=f104e804] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/villa-capullo/
+                      - img [ref=f104e805]
+                  - button [ref=f104e806] [cursor=pointer]
+                - generic: night from €2,009
+              - generic [ref=f104e807]:
+                - heading [level=3] [ref=f104e808]:
+                  - link [ref=f104e809] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/villa-capullo/
+                    - text: Villa Capullo
+                - generic [ref=f104e810]:
+                  - generic [ref=f104e811]:
+                    - text: Tulum,
+                    - link [ref=f104e813] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Riviera Maya
+                      - text: Riviera Maya
+                    - text: ","
+                    - link [ref=f104e814] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                      - text: Mexico
+                  - generic [ref=f104e815]: 8 - 18 people
+                - paragraph [ref=f104e817]: Set in the heart of the city, the villa is a minimalist-style jungle oasis that exudes a boutique hotel vibe. It features eight bedrooms and a gorgeous swimming pool surrounded by tropical garden.
+              - generic [ref=f104e818]:
+                - link [ref=f104e819] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                  - text: Villa rental
+                - generic [ref=f104e820]:
+                  - button [ref=f104e822] [cursor=pointer]: "5"
+                  - generic [ref=f104e825]: Share
+          - option [ref=f104e827]:
+            - article [ref=f104e829]:
+              - generic [ref=f104e830]:
+                - generic [ref=f104e831]:
+                  - button [ref=f104e832] [cursor=pointer]
+                  - generic [ref=f104e835]:
+                    - link [ref=f104e836] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-tropical/
+                      - img [ref=f104e837]
+                    - link [ref=f104e838] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-tropical/
+                      - img [ref=f104e839]
+                    - link [ref=f104e840] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-tropical/
+                      - img [ref=f104e841]
+                    - link [ref=f104e842] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/property/casa-tropical/
+                      - img [ref=f104e843]
+                  - button [ref=f104e844] [cursor=pointer]
+                - generic: night from €1,099
+              - generic [ref=f104e845]:
+                - heading [level=3] [ref=f104e846]:
+                  - link [ref=f104e847] [cursor=pointer]:
+                    - /url: https://www.welcomebeyond.com/property/casa-tropical/
+                    - text: Casa Tropical
+                - generic [ref=f104e848]:
+                  - generic [ref=f104e849]:
+                    - link [ref=f104e851] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX&region=Oaxaca
+                      - text: Oaxaca
+                    - text: ","
+                    - link [ref=f104e852] [cursor=pointer]:
+                      - /url: https://www.welcomebeyond.com/search/?countries=MX
+                      - text: Mexico
+                  - generic [ref=f104e853]: 2 - 10 people
+                - paragraph [ref=f104e855]: Overlooking a deserted stretch of sand, Casa Tropical is an architecturally designed four-bedroom villa near Puerto Escondido. It boasts an infinity pool, an outdoor cinema and comes fully staffed.
+              - generic [ref=f104e856]:
+                - link [ref=f104e857] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+                  - text: Villa rental
+                - generic [ref=f104e858]:
+                  - button [ref=f104e860] [cursor=pointer]: "18"
+                  - generic [ref=f104e863]: Share
+    - generic [ref=f104e867]:
+      - generic [ref=f104e868]:
+        - generic [ref=f104e869]:
+          - img "Welcome Beyond" [ref=f104e870]
+          - generic [ref=f104e871]:
+            - paragraph [ref=f104e872]: Welcome Beyond hand-picks small hotels and holiday rentals that are truly original and reflect their owners’ passion for distinctive architecture and design. Each is singular, memorable and definitely worth writing home about.
+            - paragraph [ref=f104e873]:
+              - link "Miles & More" [ref=f104e874] [cursor=pointer]:
+                - /url: https://bit.ly/welcomebeyond-email-milesandmore
+                - img "Miles & More" [ref=f104e875]
+            - list
+          - list [ref=f104e877]:
+            - listitem [ref=f104e878]:
+              - link "Welcome Beyond on Instagram" [ref=f104e879] [cursor=pointer]:
+                - /url: https://www.instagram.com/welcomebeyond
+                - img [ref=f104e880]
+            - listitem [ref=f104e882]:
+              - link "Welcome Beyond on Facebook" [ref=f104e883] [cursor=pointer]:
+                - /url: https://www.facebook.com/WelcomeBeyond
+                - img [ref=f104e884]
+            - listitem [ref=f104e886]:
+              - link "Welcome Beyond on twitter" [ref=f104e887] [cursor=pointer]:
+                - /url: https://www.twitter.com/WelcomeBeyond
+                - img [ref=f104e888]
+            - listitem [ref=f104e890]:
+              - link "Welcome Beyond on Pinterest" [ref=f104e891] [cursor=pointer]:
+                - /url: https://www.pinterest.com/welcomebeyond
+                - img [ref=f104e892]
+        - generic [ref=f104e894]:
+          - navigation [ref=f104e895]:
+            - heading "Properties" [level=3] [ref=f104e896]
+            - list [ref=f104e897]:
+              - listitem [ref=f104e898]:
+                - link "Beach houses" [ref=f104e899] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/beach-houses
+              - listitem [ref=f104e900]:
+                - link "Bed & Breakfasts" [ref=f104e901] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/hotels/bed-and-breakfasts
+              - listitem [ref=f104e902]:
+                - link "Boutique hotels" [ref=f104e903] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/hotels/boutique-hotels
+              - listitem [ref=f104e904]:
+                - link "Camps / Lodges" [ref=f104e905] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/camps-and-lodges
+              - listitem [ref=f104e906]:
+                - link "Cottages / Cabins / Chalets" [ref=f104e907] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/cottages-cabins-chalets
+              - listitem [ref=f104e908]:
+                - link "Holiday homes" [ref=f104e909] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/holiday-homes
+              - listitem [ref=f104e910]:
+                - link "Holiday apartments" [ref=f104e911] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/holiday-apartments
+              - listitem [ref=f104e912]:
+                - link "Private islands" [ref=f104e913] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/private-islands
+              - listitem [ref=f104e914]:
+                - link "Unique rentals" [ref=f104e915] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/unique-rentals
+              - listitem [ref=f104e916]:
+                - link "Villa rentals" [ref=f104e917] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/rentals/villa-rentals
+              - listitem [ref=f104e918]:
+                - link "Yurts / Igloos" [ref=f104e919] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/special/yurts-and-igloos
+          - navigation [ref=f104e920]:
+            - heading "Information" [level=3] [ref=f104e921]
+            - list [ref=f104e922]:
+              - listitem [ref=f104e923]:
+                - link "Explorer travel guide" [ref=f104e924] [cursor=pointer]:
+                  - /url: https://explorer.welcomebeyond.com
+              - listitem [ref=f104e925]:
+                - link "About us" [ref=f104e926] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/about-us/
+              - listitem [ref=f104e927]:
+                - link "FAQ" [ref=f104e928] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/faq/
+              - listitem [ref=f104e929]:
+                - link "Contact us" [ref=f104e930] [cursor=pointer]:
+                  - /url: https://welcomebeyond.typeform.com/to/CWTHDk
+              - listitem [ref=f104e931]:
+                - link "Press enquiries" [ref=f104e932] [cursor=pointer]:
+                  - /url: https://welcomebeyond.typeform.com/to/hfkdBl
+              - listitem [ref=f104e933]:
+                - link "Property applications" [ref=f104e934] [cursor=pointer]:
+                  - /url: https://welcomebeyond.typeform.com/to/aidy3V
+              - listitem [ref=f104e935]:
+                - link "Partners" [ref=f104e936] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/partners/
+              - listitem [ref=f104e937]:
+                - link "Gift experiences" [ref=f104e938] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/gift-vouchers/
+              - listitem [ref=f104e939]:
+                - link "Vacation homes for sale" [ref=f104e940] [cursor=pointer]:
+                  - /url: https://www.welcomebeyond.com/vacation-homes-for-sale/
+              - listitem [ref=f104e941]:
+                - link "Welcome Beyond reviews on Google" [ref=f104e942] [cursor=pointer]:
+                  - /url: https://share.google/V1pJ2nK3tKXVAXKMo
+        - generic [ref=f104e943]:
+          - generic [ref=f104e948]:
+            - generic [ref=f104e949]: Change your currency
+            - combobox "Change your currency" [ref=f104e950]:
+              - option "Euro" [selected]
+              - option "British Pound Sterling"
+              - option "United States Dollar"
+              - option "Argentine Peso"
+              - option "Australian Dollar"
+              - option "Brazilian Real"
+              - option "Canadian Dollar"
+              - option "Chilean Peso"
+              - option "Chinese Yuan"
+              - option "Croatian Kuna"
+              - option "Czech Republic Koruna"
+              - option "Cuban Convertible Peso"
+              - option "Danish Krone"
+              - option "Hungarian Forint"
+              - option "Icelandic Króna"
+              - option "Indian Rupee"
+              - option "Indonesian Rupiah"
+              - option "Japanese Yen"
+              - option "Mexican Peso"
+              - option "New Zealand Dollar"
+              - option "Norwegian Krone"
+              - option "Philippine Peso"
+              - option "Polish Zloty"
+              - option "South African Rand"
+              - option "Swedish Krona"
+              - option "Swiss Franc"
+              - option "Thai Baht"
+              - option "Turkish Lira"
+              - option "Moroccan Dirham"
+          - generic [ref=f104e951]:
+            - heading "Newsletter" [level=3] [ref=f104e952]
+            - generic [ref=f104e955]:
+              - textbox [ref=f104e956]:
+                - /placeholder: Your email
+              - button "Submit" [ref=f104e957] [cursor=pointer]
+            - paragraph [ref=f104e958]: Get updates on our beautiful new properties every Friday.
+            - paragraph [ref=f104e959]:
+              - generic [ref=f104e960]:
+                - text: We guarantee 100% privacy. Your information will not be shared.
+                - link "Read our previous newsletters here." [ref=f104e961] [cursor=pointer]:
+                  - /url: https://us2.campaign-archive.com/home/?u=46fdad8165ddf74293a2ed577&id=c1817e94f6
+      - generic [ref=f104e962]:
+        - navigation [ref=f104e963]:
+          - list [ref=f104e964]:
+            - listitem [ref=f104e965]: © Welcome Beyond 2026
+            - listitem [ref=f104e966]:
+              - text: •
+              - link "Impressum" [ref=f104e967] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/impressum/
+            - listitem [ref=f104e968]:
+              - text: •
+              - link "Terms & Conditions" [ref=f104e969] [cursor=pointer]:
+                - /url: https://www.welcomebeyond.com/terms-and-conditions-agb/
+        - navigation [ref=f104e970]:
+          - list [ref=f104e971]:
+            - listitem [ref=f104e972]:
+              - link "Privacy policy" [ref=f104e973] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841576
+            - listitem [ref=f104e974]:
+              - text: •
+              - link "Datenschutzerklärung" [ref=f104e975] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841640
+            - listitem [ref=f104e976]:
+              - text: •
+              - link "Cookie policy" [ref=f104e977] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841576/cookie-policy
+            - listitem [ref=f104e978]:
+              - text: •
+              - link "Cookie Richtlinien" [ref=f104e979] [cursor=pointer]:
+                - /url: https://www.iubenda.com/privacy-policy/7841640/cookie-policy
+  - text: "* * * * * * * *"
+  - link:
+    - /url: "#"
+  - alertdialog "Notice" [ref=f104e981]:
+    - generic [ref=f104e983]:
+      - document [ref=f104e984]:
+        - heading "Notice" [level=2] [ref=f104e985]
+        - generic [ref=f104e986]:
+          - paragraph [ref=f104e987]:
+            - text: We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, for other purposes as specified in the
+            - button "cookie policy - link opens in a new tab" [ref=f104e988] [cursor=pointer]: cookie policy
+            - text: .
+          - paragraph
+          - paragraph [ref=f104e989]: Use the “Accept” button to consent. Use the “Reject” button to continue without accepting.
+      - generic [ref=f104e990]:
+        - button "Learn more and customize" [ref=f104e992] [cursor=pointer]
+        - generic [ref=f104e993]:
+          - button "Reject" [ref=f104e994] [cursor=pointer]
+          - button "Accept" [ref=f104e995] [cursor=pointer]

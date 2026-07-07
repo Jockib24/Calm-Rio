@@ -1,0 +1,17 @@
+{
+  "name": "CalmRio",
+  "short_name": "CalmRio",
+  "description": "Locations de vacances premium — Royan & Île d'Oléron",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F5",
+  "theme_color": "#1A2B3C",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

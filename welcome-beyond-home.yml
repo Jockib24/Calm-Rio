@@ -1,0 +1,397 @@
+- document [active] [ref=f58e1]:
+  - generic [ref=f58e3]:
+    - generic:
+      - navigation:
+        - generic [ref=f58e4]:
+          - generic [ref=f58e6]:
+            - generic [ref=f58e7]
+            - list [ref=f58e36]
+          - generic:
+            - list
+    - main [ref=f58e41]:
+      - generic [ref=f58e44]:
+        - generic [ref=f58e45]:
+          - img "Welcome Beyond." [ref=f58e46]
+          - heading "Hand-picked Boutique Hotels & Holiday Homes" [level=1] [ref=f58e47]
+        - generic [ref=f58e48]:
+          - generic [ref=f58e49]:
+            - combobox [ref=f58e51]
+            - link "View 446 properties" [ref=f58e52] [cursor=pointer]:
+              - /url: https://www.welcomebeyond.com/search/
+          - link "Advanced search" [ref=f58e53] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/search/
+      - generic [ref=f58e56]:
+        - button "Previous" [ref=f58e57] [cursor=pointer]:
+          - img [ref=f58e58]
+        - listbox [ref=f58e62]:
+          - link [ref=f58e63] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/property/aurora-cabin/
+            - img [ref=f58e65]
+          - link [ref=f58e66] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/property/la-tropical/
+            - img [ref=f58e68]
+          - option "Condé Nast Traveller 2026 Readers' Choice Awards" [ref=f58e69] [cursor=pointer]:
+            - img "Condé Nast Traveller 2026 Readers' Choice Awards" [ref=f58e71]
+          - option [ref=f58e72] [cursor=pointer]:
+            - img [ref=f58e74]
+          - option [ref=f58e75] [cursor=pointer]:
+            - img [ref=f58e77]
+          - option [ref=f58e78] [cursor=pointer]:
+            - img [ref=f58e80]
+          - option [ref=f58e81] [cursor=pointer]:
+            - img [ref=f58e83]
+          - option [ref=f58e84] [cursor=pointer]:
+            - img [ref=f58e86]
+          - option [ref=f58e87] [cursor=pointer]:
+            - img [ref=f58e89]
+          - option [ref=f58e90] [cursor=pointer]:
+            - img [ref=f58e92]
+          - option [ref=f58e93] [cursor=pointer]:
+            - img [ref=f58e95]
+          - option [ref=f58e96] [cursor=pointer]:
+            - img [ref=f58e98]
+          - option [ref=f58e99] [cursor=pointer]:
+            - img [ref=f58e101]
+          - option [ref=f58e102] [cursor=pointer]:
+            - img [ref=f58e104]
+          - option [ref=f58e105] [cursor=pointer]:
+            - img [ref=f58e107]
+          - option [ref=f58e108] [cursor=pointer]:
+            - img [ref=f58e110]
+          - option [ref=f58e111] [cursor=pointer]:
+            - img [ref=f58e113]
+          - option [ref=f58e114] [cursor=pointer]:
+            - img [ref=f58e116]
+          - option [ref=f58e117] [cursor=pointer]:
+            - img [ref=f58e119]
+          - option [ref=f58e120] [cursor=pointer]:
+            - img [ref=f58e122]
+          - option [ref=f58e123] [cursor=pointer]:
+            - img [ref=f58e125]
+          - option [ref=f58e126] [cursor=pointer]:
+            - img [ref=f58e128]
+          - option [ref=f58e129] [cursor=pointer]:
+            - img [ref=f58e131]
+          - option [ref=f58e132] [cursor=pointer]:
+            - img [ref=f58e134]
+          - link [ref=f58e135] [cursor=pointer]:
+            - /url: https://condenast-interactive.typeform.com/to/XjstqQJp
+            - img [ref=f58e137]
+          - link [ref=f58e138] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/search/
+            - img [ref=f58e140]
+        - button "Next" [ref=f58e141] [cursor=pointer]:
+          - img [ref=f58e142]
+        - listbox [ref=f58e146]:
+          - option "Condé Nast Traveller 2026 Readers' Choice Awards" [ref=f58e147]
+          - option [ref=f58e148]: Welcome Beyond is now a partner of Miles & More
+          - option [ref=f58e149]: Majamaja in Helsinki, Finland
+          - option [ref=f58e150]: Freiform, an architectural rental in South Tyrol, Italy
+          - option [ref=f58e151]: Les Terrasses de Comporta, a villa rental in Comporta, Portugal
+          - option [ref=f58e152]: Osmoliš boutique hotel, on the Dalmatian Coast, Croatia
+          - option [ref=f58e153]: Masseria Salice Salentino holiday retrat in Puglia, Italy
+          - option [ref=f58e154]: Dá Licença design hotel in Estremoz, Alentejo, Portugal
+          - option [ref=f58e155]: Villa Aleomandra on Mykonos, Grece
+          - option [ref=f58e156]: The Lodge holiday cabin in Scotland, United Kingdom
+          - option [ref=f58e157]: SynVillan tree house in Blekinge, Sweden
+          - option [ref=f58e158]: Villa Peduzzi on Lake Como, Italy
+          - option [ref=f58e159]: Monsieur Didot boutique hotel in Athens, Greece
+          - option [ref=f58e160]: VillaVerde spa hotel in South Tyrol, Italy
+          - option [ref=f58e161]: Fjellhytte, a cabin rental in Innlandet, Norway
+          - option [ref=f58e162]: The Unterhus, a design rental in Vals, Graubünden, Switzerland
+          - option [ref=f58e163]: Aufberg 1113, two holiday apartments in Salzburger Land, Austria
+          - option [ref=f58e164]: hinterhouse cabin rental in Québec, Canada
+          - option [ref=f58e165]: Schgaguler design hotel in South Tyrol, Italy
+          - option [ref=f58e166]: Modern Chalet, an architectural rental in South Tyrol, Italy
+          - option [ref=f58e167]: Aurora Cabin rental in Lofoten, Norway
+          - option [ref=f58e168]: La Tropical, a design rental in Mérida, Yucatán, Mexico
+      - list [ref=f58e171]:
+        - listitem [ref=f58e172]:
+          - link "Art, Design & Architecture 71" [ref=f58e173] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/art-design-and-architecture-holidays
+            - img [ref=f58e175]
+            - generic [ref=f58e177]: Art, Design & Architecture
+            - generic [ref=f58e178]: "71"
+        - listitem [ref=f58e179]:
+          - link "City breaks 69" [ref=f58e180] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/city-breaks
+            - img [ref=f58e182]
+            - generic [ref=f58e184]: City breaks
+            - generic [ref=f58e185]: "69"
+        - listitem [ref=f58e186]:
+          - link "Ecotourism 79" [ref=f58e187] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/ecotourism
+            - img [ref=f58e189]
+            - generic [ref=f58e191]: Ecotourism
+            - generic [ref=f58e192]: "79"
+        - listitem [ref=f58e193]:
+          - link "Family holidays 336" [ref=f58e194] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/family-holidays
+            - img [ref=f58e196]
+            - generic [ref=f58e198]: Family holidays
+            - generic [ref=f58e199]: "336"
+        - listitem [ref=f58e200]:
+          - link "Food travel 177" [ref=f58e201] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/food-travel
+            - img [ref=f58e203]
+            - generic [ref=f58e205]: Food travel
+            - generic [ref=f58e206]: "177"
+        - listitem [ref=f58e207]:
+          - link "Group getaways 261" [ref=f58e208] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/group-getaways
+            - img [ref=f58e210]
+            - generic [ref=f58e212]: Group getaways
+            - generic [ref=f58e213]: "261"
+        - listitem [ref=f58e214]:
+          - link "Honeymoon destinations 218" [ref=f58e215] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/honeymoon-destinations
+            - img [ref=f58e217]
+            - generic [ref=f58e219]: Honeymoon destinations
+            - generic [ref=f58e220]: "218"
+        - listitem [ref=f58e221]:
+          - link "Photoshoot locations 137" [ref=f58e222] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/photoshoot-locations
+            - img [ref=f58e224]
+            - generic [ref=f58e226]: Photoshoot locations
+            - generic [ref=f58e227]: "137"
+        - listitem [ref=f58e228]:
+          - link "Remote work 105" [ref=f58e229] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/remote-work
+            - img [ref=f58e231]
+            - generic [ref=f58e233]: Remote work
+            - generic [ref=f58e234]: "105"
+        - listitem [ref=f58e235]:
+          - link "Romantic getaways 274" [ref=f58e236] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/romantic-getaways
+            - img [ref=f58e238]
+            - generic [ref=f58e240]: Romantic getaways
+            - generic [ref=f58e241]: "274"
+        - listitem [ref=f58e242]:
+          - link "Secluded retreats 188" [ref=f58e243] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/secluded-retreats
+            - img [ref=f58e245]
+            - generic [ref=f58e247]: Secluded retreats
+            - generic [ref=f58e248]: "188"
+        - listitem [ref=f58e249]:
+          - link "Spas & Resorts 28" [ref=f58e250] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/spas-and-resorts
+            - img [ref=f58e252]
+            - generic [ref=f58e254]: Spas & Resorts
+            - generic [ref=f58e255]: "28"
+        - listitem [ref=f58e256]:
+          - link "Summer & Beach holidays 291" [ref=f58e257] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/summer-and-beach-holidays
+            - img [ref=f58e259]
+            - generic [ref=f58e261]: Summer & Beach holidays
+            - generic [ref=f58e262]: "291"
+        - listitem [ref=f58e263]:
+          - link "Summer availability 11" [ref=f58e264] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/summer-availability
+            - img [ref=f58e266]
+            - generic [ref=f58e268]: Summer availability
+            - generic [ref=f58e269]: "11"
+        - listitem [ref=f58e270]:
+          - link "The Stays collection 3" [ref=f58e271] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/the-stays-collection
+            - img [ref=f58e273]
+            - generic [ref=f58e275]: The Stays collection
+            - generic [ref=f58e276]: "3"
+        - listitem [ref=f58e277]:
+          - link "Unique destinations 25" [ref=f58e278] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/unique-holiday-destinations
+            - img [ref=f58e280]
+            - generic [ref=f58e282]: Unique destinations
+            - generic [ref=f58e283]: "25"
+        - listitem [ref=f58e284]:
+          - link "Wedding & Event venues 128" [ref=f58e285] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/wedding-and-event-venues
+            - img [ref=f58e287]
+            - generic [ref=f58e289]: Wedding & Event venues
+            - generic [ref=f58e290]: "128"
+        - listitem [ref=f58e291]:
+          - link "Winter & Ski holidays 51" [ref=f58e292] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/winter-and-ski-holidays
+            - img [ref=f58e294]
+            - generic [ref=f58e296]: Winter & Ski holidays
+            - generic [ref=f58e297]: "51"
+        - listitem [ref=f58e298]:
+          - link "Winter sun holidays 76" [ref=f58e299] [cursor=pointer]:
+            - /url: https://www.welcomebeyond.com/winter-sun-holidays
+            - img [ref=f58e301]
+            - generic [ref=f58e303]: Winter sun holidays
+            - generic [ref=f58e304]: "76"
+      - generic [ref=f58e306]:
+        - generic [ref=f58e307]:
+          - heading "Our latest design hotels & holiday rentals" [level=2] [ref=f58e308]
+          - generic [ref=f58e309]:
+            - button "Previous" [disabled] [ref=f58e310]
+            - button "Next" [ref=f58e313] [cursor=pointer]
+        - listbox [ref=f58e318]:
+          - option [ref=f58e319]:
+            - article [ref=f58e321]
+          - option [ref=f58e357]:
+            - article [ref=f58e359]
+          - option [ref=f58e395]:
+            - article [ref=f58e397]
+          - option [ref=f58e433]:
+            - article [ref=f58e435]
+          - option [ref=f58e471]:
+            - article [ref=f58e473]
+          - option [ref=f58e509]:
+            - article [ref=f58e511]
+          - option [ref=f58e547]:
+            - article [ref=f58e549]
+          - option [ref=f58e585]:
+            - article [ref=f58e587]
+          - option [ref=f58e623]:
+            - article [ref=f58e625]
+      - generic [ref=f58e663]:
+        - toolbar [ref=f58e664]:
+          - listbox [ref=f58e666]:
+            - option [ref=f58e667]
+            - option [ref=f58e682]
+            - option [ref=f58e698]
+          - tablist:
+            - listitem
+            - listitem
+            - listitem
+        - link "Press enquiries" [ref=f58e716] [cursor=pointer]:
+          - /url: https://welcomebeyond.typeform.com/to/hfkdBl
+      - generic [ref=f58e718]:
+        - heading "Travel inspiration" [level=2] [ref=f58e719]
+        - list [ref=f58e720]:
+          - listitem [ref=f58e721]:
+            - link "Browse your favourite destinations and get exclusive insider tips curated by our property owners." [ref=f58e722] [cursor=pointer]:
+              - /url: https://explorer.welcomebeyond.com
+            - link "Explorer travel guide" [ref=f58e724] [cursor=pointer]:
+              - /url: https://explorer.welcomebeyond.com
+            - paragraph [ref=f58e725]: Get over 3000 curated travel tips
+          - listitem [ref=f58e726]:
+            - link "Log in to your (free) ChatGPT account to get our curated travel tips." [ref=f58e727] [cursor=pointer]:
+              - /url: https://chatgpt.com/g/g-699efe688b80819199abb6475cbdc907-welcome-beyond
+            - link "Our new AI travel assistant" [ref=f58e729] [cursor=pointer]:
+              - /url: https://chatgpt.com/g/g-699efe688b80819199abb6475cbdc907-welcome-beyond
+            - paragraph [ref=f58e730]: Search our properties in a different way
+          - listitem [ref=f58e731]:
+            - link "Escape for a summer & beach break, with lazy days spent on the beach in the sun or fun-filled days full of activities. With hot summer destinations in either Europe or in distance picturesque seascapes, there are numerous beach rental houses to spend your summer months." [ref=f58e732] [cursor=pointer]:
+              - /url: /summer-and-beach-holidays
+            - link "Summer and Beach holidays" [ref=f58e734] [cursor=pointer]:
+              - /url: /summer-and-beach-holidays
+            - paragraph [ref=f58e735]: Life’s so much nicer with a bit of sunshine and sand under your feet!
+          - listitem [ref=f58e736]:
+            - link "Pick your urban retreat for your next city break from our favourite small boutique hotels and stylish apartment rentals. Take a weekend trip to cities such as London, Paris, Lisbon, Barcelona or Marrakech. Visit museums, go shopping, do some sightseeing, or enjoy international fine dining. After all, you’re only a short flight or train ride away." [ref=f58e737] [cursor=pointer]:
+              - /url: /city-breaks
+            - link "City Breaks" [ref=f58e739] [cursor=pointer]:
+              - /url: /city-breaks
+            - paragraph [ref=f58e740]: Stylish city destinations
+          - listitem [ref=f58e741]:
+            - link "Exploring the world doesn’t mean you should leave your love for design and architecture behind. Our modern holiday rentals, boutique home rentals and design hotels are architectural gems that make perfect destinations for design lovers. Each of them stylish in its own way lets you enjoy architecture and interior design at its best." [ref=f58e742] [cursor=pointer]:
+              - /url: /design-and-architecture-holidays
+            - link "Modern architecture holidays" [ref=f58e744] [cursor=pointer]:
+              - /url: /design-and-architecture-holidays
+            - paragraph [ref=f58e745]: Modern or traditional architecture, always great design
+          - listitem [ref=f58e746]:
+            - link "Head out into winter and enjoy fantastic ski holidays this Christmas season. You’ll love our ski destinations with powdery slopes, clear skies, and cosy fires to cuddle up to. Return from a long day of playing in the snow to your own luxurious chalet or rustic mountain lodge in Switzerland, France, Germany, or Austria." [ref=f58e747] [cursor=pointer]:
+              - /url: /winter-and-ski-holidays
+            - link "Winter & Ski Holidays" [ref=f58e749] [cursor=pointer]:
+              - /url: /winter-and-ski-holidays
+            - paragraph [ref=f58e750]: Explore the mountains in style
+      - generic [ref=f58e753]:
+        - generic [ref=f58e754]:
+          - generic [ref=f58e755]:
+            - heading "Hand-picked curation" [level=2] [ref=f58e756]
+            - paragraph [ref=f58e757]: We review every property carefully and only accept those that meet our high design & quality standards — in all price ranges.
+          - generic [ref=f58e758]:
+            - link "Property application" [ref=f58e760] [cursor=pointer]:
+              - /url: https://welcomebeyond.typeform.com/to/aidy3V
+            - link "About us" [ref=f58e762] [cursor=pointer]:
+              - /url: https://www.welcomebeyond.com/about-us/
+        - generic [ref=f58e763]:
+          - generic [ref=f58e764]:
+            - heading "Personal service" [level=2] [ref=f58e765]
+            - paragraph [ref=f58e766]: "We want you to find your perfect stay. If you need help, email us:"
+          - generic [ref=f58e767]:
+            - link "Contact us" [ref=f58e769] [cursor=pointer]:
+              - /url: https://welcomebeyond.typeform.com/to/CWTHDk
+            - link "Welcome Beyond Google Reviews" [ref=f58e771] [cursor=pointer]:
+              - /url: https://share.google/V1pJ2nK3tKXVAXKMo
+            - link "Our new AI travel assistant" [ref=f58e773] [cursor=pointer]:
+              - /url: https://chatgpt.com/g/g-699efe688b80819199abb6475cbdc907-welcome-beyond
+        - generic [ref=f58e774]:
+          - generic [ref=f58e775]:
+            - heading "Best prices & a little extra" [level=2] [ref=f58e776]
+            - paragraph [ref=f58e777]
+          - generic [ref=f58e778]:
+            - link "Start browsing" [ref=f58e780] [cursor=pointer]:
+              - /url: /search/
+            - link "Get our newsletter" [ref=f58e782] [cursor=pointer]:
+              - /url: https://welcomebeyond.us2.list-manage.com/subscribe?u=46fdad8165ddf74293a2ed577&id=c1817e94f6
+    - generic [ref=f58e783]:
+      - generic [ref=f58e786]:
+        - list [ref=f58e788]:
+          - listitem [ref=f58e789]:
+            - img "Miles & More" [ref=f58e790]
+          - listitem [ref=f58e791]:
+            - img "Archilovers" [ref=f58e792]
+          - paragraph [ref=f58e793]: Welcome Beyond and its properties have been featured in these fine publications.
+        - list [ref=f58e794]:
+          - listitem [ref=f58e795]:
+            - img "Travel+Leisure" [ref=f58e796]
+          - listitem [ref=f58e797]:
+            - img "Vogue" [ref=f58e798]
+          - listitem [ref=f58e799]:
+            - img "Schöner Wohnen" [ref=f58e800]
+          - listitem [ref=f58e801]:
+            - img "BBC" [ref=f58e802]
+          - listitem [ref=f58e803]:
+            - img "Financial Times" [ref=f58e804]
+          - listitem [ref=f58e805]:
+            - img "Monocle" [ref=f58e806]
+          - listitem [ref=f58e807]:
+            - img "NY Times" [ref=f58e808]
+          - listitem [ref=f58e809]:
+            - img "LA Times" [ref=f58e810]
+          - listitem [ref=f58e811]:
+            - img "The Guardian" [ref=f58e812]
+          - listitem [ref=f58e813]:
+            - img "The Independent" [ref=f58e814]
+          - listitem [ref=f58e815]:
+            - img "FAZ" [ref=f58e816]
+          - listitem [ref=f58e817]:
+            - img "Süddeutsche Zeitung" [ref=f58e818]
+      - generic [ref=f58e820]:
+        - generic [ref=f58e821]:
+          - generic [ref=f58e822]:
+            - img "Welcome Beyond" [ref=f58e823]
+            - generic [ref=f58e824]
+            - list [ref=f58e830]
+          - generic [ref=f58e847]:
+            - navigation [ref=f58e848]
+            - navigation [ref=f58e873]
+          - generic [ref=f58e896]:
+            - generic [ref=f58e901]
+            - generic [ref=f58e904]
+        - generic [ref=f58e915]:
+          - navigation [ref=f58e916]:
+            - list [ref=f58e917]
+          - navigation [ref=f58e923]:
+            - list [ref=f58e924]
+  - text: "* * * * * * * *"
+  - link:
+    - /url: "#"
+  - alertdialog "Notice" [ref=f58e934]:
+    - generic [ref=f58e936]:
+      - document [ref=f58e937]:
+        - heading "Notice" [level=2] [ref=f58e938]
+        - generic [ref=f58e939]:
+          - paragraph [ref=f58e940]:
+            - text: We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, for other purposes as specified in the
+            - button "cookie policy - link opens in a new tab" [ref=f58e941] [cursor=pointer]: cookie policy
+            - text: .
+          - paragraph
+          - paragraph [ref=f58e942]: Use the “Accept” button to consent. Use the “Reject” button to continue without accepting.
+      - generic [ref=f58e943]:
+        - button "Learn more and customize" [ref=f58e945] [cursor=pointer]
+        - generic [ref=f58e946]:
+          - button "Reject" [ref=f58e947] [cursor=pointer]
+          - button "Accept" [ref=f58e948] [cursor=pointer]

@@ -229,13 +229,6 @@ code {
   border-radius: var(--radius-sm);
 }
 
-hr {
-  border: 0;
-  height: 1px;
-  background-color: var(--color-border);
-  margin: var(--space-8) 0;
-}
-
 // ------------------------------------------------------------
 // Text utility classes
 // ------------------------------------------------------------
@@ -255,11 +248,4 @@ hr {
 .fw-semibold { font-weight: var(--weight-semibold); }
 .fw-bold { font-weight: var(--weight-bold); }
 
-// ------------------------------------------------------------
-// Font smoothing
-// ------------------------------------------------------------
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}

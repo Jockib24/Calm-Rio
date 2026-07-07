@@ -1,0 +1,168 @@
+- generic [active] [ref=f84e1]:
+  - generic [ref=f84e2]:
+    - banner [ref=f84e3]:
+      - generic [ref=f84e4]:
+        - paragraph [ref=f84e5]:
+          - text: By using Plum Guide, you agree to our
+          - link "Cookie Policy" [ref=f84e6] [cursor=pointer]:
+            - /url: /cookie-policy
+          - text: .
+        - button "Close" [ref=f84e7] [cursor=pointer]:
+          - img [ref=f84e9]
+      - button "Plum Guide" [ref=f84e13] [cursor=pointer]:
+        - img [ref=f84e15]
+      - generic [ref=f84e22]:
+        - button "Language is en-US Currency is MAD" [ref=f84e23] [cursor=pointer]:
+          - paragraph [ref=f84e24]: en
+          - paragraph [ref=f84e26]: MAD
+        - button "Log in" [ref=f84e27] [cursor=pointer]:
+          - img [ref=f84e29]
+          - img [ref=f84e35]
+    - generic [ref=f84e37]:
+      - generic [ref=f84e40]:
+        - list [ref=f84e43]:
+          - listitem [ref=f84e44]:
+            - button "Search"
+          - listitem [ref=f84e45]:
+            - combobox "Destination" [ref=f84e46]:
+              - button "Destination Paris" [ref=f84e47] [cursor=pointer]:
+                - generic [ref=f84e48]: Destination
+                - button "Paris" [ref=f84e49]
+            - button "Add dates" [ref=f84e51] [cursor=pointer]:
+              - paragraph [ref=f84e52]: Add dates
+          - listitem [ref=f84e53]:
+            - generic [ref=f84e54]:
+              - button "Add guests" [ref=f84e55] [cursor=pointer]:
+                - paragraph [ref=f84e56]: Add guests
+              - button "Search" [ref=f84e57] [cursor=pointer]:
+                - img [ref=f84e59]
+                - paragraph [ref=f84e61]: Search
+        - button "Filter&Sort" [ref=f84e63] [cursor=pointer]:
+          - img [ref=f84e66]
+          - generic [ref=f84e68]: Filter&Sort
+      - main [ref=f84e69]:
+        - generic [ref=f84e71]:
+          - generic [ref=f84e72]:
+            - generic [ref=f84e74]:
+              - paragraph [ref=f84e76]: 1000+ homes available
+              - generic [ref=f84e77]: We rejected 41,781 homes in Paris, so you don't have to.
+              - button "Learn about our standards" [ref=f84e78] [cursor=pointer]:
+                - generic [ref=f84e79]: Learn about our standards
+            - generic [ref=f84e80]:
+              - listitem [ref=f84e81]:
+                - generic [ref=f84e82]
+              - listitem [ref=f84e174]:
+                - generic [ref=f84e175]
+              - listitem [ref=f84e264]:
+                - generic [ref=f84e265]
+              - listitem [ref=f84e363]:
+                - generic [ref=f84e364]
+              - listitem [ref=f84e468]:
+                - generic [ref=f84e469]
+              - listitem [ref=f84e552]:
+                - generic [ref=f84e553]
+              - listitem [ref=f84e657]:
+                - generic [ref=f84e658]
+              - listitem [ref=f84e750]:
+                - generic [ref=f84e751]
+              - listitem [ref=f84e825]:
+                - generic [ref=f84e826]
+              - listitem [ref=f84e927]:
+                - generic [ref=f84e928]
+              - separator [ref=f84e1023]
+            - generic [ref=f84e1025]:
+              - generic [ref=f84e1026]:
+                - button "Previous page button" [disabled]
+              - paragraph [ref=f84e1028]:
+                - strong [ref=f84e1029]: 1 – 40
+                - text: of 1000+ homes
+              - button "Next page button" [ref=f84e1031] [cursor=pointer]:
+                - img [ref=f84e1033]
+          - generic [ref=f84e1037]:
+            - paragraph [ref=f84e1038]: © Copyright Plum Guide 2026
+            - list [ref=f84e1039]:
+              - listitem [ref=f84e1040]:
+                - link "Terms" [ref=f84e1041] [cursor=pointer]:
+                  - /url: /terms
+              - listitem [ref=f84e1042]:
+                - text: "|"
+                - link "Privacy" [ref=f84e1043] [cursor=pointer]:
+                  - /url: /privacy-policy
+              - listitem [ref=f84e1044]:
+                - text: "|"
+                - link "Sitemap" [ref=f84e1045] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=f84e1046]: "| Cookie Preferences"
+        - generic [ref=f84e1048]:
+          - generic:
+            - button "Map view" [ref=f84e1050] [cursor=pointer]:
+              - img [ref=f84e1052]
+            - generic [ref=f84e1055]:
+              - button "Zoom in" [ref=f84e1056] [cursor=pointer]:
+                - img [ref=f84e1058]
+              - button "Zoom out" [ref=f84e1060] [cursor=pointer]:
+                - img [ref=f84e1062]
+          - generic [ref=f84e1066]:
+            - generic:
+              - button "Keyboard shortcuts"
+            - region "Map" [ref=f84e1067]
+            - generic [ref=f84e1068]:
+              - generic [ref=f84e1121]:
+                - button [ref=f84e1123] [cursor=pointer]
+                - button [ref=f84e1128] [cursor=pointer]
+                - button [ref=f84e1133] [cursor=pointer]
+                - button [ref=f84e1138] [cursor=pointer]
+                - button [ref=f84e1143] [cursor=pointer]
+                - button [ref=f84e1148] [cursor=pointer]
+                - button [ref=f84e1153] [cursor=pointer]
+                - button [ref=f84e1158] [cursor=pointer]
+                - button [ref=f84e1163] [cursor=pointer]
+                - button [ref=f84e1168] [cursor=pointer]
+                - button [ref=f84e1173] [cursor=pointer]
+                - button [ref=f84e1178] [cursor=pointer]
+                - button [ref=f84e1183] [cursor=pointer]
+                - button [ref=f84e1188] [cursor=pointer]
+                - button [ref=f84e1193] [cursor=pointer]
+                - button [ref=f84e1198] [cursor=pointer]
+                - button [ref=f84e1203] [cursor=pointer]
+                - button [ref=f84e1208] [cursor=pointer]
+                - button [ref=f84e1213] [cursor=pointer]
+                - button [ref=f84e1218] [cursor=pointer]
+                - button [ref=f84e1223] [cursor=pointer]
+                - button [ref=f84e1228] [cursor=pointer]
+                - button [ref=f84e1233] [cursor=pointer]
+                - button [ref=f84e1238] [cursor=pointer]
+                - button [ref=f84e1243] [cursor=pointer]
+                - button [ref=f84e1248] [cursor=pointer]
+                - button [ref=f84e1253] [cursor=pointer]
+                - button [ref=f84e1258] [cursor=pointer]
+                - button [ref=f84e1263] [cursor=pointer]
+                - button [ref=f84e1268] [cursor=pointer]
+                - button [ref=f84e1273] [cursor=pointer]
+                - button [ref=f84e1278] [cursor=pointer]
+                - button [ref=f84e1283] [cursor=pointer]
+                - button [ref=f84e1288] [cursor=pointer]
+                - button [ref=f84e1293] [cursor=pointer]
+                - button [ref=f84e1298] [cursor=pointer]
+                - button [ref=f84e1303] [cursor=pointer]
+                - button [ref=f84e1308] [cursor=pointer]
+                - button [ref=f84e1313] [cursor=pointer]
+                - button [ref=f84e1318] [cursor=pointer]
+              - iframe [ref=f84e1322]:
+                
+              - link "Open this area in Google Maps (opens a new window)" [ref=f84e1326] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?ll=48.857063,2.333173&z=13&t=m&hl=en-US&gl=US&mapclient=apiv3
+                - img "Google" [ref=f84e1328]
+              - generic [ref=f84e1329]:
+                - button "Keyboard shortcuts" [ref=f84e1335] [cursor=pointer]
+                - generic [ref=f84e1340]: Map data ©2026 Google
+                - link "Terms (opens in new tab)" [ref=f84e1345] [cursor=pointer]:
+                  - /url: https://www.google.com/intl/en-US_US/help/terms_maps.html
+                - link "Report a map error (opens in new tab)" [ref=f84e1350] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/@48.857063,2.3331733,13z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=f84e1323]
+  - status [ref=f84e1324]
+  - iframe [ref=f84e1351]:
+    

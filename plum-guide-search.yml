@@ -1,0 +1,56 @@
+- generic [active] [ref=f78e1]:
+  - generic [ref=f78e2]:
+    - banner [ref=f78e3]:
+      - generic [ref=f78e4]:
+        - paragraph [ref=f78e5]:
+          - text: By using Plum Guide, you agree to our
+          - link "Cookie Policy" [ref=f78e6] [cursor=pointer]:
+            - /url: /cookie-policy
+          - text: .
+        - button "Close" [ref=f78e7] [cursor=pointer]:
+          - img [ref=f78e9]
+      - button "Plum Guide" [ref=f78e13] [cursor=pointer]:
+        - img [ref=f78e15]
+      - generic [ref=f78e22]:
+        - button "Language is en-US Currency is MAD" [ref=f78e23] [cursor=pointer]:
+          - paragraph [ref=f78e24]: en
+          - paragraph [ref=f78e26]: MAD
+        - button "Log in" [ref=f78e27] [cursor=pointer]:
+          - img [ref=f78e29]
+          - img [ref=f78e35]
+    - generic [ref=f78e37]:
+      - generic [ref=f78e40]:
+        - list [ref=f78e43]:
+          - listitem [ref=f78e44]:
+            - button "Search"
+          - listitem [ref=f78e45]:
+            - combobox "Destination" [ref=f78e46]
+            - button "Add dates" [ref=f78e51] [cursor=pointer]
+          - listitem [ref=f78e53]:
+            - generic [ref=f78e54]
+        - button "Filter&Sort" [ref=f78e63] [cursor=pointer]:
+          - img [ref=f78e66]
+          - generic [ref=f78e68]: Filter&Sort
+      - main [ref=f78e69]:
+        - generic [ref=f78e71]:
+          - generic [ref=f78e72]:
+            - generic [ref=f78e74]
+            - generic [ref=f78e80]
+            - generic [ref=f78e1061]
+          - generic [ref=f78e1073]:
+            - paragraph [ref=f78e1074]: © Copyright Plum Guide 2026
+            - list [ref=f78e1075]
+        - generic [ref=f78e1084]:
+          - generic:
+            - button "Map view" [ref=f78e1086] [cursor=pointer]
+            - generic [ref=f78e1091]
+          - generic [ref=f78e1102]:
+            - generic
+            - region "Map" [ref=f78e1103]
+            - generic [ref=f78e1104]
+    - region "Notifications (F8)":
+      - list
+  - alert [ref=f78e1371]
+  - status [ref=f78e1372]
+  - iframe [ref=f78e1399]:
+    

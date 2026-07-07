@@ -1,0 +1,501 @@
+- generic [ref=f11e1]:
+  - dialog "Manage Consent" [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - generic [ref=f11e4]: Manage Consent
+      - button "Close dialog" [active] [ref=f11e5] [cursor=pointer]:
+        - img [ref=f11e6]: 
+    - generic [ref=f11e9]: To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+    - button "Accept" [ref=f11e11] [cursor=pointer]
+    - generic [ref=f11e12]:
+      - link:
+        - /url: https://www.classicvacations.com/
+      - link "Privacy Statement" [ref=f11e13] [cursor=pointer]:
+        - /url: https://www.classicvacations.com/content/privacy
+  - link "Skip to content" [ref=f11e14] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f11e15]:
+    - generic [ref=f11e16]:
+      - generic [ref=f11e21]:
+        - text:  
+        - link "CV-TBO-Logo_Primary-Dark" [ref=f11e24] [cursor=pointer]:
+          - /url: https://www.classicvacations.com
+          - img "CV-TBO-Logo_Primary-Dark" [ref=f11e25]
+        - link "+1 (800) 221-3949 M-F 6am-5pm PST Sat. 7am-1pm PST" [ref=f11e29] [cursor=pointer]:
+          - /url: tel:18002213949
+          - generic [ref=f11e30]:
+            - generic [ref=f11e32]: 
+            - generic [ref=f11e33]:
+              - strong [ref=f11e34]: +1 (800) 221-3949
+              - text: M-F 6am-5pm PST
+              - text: Sat. 7am-1pm PST
+        - generic [ref=f11e36]:
+          - navigation "Menu" [ref=f11e37]:
+            - list [ref=f11e38]:
+              - listitem [ref=f11e39]:
+                - link "Contact Us" [ref=f11e40] [cursor=pointer]:
+                  - /url: https://www.classicvacations.com/c/contact-us
+          - text:  
+        - link "Advisor Login" [ref=f11e44] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/travel-agent/login
+          - generic [ref=f11e46]: Advisor Login
+      - paragraph [ref=f11e51]:
+        - link "UAE Updates" [ref=f11e53] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/uae-resources-updates
+      - generic [ref=f11e59]:
+        - text: 
+        - navigation "Main nav" [ref=f11e60]:
+          - list [ref=f11e61]:
+            - listitem [ref=f11e62]:
+              - button "Destinations" [ref=f11e63] [cursor=pointer]:
+                - link "Destinations" [ref=f11e64]:
+                  - /url: https://www.classicvacations.com/c/destinations
+                  - generic [ref=f11e66]: Destinations
+            - listitem [ref=f11e67]:
+              - button "Tours" [ref=f11e68] [cursor=pointer]:
+                - link "Tours" [ref=f11e69]:
+                  - /url: "#"
+                  - generic [ref=f11e71]: Tours
+            - listitem [ref=f11e72]:
+              - button "Groups" [ref=f11e73] [cursor=pointer]:
+                - link "Groups" [ref=f11e74]:
+                  - /url: https://www.classicvacations.com/c/groups
+                  - generic [ref=f11e76]: Groups
+            - listitem [ref=f11e77]:
+              - button "Special Offers" [ref=f11e78] [cursor=pointer]:
+                - link "Special Offers" [ref=f11e79]:
+                  - /url: https://www.classicvacations.com/c/special-offers
+                  - generic [ref=f11e81]: Special Offers
+            - listitem [ref=f11e82]:
+              - button "Inspiration" [ref=f11e83] [cursor=pointer]:
+                - link "Inspiration" [ref=f11e84]:
+                  - /url: https://www.classicvacations.com/c/inspiration
+                  - generic [ref=f11e86]: Inspiration
+            - listitem [ref=f11e87]:
+              - button "Why Classic" [ref=f11e88] [cursor=pointer]:
+                - link "Why Classic" [ref=f11e89]:
+                  - /url: https://www.classicvacations.com/c/about-us
+                  - generic [ref=f11e91]: Why Classic
+            - listitem [ref=f11e92]:
+              - button "For Advisors" [ref=f11e93] [cursor=pointer]:
+                - link "For Advisors" [ref=f11e94]:
+                  - /url: "#"
+                  - generic [ref=f11e96]: For Advisors
+  - generic [ref=f11e97]:
+    - generic [ref=f11e100]:
+      - paragraph [ref=f11e103]: Setting the standard for luxury travel since 1978.
+      - generic [ref=f11e104]:
+        - link "Why Classic" [ref=f11e108] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/about-us
+          - generic [ref=f11e109]:
+            - generic [ref=f11e111]: 
+            - generic [ref=f11e112]: Why Classic
+        - text: 
+    - generic [ref=f11e118]:
+      - heading "Featured" [level=2] [ref=f11e121]
+      - generic [ref=f11e123]:
+        - generic [ref=f11e124]:
+          - img "2026-EuropeanRiches-constantinos-kollias-yqBvJJ8jGBQ-unsplash" [ref=f11e127]
+          - generic [ref=f11e128]:
+            - paragraph [ref=f11e131]: 2026 European Riches
+            - paragraph [ref=f11e134]: Curated European hotels and experiences, all in one place. Access exclusive offers, enhanced client perks, and downloadable resources to simplify planning.
+          - link "Learn More" [ref=f11e138] [cursor=pointer]:
+            - /url: https://www.classicvacations.com/c/european-riches
+            - generic [ref=f11e139]:
+              - generic [ref=f11e141]: 
+              - generic [ref=f11e142]: Learn More
+        - generic [ref=f11e143]:
+          - img "elevated-1" [ref=f11e146]
+          - generic [ref=f11e147]:
+            - paragraph [ref=f11e150]: United Airlines
+            - generic [ref=f11e155]: Enjoy exclusive luxury vacations, premium perks, and seamless travel experiences with United Airlines.
+            - link "Learn More" [ref=f11e159] [cursor=pointer]:
+              - /url: https://www.classicvacations.com/c-united-airlines-2
+              - generic [ref=f11e160]:
+                - generic [ref=f11e162]: 
+                - generic [ref=f11e163]: Learn More
+        - generic [ref=f11e164]:
+          - generic [ref=f11e167]:
+            - paragraph [ref=f11e170]: Takeoff to Mexico
+            - paragraph [ref=f11e173]: For a limited time, enjoy $200 instant savings on 4-night stays, making it easy to deliver exceptional value while creating unforgettable Mexico escapes.
+          - link "Learn More" [ref=f11e177] [cursor=pointer]:
+            - /url: https://www.classicvacations.com/c/takeoff-to-mexico
+            - generic [ref=f11e178]:
+              - generic [ref=f11e180]: 
+              - generic [ref=f11e181]: Learn More
+      - text:   
+    - generic [ref=f11e183]:
+      - generic [ref=f11e185]:
+        - heading "Why Advisors Love Classic" [level=2] [ref=f11e188]
+        - link "Create Advisor Account" [ref=f11e196] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/v2/ta-registration
+          - generic [ref=f11e198]: Create Advisor Account
+        - generic [ref=f11e200]:
+          - paragraph [ref=f11e201]: Since 1978, Classic Vacations® has leveraged its legacy of planning luxury vacations to deliver a range of products, connections, and choices for travel advisors beyond any other luxury travel supplier.
+          - paragraph [ref=f11e202]: Through continuous investment in technology and on going commitment to the human touch, Classic meets travel advisors’ needs across all channels and platforms, whether their preference is booking conveniently online 24/7/365 or with the assistance an expert Classic reservations team member. Either way, advisors can be confident that the bookings they’re making for their clients includes world-class luxury travel product, backed by the world-class service that Classic has consistently delivered since it began.
+          - paragraph [ref=f11e203]:
+            - text: This commitment to excellence defines Classic Vacations. To the right are just some of the reasons advisors love Classic. For more, go to
+            - strong [ref=f11e204]:
+              - link "The Classic Difference." [ref=f11e205] [cursor=pointer]:
+                - /url: https://www.classicvacations.com/c/the-classic-difference
+      - generic [ref=f11e207]:
+        - generic [ref=f11e208]:
+          - paragraph [ref=f11e211]: COnnected RATES
+          - paragraph [ref=f11e214]: Instant access to real-time rates and availability
+          - paragraph [ref=f11e221]: Best Travel Protection Program
+          - paragraph [ref=f11e224]: Cancel for any reason coverage, plus commission protection with zero change fees
+        - paragraph [ref=f11e231]: Competitive Commission
+        - paragraph [ref=f11e235]: Reliably paid the week of booking departure
+        - generic [ref=f11e240]:
+          - paragraph [ref=f11e243]: award-winning Royalty Rewards
+          - paragraph [ref=f11e246]: Automatically earn points on every qualified booking, redeemable for personal travel (including air) and more.
+    - generic [ref=f11e249]:
+      - heading "Classic Chronicles Blog" [level=2] [ref=f11e252]
+      - list [ref=f11e255]:
+        - link "2025-FijiTourism-DanceCultureFijianPeople-Landscape Why Fiji Is a Must-Visit Destination" [ref=f11e257] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/why-fiji-is-a-must-visit-destination
+          - generic [ref=f11e258]:
+            - img "2025-FijiTourism-DanceCultureFijianPeople-Landscape" [ref=f11e261]
+            - heading "Why Fiji Is a Must-Visit Destination" [level=5] [ref=f11e266]
+        - 'link "EdinburghScotlandUKUnsplash Trending Destination: Edinburgh, Scotland" [ref=f11e268] [cursor=pointer]':
+          - /url: https://www.classicvacations.com/c/trending-destination-edinburgh-scotland
+          - generic [ref=f11e269]:
+            - img "EdinburghScotlandUKUnsplash" [ref=f11e272]
+            - 'heading "Trending Destination: Edinburgh, Scotland" [level=5] [ref=f11e277]'
+        - 'link "2024-MelissaKruegerForbesFemaleTravel-PressPost(1) Travel Trends Report 2025: The Rise Of The Female Adventurer | Forbes" [ref=f11e279] [cursor=pointer]':
+          - /url: https://www.classicvacations.com/c/travel-trends-report-2025-the-rise-of-the-female-adventurer
+          - generic [ref=f11e280]:
+            - img "2024-MelissaKruegerForbesFemaleTravel-PressPost(1)" [ref=f11e283]
+            - 'heading "Travel Trends Report 2025: The Rise Of The Female Adventurer | Forbes" [level=5] [ref=f11e288]'
+        - link "e3 group picture Classic Vacations’ E3 Event Aimed to Empower Travel Advisors, Increase Sustainability Education and Boost Maui’s Tourism Recovery" [ref=f11e290] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/classic-vacations-e3-event-aimed-to-empower-travel-advisors-increase-sustainability-education-and-boost-mauis-tourism-recovery
+          - generic [ref=f11e291]:
+            - img "e3 group picture" [ref=f11e294]
+            - heading "Classic Vacations’ E3 Event Aimed to Empower Travel Advisors, Increase Sustainability Education and Boost Maui’s Tourism Recovery" [level=5] [ref=f11e299]
+        - link "Image (36) Iconic Bonty, Classic Europe’s Very Own" [ref=f11e301] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/iconic-bonty-classic-europes-very-own
+          - generic [ref=f11e302]:
+            - img "Image (36)" [ref=f11e305]
+            - heading "Iconic Bonty, Classic Europe’s Very Own" [level=5] [ref=f11e310]
+    - link "See All Blog Posts" [ref=f11e316] [cursor=pointer]:
+      - /url: https://www.classicvacations.com/c/blog-posts
+      - generic [ref=f11e318]: See All Blog Posts
+    - generic [ref=f11e324]:
+      - generic [ref=f11e330]:
+        - heading "Why Advisors Love Classic" [level=2] [ref=f11e333]
+        - region "Slides" [ref=f11e337]:
+          - generic [ref=f11e338]:
+            - group "13 / 13" [ref=f11e339]:
+              - generic [ref=f11e340]:
+                - generic [ref=f11e342]: They went above and beyond to help me move every booking, add and remove transfers, handle cancellations, and make last-minute name changes—all within 24 hours of travel. Even after the trip, they assisted with documentation for an insurance claim.
+                - generic [ref=f11e345]: Cheryl F.
+            - group "1 / 13" [ref=f11e346]:
+              - generic [ref=f11e347]:
+                - generic [ref=f11e349]: There is no other partner in this industry that cares about my business the way Classic does, that actively adapts to how we need to work to serve our clients, and ALWAYS has my back.
+                - generic [ref=f11e352]: Tahryn N.
+            - group "2 / 13" [ref=f11e353]:
+              - generic [ref=f11e354]:
+                - generic [ref=f11e356]: Classic has been a cornerstone to my success in the industry. As a new advisor, I could count on Classic’s product line as the standard for what I wanted to offer my clients. Classic’s never lost the human connection. Just like I value personal connection with my clients, Classic’s values personal connections with the advisors and that just makes for a meaningful and supportive partnership.
+                - generic [ref=f11e359]: Gina P.
+            - group "3 / 13" [ref=f11e360]:
+              - generic [ref=f11e361]:
+                - generic [ref=f11e363]: Classic Vacations has been a trusted partner for decades. They share my same obsession with quality, attention to detail, and customer service, so they pretty much mirror my company’s ethos. They understand the luxury traveler and go above and beyond what’s necessary and what’s needed, not just for my clients but also for me as an advisor. When I book with Classic, I know I’m backed by an incredible team from the Reservations to Customer Service. They’re just as committed as I am to a flawless vacation experience.
+                - generic [ref=f11e366]: Jim A.
+            - group "4 / 13" [ref=f11e367]:
+              - generic [ref=f11e368]:
+                - generic [ref=f11e370]: My first year as an agent I didn’t even know what it meant to scale your business. But when I started working with Classic, I got so much more than just flights and hotels. I got a partner who really understands the luxury travel industry, and because of that, over the years I have seen my business grow substantially. I can’t imagine partnering with anyone else at this point other than Classic.
+                - generic [ref=f11e373]: Clare B.
+            - group "5 / 13" [ref=f11e374]:
+              - generic [ref=f11e375]:
+                - generic [ref=f11e377]: I feel like they’re an extension of my own team. They help me look like a hero by helping me craft custom itineraries for my clients. They’re very flexible in coming up with things that can really make me look like I’ve provided something that someone else couldn’t. I couldn’t be the travel advisor I am now without their help.
+                - generic [ref=f11e380]: Kirsten P.
+            - group "6 / 13" [ref=f11e381]:
+              - generic [ref=f11e382]:
+                - generic [ref=f11e384]: Classic Vacations Royalty [Rewards] Program is just one of the many benefits to selling and working with Classic. They take wonderful care of our clients and the same for the advisors who work with them.
+                - generic [ref=f11e387]: Kim L.
+            - group "7 / 13" [ref=f11e388]:
+              - generic [ref=f11e389]:
+                - generic [ref=f11e391]: There’s nothing like the people at Classic. I never feel like I’m alone. I always have someone I can go to.
+                - generic [ref=f11e394]: Jess H.
+            - group "8 / 13" [ref=f11e395]:
+              - generic [ref=f11e396]:
+                - generic [ref=f11e398]: Kicking myself for waiting so long to book Classic! Classic has been seamless, easy to work with, and so supportive! I see a bright future ahead- with a supplier that actually has our back! Grateful.
+                - generic [ref=f11e401]: Anneke M.
+            - group "9 / 13" [ref=f11e402]:
+              - generic [ref=f11e403]:
+                - generic [ref=f11e405]: I first fell in love with Classic at E3, and that event truly solidified my belief in your company’s values and approach to travel. Since then, Classic has been the first supplier I introduce to all of my agents.
+                - generic [ref=f11e408]: Jennifer O.
+            - group "10 / 13" [ref=f11e409]:
+              - generic [ref=f11e410]:
+                - generic [ref=f11e412]: THANK YOU for your hard work, tireless efforts and help with taking care of our mutual clients. I can't tell you how refreshing it's been to work with you during this incredibly challenging time, and wish ALL suppliers were as easy and willing to work with us as well as you always have for me.
+                - generic [ref=f11e415]: Cindy T.
+            - group "11 / 13" [ref=f11e416]:
+              - generic [ref=f11e417]:
+                - generic [ref=f11e419]: Friends, if you need help with something, contact your Classic BDM. They can move mountains (Well not literally, but they can do amazing things!). Thanks Classic Vacations for going above and beyond for us agents!
+                - generic [ref=f11e422]: Shelley M.
+            - group "12 / 13" [ref=f11e423]:
+              - generic [ref=f11e424]:
+                - generic [ref=f11e426]: Amazing – I'm a newer agent... and a couple of agents I work with just love y’all. They say it's so easy to get help and you sure have proven that.
+                - generic [ref=f11e429]: Jennifer W.
+            - group "13 / 13" [ref=f11e430]:
+              - generic [ref=f11e431]:
+                - generic [ref=f11e433]: They went above and beyond to help me move every booking, add and remove transfers, handle cancellations, and make last-minute name changes—all within 24 hours of travel. Even after the trip, they assisted with documentation for an insurance claim.
+                - generic [ref=f11e436]: Cheryl F.
+            - group "1 / 13" [ref=f11e437]:
+              - generic [ref=f11e438]:
+                - generic [ref=f11e440]: There is no other partner in this industry that cares about my business the way Classic does, that actively adapts to how we need to work to serve our clients, and ALWAYS has my back.
+                - generic [ref=f11e443]: Tahryn N.
+          - button "Previous slide" [ref=f11e444] [cursor=pointer]:
+            - generic [ref=f11e445]: 
+          - button "Next slide" [ref=f11e446] [cursor=pointer]:
+            - generic [ref=f11e447]: 
+          - generic [ref=f11e448]:
+            - button "Go to slide 1" [ref=f11e449] [cursor=pointer]
+            - button "Go to slide 2" [ref=f11e450] [cursor=pointer]
+            - button "Go to slide 3" [ref=f11e451] [cursor=pointer]
+            - button "Go to slide 4" [ref=f11e452] [cursor=pointer]
+            - button "Go to slide 5" [ref=f11e453] [cursor=pointer]
+            - button "Go to slide 6" [ref=f11e454] [cursor=pointer]
+            - button "Go to slide 7" [ref=f11e455] [cursor=pointer]
+            - button "Go to slide 8" [ref=f11e456] [cursor=pointer]
+            - button "Go to slide 9" [ref=f11e457] [cursor=pointer]
+            - button "Go to slide 10" [ref=f11e458] [cursor=pointer]
+            - button "Go to slide 11" [ref=f11e459] [cursor=pointer]
+            - button "Go to slide 12" [ref=f11e460] [cursor=pointer]
+            - button "Go to slide 13" [ref=f11e461] [cursor=pointer]
+      - text:  
+    - generic [ref=f11e463]:
+      - heading "Access to the Very Best" [level=2] [ref=f11e466]
+      - region "Slides" [ref=f11e476]:
+        - generic [ref=f11e477]:
+          - group "14 / 17" [ref=f11e478]:
+            - img "mandarin oriental logo" [ref=f11e479]
+          - group "15 / 17" [ref=f11e480]:
+            - img "banyan tree logo" [ref=f11e481]
+          - group "16 / 17" [ref=f11e482]:
+            - img "auberge collection collection logo" [ref=f11e483]
+          - group "17 / 17" [ref=f11e484]:
+            - img "st regis logo" [ref=f11e485]
+          - group "1 / 17" [ref=f11e486]:
+            - img "AMAN logo" [ref=f11e487]
+          - group "2 / 17" [ref=f11e488]:
+            - img "Four Seasons logo" [ref=f11e489]
+          - group "3 / 17" [ref=f11e490]:
+            - img "Rosewood Hotel Group logo" [ref=f11e491]
+          - group "4 / 17" [ref=f11e492]:
+            - img "Six Senses logo" [ref=f11e493]
+          - group "5 / 17" [ref=f11e494]:
+            - img "ritz carlton brand logo partners carousel brand garden png transparent" [ref=f11e495]
+          - group "6 / 17" [ref=f11e496]:
+            - img "Waldorf Astoria Hotels & Resorts logo" [ref=f11e497]
+          - group "7 / 17" [ref=f11e498]:
+            - img "Belmond logo" [ref=f11e499]
+          - group "8 / 17" [ref=f11e500]:
+            - img "One&Only logo" [ref=f11e501]
+          - group "9 / 17" [ref=f11e502]:
+            - img "Park Hyatt logo" [ref=f11e503]
+          - group "10 / 17" [ref=f11e505]:
+            - img "Oetker Collelction logo" [ref=f11e506]
+          - group "11 / 17" [ref=f11e508]:
+            - img "Rocco Forte Hotels logo" [ref=f11e509]
+          - group "12 / 17" [ref=f11e511]:
+            - img "the set collection logo" [ref=f11e512]
+          - group "13 / 17" [ref=f11e514]:
+            - img "como hotels and resorts logo" [ref=f11e515]
+          - group "14 / 17" [ref=f11e517]:
+            - img "mandarin oriental logo" [ref=f11e518]
+          - group "15 / 17" [ref=f11e519]:
+            - img "banyan tree logo" [ref=f11e520]
+          - group "16 / 17" [ref=f11e521]:
+            - img "auberge collection collection logo" [ref=f11e522]
+          - group "17 / 17" [ref=f11e523]:
+            - img "st regis logo" [ref=f11e524]
+          - group "1 / 17" [ref=f11e525]:
+            - img "AMAN logo" [ref=f11e526]
+          - group "2 / 17" [ref=f11e527]:
+            - img "Four Seasons logo" [ref=f11e528]
+          - group "3 / 17" [ref=f11e529]:
+            - img "Rosewood Hotel Group logo" [ref=f11e530]
+          - group "4 / 17" [ref=f11e531]:
+            - img "Six Senses logo" [ref=f11e532]
+        - button "Previous slide" [ref=f11e533] [cursor=pointer]:
+          - generic [ref=f11e534]: 
+        - button "Next slide" [ref=f11e535] [cursor=pointer]:
+          - generic [ref=f11e536]: 
+        - generic [ref=f11e537]:
+          - button "Go to slide 1" [ref=f11e538] [cursor=pointer]
+          - button "Go to slide 2" [ref=f11e539] [cursor=pointer]
+          - button "Go to slide 3" [ref=f11e540] [cursor=pointer]
+          - button "Go to slide 4" [ref=f11e541] [cursor=pointer]
+          - button "Go to slide 5" [ref=f11e542] [cursor=pointer]
+          - button "Go to slide 6" [ref=f11e543] [cursor=pointer]
+          - button "Go to slide 7" [ref=f11e544] [cursor=pointer]
+          - button "Go to slide 8" [ref=f11e545] [cursor=pointer]
+          - button "Go to slide 9" [ref=f11e546] [cursor=pointer]
+          - button "Go to slide 10" [ref=f11e547] [cursor=pointer]
+          - button "Go to slide 11" [ref=f11e548] [cursor=pointer]
+          - button "Go to slide 12" [ref=f11e549] [cursor=pointer]
+          - button "Go to slide 13" [ref=f11e550] [cursor=pointer]
+          - button "Go to slide 14" [ref=f11e551] [cursor=pointer]
+          - button "Go to slide 15" [ref=f11e552] [cursor=pointer]
+          - button "Go to slide 16" [ref=f11e553] [cursor=pointer]
+          - button "Go to slide 17" [ref=f11e554] [cursor=pointer]
+    - generic [ref=f11e556]:
+      - heading "Trophy Cabinet" [level=2] [ref=f11e559]
+      - generic [ref=f11e565]:
+        - generic [ref=f11e567]:
+          - img "Virtuoso Award Winner" [ref=f11e570]
+          - generic [ref=f11e572]:
+            - heading "Virtuoso Awards" [level=2] [ref=f11e575]
+            - generic [ref=f11e577]:
+              - paragraph [ref=f11e578]:
+                - strong [ref=f11e579]: 2024-2026
+              - paragraph [ref=f11e580]: Top Producing Tour Partner/Wholesaler,
+              - paragraph [ref=f11e581]: United States
+            - generic [ref=f11e583]:
+              - paragraph [ref=f11e584]:
+                - strong [ref=f11e585]: "2026"
+              - paragraph [ref=f11e586]: "Highest Annual Growth: Wholesaler,"
+              - paragraph [ref=f11e587]: United States
+            - generic [ref=f11e589]:
+              - paragraph [ref=f11e590]: "2017"
+              - paragraph [ref=f11e591]: Destinations and Experiences,
+              - paragraph [ref=f11e592]: Partner of the Year
+            - generic [ref=f11e594]:
+              - paragraph [ref=f11e595]:
+                - strong [ref=f11e596]: 2008, 2010-2015
+              - paragraph [ref=f11e597]: Best FIT /
+              - paragraph [ref=f11e598]: Custom Tour Operator
+        - generic [ref=f11e604]:
+          - heading "Magellan Awards" [level=2] [ref=f11e607]
+          - generic [ref=f11e609]:
+            - paragraph [ref=f11e610]:
+              - strong [ref=f11e611]: "2025"
+            - paragraph [ref=f11e612]: Tour Operators – Overall
+            - paragraph [ref=f11e613]: Tour Operators – Technology Solutions
+            - paragraph [ref=f11e614]: Tour Operators – Travel Advisor Support
+          - generic [ref=f11e616]:
+            - paragraph [ref=f11e617]:
+              - strong [ref=f11e618]: "2024"
+            - paragraph [ref=f11e619]: Tour Operators – Overall
+            - paragraph [ref=f11e620]: Tour Operators – Loyalty Program
+            - paragraph [ref=f11e621]: Tour Operators – Destination Expansions
+            - paragraph [ref=f11e622]: Tour Operators – Technology Solutions
+          - generic [ref=f11e624]:
+            - paragraph [ref=f11e625]:
+              - strong [ref=f11e626]: "2023"
+            - paragraph [ref=f11e627]: Travel Agent Only Website
+        - generic [ref=f11e633]:
+          - heading "WAVE Awards" [level=2] [ref=f11e636]
+          - generic [ref=f11e638]:
+            - paragraph [ref=f11e639]:
+              - strong [ref=f11e640]: 2022-2026
+            - paragraph [ref=f11e641]:
+              - text: Best Packaged Tour Operator, Europe
+              - strong [ref=f11e642]: "2026"
+              - text: Favorite Packaged Tour Operator Rep., Jamie Landau
+            - paragraph [ref=f11e643]
+        - generic [ref=f11e648]:
+          - heading "Travvy Awards" [level=2] [ref=f11e651]
+          - generic [ref=f11e653]:
+            - paragraph [ref=f11e654]:
+              - strong [ref=f11e655]: 2023-2025
+            - paragraph [ref=f11e656]: Best Tour Operator (Packaged) – Europe
+    - generic [ref=f11e658]:
+      - heading "Destinations" [level=2] [ref=f11e661]
+      - generic [ref=f11e665]:
+        - link "Five Zebra Grazing on Grass Field. Photo by Hendrik Cornelissen Africa & Middle East" [ref=f11e666] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/africa-middle-east
+          - img "Five Zebra Grazing on Grass Field. Photo by Hendrik Cornelissen" [ref=f11e667]
+          - generic [ref=f11e668]: Africa & Middle East
+        - 'link "Chureito Pagoda with Mount Fuji in the Distance. Photo by Willian Justen de Vasconcellos: https://www.pexels.com/photo/chureito-pagoda-with-mount-fuji-in-the-distance-15829427/ Asia" [ref=f11e669] [cursor=pointer]':
+          - /url: https://www.classicvacations.com/c/destinations/asia
+          - 'img "Chureito Pagoda with Mount Fuji in the Distance. Photo by Willian Justen de Vasconcellos: https://www.pexels.com/photo/chureito-pagoda-with-mount-fuji-in-the-distance-15829427/" [ref=f11e670]'
+          - generic [ref=f11e671]: Asia
+        - link "holger-woizick-Zne3XQXMmNY-unsplash Caribbean" [ref=f11e672] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/caribbean
+          - img "holger-woizick-Zne3XQXMmNY-unsplash" [ref=f11e673]
+          - generic [ref=f11e674]: Caribbean
+        - link "zdenek-machacek-UXYjM-_Ikdc-unsplash Central & South America" [ref=f11e675] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/central-south-america
+          - img "zdenek-machacek-UXYjM-_Ikdc-unsplash" [ref=f11e676]
+          - generic [ref=f11e677]: Central & South America
+        - link "City view of Positano in the evening blue hour. Italian village on the beautiful mediterranean Amalfi coast. Photo by Sebastian Leonhardt on Unsplash Europe" [ref=f11e678] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/europe
+          - img "City view of Positano in the evening blue hour. Italian village on the beautiful mediterranean Amalfi coast. Photo by Sebastian Leonhardt on Unsplash" [ref=f11e679]
+          - generic [ref=f11e680]: Europe
+        - link "finland Finland" [ref=f11e681] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/finland
+          - img "finland" [ref=f11e682]
+          - generic [ref=f11e683]: Finland
+        - link "Hawaii" [ref=f11e684] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/hawaii
+          - img [ref=f11e685]
+          - generic [ref=f11e686]: Hawaii
+        - link "Iguana in Uxmal, Mexico in front of Mayan ruins. Photo by Marv Watson on Unsplash Mexico" [ref=f11e687] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/mexico
+          - img "Iguana in Uxmal, Mexico in front of Mayan ruins. Photo by Marv Watson on Unsplash" [ref=f11e688]
+          - generic [ref=f11e689]: Mexico
+        - link "mark-koch-KiRlN3jjVNU-unsplash (1) North America" [ref=f11e690] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/north-america
+          - img "mark-koch-KiRlN3jjVNU-unsplash (1)" [ref=f11e691]
+          - generic [ref=f11e692]: North America
+        - link "Fiji canva inspiring stays South Pacific" [ref=f11e693] [cursor=pointer]:
+          - /url: https://www.classicvacations.com/c/destinations/south-pacific
+          - img "Fiji canva inspiring stays" [ref=f11e694]
+          - generic [ref=f11e695]: South Pacific
+  - contentinfo [ref=f11e696]:
+    - generic [ref=f11e697]:
+      - list [ref=f11e704]:
+        - listitem [ref=f11e705]:
+          - link "Facebook" [ref=f11e706] [cursor=pointer]:
+            - /url: https://www.facebook.com/ClassicVacations/
+            - generic [ref=f11e707]: Facebook
+            - generic [ref=f11e708]: 
+        - listitem [ref=f11e709]:
+          - link "Instagram" [ref=f11e710] [cursor=pointer]:
+            - /url: https://www.instagram.com/weareclassicvacations/
+            - generic [ref=f11e711]: Instagram
+            - generic [ref=f11e712]: 
+        - listitem [ref=f11e713]:
+          - link "Linkedin" [ref=f11e714] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/classic-vacations?original_referer=https%3A%2F%2Fwww.classicvacations.com%2F
+            - generic [ref=f11e715]: Linkedin
+            - generic [ref=f11e716]: 
+        - listitem [ref=f11e717]:
+          - link "Youtube" [ref=f11e718] [cursor=pointer]:
+            - /url: https://www.youtube.com/Classicvacations
+            - generic [ref=f11e719]: Youtube
+            - generic [ref=f11e720]: 
+        - listitem [ref=f11e721]:
+          - link "Tiktok" [ref=f11e722] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@weareclassicvacations
+            - generic [ref=f11e723]: Tiktok
+            - generic [ref=f11e724]: 
+      - generic [ref=f11e726]:
+        - navigation "Menu" [ref=f11e729]:
+          - list [ref=f11e730]:
+            - listitem [ref=f11e731]:
+              - link "About Us" [ref=f11e732] [cursor=pointer]:
+                - /url: https://www.classicvacations.com/c/about-us
+            - listitem [ref=f11e733]:
+              - link "Contact Us" [ref=f11e734] [cursor=pointer]:
+                - /url: https://www.classicvacations.com/c/contact-us
+            - listitem [ref=f11e735]:
+              - link "Press" [ref=f11e736] [cursor=pointer]:
+                - /url: https://www.classicvacations.com/c/press
+            - listitem [ref=f11e737]:
+              - link "Careers" [ref=f11e738] [cursor=pointer]:
+                - /url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f13d3625-9994-4248-b393-2c8aeb1c57c5
+            - listitem [ref=f11e739]:
+              - link "Privacy" [ref=f11e740] [cursor=pointer]:
+                - /url: https://www.classicvacations.com/content/privacy
+            - listitem [ref=f11e741]:
+              - link "Terms of Use" [ref=f11e742] [cursor=pointer]:
+                - /url: https://www.classicvacations.com/content/terms-use-0
+            - listitem [ref=f11e743]:
+              - link "Travel Protection" [ref=f11e744] [cursor=pointer]:
+                - /url: https://www.classicvacations.com/c/travel-protection
+        - generic [ref=f11e746]: © 2026 Classic Vacations. All rights reserved.
+      - paragraph [ref=f11e751]: Content and images on this site may be the copyrighted property of others. All such material may not be copied, duplicated, or used without express written consent of each owner. Refer to Terms of Use for full details.
+  - text:    
+  - generic [ref=f11e752]: desktop

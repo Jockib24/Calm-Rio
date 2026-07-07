@@ -24,11 +24,10 @@
   <link rel="preconnect" href="https://a0.muscache.com">
   <link rel="preconnect" href="https://images.unsplash.com">
 
-  <link rel="stylesheet" href="../assets/css/style.css">
 
-  <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="../site.webmanifest">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
 
   <!-- JSON-LD Breadcrumb -->
   <script type="application/ld+json">
@@ -128,7 +127,7 @@
           <article class="blog-card">
             <div class="blog-card__image">
               <span class="blog-card__category">Plages</span>
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" style="color:var(--color-text-muted);opacity:0.4;">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" class="text-muted opacity-40">
                 <path d="M3 15v4c0 .6.4 1 1 1h16c.6 0 1-.4 1-1v-4M12 3v12m0 0l-4-4m4 4l4-4"/>
               </svg>
             </div>
@@ -147,7 +146,7 @@
           <article class="blog-card">
             <div class="blog-card__image">
               <span class="blog-card__category">Famille</span>
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" style="color:var(--color-text-muted);opacity:0.4;">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" class="text-muted opacity-40">
                 <path d="M3 15v4c0 .6.4 1 1 1h16c.6 0 1-.4 1-1v-4M12 3v12m0 0l-4-4m4 4l4-4"/>
               </svg>
             </div>
@@ -162,6 +161,44 @@
             </div>
           </article>
 
+          <!-- Post 3 -->
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <span class="blog-card__category">Inspiration</span>
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" class="text-muted opacity-40">
+                <path d="M3 15v4c0 .6.4 1 1 1h16c.6 0 1-.4 1-1v-4M12 3v12m0 0l-4-4m4 4l4-4"/>
+              </svg>
+            </div>
+            <div class="blog-card__body">
+              <div class="blog-card__meta">
+                <span>1 décembre 2026</span>
+                <span>6 min de lecture</span>
+              </div>
+              <h3 class="blog-card__title"><a href="posts/visiter-royan-hiver.html">Visiter Royan en hiver — 5 bonnes raisons de s'évader hors saison</a></h3>
+              <p class="blog-card__excerpt">Royan ne se découvre pas qu'en été. Entre lumière d'hiver, balades iodées et douceur de vivre, la station balnéaire dévoile un visage plus authentique et apaisé.</p>
+              <a href="posts/visiter-royan-hiver.html" class="blog-card__link">Lire l'article →</a>
+            </div>
+          </article>
+
+          <!-- Post 4 -->
+          <article class="blog-card">
+            <div class="blog-card__image">
+              <span class="blog-card__category">Gastronomie</span>
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" class="text-muted opacity-40">
+                <path d="M3 15v4c0 .6.4 1 1 1h16c.6 0 1-.4 1-1v-4M12 3v12m0 0l-4-4m4 4l4-4"/>
+              </svg>
+            </div>
+            <div class="blog-card__body">
+              <div class="blog-card__meta">
+                <span>15 novembre 2026</span>
+                <span>5 min de lecture</span>
+              </div>
+              <h3 class="blog-card__title"><a href="posts/meilleurs-restaurants-saint-trojan.html">Où manger à Saint-Trojan-les-Bains ? Nos adresses coup de cœur</a></h3>
+              <p class="blog-card__excerpt">De la table étoilée au resto de plage, Saint-Trojan-les-Bains regorge de bonnes adresses. Voici notre sélection des meilleurs restaurants de l'île d'Oléron.</p>
+              <a href="posts/meilleurs-restaurants-saint-trojan.html" class="blog-card__link">Lire l'article →</a>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
@@ -169,13 +206,13 @@
     <!-- ============================================================ -->
     <!-- CTA SECTION                                                  -->
     <!-- ============================================================ -->
-    <section class="section section--alt" aria-labelledby="blog-cta-title">
+    <section class="section section--alt fade-in" aria-labelledby="blog-cta-title">
       <div class="container">
         <div class="section__header text-center">
           <span class="section__label">Prêt à découvrir la région ?</span>
           <h2 class="section__title" id="blog-cta-title">Réservez votre séjour</h2>
           <p class="section__description">Choisissez parmi nos locations premium à Royan et Saint-Trojan-les-Bains.</p>
-          <a href="../index.html#nos-locations" class="btn btn--primary btn--lg" style="margin-top:var(--space-4);">Voir nos locations</a>
+          <a href="../index.html#nos-locations" class="btn btn--primary btn--lg mt-4">Voir nos locations</a>
         </div>
       </div>
     </section>
@@ -184,7 +221,7 @@
   <!-- ============================================================ -->
   <!-- FOOTER                                                       -->
   <!-- ============================================================ -->
-  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+  <footer class="site-footer fade-in" role="contentinfo" aria-label="Pied de page">
     <div class="footer-inner">
       <div class="footer-grid">
         <!-- Brand Column -->
@@ -257,6 +294,6 @@
     </div>
   </footer>
 
-  <script type="module" src="../assets/js/app.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
 </body>
 </html>

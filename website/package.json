@@ -1,0 +1,18 @@
+{
+  "name": "calmrio-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CalmRio — Premium Vacation Rentals, Royan & Saint-Trojan-les-Bains",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "lightningcss": "^1.32.0",
+    "sass": "^1.80.0",
+    "sharp": "^0.35.3",
+    "vite": "^6.0.0"
+  }
+}

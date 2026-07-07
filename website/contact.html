@@ -23,11 +23,10 @@
   <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/style.css">
 
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
@@ -102,11 +101,11 @@
       <div class="container">
         <div class="contact-grid">
           <!-- Left Column: Contact Form -->
-          <div class="contact-form">
+          <div class="contact-form fade-in">
             <h2 class="contact-form__title" id="contact-form-title">Envoyez-nous un message</h2>
             <p class="contact-form__subtitle">Nous vous répondons sous 1 heure en journée, 7j/7.</p>
 
-            <form action="#" method="post" novalidate>
+            <form novalidate data-validate>
               <div class="form-row">
                 <div class="form-group">
                   <label for="contact-name" class="form-label form-label--required">Nom et prénom</label>
@@ -138,9 +137,9 @@
                 </div>
                 </div>
 
-                <div style="margin-bottom:var(--space-4);">
-                <label for="contact-property" style="display:block;font-size:var(--small-size);font-weight:var(--weight-semibold);margin-bottom:var(--space-2);color:var(--color-text);">Je suis intéressé par</label>
-                <select id="contact-property" name="property" style="width:100%;padding:0.75rem 1rem;border:1px solid var(--color-border);border-radius:var(--radius-md);font-family:var(--font-body);font-size:1rem;color:var(--color-text);background:var(--color-surface);">
+                <div class="mb-4">
+                <label for="contact-property" class="d-block text-sm fw-semibold mb-2 text-heading">Je suis intéressé par</label>
+                <select id="contact-property" name="property" class="w-full rounded-md font-body text-base text-heading bg-surface">
                   <option value="">Sélectionnez une propriété</option>
                   <option value="royan-appartement">Appartement Royan — 4 pers, 100m de la plage</option>
                   <option value="saint-trojan-villa">Villa Saint-Trojan — 6 pers, jardin clos</option>
@@ -163,14 +162,14 @@
 
               <button type="submit" class="btn btn--primary btn--lg form-submit">Envoyer le message</button>
 
-              <p style="font-size:0.8125rem;color:var(--color-text-muted);text-align:center;margin-top:var(--space-3);">
+              <p class="text-13 text-muted text-center mt-3">
                 ⏱️ Nous nous engageons à répondre sous <strong>2 heures</strong> en journée
               </p>
             </form>
           </div>
 
           <!-- Right Column: Contact Info -->
-          <aside class="contact-info" aria-label="Informations de contact">
+          <aside class="contact-info fade-in" aria-label="Informations de contact">
             <div class="contact-info__card">
               <h3 class="contact-info__title">Email</h3>
               <ul class="contact-info__list">
@@ -211,10 +210,10 @@
               </ul>
             </div>
 
-            <div style="margin-top:var(--space-5);padding:var(--space-4);background:var(--color-bg-alt);border-radius:var(--radius-md);text-align:center;">
-              <p style="font-size:var(--small-size);color:var(--color-text-secondary);margin-bottom:var(--space-2);">Vous préférez nous appeler ?</p>
-              <a href="tel:+212662669887" style="font-size:1.25rem;font-weight:var(--weight-semibold);color:var(--color-accent);text-decoration:none;">+212 662-669887</a>
-              <p style="font-size:0.75rem;color:var(--color-text-muted);margin-top:var(--space-1);">Disponible de 9h à 19h</p>
+            <div class="mt-5 p-4 bg-alt rounded-md text-center">
+              <p class="text-sm text-body mb-2">Vous préférez nous appeler ?</p>
+              <a href="tel:+212662669887" class="text-20 fw-semibold text-accent no-underline">+212 662-669887</a>
+              <p class="text-xs text-muted mt-1">Disponible de 9h à 19h</p>
             </div>
           </aside>
         </div>
@@ -224,7 +223,7 @@
     <!-- ============================================================ -->
     <!-- MAP SECTION                                                  -->
     <!-- ============================================================ -->
-    <section class="section section--alt" aria-labelledby="map-title">
+    <section class="section section--alt fade-in" aria-labelledby="map-title">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Où nous trouver</span>
@@ -232,17 +231,17 @@
           <p class="section__subtitle">De Royan à l'Île d'Oléron, découvrez l'emplacement de nos propriétés.</p>
         </div>
 
-        <div class="contact-map" role="img" aria-label="Carte de la région entre Royan et l'Île d'Oléron. Nos locations se trouvent à Royan et Saint-Trojan-les-Bains.">
+        <div class="contact-map fade-in" role="img" aria-label="Carte de la région entre Royan et l'Île d'Oléron. Nos locations se trouvent à Royan et Saint-Trojan-les-Bains.">
           <div class="contact-map__placeholder">
-            <div style="text-align: center;">
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="1" aria-hidden="true" style="margin: 0 auto var(--space-3); opacity: 0.5;">
+            <div class="text-center">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="1" aria-hidden="true" class="mx-auto mb-3 opacity-50">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                 <circle cx="12" cy="10" r="3"></circle>
               </svg>
-              <p style="font-size: var(--small-size); color: var(--color-text-muted);">
+              <p class="text-sm text-muted">
                 Carte interactive — Royan &amp; Île d'Oléron
               </p>
-              <p style="font-size: 0.8125rem; color: var(--color-text-muted); opacity: 0.7;">
+              <p class="text-13 text-muted opacity-70">
                 Chargement de la carte Google Maps...
               </p>
             </div>
@@ -254,7 +253,7 @@
     <!-- ============================================================ -->
     <!-- CTA SECTION                                                  -->
     <!-- ============================================================ -->
-    <section class="cta-section cta-section--primary" aria-labelledby="contact-cta-title">
+    <section class="cta-section cta-section--primary fade-in" aria-labelledby="contact-cta-title">
       <div class="container">
         <h2 class="cta-section__title" id="contact-cta-title">Préférez réserver directement ?</h2>
         <p class="cta-section__text">Découvrez nos trois propriétés et choisissez celle qui vous correspond.</p>
@@ -268,7 +267,7 @@
   <!-- ============================================================ -->
   <!-- FOOTER                                                       -->
   <!-- ============================================================ -->
-  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+  <footer class="site-footer fade-in" role="contentinfo" aria-label="Pied de page">
     <div class="footer-inner">
       <div class="footer-grid">
         <!-- Brand Column -->
@@ -341,6 +340,6 @@
     </div>
   </footer>
 
-  <script type="module" src="assets/js/app.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
 </body>
 </html>

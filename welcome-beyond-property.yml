@@ -1,0 +1,236 @@
+- document [active] [ref=f64e1]:
+  - generic [ref=f64e3]:
+    - generic:
+      - navigation:
+        - generic [ref=f64e4]:
+          - generic [ref=f64e5]:
+            - link "Welcome Beyond" [ref=f64e7] [cursor=pointer]:
+              - /url: https://www.welcomebeyond.com
+            - generic [ref=f64e12]
+          - list [ref=f64e29]:
+            - listitem [ref=f64e30]
+            - listitem [ref=f64e32]
+            - listitem [ref=f64e34]
+            - listitem [ref=f64e36]
+            - listitem [ref=f64e38]
+            - listitem [ref=f64e40]
+            - listitem [ref=f64e42]
+            - listitem [ref=f64e44]
+            - listitem [ref=f64e46]
+            - listitem [ref=f64e48]
+    - main [ref=f64e50]:
+      - generic [ref=f64e52]:
+        - generic [ref=f64e54]:
+          - heading "La Tropical" [level=1] [ref=f64e55]:
+            - link "5 out of 5 stars" [ref=f64e57] [cursor=pointer]:
+              - /url: "#reviews"
+            - text: La Tropical
+          - generic [ref=f64e59]: in Mérida, Yucatan, Mexico
+          - separator [ref=f64e60]
+          - blockquote [ref=f64e61]:
+            - paragraph [ref=f64e62]: “The pool is the center of the house — a pool with a house instead of a house with a pool.”
+            - generic [ref=f64e63]: — Carlos, owner
+        - generic [ref=f64e65]:
+          - img "La Tropical, Mérida, Yucatan, Mexico"
+      - generic [ref=f64e66]:
+        - generic [ref=f64e70]:
+          - navigation [ref=f64e71]:
+            - generic [ref=f64e72]
+          - text: "50"
+        - generic [ref=f64e86]:
+          - paragraph [ref=f64e87]: La Tropical
+          - generic [ref=f64e88]:
+            - list [ref=f64e89]
+            - list [ref=f64e117]
+          - generic [ref=f64e134]:
+            - paragraph [ref=f64e135]: La Tropical is a design enthusiast's oasis. The 15 meter lap pool and tropical garden are pristine, and the retractable glass windows fully integrate the bedroom and bathroom to the pool and garden. The double height glass doors in the living/dining room are a striking feature. All in all, La Tropical offers a truly incomparable stay in Mérida.
+            - paragraph
+          - list [ref=f64e139]:
+            - listitem [ref=f64e140]
+            - listitem [ref=f64e147]
+            - listitem [ref=f64e154]
+            - listitem [ref=f64e161]
+            - listitem [ref=f64e168]
+        - generic [ref=f64e175]:
+          - text: "50"
+          - generic [ref=f64e177]:
+            - generic [ref=f64e178]: Use left and right arrows to navigate between tabs.
+            - tablist [ref=f64e179]
+            - generic [ref=f64e182]
+        - generic [ref=f64e219]:
+          - heading "An introduction to La Tropical" [level=2] [ref=f64e220]
+          - generic [ref=f64e222]:
+            - generic [ref=f64e223]
+            - button "Read more" [ref=f64e249] [cursor=pointer]
+        - generic [ref=f64e252]:
+          - button "Previous" [ref=f64e253] [cursor=pointer]:
+            - img [ref=f64e254]
+          - listbox [ref=f64e258]:
+            - img [ref=f64e261]
+            - img [ref=f64e264]
+            - option "La Tropical — Bedroom wing of the house with pool" [ref=f64e265]
+            - option [ref=f64e268]
+            - option [ref=f64e271]
+            - option [ref=f64e274]
+            - option [ref=f64e277]
+            - option [ref=f64e280]
+            - option [ref=f64e283]
+            - option [ref=f64e286]
+            - option [ref=f64e289]
+            - option [ref=f64e292]
+            - option [ref=f64e295]
+            - option [ref=f64e298]
+            - option [ref=f64e301]
+            - option [ref=f64e304]
+            - option [ref=f64e307]
+            - option [ref=f64e310]
+            - option [ref=f64e313]
+            - option [ref=f64e316]
+            - option [ref=f64e319]
+            - option [ref=f64e322]
+            - option [ref=f64e325]
+            - option [ref=f64e328]
+            - img [ref=f64e333]
+            - img [ref=f64e336]
+          - button "Next" [ref=f64e337] [cursor=pointer]:
+            - img [ref=f64e338]
+          - listbox [ref=f64e342]:
+            - option "Bedroom wing of the house with pool" [ref=f64e343]
+            - option [ref=f64e344]: Living area wing of the house with pool
+            - option [ref=f64e345]: Dining area
+            - option [ref=f64e346]: Living area
+            - option [ref=f64e347]: Kitchen
+            - option [ref=f64e348]: Kitchen
+            - option [ref=f64e349]: Kitchen
+            - option [ref=f64e350]: Bathroom
+            - option [ref=f64e351]: Bathroom
+            - option [ref=f64e352]: Bedroom
+            - option [ref=f64e353]: Bedroom
+            - option [ref=f64e354]: Bedroom and bathroom
+            - option [ref=f64e355]: Bedroom wing and pool
+            - option [ref=f64e356]: Massage by the pool
+            - option [ref=f64e357]: Pool area
+            - option [ref=f64e358]: Pool area
+            - option [ref=f64e359]: Living area in the evening
+            - option [ref=f64e360]: Courtyard in the evening
+            - option [ref=f64e361]: Bedroom in the evening
+            - option [ref=f64e362]: Living area in the evening
+            - option [ref=f64e363]: Courtyard in the evening
+            - option [ref=f64e364]: At night
+        - generic [ref=f64e368]:
+          - heading "La Tropical rooms & rates" [level=2] [ref=f64e369]
+          - generic [ref=f64e370]:
+            - generic [ref=f64e371]
+            - list [ref=f64e377]
+            - generic [ref=f64e394]
+        - generic [ref=f64e412]:
+          - heading "Facilities & services" [level=2] [ref=f64e413]
+          - generic [ref=f64e414]:
+            - generic [ref=f64e416]
+            - generic [ref=f64e429]
+        - generic [ref=f64e438]:
+          - heading "Things to do in Yucatan & Mérida" [level=2] [ref=f64e439]
+          - generic [ref=f64e440]:
+            - generic [ref=f64e442]
+            - generic [ref=f64e452]
+        - generic [ref=f64e462]:
+          - heading "La Tropical reviews" [level=2] [ref=f64e463]
+          - generic [ref=f64e465]:
+            - generic [ref=f64e466]
+            - generic [ref=f64e476]
+            - button "Read more reviews" [ref=f64e486] [cursor=pointer]
+      - generic [ref=f64e493]:
+        - heading "The location of La Tropical" [level=2] [ref=f64e494]
+        - generic [ref=f64e496]:
+          - generic [ref=f64e497]:
+            - paragraph [ref=f64e498]: La Tropical is in a very peaceful and charming part of Merida‘s historical center. The closest cities are Izamal, Valladolid and Campeche. Mérida is surrounded by gorgeous cenotes (sunken lakes in which you can swim), charming haciendas, virgin beaches and last but not at all least, the impressive Mayan sites.
+            - paragraph [ref=f64e499]: "Yucatán has a specific character. It has traditionally been an isolated part of México so it retains a lot of authenticity. And Mérida is a gem of a city: the safest in Mexico, with a provincial atmosphere, yet with cosmopolitan touches. People are very laid back and gentle."
+          - button "Read more" [ref=f64e500] [cursor=pointer]
+      - generic [ref=f64e504]:
+        - heading "When is the best time to visit Yucatan?" [level=2] [ref=f64e505]
+        - paragraph [ref=f64e509]: Mérida is warm all year round. November to April have a mild and delicious spring-like weather. And the absolute best day to visit Mérida is around 1st November for the Día de los Muertos festivities. May to July are hot and humid months so you’d enjoy our pool the most.
+      - generic [ref=f64e511]:
+        - generic [ref=f64e512]:
+          - heading "Related hotels & holiday rentals" [level=2] [ref=f64e513]
+          - generic [ref=f64e514]:
+            - button "Previous" [disabled] [ref=f64e515]
+            - button "Next" [ref=f64e518] [cursor=pointer]
+        - listbox [ref=f64e523]:
+          - option [ref=f64e524]:
+            - article [ref=f64e526]
+          - option [ref=f64e562]:
+            - article [ref=f64e564]
+          - option [ref=f64e600]:
+            - article [ref=f64e602]
+          - option [ref=f64e638]:
+            - article [ref=f64e640]
+          - option [ref=f64e676]:
+            - article [ref=f64e678]
+          - option [ref=f64e714]:
+            - article [ref=f64e716]
+          - option [ref=f64e748]:
+            - article [ref=f64e750]
+          - option [ref=f64e786]:
+            - article [ref=f64e788]
+          - option [ref=f64e824]:
+            - article [ref=f64e826]
+    - generic [ref=f64e864]:
+      - generic [ref=f64e865]:
+        - generic [ref=f64e866]:
+          - img "Welcome Beyond" [ref=f64e867]
+          - generic [ref=f64e868]:
+            - paragraph [ref=f64e869]: Welcome Beyond hand-picks small hotels and holiday rentals that are truly original and reflect their owners’ passion for distinctive architecture and design. Each is singular, memorable and definitely worth writing home about.
+            - paragraph [ref=f64e870]
+            - list
+          - list [ref=f64e874]:
+            - listitem [ref=f64e875]
+            - listitem [ref=f64e879]
+            - listitem [ref=f64e883]
+            - listitem [ref=f64e887]
+        - generic [ref=f64e891]:
+          - navigation [ref=f64e892]:
+            - heading "Properties" [level=3] [ref=f64e893]
+            - list [ref=f64e894]
+          - navigation [ref=f64e917]:
+            - heading "Information" [level=3] [ref=f64e918]
+            - list [ref=f64e919]
+        - generic [ref=f64e940]:
+          - generic [ref=f64e945]:
+            - generic [ref=f64e946]: Change your currency
+            - combobox "Change your currency" [ref=f64e947]
+          - generic [ref=f64e948]:
+            - heading "Newsletter" [level=3] [ref=f64e949]
+            - generic [ref=f64e952]
+            - paragraph [ref=f64e955]: Get updates on our beautiful new properties every Friday.
+            - paragraph [ref=f64e956]
+      - generic [ref=f64e959]:
+        - navigation [ref=f64e960]:
+          - list [ref=f64e961]:
+            - listitem [ref=f64e962]: © Welcome Beyond 2026
+            - listitem [ref=f64e963]
+            - listitem [ref=f64e965]
+        - navigation [ref=f64e967]:
+          - list [ref=f64e968]:
+            - listitem [ref=f64e969]
+            - listitem [ref=f64e971]
+            - listitem [ref=f64e973]
+            - listitem [ref=f64e975]
+  - text: "* * * * * * * *"
+  - link:
+    - /url: "#"
+  - alertdialog "Notice" [ref=f64e978]:
+    - generic [ref=f64e980]:
+      - document [ref=f64e981]:
+        - heading "Notice" [level=2] [ref=f64e982]
+        - generic [ref=f64e983]:
+          - paragraph [ref=f64e984]:
+            - text: We and selected third parties use cookies or similar technologies for technical purposes and, with your consent, for other purposes as specified in the
+            - button "cookie policy - link opens in a new tab" [ref=f64e985] [cursor=pointer]: cookie policy
+            - text: .
+          - paragraph
+          - paragraph [ref=f64e986]: Use the “Accept” button to consent. Use the “Reject” button to continue without accepting.
+      - generic [ref=f64e987]:
+        - button "Learn more and customize" [ref=f64e989] [cursor=pointer]
+        - generic [ref=f64e990]:
+          - button "Reject" [ref=f64e991] [cursor=pointer]
+          - button "Accept" [ref=f64e992] [cursor=pointer]

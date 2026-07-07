@@ -23,11 +23,10 @@
   <link rel="preconnect" href="https://images.unsplash.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/css/style.css">
 
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
-  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
@@ -98,8 +97,16 @@
     <!-- ============================================================ -->
     <!-- GUIDE CATEGORIES (Filter Pills)                              -->
     <!-- ============================================================ -->
-    <section class="section guide-categories" aria-label="Filtrer le guide par catégorie">
+    <section class="section guide-categories fade-in" aria-label="Filtrer le guide par catégorie">
       <div class="container">
+        <!-- Property filter -->
+        <div class="guide-property-filter fade-in" role="tablist" aria-label="Filtrer par propriété">
+          <button class="guide-property__btn guide-property__btn--active" role="tab" aria-selected="true" data-property="all">Toutes les propriétés</button>
+          <button class="guide-property__btn" role="tab" aria-selected="false" data-property="royan">Appartement Royan</button>
+          <button class="guide-property__btn" role="tab" aria-selected="false" data-property="villa">Villa Saint-Trojan</button>
+          <button class="guide-property__btn" role="tab" aria-selected="false" data-property="maison">Maison Saint-Trojan</button>
+        </div>
+        <!-- Category filter -->
         <ul class="guide-categories__list" role="tablist">
           <li><button class="guide-categories__btn guide-categories__btn--active" role="tab" aria-selected="true" data-filter="all">Tous</button></li>
           <li><button class="guide-categories__btn" role="tab" aria-selected="false" data-filter="plages">Plages</button></li>
@@ -116,25 +123,25 @@
     <!-- ============================================================ -->
     <section class="section section--sm" aria-label="Lieux à découvrir">
       <div class="container">
-        <div class="guide-grid">
+        <div class="guide-grid stagger-children">
 
           <!-- Plages -->
-          <article class="guide-item" data-category="plages">
+          <article class="guide-item" data-category="plages" data-dist-royan="100m" data-dist-villa="12 km" data-dist-maison="10 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1559825481-12a05cc00344?w=800&q=80&fm=webp" alt="Plage de la Grande Conche à Royan, 2,6 km de sable fin" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Plages</span>
             </div>
             <div class="guide-item__body">
               <h3 class="guide-item__title">Plage de la Grande Conche</h3>
-              <p class="guide-item__description">La plus belle plage de Royan avec ses 2,6 km de sable fin. À seulement 100m de notre appartement. Idéale pour les familles, la baignade et les promenades au coucher du soleil.</p>
+              <p class="guide-item__description">La plus belle plage de Royan avec ses 2,6 km de sable fin. Idéale pour les familles, la baignade et les promenades au coucher du soleil.</p>
               <div class="guide-item__meta">
                 <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Royan</span>
-                <span>100m de l'appartement</span>
+                <span class="guide-item__distance" data-default="100m">100m</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="plages">
+          <article class="guide-item" data-category="plages" data-dist-royan="12 km" data-dist-villa="5 km" data-dist-maison="5 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=800&q=80&fm=webp" alt="Plage de Gatseau, plage sauvage au sud de l'Île d'Oléron" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Plages</span>
@@ -144,12 +151,12 @@
               <p class="guide-item__description">Plage sauvage à la pointe sud de l'Île d'Oléron. Accessible par le P'tit Train touristique ou à vélo à travers la forêt domaniale. Un joyau préservé.</p>
               <div class="guide-item__meta">
                 <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Île d'Oléron</span>
-                <span>Accès vélo ou train</span>
+                <span class="guide-item__distance" data-default="Accès vélo ou train">Accès vélo ou train</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="plages">
+          <article class="guide-item" data-category="plages" data-dist-royan="15 km" data-dist-villa="8 km" data-dist-maison="8 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&q=80&fm=webp" alt="Pointe de Maumusson où l'océan rencontre le Pertuis" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Plages</span>
@@ -159,13 +166,13 @@
               <p class="guide-item__description">Là où l'océan rencontre le Pertuis de Maumusson. Un spectacle naturel saisissant avec des vues imprenables sur la côte et les vagues. Spot idéal pour les photographes.</p>
               <div class="guide-item__meta">
                 <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Île d'Oléron</span>
-                <span>Accès vélo</span>
+                <span class="guide-item__distance" data-default="Accès vélo">Accès vélo</span>
               </div>
             </div>
           </article>
 
           <!-- Gastronomie -->
-          <article class="guide-item" data-category="gastronomie">
+          <article class="guide-item" data-category="gastronomie" data-dist-royan="20 km" data-dist-villa="2 km" data-dist-maison="2 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1590511794750-0c7acc5c6f49?w=800&q=80&fm=webp" alt="Huîtres de Marennes-Oléron, spécialité mondiale" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Gastronomie</span>
@@ -175,12 +182,12 @@
               <p class="guide-item__description">Les huîtres de Marennes-Oléron sont réputées dans le monde entier. Visitez les cabanes ostréicoles du port de Saint-Trojan et dégustez-les face à l'océan avec un verre de pineau.</p>
               <div class="guide-item__meta">
                 <span>Saint-Trojan</span>
-                <span>Dégustation sur place</span>
+                <span class="guide-item__distance" data-default="Dégustation sur place">Dégustation sur place</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="gastronomie">
+          <article class="guide-item" data-category="gastronomie" data-dist-royan="500 m" data-dist-villa="12 km" data-dist-maison="10 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=800&q=80&fm=webp" alt="Marché couvert de Royan, bâtiment en forme de coquillage" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Gastronomie</span>
@@ -190,28 +197,28 @@
               <p class="guide-item__description">Bâtiment emblématique en forme de coquillage, classé monument historique. Produits frais, poissons, fruits de mer et spécialités charentaises. Une expérience incontournable.</p>
               <div class="guide-item__meta">
                 <span>Royan</span>
-                <span>Tous les jours</span>
+                <span class="guide-item__distance" data-default="Tous les jours">Tous les jours</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="gastronomie">
+          <article class="guide-item" data-category="gastronomie" data-dist-royan="12 km" data-dist-villa="1 min" data-dist-maison="2 min">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&fm=webp" alt="Marché de Saint-Trojan, à 1 minute de la villa" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Gastronomie</span>
             </div>
             <div class="guide-item__body">
               <h3 class="guide-item__title">Marché de Saint-Trojan</h3>
-              <p class="guide-item__description">Marché couvert au cœur du village, à seulement 1 minute à pied de notre villa. Produits locaux, fromages, fruits et légumes de saison dans une ambiance oléronaise authentique.</p>
+              <p class="guide-item__description">Marché couvert au cœur du village. Produits locaux, fromages, fruits et légumes de saison dans une ambiance oléronaise authentique.</p>
               <div class="guide-item__meta">
                 <span>Saint-Trojan</span>
-                <span>1 min de la villa</span>
+                <span class="guide-item__distance" data-default="1 min">1 min</span>
               </div>
             </div>
           </article>
 
           <!-- Nature -->
-          <article class="guide-item" data-category="nature">
+          <article class="guide-item" data-category="nature" data-dist-royan="12 km" data-dist-villa="500 m" data-dist-maison="500 m">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&q=80&fm=webp" alt="Forêt domaniale de Saint-Trojan, pins maritimes" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Nature</span>
@@ -221,12 +228,12 @@
               <p class="guide-item__description">Immense forêt de pins maritimes qui couvre une grande partie du sud de l'île. Paradis des cyclistes, randonneurs et cueilleurs de champignons en automne.</p>
               <div class="guide-item__meta">
                 <span>Saint-Trojan</span>
-                <span>Pistes cyclables</span>
+                <span class="guide-item__distance" data-default="Pistes cyclables">Pistes cyclables</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="nature">
+          <article class="guide-item" data-category="nature" data-dist-royan="8 km" data-dist-villa="18 km" data-dist-maison="16 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80&fm=webp" alt="Parc de l'Estuaire, réserve naturelle de la Gironde" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Nature</span>
@@ -236,12 +243,12 @@
               <p class="guide-item__description">Réserve naturelle à l'embouchure de la Gironde. Observation des oiseaux migrateurs, sentiers de découverte et panorama exceptionnel sur l'estuaire.</p>
               <div class="guide-item__meta">
                 <span>Saint-Georges-de-Didonne</span>
-                <span>Observation oiseaux</span>
+                <span class="guide-item__distance" data-default="Observation oiseaux">Observation oiseaux</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="nature">
+          <article class="guide-item" data-category="nature" data-dist-royan="18 km" data-dist-villa="10 km" data-dist-maison="10 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80&fm=webp" alt="Marais de l'Île d'Oléron, marais salants et oiseaux" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Nature</span>
@@ -251,13 +258,13 @@
               <p class="guide-item__description">Marais salants et sanctuaire d'oiseaux au nord-est de l'île. Promenades paisibles au milieu des aigrettes, hérons et avocettes dans un paysage unique.</p>
               <div class="guide-item__meta">
                 <span>Île d'Oléron</span>
-                <span>Sanctuaire ornithologique</span>
+                <span class="guide-item__distance" data-default="Sanctuaire ornithologique">Sanctuaire ornithologique</span>
               </div>
             </div>
           </article>
 
           <!-- Culture -->
-          <article class="guide-item" data-category="culture">
+          <article class="guide-item" data-category="culture" data-dist-royan="600 m" data-dist-villa="12 km" data-dist-maison="10 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1566140967404-b8b3932483f5?w=800&q=80&fm=webp" alt="Église Notre-Dame de Royan, architecture moderniste" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Culture</span>
@@ -267,12 +274,12 @@
               <p class="guide-item__description">Chef-d'œuvre de l'architecture moderniste d'après-guerre, surnommée la « cathédrale du béton ». Sa silhouette en voile de navire domine le front de mer de Royan.</p>
               <div class="guide-item__meta">
                 <span>Royan</span>
-                <span>Monument historique</span>
+                <span class="guide-item__distance" data-default="Monument historique">Monument historique</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="culture">
+          <article class="guide-item" data-category="culture" data-dist-royan="15 km" data-dist-villa="8 km" data-dist-maison="8 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80&fm=webp" alt="Fort Boyard, forteresse célèbre visible depuis Oléron" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Culture</span>
@@ -282,12 +289,12 @@
               <p class="guide-item__description">La célèbre forteresse maritime, rendue mondialement connue par l'émission télévisée. Visible depuis la côte nord de l'Île d'Oléron. Excursions en bateau disponibles.</p>
               <div class="guide-item__meta">
                 <span>Pertuis d'Antioche</span>
-                <span>Excursions en bateau</span>
+                <span class="guide-item__distance" data-default="Excursions en bateau">Excursions en bateau</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="culture">
+          <article class="guide-item" data-category="culture" data-dist-royan="12 km" data-dist-villa="1 km" data-dist-maison="1 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1570024960191-8e28b8f4b1b2?w=800&q=80&fm=webp" alt="Le P'tit Train de Saint-Trojan, train touristique en forêt" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Culture</span>
@@ -297,13 +304,13 @@
               <p class="guide-item__description">Train touristique historique qui traverse la forêt domaniale de Saint-Trojan jusqu'à la plage de Gatseau. Une balade pittoresque appréciée des petits et des grands depuis 1963.</p>
               <div class="guide-item__meta">
                 <span>Saint-Trojan</span>
-                <span>Activité familiale</span>
+                <span class="guide-item__distance" data-default="Activité familiale">Activité familiale</span>
               </div>
             </div>
           </article>
 
           <!-- Activités -->
-          <article class="guide-item" data-category="activites">
+          <article class="guide-item" data-category="activites" data-dist-royan="12 km" data-dist-villa="500 m" data-dist-maison="500 m">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=800&q=80&fm=webp" alt="Pistes cyclables de l'Île d'Oléron, 100km de parcours" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Activités</span>
@@ -313,12 +320,12 @@
               <p class="guide-item__description">Plus de 100 km de pistes cyclables à travers la forêt, les vignobles et le long de la côte. L'île est un paradis pour les cyclistes de tous niveaux. Location de vélos au village.</p>
               <div class="guide-item__meta">
                 <span>Île d'Oléron</span>
-                <span>100km de pistes</span>
+                <span class="guide-item__distance" data-default="100km de pistes">100km de pistes</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="activites">
+          <article class="guide-item" data-category="activites" data-dist-royan="200 m" data-dist-villa="12 km" data-dist-maison="10 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc5?w=800&q=80&fm=webp" alt="Festival Un violon sur le sable, concerts sur la plage de Royan" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Activités</span>
@@ -328,12 +335,12 @@
               <p class="guide-item__description">Festival de musique classique unique au monde : des concerts symphoniques sur la plage de la Grande Conche, face à l'océan. Un événement magistral chaque été à Royan.</p>
               <div class="guide-item__meta">
                 <span>Royan</span>
-                <span>Juillet — Août</span>
+                <span class="guide-item__distance" data-default="Juillet — Août">Juillet — Août</span>
               </div>
             </div>
           </article>
 
-          <article class="guide-item" data-category="activites">
+          <article class="guide-item" data-category="activites" data-dist-royan="12 km" data-dist-villa="2 km" data-dist-maison="2 km">
             <div class="guide-item__image">
               <img src="https://images.unsplash.com/photo-1592853625511-ad0edcc69c07?w=800&q=80&fm=webp" alt="Fête du Mimosa à Saint-Trojan, célébration hivernale" loading="lazy" decoding="async" width="600" height="338">
               <span class="guide-item__category">Activités</span>
@@ -343,7 +350,7 @@
               <p class="guide-item__description">Célébration hivernale emblématique de Saint-Trojan-les-Bains en février. Défilés fleuris, animations et ambiance festive quand le mimosa illumine l'île de jaune.</p>
               <div class="guide-item__meta">
                 <span>Saint-Trojan</span>
-                <span>Février</span>
+                <span class="guide-item__distance" data-default="Février">Février</span>
               </div>
             </div>
           </article>
@@ -355,7 +362,7 @@
     <!-- ============================================================ -->
     <!-- MAP SECTION                                                  -->
     <!-- ============================================================ -->
-    <section class="section section--alt" aria-labelledby="guide-map-title">
+    <section class="section section--alt fade-in" aria-labelledby="guide-map-title">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Explorer la région</span>
@@ -363,15 +370,15 @@
           <p class="section__subtitle">De Royan à l'Île d'Oléron, repérez les plages, marchés et points d'intérêt.</p>
         </div>
 
-        <div class="guide-map" role="img" aria-label="Carte de la région entre Royan et l'Île d'Oléron avec les points d'intérêt : plages, marchés, sites culturels et pistes cyclables">
+        <div class="guide-map fade-in" role="img" aria-label="Carte de la région entre Royan et l'Île d'Oléron avec les points d'intérêt : plages, marchés, sites culturels et pistes cyclables">
           <div class="guide-map__overlay">Points d'intérêt — Royan &amp; Île d'Oléron</div>
-          <div style="display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; color: var(--color-text-muted); font-size: var(--small-size);">
-            <div style="text-align: center;">
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="1" aria-hidden="true" style="margin: 0 auto var(--space-3); opacity: 0.5;">
+          <div class="d-flex items-center justify-center w-full h-full text-muted text-sm">
+            <div class="text-center">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="1" aria-hidden="true" class="mx-auto mb-3 opacity-50">
                 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>
               </svg>
               <p>Carte interactive Google Maps</p>
-              <p style="font-size: 0.8125rem; opacity: 0.7;">Plages, marchés, pistes cyclables, sites culturels</p>
+              <p class="text-13 opacity-70">Plages, marchés, pistes cyclables, sites culturels</p>
             </div>
           </div>
         </div>
@@ -381,7 +388,7 @@
     <!-- ============================================================ -->
     <!-- SEASONAL SECTION                                             -->
     <!-- ============================================================ -->
-    <section class="section guide-seasonal" aria-labelledby="seasonal-title">
+    <section class="section guide-seasonal fade-in" aria-labelledby="seasonal-title">
       <div class="container">
         <div class="section__header">
           <span class="section__label">Au fil des saisons</span>
@@ -389,7 +396,7 @@
           <p class="section__subtitle">Chaque saison révèle une facette différente de la côte atlantique.</p>
         </div>
 
-        <div class="seasonal-grid">
+        <div class="seasonal-grid stagger-children">
           <!-- Été -->
           <article class="seasonal-card">
             <div class="seasonal-card__overlay">
@@ -432,7 +439,7 @@
     <!-- ============================================================ -->
     <!-- CTA SECTION                                                  -->
     <!-- ============================================================ -->
-    <section class="cta-section" aria-labelledby="guide-cta-title">
+    <section class="cta-section fade-in" aria-labelledby="guide-cta-title">
       <div class="container">
         <h2 class="cta-section__title" id="guide-cta-title">Prêt à explorer la côte atlantique ?</h2>
         <p class="cta-section__text">Trouvez votre refuge idéal pour des vacances inoubliables entre Royan et l'Île d'Oléron.</p>
@@ -447,7 +454,7 @@
   <!-- ============================================================ -->
   <!-- FOOTER                                                       -->
   <!-- ============================================================ -->
-  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+  <footer class="site-footer fade-in" role="contentinfo" aria-label="Pied de page">
     <div class="footer-inner">
       <div class="footer-grid">
         <!-- Brand Column -->
@@ -520,6 +527,65 @@
     </div>
   </footer>
 
-  <script type="module" src="assets/js/app.js"></script>
+  <script type="module" src="/assets/js/main.js"></script>
+  <script>
+    // Local Guide — Property & Category filter
+    (function() {
+      const items = document.querySelectorAll('.guide-item');
+      const propertyBtns = document.querySelectorAll('.guide-property__btn');
+      const categoryBtns = document.querySelectorAll('.guide-categories__btn');
+
+      let activeProperty = 'all';
+      let activeCategory = 'all';
+
+      function updateDistances(property) {
+        items.forEach(function(item) {
+          var distEl = item.querySelector('.guide-item__distance');
+          if (!distEl) return;
+          if (property === 'all') {
+            distEl.textContent = distEl.getAttribute('data-default');
+          } else {
+            var dist = item.getAttribute('data-dist-' + property);
+            distEl.textContent = dist || distEl.getAttribute('data-default');
+          }
+        });
+      }
+
+      function filterItems() {
+        items.forEach(function(item) {
+          var catMatch = activeCategory === 'all' || item.getAttribute('data-category') === activeCategory;
+          item.style.display = catMatch ? '' : 'none';
+        });
+      }
+
+      function setActiveBtn(btns, attr, value) {
+        btns.forEach(function(btn) {
+          var isActive = btn.getAttribute(attr) === value;
+          btn.classList.toggle('guide-property__btn--active', isActive && attr === 'data-property');
+          btn.classList.toggle('guide-categories__btn--active', isActive && attr === 'data-filter');
+          btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+      }
+
+      // Property filter clicks
+      propertyBtns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          activeProperty = btn.getAttribute('data-property');
+          setActiveBtn(propertyBtns, 'data-property', activeProperty);
+          updateDistances(activeProperty);
+          filterItems();
+        });
+      });
+
+      // Category filter clicks
+      categoryBtns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          activeCategory = btn.getAttribute('data-filter');
+          setActiveBtn(categoryBtns, 'data-filter', activeCategory);
+          filterItems();
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
