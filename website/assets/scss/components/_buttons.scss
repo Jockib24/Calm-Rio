@@ -17,7 +17,7 @@
   border: 2px solid transparent;
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: all var(--transition-fast);
   user-select: none;
   white-space: nowrap;
   padding: var(--space-3) var(--space-5);

@@ -14,7 +14,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
 
   &:hover {
     transform: translateY(-6px);
@@ -43,7 +43,7 @@
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: opacity 0.4s ease, transform 0.5s ease;
+    transition: opacity var(--transition-base), transform var(--transition-slow);
 
     &.lazy-loaded {
       opacity: 1;
@@ -294,7 +294,7 @@
       font-weight: var(--weight-semibold);
       color: var(--color-text);
       box-shadow: var(--shadow-sm);
-      transition: background-color 0.25s ease, box-shadow 0.25s ease;
+      transition: background-color var(--transition-fast), box-shadow var(--transition-fast);
 
       @media (prefers-reduced-motion: reduce) {
         transition: none;
@@ -315,7 +315,7 @@
       border: none;
       cursor: pointer;
       box-shadow: var(--shadow-sm);
-      transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+      transition: background-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
 
       &:hover {
         color: var(--color-error);
