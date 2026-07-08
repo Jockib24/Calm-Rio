@@ -84,19 +84,16 @@
 
   <main id="main-content">
     <!-- ============================================================ -->
-    <!-- BREADCRUMBS                                                  -->
-    <!-- ============================================================ -->
-    <nav class="breadcrumbs container" aria-label="Fil d'Ariane">
-      <span class="breadcrumbs__item"><a href="index.html">Accueil</a></span>
-      <span class="breadcrumbs__item breadcrumbs__item--active" aria-current="page">Page non trouvée</span>
-    </nav>
-
-    <!-- ============================================================ -->
     <!-- 404 HERO — Full Page                                         -->
     <!-- ============================================================ -->
     <section class="hero hero--full d-flex items-center justify-center min-h-90vh" aria-labelledby="error-title">
       <div class="hero__overlay"></div>
       <div class="hero__content">
+        <nav class="hero__breadcrumbs" aria-label="Fil d'Ariane">
+          <a href="index.html">Accueil</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">Page non trouvée</span>
+        </nav>
         <!-- Large Wave Illustration -->
         <div class="error-illustration mb-6" aria-hidden="true">
           <svg width="200" height="140" viewBox="0 0 200 140" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto" aria-hidden="true">

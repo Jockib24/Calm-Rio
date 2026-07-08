@@ -80,19 +80,16 @@
 
   <main id="main-content">
     <!-- ============================================================ -->
-    <!-- BREADCRUMBS                                                  -->
-    <!-- ============================================================ -->
-    <nav class="breadcrumbs container" aria-label="Breadcrumb">
-      <span class="breadcrumbs__item"><a href="index.html">Home</a></span>
-      <span class="breadcrumbs__item breadcrumbs__item--active" aria-current="page">About</span>
-    </nav>
-
-    <!-- ============================================================ -->
     <!-- HERO (small variant)                                         -->
     <!-- ============================================================ -->
     <section class="hero hero--sm about-hero" aria-labelledby="about-hero-title">
       <div class="hero__overlay"></div>
       <div class="hero__content">
+        <nav class="hero__breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">About</span>
+        </nav>
         <h1 class="hero__title" id="about-hero-title">Our Story</h1>
         <p class="hero__subtitle">Distinctive rentals on the Atlantic coast</p>
       </div>

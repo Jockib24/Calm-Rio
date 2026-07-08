@@ -54,6 +54,43 @@
 }
 
 // ------------------------------------------------------------
+// Hero breadcrumbs — light text on dark hero background
+// ------------------------------------------------------------
+.hero__breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  font-size: var(--small-size);
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: var(--space-5);
+
+  a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: #ffffff;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  span[aria-current='page'] {
+    color: rgba(255, 255, 255, 0.95);
+    font-weight: var(--weight-medium);
+  }
+
+  span[aria-hidden='true'] {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.875rem;
+  }
+}
+
+// ------------------------------------------------------------
 // Pagination
 // ------------------------------------------------------------
 .pagination {

@@ -97,15 +97,6 @@
 
   <main id="main-content">
     <!-- ============================================================ -->
-    <!-- BREADCRUMBS                                                  -->
-    <!-- ============================================================ -->
-    <nav class="breadcrumbs container" aria-label="Fil d'Ariane">
-      <span class="breadcrumbs__item"><a href="../../index.html">Accueil</a></span>
-      <span class="breadcrumbs__item"><a href="../index.html">Blog</a></span>
-      <span class="breadcrumbs__item breadcrumbs__item--active" aria-current="page">Où manger à Saint-Trojan-les-Bains</span>
-    </nav>
-
-    <!-- ============================================================ -->
     <!-- HERO (small variant)                                         -->
     <!-- ============================================================ -->
     <section class="hero hero--sm blog-hero" aria-labelledby="post-hero-title">
@@ -114,6 +105,13 @@
         <div class="hero__overlay"></div>
       </div>
       <div class="hero__content">
+        <nav class="hero__breadcrumbs" aria-label="Fil d'Ariane">
+          <a href="../../index.html">Accueil</a>
+          <span aria-hidden="true">›</span>
+          <a href="../index.html">Blog</a>
+          <span aria-hidden="true">›</span>
+          <span aria-current="page">Où manger à Saint-Trojan-les-Bains</span>
+        </nav>
         <h1 class="hero__title" id="post-hero-title">Où manger à Saint-Trojan-les-Bains ?</h1>
         <p class="hero__subtitle">Nos adresses coup de cœur sur l'île d'Oléron</p>
       </div>
