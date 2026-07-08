@@ -52,7 +52,6 @@ export function initNavigation() {
     initMobileToggle();
     initStickyHeader();
     initScrollSpy();
-    initKeyboardNav();
     initCloseOnEscape();
     initCloseOnClickOutside();
     initCloseOnLinkClick();
@@ -193,23 +192,6 @@ function initScrollSpy() {
 }
 
 /* --------------------------------------------------------------------------
-   Keyboard Navigation for mobile menu
-   -------------------------------------------------------------------------- */
-
-function initKeyboardNav() {
-    if (!mobileMenu) return;
-
-    const handler = (e) => {
-        if (!menuOpen) return;
-        if (e.key === 'Escape') {
-            e.preventDefault();
-            toggleMobileMenu(false);
-        }
-    };
-    cleanups.push(onDirect(document, 'keydown', handler));
-}
-
-/* --------------------------------------------------------------------------
    Escape to close
    -------------------------------------------------------------------------- */
 
@@ -250,18 +232,14 @@ function initCloseOnClickOutside() {
 function initCloseOnLinkClick() {
     if (!mobileMenu) return;
 
-    mobileMenu.addEventListener(
-        'click',
-        (e) => {
-            // Close if the clicked element is a nav link inside the mobile menu
-            const link = e.target.closest(SELECTORS.navLinks);
-            if (link && menuOpen) {
-                // Small delay so the link navigation happens before the menu closes
-                setTimeout(() => toggleMobileMenu(false), 100);
-            }
-        },
-        { passive: false }
-    );
+    const handler = (e) => {
+        const link = e.target.closest(SELECTORS.navLinks);
+        if (link && menuOpen) {
+            // Small delay so link navigation fires before menu closes
+            setTimeout(() => toggleMobileMenu(false), 100);
+        }
+    };
+    cleanups.push(onDirect(mobileMenu, 'click', handler));
 }
 
 /* --------------------------------------------------------------------------

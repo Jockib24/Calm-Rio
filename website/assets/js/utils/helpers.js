@@ -283,25 +283,32 @@ export function onDirect(el, event, handler, options = false) {
 }
 
 /**
- * Lock body scroll by setting overflow:hidden and compensating for scrollbar width.
+ * Lock body scroll — saves scroll position, fixes body, restores on cleanup.
+ * Prevents page jump to top on mobile when opening overlays/modals.
  * @returns {Function} — cleanup / unlock function
  */
 export function lockBodyScroll() {
+    const scrollY = window.scrollY;
     const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
-    const originalOverflow = document.body.style.overflow;
-    const originalPaddingRight = document.body.style.paddingRight;
 
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.left = '0';
+    document.body.style.right = '0';
     document.body.style.overflow = 'hidden';
     if (scrollBarWidth > 0) {
         document.body.style.paddingRight = `${scrollBarWidth}px`;
     }
 
-    const cleanup = () => {
-        document.body.style.overflow = originalOverflow;
-        document.body.style.paddingRight = originalPaddingRight;
+    return () => {
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.left = '';
+        document.body.style.right = '';
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+        window.scrollTo(0, scrollY);
     };
-
-    return cleanup;
 }
 
 /**

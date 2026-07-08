@@ -103,6 +103,10 @@
 }
 
 @media (max-width: 768px) {
+  body.nav-is-open .sticky-bar {
+    display: none;
+  }
+
   /* Prevent page content from being hidden behind sticky bar */
   body.has-sticky-bar {
     padding-bottom: 72px;
