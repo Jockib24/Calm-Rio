@@ -4,7 +4,7 @@
    Features: mobile toggle, sticky header, scroll spy, keyboard nav, ARIA
    ========================================================================== */
 
-import { debounce, throttle, onDirect } from '../utils/helpers.js';
+import { debounce, throttle, onDirect, lockBodyScroll } from '../utils/helpers.js';
 
 const SELECTORS = {
     header: '.site-header',
@@ -32,6 +32,8 @@ let mobileMenu = null;
 let menuOpen = false;
 /** @type {Function[]} */
 let cleanups = [];
+/** @type {Function|null} */
+let unlockScroll = null;
 
 /* --------------------------------------------------------------------------
    Public: init
@@ -68,9 +70,14 @@ export function destroyNavigation() {
     cleanups.forEach((fn) => fn());
     cleanups = [];
     menuOpen = false;
+    if (unlockScroll) {
+        unlockScroll();
+        unlockScroll = null;
+    }
     if (header) header.classList.remove(CLASSES.sticky, CLASSES.scrolled);
     if (mobileMenu) mobileMenu.classList.remove(CLASSES.mobileOpen);
     if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('nav-is-open');
 }
 
 /* --------------------------------------------------------------------------
@@ -101,6 +108,7 @@ function toggleMobileMenu(force) {
         toggleBtn?.setAttribute('aria-expanded', 'true');
         toggleBtn?.setAttribute('aria-label', 'Close navigation menu');
         document.body.classList.add('nav-is-open');
+        unlockScroll = lockBodyScroll();
         // Focus first link in mobile menu
         const firstLink = mobileMenu?.querySelector(SELECTORS.navLinks);
         setTimeout(() => firstLink?.focus(), 100);
@@ -110,6 +118,10 @@ function toggleMobileMenu(force) {
         toggleBtn?.setAttribute('aria-expanded', 'false');
         toggleBtn?.setAttribute('aria-label', 'Open navigation menu');
         document.body.classList.remove('nav-is-open');
+        if (unlockScroll) {
+            unlockScroll();
+            unlockScroll = null;
+        }
         toggleBtn?.focus();
     }
 }
