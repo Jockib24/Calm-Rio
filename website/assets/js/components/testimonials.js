@@ -1,10 +1,121 @@
 /* ==========================================================================
-   testimonials.js — Testimonial Carousel (No Libraries)
+   testimonials.js — Testimonial Carousel + Property Review Sections
    CalmRio — Premium Vacation Rentals, Royan & Saint-Trojan-les-Bains
    Features: touch/swipe, autoplay, dots, keyboard, responsive
    ========================================================================== */
 
 import { onDirect, throttle, prefersReducedMotion, isMobile, isTablet, isDesktop } from '../utils/helpers.js';
+
+/* ==========================================================================
+   Property Review Sections — Interactive Enhancements
+   ========================================================================== */
+
+const REVIEW_SECTION_SELECTOR = '.property-reviews';
+const REVIEW_CARD_SELECTOR = '.review-card';
+const REVIEW_CTA_SELECTOR = '.reviews-cta__link';
+const MAX_VISIBLE_INITIAL = 3;
+
+/** @type {Map<Element, {allCards: Element[], hiddenCards: Element[], toggleBtn: HTMLButtonElement|null}>} */
+const reviewSections = new Map();
+
+/**
+ * Initialise interactive review sections on property pages.
+ * - If > MAX_VISIBLE_INITIAL reviews, hides extras behind a "Show more" toggle
+ * - Adds entrance animations
+ */
+export function initPropertyReviews() {
+    const sections = document.querySelectorAll(REVIEW_SECTION_SELECTOR);
+    if (!sections.length) return;
+
+    sections.forEach((section) => {
+        const reviewContainer = section.querySelector('.review-cards') || section.querySelector('.reviews-grid');
+        if (!reviewContainer) return;
+
+        const allCards = Array.from(reviewContainer.querySelectorAll(REVIEW_CARD_SELECTOR));
+        if (allCards.length <= MAX_VISIBLE_INITIAL) {
+            // All cards visible — just add stagger animation
+            allCards.forEach((card, i) => {
+                card.style.setProperty('--stagger-index', String(i));
+                card.classList.add('fade-in');
+            });
+            return;
+        }
+
+        // Hide cards beyond the initial visible set
+        const visibleCards = allCards.slice(0, MAX_VISIBLE_INITIAL);
+        const hiddenCards = allCards.slice(MAX_VISIBLE_INITIAL);
+
+        hiddenCards.forEach((card) => {
+            card.setAttribute('hidden', '');
+            card.classList.add('review-card--collapsed');
+        });
+
+        visibleCards.forEach((card, i) => {
+            card.style.setProperty('--stagger-index', String(i));
+            card.classList.add('fade-in');
+        });
+
+        // Create "Show more" toggle button
+        const toggleBtn = document.createElement('button');
+        toggleBtn.className = 'btn btn--secondary btn--sm review-toggle';
+        toggleBtn.setAttribute('aria-expanded', 'false');
+        toggleBtn.setAttribute('aria-controls', `reviews-hidden-${section.id || Math.random().toString(36).slice(2, 8)}`);
+        toggleBtn.textContent = getShowMoreText(hiddenCards.length);
+
+        const btnWrapper = document.createElement('div');
+        btnWrapper.className = 'review-toggle-wrapper';
+        btnWrapper.appendChild(toggleBtn);
+
+        reviewContainer.insertAdjacentElement('afterend', btnWrapper);
+
+        toggleBtn.addEventListener('click', () => {
+            const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+            if (isExpanded) {
+                hiddenCards.forEach((card) => card.setAttribute('hidden', ''));
+                toggleBtn.setAttribute('aria-expanded', 'false');
+                toggleBtn.textContent = getShowMoreText(hiddenCards.length);
+            } else {
+                hiddenCards.forEach((card, i) => {
+                    card.removeAttribute('hidden');
+                    card.style.setProperty('--stagger-index', String(i));
+                    card.classList.add('fade-in');
+                });
+                toggleBtn.setAttribute('aria-expanded', 'true');
+                toggleBtn.textContent = getShowLessText();
+                // Scroll to last visible card
+                toggleBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        });
+
+        reviewSections.set(section, { allCards, hiddenCards, toggleBtn });
+    });
+}
+
+/**
+ * Returns localized "Show more" text based on document language.
+ * @param {number} remaining
+ * @returns {string}
+ */
+function getShowMoreText(remaining) {
+    const lang = document.documentElement.lang || 'fr';
+    if (lang.startsWith('fr')) {
+        return `Voir les ${remaining} avis suivants ↓`;
+    }
+    return `Show ${remaining} more reviews ↓`;
+}
+
+/**
+ * Returns localized "Show less" text.
+ * @returns {string}
+ */
+function getShowLessText() {
+    const lang = document.documentElement.lang || 'fr';
+    return lang.startsWith('fr') ? 'Réduire ↑' : 'Show less ↑';
+}
+
+/* ==========================================================================
+   Testimonial Carousel
+   ========================================================================== */
 
 const SELECTOR = '.testimonials-slider';
 const SELECTOR_SLIDE = '.card--testimonial';

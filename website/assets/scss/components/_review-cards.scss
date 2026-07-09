@@ -101,6 +101,209 @@
   margin-top: auto;
 }
 
+// ============================================================
+// Star Rating Component (CSS-only, uses --rating custom property)
+// Usage: <span class="star-rating" style="--rating: 4.95" aria-label="4.95 out of 5 stars"></span>
+// ============================================================
+
+.star-rating {
+  --percent: calc(var(--rating, 5) / 5 * 100%);
+  display: inline-block;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: 2px;
+  unicode-bidi: bidi-override;
+  direction: ltr;
+
+  &::before {
+    content: "★★★★★";
+    background: linear-gradient(
+      to right,
+      var(--color-secondary) var(--percent),
+      var(--color-border-light) var(--percent)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+
+  &--sm {
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+  }
+
+  &--lg {
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+  }
+}
+
+// ============================================================
+// Rating Badge (Guest Favorite / Coup de cœur voyageurs)
+// ============================================================
+
+.rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-3);
+  background: linear-gradient(135deg, rgba(229, 62, 62, 0.08), rgba(255, 56, 92, 0.08));
+  border: 1px solid rgba(255, 90, 95, 0.2);
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: var(--weight-semibold);
+  color: #c53030;
+  white-space: nowrap;
+
+  svg {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    color: #e53e3e;
+  }
+}
+
+// ============================================================
+// Reviews Summary — Enhanced layout with badge
+// ============================================================
+
+.reviews-summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-6);
+
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    gap: var(--space-3);
+  }
+}
+
+.reviews-summary__score {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: var(--weight-bold);
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.reviews-summary__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  flex: 1;
+}
+
+.reviews-summary__stars {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  color: var(--color-secondary);
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.reviews-summary__meta {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.reviews-summary__badge {
+  margin-left: auto;
+
+  @media (max-width: 480px) {
+    margin-left: 0;
+  }
+}
+
+// ============================================================
+// Reviews CTA (Write a Review link)
+// ============================================================
+
+.reviews-cta {
+  text-align: center;
+  padding: var(--space-5);
+  margin-top: var(--space-5);
+  background: var(--color-bg-alt);
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--color-border);
+}
+
+.reviews-cta__heading {
+  font-weight: var(--weight-semibold);
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+
+.reviews-cta__text {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-4);
+}
+
+.reviews-cta__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-5);
+  font-size: 0.9375rem;
+  font-weight: var(--weight-semibold);
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+
+  &:hover {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+}
+
+// ============================================================
+// Responsive tweaks
+// ============================================================
+
+// "Show more reviews" toggle button
+.review-toggle-wrapper {
+  text-align: center;
+  margin-top: var(--space-4);
+}
+
+.review-toggle {
+  min-width: 200px;
+}
+
+.review-card--collapsed {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  border: none;
+}
+
 @media (max-width: 639px) {
   .reviews-grid {
     gap: var(--space-4);

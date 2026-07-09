@@ -8,7 +8,7 @@ import { debounce, throttle, onDirect, lockBodyScroll } from '../utils/helpers.j
 
 const SELECTORS = {
     header: '.site-header',
-    mobileToggle: '.menu-toggle',
+mobileToggle: '.menu-toggle',
     mobileMenu: '.mobile-nav',
     navLinks: '.nav-link, .mobile-nav__link',
     sectionTargets: 'section[id]',

@@ -244,6 +244,8 @@
     ]
   }
   </script>
+  <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 </head>
 <body class="has-sticky-bar">
 
@@ -275,7 +277,7 @@
       </nav>
 
       <!-- Desktop CTA -->
-      <a href="#nos-locations" class="btn btn--primary header-cta">Réserver</a>
+      <a href="#nos-locations" class="btn btn--primary header-cta" data-track="booking-cta">Réserver</a>
 
       <!-- Mobile Menu Toggle -->
       <button
@@ -304,7 +306,7 @@
         <li><a href="/Calm-Rio/contact.html" class="mobile-nav__link">Contact</a></li>
       </ul>
     </nav>
-    <a href="#nos-locations" class="btn btn--primary btn--lg mobile-nav__cta">Réserver</a>
+    <a href="#nos-locations" class="btn btn--primary btn--lg mobile-nav__cta" data-track="booking-cta">Réserver</a>
   </div>
 
   <!-- ============================================================
@@ -458,8 +460,9 @@
               <picture>
                 <source srcset="/Calm-Rio/assets/images/guide/fort-boyard.avif" type="image/avif">
                 <source srcset="/Calm-Rio/assets/images/guide/fort-boyard.webp" type="image/webp">
-                <img src="/Calm-Rio/assets/images/guide/fort-boyard.jpg" alt="" loading="lazy" decoding="async" width="600" height="400">
-            </div>
+                 <img src="/Calm-Rio/assets/images/guide/fort-boyard.jpg" alt="" loading="lazy" decoding="async" width="600" height="400">
+               </picture>
+             </div>
             <div class="category-card__content">
               <div class="category-card__count">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
@@ -522,7 +525,11 @@
           <!-- Property Card 1: Royan Apartment -->
           <article class="card card--property">
             <div class="card__image card__image--4-3">
-              <img class="card__image-img" src="https://a0.muscache.com/im/pictures/miso/Hosting-1101432035369683458/original/3577b5b7-fb96-41d4-b20c-fd97e25b15a1.jpeg" alt="Appartement neuf bord de plage Royan — terrasse et vue" loading="lazy" decoding="async" width="600" height="400">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/3577b5b7.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/3577b5b7.webp" type="image/webp">
+                <img class="card__image-img" src="/Calm-Rio/assets/images/properties/3577b5b7.jpg" alt="Appartement neuf bord de plage Royan — terrasse et vue" loading="lazy" decoding="async" width="600" height="400">
+              </picture>
               <span class="card__badge card__badge--new">Nouveau</span>
             </div>
             <div class="card__body">
@@ -549,14 +556,18 @@
                 <span class="price-amount">À partir de 130 €</span>
                 <span class="price-period"> / nuit</span>
               </div>
-              <a href="/Calm-Rio/royan-appartement.html" class="btn btn--primary btn--full mt-4">Voir ce logement</a>
+              <a href="/Calm-Rio/royan-appartement.html" class="btn btn--primary btn--full mt-4" data-track="booking-cta" data-track-property="Royan Appartement">Voir ce logement</a>
             </div>
           </article>
 
           <!-- Property Card 2: Saint-Trojan Villa (featured) -->
           <article class="card card--property card--featured">
             <div class="card__image card__image--4-3">
-              <img class="card__image-img" src="https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg" alt="Villa neuve avec jardin clos et terrasses à Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/c943e5f4.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/c943e5f4.webp" type="image/webp">
+                <img class="card__image-img" src="/Calm-Rio/assets/images/properties/c943e5f4.jpg" alt="Villa neuve avec jardin clos et terrasses à Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              </picture>
               <span class="card__badge card__badge--featured">Coup de cœur <span class="card__badge-rating">&#9733;4,95</span></span>
             </div>
             <div class="card__body">
@@ -584,14 +595,18 @@
                 <span class="price-amount">À partir de 180 €</span>
                 <span class="price-period"> / nuit</span>
               </div>
-              <a href="/Calm-Rio/saint-trojan-villa.html" class="btn btn--primary btn--full mt-4">Voir ce logement</a>
+              <a href="/Calm-Rio/saint-trojan-villa.html" class="btn btn--primary btn--full mt-4" data-track="booking-cta" data-track-property="Saint-Trojan Villa">Voir ce logement</a>
             </div>
           </article>
 
           <!-- Property Card 3: Saint-Trojan House -->
           <article class="card card--property">
             <div class="card__image card__image--4-3">
-              <img class="card__image-img" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/e330beaf-cfaa-4576-81cb-2d6d328a3425.jpeg" alt="Maison familiale avec jardin arboré à Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/e330beaf.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/e330beaf.webp" type="image/webp">
+                <img class="card__image-img" src="/Calm-Rio/assets/images/properties/e330beaf.jpg" alt="Maison familiale avec jardin arboré à Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              </picture>
               <span class="card__badge card__badge--new">Nouveau</span>
             </div>
             <div class="card__body">
@@ -618,7 +633,7 @@
                 <span class="price-amount">À partir de 150 €</span>
                 <span class="price-period"> / nuit</span>
               </div>
-              <a href="/Calm-Rio/saint-trojan-maison.html" class="btn btn--primary btn--full mt-4">Voir ce logement</a>
+              <a href="/Calm-Rio/saint-trojan-maison.html" class="btn btn--primary btn--full mt-4" data-track="booking-cta" data-track-property="Saint-Trojan Maison">Voir ce logement</a>
             </div>
           </article>
         </div>
@@ -1010,7 +1025,7 @@
           <p class="section__subtitle">Recevez nos inspirations saisonnières, nos conseils de voyage et nos offres exclusives directement dans votre boîte mail.</p>
         </div>
 
-        <form class="newsletter-form" id="newsletter-form" aria-label="Inscription à la newsletter">
+        <form class="newsletter-form" id="newsletter-form" aria-label="Inscription à la newsletter" data-track-form="newsletter">
           <label for="newsletter-email" class="sr-only">Votre adresse e-mail</label>
           <input
             type="email"
@@ -1122,7 +1137,7 @@
         <span class="star">★</span> 4,95 — Favoris des voyageurs
       </div>
     </div>
-    <a href="#properties" class="btn btn--primary btn--sm sticky-bar__cta">Voir nos propriétés</a>
+    <a href="#properties" class="btn btn--primary btn--sm sticky-bar__cta" data-track="booking-cta">Voir nos propriétés</a>
   </div>
 
 </body>

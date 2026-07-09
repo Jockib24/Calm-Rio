@@ -11,7 +11,7 @@ import { initNavigation } from './modules/navigation.js'
 import { initScrollAnimations } from './modules/animations.js'
 import { initSmoothScroll } from './modules/smooth-scroll.js'
 import { initLazyLoading } from './modules/lazy-load.js'
-import { initTestimonials } from './components/testimonials.js'
+import { initTestimonials, initPropertyReviews } from './components/testimonials.js'
 import { initCounters } from './modules/counters.js'
 import { initGallery } from './components/gallery.js'
 import { initGalleryLightbox } from './modules/gallery-lightbox.js'
@@ -25,6 +25,8 @@ import { initThemeToggle } from './modules/theme-toggle.js'
 import { initLanguageSwitcher } from './modules/language-switcher.js'
 import { initStickyBar } from './modules/sticky-bar.js'
 import { initHeroSlider } from './modules/hero-slider.js'
+import { initAnalytics } from './modules/analytics.js'
+import { initMapModule } from './modules/map.js'
 
 // Boot on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
@@ -33,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothScroll()
   initLazyLoading()
   initTestimonials()
+  initPropertyReviews()
   initCounters()
   initGallery()
   initGalleryLightbox()
@@ -46,4 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initLanguageSwitcher()
   initStickyBar()
   initHeroSlider()
+  initAnalytics()
+  initMapModule()
 })

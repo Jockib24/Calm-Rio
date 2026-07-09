@@ -146,9 +146,28 @@ function initGalleryContainer(container) {
         cleanups.push(() => container.removeEventListener('keydown', keyHandler));
     }
 
-    // Fullscreen button
+    // Fullscreen button — delegates to GalleryLightbox via [data-gallery]
     if (fullscreenBtn) {
-        cleanups.push(onDirect(fullscreenBtn, 'click', () => openFullscreen(container)));
+        cleanups.push(onDirect(fullscreenBtn, 'click', () => {
+            const galleryImages = container.querySelectorAll('[data-gallery]');
+            if (galleryImages.length > 0) {
+                const idx = Math.min(state.currentIndex, galleryImages.length - 1);
+                galleryImages[idx].click();
+            }
+        }));
+    }
+
+    // "View all photos" button — delegates to GalleryLightbox
+    const moreBtn = container.querySelector('.property-gallery__more');
+    if (moreBtn) {
+        cleanups.push(onDirect(moreBtn, 'click', (e) => {
+            const galleryImages = container.querySelectorAll('[data-gallery]');
+            if (galleryImages.length > 0) {
+                e.preventDefault();
+                const idx = Math.min(state.currentIndex, galleryImages.length - 1);
+                galleryImages[idx].click();
+            }
+        }));
     }
 
     // Touch/swipe on main image
@@ -352,113 +371,6 @@ function initSwipe(container) {
         cleanups.push(onDirect(mainEl, 'touchmove', touchMove, { passive: false }));
         cleanups.push(onDirect(mainEl, 'touchend', touchEnd, { passive: true }));
     }
-}
-
-/* --------------------------------------------------------------------------
-   Fullscreen
-   -------------------------------------------------------------------------- */
-
-/**
- * Open the gallery in a fullscreen-like overlay.
- * @param {HTMLElement} container
- */
-function openFullscreen(container) {
-    const state = galleries.get(container);
-    if (!state) return;
-
-    // Create a fullscreen overlay
-    const overlay = document.createElement('div');
-    overlay.className = 'gallery-fullscreen';
-    overlay.setAttribute('role', 'dialog');
-    overlay.setAttribute('aria-label', 'Galerie plein écran');
-
-    const img = document.createElement('img');
-    img.src = state.images[state.currentIndex]?.src || '';
-    img.alt = state.images[state.currentIndex]?.alt || '';
-    img.className = 'gallery-fullscreen__image';
-
-    const closeBtn = document.createElement('button');
-    closeBtn.className = 'gallery-fullscreen__close';
-    closeBtn.innerHTML = '&times;';
-    closeBtn.setAttribute('aria-label', 'Fermer la galerie');
-    closeBtn.onclick = () => overlay.remove();
-
-    const prevBtn = document.createElement('button');
-    prevBtn.className = 'gallery-fullscreen__prev';
-    prevBtn.innerHTML = '&#8249;';
-    prevBtn.setAttribute('aria-label', 'Image précédente');
-
-    const nextBtn = document.createElement('button');
-    nextBtn.className = 'gallery-fullscreen__next';
-    nextBtn.innerHTML = '&#8250;';
-    nextBtn.setAttribute('aria-label', 'Image suivante');
-
-    const counter = document.createElement('div');
-    counter.className = 'gallery-fullscreen__counter';
-    counter.textContent = `${state.currentIndex + 1}/${state.images.length}`;
-
-    let fsIndex = state.currentIndex;
-
-    const updateFsImage = () => {
-        const imgData = state.images[fsIndex];
-        if (imgData) {
-            img.src = imgData.src;
-            img.alt = imgData.alt || `Photo ${fsIndex + 1}`;
-            counter.textContent = `${fsIndex + 1}/${state.images.length}`;
-        }
-    };
-
-    prevBtn.onclick = () => {
-        fsIndex = (fsIndex - 1 + state.images.length) % state.images.length;
-        updateFsImage();
-    };
-
-    nextBtn.onclick = () => {
-        fsIndex = (fsIndex + 1) % state.images.length;
-        updateFsImage();
-    };
-
-    // Keyboard
-    const onKey = (e) => {
-        switch (e.key) {
-            case 'Escape':
-                overlay.remove();
-                break;
-            case 'ArrowLeft':
-                fsIndex = (fsIndex - 1 + state.images.length) % state.images.length;
-                updateFsImage();
-                break;
-            case 'ArrowRight':
-                fsIndex = (fsIndex + 1) % state.images.length;
-                updateFsImage();
-                break;
-        }
-    };
-    document.addEventListener('keydown', onKey);
-
-    overlay.appendChild(closeBtn);
-    overlay.appendChild(prevBtn);
-    overlay.appendChild(img);
-    overlay.appendChild(nextBtn);
-    overlay.appendChild(counter);
-
-    // Close on overlay click (outside image)
-    overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) overlay.remove();
-    });
-
-    document.body.appendChild(overlay);
-    document.body.style.overflow = 'hidden';
-
-    // Clean up on close
-    const observer = new MutationObserver(() => {
-        if (!document.body.contains(overlay)) {
-            document.body.style.overflow = '';
-            document.removeEventListener('keydown', onKey);
-            observer.disconnect();
-        }
-    });
-    observer.observe(document.body, { childList: true });
 }
 
 /* --------------------------------------------------------------------------

@@ -46,6 +46,9 @@
     ]
   }
   </script>
+  <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
+  <link rel="preload" href="/Calm-Rio/assets/images/guide/coastal-beach-hero.avif" as="image" type="image/avif" fetchpriority="high">
 </head>
 <body>
 
@@ -100,7 +103,11 @@
     <!-- ============================================================ -->
     <section class="hero hero--sm blog-hero" aria-labelledby="blog-hero-title">
       <div class="hero__bg">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80&fm=webp" alt="Plage de la côte atlantique" width="1920" height="600" loading="eager" fetchpriority="high">
+        <picture>
+          <source srcset="/Calm-Rio/assets/images/guide/coastal-beach-hero.avif" type="image/avif">
+          <source srcset="/Calm-Rio/assets/images/guide/coastal-beach-hero.webp" type="image/webp">
+          <img src="/Calm-Rio/assets/images/guide/coastal-beach-hero.jpg" alt="Plage de la côte atlantique" width="1920" height="600" loading="eager" fetchpriority="high">
+        </picture>
         <div class="hero__overlay"></div>
       </div>
       <div class="hero__content">

@@ -31,6 +31,8 @@
 
   <link rel="icon" type="image/svg+xml" href="/Calm-Rio/favicon.svg">
   <link rel="manifest" href="/Calm-Rio/site.webmanifest">
+  <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 </head>
 <body>
 
@@ -94,7 +96,7 @@
             <h2 class="contact-form__title" id="contact-form-title">Send us a message</h2>
             <p class="contact-form__subtitle">We respond within 1 hour during the day, 7 days a week.</p>
 
-            <form novalidate data-validate>
+            <form novalidate data-validate data-track-form="contact">
               <div class="form-row">
                 <div class="form-group">
                   <label for="contact-name" class="form-label form-label--required">Full Name</label>
@@ -204,20 +206,17 @@
           <h2 class="section__title" id="map-title">Region Map</h2>
           <p class="section__subtitle">From Royan to Île d'Oléron, discover the location of our properties.</p>
         </div>
-        <div class="contact-map fade-in" role="img" aria-label="Map of the region between Royan and Île d'Oléron. Our rentals are located in Royan and Saint-Trojan-les-Bains.">
-          <div class="contact-map__placeholder">
-            <div class="text-center">
-              <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="1" aria-hidden="true" class="mx-auto mb-3 opacity-50">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-              <p class="text-sm text-muted">
-                Interactive Map — Royan &amp; Île d'Oléron
-              </p>
-              <p class="text-13 text-muted opacity-70">
-                Loading Google Maps...
-              </p>
-            </div>
+        <div class="contact-map fade-in">
+          <div id="contact-map" class="map-container" data-map="contact" style="height:300px" role="application" aria-label="CalmRio property location map">
+            <noscript>
+              <div class="text-center p-5">
+                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-text-muted)" stroke-width="1" aria-hidden="true" class="mx-auto mb-3 opacity-50">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <p class="text-sm text-muted">JavaScript is required to display the map.</p>
+              </div>
+            </noscript>
           </div>
         </div>
       </div>

@@ -132,7 +132,6 @@ function initStaggerObservers() {
         staggerObservers.set(container, staggerObs);
     });
 }
-
 /* --------------------------------------------------------------------------
    Already Visible — fire animation immediately for elements visible on load
    -------------------------------------------------------------------------- */

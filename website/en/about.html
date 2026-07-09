@@ -31,6 +31,8 @@
 
   <link rel="icon" type="image/svg+xml" href="/Calm-Rio/favicon.svg">
   <link rel="manifest" href="/Calm-Rio/site.webmanifest">
+  <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 </head>
 <body>
 
@@ -169,11 +171,8 @@
         <div class="hosts-grid stagger-children">
           <!-- Host 1: Mélanie — Royan -->
           <article class="host-card">
-            <div class="host-photo bg-alt d-flex items-center justify-center" role="img" aria-label="Photo of Mélanie, host in Royan">
-              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+            <div class="host-photo">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Photo of Mélanie, host in Royan" width="120" height="120" loading="lazy">
             </div>
             <h3 class="host-name">Mélanie</h3>
             <p class="host-role">Host — Royan</p>
@@ -184,11 +183,8 @@
 
           <!-- Host 2: Agnès — Saint-Trojan-les-Bains -->
           <article class="host-card">
-            <div class="host-photo bg-alt d-flex items-center justify-center" role="img" aria-label="Photo of Agnès, Superhost in Saint-Trojan-les-Bains">
-              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                <circle cx="12" cy="7" r="4"></circle>
-              </svg>
+            <div class="host-photo">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80" alt="Photo of Agnès, Superhost in Saint-Trojan-les-Bains" width="120" height="120" loading="lazy">
             </div>
             <h3 class="host-name">Agnès</h3>
             <p class="host-role">Superhost — Saint-Trojan-les-Bains</p>
@@ -196,6 +192,31 @@
               Agnès has been an Airbnb Superhost for 5 years, and her villa is rated Guest Favorite with an exceptional 4.95★ rating. She takes great pride in offering a warm and personalized welcome. Her portfolio of two houses in Saint-Trojan-les-Bains accommodates both small and large families.
             </p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CONTACT INFO (post-hosts)                                     -->
+    <!-- ============================================================ -->
+    <section class="section about-hosts fade-in" aria-labelledby="contact-info-title">
+      <div class="container">
+        <div class="about-contact-info">
+          <h3 class="about-contact-info__title" id="contact-info-title">Contact us directly</h3>
+          <div class="about-contact-info__grid">
+            <div class="about-contact-info__item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:contact@calm-rio.com">contact@calm-rio.com</a>
+            </div>
+            <div class="about-contact-info__item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:+212662669887">+212 662-669887</a>
+            </div>
+          </div>
+          <div class="about-contact-info__promise">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            Have a question? We respond within 2 hours
+          </div>
         </div>
       </div>
     </section>
@@ -268,7 +289,11 @@
           <!-- Royan Apartment -->
           <article class="card card--property">
             <div class="card__image card__image--16-9">
-              <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1101432035369683458/original/07bce65e-aa65-4b4b-b96f-47565e8eb797.jpeg" alt="New apartment in Royan, shaded terrace, 100m from Grande Conche" loading="lazy" decoding="async" width="600" height="338">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/07bce65e.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/07bce65e.webp" type="image/webp">
+                <img src="/Calm-Rio/assets/images/properties/07bce65e.jpg" alt="New apartment in Royan, shaded terrace, 100m from Grande Conche" loading="lazy" decoding="async" width="600" height="338">
+              </picture>
             </div>
             <div class="card__body">
               <p class="card__location">
@@ -289,7 +314,11 @@
           <!-- Saint-Trojan Villa -->
           <article class="card card--property">
             <div class="card__image card__image--16-9">
-              <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg" alt="New 110m² villa in Saint-Trojan-les-Bains, enclosed garden and terraces" loading="lazy" decoding="async" width="600" height="338">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/c943e5f4.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/c943e5f4.webp" type="image/webp">
+                <img src="/Calm-Rio/assets/images/properties/c943e5f4.jpg" alt="New 110m² villa in Saint-Trojan-les-Bains, enclosed garden and terraces" loading="lazy" decoding="async" width="600" height="338">
+              </picture>
               <span class="card__rating-badge" aria-label="Rating of 4.95 out of 5">★ 4.95</span>
             </div>
             <div class="card__body">
@@ -311,7 +340,11 @@
           <!-- Saint-Trojan House -->
           <article class="card card--property">
             <div class="card__image card__image--16-9">
-              <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/e330beaf-cfaa-4576-81cb-2d6d328a3425.jpeg" alt="Family house 3 bedrooms in Saint-Trojan-les-Bains with garden" loading="lazy" decoding="async" width="600" height="338">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/e330beaf.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/e330beaf.webp" type="image/webp">
+                <img src="/Calm-Rio/assets/images/properties/e330beaf.jpg" alt="Family house 3 bedrooms in Saint-Trojan-les-Bains with garden" loading="lazy" decoding="async" width="600" height="338">
+              </picture>
             </div>
             <div class="card__body">
               <p class="card__location">
@@ -342,6 +375,10 @@
         <div class="cta-section__action">
           <a href="index.html#nos-locations" class="btn btn--secondary-light btn--lg">Discover our rentals</a>
           <a href="contact.html" class="btn btn--secondary-light btn--lg">Contact us</a>
+        </div>
+        <div class="cta-section__response-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Have a question? We respond within 2 hours
         </div>
       </div>
     </section>

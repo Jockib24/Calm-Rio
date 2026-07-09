@@ -244,6 +244,8 @@
     ]
   }
   </script>
+  <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 </head>
 <body class="has-sticky-bar">
 
@@ -275,7 +277,7 @@
       </nav>
 
       <!-- Desktop CTA -->
-      <a href="#nos-locations" class="btn btn--primary header-cta">Book Now</a>
+      <a href="#nos-locations" class="btn btn--primary header-cta" data-track="booking-cta">Book Now</a>
 
       <!-- Mobile Menu Toggle -->
       <button
@@ -304,7 +306,7 @@
         <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
       </ul>
     </nav>
-    <a href="#nos-locations" class="btn btn--primary btn--lg mobile-nav__cta">Book Now</a>
+    <a href="#nos-locations" class="btn btn--primary btn--lg mobile-nav__cta" data-track="booking-cta">Book Now</a>
   </div>
 
   <!-- ============================================================
@@ -430,7 +432,11 @@
           <!-- Property Card 1: Royan Apartment -->
           <article class="card card--property">
             <div class="card__image card__image--4-3">
-              <img class="card__image-img" src="https://a0.muscache.com/im/pictures/miso/Hosting-1101432035369683458/original/3577b5b7-fb96-41d4-b20c-fd97e25b15a1.jpeg" alt="New beachfront apartment Royan — terrace and view" loading="lazy" decoding="async" width="600" height="400">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/3577b5b7.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/3577b5b7.webp" type="image/webp">
+                <img class="card__image-img" src="/Calm-Rio/assets/images/properties/3577b5b7.jpg" alt="New beachfront apartment Royan — terrace and view" loading="lazy" decoding="async" width="600" height="400">
+              </picture>
               <span class="card__badge card__badge--new">New</span>
             </div>
             <div class="card__body">
@@ -455,14 +461,18 @@
                 <span class="price-amount">From €130</span>
                 <span class="price-period"> / night</span>
               </div>
-              <a href="royan-appartement.html" class="btn btn--primary btn--full mt-4">View this property</a>
+              <a href="royan-appartement.html" class="btn btn--primary btn--full mt-4" data-track="booking-cta" data-track-property="Royan Apartment">View this property</a>
             </div>
           </article>
 
           <!-- Property Card 2: Saint-Trojan Villa (featured) -->
           <article class="card card--property card--featured">
             <div class="card__image card__image--4-3">
-              <img class="card__image-img" src="https://a0.muscache.com/im/pictures/hosting/Hosting-50122536/original/c943e5f4-6a5c-441e-8693-6732e1cde1a7.jpeg" alt="New villa with enclosed garden and terraces in Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/c943e5f4.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/c943e5f4.webp" type="image/webp">
+                <img class="card__image-img" src="/Calm-Rio/assets/images/properties/c943e5f4.jpg" alt="New villa with enclosed garden and terraces in Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              </picture>
               <span class="card__badge card__badge--featured">Guest Favorite <span class="star-rating">★4.95</span></span>
             </div>
             <div class="card__body">
@@ -488,14 +498,18 @@
                 <span class="price-amount">From €180</span>
                 <span class="price-period"> / night</span>
               </div>
-              <a href="saint-trojan-villa.html" class="btn btn--primary btn--full mt-4">View this property</a>
+              <a href="saint-trojan-villa.html" class="btn btn--primary btn--full mt-4" data-track="booking-cta" data-track-property="Saint-Trojan Villa">View this property</a>
             </div>
           </article>
 
           <!-- Property Card 3: Saint-Trojan House -->
           <article class="card card--property">
             <div class="card__image card__image--4-3">
-              <img class="card__image-img" src="https://a0.muscache.com/im/pictures/hosting/Hosting-1431741688356720747/original/e330beaf-cfaa-4576-81cb-2d6d328a3425.jpeg" alt="Family house with wooded garden in Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              <picture>
+                <source srcset="/Calm-Rio/assets/images/properties/e330beaf.avif" type="image/avif">
+                <source srcset="/Calm-Rio/assets/images/properties/e330beaf.webp" type="image/webp">
+                <img class="card__image-img" src="/Calm-Rio/assets/images/properties/e330beaf.jpg" alt="Family house with wooded garden in Saint-Trojan-les-Bains" loading="lazy" decoding="async" width="600" height="400">
+              </picture>
               <span class="card__badge card__badge--new">New</span>
             </div>
             <div class="card__body">
@@ -520,7 +534,7 @@
                 <span class="price-amount">From €150</span>
                 <span class="price-period"> / night</span>
               </div>
-              <a href="saint-trojan-maison.html" class="btn btn--primary btn--full mt-4">View this property</a>
+              <a href="saint-trojan-maison.html" class="btn btn--primary btn--full mt-4" data-track="booking-cta" data-track-property="Saint-Trojan House">View this property</a>
             </div>
           </article>
         </div>
@@ -859,7 +873,7 @@
           <p class="section__subtitle">Receive seasonal inspirations, travel tips, and exclusive offers directly to your inbox.</p>
         </div>
 
-        <form class="newsletter-form" id="newsletter-form" aria-label="Newsletter signup">
+        <form class="newsletter-form" id="newsletter-form" aria-label="Newsletter signup" data-track-form="newsletter">
           <label for="newsletter-email" class="sr-only">Your email address</label>
           <input
             type="email"
@@ -971,7 +985,7 @@
         <span class="star">★</span> 4.95 — Guest Favorite
       </div>
     </div>
-    <a href="#properties" class="btn btn--primary btn--sm sticky-bar__cta">View our properties</a>
+    <a href="#properties" class="btn btn--primary btn--sm sticky-bar__cta" data-track="booking-cta">View our properties</a>
   </div>
 
 </body>

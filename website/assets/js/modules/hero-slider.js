@@ -22,6 +22,7 @@ const HERO_IMAGES = [
 ];
 
 const AUTOPLAY_MS = 7000;
+const SWIPE_THRESHOLD = 50;
 
 /** @type {object|null} */
 let state = null;
@@ -98,6 +99,38 @@ export function initHeroSlider() {
     listen(document, 'visibilitychange', () => {
       document.hidden ? pause() : resume();
     }),
+  );
+
+  // Touch/swipe support
+  let touchStartX, touchStartY, touchMoved;
+
+  const onTouchStart = (e) => {
+    const touch = e.touches[0];
+    if (!touch) return;
+    touchStartX = touch.clientX;
+    touchStartY = touch.clientY;
+    touchMoved = false;
+  };
+
+  const onTouchEnd = (e) => {
+    const touch = e.changedTouches[0];
+    if (!touch || touchMoved) return;
+    const deltaX = touch.clientX - touchStartX;
+    const deltaY = touch.clientY - touchStartY;
+
+    // Only horizontal swipes: deltaX must exceed both threshold and deltaY
+    if (Math.abs(deltaX) > SWIPE_THRESHOLD && Math.abs(deltaX) > Math.abs(deltaY)) {
+      if (deltaX > 0) {
+        onPrev();
+      } else {
+        onNext();
+      }
+    }
+  };
+
+  cleanups.push(
+    listen(slider, 'touchstart', onTouchStart, { passive: true }),
+    listen(slider, 'touchend', onTouchEnd, { passive: true }),
   );
 
   if (!prefersReduced) startAutoplay();

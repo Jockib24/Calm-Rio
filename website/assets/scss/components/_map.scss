@@ -1,0 +1,431 @@
+/* ==========================================================================
+   _map.scss — Leaflet Map Component Styles
+   CalmRio — Premium Vacation Rentals
+   ========================================================================== */
+
+// ---------------------------------------------------------------------------
+// 1. Map Container
+// ---------------------------------------------------------------------------
+
+.map-container {
+  width: 100%;
+  min-height: 300px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--color-border-light);
+  background-color: var(--color-bg-alt);
+  z-index: var(--z-base);
+  position: relative;
+
+  // Smooth appearance after lazy init
+  opacity: 0;
+  animation: map-fade-in 350ms ease forwards;
+
+  // Leaflet attribution styling
+  .leaflet-control-attribution {
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2px 8px;
+    border-radius: var(--radius-sm) 0 0 0;
+    color: var(--color-text-muted);
+
+    a {
+      color: var(--color-primary);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // Zoom controls
+  .leaflet-control-zoom {
+    border: none;
+    box-shadow: var(--shadow-md);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+
+    a {
+      font-family: var(--font-body);
+      color: var(--color-text-secondary);
+      background: var(--color-surface);
+      border: none;
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      transition: background var(--transition-fast);
+
+      &:hover {
+        background: var(--color-bg-alt);
+        color: var(--color-text);
+      }
+
+      &:first-child {
+        border-bottom: 1px solid var(--color-border-light);
+      }
+    }
+  }
+}
+
+@keyframes map-fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+// ---------------------------------------------------------------------------
+// 2. Tile layer dark-mode filter (applied via JS)
+// ---------------------------------------------------------------------------
+
+.map-container .leaflet-tile-pane img,
+.map-container .leaflet-tile {
+  filter: var(--leaflet-tile-filter, none);
+}
+
+// ---------------------------------------------------------------------------
+// 3. Custom Property Markers (Gold pins)
+// ---------------------------------------------------------------------------
+
+.map-marker {
+  background: none !important;
+  border: none !important;
+}
+
+.map-marker--property {
+  .map-marker__inner {
+    position: relative;
+    width: 32px;
+    height: 42px;
+    background-color: var(--color-accent, #C49A5A);
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
+    box-shadow: 0 2px 6px rgba(27, 58, 75, 0.25);
+    border: 2px solid var(--color-primary, #1B3A4B);
+    animation: marker-drop 400ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    cursor: pointer;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      background: var(--color-surface, #fff);
+      border-radius: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+  }
+
+  &:hover .map-marker__inner {
+    transform: rotate(-45deg) scale(1.15);
+    box-shadow: 0 4px 12px rgba(27, 58, 75, 0.35);
+    border-color: var(--color-surface, #fff);
+  }
+
+  .map-marker__label {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    white-space: nowrap;
+    font-family: var(--font-body);
+    font-size: 0.6875rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-text);
+    text-shadow: 0 0 4px var(--color-surface), 0 0 4px var(--color-surface);
+    pointer-events: none;
+  }
+}
+
+@keyframes marker-drop {
+  from { opacity: 0; transform: rotate(-45deg) translateY(-16px); }
+  to   { opacity: 1; transform: rotate(-45deg) translateY(0); }
+}
+
+// Stagger marker animations
+.map-marker:nth-child(1) .map-marker__inner { animation-delay: 0ms; }
+.map-marker:nth-child(2) .map-marker__inner { animation-delay: 80ms; }
+.map-marker:nth-child(3) .map-marker__inner { animation-delay: 160ms; }
+.map-marker:nth-child(4) .map-marker__inner { animation-delay: 240ms; }
+.map-marker:nth-child(5) .map-marker__inner { animation-delay: 320ms; }
+.map-marker:nth-child(6) .map-marker__inner { animation-delay: 400ms; }
+
+// ---------------------------------------------------------------------------
+// 4. POI Markers (Themed icons)
+// ---------------------------------------------------------------------------
+
+.map-marker--poi {
+  .map-marker__poi-inner {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--color-surface, #fff);
+    box-shadow: 0 1px 4px rgba(27, 58, 75, 0.2);
+    border: 2px solid var(--color-primary, #1B3A4B);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary, #1B3A4B);
+    cursor: pointer;
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast),
+                border-color var(--transition-fast), background var(--transition-fast);
+  }
+
+  .map-marker__poi-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 0;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .map-marker__poi-label {
+    display: none;
+  }
+
+  &:hover .map-marker__poi-inner {
+    transform: scale(1.2);
+    box-shadow: 0 3px 8px rgba(27, 58, 75, 0.3);
+    border-color: var(--color-accent, #C49A5A);
+  }
+}
+
+// POI type colours
+.map-marker--beach .map-marker__poi-inner {
+  background: #E8F4F8;
+  border-color: #4A90C4;
+  color: #4A90C4;
+}
+
+.map-marker--market .map-marker__poi-inner {
+  background: #FFF4E5;
+  border-color: #D4943A;
+  color: #D4943A;
+}
+
+.map-marker--landmark .map-marker__poi-inner {
+  background: #F0E8F4;
+  border-color: #7A5A9A;
+  color: #7A5A9A;
+}
+
+.map-marker--forest .map-marker__poi-inner {
+  background: #E5F0E5;
+  border-color: #5A8A5A;
+  color: #5A8A5A;
+}
+
+// ---------------------------------------------------------------------------
+// 5. Leaflet Popups (Brand styled)
+// ---------------------------------------------------------------------------
+
+.map-popup-wrapper {
+  .leaflet-popup-content-wrapper {
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid var(--color-border-light);
+    background: var(--color-surface, #fff);
+  }
+
+  .leaflet-popup-content {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-body);
+  }
+
+  .leaflet-popup-close-button {
+    top: 8px;
+    right: 8px;
+    color: var(--color-text-muted);
+    font-size: 1.125rem;
+    font-weight: var(--weight-regular);
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: var(--color-text);
+    }
+  }
+
+  .leaflet-popup-tip {
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border-light);
+  }
+}
+
+.map-popup {
+  padding: var(--space-4) var(--space-4) var(--space-4);
+
+  &__title {
+    font-family: var(--font-heading);
+    font-size: var(--h6-size);
+    font-weight: var(--weight-semibold);
+    color: var(--color-primary, #1B3A4B);
+    margin: 0 0 4px;
+    line-height: 1.3;
+    padding-right: 16px; // space for close button
+  }
+
+  &__desc {
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    margin: 0 0 8px;
+    line-height: 1.5;
+  }
+
+  &__link {
+    display: inline-block;
+    font-size: 0.8125rem;
+    font-weight: var(--weight-semibold);
+    color: var(--color-accent, #C49A5A);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: var(--color-accent-dark, #B08A4A);
+      text-decoration: underline;
+    }
+  }
+
+  // POI popup (simpler)
+  &--poi {
+    padding: var(--space-3) var(--space-3);
+
+    .map-popup__title {
+      font-family: var(--font-body);
+      font-size: 0.8125rem;
+      color: var(--color-text);
+      margin: 0;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 6. Responsive
+// ---------------------------------------------------------------------------
+
+@media (max-width: 640px) {
+  .map-container {
+    min-height: 250px;
+    border-radius: var(--radius-sm);
+
+    .leaflet-control-zoom a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+    }
+  }
+
+  .map-popup {
+    padding: var(--space-3) var(--space-3);
+  }
+
+  .map-marker__label {
+    font-size: 0.625rem;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 7. Dark Mode
+// ---------------------------------------------------------------------------
+
+:root.dark-mode {
+  .map-container {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-border);
+    background-color: var(--color-bg-alt);
+  }
+
+  .map-container .leaflet-control-attribution {
+    background: rgba(26, 30, 36, 0.85);
+    color: var(--color-text-muted);
+
+    a {
+      color: var(--color-accent);
+    }
+  }
+
+  .leaflet-control-zoom a {
+    background: var(--color-surface);
+    color: var(--color-text-secondary);
+
+    &:hover {
+      background: var(--color-bg-alt);
+      color: var(--color-text);
+    }
+
+    &:first-child {
+      border-bottom-color: var(--color-border);
+    }
+  }
+
+  .map-popup-wrapper {
+    .leaflet-popup-content-wrapper {
+      background: var(--color-surface);
+      border-color: var(--color-border);
+    }
+
+    .leaflet-popup-close-button {
+      color: var(--color-text-muted);
+
+      &:hover {
+        color: var(--color-text);
+      }
+    }
+  }
+
+  .map-popup__title {
+    color: var(--color-text);
+  }
+
+  .map-popup__desc {
+    color: var(--color-text-secondary);
+  }
+
+  .map-popup__link {
+    color: var(--color-accent-light);
+
+    &:hover {
+      color: var(--color-accent);
+    }
+  }
+
+  // Property markers in dark mode
+  .map-marker--property .map-marker__inner {
+    border-color: var(--color-primary-light);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+
+    &::after {
+      background: var(--color-surface);
+    }
+  }
+
+  .map-marker__label {
+    color: var(--color-text);
+    text-shadow: 0 0 4px var(--color-bg), 0 0 4px var(--color-bg);
+  }
+
+  // POI markers in dark mode
+  .map-marker--poi .map-marker__poi-inner {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+
+    // Keep accent colours but dim slightly
+    &.map-marker--beach .map-marker__poi-inner,
+    &.map-marker--market .map-marker__poi-inner,
+    &.map-marker--landmark .map-marker__poi-inner,
+    &.map-marker--forest .map-marker__poi-inner {
+      opacity: 0.9;
+    }
+  }
+}

@@ -23,8 +23,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://a0.muscache.com">
-  <link rel="preconnect" href="https://images.unsplash.com">
 
 
 
@@ -48,6 +46,7 @@
     "publisher": { "@type": "Organization", "name": "CalmRio" }
   }
   </script>
+  <link rel="preload" href="/Calm-Rio/assets/images/guide/gatseau-beach.avif" as="image" type="image/avif" fetchpriority="high">
 </head>
 <body>
 
@@ -102,7 +101,11 @@
     <!-- ============================================================ -->
     <section class="hero hero--sm blog-hero" aria-labelledby="post-hero-title">
       <div class="hero__bg">
-        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80&fm=webp" alt="Restaurant avec vue mer à Saint-Trojan-les-Bains" width="1920" height="600" loading="eager" fetchpriority="high">
+        <picture>
+          <source srcset="/Calm-Rio/assets/images/guide/gatseau-beach.avif" type="image/avif">
+          <source srcset="/Calm-Rio/assets/images/guide/gatseau-beach.webp" type="image/webp">
+          <img src="/Calm-Rio/assets/images/guide/gatseau-beach.jpg" alt="Restaurant avec vue mer à Saint-Trojan-les-Bains" width="1920" height="600" loading="eager" fetchpriority="high">
+        </picture>
         <div class="hero__overlay"></div>
       </div>
       <div class="hero__content">
