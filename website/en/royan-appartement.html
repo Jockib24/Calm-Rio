@@ -139,11 +139,19 @@
       <a href="index.html" class="site-logo" aria-label="CalmRio — Home">CalmRio</a>
       <nav class="main-nav" aria-label="Main navigation">
         <ul class="nav-list">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="#properties" class="nav-link">Our Rentals</a></li>
-          <li><a href="blog/" class="nav-link">Blog</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="index.html" class="nav-link nav__link">Home</a></li>
+          <li class="nav-item--has-dropdown">
+            <a href="index.html#nos-locations" class="nav-link nav__link">Our Rentals</a>
+            <ul class="dropdown-menu">
+              <li><a href="royan-appartement.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Royan — Apartment</a></li>
+              <li><a href="saint-trojan-villa.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Villa</a></li>
+              <li><a href="saint-trojan-maison.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — House</a></li>
+            </ul>
+          </li>
+          <li><a href="local-guide.html" class="nav-link nav__link">Local Guide</a></li>
+          <li><a href="blog/" class="nav-link nav__link">Blog</a></li>
+          <li><a href="about.html" class="nav-link nav__link">About</a></li>
+          <li><a href="contact.html" class="nav-link nav__link">Contact</a></li>
         </ul>
       </nav>
       <a href="#booking-widget" class="btn btn--primary btn--sm header-cta">Book Now</a>
@@ -159,11 +167,16 @@
   <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile menu">
     <ul class="mobile-nav__list">
       <li><a href="index.html" class="mobile-nav__link">Home</a></li>
-      <li><a href="#properties" class="mobile-nav__link">Our Rentals</a></li>
+      <li class="mobile-nav__item--has-children">
+        <a href="index.html#nos-locations" class="mobile-nav__link">Our Rentals</a>
+        <ul class="mobile-nav__sublist">
+          <li><a href="royan-appartement.html" class="mobile-nav__sublink">Royan — Apartment</a></li>
+          <li><a href="saint-trojan-villa.html" class="mobile-nav__sublink">Saint-Trojan — Villa</a></li>
+          <li><a href="saint-trojan-maison.html" class="mobile-nav__sublink">Saint-Trojan — House</a></li>
+        </ul>
+      </li>
+      <li><a href="local-guide.html" class="mobile-nav__link">Local Guide</a></li>
       <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
-      <li><a href="royan-appartement.html" class="mobile-nav__link">Royan — Apartment</a></li>
-      <li><a href="saint-trojan-villa.html" class="mobile-nav__link">Saint-Trojan — Villa</a></li>
-      <li><a href="saint-trojan-maison.html" class="mobile-nav__link">Saint-Trojan — House</a></li>
       <li><a href="about.html" class="mobile-nav__link">About</a></li>
       <li><a href="contact.html" class="mobile-nav__link">Contact</a></li>
     </ul>
@@ -193,7 +206,8 @@
   </section>
 
   <main id="main-content">
-    <div class="property-content container">
+    <div class="property-layout container">
+      <div class="property-layout__main">
       <!-- Property Gallery -->
       <section class="property-gallery" aria-label="Apartment photo gallery">
         <div class="property-gallery__main">
@@ -387,6 +401,8 @@
           </picture>
         </div>
       </section>
+      </div><!-- end property-layout__main -->
+      <aside class="property-layout__sidebar">
       <!-- BOOKING SECTION (inline) -->
       <section id="booking-section" class="booking-inline fade-in" aria-labelledby="booking-title">
         <div class="booking-inline__header">
@@ -463,7 +479,7 @@
             <div class="cross-sell-card__body"><div class="cross-sell-card__name">Family House 6 guests</div><div class="cross-sell-card__desc">Garden, beach by bike, Île d'Oléron</div><div class="cross-sell-card__meta"><span class="cross-sell-card__rating">★ 5.0</span><span>·</span><span>6 guests</span></div></div>
           </a>
         </div>
-      </div>
+      </aside>
     </div>
   </main>
 

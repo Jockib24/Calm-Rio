@@ -269,7 +269,14 @@
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
         <ul class="nav-list">
           <li><a href="#accueil" class="nav-link nav-link--active" aria-current="page">Home</a></li>
-          <li><a href="#nos-locations" class="nav-link">Our Rentals</a></li>
+          <li class="nav-item--has-dropdown">
+            <a href="#nos-locations" class="nav-link">Our Rentals</a>
+            <ul class="dropdown-menu">
+              <li><a href="royan-appartement.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Royan — Apartment</a></li>
+              <li><a href="saint-trojan-villa.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Villa</a></li>
+              <li><a href="saint-trojan-maison.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — House</a></li>
+            </ul>
+          </li>
           <li><a href="local-guide.html" class="nav-link">Local Guide</a></li>
           <li><a href="blog/" class="nav-link">Blog</a></li>
           <li><a href="about.html" class="nav-link">About</a></li>
@@ -300,7 +307,14 @@
     <nav aria-label="Mobile navigation">
       <ul class="mobile-nav__list">
         <li><a href="#accueil" class="mobile-nav__link">Home</a></li>
-        <li><a href="#nos-locations" class="mobile-nav__link">Our Rentals</a></li>
+        <li class="mobile-nav__item--has-children">
+          <a href="#nos-locations" class="mobile-nav__link">Our Rentals</a>
+          <ul class="mobile-nav__sublist">
+            <li><a href="royan-appartement.html" class="mobile-nav__sublink">Royan — Apartment</a></li>
+            <li><a href="saint-trojan-villa.html" class="mobile-nav__sublink">Saint-Trojan — Villa</a></li>
+            <li><a href="saint-trojan-maison.html" class="mobile-nav__sublink">Saint-Trojan — House</a></li>
+          </ul>
+        </li>
         <li><a href="local-guide.html" class="mobile-nav__link">Local Guide</a></li>
         <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
         <li><a href="about.html" class="mobile-nav__link">About</a></li>
