@@ -6,7 +6,7 @@
 // Property content — single column, clean flow
 // ------------------------------------------------------------
 .property-content {
-  max-width: 720px;
+  max-width: 960px;
   margin: 0 auto;
   padding-top: var(--space-6);
   padding-bottom: var(--space-6);
@@ -97,45 +97,6 @@
     @media (prefers-reduced-motion: reduce) {
       transition: none;
     }
-  }
-}
-
-.property-gallery__more {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  padding: var(--space-2) var(--space-4);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  font-size: var(--small-size);
-  font-weight: var(--weight-medium);
-  color: var(--color-text);
-  cursor: pointer;
-  transition: all var(--transition-fast);
-  margin-top: var(--space-2);
-
-  &:hover {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-  }
-
-  svg {
-    width: 16px;
-    height: 16px;
-  }
-
-  @media (min-width: 640px) {
-    position: absolute;
-    bottom: var(--space-3);
-    right: var(--space-3);
-    margin-top: 0;
-    z-index: 2;
-    box-shadow: var(--shadow-sm);
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    transition: none;
   }
 }
 
