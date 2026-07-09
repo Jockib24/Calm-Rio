@@ -1,0 +1,14 @@
+name = "calmrio-email"
+main = "email-worker.js"
+compatibility_date = "2025-07-01"
+
+# These are defaults — override with wrangler secret for sensitive values
+[vars]
+BREVO_SENDER_EMAIL = "noreply@calmrio.com"
+BREVO_SENDER_NAME = "CalmRio"
+NOTIFICATION_EMAIL = "contact@calmrio.com"
+NEWSLETTER_LIST_ID = "1"
+ALLOWED_ORIGIN = "https://jockib24.github.io"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }

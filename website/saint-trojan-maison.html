@@ -81,7 +81,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"></noscript>
 
   <!-- Styles -->
 
@@ -606,7 +606,7 @@
           <h2 class="booking-inline__title" id="booking-title">Réserver cette maison</h2>
           <p class="booking-inline__subtitle">Réservation directe — meilleur tarif garanti</p>
         </div>
-        <form class="booking-inline__form" novalidate>
+        <form class="booking-inline__form" novalidate data-email-form="booking">
           <div class="form-row">
             <div>
               <label for="checkin" class="booking-label">Arrivée</label>
@@ -629,6 +629,7 @@
             </select>
           </div>
           <div class="booking-inline__actions">
+            <div class="form-feedback" aria-live="polite"></div>
             <button type="submit" class="btn btn--primary btn--full btn--lg">Réserver maintenant</button>
             <a href="https://www.airbnb.fr/rooms/1431741688356720747" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--full btn--md booking-airbnb-btn">Réserver sur Airbnb</a>
           </div>

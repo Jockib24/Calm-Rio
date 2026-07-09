@@ -175,6 +175,7 @@ function showFieldError(field, errorMessage) {
     const wrapper = field.parentElement;
     if (!wrapper) return;
 
+    const errorId = field.id ? `${field.id}-error` : `field-error-${Math.random().toString(36).slice(2, 8)}`;
     let errorEl = wrapper.querySelector('.form-error');
     if (!errorEl) {
         errorEl = document.createElement('span');
@@ -182,17 +183,21 @@ function showFieldError(field, errorMessage) {
         errorEl.setAttribute('role', 'alert');
         wrapper.appendChild(errorEl);
     }
+    // Ensure the error element has a stable ID for aria-describedby
+    errorEl.id = errorId;
 
     if (errorMessage) {
         field.classList.add(CLASSES.error);
         field.classList.remove(CLASSES.valid);
         field.setAttribute('aria-invalid', 'true');
+        field.setAttribute('aria-describedby', errorId);
         errorEl.textContent = errorMessage;
         errorEl.hidden = false;
     } else {
         field.classList.remove(CLASSES.error);
         field.classList.add(CLASSES.valid);
         field.setAttribute('aria-invalid', 'false');
+        field.removeAttribute('aria-describedby');
         errorEl.textContent = '';
         errorEl.hidden = true;
     }

@@ -53,13 +53,18 @@
   <meta name="msapplication-TileColor" content="#1A2B3C">
 
   <!-- Preconnect to external origins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://a0.muscache.com">
   <link rel="preconnect" href="https://images.unsplash.com">
 
-  <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap">
+  <!-- DNS prefetch for analytics -->
+  <link rel="dns-prefetch" href="https://plausible.io">
+
+  <!-- Google Fonts — async loading (non-render-blocking) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"></noscript>
+  <!-- Fallback: set font-display:swap is already in the URL -->
 
   <!-- Stylesheet -->
 
@@ -844,11 +849,11 @@
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
           </button>
           <div class="testimonials-dots d-flex gap-2" id="testimonials-dots" aria-label="Indicateur de position">
-            <button class="testimonials-dot is-active rounded-full" style="width:10px;height:10px;border:none;background:var(--color-primary);cursor:pointer;padding:0;" aria-label="Témoignage 1 sur 5" aria-current="true"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 2 sur 5"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 3 sur 5"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 4 sur 5"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 5 sur 5"></button>
+            <button class="testimonials-dot is-active rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-primary);cursor:pointer;padding:0;" aria-label="Témoignage 1 sur 5" aria-current="true"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 2 sur 5"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 3 sur 5"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 4 sur 5"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 5 sur 5"></button>
           </div>
           <button class="btn btn--icon btn--secondary testimonial-next" aria-label="Témoignage suivant" id="testimonial-next">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
@@ -1025,7 +1030,7 @@
           <p class="section__subtitle">Recevez nos inspirations saisonnières, nos conseils de voyage et nos offres exclusives directement dans votre boîte mail.</p>
         </div>
 
-        <form class="newsletter-form" id="newsletter-form" aria-label="Inscription à la newsletter" data-track-form="newsletter">
+        <form class="newsletter-form" id="newsletter-form" aria-label="Inscription à la newsletter" data-track-form="newsletter" data-email-form="newsletter">
           <label for="newsletter-email" class="sr-only">Votre adresse e-mail</label>
           <input
             type="email"
@@ -1036,6 +1041,7 @@
             aria-required="true"
             autocomplete="email"
           >
+          <div class="form-feedback" aria-live="polite"></div>
           <button type="submit" class="btn btn--primary btn--lg">Je m&rsquo;inscris</button>
         </form>
 

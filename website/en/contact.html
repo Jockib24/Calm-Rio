@@ -25,13 +25,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://a0.muscache.com">
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"></noscript>
 
 
 
   <link rel="icon" type="image/svg+xml" href="/Calm-Rio/favicon.svg">
   <link rel="manifest" href="/Calm-Rio/site.webmanifest">
   <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <link rel="dns-prefetch" href="https://plausible.io">
   <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 </head>
 <body>
@@ -96,7 +97,7 @@
             <h2 class="contact-form__title" id="contact-form-title">Send us a message</h2>
             <p class="contact-form__subtitle">We respond within 1 hour during the day, 7 days a week.</p>
 
-            <form novalidate data-validate data-track-form="contact">
+            <form novalidate data-validate data-track-form="contact" data-email-form="contact">
               <div class="form-row">
                 <div class="form-group">
                   <label for="contact-name" class="form-label form-label--required">Full Name</label>
@@ -127,7 +128,7 @@
                 </div>
                 <div class="mb-4">
                 <label for="contact-property" class="d-block text-sm fw-semibold mb-2 text-heading">I'm interested in</label>
-                <select id="contact-property" name="property" class="w-full rounded-md font-body text-base text-heading bg-surface">
+                <select id="contact-property" name="property" class="form-select">
                   <option value="">Select a property</option>
                   <option value="royan-appartement">Royan Apartment — 4 guests, 100m from the beach</option>
                   <option value="saint-trojan-villa">Saint-Trojan Villa — 6 guests, enclosed garden</option>
@@ -145,6 +146,8 @@
                   <span>I agree that my data will be processed in accordance with the <a href="politique-de-confidentialite.html">Privacy Policy</a></span>
                 </label>
               </div>
+              <div class="form-feedback" aria-live="polite"></div>
+
               <button type="submit" class="btn btn--primary btn--lg form-submit">Send Message</button>
               <p class="text-13 text-muted text-center mt-3">
                 ⏱️ We commit to responding within <strong>2 hours</strong> during the day

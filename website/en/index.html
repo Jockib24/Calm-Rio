@@ -59,7 +59,7 @@
   <link rel="preconnect" href="https://images.unsplash.com">
 
   <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"></noscript>
 
   <!-- Stylesheet -->
 
@@ -245,6 +245,7 @@
   }
   </script>
   <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <link rel="dns-prefetch" href="https://plausible.io">
   <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 </head>
 <body class="has-sticky-bar">
@@ -692,11 +693,11 @@
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
           </button>
           <div class="testimonials-dots d-flex gap-2" id="testimonials-dots" aria-label="Position indicator">
-            <button class="testimonials-dot is-active rounded-full" style="width:10px;height:10px;border:none;background:var(--color-primary);cursor:pointer;padding:0;" aria-label="Testimonial 1 of 5" aria-current="true"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 2 of 5"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 3 of 5"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 4 of 5"></button>
-            <button class="testimonials-dot rounded-full" style="width:10px;height:10px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 5 of 5"></button>
+            <button class="testimonials-dot is-active rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-primary);cursor:pointer;padding:0;" aria-label="Testimonial 1 of 5" aria-current="true"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 2 of 5"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 3 of 5"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 4 of 5"></button>
+            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Testimonial 5 of 5"></button>
           </div>
           <button class="btn btn--icon btn--secondary testimonial-next" aria-label="Next testimonial" id="testimonial-next">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
@@ -873,7 +874,7 @@
           <p class="section__subtitle">Receive seasonal inspirations, travel tips, and exclusive offers directly to your inbox.</p>
         </div>
 
-        <form class="newsletter-form" id="newsletter-form" aria-label="Newsletter signup" data-track-form="newsletter">
+        <form class="newsletter-form" id="newsletter-form" aria-label="Newsletter signup" data-track-form="newsletter" data-email-form="newsletter">
           <label for="newsletter-email" class="sr-only">Your email address</label>
           <input
             type="email"
@@ -884,6 +885,7 @@
             aria-required="true"
             autocomplete="email"
           >
+          <div class="form-feedback" aria-live="polite"></div>
           <button type="submit" class="btn btn--primary btn--lg">Subscribe</button>
         </form>
 

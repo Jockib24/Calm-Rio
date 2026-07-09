@@ -21,7 +21,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://a0.muscache.com">
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"></noscript>
 
 
 
@@ -53,6 +53,7 @@
   }
   </script>
   <!-- Plausible Analytics (privacy-first, no cookies) -->
+  <link rel="dns-prefetch" href="https://plausible.io">
   <script defer data-domain="calm-rio.com" src="https://plausible.io/js/script.tagged-events.js"></script>
 </head>
 <body>
@@ -124,7 +125,7 @@
     <!-- ============================================================ -->
     <section class="section" aria-label="Rechercher dans la FAQ">
       <div class="container">
-        <div class="faq-search">
+        <div class="faq-search" role="search" aria-label="Rechercher dans la FAQ">
           <svg class="faq-search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>

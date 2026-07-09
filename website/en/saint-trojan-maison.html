@@ -66,7 +66,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"></noscript>
 
 
   <link rel="icon" type="image/svg+xml" href="/Calm-Rio/favicon.svg">
@@ -212,7 +212,7 @@
           <h2 class="booking-inline__title" id="booking-title">Book This Property</h2>
           <p class="booking-inline__subtitle">Direct booking — best rate guaranteed</p>
         </div>
-        <form class="booking-inline__form" novalidate>
+        <form class="booking-inline__form" novalidate data-email-form="booking">
           <div class="form-row">
             <div>
               <label for="checkin" class="booking-label">Check-in</label>
@@ -235,6 +235,7 @@
             </select>
           </div>
           <div class="booking-inline__actions">
+            <div class="form-feedback" aria-live="polite"></div>
             <button type="submit" class="btn btn--primary btn--full btn--lg">Book Now</button>
           </div>
         </form>

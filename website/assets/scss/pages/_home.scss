@@ -32,40 +32,7 @@
 // Properties preview section
 // ------------------------------------------------------------
 .properties-preview {
-  .properties-preview__header {
-    text-align: center;
-    margin-bottom: var(--space-8);
-
-    .section__label {
-      display: inline-flex;
-      align-items: center;
-      gap: var(--space-2);
-      font-size: 0.8125rem;
-      font-weight: var(--weight-semibold);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--color-accent);
-      margin-bottom: var(--space-3);
-    }
-
-    .section__title {
-      font-family: var(--font-heading);
-      font-size: var(--h2-size);
-      font-weight: var(--h2-weight);
-      line-height: var(--h2-line-height);
-      color: var(--color-text);
-      margin-bottom: var(--space-4);
-    }
-
-    .section__description {
-      font-size: var(--lead-size);
-      line-height: var(--lead-line-height);
-      color: var(--color-text-secondary);
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
+  // Uses shared .section__header from _sections.scss
 
   .properties-grid {
     display: grid;
@@ -201,31 +168,7 @@
 .testimonials-section {
   background-color: var(--color-bg-alt);
 
-  .testimonials-section__header {
-    text-align: center;
-    margin-bottom: var(--space-8);
-
-    .section__label {
-      display: inline-flex;
-      align-items: center;
-      gap: var(--space-2);
-      font-size: 0.8125rem;
-      font-weight: var(--weight-semibold);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--color-accent);
-      margin-bottom: var(--space-3);
-    }
-
-    .section__title {
-      font-family: var(--font-heading);
-      font-size: var(--h2-size);
-      font-weight: var(--h2-weight);
-      line-height: var(--h2-line-height);
-      color: var(--color-text);
-      margin-bottom: var(--space-4);
-    }
-  }
+  // Uses shared .section__header from _sections.scss
 }
 
 .testimonials-slider-wrapper {
