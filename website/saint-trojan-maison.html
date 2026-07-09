@@ -112,7 +112,14 @@
       <nav class="main-nav" aria-label="Navigation principale">
         <ul class="nav-list">
           <li><a href="/Calm-Rio/" class="nav-link">Accueil</a></li>
-          <li><a href="#properties" class="nav-link">Nos Locations</a></li>
+          <li class="nav-item--has-dropdown">
+            <a href="/Calm-Rio/#nos-locations" class="nav-link">Nos Locations</a>
+            <ul class="dropdown-menu">
+              <li><a href="/Calm-Rio/royan-appartement.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Royan — Appartement</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-villa.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Villa</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-maison.html" class="dropdown-menu__link dropdown-menu__link--active"><span class="dropdown-menu__dot"></span>Saint-Trojan — Maison</a></li>
+            </ul>
+          </li>
           <li><a href="/Calm-Rio/local-guide.html" class="nav-link">Guide Local</a></li>
           <li><a href="blog/" class="nav-link">Blog</a></li>
           <li><a href="/Calm-Rio/about.html" class="nav-link">À Propos</a></li>
@@ -134,12 +141,16 @@
   <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile">
     <ul class="mobile-nav__list">
       <li><a href="/Calm-Rio/" class="mobile-nav__link">Accueil</a></li>
-      <li><a href="#properties" class="mobile-nav__link">Nos Locations</a></li>
+      <li class="mobile-nav__item--has-children">
+        <a href="/Calm-Rio/#nos-locations" class="mobile-nav__link">Nos Locations</a>
+        <ul class="mobile-nav__sublist">
+          <li><a href="/Calm-Rio/royan-appartement.html" class="mobile-nav__sublink">Royan — Appartement</a></li>
+          <li><a href="/Calm-Rio/saint-trojan-villa.html" class="mobile-nav__sublink">Saint-Trojan — Villa</a></li>
+          <li><a href="/Calm-Rio/saint-trojan-maison.html" class="mobile-nav__sublink">Saint-Trojan — Maison</a></li>
+        </ul>
+      </li>
       <li><a href="/Calm-Rio/local-guide.html" class="mobile-nav__link">Guide Local</a></li>
       <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
-      <li><a href="/Calm-Rio/royan-appartement.html" class="mobile-nav__link">Royan — Appartement</a></li>
-      <li><a href="/Calm-Rio/saint-trojan-villa.html" class="mobile-nav__link">Saint-Trojan — Villa</a></li>
-      <li><a href="/Calm-Rio/saint-trojan-maison.html" class="mobile-nav__link">Saint-Trojan — Maison</a></li>
       <li><a href="/Calm-Rio/about.html" class="mobile-nav__link">À Propos</a></li>
       <li><a href="/Calm-Rio/contact.html" class="mobile-nav__link">Contact</a></li>
     </ul>
@@ -256,20 +267,13 @@
         </div>
       </section>
 
-      <!-- Property Content — Tabbed Panels -->
-      <div class="tabs" data-tabs>
+      <div class="property-layout">
+        <div class="property-layout__main">
 
-        <!-- Tab Navigation -->
-        <div role="tablist" class="tabs__nav fade-in" aria-label="Contenu de la maison">
-          <button class="tab__button tabs__btn is-active" role="tab" data-hash="#description">Description</button>
-          <button class="tab__button tabs__btn" role="tab" data-hash="#equipements">Équipements</button>
-          <button class="tab__button tabs__btn" role="tab" data-hash="#avis">Avis</button>
-          <button class="tab__button tabs__btn" role="tab" data-hash="#emplacement">Emplacement</button>
-        </div>
+        <hr class="section-divider">
 
-        <!-- Tab 1: Description -->
-        <div class="tab__panel tabs__panel is-active">
-          <section class="property-description" aria-labelledby="desc-title">
+        <!-- Description -->
+        <section class="property-description" aria-labelledby="desc-title">
             <h2 class="property-description__title" id="desc-title">À propos de cette maison</h2>
             <p>Maison individuelle pour 6 personnes comprenant un séjour / salle à manger lumineux, trois chambres confortables — deux avec lit de 160x200cm et une avec deux lits de 90x200cm — une cuisine fonctionnelle, une salle de bains, un WC indépendant, une terrasse et un jardin arboré.</p>
             <p>Idéalement située à proximité de la piste cyclable qui dessert la plage et le centre du village de Saint-Trojan-les-Bains. L'île d'Oléron offre des kilomètres de pistes cyclables sécurisées, parfaites pour les balades en famille.</p>
@@ -278,11 +282,11 @@
             <h3>Idéal pour les familles</h3>
             <p>Cette maison est pensée pour les familles. Le jardin arboré offre un espace sécurisé pour les enfants. Pour les familles nombreuses, il est possible de louer également la maison identique située en face, portant la capacité totale à 12 personnes (selon disponibilité).</p>
           </section>
-        </div>
 
-        <!-- Tab 2: Équipements -->
-        <div class="tab__panel tabs__panel">
-          <section class="property-highlights stagger-children" aria-label="Points forts du logement">
+        <hr class="section-divider">
+
+        <!-- Points forts -->
+        <section class="property-highlights stagger-children" aria-label="Points forts du logement">
             <div class="highlight-item">
               <div class="highlight-item__value">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h1M12 2v1M20 12h1M12 20v1"/><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>
@@ -424,11 +428,11 @@
               </div>
             </div>
           </section>
-        </div>
 
-        <!-- Tab 3: Avis -->
-        <div class="tab__panel tabs__panel">
-          <section class="property-reviews fade-in" aria-labelledby="reviews-title">
+        <hr class="section-divider">
+
+        <!-- Avis voyageurs -->
+        <section class="property-reviews fade-in" aria-labelledby="reviews-title">
             <h2 class="property-reviews__title" id="reviews-title">Avis des voyageurs</h2>
             <p class="section__subtitle text-sm mb-5">Ce que nos voyageurs en disent</p>
 
@@ -472,11 +476,11 @@
 
             <p class="text-muted text-sm text-center mt-5">Vous avez séjourné ici ? <a href="/Calm-Rio/contact.html">Partagez votre expérience</a></p>
           </section>
-        </div>
 
-        <!-- Tab 4: Emplacement -->
-        <div class="tab__panel tabs__panel">
-          <section class="property-location" aria-labelledby="location-title">
+        <hr class="section-divider">
+
+        <!-- Emplacement -->
+        <section class="property-location" aria-labelledby="location-title">
             <h2 class="property-location__title" id="location-title">Emplacement</h2>
             <div class="nearby-points">
               <div class="nearby-point">
@@ -544,114 +548,99 @@
               </picture>
             </div>
           </section>
-        </div>
 
-      </div><!-- /.tabs -->
+          <!-- Visual Local Guide — Welcome Beyond inspired carousel -->
+          <section class="local-guide-carousel" aria-labelledby="local-guide-heading">
+            <h2 class="property-location__title" id="local-guide-heading">Autour de la maison</h2>
+            <p class="section__subtitle text-sm mb-5">Les coups de cœur d'Agnès à proximité</p>
+            <div class="local-guide-carousel__track">
+              <div class="local-guide-carousel__card">
+                <img src="https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?w=400&q=80&fm=webp" alt="Plage de Gatseau" loading="lazy" width="400" height="300">
+                <div class="local-guide-carousel__body">
+                  <h3>Plage de Gatseau</h3>
+                  <p>À 5-10 min à vélo — La plus belle plage de l'île. Sable fin, dunes et forêt.</p>
+                </div>
+              </div>
+              <div class="local-guide-carousel__card">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80&fm=webp" alt="Marché de Saint-Trojan" loading="lazy" width="400" height="300">
+                <div class="local-guide-carousel__body">
+                  <h3>Marché de Saint-Trojan</h3>
+                  <p>Produits frais, huîtres d'Oléron, fromages de chèvre — le marché couvert est une institution.</p>
+                </div>
+              </div>
+              <div class="local-guide-carousel__card">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80&fm=webp" alt="Restaurant Le Port" loading="lazy" width="400" height="300">
+                <div class="local-guide-carousel__body">
+                  <h3>Restaurant Le Port</h3>
+                  <p>Poisson frais, fruits de mer et vue sur le port ostréicole. Réservation conseillée.</p>
+                </div>
+              </div>
+              <div class="local-guide-carousel__card">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&q=80&fm=webp" alt="Forêt domaniale" loading="lazy" width="400" height="300">
+                <div class="local-guide-carousel__body">
+                  <h3>Forêt domaniale</h3>
+                  <p>Balades ombragées, pistes cyclables, cache-cache en famille — la nature à deux pas.</p>
+                </div>
+              </div>
+            </div>
+            <a href="/Calm-Rio/local-guide.html" class="btn btn--secondary btn--md mt-4">Explorer le guide complet →</a>
+          </section>
 
-      <!-- Visual Local Guide — Welcome Beyond inspired carousel -->
-      <section class="local-guide-carousel" aria-labelledby="local-guide-heading">
-        <h2 class="property-location__title" id="local-guide-heading">Autour de la maison</h2>
-        <p class="section__subtitle text-sm mb-5">Les coups de cœur d'Agnès à proximité</p>
-        <div class="local-guide-carousel__track">
-          <div class="local-guide-carousel__card">
-            <picture>
-              <source srcset="/Calm-Rio/assets/images/guide/gatseau-beach.avif" type="image/avif">
-              <source srcset="/Calm-Rio/assets/images/guide/gatseau-beach.webp" type="image/webp">
-              <img src="/Calm-Rio/assets/images/guide/gatseau-beach.jpg" alt="Plage de Gatseau" loading="lazy" width="400" height="300">
-            </picture>
-            <div class="local-guide-carousel__body">
-              <h3>Plage de Gatseau</h3>
-              <p>À 5-10 min à vélo — La plus belle plage de l'île. Sable fin, dunes et forêt.</p>
-            </div>
-          </div>
-          <div class="local-guide-carousel__card">
-            <picture>
-              <source srcset="/Calm-Rio/assets/images/guide/saint-trojan-market.avif" type="image/avif">
-              <source srcset="/Calm-Rio/assets/images/guide/saint-trojan-market.webp" type="image/webp">
-              <img src="/Calm-Rio/assets/images/guide/saint-trojan-market.jpg" alt="Marché de Saint-Trojan" loading="lazy" width="400" height="300">
-            </picture>
-            <div class="local-guide-carousel__body">
-              <h3>Marché de Saint-Trojan</h3>
-              <p>Produits frais, huîtres d'Oléron, fromages de chèvre — le marché couvert est une institution.</p>
-            </div>
-          </div>
-          <div class="local-guide-carousel__card">
-            <picture>
-              <source srcset="/Calm-Rio/assets/images/guide/gatseau-beach.avif" type="image/avif">
-              <source srcset="/Calm-Rio/assets/images/guide/gatseau-beach.webp" type="image/webp">
-              <img src="/Calm-Rio/assets/images/guide/gatseau-beach.jpg" alt="Restaurant Le Port" loading="lazy" width="400" height="300">
-            </picture>
-            <div class="local-guide-carousel__body">
-              <h3>Restaurant Le Port</h3>
-              <p>Poisson frais, fruits de mer et vue sur le port ostréicole. Réservation conseillée.</p>
-            </div>
-          </div>
-          <div class="local-guide-carousel__card">
-            <picture>
-              <source srcset="/Calm-Rio/assets/images/guide/saint-trojan-forest.avif" type="image/avif">
-              <source srcset="/Calm-Rio/assets/images/guide/saint-trojan-forest.webp" type="image/webp">
-              <img src="/Calm-Rio/assets/images/guide/saint-trojan-forest.jpg" alt="Forêt domaniale" loading="lazy" width="400" height="300">
-            </picture>
-            <div class="local-guide-carousel__body">
-              <h3>Forêt domaniale</h3>
-              <p>Balades ombragées, pistes cyclables, cache-cache en famille — la nature à deux pas.</p>
-            </div>
-          </div>
-        </div>
-        <a href="/Calm-Rio/local-guide.html" class="btn btn--secondary btn--md mt-4">Explorer le guide complet →</a>
-      </section>
-      <!-- BOOKING SECTION (inline) -->
-      <section id="booking-section" class="booking-inline fade-in" aria-labelledby="booking-title">
-        <div class="booking-inline__header">
-          <h2 class="booking-inline__title" id="booking-title">Réserver cette maison</h2>
+</div><!-- /.property-layout__main -->
+
+        <aside class="property-layout__sidebar">
+
+          <!-- BOOKING SECTION (sidebar) -->
+          <section id="booking-section" class="booking-inline fade-in" aria-labelledby="booking-title">
+          <div class="booking-inline__header">
+            <h2 class="booking-inline__title" id="booking-title">Réserver cette maison</h2>
           <p class="booking-inline__subtitle">Réservation directe — meilleur tarif garanti</p>
-        </div>
-        <form class="booking-inline__form" novalidate data-email-form="booking">
+          </div>
+          <form class="booking-inline__form" novalidate>
           <div class="form-row">
-            <div>
-              <label for="checkin" class="booking-label">Arrivée</label>
+          <div>
+            <label for="checkin" class="booking-label">Arrivée</label>
               <input type="date" id="checkin" name="checkin" class="date-input" min="2026-07-07" required aria-required="true">
             </div>
-            <div>
-              <label for="checkout" class="booking-label">Départ</label>
-              <input type="date" id="checkout" name="checkout" class="date-input" min="2026-07-08" required aria-required="true">
-            </div>
+          <div>
+            <label for="checkout" class="booking-label">Départ</label>
+          <input type="date" id="checkout" name="checkout" class="date-input" min="2026-07-08" required aria-required="true">
+          </div>
           </div>
           <div>
             <label for="guests" class="booking-label">Voyageurs</label>
-            <select id="guests" name="guests" class="guest-select" required aria-required="true">
-              <option value="1">1 voyageur</option>
-              <option value="2">2 voyageurs</option>
-              <option value="3">3 voyageurs</option>
-              <option value="4">4 voyageurs</option>
+          <select id="guests" name="guests" class="guest-select" required aria-required="true">
+            <option value="1">1 voyageur</option>
+          <option value="2">2 voyageurs</option>
+          <option value="3">3 voyageurs</option>
+            <option value="4">4 voyageurs</option>
               <option value="5">5 voyageurs</option>
               <option value="6" selected>6 voyageurs</option>
-            </select>
+          </select>
           </div>
           <div class="booking-inline__actions">
-            <div class="form-feedback" aria-live="polite"></div>
-            <button type="submit" class="btn btn--primary btn--full btn--lg">Réserver maintenant</button>
-            <a href="https://www.airbnb.fr/rooms/1431741688356720747" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--full btn--md booking-airbnb-btn">Réserver sur Airbnb</a>
+<button type="submit" class="btn btn--primary btn--full btn--lg">Réserver maintenant</button>
+          <a href="https://www.airbnb.fr/rooms/1431741688356720747" target="_blank" rel="noopener noreferrer" class="btn btn--secondary btn--full btn--md booking-airbnb-btn">Réserver sur Airbnb</a>
           </div>
-        </form>
-        <div class="booking-perks">
-          <div class="booking-perks__list">
-            <div class="booking-perks__row"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Réservation directe</div>
-            <div class="booking-perks__row"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Meilleurs tarifs</div>
-            <div class="booking-perks__row"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Annulation flexible</div>
+          </form>
+          <div class="booking-perks">
+              <div class="booking-perks__list">
+                <div class="booking-perks__row"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Réservation directe</div>
+                <div class="booking-perks__row"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Meilleurs tarifs</div>
+              <div class="booking-perks__row"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--color-success)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Annulation flexible</div>
           </div>
-        </div>
-        <!-- Availability Calendar -->
-        <div id="availability-calendar" data-property-id="1431741688356720747" data-property-name="Maison familiale — Jardin & plage à vélo" class="mt-5"></div>
-      </section>
+          </div>
+          <!-- Availability Calendar -->
+          <div id="availability-calendar" data-property-id="1431741688356720747" data-property-name="Maison familiale — Jardin & plage à vélo" class="mt-5"></div>
+          </section>
 
-      <!-- CalmRio Promise -->
-      <div class="sidebar-promise">
-        <h3 class="sidebar-promise__title">
+          <!-- CalmRio Promise -->
+          <div class="sidebar-promise">
+          <h3 class="sidebar-promise__title">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
           Pourquoi réserver avec CalmRio ?
-        </h3>
-        <ul class="sidebar-promise__list">
+          </h3>
+          <ul class="sidebar-promise__list">
           <li class="sidebar-promise__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Vérifié sur place</strong> — Chaque villa est inspectée personnellement</span></li>
           <li class="sidebar-promise__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Meilleur prix</strong> — Moins cher que sur les plateformes</span></li>
           <li class="sidebar-promise__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Accueil personnalisé</strong> — Réponse sous 1h et conseils sur mesure</span></li>

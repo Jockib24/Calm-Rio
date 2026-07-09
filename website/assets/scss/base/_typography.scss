@@ -11,6 +11,20 @@
 // Headings (h1 – h6)
 // ------------------------------------------------------------
 
+.h0 {
+  font-family: var(--font-heading);
+  font-size: var(--h0-size);
+  font-weight: var(--h0-weight);
+  line-height: var(--h0-line-height);
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+  letter-spacing: var(--heading-letter-spacing);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  letter-spacing: var(--heading-letter-spacing);
+}
+
 h1,
 .h1 {
   font-family: var(--font-heading);

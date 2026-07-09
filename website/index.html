@@ -273,7 +273,14 @@
       <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
         <ul class="nav-list">
           <li><a href="#accueil" class="nav-link nav-link--active" aria-current="page">Accueil</a></li>
-          <li><a href="#nos-locations" class="nav-link">Nos Locations</a></li>
+          <li class="nav-item--has-dropdown">
+            <a href="#nos-locations" class="nav-link">Nos Locations</a>
+            <ul class="dropdown-menu">
+              <li><a href="/Calm-Rio/royan-appartement.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Royan — Appartement</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-villa.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Villa</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-maison.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Maison</a></li>
+            </ul>
+          </li>
           <li><a href="/Calm-Rio/local-guide.html" class="nav-link">Guide Local</a></li>
           <li><a href="blog/" class="nav-link">Blog</a></li>
           <li><a href="/Calm-Rio/about.html" class="nav-link">À Propos</a></li>
@@ -304,7 +311,14 @@
     <nav aria-label="Navigation mobile">
       <ul class="mobile-nav__list">
         <li><a href="#accueil" class="mobile-nav__link">Accueil</a></li>
-        <li><a href="#nos-locations" class="mobile-nav__link">Nos Locations</a></li>
+        <li class="mobile-nav__item--has-children">
+          <a href="#nos-locations" class="mobile-nav__link">Nos Locations</a>
+          <ul class="mobile-nav__sublist">
+            <li><a href="/Calm-Rio/royan-appartement.html" class="mobile-nav__sublink">Royan — Appartement</a></li>
+            <li><a href="/Calm-Rio/saint-trojan-villa.html" class="mobile-nav__sublink">Saint-Trojan — Villa</a></li>
+            <li><a href="/Calm-Rio/saint-trojan-maison.html" class="mobile-nav__sublink">Saint-Trojan — Maison</a></li>
+          </ul>
+        </li>
         <li><a href="/Calm-Rio/local-guide.html" class="mobile-nav__link">Guide Local</a></li>
         <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
         <li><a href="/Calm-Rio/about.html" class="mobile-nav__link">À Propos</a></li>

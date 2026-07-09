@@ -608,3 +608,26 @@
   font-weight: 700;
   font-family: var(--font-heading);
 }
+
+// ------------------------------------------------------------
+// Property Layout (Desktop 2-column)
+// ------------------------------------------------------------
+.property-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+  margin-top: var(--space-6);
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 2fr 1fr;
+    align-items: start; // Needed for sticky to work
+  }
+
+  &__sidebar {
+    @media (min-width: 1024px) {
+      position: sticky;
+      top: 100px; // Offset for header
+      z-index: 10;
+    }
+  }
+}

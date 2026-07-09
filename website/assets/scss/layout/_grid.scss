@@ -127,4 +127,54 @@
   .xl\:col-span-9 { grid-column: span 9; }
 }
 
+// ------------------------------------------------------------
+// Bento Grid (Editorial Image Gallery)
+// ------------------------------------------------------------
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
 
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 60vh;
+    min-height: 400px;
+    max-height: 600px;
+  }
+
+  &__hero {
+    @media (min-width: 768px) {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  }
+
+  &__item {
+    @media (min-width: 768px) {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+  }
+
+  &__item--wide {
+    @media (min-width: 768px) {
+      grid-column: span 2;
+      grid-row: span 1;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--transition-slow);
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

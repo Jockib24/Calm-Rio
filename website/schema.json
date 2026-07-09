@@ -3,10 +3,10 @@
   "@graph": [
     {
       "@type": "LodgingBusiness",
-      "@id": "https://calm-rio.com/royan-appartement.html",
+      "@id": "https://jockib24.github.io/Calm-Rio/royan-appartement.html",
       "name": "Appartement neuf bord de plage — Royan",
       "description": "Appartement neuf de 60m² avec terrasse de 20m², à 100m de la plage de la Grande Conche à Royan. 2 chambres, 4 personnes, parking, wifi, espace télétravail.",
-      "url": "https://calm-rio.com/royan-appartement.html",
+      "url": "https://jockib24.github.io/Calm-Rio/royan-appartement.html",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Royan",
@@ -32,10 +32,10 @@
     },
     {
       "@type": "LodgingBusiness",
-      "@id": "https://calm-rio.com/saint-trojan-villa.html",
+      "@id": "https://jockib24.github.io/Calm-Rio/saint-trojan-villa.html",
       "name": "Belle villa neuve de bord de mer pour 6 pers — Saint-Trojan-les-Bains",
       "description": "Villa neuve de 110m² à Saint-Trojan-les-Bains pour 6 personnes. 3 chambres, jardin clos, terrasses, plage à vélo, télétravail, animaux acceptés.",
-      "url": "https://calm-rio.com/saint-trojan-villa.html",
+      "url": "https://jockib24.github.io/Calm-Rio/saint-trojan-villa.html",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Saint-Trojan-les-Bains",
@@ -67,10 +67,10 @@
     },
     {
       "@type": "LodgingBusiness",
-      "@id": "https://calm-rio.com/saint-trojan-maison.html",
+      "@id": "https://jockib24.github.io/Calm-Rio/saint-trojan-maison.html",
       "name": "Maison individuelle 6 pers — Saint-Trojan-les-Bains",
       "description": "Maison individuelle pour 6 personnes à Saint-Trojan-les-Bains, île d'Oléron. 3 chambres, jardin, proche plage et pistes cyclables.",
-      "url": "https://calm-rio.com/saint-trojan-maison.html",
+      "url": "https://jockib24.github.io/Calm-Rio/saint-trojan-maison.html",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Saint-Trojan-les-Bains",
@@ -130,10 +130,10 @@
     },
     {
       "@type": "Organization",
-      "@id": "https://calm-rio.com/#organization",
+      "@id": "https://jockib24.github.io/Calm-Rio/#organization",
       "name": "CalmRio",
-      "url": "https://calm-rio.com",
-      "logo": "https://calm-rio.com/assets/icons/favicon.svg",
+      "url": "https://jockib24.github.io/Calm-Rio",
+      "logo": "https://jockib24.github.io/Calm-Rio/assets/icons/favicon.svg",
       "telephone": "+212 662-669887",
       "email": "contact@calm-rio.com",
       "address": {
@@ -143,11 +143,11 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://calm-rio.com/#website",
+      "@id": "https://jockib24.github.io/Calm-Rio/#website",
       "name": "CalmRio — Locations de vacances premium",
-      "url": "https://calm-rio.com",
+      "url": "https://jockib24.github.io/Calm-Rio",
       "inLanguage": "fr-FR",
-      "publisher": { "@id": "https://calm-rio.com/#organization" }
+      "publisher": { "@id": "https://jockib24.github.io/Calm-Rio/#organization" }
     }
   ]
 }

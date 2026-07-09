@@ -29,7 +29,7 @@
 
   --color-driftwood-100: #D4D0CC; // Light warm gray
   --color-driftwood-300: #B0AAA5; // Mid warm gray
-  --color-driftwood-500: #6C6662; // Medium warm gray (muted) — WCAG AA on sand-100
+--color-driftwood-500: #75706C; // Medium warm gray (muted, adjusted for contrast)
   --color-driftwood-700: #6B6560; // Dark warm gray (text-secondary)
   --color-driftwood-900: #2A2A2A; // Warm charcoal (text-primary)
 
@@ -80,10 +80,15 @@
   // ==========================================================
   --font-heading: 'Playfair Display', Georgia, serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  --heading-letter-spacing: -0.02em;
 
   // ==========================================================
   // 4. TYPOGRAPHY — Heading Sizes (clamp for responsive)
   // ==========================================================
+  --h0-size: clamp(3rem, 7vw, 5.5rem);
+  --h0-line-height: 1.05;
+  --h0-weight: 700;
+
   --h1-size: clamp(2.5rem, 5vw, 4rem);
   --h1-line-height: 1.1;
   --h1-weight: 700;

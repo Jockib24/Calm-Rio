@@ -142,10 +142,12 @@
   background-color: var(--color-secondary);
   color: var(--color-text);
   border-color: var(--color-secondary);
+  box-shadow: 0 4px 14px rgba(196, 154, 90, 0.3);
 
   &:hover {
     background-color: var(--color-secondary-light);
     border-color: var(--color-secondary-light);
+    box-shadow: 0 6px 20px rgba(196, 154, 90, 0.4);
   }
 
   &:active {

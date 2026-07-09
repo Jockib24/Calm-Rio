@@ -51,7 +51,14 @@
       <nav class="main-nav" aria-label="Navigation principale">
         <ul class="nav-list">
           <li><a href="index.html" class="nav-link nav__link">Accueil</a></li>
-          <li><a href="index.html#nos-locations" class="nav-link nav__link">Nos Locations</a></li>
+          <li class="nav-item--has-dropdown">
+            <a href="index.html#nos-locations" class="nav-link nav__link">Nos Locations</a>
+            <ul class="dropdown-menu">
+              <li><a href="/Calm-Rio/royan-appartement.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Royan — Appartement</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-villa.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Villa</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-maison.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Maison</a></li>
+            </ul>
+          </li>
           <li><a href="local-guide.html" class="nav-link nav__link nav-link--active" aria-current="page">Guide Local</a></li>
           <li><a href="blog/" class="nav-link nav__link">Blog</a></li>
           <li><a href="about.html" class="nav-link nav__link">À Propos</a></li>
@@ -73,7 +80,14 @@
   <div class="mobile-nav nav__mobile-menu" id="nav-mobile-menu" role="navigation" aria-label="Navigation mobile">
     <ul class="mobile-nav__list">
       <li><a href="index.html" class="mobile-nav__link">Accueil</a></li>
-      <li><a href="index.html#nos-locations" class="mobile-nav__link">Nos Locations</a></li>
+      <li class="mobile-nav__item--has-children">
+          <a href="index.html#nos-locations" class="mobile-nav__link">Nos Locations</a>
+          <ul class="mobile-nav__sublist">
+            <li><a href="/Calm-Rio/royan-appartement.html" class="mobile-nav__sublink">Royan — Appartement</a></li>
+            <li><a href="/Calm-Rio/saint-trojan-villa.html" class="mobile-nav__sublink">Saint-Trojan — Villa</a></li>
+            <li><a href="/Calm-Rio/saint-trojan-maison.html" class="mobile-nav__sublink">Saint-Trojan — Maison</a></li>
+          </ul>
+        </li>
       <li><a href="local-guide.html" class="mobile-nav__link">Guide Local</a></li>
       <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
       <li><a href="about.html" class="mobile-nav__link">À Propos</a></li>

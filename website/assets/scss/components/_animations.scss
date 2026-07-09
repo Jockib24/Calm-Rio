@@ -23,6 +23,26 @@
 }
 
 // ------------------------------------------------------------
+// Reveal on scroll (utility class for general elements)
+// ------------------------------------------------------------
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// ------------------------------------------------------------
 // Fade in from left
 // ------------------------------------------------------------
 .fade-in-left {

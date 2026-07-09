@@ -112,7 +112,14 @@
       <nav class="main-nav" aria-label="Navigation principale">
         <ul class="nav-list">
           <li><a href="/Calm-Rio/" class="nav-link">Accueil</a></li>
-          <li><a href="#properties" class="nav-link">Nos Locations</a></li>
+          <li class="nav-item--has-dropdown">
+            <a href="/Calm-Rio/#nos-locations" class="nav-link">Nos Locations</a>
+            <ul class="dropdown-menu">
+              <li><a href="/Calm-Rio/royan-appartement.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Royan — Appartement</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-villa.html" class="dropdown-menu__link dropdown-menu__link--active"><span class="dropdown-menu__dot"></span>Saint-Trojan — Villa</a></li>
+              <li><a href="/Calm-Rio/saint-trojan-maison.html" class="dropdown-menu__link"><span class="dropdown-menu__dot"></span>Saint-Trojan — Maison</a></li>
+            </ul>
+          </li>
           <li><a href="/Calm-Rio/local-guide.html" class="nav-link">Guide Local</a></li>
           <li><a href="blog/" class="nav-link">Blog</a></li>
           <li><a href="/Calm-Rio/about.html" class="nav-link">À Propos</a></li>
@@ -134,12 +141,16 @@
   <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile">
     <ul class="mobile-nav__list">
       <li><a href="/Calm-Rio/" class="mobile-nav__link">Accueil</a></li>
-      <li><a href="#properties" class="mobile-nav__link">Nos Locations</a></li>
+      <li class="mobile-nav__item--has-children">
+        <a href="/Calm-Rio/#nos-locations" class="mobile-nav__link">Nos Locations</a>
+        <ul class="mobile-nav__sublist">
+          <li><a href="/Calm-Rio/royan-appartement.html" class="mobile-nav__sublink">Royan — Appartement</a></li>
+          <li><a href="/Calm-Rio/saint-trojan-villa.html" class="mobile-nav__sublink">Saint-Trojan — Villa</a></li>
+          <li><a href="/Calm-Rio/saint-trojan-maison.html" class="mobile-nav__sublink">Saint-Trojan — Maison</a></li>
+        </ul>
+      </li>
       <li><a href="/Calm-Rio/local-guide.html" class="mobile-nav__link">Guide Local</a></li>
       <li><a href="blog/" class="mobile-nav__link">Blog</a></li>
-      <li><a href="/Calm-Rio/royan-appartement.html" class="mobile-nav__link">Royan — Appartement</a></li>
-      <li><a href="/Calm-Rio/saint-trojan-villa.html" class="mobile-nav__link">Saint-Trojan — Villa</a></li>
-      <li><a href="/Calm-Rio/saint-trojan-maison.html" class="mobile-nav__link">Saint-Trojan — Maison</a></li>
       <li><a href="/Calm-Rio/about.html" class="mobile-nav__link">À Propos</a></li>
       <li><a href="/Calm-Rio/contact.html" class="mobile-nav__link">Contact</a></li>
     </ul>
@@ -230,6 +241,9 @@
         <cite class="owner-quote__author">Agnès, hôte CalmRio</cite>
       </div>
 
+      <div class="property-layout">
+        <div class="property-layout__main">
+
       <!-- Property Intro -->
       <section class="property-intro fade-in" aria-label="Aperçu du logement">
         <div class="intro-item">
@@ -260,22 +274,10 @@
         </div>
       </section>
 
-      <!-- ============================================================ -->
-      <!-- TABBED CONTENT PANELS                                          -->
-      <!-- ============================================================ -->
-      <div class="tabs" data-tabs>
+      <hr class="section-divider">
 
-        <!-- Tab Navigation -->
-        <div role="tablist" class="tabs__nav fade-in" aria-label="Contenu de la villa">
-          <button class="tab__button tabs__btn is-active" role="tab" data-hash="#description">Description</button>
-          <button class="tab__button tabs__btn" role="tab" data-hash="#equipements">Équipements</button>
-          <button class="tab__button tabs__btn" role="tab" data-hash="#avis">Avis</button>
-          <button class="tab__button tabs__btn" role="tab" data-hash="#emplacement">Emplacement</button>
-        </div>
-
-        <!-- Panel 1: Description -->
-        <div class="tab__panel tabs__panel is-active">
-          <section class="property-description" aria-labelledby="desc-title">
+        <!-- Description -->
+        <section class="property-description" aria-labelledby="desc-title">
             <h2 class="property-description__title" id="desc-title">À propos de cette villa</h2>
             <p>Maison neuve au style Oléronais, alliant le style insulaire charentais et contemporain, très lumineuse, avec de beaux volumes, idéalement située entre mer et forêt. 110m² sur un jardin arboré et clos, avec terrasse en bois de 50m² plein sud — salon de jardin, parasol — et terrasse couverte de 17m² avec table en teck. Barbecue à disposition.</p>
             <p>Vaste salon / salle à manger avec grande hauteur sous plafond, baies vitrées donnant sur les terrasses. Cuisine ouverte équipée : lave-vaisselle, réfrigérateur, four, micro-ondes, plaque à induction. Cellier avec lave-linge, sèche-linge et congélateur.</p>
@@ -288,10 +290,10 @@
             <h3>Véhicule électrique</h3>
             <p>Une prise de recharge pour véhicule électrique ou hybride est disponible sur place. Un supplément basé sur le relevé du compteur est demandé en fin de séjour.</p>
           </section>
-        </div>
 
-        <!-- Panel 2: Équipements (Highlights + Amenities) -->
-        <div class="tab__panel tabs__panel">
+        <hr class="section-divider">
+
+        <!-- Points forts & Équipements -->
           <section class="property-highlights stagger-children" aria-label="Points forts du logement">
             <div class="highlight-item">
               <div class="highlight-item__value">
@@ -434,10 +436,10 @@
               </div>
             </div>
           </section>
-        </div>
 
-        <!-- Panel 3: Avis -->
-        <div class="tab__panel tabs__panel">
+        <hr class="section-divider">
+
+        <!-- Avis voyageurs -->
           <section class="property-reviews fade-in" aria-labelledby="reviews-title">
             <h2 class="property-reviews__title" id="reviews-title">Avis des voyageurs</h2>
             <p class="section__subtitle text-sm mb-5">Ce que nos voyageurs en disent</p>
@@ -566,10 +568,10 @@
               </div>
             </div>
           </section>
-        </div>
 
-        <!-- Panel 4: Emplacement -->
-        <div class="tab__panel tabs__panel">
+        <hr class="section-divider">
+
+        <!-- Emplacement -->
           <section class="property-location" aria-labelledby="location-title">
             <h2 class="property-location__title" id="location-title">Emplacement</h2>
             <div class="nearby-points">
@@ -638,9 +640,7 @@
               </picture>
             </div>
           </section>
-        </div>
-
-      </div><!-- /.tabs -->
+        
 
       <!-- Visual Local Guide — Welcome Beyond inspired carousel -->
       <section class="local-guide-carousel" aria-labelledby="local-guide-heading">
@@ -694,6 +694,10 @@
         </div>
         <a href="/Calm-Rio/local-guide.html" class="btn btn--secondary btn--md mt-4">Explorer le guide complet →</a>
       </section>
+
+        </div>
+        <aside class="property-layout__sidebar">
+
       <!-- BOOKING SECTION (inline) -->
       <section id="booking-section" class="booking-inline fade-in" aria-labelledby="booking-title">
         <div class="booking-inline__header">
@@ -751,6 +755,9 @@
           <li class="sidebar-promise__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Accueil personnalisé</strong> — Réponse sous 1h et conseils sur mesure</span></li>
           <li class="sidebar-promise__item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" class="sidebar-promise__icon" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Annulation flexible</strong> — Des conditions adaptées à vos besoins</span></li>
         </ul>
+      </div>
+
+        </aside>
       </div>
 
       <!-- Cross-sell -->
