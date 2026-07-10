@@ -50,10 +50,6 @@
     &:hover {
       transform: translateY(-4px);
       box-shadow: var(--shadow-lg);
-
-      .category-card__image img {
-        transform: scale(1.08);
-      }
     }
 
     &:focus-visible {
@@ -63,10 +59,6 @@
 
     @media (prefers-reduced-motion: reduce) {
       transition: none;
-
-      .category-card__image img {
-        transition: none;
-      }
     }
   }
 
@@ -75,11 +67,21 @@
     inset: 0;
     z-index: 0;
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform var(--transition-slow);
+    // Gradient backgrounds per category theme
+    &--beach {
+      background: linear-gradient(135deg, #1a4a5c 0%, #2d7a8a 40%, #3a9db5 100%);
+    }
+
+    &--forest {
+      background: linear-gradient(135deg, #1a3c2e 0%, #2d6b4f 40%, #4a8c6e 100%);
+    }
+
+    &--workspace {
+      background: linear-gradient(135deg, #2c2c3a 0%, #4a4a5c 40%, #6b6b80 100%);
+    }
+
+    &--family {
+      background: linear-gradient(135deg, #5c3a1a 0%, #8c5a2d 40%, #c98a4a 100%);
     }
 
     &::after {

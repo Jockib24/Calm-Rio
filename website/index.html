@@ -380,11 +380,6 @@
           </div>
         </div>
 
-        <!-- Scroll indicator — click to scroll to next section -->
-        <a href="#category-heading" class="hero__scroll-indicator" aria-label="Découvrir la suite">
-          <span>Découvrir</span>
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 13l5 5 5-5"/><path d="M7 6l5 5 5-5"/></svg>
-        </a>
       </div>
 
       <!-- Trust badges row below hero -->
@@ -421,13 +416,7 @@
 
         <div class="category-grid__grid">
           <a href="#properties" class="category-card">
-            <div class="category-card__image">
-              <picture>
-                <source srcset="/Calm-Rio/assets/images/guide/grande-conche-beach.avif" type="image/avif">
-                <source srcset="/Calm-Rio/assets/images/guide/grande-conche-beach.webp" type="image/webp">
-                <img src="/Calm-Rio/assets/images/guide/grande-conche-beach.jpg" alt="" loading="lazy" decoding="async" width="600" height="400">
-              </picture>
-            </div>
+            <div class="category-card__image category-card__image--beach"></div>
             <div class="category-card__content">
               <div class="category-card__count">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M12 2v2m0 16v2M4.93 19.07l1.41-1.41m11.32-11.32l1.41-1.41"/><circle cx="12" cy="12" r="3"/></svg>
@@ -439,13 +428,7 @@
           </a>
 
           <a href="#properties" class="category-card">
-            <div class="category-card__image">
-              <picture>
-                <source srcset="/Calm-Rio/assets/images/guide/saint-trojan-forest.avif" type="image/avif">
-                <source srcset="/Calm-Rio/assets/images/guide/saint-trojan-forest.webp" type="image/webp">
-                <img src="/Calm-Rio/assets/images/guide/saint-trojan-forest.jpg" alt="" loading="lazy" decoding="async" width="600" height="400">
-              </picture>
-            </div>
+            <div class="category-card__image category-card__image--forest"></div>
             <div class="category-card__content">
               <div class="category-card__count">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
@@ -457,13 +440,7 @@
           </a>
 
           <a href="#properties" class="category-card">
-            <div class="category-card__image">
-              <picture>
-                <source srcset="/Calm-Rio/assets/images/properties/07bce65e.avif" type="image/avif">
-                <source srcset="/Calm-Rio/assets/images/properties/07bce65e.webp" type="image/webp">
-                <img src="/Calm-Rio/assets/images/properties/07bce65e.jpg" alt="" loading="lazy" decoding="async" width="600" height="400">
-              </picture>
-            </div>
+            <div class="category-card__image category-card__image--workspace"></div>
             <div class="category-card__content">
               <div class="category-card__count">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
@@ -475,13 +452,7 @@
           </a>
 
           <a href="#properties" class="category-card">
-            <div class="category-card__image">
-              <picture>
-                <source srcset="/Calm-Rio/assets/images/guide/fort-boyard.avif" type="image/avif">
-                <source srcset="/Calm-Rio/assets/images/guide/fort-boyard.webp" type="image/webp">
-                 <img src="/Calm-Rio/assets/images/guide/fort-boyard.jpg" alt="" loading="lazy" decoding="async" width="600" height="400">
-               </picture>
-             </div>
+            <div class="category-card__image category-card__image--family"></div>
             <div class="category-card__content">
               <div class="category-card__count">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
@@ -862,13 +833,7 @@
           <button class="btn btn--icon btn--secondary testimonial-prev" aria-label="Témoignage précédent" id="testimonial-prev">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
           </button>
-          <div class="testimonials-dots d-flex gap-2" id="testimonials-dots" aria-label="Indicateur de position">
-            <button class="testimonials-dot is-active rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-primary);cursor:pointer;padding:0;" aria-label="Témoignage 1 sur 5" aria-current="true"></button>
-            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 2 sur 5"></button>
-            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 3 sur 5"></button>
-            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 4 sur 5"></button>
-            <button class="testimonials-dot rounded-full" style="min-width:44px;min-height:44px;border:none;background:var(--color-border);cursor:pointer;padding:0;" aria-label="Témoignage 5 sur 5"></button>
-          </div>
+
           <button class="btn btn--icon btn--secondary testimonial-next" aria-label="Témoignage suivant" id="testimonial-next">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
           </button>
