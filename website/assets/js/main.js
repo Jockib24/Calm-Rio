@@ -25,10 +25,10 @@ import { initAnalytics } from './modules/analytics.js'
 // Each check is a lightweight document.querySelector; imported
 // dynamically to create separate chunks via code-splitting.
 // ------------------------------------------------------------
-function maybeImport(selector, importFn) {
+function maybeImport(selector, importFn, initFnName) {
   if (document.querySelector(selector)) {
     importFn().then(mod => {
-      const fn = Object.values(mod)[0]
+      const fn = mod[initFnName]
       if (typeof fn === 'function') fn()
     }).catch(err => {
       console.warn('[CalmRio] Failed to lazy-load module for "' + selector + '":', err)
@@ -49,36 +49,36 @@ document.addEventListener('DOMContentLoaded', () => {
   initAnalytics()
 
   // ------ LAZY-LOADED: Hero Slider (homepage) ------
-  maybeImport('.hero__slider', () => import('./modules/hero-slider.js'))
-
+  maybeImport('.hero__slider', () => import('./modules/hero-slider.js'), 'initHeroSlider')
+  
   // ------ LAZY-LOADED: Counters (homepage stats) ------
-  maybeImport('[data-counter]', () => import('./modules/counters.js'))
-
+  maybeImport('[data-counter]', () => import('./modules/counters.js'), 'initCounters')
+  
   // ------ LAZY-LOADED: Testimonials slider (homepage) ------
-  maybeImport('#testimonials-slider', () => import('./components/testimonials.js'))
-
+  maybeImport('#testimonials-slider', () => import('./components/testimonials.js'), 'initTestimonials')
+  
   // ------ LAZY-LOADED: Tabs (property detail pages) ------
-  maybeImport('[data-tabs]', () => import('./modules/tabs.js'))
-
+  maybeImport('[data-tabs]', () => import('./modules/tabs.js'), 'initTabs')
+  
   // ------ LAZY-LOADED: Accordion (FAQ page) ------
-  maybeImport('.faq-accordion, [data-accordion]', () => import('./modules/accordion.js'))
-
+  maybeImport('.faq-accordion, [data-accordion]', () => import('./modules/accordion.js'), 'initAccordion')
+  
   // ------ LAZY-LOADED: Gallery + Lightbox (property pages) ------
-  maybeImport('[data-gallery]', () => import('./components/gallery.js'))
-  maybeImport('[data-gallery]', () => import('./modules/gallery-lightbox.js'))
-
+  maybeImport('[data-gallery]', () => import('./components/gallery.js'), 'initGallery')
+  maybeImport('[data-gallery]', () => import('./modules/gallery-lightbox.js'), 'initGalleryLightbox')
+  
   // ------ LAZY-LOADED: Availability Calendar (property pages) ------
-  maybeImport('#availability-calendar', () => import('./modules/availability-calendar.js'))
-
+  maybeImport('#availability-calendar', () => import('./modules/availability-calendar.js'), 'initAvailabilityCalendar')
+  
   // ------ LAZY-LOADED: Booking Systems (property pages) ------
-  maybeImport('#booking-section', () => import('./modules/booking-init.js'))
-
+  maybeImport('#booking-section', () => import('./modules/booking-init.js'), 'initBookingSystems')
+  
   // ------ LAZY-LOADED: Sticky Booking Bar (property pages) ------
-  maybeImport('[data-sticky-bar]', () => import('./modules/sticky-bar.js'))
-
+  maybeImport('[data-sticky-bar]', () => import('./modules/sticky-bar.js'), 'initStickyBar')
+  
   // ------ LAZY-LOADED: Map (property & contact pages) ------
-  maybeImport('[data-map], .property-map', () => import('./modules/map.js'))
-
+  maybeImport('[data-map], .property-map', () => import('./modules/map.js'), 'initMapModule')
+  
   // ------ LAZY-LOADED: Email Forms (any page with forms) ------
-  maybeImport('[data-email-form]', () => import('./modules/email-form-handler.js'))
+  maybeImport('[data-email-form]', () => import('./modules/email-form-handler.js'), 'initEmailForms')
 })

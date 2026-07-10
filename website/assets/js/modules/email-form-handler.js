@@ -15,10 +15,10 @@
 
 import { submitNewsletter, submitContact, submitBooking } from './email.js'
 
-document.addEventListener('DOMContentLoaded', () => {
+export function initEmailForms() {
   const forms = document.querySelectorAll('[data-email-form]')
   forms.forEach(initForm)
-})
+}
 
 function initForm(form) {
   const type = form.dataset.emailForm
