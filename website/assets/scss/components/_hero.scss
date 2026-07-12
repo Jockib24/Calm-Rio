@@ -485,18 +485,56 @@
 // ------------------------------------------------------------
 .hero--home {
   min-height: 100vh;
+  justify-content: flex-start;
+
+  .hero__content {
+    text-align: left;
+    max-width: 640px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .hero__title,
+  .hero__subtitle {
+    margin-left: 0;
+  }
+
+  .hero__cta {
+    justify-content: flex-start;
+  }
+
+  // Slider arrows on the right so they never overlap left-aligned text
+  .hero__slider-btn--prev {
+    left: auto;
+    right: calc(var(--space-8) + 52px);
+  }
+
+  // Dots + trust row aligned left to match the text column
+  .hero__slider-dots {
+    left: var(--container-padding);
+    transform: none;
+    justify-content: flex-start;
+  }
+
+  .hero__trust-row {
+    justify-content: flex-start;
+  }
 
   .hero__overlay {
     background: linear-gradient(
-      180deg,
-      rgba(10, 18, 28, 0.85) 0%,
-      rgba(10, 18, 28, 0.5) 35%,
-      rgba(10, 18, 28, 0.5) 65%,
-      rgba(10, 18, 28, 0.85) 100%
+      90deg,
+      rgba(10, 18, 28, 0.9) 0%,
+      rgba(10, 18, 28, 0.7) 30%,
+      rgba(10, 18, 28, 0.35) 60%,
+      rgba(10, 18, 28, 0.1) 100%
     );
   }
 
   @media (max-width: 768px) {
+    .hero__content {
+      max-width: 100%;
+    }
+
     .hero__title {
       font-size: 1.5rem;
     }
@@ -509,6 +547,27 @@
     .hero__rating-badge {
       font-size: 0.75rem;
       padding: var(--space-1) var(--space-3);
+    }
+
+    // Revert to centered controls + vertical overlay on small screens
+    .hero__slider-dots {
+      left: 50%;
+      transform: translateX(-50%);
+      justify-content: center;
+    }
+
+    .hero__trust-row {
+      justify-content: center;
+    }
+
+    .hero__overlay {
+      background: linear-gradient(
+        180deg,
+        rgba(10, 18, 28, 0.85) 0%,
+        rgba(10, 18, 28, 0.5) 35%,
+        rgba(10, 18, 28, 0.5) 65%,
+        rgba(10, 18, 28, 0.85) 100%
+      );
     }
   }
 }
