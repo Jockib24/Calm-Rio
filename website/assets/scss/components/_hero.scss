@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
+  min-height: 100vh;
   overflow: hidden;
   background-color: var(--color-primary-dark);
 }
@@ -278,6 +278,10 @@
   padding-right: var(--container-padding);
   text-align: center;
   color: var(--color-text-inverse);
+
+  @media (max-width: 768px) {
+    padding-top: var(--space-8);
+  }
 }
 
 // ------------------------------------------------------------
@@ -294,6 +298,10 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+  }
 }
 
 .hero__subtitle {
