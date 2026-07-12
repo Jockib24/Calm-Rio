@@ -274,6 +274,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: var(--header-height);
+  padding-bottom: var(--space-10);
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
   text-align: center;
@@ -281,7 +282,6 @@
 
   @media (max-width: 768px) {
     padding-top: var(--space-8);
-    padding-bottom: var(--space-10);
   }
 }
 
@@ -290,7 +290,7 @@
 // ------------------------------------------------------------
 .hero__title {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-size: clamp(1.75rem, 3.5vw, 3rem);
   font-weight: var(--weight-bold);
   line-height: 1.1;
   color: var(--color-text-inverse);
@@ -307,7 +307,7 @@
 
 .hero__subtitle {
   font-family: var(--font-body);
-  font-size: var(--lead-size);
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
   line-height: var(--lead-line-height);
   color: rgba(255, 255, 255, 0.85);
   max-width: 600px;
