@@ -173,7 +173,7 @@
 
   &:hover:not(:disabled) {
     background: var(--color-accent-light);
-    color: white;
+    color: var(--color-text-on-accent);
     transform: scale(1.05);
   }
 
@@ -234,7 +234,7 @@
 
   &:hover {
     background: var(--color-accent);
-    color: white;
+    color: var(--color-text-on-accent);
   }
 }
 
@@ -246,7 +246,7 @@
 
 .calendar-day--selected {
   background: var(--color-accent);
-  color: white;
+  color: var(--color-text-on-accent);
   font-weight: 700;
 }
 
@@ -257,14 +257,14 @@
 
 .calendar-day--checkin {
   background: var(--color-accent);
-  color: white;
+  color: var(--color-text-on-accent);
   font-weight: 700;
   border-radius: var(--radius-md) 0 0 var(--radius-md);
 }
 
 .calendar-day--checkout {
   background: var(--color-accent);
-  color: white;
+  color: var(--color-text-on-accent);
   font-weight: 700;
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }

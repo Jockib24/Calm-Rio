@@ -107,17 +107,19 @@
 // Accent — filled with accent color
 .btn--accent {
   background-color: var(--color-accent);
-  color: var(--color-text-inverse);
+  color: var(--color-text-on-accent);
   border-color: var(--color-accent);
 
   &:hover {
     background-color: var(--color-accent-light);
     border-color: var(--color-accent-light);
+    color: var(--color-text-on-accent);
   }
 
   &:active {
     background-color: var(--color-accent-dark);
     border-color: var(--color-accent-dark);
+    color: var(--color-text-on-accent);
   }
 }
 
@@ -140,7 +142,7 @@
 // Gold / secondary filled
 .btn--gold {
   background-color: var(--color-secondary);
-  color: var(--color-text);
+  color: var(--color-text-on-accent);
   border-color: var(--color-secondary);
   box-shadow: 0 4px 14px rgba(196, 154, 90, 0.3);
 
@@ -148,11 +150,13 @@
     background-color: var(--color-secondary-light);
     border-color: var(--color-secondary-light);
     box-shadow: 0 6px 20px rgba(196, 154, 90, 0.4);
+    color: var(--color-text-on-accent);
   }
 
   &:active {
     background-color: var(--color-secondary-dark);
     border-color: var(--color-secondary-dark);
+    color: var(--color-text-on-accent);
   }
 }
 

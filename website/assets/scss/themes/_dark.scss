@@ -18,6 +18,8 @@
   --color-text:           #EAE7E0;
   --color-text-secondary: #A8A39C;
   --color-text-muted:     #A09B94;
+  --color-text-on-accent: var(--color-primary-dark);
+  --color-text-on-accent-light: var(--color-tide-700);
 
   // Shadows: deeper, softer in dark mode
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
@@ -146,10 +148,12 @@
 
   .cta-section {
     background-color: var(--color-primary);
+    color: var(--color-text-inverse);
   }
 
   .cta-section--dark {
     background-color: #0D141A;
+    color: var(--color-text-inverse);
   }
 
   .faq-cta {
@@ -248,9 +252,10 @@
     background-color: var(--color-bg-alt);
   }
 
+  .calendar-day--selected,
   .calendar__day--selected {
     background-color: var(--color-accent);
-    color: var(--color-text-inverse);
+    color: var(--color-text-on-accent);
   }
 
   .modal__content {

@@ -108,7 +108,7 @@
 
     &:hover .feature-item__icon {
       background-color: var(--color-accent);
-      color: var(--color-text-inverse);
+      color: var(--color-text-on-accent);
     }
 
     .feature-item__title {
@@ -271,7 +271,7 @@
 // ------------------------------------------------------------
 .cta-section {
   background-color: var(--color-accent);
-  color: var(--color-text-inverse);
+  color: var(--color-text-on-accent);
   padding: var(--space-9) var(--container-padding);
   text-align: center;
 
@@ -287,7 +287,8 @@
   .cta-section__text {
     font-size: var(--lead-size);
     line-height: var(--lead-line-height);
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--color-primary-dark);
+    opacity: 0.75;
     max-width: 600px;
     margin: 0 auto var(--space-6);
   }
@@ -301,10 +302,12 @@
 
   &--primary {
     background-color: var(--color-primary);
+    color: var(--color-text-inverse);
   }
 
   &--dark {
     background-color: var(--color-primary-dark);
+    color: var(--color-text-inverse);
   }
 }
 

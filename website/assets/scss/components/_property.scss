@@ -553,11 +553,11 @@
 // Review avatar with auto-generated colors
 // ------------------------------------------------------------
 .review-card__avatar {
-  &.avatar-accent { background-color: var(--color-accent); color: white; }
-  &.avatar-secondary { background-color: var(--color-secondary); color: var(--color-text); }
+  &.avatar-accent { background-color: var(--color-accent); color: var(--color-text-on-accent); }
+  &.avatar-secondary { background-color: var(--color-secondary); color: var(--color-text-on-accent); }
   &.avatar-primary-light { background-color: var(--color-primary-light); color: white; }
-  &.avatar-secondary-dark { background-color: var(--color-secondary-dark); color: white; }
-  &.avatar-accent-dark { background-color: var(--color-accent-dark); color: white; }
+  &.avatar-secondary-dark { background-color: var(--color-secondary-dark); color: var(--color-text-on-accent); }
+  &.avatar-accent-dark { background-color: var(--color-accent-dark); color: var(--color-text-on-accent); }
   &.avatar-blue { background-color: #3A7CA5; color: white; }
 
   display: flex;
@@ -571,7 +571,8 @@
 // CTA section variations
 // ------------------------------------------------------------
 .cta-subtitle {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--color-primary-dark);
+  opacity: 0.8;
   max-width: 600px;
   margin: 0 auto var(--space-6);
 }
@@ -603,7 +604,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--color-text-on-accent);
   font-size: 2.5rem;
   font-weight: 700;
   font-family: var(--font-heading);
