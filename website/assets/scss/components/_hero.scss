@@ -290,7 +290,7 @@
 // ------------------------------------------------------------
 .hero__title {
   font-family: var(--font-heading);
-  font-size: clamp(1.75rem, 3.5vw, 3rem);
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
   font-weight: var(--weight-bold);
   line-height: 1.1;
   color: var(--color-text-inverse);
@@ -490,7 +490,7 @@
   .hero__content {
     text-align: left;
     max-width: 640px;
-    margin-left: 0;
+    margin-left: 5px;
     margin-right: auto;
   }
 
